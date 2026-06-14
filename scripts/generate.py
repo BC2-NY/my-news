@@ -12,7 +12,7 @@ TODAY = date.today().isoformat()
 ROOT = Path(__file__).parent.parent
 DATA_DIR    = ROOT / "data"
 TMPL_DIR    = ROOT / "templates"
-OUTPUT_DIR  = ROOT / "output"
+OUTPUT_DIR  = ROOT / "docs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
