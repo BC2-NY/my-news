@@ -20,9 +20,10 @@ HEADERS = {"User-Agent": "ITNoise-NewsBot/1.0 (personal aggregator)"}
 HATENA_FEEDS = [
     "https://b.hatena.ne.jp/hotentry/it.rss",
 ]
-HN_TOP_N   = 20   # HN から取得する記事数
+HATENA_TOP_N = 8  # はてブから取得する記事数
+HN_TOP_N   = 8    # HN から取得する記事数
 REDDIT_SUBS = ["programming", "webdev", "MachineLearning", "artificial"]
-REDDIT_TOP_N = 5  # 各サブレから取得する記事数
+REDDIT_TOP_N = 1  # 各サブレから1件ずつ（4サブレ = 4件）
 
 
 # ──────────────────────────────────────────────────────────────────────
@@ -33,7 +34,7 @@ def fetch_hatena() -> list[dict]:
     for url in HATENA_FEEDS:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:20]:
+            for entry in feed.entries[:HATENA_TOP_N]:
                 # はてブカウントを取得（エントリのSummaryから抽出）
                 score = 0
                 summary = getattr(entry, 'summary', '') or ''
