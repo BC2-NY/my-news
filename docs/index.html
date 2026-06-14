@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ITノイズ // 2026-06-14</title>
+  <title>ITノイズ</title>
   <style>
     :root {
       --bg: #0D0D0D;
@@ -14,1820 +14,256 @@
       --text-dim: #3A3A3A;
       --accent-green: #4ADE80;
       --accent-purple: #818CF8;
-      --accent-orange: #FB923C;
       --border: #222222;
       --border-hover: #333333;
-
       --source-hatena: #00A4DE;
       --source-hn: #FF6600;
       --source-reddit: #FF4500;
-
       --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace;
       --font-sans: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: var(--font-sans);
-      font-size: 15px;
-      line-height: 1.7;
-      min-height: 100vh;
+      background: var(--bg); color: var(--text);
+      font-family: var(--font-sans); font-size: 15px; line-height: 1.7; min-height: 100vh;
     }
-
-    /* ── HEADER ── */
     header {
-      border-bottom: 1px solid var(--border);
-      padding: 28px 0 20px;
-      position: sticky;
-      top: 0;
-      background: rgba(13,13,13,0.92);
-      backdrop-filter: blur(8px);
-      z-index: 100;
+      border-bottom: 1px solid var(--border); padding: 28px 0 20px;
+      position: sticky; top: 0; background: rgba(13,13,13,0.92);
+      backdrop-filter: blur(8px); z-index: 100;
     }
     .header-inner {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 24px;
-      display: flex;
-      align-items: baseline;
-      gap: 20px;
+      max-width: 860px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap;
     }
     .site-name {
-      font-family: var(--font-mono);
-      font-size: 22px;
-      font-weight: 700;
-      color: var(--text);
-      letter-spacing: -0.5px;
+      font-family: var(--font-mono); font-size: 22px; font-weight: 700;
+      color: var(--text); letter-spacing: -0.5px;
     }
     .site-name span { color: var(--accent-green); }
-    .header-meta {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      color: var(--text-muted);
+    .date-nav { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+    .date-arrow {
+      font-family: var(--font-mono); font-size: 16px; line-height: 1;
+      width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;
+      border: 1px solid var(--border); border-radius: 5px; background: transparent;
+      color: var(--text-muted); cursor: pointer; transition: all 0.15s;
     }
-    .header-right {
-      margin-left: auto;
-      display: flex;
-      gap: 12px;
-      align-items: center;
+    .date-arrow:hover:not(:disabled) { border-color: var(--accent-green); color: var(--accent-green); }
+    .date-arrow:disabled { opacity: 0.3; cursor: not-allowed; }
+    #dateSelect {
+      font-family: var(--font-mono); font-size: 13px; padding: 6px 12px;
+      background: var(--bg-card); color: var(--text);
+      border: 1px solid var(--border); border-radius: 5px; cursor: pointer;
+      appearance: none; text-align: center; min-width: 150px;
+    }
+    #dateSelect:hover { border-color: var(--border-hover); }
+    .today-badge {
+      font-family: var(--font-mono); font-size: 9px; color: var(--accent-green);
+      border: 1px solid var(--accent-green); border-radius: 3px;
+      padding: 2px 6px; letter-spacing: 0.05em;
+    }
+    .filter-row {
+      max-width: 860px; margin: 0 auto; padding: 14px 24px 0; display: flex; gap: 8px;
     }
     .filter-btn {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      padding: 4px 10px;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      background: transparent;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.15s;
+      font-family: var(--font-mono); font-size: 11px; padding: 4px 10px;
+      border: 1px solid var(--border); border-radius: 4px; background: transparent;
+      color: var(--text-muted); cursor: pointer; transition: all 0.15s;
     }
-    .filter-btn:hover, .filter-btn.active {
-      border-color: var(--accent-green);
-      color: var(--accent-green);
-    }
+    .filter-btn:hover, .filter-btn.active { border-color: var(--accent-green); color: var(--accent-green); }
     .filter-btn[data-source="hatena"].active { border-color: var(--source-hatena); color: var(--source-hatena); }
     .filter-btn[data-source="hackernews"].active { border-color: var(--source-hn); color: var(--source-hn); }
     .filter-btn[data-source="reddit"].active { border-color: var(--source-reddit); color: var(--source-reddit); }
-
-    /* ── MAIN ── */
-    main {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 32px 24px 80px;
-    }
-
-    /* ── STATS BAR ── */
+    main { max-width: 860px; margin: 0 auto; padding: 24px 24px 80px; }
     .stats-bar {
-      display: flex;
-      gap: 28px;
-      margin-bottom: 32px;
-      padding-bottom: 20px;
+      display: flex; gap: 28px; margin-bottom: 28px; padding-bottom: 20px;
       border-bottom: 1px solid var(--border);
     }
-    .stat {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
+    .stat { display: flex; flex-direction: column; gap: 2px; }
     .stat-value {
-      font-family: var(--font-mono);
-      font-size: 24px;
-      font-weight: 700;
-      color: var(--accent-green);
-      line-height: 1;
+      font-family: var(--font-mono); font-size: 24px; font-weight: 700;
+      color: var(--accent-green); line-height: 1;
     }
     .stat-label {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+      font-family: var(--font-mono); font-size: 10px; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: 0.08em;
     }
-
-    /* ── ARTICLE CARDS ── */
     .articles { display: flex; flex-direction: column; gap: 2px; }
-
     .card {
-      display: grid;
-      grid-template-columns: 4px 1fr;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      overflow: hidden;
-      transition: border-color 0.15s, background 0.15s;
-      cursor: pointer;
+      display: grid; grid-template-columns: 4px 1fr;
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 6px; overflow: hidden;
+      transition: border-color 0.15s, background 0.15s; cursor: pointer;
     }
-    .card:hover {
-      background: var(--bg-card-hover);
-      border-color: var(--border-hover);
-    }
-
+    .card:hover { background: var(--bg-card-hover); border-color: var(--border-hover); }
     .card-stripe { flex-shrink: 0; }
     .card[data-source="hatena"] .card-stripe { background: var(--source-hatena); }
     .card[data-source="hackernews"] .card-stripe { background: var(--source-hn); }
     .card[data-source="reddit"] .card-stripe { background: var(--source-reddit); }
-
     .card-body { padding: 16px 20px; }
-
-    .card-meta {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 8px;
-    }
+    .card-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
     .source-badge {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      font-weight: 600;
-      padding: 2px 7px;
-      border-radius: 3px;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
+      font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+      padding: 2px 7px; border-radius: 3px; letter-spacing: 0.05em; text-transform: uppercase;
     }
-    .card[data-source="hatena"] .source-badge {
-      background: rgba(0,164,222,0.15);
-      color: var(--source-hatena);
-    }
-    .card[data-source="hackernews"] .source-badge {
-      background: rgba(255,102,0,0.15);
-      color: var(--source-hn);
-    }
-    .card[data-source="reddit"] .source-badge {
-      background: rgba(255,69,0,0.15);
-      color: var(--source-reddit);
-    }
-
-    .score-bar {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      flex: 1;
-    }
+    .card[data-source="hatena"] .source-badge { background: rgba(0,164,222,0.15); color: var(--source-hatena); }
+    .card[data-source="hackernews"] .source-badge { background: rgba(255,102,0,0.15); color: var(--source-hn); }
+    .card[data-source="reddit"] .source-badge { background: rgba(255,69,0,0.15); color: var(--source-reddit); }
+    .score-bar { display: flex; align-items: center; gap: 6px; flex: 1; }
     .score-track {
-      height: 3px;
-      background: var(--border);
-      border-radius: 2px;
-      flex: 1;
-      max-width: 120px;
-      overflow: hidden;
+      height: 3px; background: var(--border); border-radius: 2px;
+      flex: 1; max-width: 120px; overflow: hidden;
     }
-    .score-fill {
-      height: 100%;
-      border-radius: 2px;
-      background: var(--accent-green);
-      opacity: 0.6;
-      transition: width 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
+    .score-fill { height: 100%; border-radius: 2px; background: var(--accent-green); opacity: 0.6; }
     .card[data-source="hatena"] .score-fill { background: var(--source-hatena); }
     .card[data-source="hackernews"] .score-fill { background: var(--source-hn); }
     .card[data-source="reddit"] .score-fill { background: var(--source-reddit); }
-
-    .score-num {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      color: var(--text-muted);
-      min-width: 36px;
-    }
-    .comment-count {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      color: var(--text-muted);
-    }
-
+    .score-num { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); min-width: 36px; }
+    .comment-count { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
     .card-title {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--text);
-      line-height: 1.45;
-      margin-bottom: 10px;
-      text-decoration: none;
-      display: block;
+      font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.45;
+      margin-bottom: 10px; text-decoration: none; display: block;
     }
     .card-title:hover { color: var(--accent-green); }
-
     .ai-summary {
-      font-size: 13px;
-      color: #9CA3AF;
-      line-height: 1.65;
-      padding: 10px 12px;
-      background: rgba(129,140,248,0.05);
-      border-left: 2px solid rgba(129,140,248,0.35);
-      border-radius: 0 4px 4px 0;
-      margin-bottom: 12px;
+      font-size: 13px; color: #9CA3AF; line-height: 1.65; padding: 10px 12px;
+      background: rgba(129,140,248,0.05); border-left: 2px solid rgba(129,140,248,0.35);
+      border-radius: 0 4px 4px 0; margin-bottom: 12px;
     }
     .ai-label {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-family: var(--font-mono);
-      font-size: 9px;
-      color: var(--accent-purple);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 6px;
+      display: inline-flex; align-items: center; gap: 4px; font-family: var(--font-mono);
+      font-size: 9px; color: var(--accent-purple); letter-spacing: 0.08em;
+      text-transform: uppercase; margin-bottom: 6px;
     }
-    .ai-dot {
-      width: 5px; height: 5px;
-      background: var(--accent-purple);
-      border-radius: 50%;
-      animation: pulse 2s ease-in-out infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
-    }
-
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
+    .ai-dot { width: 5px; height: 5px; background: var(--accent-purple); border-radius: 50%; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
     .tag {
-      font-family: var(--font-mono);
-      font-size: 10px;
-      color: var(--text-dim);
-      border: 1px solid var(--text-dim);
-      border-radius: 3px;
-      padding: 1px 7px;
-      letter-spacing: 0.03em;
+      font-family: var(--font-mono); font-size: 10px; color: var(--text-dim);
+      border: 1px solid var(--text-dim); border-radius: 3px; padding: 1px 7px;
     }
-
-    /* ── FOOTER ── */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 24px;
-      text-align: center;
-    }
-    .footer-text {
-      font-family: var(--font-mono);
-      font-size: 11px;
-      color: var(--text-dim);
-    }
+    footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; }
+    .footer-text { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); }
     .footer-text span { color: var(--accent-green); }
-
-    /* ── EMPTY STATE ── */
     .empty {
-      display: none;
-      text-align: center;
-      padding: 60px 0;
-      font-family: var(--font-mono);
-      color: var(--text-muted);
-      font-size: 13px;
+      display: none; text-align: center; padding: 60px 0;
+      font-family: var(--font-mono); color: var(--text-muted); font-size: 13px;
     }
-
     @media (max-width: 600px) {
       .stats-bar { gap: 16px; }
       .stat-value { font-size: 18px; }
-      .header-right { display: none; }
+      .date-nav { margin-left: 0; width: 100%; margin-top: 8px; }
+      #dateSelect { flex: 1; }
     }
   </style>
 </head>
 <body>
-
 <header>
   <div class="header-inner">
     <div class="site-name">IT<span>//</span>ノイズ</div>
-    <div class="header-meta">2026-06-14 &nbsp;·&nbsp; 45 件</div>
-    <div class="header-right">
-      <button class="filter-btn active" data-source="all" onclick="filterSource('all')">ALL</button>
-      <button class="filter-btn" data-source="hatena" onclick="filterSource('hatena')">はてな</button>
-      <button class="filter-btn" data-source="hackernews" onclick="filterSource('hackernews')">HN</button>
-      <button class="filter-btn" data-source="reddit" onclick="filterSource('reddit')">Reddit</button>
+    <div class="date-nav">
+      <button class="date-arrow" id="prevDate" aria-label="前の日">&lsaquo;</button>
+      <select id="dateSelect"></select>
+      <button class="date-arrow" id="nextDate" aria-label="次の日">&rsaquo;</button>
+      <span class="today-badge" id="todayBadge">最新</span>
     </div>
+  </div>
+  <div class="filter-row">
+    <button class="filter-btn active" data-source="all">ALL</button>
+    <button class="filter-btn" data-source="hatena">はてな</button>
+    <button class="filter-btn" data-source="hackernews">HN</button>
+    <button class="filter-btn" data-source="reddit">Reddit</button>
   </div>
 </header>
-
 <main>
-  <div class="stats-bar">
-    <div class="stat">
-      <div class="stat-value">45</div>
-      <div class="stat-label">articles</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value">20</div>
-      <div class="stat-label">はてな</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value">20</div>
-      <div class="stat-label">HN</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value">5</div>
-      <div class="stat-label">Reddit</div>
-    </div>
-  </div>
-
-  <div class="articles" id="articleList">
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://desfontain.es/blog/banning-noise.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 13.566666666666666%"></div>
-            </div>
-            <span class="score-num">▲ 814</span>
-          </div>
-          <span class="comment-count">💬 508</span>
-        </div>
-
-        <a class="card-title" href="https://desfontain.es/blog/banning-noise.html" onclick="event.stopPropagation()">
-          Noise infusion banned from statistical products published by Census Bureau
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          米国国勢調査局は、統計製品におけるノイズ注入を禁止しました。これは、差分プライバシー技術の一種であり、個人を特定できる情報を保護するためにデータにランダムなノイズを加える手法です。この変更により、統計データの精度が向上し、より信頼性の高い分析が可能になります。特に、機密性の高い人口統計データや経済指標の公開において、プライバシー保護とデータ有用性のバランスを再定義する重要な一歩となります。
-        </div>
-
-        <div class="tags">
-          
-          <span class="tag">差分プライバシー</span>
-          
-          <span class="tag">ノイズ注入</span>
-          
-          <span class="tag">米国国勢調査局</span>
-          
-          <span class="tag">データプライバシー</span>
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://tonsky.me/blog/every-frame-perfect/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 11.45%"></div>
-            </div>
-            <span class="score-num">▲ 687</span>
-          </div>
-          <span class="comment-count">💬 226</span>
-        </div>
-
-        <a class="card-title" href="https://tonsky.me/blog/every-frame-perfect/" onclick="event.stopPropagation()">
-          Every Frame Perfect
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://twitter.com/jietang/status/2065784751345287314')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 9.2%"></div>
-            </div>
-            <span class="score-num">▲ 552</span>
-          </div>
-          <span class="comment-count">💬 295</span>
-        </div>
-
-        <a class="card-title" href="https://twitter.com/jietang/status/2065784751345287314" onclick="event.stopPropagation()">
-          GLM 5.2 Is Out
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://qiita.com/ktdatascience/items/3c8949b62ce1dfe7a024')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 8.533333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 512</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://qiita.com/ktdatascience/items/3c8949b62ce1dfe7a024" onclick="event.stopPropagation()">
-          Claude Codeに人生を管理させて3ヶ月、一番効いたのは自動化じゃなかった - Qiita
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 5.9%"></div>
-            </div>
-            <span class="score-num">▲ 354</span>
-          </div>
-          <span class="comment-count">💬 127</span>
-        </div>
-
-        <a class="card-title" href="https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch" onclick="event.stopPropagation()">
-          Treating pancreatic tumours may have revealed cancer's master switch
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://cybozushiki.cybozu.co.jp/articles/m006330.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 5.066666666666666%"></div>
-            </div>
-            <span class="score-num">▲ 304</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://cybozushiki.cybozu.co.jp/articles/m006330.html" onclick="event.stopPropagation()">
-          1on1、雑談タイム──これらが失敗に終わるのはなぜか | サイボウズ式
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://juniperspring.org/posts/honda-evil-valet/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 4.25%"></div>
-            </div>
-            <span class="score-num">▲ 255</span>
-          </div>
-          <span class="comment-count">💬 43</span>
-        </div>
-
-        <a class="card-title" href="https://juniperspring.org/posts/honda-evil-valet/" onclick="event.stopPropagation()">
-          Honda Civics and the Evil Valet
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://openai.com/form/codex-for-oss/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 3.75%"></div>
-            </div>
-            <span class="score-num">▲ 225</span>
-          </div>
-          <span class="comment-count">💬 87</span>
-        </div>
-
-        <a class="card-title" href="https://openai.com/form/codex-for-oss/" onclick="event.stopPropagation()">
-          Codex for open source
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://anond.hatelabo.jp/20260614112126')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 3.4%"></div>
-            </div>
-            <span class="score-num">▲ 204</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://anond.hatelabo.jp/20260614112126" onclick="event.stopPropagation()">
-          はてなブックマークは「Togetterブックマーク」に名前を変えるべき
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://zenn.dev/nextbeat/articles/2026-06-cs-edu-site-fable5')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 2.9833333333333334%"></div>
-            </div>
-            <span class="score-num">▲ 179</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://zenn.dev/nextbeat/articles/2026-06-cs-edu-site-fable5" onclick="event.stopPropagation()">
-          Claude Fable 5に作ってもらった日本語プログラミング入門教材「言語の庭」が凄い
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://www.gizmodo.jp/article/rice-factory-jrt/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 2.4833333333333334%"></div>
-            </div>
-            <span class="score-num">▲ 149</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.gizmodo.jp/article/rice-factory-jrt/" onclick="event.stopPropagation()">
-          田んぼ不要で年6回も収穫。ミニ＆スピーディなお米で稲作の歴史は変わるのか？ | ギズモード・ジャパン
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://togetter.com/li/2708806')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 2.433333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 146</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://togetter.com/li/2708806" onclick="event.stopPropagation()">
-          デバッガーがプログラマーにバグ報告をするとき伝え方で反応が全く変わることがあったが何がダメだったんだ？「言っていることは同じ？」「このケースだと明らかに違う」
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://dev.classmethod.jp/articles/obsidian-web-clipper-url-tags/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 2.1166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 127</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://dev.classmethod.jp/articles/obsidian-web-clipper-url-tags/" onclick="event.stopPropagation()">
-          Obsidian Web Clipperで保存するときにURLごとにタグを自動で付ける | DevelopersIO
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://blog.pyodide.org/posts/314-release/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 2.0166666666666666%"></div>
-            </div>
-            <span class="score-num">▲ 121</span>
-          </div>
-          <span class="comment-count">💬 29</span>
-        </div>
-
-        <a class="card-title" href="https://blog.pyodide.org/posts/314-release/" onclick="event.stopPropagation()">
-          Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://kame404.com/posts/diy-nfc-led-coil/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 1.7666666666666666%"></div>
-            </div>
-            <span class="score-num">▲ 106</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://kame404.com/posts/diy-nfc-led-coil/" onclick="event.stopPropagation()">
-          スマホにかざすと光るNFC LEDコイルを自作する | kame404 blog
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://www.nikkei.com/article/DGXZQOGN091C60Z00C26A6000000/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 1.6333333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 98</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.nikkei.com/article/DGXZQOGN091C60Z00C26A6000000/" onclick="event.stopPropagation()">
-          NVIDIAのCEO、日本を素通り　歴訪の韓国・台湾に劣るパートナーの魅力 - 日本経済新聞
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://sqltoerdiagram.com/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 1.4166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 85</span>
-          </div>
-          <span class="comment-count">💬 17</span>
-        </div>
-
-        <a class="card-title" href="https://sqltoerdiagram.com/" onclick="event.stopPropagation()">
-          Free SQL→ER diagram tool, runs in the browser, nothing uploaded
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://github.com/kekcleader/FreeOberon')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 1.3333333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 80</span>
-          </div>
-          <span class="comment-count">💬 29</span>
-        </div>
-
-        <a class="card-title" href="https://github.com/kekcleader/FreeOberon" onclick="event.stopPropagation()">
-          FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://phoenixframework.org/blog/phoenix-liveview-1-2-released')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 1.3166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 79</span>
-          </div>
-          <span class="comment-count">💬 12</span>
-        </div>
-
-        <a class="card-title" href="https://phoenixframework.org/blog/phoenix-liveview-1-2-released" onclick="event.stopPropagation()">
-          Phoenix LiveView 1.2 Released
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 1.3166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 79</span>
-          </div>
-          <span class="comment-count">💬 36</span>
-        </div>
-
-        <a class="card-title" href="https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost" onclick="event.stopPropagation()">
-          Pac-Man, but you're the ghost
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.9833333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 59</span>
-          </div>
-          <span class="comment-count">💬 43</span>
-        </div>
-
-        <a class="card-title" href="https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows" onclick="event.stopPropagation()">
-          Don't trust large context windows
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://www.itmedia.co.jp/mobile/articles/2606/13/news022.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.9333333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 56</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.itmedia.co.jp/mobile/articles/2606/13/news022.html" onclick="event.stopPropagation()">
-          シャープが「AQUOS」を中高価格帯へシフトする理由　メモリ高騰が直撃するエントリースマホの限界
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://theconsensus.dev/p/2026/06/06/python-3-14-garbage-collection-rigamarole.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.8166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 49</span>
-          </div>
-          <span class="comment-count">💬 29</span>
-        </div>
-
-        <a class="card-title" href="https://theconsensus.dev/p/2026/06/06/python-3-14-garbage-collection-rigamarole.html" onclick="event.stopPropagation()">
-          Python 3.14 garbage collection rigamarole
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://www.afpbb.com/articles/-/3639482')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.6833333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 41</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.afpbb.com/articles/-/3639482" onclick="event.stopPropagation()">
-          サッカーW杯の優勝予測、時代は「予言タコ」から「生成AI」に
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://kmizu.github.io/cs-edu-site/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.65%"></div>
-            </div>
-            <span class="score-num">▲ 39</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://kmizu.github.io/cs-edu-site/" onclick="event.stopPropagation()">
-          言語の庭 — ことばを育てて、言語をつくる
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://ataraxy-labs.github.io/weave/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.6166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 37</span>
-          </div>
-          <span class="comment-count">💬 20</span>
-        </div>
-
-        <a class="card-title" href="https://ataraxy-labs.github.io/weave/" onclick="event.stopPropagation()">
-          Weave: Merging based on language structure and not lines
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://www.anthropic.com/research/making-claude-a-chemist')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.6%"></div>
-            </div>
-            <span class="score-num">▲ 36</span>
-          </div>
-          <span class="comment-count">💬 24</span>
-        </div>
-
-        <a class="card-title" href="https://www.anthropic.com/research/making-claude-a-chemist" onclick="event.stopPropagation()">
-          Making Claude a Chemist
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('http://tribblix.org/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.5166666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 31</span>
-          </div>
-          <span class="comment-count">💬 7</span>
-        </div>
-
-        <a class="card-title" href="http://tribblix.org/" onclick="event.stopPropagation()">
-          Tribblix: The retro Illumos distribution
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://dxmagazine.jp/news/ykmt26/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.48333333333333334%"></div>
-            </div>
-            <span class="score-num">▲ 29</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://dxmagazine.jp/news/ykmt26/" onclick="event.stopPropagation()">
-          AIはもうクラウド不要？Googleが公開したローカルAIモデル『Gemma 4 12B』の衝撃 | DXマガジン
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://news.ucr.edu/articles/2026/06/10/consciousness-likely-not-unique-earthlings-paper-says')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.48333333333333334%"></div>
-            </div>
-            <span class="score-num">▲ 29</span>
-          </div>
-          <span class="comment-count">💬 30</span>
-        </div>
-
-        <a class="card-title" href="https://news.ucr.edu/articles/2026/06/10/consciousness-likely-not-unique-earthlings-paper-says" onclick="event.stopPropagation()">
-          Consciousness likely not unique to earthlings, paper says
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.4666666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 28</span>
-          </div>
-          <span class="comment-count">💬 1</span>
-        </div>
-
-        <a class="card-title" href="http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html" onclick="event.stopPropagation()">
-          Building a serial and VGA "everything console"
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://togetter.com/li/2709159')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.31666666666666665%"></div>
-            </div>
-            <span class="score-num">▲ 19</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://togetter.com/li/2709159" onclick="event.stopPropagation()">
-          「とうとうChatGPTがBANされてしまった」3年間の歴史が一通のメールで全て消えたというポスト主…同情の声が集まるが、その理由を知って納得「当たり前すぎる」
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://www.businessinsider.jp/article/2606-freee-beyond-the-death-of-saas/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.2833333333333333%"></div>
-            </div>
-            <span class="score-num">▲ 17</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.businessinsider.jp/article/2606-freee-beyond-the-death-of-saas/" onclick="event.stopPropagation()">
-          「SaaSの死」に会計ソフトfreeeが逆張りして見えた、AIエージェント時代の「正解」【Code with Claude 2026】 | Business Insider Japan
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://www.asahi.com/articles/ASV6D2RYSV6DULZU008M.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.23333333333333334%"></div>
-            </div>
-            <span class="score-num">▲ 14</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.asahi.com/articles/ASV6D2RYSV6DULZU008M.html" onclick="event.stopPropagation()">
-          AI開発なら本人同意なく提供　個人情報保護法改正案の問題点とは？：朝日新聞
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://note.com/rshimada/n/n776da2f06fc8')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.21666666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 13</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://note.com/rshimada/n/n776da2f06fc8" onclick="event.stopPropagation()">
-          「幕末」の数学者たち: AIと数学｜R. Shimada
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://inventingthefuture.ghost.io/laserwriter-seeds/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.21666666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 13</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://inventingthefuture.ghost.io/laserwriter-seeds/" onclick="event.stopPropagation()">
-          LaserWriter seeds
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://github.com/Paca-AI/paca')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.18333333333333332%"></div>
-            </div>
-            <span class="score-num">▲ 11</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://github.com/Paca-AI/paca" onclick="event.stopPropagation()">
-          GitHub - Paca-AI/paca: AI-native, free, open-source alternative to Jira, Trello, ClickUp & Monday. Built for Scrum teams where humans and AI agents collaborate as equals — on the same board, the same sprints, the same goals. Self-hosted. Fully customizabl
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.16666666666666666%"></div>
-            </div>
-            <span class="score-num">▲ 10</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/" onclick="event.stopPropagation()">
-          Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it | TechCrunch
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hackernews" onclick="openLink('https://replicated.wiki/blog/uris.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            HN
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.15%"></div>
-            </div>
-            <span class="score-num">▲ 9</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://replicated.wiki/blog/uris.html" onclick="event.stopPropagation()">
-          Beagle: Git, URIs and all the dirty words
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="hatena" onclick="openLink('https://pc.watch.impress.co.jp/docs/news/2116962.html')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            はてな
-            
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.06666666666666667%"></div>
-            </div>
-            <span class="score-num">▲ 4</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://pc.watch.impress.co.jp/docs/news/2116962.html" onclick="event.stopPropagation()">
-          100万トークン対応コーディングLLM「GLM-5.2」公開、来週オープンソース化
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="reddit" onclick="openLink('https://www.reddit.com/r/programming/comments/1u4ra8f/signals_the_pushpull_based_algorithm/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            Reddit
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.0%"></div>
-            </div>
-            <span class="score-num">▲ 0</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.reddit.com/r/programming/comments/1u4ra8f/signals_the_pushpull_based_algorithm/" onclick="event.stopPropagation()">
-          Signals, the push-pull based algorithm
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-          <span class="tag">programming</span>
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="reddit" onclick="openLink('https://www.reddit.com/r/programming/comments/1u4nf9j/analysis_of_how_code_duplication_changed_in/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            Reddit
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.0%"></div>
-            </div>
-            <span class="score-num">▲ 0</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.reddit.com/r/programming/comments/1u4nf9j/analysis_of_how_code_duplication_changed_in/" onclick="event.stopPropagation()">
-          Analysis of how code duplication changed in recent years (no clear trend)
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-          <span class="tag">programming</span>
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="reddit" onclick="openLink('https://www.reddit.com/r/programming/comments/1u4tbow/system_and_game_performance_monitoring_with_python/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            Reddit
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.0%"></div>
-            </div>
-            <span class="score-num">▲ 0</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.reddit.com/r/programming/comments/1u4tbow/system_and_game_performance_monitoring_with_python/" onclick="event.stopPropagation()">
-          System and game performance monitoring with Python
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-          <span class="tag">programming</span>
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="reddit" onclick="openLink('https://www.reddit.com/r/programming/comments/1u5db0u/how_a_tcp_load_balancer_works_under_the_hood/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            Reddit
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.0%"></div>
-            </div>
-            <span class="score-num">▲ 0</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.reddit.com/r/programming/comments/1u5db0u/how_a_tcp_load_balancer_works_under_the_hood/" onclick="event.stopPropagation()">
-          How a TCP Load Balancer works under the hood.
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-          <span class="tag">programming</span>
-          
-        </div>
-      </div>
-    </article>
-    
-    <article class="card" data-source="reddit" onclick="openLink('https://www.reddit.com/r/programming/comments/1u4swvc/how_does_dynamodb_figure_out_which_keys_are_out/')">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="source-badge">
-            Reddit
-          </span>
-          <div class="score-bar">
-            <div class="score-track">
-              <div class="score-fill" style="width: 0.0%"></div>
-            </div>
-            <span class="score-num">▲ 0</span>
-          </div>
-          <span class="comment-count">💬 0</span>
-        </div>
-
-        <a class="card-title" href="https://www.reddit.com/r/programming/comments/1u4swvc/how_does_dynamodb_figure_out_which_keys_are_out/" onclick="event.stopPropagation()">
-          How does DynamoDB figure out which keys are out of sync across replicas ?
-        </a>
-
-        <div class="ai-summary">
-          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
-          
-        </div>
-
-        <div class="tags">
-          
-          <span class="tag">programming</span>
-          
-        </div>
-      </div>
-    </article>
-    
-  </div>
-
+  <div class="stats-bar" id="statsBar"></div>
+  <div class="articles" id="articleList"></div>
   <div class="empty" id="emptyState">該当する記事がありません</div>
 </main>
-
 <footer>
   <div class="footer-text">
-    generated at 2026-06-14T17:44:41.321740+09:00 &nbsp;·&nbsp;
-    summarized by <span>Claude API</span> &nbsp;·&nbsp;
-    source: はてブ / HN / Reddit
+    summarized by <span>Gemini</span> &nbsp;&middot;&nbsp; source: はてブ / HN / Reddit
+    &nbsp;&middot;&nbsp; <span id="footerDate"></span>
   </div>
 </footer>
-
+<script id="newsData" type="application/json">{"2026-06-14": {"date": "2026-06-14", "generated_at": "2026-06-14T17:44:41.321740+09:00", "articles": [{"id": "hn_48517377", "source": "hackernews", "title": "Noise infusion banned from statistical products published by Census Bureau", "url": "https://desfontain.es/blog/banning-noise.html", "score": 814, "comments": 508, "raw_description": "", "tags": ["差分プライバシー", "ノイズ注入", "米国国勢調査局", "データプライバシー"], "fetched_at": "2026-06-14T17:44:33.816051+09:00", "summary": "米国国勢調査局は、統計製品におけるノイズ注入を禁止しました。これは、差分プライバシー技術の一種であり、個人を特定できる情報を保護するためにデータにランダムなノイズを加える手法です。この変更により、統計データの精度が向上し、より信頼性の高い分析が可能になります。特に、機密性の高い人口統計データや経済指標の公開において、プライバシー保護とデータ有用性のバランスを再定義する重要な一歩となります。"}, {"id": "hn_48516251", "source": "hackernews", "title": "Every Frame Perfect", "url": "https://tonsky.me/blog/every-frame-perfect/", "score": 687, "comments": 226, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:35.203625+09:00", "summary": ""}, {"id": "hn_48518684", "source": "hackernews", "title": "GLM 5.2 Is Out", "url": "https://twitter.com/jietang/status/2065784751345287314", "score": 552, "comments": 295, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:33.372175+09:00", "summary": ""}, {"id": "hatena_58610", "source": "hatena", "title": "Claude Codeに人生を管理させて3ヶ月、一番効いたのは自動化じゃなかった - Qiita", "url": "https://qiita.com/ktdatascience/items/3c8949b62ce1dfe7a024", "score": 512, "comments": 0, "raw_description": "*この記事のまとめ Claude Code × GitHubで「自分の取扱説明書」を作り、AIに丸ごと渡す運用を3ヶ月続けた スキルやMCPで自動化もした。でも一番効いたのは、自動化ではなく「自分を言語化する強制力」だった メモアプリ1つで始められる。エンジニアでなくてもOK 対象読者 AIへの相談がなんとなく浅い、と感じている人 ...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48517199", "source": "hackernews", "title": "Treating pancreatic tumours may have revealed cancer's master switch", "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch", "score": 354, "comments": 127, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:37.515637+09:00", "summary": ""}, {"id": "hatena_65754", "source": "hatena", "title": "1on1、雑談タイム──これらが失敗に終わるのはなぜか | サイボウズ式", "url": "https://cybozushiki.cybozu.co.jp/articles/m006330.html", "score": 304, "comments": 0, "raw_description": "話題の人気ブログ「おい、」シリーズの著者で、ソフトウェアエンジニアのnwiizoさんによる新連載「生産性を取り戻せ」。この連載では「仕事の生産性」をあらゆる角度からとらえ、チームで生産性を高めていくためのヒントを探っていきます。 第4回は「組織において“善意”が毒になるとき」について考えます。 はじめに あ...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48523080", "source": "hackernews", "title": "Honda Civics and the Evil Valet", "url": "https://juniperspring.org/posts/honda-evil-valet/", "score": 255, "comments": 43, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:32.004957+09:00", "summary": ""}, {"id": "hn_48497195", "source": "hackernews", "title": "Codex for open source", "url": "https://openai.com/form/codex-for-oss/", "score": 225, "comments": 87, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:40.253257+09:00", "summary": ""}, {"id": "hatena_28041", "source": "hatena", "title": "はてなブックマークは「Togetterブックマーク」に名前を変えるべき", "url": "https://anond.hatelabo.jp/20260614112126", "score": 204, "comments": 0, "raw_description": "はてブ見てたら、Togetterばっかりでびっくりする。 初めて見た人は、Togetterがはてなブックマークの関連サイトかと思うだろう。 それくらいTogetter率が高い。 いっそのこと、Togetterブックマークという名前にしてはどうか。 それなら実情に合ってるし、納得できると思う。", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_48869", "source": "hatena", "title": "Claude Fable 5に作ってもらった日本語プログラミング入門教材「言語の庭」が凄い", "url": "https://zenn.dev/nextbeat/articles/2026-06-cs-edu-site-fable5", "score": 179, "comments": 0, "raw_description": "はじめに こんにちは！株式会社ネクストビートでテクノロジー・エバンジェリストなる肩書きでお仕事をしている水島です。大学院の頃はPEG（Parsing Expression Grammar）の研究をしていて、構文解析やプログラミング言語処理系が専門です。 先日、Anthropicの新モデルClaude Fable 5にほぼ丸投げで「プログラミング教育...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_84379", "source": "hatena", "title": "田んぼ不要で年6回も収穫。ミニ＆スピーディなお米で稲作の歴史は変わるのか？ | ギズモード・ジャパン", "url": "https://www.gizmodo.jp/article/rice-factory-jrt/", "score": 149, "comments": 0, "raw_description": "そんな中、ちょっと興味深いニュースを見つけました。 Image: 株式会社あゆち株式会社あゆちはお米を室内で栽培・収穫する水耕栽培技術を開発。新品種『みずのゆめ稲』を使った実証が成功したと発表。 つまり、野菜プラントみたいな感じで、お米もプラント生産というわけですね。室内環境での無農薬育成で、天候や虫害に...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_64364", "source": "hatena", "title": "デバッガーがプログラマーにバグ報告をするとき伝え方で反応が全く変わることがあったが何がダメだったんだ？「言っていることは同じ？」「このケースだと明らかに違う」", "url": "https://togetter.com/li/2708806", "score": 146, "comments": 0, "raw_description": "清遊あみ/NetGamers @NetGamers デバッガーだった頃の話。 バグを見つけた！報告しなきゃ。 A.◯◯で◻︎◻︎すると再現率100%で△△が発生します。ご確認をお願いします。 →なんか知らんがプログラマさん機嫌悪くなる。 B.◯◯で◻︎◻︎すると再現率100%で△△が発生します。こちらは仕様にない挙動かと存じますが問題ございませんでしょう...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_57800", "source": "hatena", "title": "Obsidian Web Clipperで保存するときにURLごとにタグを自動で付ける | DevelopersIO", "url": "https://dev.classmethod.jp/articles/obsidian-web-clipper-url-tags/", "score": 127, "comments": 0, "raw_description": "どうも！オペ部の西村祐二です！ Obsidian Web ClipperでWebページを保存するとき、あとから探しやすいようにタグを付けています。 たとえば、YouTubeのページなら YouTube、GitHubのリポジトリなら GitHub、Zennの記事なら Zenn のように、クリップ元に応じてタグを自動で切り替えたいケースがあります。 以前は、こう...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48462759", "source": "hackernews", "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI", "url": "https://blog.pyodide.org/posts/314-release/", "score": 121, "comments": 29, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:38.424839+09:00", "summary": ""}, {"id": "hatena_76767", "source": "hatena", "title": "スマホにかざすと光るNFC LEDコイルを自作する | kame404 blog", "url": "https://kame404.com/posts/diy-nfc-led-coil/", "score": 106, "comments": 0, "raw_description": "kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 kame404 2026年6月13日 スマートフォンにかざすと、バッテリーなしでピカピカと光る不思議なNFC LEDがあります。ネイル用の光るチップなどとして市販されていますが、Amazonなどで買うと1個300円から...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_65773", "source": "hatena", "title": "NVIDIAのCEO、日本を素通り　歴訪の韓国・台湾に劣るパートナーの魅力 - 日本経済新聞", "url": "https://www.nikkei.com/article/DGXZQOGN091C60Z00C26A6000000/", "score": 98, "comments": 0, "raw_description": "米エヌビディアのジェンスン・ファン最高経営責任者（CEO）が5〜6月に中国・台湾・韓国を歴訪するなか、日本を素通りした。半導体産業における日本の競争力の陰りだけでなく、人工知能（AI）革命で日本が出遅れかねないリスクを示唆している。「台湾はAI革命の中心だ」「韓国のパートナーに感謝を伝えに来た」。ファンCE...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48523992", "source": "hackernews", "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded", "url": "https://sqltoerdiagram.com/", "score": 85, "comments": 17, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:32.904597+09:00", "summary": ""}, {"id": "hn_48490927", "source": "hackernews", "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language", "url": "https://github.com/kekcleader/FreeOberon", "score": 80, "comments": 29, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:36.577756+09:00", "summary": ""}, {"id": "hn_48524293", "source": "hackernews", "title": "Phoenix LiveView 1.2 Released", "url": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released", "score": 79, "comments": 12, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:31.561599+09:00", "summary": ""}, {"id": "hn_48524135", "source": "hackernews", "title": "Pac-Man, but you're the ghost", "url": "https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost", "score": 79, "comments": 36, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:36.124542+09:00", "summary": ""}, {"id": "hn_48524620", "source": "hackernews", "title": "Don't trust large context windows", "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows", "score": 59, "comments": 43, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:32.468542+09:00", "summary": ""}, {"id": "hatena_98091", "source": "hatena", "title": "シャープが「AQUOS」を中高価格帯へシフトする理由　メモリ高騰が直撃するエントリースマホの限界", "url": "https://www.itmedia.co.jp/mobile/articles/2606/13/news022.html", "score": 56, "comments": 0, "raw_description": "AQUOSシリーズを展開するシャープは、6月9日に事業説明会を開催。スマホの性能別構成比を、中高価格帯にシフトしていく方針を明かした。2025年度は「AQUOS wish」シリーズの割合が6割を占め、「AQUOS sense」や「AQUOS R」などは4割にとどまる。この割合を逆転させ、2026年度は7割をAQUOS sense以上の端末にしていく目標...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48503009", "source": "hackernews", "title": "Python 3.14 garbage collection rigamarole", "url": "https://theconsensus.dev/p/2026/06/06/python-3-14-garbage-collection-rigamarole.html", "score": 49, "comments": 29, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:37.979995+09:00", "summary": ""}, {"id": "hatena_78890", "source": "hatena", "title": "サッカーW杯の優勝予測、時代は「予言タコ」から「生成AI」に", "url": "https://www.afpbb.com/articles/-/3639482", "score": 41, "comments": 0, "raw_description": "ドイツ・オーバーハウゼンの水族館「シーライフ」の水槽で、サッカーW杯南アフリカ大会決勝の行方を占い、スペイン国旗のついた箱を選んだタコのパウル（2010年7月9日撮影）。(c)AFP/PATRIK STOLLARZ 【6月13日 AFP】米オープンAIの「チャットGPT」と米アンソロピックの「Claude（クロード）」はスペインの勝利に賭け、...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_60201", "source": "hatena", "title": "言語の庭 — ことばを育てて、言語をつくる", "url": "https://kmizu.github.io/cs-edu-site/", "score": 39, "comments": 0, "raw_description": "登録不要、ずっと無料 アカウントも、メールアドレスも、お金もいりません。ブラウザがあれば、それで全部です。 文系も、理系もない ここではプログラミングを「ことば」として学びます。日本語を読み書きできるあなたは、すでに言語の使い手です。 最後は、自分の言語をつくる この庭のゴールは、あなたが自分のプログ...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48523705", "source": "hackernews", "title": "Weave: Merging based on language structure and not lines", "url": "https://ataraxy-labs.github.io/weave/", "score": 37, "comments": 20, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:39.795160+09:00", "summary": ""}, {"id": "hn_48523752", "source": "hackernews", "title": "Making Claude a Chemist", "url": "https://www.anthropic.com/research/making-claude-a-chemist", "score": 36, "comments": 24, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:39.321109+09:00", "summary": ""}, {"id": "hn_48524434", "source": "hackernews", "title": "Tribblix: The retro Illumos distribution", "url": "http://tribblix.org/", "score": 31, "comments": 7, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:34.742041+09:00", "summary": ""}, {"id": "hatena_49630", "source": "hatena", "title": "AIはもうクラウド不要？Googleが公開したローカルAIモデル『Gemma 4 12B』の衝撃 | DXマガジン", "url": "https://dxmagazine.jp/news/ykmt26/", "score": 29, "comments": 0, "raw_description": "Gemma 4 12Bは、モバイルファーストの効率性と高度な推論能力を両立させたミッドサイズのマルチモーダルモデルです。16GBのVRAMやユニファイドメモリを搭載する一般的なノートパソコンでもローカル実行できるサイズに設計されています。エッジ向けのE4Bと、より大型の26Bミックス・オブ・エキスパートモデルの間を埋める...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48524447", "source": "hackernews", "title": "Consciousness likely not unique to earthlings, paper says", "url": "https://news.ucr.edu/articles/2026/06/10/consciousness-likely-not-unique-earthlings-paper-says", "score": 29, "comments": 30, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:34.273955+09:00", "summary": ""}, {"id": "hn_48523615", "source": "hackernews", "title": "Building a serial and VGA \"everything console\"", "url": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html", "score": 28, "comments": 1, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:37.043406+09:00", "summary": ""}, {"id": "hatena_73209", "source": "hatena", "title": "「とうとうChatGPTがBANされてしまった」3年間の歴史が一通のメールで全て消えたというポスト主…同情の声が集まるが、その理由を知って納得「当たり前すぎる」", "url": "https://togetter.com/li/2709159", "score": 19, "comments": 0, "raw_description": "モトカ @motok_saikai とうとうChatGPTがBANされてしまった。 3年間の歴史が一通のメールで全て消えた。 これからはClaudeに移るか。 履歴が消えてしまったのが地味に痛い。 2026-06-14 08:44:11 モトカ @motok_saikai 実際には地味どころじゃなく痛い。 正直壊滅的だ。 見たら、二か月前にもこんなようなものが来ていた...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_88473", "source": "hatena", "title": "「SaaSの死」に会計ソフトfreeeが逆張りして見えた、AIエージェント時代の「正解」【Code with Claude 2026】 | Business Insider Japan", "url": "https://www.businessinsider.jp/article/2606-freee-beyond-the-death-of-saas/", "score": 17, "comments": 0, "raw_description": "freeeの共同創業者でCAIO（最高AI責任者）の横路隆氏。13年間務めたCTOを後任に譲り、この1月からAIに全振りするべくCAIOに就任した。 撮影：Business Insider Japan OpenAIやアンソロピックをはじめとするAIハイパースケーラーがAIの高性能化にしのぎを削るなか、「SaaSの死」がバズワードのように業界では囁かれている...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_24554", "source": "hatena", "title": "AI開発なら本人同意なく提供　個人情報保護法改正案の問題点とは？：朝日新聞", "url": "https://www.asahi.com/articles/ASV6D2RYSV6DULZU008M.html", "score": 14, "comments": 0, "raw_description": "個人情報保護法改正案の国会審議に、いつになく注目が集まっている。火種となっているのは、AI（人工知能）開発やビッグデータ活用を進めるため、本人の同意なく個人データを企業に提供できるようにする特例だ。…", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_49416", "source": "hatena", "title": "「幕末」の数学者たち: AIと数学｜R. Shimada", "url": "https://note.com/rshimada/n/n776da2f06fc8", "score": 13, "comments": 0, "raw_description": "まさに黒船来航といったところでしょうか。 先月、OpenAIは内部モデルを使ってエルデシュの単位距離問題を解決したと発表しました。これは、AIが初めて数学における重要な未解決問題を解いた例であるという意味で、極めて重要な意義を持つと思います。 本記事は、今、数学界で何が起こっているのかを、数学者である筆者...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48483841", "source": "hackernews", "title": "LaserWriter seeds", "url": "https://inventingthefuture.ghost.io/laserwriter-seeds/", "score": 13, "comments": 0, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:38.862282+09:00", "summary": ""}, {"id": "hatena_77302", "source": "hatena", "title": "GitHub - Paca-AI/paca: AI-native, free, open-source alternative to Jira, Trello, ClickUp & Monday. Built for Scrum teams where humans and AI agents collaborate as equals — on the same board, the same sprints, the same goals. Self-hosted. Fully customizabl", "url": "https://github.com/Paca-AI/paca", "score": 11, "comments": 0, "raw_description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hatena_31664", "source": "hatena", "title": "Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it | TechCrunch", "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/", "score": 10, "comments": 0, "raw_description": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it Anyone who works at Meta or knows anyone who works at Meta will tell you the same thing: It is not a happy place, particularly given the seemingly endless layoffs the company has executed over the last few years...", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "hn_48494135", "source": "hackernews", "title": "Beagle: Git, URIs and all the dirty words", "url": "https://replicated.wiki/blog/uris.html", "score": 9, "comments": 0, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:35.651517+09:00", "summary": ""}, {"id": "hatena_37606", "source": "hatena", "title": "100万トークン対応コーディングLLM「GLM-5.2」公開、来週オープンソース化", "url": "https://pc.watch.impress.co.jp/docs/news/2116962.html", "score": 4, "comments": 0, "raw_description": "", "tags": [], "fetched_at": "2026-06-14T17:44:30.873271+09:00", "summary": ""}, {"id": "reddit_90104", "source": "reddit", "title": "Signals, the push-pull based algorithm", "url": "https://www.reddit.com/r/programming/comments/1u4ra8f/signals_the_pushpull_based_algorithm/", "score": 0, "comments": 0, "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://willybrauner.com/journal/signal-the-push-pull-based-algorithm\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u4ra8f/signals_the_pushpull_based_algorithm/\">[comments]</a></span>", "tags": ["programming"], "fetched_at": "2026-06-14T17:44:40.663585+09:00", "summary": ""}, {"id": "reddit_59119", "source": "reddit", "title": "Analysis of how code duplication changed in recent years (no clear trend)", "url": "https://www.reddit.com/r/programming/comments/1u4nf9j/analysis_of_how_code_duplication_changed_in/", "score": 0, "comments": 0, "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>My methodology and data set didn't show any trend, but it demonstrated a more important issue: how wrongly this kind of research can be done and how misinterpreted the conclusions can be.</p> <p>The reason for making this research was an attempt to verify the claim that AI-assisted development increases code duplication. I analyzed 14 well-maintained open-source projects between 2021-2026, excluding new ones developed only with AI. For duplication detection, I c", "tags": ["programming"], "fetched_at": "2026-06-14T17:44:40.663585+09:00", "summary": ""}, {"id": "reddit_28029", "source": "reddit", "title": "System and game performance monitoring with Python", "url": "https://www.reddit.com/r/programming/comments/1u4tbow/system_and_game_performance_monitoring_with_python/", "score": 0, "comments": 0, "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/riklaunim\"> /u/riklaunim </a> <br /> <span><a href=\"https://rkblog.dev/posts/pc-performance/performance-monitoring-with-python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u4tbow/system_and_game_performance_monitoring_with_python/\">[comments]</a></span>", "tags": ["programming"], "fetched_at": "2026-06-14T17:44:40.663585+09:00", "summary": ""}, {"id": "reddit_52564", "source": "reddit", "title": "How a TCP Load Balancer works under the hood.", "url": "https://www.reddit.com/r/programming/comments/1u5db0u/how_a_tcp_load_balancer_works_under_the_hood/", "score": 0, "comments": 0, "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sushant098123\"> /u/Sushant098123 </a> <br /> <span><a href=\"https://sushantdhiman.dev/built-a-network-load-balancer-in-c-to-understand-how-it-actually-works-2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u5db0u/how_a_tcp_load_balancer_works_under_the_hood/\">[comments]</a></span>", "tags": ["programming"], "fetched_at": "2026-06-14T17:44:40.663585+09:00", "summary": ""}, {"id": "reddit_27531", "source": "reddit", "title": "How does DynamoDB figure out which keys are out of sync across replicas ?", "url": "https://www.reddit.com/r/programming/comments/1u4swvc/how_does_dynamodb_figure_out_which_keys_are_out/", "score": 0, "comments": 0, "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Normal-Tangelo-7120\"> /u/Normal-Tangelo-7120 </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=KK5c0f7Gb6M\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u4swvc/how_does_dynamodb_figure_out_which_keys_are_out/\">[comments]</a></span>", "tags": ["programming"], "fetched_at": "2026-06-14T17:44:40.663585+09:00", "summary": ""}]}}</script>
 <script>
-function filterSource(source) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  document.querySelector(`[data-source="${source}"]`).classList.add('active');
+const NEWS = JSON.parse(document.getElementById('newsData').textContent);
+const DATES = Object.keys(NEWS).sort().reverse();
+let currentDate = DATES[0];
+let currentFilter = 'all';
+const sourceLabel = { hatena: 'はてな', hackernews: 'HN', reddit: 'Reddit' };
 
-  const cards = document.querySelectorAll('.card');
-  let visible = 0;
-  cards.forEach(card => {
-    const show = source === 'all' || card.dataset.source === source;
-    card.style.display = show ? 'grid' : 'none';
-    if (show) visible++;
+function buildDateSelector() {
+  const sel = document.getElementById('dateSelect');
+  sel.innerHTML = '';
+  DATES.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d;
+    const dt = new Date(d + 'T00:00:00');
+    const wd = ['日','月','火','水','木','金','土'][dt.getDay()];
+    opt.textContent = d + ' (' + wd + ')';
+    sel.appendChild(opt);
   });
-  document.getElementById('emptyState').style.display = visible === 0 ? 'block' : 'none';
+  sel.value = currentDate;
 }
 
-function openLink(url) {
-  window.open(url, '_blank', 'noopener');
+function render() {
+  const day = NEWS[currentDate];
+  let articles = day.articles.slice().sort((a,b) => (b.score||0) - (a.score||0));
+  const counts = { all: articles.length, hatena: 0, hackernews: 0, reddit: 0 };
+  articles.forEach(a => { if (counts[a.source] !== undefined) counts[a.source]++; });
+  document.getElementById('statsBar').innerHTML =
+    '<div class="stat"><div class="stat-value">' + counts.all + '</div><div class="stat-label">articles</div></div>' +
+    '<div class="stat"><div class="stat-value">' + counts.hatena + '</div><div class="stat-label">はてな</div></div>' +
+    '<div class="stat"><div class="stat-value">' + counts.hackernews + '</div><div class="stat-label">HN</div></div>' +
+    '<div class="stat"><div class="stat-value">' + counts.reddit + '</div><div class="stat-label">Reddit</div></div>';
+  if (currentFilter !== 'all') articles = articles.filter(a => a.source === currentFilter);
+  const list = document.getElementById('articleList');
+  list.innerHTML = articles.map(a => {
+    const width = Math.min((a.score||0) / 60, 100);
+    const tags = (a.tags||[]).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
+    return '<article class="card" data-source="' + a.source + '" onclick="window.open(\'' + a.url + '\',\'_blank\',\'noopener\')">' +
+      '<div class="card-stripe"></div><div class="card-body">' +
+      '<div class="card-meta"><span class="source-badge">' + (sourceLabel[a.source]||a.source) + '</span>' +
+      '<div class="score-bar"><div class="score-track"><div class="score-fill" style="width:' + width + '%"></div></div>' +
+      '<span class="score-num">&#9650; ' + (a.score||0) + '</span></div>' +
+      '<span class="comment-count">&#128172; ' + (a.comments||0) + '</span></div>' +
+      '<a class="card-title" href="' + a.url + '" onclick="event.stopPropagation()">' + escapeHtml(a.title) + '</a>' +
+      (a.summary ? '<div class="ai-summary"><div class="ai-label"><span class="ai-dot"></span>AI要約</div>' + escapeHtml(a.summary) + '</div>' : '') +
+      '<div class="tags">' + tags + '</div></div></article>';
+  }).join('');
+  document.getElementById('emptyState').style.display = articles.length === 0 ? 'block' : 'none';
+  document.getElementById('todayBadge').style.display = (currentDate === DATES[0]) ? 'inline' : 'none';
+  document.getElementById('footerDate').textContent = currentDate;
+  const idx = DATES.indexOf(currentDate);
+  document.getElementById('nextDate').disabled = (idx <= 0);
+  document.getElementById('prevDate').disabled = (idx >= DATES.length-1);
 }
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+document.getElementById('dateSelect').addEventListener('change', e => { currentDate = e.target.value; render(); });
+document.getElementById('prevDate').addEventListener('click', () => {
+  const idx = DATES.indexOf(currentDate);
+  if (idx < DATES.length-1) { currentDate = DATES[idx+1]; document.getElementById('dateSelect').value = currentDate; render(); }
+});
+document.getElementById('nextDate').addEventListener('click', () => {
+  const idx = DATES.indexOf(currentDate);
+  if (idx > 0) { currentDate = DATES[idx-1]; document.getElementById('dateSelect').value = currentDate; render(); }
+});
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.source;
+    render();
+  });
+});
+
+buildDateSelector();
+render();
 </script>
-
 </body>
 </html>
