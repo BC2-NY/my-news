@@ -1,5 +1,8 @@
 """
 summarize.py  ―  Gemini API（無料枠）で記事を日本語3行要約 + タグ付け
+
+無料枠: gemini-2.5-flash-lite は 1日20リクエストまで（このアカウントの場合）
+重要: Gemini APIで「課金を有効化」すると無料枠が消えるので、絶対に有効化しないこと。
 """
 
 import json
@@ -13,11 +16,17 @@ from google.genai import types
 TODAY = date.today().isoformat()
 DATA_DIR = Path(__file__).parent.parent / "data"
 
+# ── 設定 ──────────────────────────────────────────────
+# 1日あたり要約する最大件数（無料枠の上限に合わせる。超えると429エラーになる）
+DAILY_LIMIT = 20
+# APIリクエストの間隔（秒）。レート制限(RPM)対策
+SLEEP_SEC = 4
+# ──────────────────────────────────────────────────────
+
 API_KEY = os.environ.get("GEMINI_API_KEY")
 if not API_KEY:
-    raise SystemExit("環境変数 GEMINI_API_KEY が設定されていません。先に $env:GEMINI_API_KEY を設定してください。")
+    raise SystemExit("環境変数 GEMINI_API_KEY が設定されていません。先に設定してください。")
 
-# vertexai=False を明示し、APIキー認証だけを使うようにする
 client = genai.Client(api_key=API_KEY, vertexai=False)
 
 MODEL = "gemini-2.5-flash-lite"
@@ -62,13 +71,14 @@ def summarize_article(article: dict) -> dict:
         return {
             "summary": parsed.get("summary", ""),
             "tags": parsed.get("tags", [])[:4],
+            "ok": True,
         }
     except json.JSONDecodeError:
         print(f"  [warn] JSON parse failed for: {title[:40]}")
-        return {"summary": "", "tags": article.get("tags", [])}
+        return {"summary": "", "tags": article.get("tags", []), "ok": False}
     except Exception as e:
         print(f"  [error] {title[:40]}: {e}")
-        return {"summary": "", "tags": article.get("tags", [])}
+        return {"summary": "", "tags": article.get("tags", []), "ok": False}
 
 
 def main():
@@ -80,12 +90,18 @@ def main():
     data = json.loads(target.read_text(encoding="utf-8"))
     articles = data["articles"]
     total = len(articles)
-    print(f"=== summarize start (Gemini無料枠): {total} articles ===")
+    print(f"=== summarize start (Gemini無料枠 / 上限{DAILY_LIMIT}件): {total} articles ===")
 
+    done = 0  # 今回API要約した件数
     for i, article in enumerate(articles):
+        # すでに要約済みならスキップ（APIを消費しない）
         if article.get("summary"):
-            print(f"  [{i+1}/{total}] skip: {article['title'][:40]}")
             continue
+
+        # 1日の上限に達したら、残りは未要約のまま打ち切る
+        if done >= DAILY_LIMIT:
+            print(f"  [上限] {DAILY_LIMIT}件に達したので残り{total - i}件は明日に回します")
+            break
 
         print(f"  [{i+1}/{total}] summarizing: {article['title'][:50]}")
         result = summarize_article(article)
@@ -93,10 +109,12 @@ def main():
         if result["tags"]:
             article["tags"] = result["tags"]
 
-        time.sleep(4)
+        if result["ok"]:
+            done += 1
+        time.sleep(SLEEP_SEC)
 
     target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"=== summarize complete → {target} ===")
+    print(f"=== summarize complete: {done}件を要約 → {target} ===")
 
 
 if __name__ == "__main__":
