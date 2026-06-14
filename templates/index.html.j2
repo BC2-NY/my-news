@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITノイズ // {{ date }}</title>
+  <style>
+    :root {
+      --bg: #0D0D0D;
+      --bg-card: #161616;
+      --bg-card-hover: #1E1E1E;
+      --text: #E8E6E0;
+      --text-muted: #6B6B6B;
+      --text-dim: #3A3A3A;
+      --accent-green: #4ADE80;
+      --accent-purple: #818CF8;
+      --accent-orange: #FB923C;
+      --border: #222222;
+      --border-hover: #333333;
+
+      --source-hatena: #00A4DE;
+      --source-hn: #FF6600;
+      --source-reddit: #FF4500;
+
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace;
+      --font-sans: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 15px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 28px 0 20px;
+      position: sticky;
+      top: 0;
+      background: rgba(13,13,13,0.92);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+    }
+    .site-name {
+      font-family: var(--font-mono);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.5px;
+    }
+    .site-name span { color: var(--accent-green); }
+    .header-meta {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .header-right {
+      margin-left: auto;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .filter-btn {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 4px 10px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--accent-green);
+      color: var(--accent-green);
+    }
+    .filter-btn[data-source="hatena"].active { border-color: var(--source-hatena); color: var(--source-hatena); }
+    .filter-btn[data-source="hackernews"].active { border-color: var(--source-hn); color: var(--source-hn); }
+    .filter-btn[data-source="reddit"].active { border-color: var(--source-reddit); color: var(--source-reddit); }
+
+    /* ── MAIN ── */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 24px 80px;
+    }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: flex;
+      gap: 28px;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .stat-value {
+      font-family: var(--font-mono);
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent-green);
+      line-height: 1;
+    }
+    .stat-label {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* ── ARTICLE CARDS ── */
+    .articles { display: flex; flex-direction: column; gap: 2px; }
+
+    .card {
+      display: grid;
+      grid-template-columns: 4px 1fr;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      transition: border-color 0.15s, background 0.15s;
+      cursor: pointer;
+    }
+    .card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-hover);
+    }
+
+    .card-stripe { flex-shrink: 0; }
+    .card[data-source="hatena"] .card-stripe { background: var(--source-hatena); }
+    .card[data-source="hackernews"] .card-stripe { background: var(--source-hn); }
+    .card[data-source="reddit"] .card-stripe { background: var(--source-reddit); }
+
+    .card-body { padding: 16px 20px; }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .source-badge {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 3px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .card[data-source="hatena"] .source-badge {
+      background: rgba(0,164,222,0.15);
+      color: var(--source-hatena);
+    }
+    .card[data-source="hackernews"] .source-badge {
+      background: rgba(255,102,0,0.15);
+      color: var(--source-hn);
+    }
+    .card[data-source="reddit"] .source-badge {
+      background: rgba(255,69,0,0.15);
+      color: var(--source-reddit);
+    }
+
+    .score-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex: 1;
+    }
+    .score-track {
+      height: 3px;
+      background: var(--border);
+      border-radius: 2px;
+      flex: 1;
+      max-width: 120px;
+      overflow: hidden;
+    }
+    .score-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: var(--accent-green);
+      opacity: 0.6;
+      transition: width 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .card[data-source="hatena"] .score-fill { background: var(--source-hatena); }
+    .card[data-source="hackernews"] .score-fill { background: var(--source-hn); }
+    .card[data-source="reddit"] .score-fill { background: var(--source-reddit); }
+
+    .score-num {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      min-width: 36px;
+    }
+    .comment-count {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.45;
+      margin-bottom: 10px;
+      text-decoration: none;
+      display: block;
+    }
+    .card-title:hover { color: var(--accent-green); }
+
+    .ai-summary {
+      font-size: 13px;
+      color: #9CA3AF;
+      line-height: 1.65;
+      padding: 10px 12px;
+      background: rgba(129,140,248,0.05);
+      border-left: 2px solid rgba(129,140,248,0.35);
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 12px;
+    }
+    .ai-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      color: var(--accent-purple);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .ai-dot {
+      width: 5px; height: 5px;
+      background: var(--accent-purple);
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+      border: 1px solid var(--text-dim);
+      border-radius: 3px;
+      padding: 1px 7px;
+      letter-spacing: 0.03em;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+    }
+    .footer-text {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+    .footer-text span { color: var(--accent-green); }
+
+    /* ── EMPTY STATE ── */
+    .empty {
+      display: none;
+      text-align: center;
+      padding: 60px 0;
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      .stats-bar { gap: 16px; }
+      .stat-value { font-size: 18px; }
+      .header-right { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-name">IT<span>//</span>ノイズ</div>
+    <div class="header-meta">{{ date }} &nbsp;·&nbsp; {{ articles|length }} 件</div>
+    <div class="header-right">
+      <button class="filter-btn active" data-source="all" onclick="filterSource('all')">ALL</button>
+      <button class="filter-btn" data-source="hatena" onclick="filterSource('hatena')">はてな</button>
+      <button class="filter-btn" data-source="hackernews" onclick="filterSource('hackernews')">HN</button>
+      <button class="filter-btn" data-source="reddit" onclick="filterSource('reddit')">Reddit</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-value">{{ articles|length }}</div>
+      <div class="stat-label">articles</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ articles|selectattr('source','equalto','hatena')|list|length }}</div>
+      <div class="stat-label">はてな</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ articles|selectattr('source','equalto','hackernews')|list|length }}</div>
+      <div class="stat-label">HN</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ articles|selectattr('source','equalto','reddit')|list|length }}</div>
+      <div class="stat-label">Reddit</div>
+    </div>
+  </div>
+
+  <div class="articles" id="articleList">
+    {% for article in articles %}
+    <article class="card" data-source="{{ article.source }}" onclick="openLink('{{ article.url }}')">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="source-badge">
+            {% if article.source == 'hatena' %}はてな
+            {% elif article.source == 'hackernews' %}HN
+            {% else %}Reddit{% endif %}
+          </span>
+          <div class="score-bar">
+            <div class="score-track">
+              <div class="score-fill" style="width: {{ [article.score / 60, 100]|min }}%"></div>
+            </div>
+            <span class="score-num">▲ {{ article.score }}</span>
+          </div>
+          <span class="comment-count">💬 {{ article.comments }}</span>
+        </div>
+
+        <a class="card-title" href="{{ article.url }}" onclick="event.stopPropagation()">
+          {{ article.title }}
+        </a>
+
+        <div class="ai-summary">
+          <div class="ai-label"><span class="ai-dot"></span>AI要約</div>
+          {{ article.summary }}
+        </div>
+
+        <div class="tags">
+          {% for tag in article.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <div class="empty" id="emptyState">該当する記事がありません</div>
+</main>
+
+<footer>
+  <div class="footer-text">
+    generated at {{ generated_at }} &nbsp;·&nbsp;
+    summarized by <span>Claude API</span> &nbsp;·&nbsp;
+    source: はてブ / HN / Reddit
+  </div>
+</footer>
+
+<script>
+function filterSource(source) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`[data-source="${source}"]`).classList.add('active');
+
+  const cards = document.querySelectorAll('.card');
+  let visible = 0;
+  cards.forEach(card => {
+    const show = source === 'all' || card.dataset.source === source;
+    card.style.display = show ? 'grid' : 'none';
+    if (show) visible++;
+  });
+  document.getElementById('emptyState').style.display = visible === 0 ? 'block' : 'none';
+}
+
+function openLink(url) {
+  window.open(url, '_blank', 'noopener');
+}
+</script>
+
+</body>
+</html>

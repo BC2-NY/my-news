@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# 環境変数・秘密情報（絶対にアップロードしない）
+.env
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
