@@ -10,7 +10,7 @@ from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 
 JST = timezone(timedelta(hours=9))
-TODAY = date.today().isoformat()
+TODAY = datetime.now(JST).strftime("%Y-%m-%d")
 OUTPUT_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -20,10 +20,11 @@ HEADERS = {"User-Agent": "ITNoise-NewsBot/1.0 (personal aggregator)"}
 HATENA_FEEDS = [
     "https://b.hatena.ne.jp/hotentry/it.rss",
 ]
-HATENA_TOP_N = 8  # はてブから取得する記事数
-HN_TOP_N   = 8    # HN から取得する記事数
+HN_TOP_N   = 20   # HN から取得する記事数
 REDDIT_SUBS = ["programming", "webdev", "MachineLearning", "artificial"]
-REDDIT_TOP_N = 1  # 各サブレから1件ずつ（4サブレ = 4件）
+REDDIT_TOP_N = 5  # 各サブレから取得する記事数
+
+
 # ──────────────────────────────────────────────────────────────────────
 # はてなブックマーク
 # ──────────────────────────────────────────────────────────────────────
@@ -32,7 +33,7 @@ def fetch_hatena() -> list[dict]:
     for url in HATENA_FEEDS:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:HATENA_TOP_N]:
+            for entry in feed.entries[:20]:
                 # はてブカウントを取得（エントリのSummaryから抽出）
                 score = 0
                 summary = getattr(entry, 'summary', '') or ''
@@ -152,7 +153,7 @@ def main():
     }
 
     out_path = OUTPUT_DIR / f"{TODAY}.json"
-    out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2))
     print(f"=== saved {len(all_articles)} articles → {out_path} ===")
 
 
