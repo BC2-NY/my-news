@@ -1,29 +1,34 @@
 {
   "date": "2026-06-15",
-  "generated_at": "2026-06-15T08:06:43.067336+09:00",
+  "generated_at": "2026-06-15T08:11:34.976322+09:00",
   "articles": [
     {
       "id": "hn_48471638",
       "source": "hackernews",
       "title": "Firewood Splitting Simulator",
       "url": "https://screen.toys/firewood/",
-      "score": 572,
+      "score": 573,
       "comments": 185,
       "raw_description": "",
-      "tags": [],
-      "fetched_at": "2026-06-15T08:06:41.765942+09:00",
-      "summary": ""
+      "tags": [
+        "シミュレーション",
+        "物理エンジン",
+        "ゲーム開発",
+        "インタラクティブ"
+      ],
+      "fetched_at": "2026-06-15T08:11:33.388504+09:00",
+      "summary": "Firewood Splitting Simulatorは、物理エンジンを用いてリアルな薪割りの体験を提供するシミュレーションゲームです。プレイヤーは様々なツールを使い、薪の材質や構造を考慮しながら効率的な薪割りを行います。このゲームは、物理演算の複雑さと、それを利用したインタラクティブな体験の可能性を示す一例として興味深いです。"
     },
     {
       "id": "hn_48529990",
       "source": "hackernews",
       "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
       "url": "https://github.com/tamnd/kage",
-      "score": 333,
-      "comments": 73,
+      "score": 336,
+      "comments": 74,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:41.212952+09:00",
+      "fetched_at": "2026-06-15T08:11:32.752521+09:00",
       "summary": ""
     },
     {
@@ -32,22 +37,22 @@
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "url": "https://github.com/nex-agi/Nex-N2/issues/4",
       "score": 251,
-      "comments": 130,
+      "comments": 132,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:41.393135+09:00",
+      "fetched_at": "2026-06-15T08:11:32.967453+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_67429",
+      "id": "hatena_17172",
       "source": "hatena",
       "title": "実装前に設計を徹底的にインタビューし、要件を明確にするためのスキル `/grill-me`",
       "url": "https://azukiazusa.dev/blog/before-implementation-interview-design-requirements-grill-me/",
-      "score": 193,
+      "score": 195,
       "comments": 0,
       "raw_description": "コーディングエージェントの自律性が向上し、並行して複数のエージェントを動かすことが当たり前になってきた今、エージェントの動きを逐一監視することは現実的ではなくなっています。そのため実装前に人間と AI の間で共通理解を形成することが重要になっています。この記事では、実装前の設計フェーズで要件を明確に...",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978800+09:00",
+      "fetched_at": "2026-06-15T08:11:32.459361+09:00",
       "summary": ""
     },
     {
@@ -55,47 +60,35 @@
       "source": "hackernews",
       "title": "Ask HN: What are you working on? (June 2026)",
       "url": "https://news.ycombinator.com/item?id=48528779",
-      "score": 136,
-      "comments": 484,
+      "score": 138,
+      "comments": 486,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:42.593563+09:00",
+      "fetched_at": "2026-06-15T08:11:34.249321+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_12528",
+      "id": "hatena_31111",
       "source": "hatena",
       "title": "「AIを使うほど人はバカになる」は本当か？　研究が示す思考力低下のリスクと3つの対策",
       "url": "https://www.itmedia.co.jp/business/articles/2606/13/news006.html",
-      "score": 121,
+      "score": 125,
       "comments": 0,
       "raw_description": "【開催期間】2026年7月8日（水）～8月5日（水） 【視聴】無料 【視聴方法】こちらより事前登録 【概要】本講演では、トライアルが推進してきたDX経営の取り組みについて、実例を交えながら紹介します。店舗で収集したデータを活用した売り場づくりや、インストアサイネージによる顧客接点の強化、パートナー企業との共創...",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978777+09:00",
+      "fetched_at": "2026-06-15T08:11:32.459328+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_58350",
-      "source": "hatena",
-      "title": "ループエンジニアリングで再考する仕様書駆動開発 | ドクセル",
-      "url": "https://www.docswell.com/s/laiso/ZY8VG4-sdd-in-loop-engineering",
-      "score": 121,
-      "comments": 0,
-      "raw_description": "仕様駆動開発を、AIエージェント時代の「文脈を設計する技術」として捉え直す。仕様、計画、検証、エビデンスを一度きりの成果物ではなく、次の実行へ戻るループとして扱い、ドキュメントが開発の判断と再現性をどう支えるかを整理、ソフトウェア開発の関心レイヤーがコードからドキュメントに移っていることをまとめます",
-      "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978813+09:00",
-      "summary": ""
-    },
-    {
-      "id": "hatena_12977",
+      "id": "hatena_97745",
       "source": "hatena",
       "title": "「超かぐや姫！」を Claude Mythos (Fable) に見せて感想聞いたら現実がSFになった｜とりしま日記",
       "url": "https://note.com/sumisutori/n/nd5a035ad9526",
-      "score": 72,
+      "score": 75,
       "comments": 0,
       "raw_description": "さいぴ氏 が3年間新しい LLM が出る度に試している『人類最後の日のなんJスレベンチマーク』も、最近は GPT も Claude も他の LLM も大体面白くてリアルなクソスレを一発で書けるくらい性能が上がってしまったので、正直もうあとは好みの問題じゃね？といった状況…。 さて、Claude Code でのコーディング性能ばかりがフ...",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978793+09:00",
+      "fetched_at": "2026-06-15T08:11:32.459342+09:00",
       "summary": ""
     },
     {
@@ -103,35 +96,40 @@
       "source": "hackernews",
       "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
       "url": "https://traceapp.info",
-      "score": 67,
+      "score": 69,
       "comments": 21,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:42.406568+09:00",
+      "fetched_at": "2026-06-15T08:11:34.033979+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_86594",
+      "id": "hatena_22572",
       "source": "hatena",
       "title": "Gemma 4 31B + S3 Vectors + AgentCore で低コストな RAG を構築してみた | DevelopersIO",
       "url": "https://dev.classmethod.jp/articles/gemma4-s3vectors-agentcore-rag/",
-      "score": 65,
+      "score": 68,
       "comments": 0,
       "raw_description": "Gemma4 めちゃくちゃ安いですね・・・！！ そこそこ日本語が使えて、ツールコールもできるなら、AI エージェントとして RAG を組んだら面白いんじゃないか？ と思い、Amazon Bedrock AgentCore + S3 Vectors を使って RAG を構築してみました。 せっかく LLM が安いなら、ベクトルストアも安くしたいですよね。S3 Vector...",
-      "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978786+09:00",
-      "summary": ""
+      "tags": [
+        "Gemma 4",
+        "RAG",
+        "Amazon Bedrock",
+        "S3 Vectors"
+      ],
+      "fetched_at": "2026-06-15T08:11:32.459336+09:00",
+      "summary": "本記事では、GoogleのオープンモデルGemma 4 31Bを活用し、Amazon Bedrock AgentCoreとS3 Vectorsを組み合わせた低コストなRAG（Retrieval-Augmented Generation）システムの構築事例を紹介しています。Gemma 4の低価格性とツールコール能力に着目し、S3をベクトルストアとして利用することで、ベクトルデータベースのコストを抑えつつ、AIエージェントとしてのRAGシステムを実現するアプローチが解説されています。これにより、LLMのコストメリットを最大限に活かすことが可能になります。"
     },
     {
       "id": "hn_48533504",
       "source": "hackernews",
       "title": "Did Anthropic ask for this?",
       "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
-      "score": 59,
-      "comments": 20,
+      "score": 65,
+      "comments": 21,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:41.586710+09:00",
+      "fetched_at": "2026-06-15T08:11:33.176607+09:00",
       "summary": ""
     },
     {
@@ -143,19 +141,19 @@
       "comments": 5,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:42.045597+09:00",
+      "fetched_at": "2026-06-15T08:11:33.600036+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_16880",
+      "id": "hatena_53675",
       "source": "hatena",
       "title": "今Fitbitを買ってはいけない。絶対にだ。",
       "url": "https://anond.hatelabo.jp/20260613114557",
-      "score": 36,
+      "score": 43,
       "comments": 0,
       "raw_description": "なぜならFitbitの情報をスマホとやり取りするアプリが壊れていて様々な機能が使えないから。 Fitbitを買収したGoogleは自社のPixelブランドへのリブランディングのために Fitbitの管理アプリをGoogle Healthという新しいアプリに置き換えたんだけど、 それがまともにテストしたとは思えないレベルでバグってて、ここ数週...",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978754+09:00",
+      "fetched_at": "2026-06-15T08:11:32.459308+09:00",
       "summary": ""
     },
     {
@@ -163,39 +161,51 @@
       "source": "hackernews",
       "title": "AI is code – and can't be prompted into being smarter",
       "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
-      "score": 26,
+      "score": 28,
       "comments": 13,
       "raw_description": "",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:42.224157+09:00",
+      "fetched_at": "2026-06-15T08:11:33.821242+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_76188",
+      "id": "hatena_16682",
       "source": "hatena",
       "title": "【速報】米、アマゾンの指摘で先端AI停止指示か",
       "url": "https://www.47news.jp/14466518.html",
-      "score": 21,
+      "score": 25,
       "comments": 0,
       "raw_description": "【ワシントン共同】米紙ウォールストリート・ジャーナル電子版は13日、米政府が人工知能（AI）開発の米アンソロピックに先端AIの提供停止を指示した理由について、IT大手アマゾン・コムからの指摘がきっかけだったと報じた。",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978807+09:00",
+      "fetched_at": "2026-06-15T08:11:32.459355+09:00",
       "summary": ""
     },
     {
-      "id": "hatena_16447",
+      "id": "hatena_24094",
       "source": "hatena",
       "title": "もうプロンプトを書くな──「Loop Engineering」という新しいパラダイムの正体",
       "url": "https://zenn.dev/acrosstudioblog/articles/38509c0473683a",
-      "score": 13,
+      "score": 20,
       "comments": 0,
       "raw_description": "ざっくり3行で言うと、 Claude Code を作った Boris Cherny 本人が「もうプロンプトは書いてない」と言い出した レバレッジが「いいプロンプト」から「いいループ設計」に移っている、らしい ただ、これを自動運転と勘違いするとたぶん事故る はじめに：あの人がもうプロンプトを書いていない ある日、X のタイムライン...",
       "tags": [],
-      "fetched_at": "2026-06-15T08:06:40.978819+09:00",
+      "fetched_at": "2026-06-15T08:11:32.459349+09:00",
       "summary": ""
     },
     {
-      "id": "reddit_29122",
+      "id": "hatena_63715",
+      "source": "hatena",
+      "title": "昔はPCで描く→愛がないじゃった",
+      "url": "https://posfie.com/@xay6609025327/p/BtRlsbV",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "アニメーターVTuber🐺🌸🍓葛ノ葉みゆ@『ミニキャラの作画教室』発売中 @miyu_haishin アニメーター歴20年のVTuber|イラストレーター|講師|子育て/ミニキャラ技法書発売中▶ amzn.to/41te21L 仕事紹介はハイライトに💡 AI読み込み、無断転載はお金請求します。 夢に挑戦する人の背中を押すぞ💪😎︎💕︎ 差入れ▶︎ x.gd/7h4en you...",
+      "tags": [],
+      "fetched_at": "2026-06-15T08:11:32.459367+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_26636",
       "source": "reddit",
       "title": "Git merges can be better",
       "url": "https://www.reddit.com/r/programming/comments/1u5c0r6/git_merges_can_be_better/",
@@ -205,7 +215,7 @@
       "tags": [
         "programming"
       ],
-      "fetched_at": "2026-06-15T08:06:42.838920+09:00",
+      "fetched_at": "2026-06-15T08:11:34.574196+09:00",
       "summary": ""
     }
   ]
