@@ -1,0 +1,285 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T08:48:14.690689+09:00",
+  "articles": [
+    {
+      "id": "hn_48542480",
+      "source": "hackernews",
+      "title": "Iroh 1.0",
+      "url": "https://www.iroh.computer/blog/v1",
+      "score": 879,
+      "comments": 275,
+      "raw_description": "",
+      "tags": [
+        "WebAssembly",
+        "Wasm Runtime",
+        "Iroh",
+        "Rust"
+      ],
+      "fetched_at": "2026-06-16T08:48:13.224562+09:00",
+      "summary": "Iroh 1.0は、WebAssembly（Wasm）の実行環境を構築するための新しいランタイムです。Rustで書かれており、軽量かつ高速な実行を目指しています。Wasmモジュールをホストアプリケーションに組み込む際の柔軟性とパフォーマンスを向上させることを目的としており、サーバーレスコンピューティングやエッジコンピューティングなど、多様なユースケースでの活用が期待されます。"
+    },
+    {
+      "id": "hn_48542100",
+      "source": "hackernews",
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "score": 595,
+      "comments": 302,
+      "raw_description": "",
+      "tags": [
+        "ローカルLLM",
+        "コーディングアシスタント",
+        "大規模言語モデル",
+        "開発者"
+      ],
+      "fetched_at": "2026-06-16T08:48:13.994613+09:00",
+      "summary": "HNユーザーが、日常的なコーディングタスクにおいて、ClaudeやGPTのような商用大規模言語モデル（LLM）をローカルで動作するモデルに置き換えた経験について議論しています。ローカルモデルはプライバシー保護やコスト削減のメリットがありますが、性能やセットアップの複雑さが課題となる可能性があります。この議論は、開発者がローカルLLMを実用的なコーディングアシスタントとして活用できるかどうかの現状を探るものです。"
+    },
+    {
+      "id": "hn_48543475",
+      "source": "hackernews",
+      "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+      "url": "https://tinywind.io",
+      "score": 547,
+      "comments": 111,
+      "raw_description": "",
+      "tags": [
+        "ゲーム開発",
+        "物理シミュレーション",
+        "インディーゲーム",
+        "ピクセルアート"
+      ],
+      "fetched_at": "2026-06-16T08:48:13.801490+09:00",
+      "summary": "TinyWindは、実際の風の物理法則をシミュレートしたピクセルアートの海賊船ゲームです。プレイヤーは風向きと強さを考慮しながら帆を操作し、広大な海を航海します。380,000km以上の航海実績は、リアルな風の挙動がゲームプレイに深みを与えていることを示唆しています。"
+    },
+    {
+      "id": "hn_48546294",
+      "source": "hackernews",
+      "title": "A backdoor in a LinkedIn job offer",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
+      "score": 528,
+      "comments": 102,
+      "raw_description": "",
+      "tags": [
+        "LinkedIn",
+        "バックドア",
+        "脆弱性",
+        "サイバーセキュリティ"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.836559+09:00",
+      "summary": "LinkedInの求人オファーにバックドアが発見されました。この脆弱性を悪用すると、攻撃者は求職者のアカウントに不正にアクセスし、個人情報や機密情報を盗む可能性があります。この事実は、オンライン求職プラットフォームにおけるセキュリティ対策の重要性と、ユーザーが受け取る情報の検証の必要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_89523",
+      "source": "hatena",
+      "title": "「技術の人じゃないね」と言われたエンジニアの話 - めるノート",
+      "url": "https://c5meru.hatenablog.jp/entry/2026/06/15/202551",
+      "score": 171,
+      "comments": 0,
+      "raw_description": "私はエンジニアになってから何度も「マネージャー向きですね」と言われてきた。 理由もなんとなく分かる。問題を整理するのが好きだし、複雑な状況を構造化するのも好きだし、人の認識を揃えるのも好きだからだ。 技術的な課題が絡み合っている状況を見ると、まずは図にしたり論点を書き出したりしたくなる。 そういう振...",
+      "tags": [
+        "エンジニアリングマネジメント",
+        "キャリアパス",
+        "問題解決",
+        "コミュニケーション"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.590459+09:00",
+      "summary": "この記事は、エンジニアが「技術の人じゃない」「マネージャー向き」と周囲から評価される経験について述べている。筆者は、問題整理、複雑な状況の構造化、認識の統一といった自身の強みが、技術的な課題解決においても有効であると分析している。これらのスキルは、技術的な複雑さを解きほぐし、チーム全体の理解を深める上で重要であり、エンジニアリング組織における多様な役割の価値を示唆している。"
+    },
+    {
+      "id": "hn_48546616",
+      "source": "hackernews",
+      "title": "US battery manufacturing output continues to break records",
+      "url": "https://fred.stlouisfed.org/series/IPG33591S",
+      "score": 128,
+      "comments": 101,
+      "raw_description": "",
+      "tags": [
+        "バッテリー製造",
+        "リチウムイオン電池",
+        "EV",
+        "エネルギー貯蔵"
+      ],
+      "fetched_at": "2026-06-16T08:48:13.418840+09:00",
+      "summary": "米国のバッテリー製造出力が記録を更新し続けており、特にリチウムイオン電池の生産能力が大幅に増加しています。これは、電気自動車（EV）およびエネルギー貯蔵システム（ESS）市場の成長を支える上で極めて重要です。国内生産能力の拡大は、サプライチェーンの安定化と技術革新の加速に貢献し、米国のエネルギー転換目標達成に向けた基盤を強化します。"
+    },
+    {
+      "id": "hatena_98796",
+      "source": "hatena",
+      "title": "[みんなのケータイ]アプリもAIも終了した「Honda e」、「スマホのようなクルマ」の切ない現実",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/minna/2117253.html",
+      "score": 121,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Honda e",
+        "EV",
+        "ソフトウェアライフサイクル",
+        "自動車技術"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.590450+09:00",
+      "summary": "ホンダの電気自動車「Honda e」が、当初の「スマホのようなクルマ」というコンセプトからかけ離れ、アプリやAI機能の提供終了という現実を迎えています。これは、自動車におけるソフトウェアのライフサイクル管理の難しさ、特に継続的なアップデートやサポート体制の構築が、ハードウェアの寿命やユーザー体験に大きく影響することを示唆しています。技術進化の速い現代において、自動車を単なる移動手段ではなく、進化し続けるプラットフォームとして捉えることの課題を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_48546441",
+      "source": "hackernews",
+      "title": "I Love the Computer",
+      "url": "https://michaelenger.com/blog/i-love-the-computer/",
+      "score": 106,
+      "comments": 65,
+      "raw_description": "",
+      "tags": [
+        "コンピューター",
+        "テクノロジー",
+        "パーソナルストーリー",
+        "ライフスタイル"
+      ],
+      "fetched_at": "2026-06-16T08:48:13.611944+09:00",
+      "summary": "この記事は、コンピューターへの愛を個人的な視点から綴ったものです。コンピューターがどのように生活を豊かにし、創造性を刺激するかが語られています。技術的な詳細よりも、コンピューターとの関係性やその影響に焦点を当てています。"
+    },
+    {
+      "id": "hatena_16621",
+      "source": "hatena",
+      "title": "使わなくなったスマホをサーバーに、Google支援で2000台のPixelを再利用",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2117297.html",
+      "score": 71,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Pixel",
+        "サーバー",
+        "エッジコンピューティング",
+        "サステナビリティ"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.590427+09:00",
+      "summary": "Googleの支援により、使われなくなった2000台のPixelスマートフォンがサーバーとして再利用されるプロジェクトが進行中です。これらのデバイスは、AIモデルのトレーニングやエッジコンピューティングのインフラとして活用される予定です。この取り組みは、電子廃棄物の削減とリソースの有効活用に貢献するものであり、持続可能なテクノロジー利用の新たな可能性を示唆しています。"
+    },
+    {
+      "id": "hn_48547985",
+      "source": "hackernews",
+      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "url": "https://www.richardosgood.com/posts/banned-book-library/",
+      "score": 51,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [
+        "スマートホーム",
+        "表現の自由",
+        "検閲",
+        "IoT"
+      ],
+      "fetched_at": "2026-06-16T08:48:13.030670+09:00",
+      "summary": "Wi-Fiスマート電球に、検閲された書籍を保存・共有できる「Banned Book Library」機能が搭載されました。この機能は、Wi-Fi接続を通じてアクセス可能で、ユーザーは検閲されたコンテンツを安全に共有・閲覧できます。これは、表現の自由と情報アクセスにおける技術の役割を探求する興味深い事例です。"
+    },
+    {
+      "id": "hn_48547566",
+      "source": "hackernews",
+      "title": "Why I Email Complete Strangers",
+      "url": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
+      "score": 44,
+      "comments": 18,
+      "raw_description": "",
+      "tags": [
+        "ネットワーキング",
+        "キャリア",
+        "コミュニケーション",
+        "パーソナルブランディング"
+      ],
+      "fetched_at": "2026-06-16T08:48:14.212987+09:00",
+      "summary": "この記事は、完全な見知らぬ人にメールを送るという、一見大胆なアプローチの有効性について論じています。著者は、パーソナライズされたアプローチと明確な目的意識を持つことで、予期せぬ機会や有益なつながりを築くことができると主張しています。この戦略は、特にキャリアの初期段階や、新しい分野への進出を目指す際に、情報収集、メンターシップの獲得、共同プロジェクトの開始に役立ちます。"
+    },
+    {
+      "id": "hatena_89234",
+      "source": "hatena",
+      "title": "情報システムの価値を壊すセキュリティは悪である｜情シスとセキュリティ部門は分けるべきなのか | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/security-that-destroys-it-value/",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "kaname (@kanametunes) on X 経験上「セキュリティ組織は独立させない方が良い」という結論 分けると、 すべてのセキュリティ関連の判断が安全側に倒される ↓ 業務担当と折り合いがつかないか業務がやりにくくになる ↓ 問題発生 ↓ （上に戻って繰り返し） ↓ https://x.com/kanametunes/status/2064882136906432982 経験...",
+      "tags": [],
+      "fetched_at": "2026-06-16T08:48:12.590466+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_41844",
+      "source": "hatena",
+      "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
+      "url": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開 Stack Overflowは、AIエージェント同士がオープンな掲示板の上で技術的な解決策などの情報を共有する新サービス「Stack Overflow for Agents」をベータ版として提供開始したことを明らかにしました。 What if o...",
+      "tags": [],
+      "fetched_at": "2026-06-16T08:48:12.590487+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_24401",
+      "source": "hatena",
+      "title": "Fable 5停止をきっかけにUbuntuでGemma 4 E2Bを動かした記録",
+      "url": "https://zenn.dev/yamadatt/articles/20260614-ubuntu-gemma4-ollama",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "はじめに 先日、Claude Fable 5が突然使えなくなりました。 使い始めたばかりのモデルが、こちらの設定ミスではなく外部要因で急に使えなくなる。これはなかなか衝撃でした。 普段の作業ではクラウドの生成AIサービスにかなり頼っています。ただ、今回の件で「いつ生成AIのサービスが使えなくなるかわからない」という前...",
+      "tags": [
+        "LLM",
+        "Ubuntu",
+        "ローカル実行",
+        "Gemma"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.590474+09:00",
+      "summary": "Claude Fable 5の突然の利用停止を受け、ローカル環境での大規模言語モデル（LLM）運用に関心が高まっています。本記事では、Ubuntu上でGemma 4 E2Bを動作させた経験が記録されており、クラウドサービスへの依存リスクとローカルLLMの利便性・安定性について考察しています。外部要因に左右されない環境構築の重要性が示唆されています。"
+    },
+    {
+      "id": "hatena_63946",
+      "source": "hatena",
+      "title": "同じ勉強時間でもテストで約20％の差…「3年間で脳の発達がほぼ止まる」たった1つの習慣",
+      "url": "https://diamond.jp/articles/-/391629",
+      "score": 25,
+      "comments": 0,
+      "raw_description": "宮城県仙台市は毎年、小・中学生の学力と、生活・学習状況を調査しているという。その解析を引き受けた東北大学加齢医学研究所の川島隆太教授らが目にした驚きの結果とは――。また5～18歳の223人を測定すると、“あるもの”を使用している子どもの「脳の発達」が遅れていることがわかったのだった。（ジャーナリスト　笹井...",
+      "tags": [
+        "脳科学",
+        "教育",
+        "学習習慣",
+        "発達"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.590481+09:00",
+      "summary": "東北大学加齢医学研究所の川島隆太教授らの調査により、小中学生の学力と脳の発達に相関関係があることが明らかになりました。特に、特定の「あるもの」の使用が脳の発達を遅延させ、同じ勉強時間でもテストの成績に約20%の差を生むことが判明しました。この結果は、子供たちの学習習慣と脳機能の関係性、そしてその長期的な影響を示唆しており、教育現場や保護者にとって重要な示唆を与えます。"
+    },
+    {
+      "id": "hatena_30454",
+      "source": "hatena",
+      "title": "落合陽一、玉城絵美らを世界へ送った「東大・暦本研」にみる“天才”を育てる土壌 - エンジニアtype | 転職type",
+      "url": "https://type.jp/et/feature/31183/",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "NEW! 2026.06.15 ITニュース 玉城絵美暦本純一落合陽一AI 数々の先進的な未来のテクノロジーの開発に挑戦し続けている東京大学の暦本純一教授が、2026年3月、最終講義を迎えた。 その貴重な講義の第二部として行われたのが、暦本研の卒業生たちによるパネルディスカッションだ。 ステージに集結したのは、メディアアーテ...",
+      "tags": [
+        "暦本研究室",
+        "人材育成",
+        "東京大学",
+        "テクノロジー"
+      ],
+      "fetched_at": "2026-06-16T08:48:12.590493+09:00",
+      "summary": "東京大学暦本純一教授の研究室（暦本研）が、落合陽一氏や玉城絵美氏といった著名な研究者・起業家を輩出してきた背景に迫る記事です。暦本教授の最終講義で行われた卒業生によるパネルディスカッションを通じて、同研究室がどのようにして「天才」と呼ばれる人材を育成してきたのか、その教育方針や研究環境の特長が語られています。先進的なテクノロジー開発に挑戦し続ける姿勢が、次世代のイノベーターを育む土壌となっていることが示唆されています。"
+    },
+    {
+      "id": "reddit_63761",
+      "source": "reddit",
+      "title": "SVGs and PDFs can both be interactive",
+      "url": "https://www.reddit.com/r/programming/comments/1u6dz52/svgs_and_pdfs_can_both_be_interactive/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/parametric-ink\"> /u/parametric-ink </a> <br /> <span><a href=\"https://vexlio.com/blog/svgs-and-pdfs-can-both-be-interactive/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u6dz52/svgs_and_pdfs_can_both_be_interactive/\">[comments]</a></span>",
+      "tags": [
+        "SVG",
+        "PDF",
+        "Interactive",
+        "Web Development"
+      ],
+      "fetched_at": "2026-06-16T08:48:14.486230+09:00",
+      "summary": "SVGとPDFは、どちらもインタラクティブな要素を埋め込むことが可能であり、単なる静的なドキュメントフォーマットを超えた活用が期待できます。SVGはWeb標準として広くサポートされており、JavaScriptとの連携により動的な描画やユーザー操作への応答性を実現できます。一方、PDFもJavaScriptを埋め込むことで、フォームの入力、ボタン操作、アニメーションなどのインタラクティブ機能を追加できます。これにより、プレゼンテーション、データ可視化、インタラクティブなレポートなど、多様なアプリケーションでの利用が広がります。"
+    }
+  ]
+}
