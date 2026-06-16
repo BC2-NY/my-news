@@ -1,0 +1,285 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T08:25:49.505294+09:00",
+  "articles": [
+    {
+      "id": "hn_48555993",
+      "source": "hackernews",
+      "title": "Running local models is good now",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "score": 927,
+      "comments": 398,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "ローカル実行",
+        "量子化",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-06-17T08:25:48.013467+09:00",
+      "summary": "ローカル環境で大規模言語モデル（LLM）を実行する技術が急速に進歩し、実用的なレベルに達しました。これにより、プライバシーの懸念なく、低遅延でモデルを利用できるようになります。特に、量子化技術やハードウェアアクセラレーションの進化により、個人用PCでも十分な性能を発揮するモデルが登場しており、開発者や研究者にとってローカル実行の選択肢が現実的になっています。"
+    },
+    {
+      "id": "hn_48553224",
+      "source": "hackernews",
+      "title": "SpaceX to buy Cursor for $60B",
+      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "score": 807,
+      "comments": 1231,
+      "raw_description": "",
+      "tags": [
+        "SpaceX",
+        "Cursor",
+        "AI",
+        "買収"
+      ],
+      "fetched_at": "2026-06-17T08:25:48.193951+09:00",
+      "summary": "SpaceXは、AIを活用したブラウザであるCursorを600億ドルで買収すると報じられています。Cursorは、コードの生成、編集、理解を支援するAI機能を統合しており、開発者の生産性向上に貢献することが期待されます。この買収により、SpaceXはAI分野への進出を加速させ、自社の技術ポートフォリオを強化する可能性があります。"
+    },
+    {
+      "id": "hatena_50754",
+      "source": "hatena",
+      "title": "japanese-tech-writing/SKILL",
+      "url": "https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d",
+      "score": 612,
+      "comments": 0,
+      "raw_description": "SKILL.md name japanese-tech-writing description 日本語の技術文書・書籍原稿の文章規範。整形（一文一行、引用ブロック、脚注、コラム記法）、段落と論証の構成（パラグラフライティング）、論証の厳密さ（ツッコミどころの除去）、読み手の負荷の管理、視点と語り、演出の抑制、LLM っぽい空句の禁止、冗長の排除を...",
+      "tags": [
+        "技術文書",
+        "文章規範",
+        "ライティング",
+        "日本語"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619237+09:00",
+      "summary": "このドキュメントは、日本語の技術文書や書籍原稿における文章規範「SKILL」を定義しています。一文一行や引用ブロック、脚注などの整形ルールに加え、パラグラフライティングによる論証構成、ツッコミどころの排除、読み手の負荷管理、視点・語りの統一、演出の抑制、LLM特有の空句禁止、冗長性の排除といった、より高度で読みやすい文章作成のための指針を提供します。これにより、技術文書の品質向上と読者理解の促進を目指します。"
+    },
+    {
+      "id": "hn_48553550",
+      "source": "hackernews",
+      "title": "Mechanical Watch (2022)",
+      "url": "https://ciechanow.ski/mechanical-watch/",
+      "score": 607,
+      "comments": 113,
+      "raw_description": "",
+      "tags": [
+        "機械式時計",
+        "伝統技術",
+        "時計工学",
+        "コレクターズアイテム"
+      ],
+      "fetched_at": "2026-06-17T08:25:48.924545+09:00",
+      "summary": "2022年に発表された機械式腕時計に関する記事です。この記事では、伝統的な機械式時計の構造、機能、およびその魅力について解説しています。現代のクォーツ式やスマートウォッチとは異なる、ゼンマイによる動力伝達や精緻な歯車の組み合わせがもたらす独特の体験や、職人の技術が凝縮された芸術性について掘り下げています。技術愛好家やコレクターにとって、機械式時計が持つ技術的・文化的な価値を再認識する機会となるでしょう。"
+    },
+    {
+      "id": "hatena_50677",
+      "source": "hatena",
+      "title": "2026年6月現在の Claude Code 開発フロー",
+      "url": "https://zenn.dev/arm_techblog/articles/7712cde19988c8",
+      "score": 314,
+      "comments": 0,
+      "raw_description": "こんにちは。フィッツプラスでフロントエンドエンジニアをしている梅津です。 2025年後半から Claude Code を使い始めて、少しずつ設定を育ててきました。気がつけば普段の開発フローがだいぶ固まってきたので、2026年6月時点の構成を紹介します。 紹介する内容は以下の通りです。 前提: 使っているツール 普段の開発フ...",
+      "tags": [
+        "Claude Code",
+        "開発フロー",
+        "フロントエンドエンジニア",
+        "AIツール"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619246+09:00",
+      "summary": "フィッツプラスのフロントエンドエンジニアが、2025年後半から利用しているClaude Codeの開発フローを2026年6月時点でまとめた記事です。Claude Codeの設定を継続的に改善し、普段の開発フローを確立した経緯と、その具体的な構成について解説しています。記事では、使用しているツールや開発プロセスについても触れており、Claude Codeを活用した効率的な開発手法に関心のあるエンジニアにとって参考になる情報を提供しています。"
+    },
+    {
+      "id": "hatena_15580",
+      "source": "hatena",
+      "title": "カーネギーメロン大学の有名講義『Intro to Database Systems』を全てのプログラマに見てほしい",
+      "url": "https://zenn.dev/kaseken/articles/3913ba30af4d46",
+      "score": 292,
+      "comments": 0,
+      "raw_description": "データベース (DB) について、どのように勉強していますか？ MySQLやPostgreSQL等の具体的なデータベース管理システム (DBMS) の仕様、効率的なSQLの書き方、あるいはスキーマ設計のベストプラクティス等の「DBの使い方」を教える技術書は、たくさん見かけます。そういった本を読んだことのある方は多いでしょう。 一方...",
+      "tags": [
+        "データベース",
+        "システム設計",
+        "SQL",
+        "カーネギーメロン大学"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619216+09:00",
+      "summary": "カーネギーメロン大学のデータベースシステム入門講義は、データベースの概念、設計、実装に関する包括的な知識を提供します。この講義は、単なるSQLの書き方や特定のDBMSの使い方に留まらず、データベースの内部構造や効率的なクエリ実行の原理を深く掘り下げています。プログラマがデータベースをより深く理解し、パフォーマンスの高いアプリケーションを構築するために不可欠な知識を提供するため、全ての開発者にとって価値のあるリソースです。"
+    },
+    {
+      "id": "hn_48561654",
+      "source": "hackernews",
+      "title": "GrapheneOS has been ported to Android 17 and official releases are coming soon",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "score": 227,
+      "comments": 93,
+      "raw_description": "",
+      "tags": [
+        "GrapheneOS",
+        "Android 17",
+        "Privacy",
+        "Security"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.831956+09:00",
+      "summary": "GrapheneOS, a privacy-focused mobile operating system, has been successfully ported to Android 17. This porting effort indicates GrapheneOS's commitment to supporting the latest Android versions, ensuring users can benefit from enhanced security and privacy features on newer devices. Official releases are anticipated soon, allowing users to upgrade to a more secure and private mobile experience."
+    },
+    {
+      "id": "hn_48557079",
+      "source": "hackernews",
+      "title": "Calvin and Hobbes and the price of integrity",
+      "url": "https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of",
+      "score": 222,
+      "comments": 93,
+      "raw_description": "",
+      "tags": [
+        "ソフトウェア開発",
+        "エンジニア倫理",
+        "技術的負債",
+        "誠実さ"
+      ],
+      "fetched_at": "2026-06-17T08:25:48.380497+09:00",
+      "summary": "この記事は、人気コミック「カルビンとホッブス」を題材に、技術者としての誠実さの重要性を論じています。主人公カルビンが、自分の行動に責任を持ち、倫理的な選択をすることの難しさと大切さを描くことで、開発現場における技術的負債の回避や、ユーザーへの誠実な対応といった、現代のエンジニアが直面する課題と通底する価値観を提示しています。短期的な利益や効率よりも、長期的な信頼と品質を優先する姿勢が、持続可能な技術開発の基盤となることを示唆しています。"
+    },
+    {
+      "id": "hn_48558018",
+      "source": "hackernews",
+      "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+      "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+      "score": 217,
+      "comments": 115,
+      "raw_description": "",
+      "tags": [
+        "Bash",
+        "HTTP",
+        "TCP",
+        "スクリプト"
+      ],
+      "fetched_at": "2026-06-17T08:25:48.562011+09:00",
+      "summary": "Bashの/dev/TCP機能を利用することで、curlコマンドを使わずにHTTPリクエストを送信できることが紹介されています。この機能は、TCPソケットへの直接的な読み書きを可能にし、HTTPプロトコルの詳細を理解しつつ、外部ツールの依存を減らしたい開発者にとって有用です。これにより、スクリプトのポータビリティが向上し、軽量なHTTPクライアントの実装が可能になります。"
+    },
+    {
+      "id": "hn_48558147",
+      "source": "hackernews",
+      "title": "Stop Using JWTs",
+      "url": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+      "score": 191,
+      "comments": 124,
+      "raw_description": "",
+      "tags": [
+        "JWT",
+        "セキュリティ",
+        "認証",
+        "Web開発"
+      ],
+      "fetched_at": "2026-06-17T08:25:49.102725+09:00",
+      "summary": "この記事は、JSON Web Token（JWT）の一般的な誤用と、それがもたらすセキュリティリスクについて解説しています。JWTはステートレスな認証メカニズムとして便利ですが、トークン自体に機密情報を含めたり、署名検証を怠ったりすると、認証情報の漏洩や改ざんにつながる可能性があります。より安全な代替手段として、セッションベースの認証や、より堅牢なトークン管理手法の導入を推奨しています。"
+    },
+    {
+      "id": "hatena_91703",
+      "source": "hatena",
+      "title": "スペースX、プログラミングAI開発の米新興Cursor買収　9.6兆円 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN16BC70W6A610C2000000/",
+      "score": 136,
+      "comments": 0,
+      "raw_description": "【ニューヨーク=川上梓】米スペースXは16日、プログラミング用の人工知能（AI）サービスを開発する米新興Cursor（カーソル）を600億ドル（約9兆6000億円）で買収すると発表した。プログラミング向けのAI開発を強化する狙いがある。スペースXは12日にナスダック市場に上場した。初日終値の時価総額は2兆ドル規模で史上最...",
+      "tags": [
+        "SpaceX",
+        "AI",
+        "Cursor",
+        "M&A"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619260+09:00",
+      "summary": "SpaceXが、プログラミング支援AIを開発する新興企業Cursorを約9.6兆円で買収しました。この買収は、SpaceXが自社のAI開発能力を強化し、特にソフトウェア開発分野でのAI活用を推進する狙いがあることを示唆しています。Cursorの技術は、コード生成やデバッグなどのプログラミングタスクを効率化する可能性があり、SpaceXのエンジニアリング能力向上に貢献すると考えられます。"
+    },
+    {
+      "id": "hn_48559188",
+      "source": "hackernews",
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "score": 120,
+      "comments": 122,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-17T08:25:48.743315+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_97418",
+      "source": "hatena",
+      "title": "エンジニアリング戦略の作り方 / Crafting Engineering Strategy",
+      "url": "https://speakerdeck.com/iwashi86/crafting-engineering-strategy",
+      "score": 112,
+      "comments": 0,
+      "raw_description": "https://forkwell.connpass.com/event/395423 の登壇資料です。",
+      "tags": [],
+      "fetched_at": "2026-06-17T08:25:47.619266+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_62775",
+      "source": "hatena",
+      "title": "AI「間違って全データを消してしまいました。申し訳ありません」 | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/claude-powered-agent-apparently-deletes-company-database-debases-itself-further-in-confession-gbq/",
+      "score": 57,
+      "comments": 0,
+      "raw_description": "2026年5月14日の記事を編集して再掲載しています。 9秒で何もかも消えてなくなるなんて…。 4月25日、SaaS（Software as a Service：クラウド経由でソフトウェアを提供するサービス）企業PocketOSの創業者が、X（旧Twitter）に記事として長文を投稿しました。 この投稿は、同社がAIコーディング支援ツールCursor（近々Spa...",
+      "tags": [
+        "AI",
+        "データ消失",
+        "SaaS",
+        "Cursor"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619253+09:00",
+      "summary": "SaaS企業PocketOSの創業者が、AIコーディング支援ツールCursorの誤操作により、同社の全データを削除してしまったと報告しました。このインシデントは、AIツールの利用におけるデータ管理の重要性と、予期せぬデータ損失のリスクを浮き彫りにしています。AIツールの進化に伴い、このような事態を防ぐためのバックアップ戦略や、操作ログの記録、権限管理の徹底が不可欠となります。"
+    },
+    {
+      "id": "hatena_72734",
+      "source": "hatena",
+      "title": "AIで女性を裸にしてしまうヌード化ツールがXアカウントで宣伝されている",
+      "url": "https://gigazine.net/news/20260616-ai-nudify-tools/",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "複数のX(旧Twitter)アカウントからなるネットワークが、AIを用いたヌード化サービスが規制を回避し、より多くのユーザーにリーチすることに役立っていると報道されています。 AI Supercharges Deepfake Nudes—Unleashing a New Form of Bullying Among Kids - WSJ https://www.wsj.com/tech/ai-deepfake-nudes-bullying-...",
+      "tags": [
+        "AI",
+        "ディープフェイク",
+        "プライバシー侵害",
+        "サイバーセキュリティ"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619272+09:00",
+      "summary": "AI技術が悪用され、同意なしに個人の画像をヌード化するディープフェイクツールがX（旧Twitter）上で拡散されています。これらのツールは、規制を回避しつつ広範なユーザーにリーチしており、特に若年層における新たな形のいじめやハラスメントとして問題視されています。この技術は、プライバシー侵害や精神的苦痛を引き起こす可能性があり、対策が急務となっています。"
+    },
+    {
+      "id": "hatena_46460",
+      "source": "hatena",
+      "title": "テクノロジー業界のリーダーたちが「魅力的なオタク」から「嫌な金持ち」へと変貌を遂げた経緯とは？",
+      "url": "https://gigazine.net/news/20260616-nerds-technology-industry-leader-terrifying-overlord/",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "近年は積極的にSNSで発信したり、ポッドキャストに出演したりするテクノロジー企業の創業者や幹部が増えていますが、中には世間一般の感覚とずれた発言をして炎上するケースもあります。テクノロジー系ブロガーのMr. Marketが、テクノロジー業界のリーダーたちが「魅力的なオタク」から「嫌な金持ち」に変貌してしまった...",
+      "tags": [
+        "テクノロジー業界",
+        "リーダーシップ",
+        "企業文化",
+        "SNS炎上"
+      ],
+      "fetched_at": "2026-06-17T08:25:47.619278+09:00",
+      "summary": "かつて「魅力的なオタク」として親しまれたテクノロジー業界のリーダーたちが、近年、公の場での発言やSNSでの振る舞いを通じて「嫌な金持ち」というイメージに変貌しつつある。これは、一部の経営者が世間一般の感覚から乖離した言動により炎上するケースが増加している現状を反映している。この変化は、テクノロジー企業の社会的影響力の増大と、リーダーたちのコミュニケーション戦略の課題を示唆している。"
+    },
+    {
+      "id": "reddit_30571",
+      "source": "reddit",
+      "title": "Why is Meta destroying its engineering organization? Great breakdown",
+      "url": "https://www.reddit.com/r/programming/comments/1u7o7s0/why_is_meta_destroying_its_engineering/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/West-Chard-1474\"> /u/West-Chard-1474 </a> <br /> <span><a href=\"https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u7o7s0/why_is_meta_destroying_its_engineering/\">[comments]</a></span>",
+      "tags": [
+        "Meta",
+        "エンジニアリング組織",
+        "人員削減",
+        "AI開発"
+      ],
+      "fetched_at": "2026-06-17T08:25:49.321008+09:00",
+      "summary": "Metaは、エンジニアリング組織の再編を進める中で、一部で「破壊」と見なされるような大規模な人員削減と組織変更を行っています。この動きは、同社がAI開発に注力し、コスト削減を目指す戦略の一環と考えられます。しかし、経験豊富なエンジニアの流出や、組織文化への影響が懸念されており、長期的な技術力やイノベーションへの影響が注目されています。"
+    }
+  ]
+}
