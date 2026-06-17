@@ -1,0 +1,285 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T08:27:52.172712+09:00",
+  "articles": [
+    {
+      "id": "hn_48571081",
+      "source": "hackernews",
+      "title": "Lore – Open source version control system designed for scalability",
+      "url": "https://lore.org/",
+      "score": 893,
+      "comments": 494,
+      "raw_description": "",
+      "tags": [
+        "バージョン管理",
+        "オープンソース",
+        "スケーラビリティ",
+        "Lore"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.609400+09:00",
+      "summary": "Loreは、スケーラビリティを重視して設計された新しいオープンソースのバージョン管理システムです。分散型アーキテクチャを採用し、大規模なコードベースや多数のコントリビューターを効率的に管理することを目指しています。これにより、従来のバージョン管理システムが抱えるパフォーマンスの課題を解決し、開発チームの生産性向上に貢献することが期待されます。"
+    },
+    {
+      "id": "hn_48567759",
+      "source": "hackernews",
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "score": 744,
+      "comments": 373,
+      "raw_description": "",
+      "tags": [
+        "GLM-5.2",
+        "LLM",
+        "オープンウェイトモデル",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-06-18T08:27:51.256750+09:00",
+      "summary": "GLM-5.2は、Artificial Analysisのリーダーボードでトップに立った新しいオープンウェイトモデルです。このモデルは、大規模言語モデル（LLM）の性能評価において、既存のオープンモデルを凌駕する能力を示しました。オープンソースコミュニティにおけるLLM開発の進展と、より高性能なモデルへのアクセス拡大という点で重要です。"
+    },
+    {
+      "id": "hn_48565498",
+      "source": "hackernews",
+      "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+      "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+      "score": 287,
+      "comments": 315,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "輸出規制",
+        "国家安全保障",
+        "米中関係"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.934869+09:00",
+      "summary": "米国政府は、中国のAI企業であるDeepSeekのブラックリストへの掲載を見送りました。一方で、100社以上の企業が国家安全保障上のリスクと判断され、輸出規制の対象となる可能性があります。この決定は、米中間の技術覇権争いにおけるAI分野の重要性と、国家安全保障を考慮した輸出管理のバランスを示唆しています。"
+    },
+    {
+      "id": "hatena_07390",
+      "source": "hatena",
+      "title": "ローカルLLMをいつ使うべきか？",
+      "url": "https://zenn.dev/sompojapan_dx/articles/74624afa03040c",
+      "score": 279,
+      "comments": 0,
+      "raw_description": "TL;DR 「ローカルLLM＝コストが安い」はほとんどの場合で誤りです。2026年時点での損益分岐点はかなり高く、GPUを遊ばせると単価はAPIより高くつきます。 それでもローカルLLMが勝つ領域はあります。ガバナンス・タスク特化での精度・レイテンシ の3軸です。 実例として、RAGチャットボットの軽量な判定ステップを Gemma...",
+      "tags": [
+        "ローカルLLM",
+        "コスト",
+        "ガバナンス",
+        "レイテンシ"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443722+09:00",
+      "summary": "ローカルLLMの利用は、APIと比較してコスト面で有利とは限らず、2026年時点でも損益分岐点は高いと予測されています。GPUリソースの非効率な利用はAPI利用よりも高コストになる可能性があります。しかし、ガバナンス、タスク特化による精度向上、低レイテンシが求められる特定のユースケースにおいては、ローカルLLMが依然として有効な選択肢となります。例として、RAGチャットボットにおける軽量な判定ステップへのGemmaの適用が挙げられます。"
+    },
+    {
+      "id": "hatena_09150",
+      "source": "hatena",
+      "title": "Googleが公開したAIエージェント向け知識共有フォーマット『OKF』を触ってみた | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/open-knowledge-format-okf-v01-guide/",
+      "score": 246,
+      "comments": 0,
+      "raw_description": "こんにちは、せーのです。 社内ドキュメントを AI エージェントに渡したい、という相談をよく受けます。Wiki もある、Notion もある、共有ドライブもある、という状態で「どう構造化すればいいの？」と悩んでいる方、多いと思います。 2026年6月12日、Google Cloud が Open Knowledge Format（OKF） v0.1 を GitHub で公...",
+      "tags": [
+        "AIエージェント",
+        "知識共有",
+        "OKF",
+        "Google Cloud"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443699+09:00",
+      "summary": "Google Cloudは、AIエージェントが社内ドキュメントなどの知識を効率的に共有・活用するための新しいフォーマット「Open Knowledge Format (OKF)」v0.1をGitHubで公開しました。OKFは、WikiやNotion、共有ドライブといった既存の知識管理ツールで構造化が難しいドキュメントを、AIエージェントが理解しやすい形式に変換することを目指しています。これにより、AIエージェントによる情報検索やタスク実行の精度向上が期待されます。"
+    },
+    {
+      "id": "hatena_14543",
+      "source": "hatena",
+      "title": "会社員のためのCodex資料作成術：Skillで統一感のあるプレゼン資料を作る実践ガイド",
+      "url": "https://zenn.dev/acntechjp/articles/c2bff25e230539",
+      "score": 196,
+      "comments": 0,
+      "raw_description": "はじめに 最近、業務資料の作成にも生成AIを活用する機会が増えてきました。 ただし、AIにいきなり「プレゼン資料を作って」と依頼しても、実務でそのまま使える資料になるとは限りません。 特に会社員が作る資料では、以下のような点が重要になります。 スライド全体のトーンが揃っていること メッセージが分かりやすい...",
+      "tags": [
+        "生成AI",
+        "Codex",
+        "プレゼン資料作成",
+        "業務効率化"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443677+09:00",
+      "summary": "本記事は、会社員が生成AIツールCodex（Skill）を活用して、統一感のある実用的なプレゼンテーション資料を作成するための実践ガイドです。AIに直接資料作成を依頼するだけでは、実務でそのまま使えるレベルにならない場合があるため、スライド全体のトーン統一やメッセージの明確化といった、会社員が重視するポイントを踏まえた具体的な活用方法を解説しています。これにより、効率的かつ質の高い資料作成が可能になります。"
+    },
+    {
+      "id": "hn_48556561",
+      "source": "hackernews",
+      "title": "How we run Firecracker VMs inside EC2 and start browsers in less than 1s",
+      "url": "https://browser-use.com/posts/firecracker-browser-infra",
+      "score": 172,
+      "comments": 112,
+      "raw_description": "",
+      "tags": [
+        "Firecracker",
+        "EC2",
+        "マイクロVM",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-06-18T08:27:51.426107+09:00",
+      "summary": "Amazon EC2上でFirecrackerマイクロVMを効率的に実行し、ブラウザ起動を1秒未満で実現する技術について解説しています。Firecrackerは軽量な仮想化技術であり、EC2インスタンス内でこれを活用することで、迅速なアプリケーションデプロイメントやスケーリングが可能になります。これにより、サーバーレスコンピューティングやコンテナオーケストレーション環境におけるパフォーマンスとコスト効率の向上が期待されます。"
+    },
+    {
+      "id": "hn_48577208",
+      "source": "hackernews",
+      "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "score": 148,
+      "comments": 90,
+      "raw_description": "",
+      "tags": [
+        "OpenAI",
+        "AI開発",
+        "財務状況",
+        "ビジネスモデル"
+      ],
+      "fetched_at": "2026-06-18T08:27:51.093598+09:00",
+      "summary": "OpenAIは年間数十億ドルの損失を計上していることが、流出した財務文書により明らかになりました。同社はChatGPTのようなAIモデルの開発と運用に多額の投資を行っており、そのコストが収益を上回る状況が続いています。この財務状況は、AI開発における莫大なコストと、持続可能なビジネスモデル構築の課題を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_48572553",
+      "source": "hackernews",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "url": "https://github.com/Adam-CAD/CADAM",
+      "score": 138,
+      "comments": 74,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "CAD",
+        "オープンソース",
+        "設計"
+      ],
+      "fetched_at": "2026-06-18T08:27:51.763863+09:00",
+      "summary": "Adamは、オープンソースのAI CADソフトウェアです。機械学習モデルを活用して、設計プロセスを自動化・効率化することを目指しています。これにより、エンジニアやデザイナーは、より複雑な設計に集中できるようになり、開発サイクルの短縮が期待されます。オープンソースであるため、コミュニティによる貢献やカスタマイズも可能です。"
+    },
+    {
+      "id": "hatena_94858",
+      "source": "hatena",
+      "title": "AntigravityとローカルLLMをMCPで繋ぐ！完全無料でクオータを99%削減する連携術",
+      "url": "https://zenn.dev/kojimaru/articles/2864ef6ce8b85c",
+      "score": 66,
+      "comments": 0,
+      "raw_description": "はじめに 生成AIをヘビーに使い倒す開発者や学習者にとって、最大の敵は「APIクオータ（利用制限）の枯渇」ではないでしょうか。 私はAIアシスタント「Antigravity（Gemini）」の優秀な対話UI（特に出力に対してピンポイントでコメントできる機能）が大好きで、思考整理やブログの下書きに使い込んでいました。 しかし、...",
+      "tags": [
+        "ローカルLLM",
+        "生成AI",
+        "APIクオータ",
+        "MCP"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443715+09:00",
+      "summary": "この記事では、ローカルLLMとAIアシスタント「Antigravity（Gemini）」をMCP（Message Queueing Telemetry Transport）で連携させる方法を紹介しています。APIクオータ枯渇という生成AI利用者の課題に対し、ローカルLLMを活用することで、外部APIへの依存を減らし、実質無料で利用可能になる点が重要です。これにより、開発者や学習者はコストを大幅に削減しつつ、Antigravityの優れた対話UI機能を活用できます。"
+    },
+    {
+      "id": "hatena_45318",
+      "source": "hatena",
+      "title": "Google、Gemini専用設計の新スマスピ「Google Home スピーカー」を1万6800円で発売へ",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/17/news124.html",
+      "score": 58,
+      "comments": 0,
+      "raw_description": "通信はWi-Fi 6（802.11ax）、Bluetooth 5.4に対応するほか、Thread 1.3のボーダールータ機能を備え、Matterのハブとしても機能する。「Google TV Streamer」とも連携し、最大2台をペアリングすると「リビングを空間サラウンドを備えたミニホームシアターに変えることができる」としている。 最大の特徴は、従来のGoogle...",
+      "tags": [
+        "Google Home スピーカー",
+        "Gemini",
+        "スマートホーム",
+        "Matter"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443729+09:00",
+      "summary": "Googleは、Geminiモデル専用に設計された新しいスマートスピーカー「Google Home スピーカー」を16,800円で発売します。このスピーカーはWi-Fi 6、Bluetooth 5.4、Thread 1.3に対応し、Matterハブとしても機能します。Google TV Streamerとの連携や、最大2台のペアリングによる空間サラウンド機能も特徴です。Geminiモデル専用設計により、高度なAI機能とスマートホーム連携の強化が期待されます。"
+    },
+    {
+      "id": "hatena_30018",
+      "source": "hatena",
+      "title": "小さくはじめるSLI/SLO ～育てながら組織に定着させる実践知～ / Starting Small with SLI/SLOs: Building Adoption Through Continuous Growth",
+      "url": "https://speakerdeck.com/nari_ex/slos-building-adoption-through-continuous-growth",
+      "score": 47,
+      "comments": 0,
+      "raw_description": "Road to SRE NEXT 2026 @神戸 の登壇資料です。 https://sre-lounge.connpass.com/event/390064/",
+      "tags": [],
+      "fetched_at": "2026-06-18T08:27:50.443741+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48577374",
+      "source": "hackernews",
+      "title": "Storied Colors – a catalogue of named colors",
+      "url": "https://storiedcolors.com/",
+      "score": 43,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-18T08:27:50.774207+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48576395",
+      "source": "hackernews",
+      "title": "Loreline – Tools for writing interactive fiction",
+      "url": "https://loreline.app/en/",
+      "score": 40,
+      "comments": 4,
+      "raw_description": "",
+      "tags": [
+        "インタラクティブフィクション",
+        "ゲーム開発",
+        "ストーリーテリング",
+        "Loreline"
+      ],
+      "fetched_at": "2026-06-18T08:27:51.587423+09:00",
+      "summary": "Lorelineは、インタラクティブフィクション（IF）を作成するためのツール群です。GUIベースのエディタや、Pythonベースのスクリプト言語を提供し、複雑な物語構造やゲームロジックの実装を容易にします。これにより、開発者はコーディングスキルに依存せず、よりリッチで没入感のあるインタラクティブな物語体験を創造することが可能になります。"
+    },
+    {
+      "id": "hatena_72151",
+      "source": "hatena",
+      "title": "【完全ローカル】AIに記憶を持たせる5ステップ — Ollama×RAGでつくる長期記憶チャットボット - Qiita",
+      "url": "https://qiita.com/hatsukaze/items/192403c9ff6a433fe0b6",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "はじめに こんにちは。開発部の雨です。 今回は、ローカル環境で動く「長期記憶付きチャットボット」をゼロから実装する方法を紹介します。 最初はシンプルに「全会話履歴をそのままLLMに渡す」素朴な実装からスタートし、その問題点を実際に確認しながら、RAG（Retrieval-Augmented Generation）とChromaDBを使って段階...",
+      "tags": [
+        "Ollama",
+        "RAG",
+        "LLM",
+        "ローカルAI"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443708+09:00",
+      "summary": "本記事では、OllamaとRAG（Retrieval-Augmented Generation）を組み合わせ、ローカル環境で長期記憶を持つチャットボットを構築する手順を解説しています。全会話履歴をそのまま渡す単純な方法から始め、その限界を認識した上で、ChromaDBを用いたRAGの実装により、より効率的で高度な記憶メカニズムを段階的に構築する方法を示しています。これにより、LLMのコンテキストウィンドウの制約を超えた、継続的な対話と情報保持が可能になります。"
+    },
+    {
+      "id": "hatena_49637",
+      "source": "hatena",
+      "title": "自称AI絵師がイラストレーターとして企業に応募してくるケースが本当に増えているらしい→採用側が頭を抱えるエピソードが次々と寄せられる",
+      "url": "https://togetter.com/li/2710391",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "神楽月はじめ @november_1 パソコンを奪われて紙と鉛筆を渡されて描けと言われたら アナログ絵師：紙と鉛筆で絵を描く（得意分野） デジタル絵師：紙と鉛筆で絵を描く（余裕） AI絵師：紙と鉛筆を前にして泣く、紙を破り捨て鉛筆を折る x.com/jewerise/statu… 2026-06-13 14:18:42 宙燻⛲️ @jewerise 絵師はパソコン奪わ...",
+      "tags": [
+        "AIイラスト",
+        "採用",
+        "クリエイティブ業界",
+        "人材育成"
+      ],
+      "fetched_at": "2026-06-18T08:27:50.443735+09:00",
+      "summary": "AIによる画像生成技術の発展に伴い、AIでイラストを制作する応募者がイラストレーター職に増加しており、採用担当者が対応に苦慮する事例が報告されています。AI絵師はデジタルツールに慣れている一方、アナログ環境での制作能力に課題が見られるケースがあり、従来のイラストレーター職の採用基準やスキルセットの見直しが求められています。この傾向は、クリエイティブ業界におけるAI技術の浸透と、それに伴う人材育成・採用戦略の変革を示唆しています。"
+    },
+    {
+      "id": "reddit_67862",
+      "source": "reddit",
+      "title": "RFC 10008: The HTTP QUERY Method",
+      "url": "https://www.reddit.com/r/programming/comments/1u84m2g/rfc_10008_the_http_query_method/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nimelrian\"> /u/Nimelrian </a> <br /> <span><a href=\"https://www.rfc-editor.org/info/rfc10008/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u84m2g/rfc_10008_the_http_query_method/\">[comments]</a></span>",
+      "tags": [
+        "HTTP",
+        "RFC",
+        "QUERY Method",
+        "Web API"
+      ],
+      "fetched_at": "2026-06-18T08:27:51.977997+09:00",
+      "summary": "RFC 10008としてHTTP QUERYメソッドが提案されました。このメソッドは、サーバーリソースの状態を変更せずに情報を取得することを目的としており、GETメソッドのセマンティクスを拡張するものです。特に、複雑なクエリパラメータや、リソースの特定のビューを取得する際に有用性が期待されます。これにより、API設計の柔軟性が向上し、より効率的なデータ取得が可能になります。"
+    }
+  ]
+}
