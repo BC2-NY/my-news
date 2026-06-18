@@ -1,0 +1,313 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T08:47:45.630483+09:00",
+  "articles": [
+    {
+      "id": "hn_48585746",
+      "source": "hackernews",
+      "title": "Swiss parliament lifts ban on new nuclear power plants",
+      "url": "https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
+      "score": 656,
+      "comments": 508,
+      "raw_description": "",
+      "tags": [
+        "原子力発電",
+        "スイス",
+        "エネルギー政策",
+        "脱炭素"
+      ],
+      "fetched_at": "2026-06-19T08:47:45.088231+09:00",
+      "summary": "スイス連邦議会は、新規原子力発電所の建設禁止を解除しました。これにより、エネルギー供給の安定化と脱炭素化目標の達成に向けた新たな選択肢が生まれる可能性があります。ただし、安全基準や廃棄物処理などの課題への対応が引き続き重要となります。"
+    },
+    {
+      "id": "hn_48583928",
+      "source": "hackernews",
+      "title": "I found 10k GitHub repositories distributing Trojan malware",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "score": 629,
+      "comments": 143,
+      "raw_description": "",
+      "tags": [
+        "マルウェア",
+        "GitHub",
+        "セキュリティ",
+        "サプライチェーン攻撃"
+      ],
+      "fetched_at": "2026-06-19T08:47:44.094861+09:00",
+      "summary": "セキュリティ研究者が、GitHub上の1万件以上のリポジトリでトロイの木馬型マルウェアが配布されていることを発見しました。これらのリポジトリは、正規のソフトウェアに見せかけた悪意のあるコードを含んでおり、開発者の環境を侵害する可能性があります。この発見は、オープンソースソフトウェアのサプライチェーンにおけるセキュリティリスクの深刻さを示唆しており、コードの検証と信頼できるソースからの取得の重要性を強調しています。"
+    },
+    {
+      "id": "hn_48585866",
+      "source": "hackernews",
+      "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
+      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
+      "score": 234,
+      "comments": 216,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-19T08:47:44.886614+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_18294",
+      "source": "hatena",
+      "title": "同じプロンプトを何度も書きたくないので、AIとのやりとりを棚卸しする仕組み作った - LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/prompt-log-driven-ai-workflow",
+      "score": 126,
+      "comments": 0,
+      "raw_description": "アイキャッチ はじめに こんにちは。バクラク申請・経費精算の開発をしているyoheiです。 最近、自宅寿司にハマっており寿司アカデミーに通うかほんの少し迷ってます。 近ごろはもっぱらAIを使ってコーディングしているのですが、同じような指示を書いてるな〜と思うことありませんか？ PRを作って、レビューコメントを...",
+      "tags": [
+        "AI",
+        "プロンプトエンジニアリング",
+        "開発効率化",
+        "LLM"
+      ],
+      "fetched_at": "2026-06-19T08:47:43.638250+09:00",
+      "summary": "LayerXのエンジニアが、AIとの対話で同じプロンプトを繰り返し入力する手間を省くための仕組みを開発しました。この仕組みは、過去のプロンプト履歴を棚卸しし、再利用可能な形で管理することで、AI活用時の効率を大幅に向上させます。これにより、開発者はより本質的なタスクに集中できるようになり、AIによる開発支援の生産性向上に貢献します。"
+    },
+    {
+      "id": "hn_48584484",
+      "source": "hackernews",
+      "title": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls/",
+      "score": 84,
+      "comments": 47,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "KT",
+        "Mythos"
+      ],
+      "fetched_at": "2026-06-19T08:47:44.686964+09:00",
+      "summary": "韓国の通信大手KTが、AI企業Anthropicの「Mythos」プロジェクトに関する論争の中心にいることが明らかになりました。KTはAnthropicへの出資を通じて、同社のAI技術開発に深く関与しており、今回の論争は、AI開発における倫理的・技術的な課題を浮き彫りにするものです。この件は、AIの進化と社会実装における透明性や責任の重要性を示唆しています。"
+    },
+    {
+      "id": "hatena_20589",
+      "source": "hatena",
+      "title": "Epic GamesがGitの死角を突く。バージョン管理「Lore」公開",
+      "url": "https://joho-todai.com/epic-games-lore-version-control/",
+      "score": 76,
+      "comments": 0,
+      "raw_description": "※ ◎=ネイティブ対応 △=制限付き対応 ×=非対応。LoreはUEFN（Unreal Editor for Fortnite）内蔵VCSとして運用実績あり。pre-1.0 Gitの設計に正面から答える設計意図はわかりやすい。GitとPerforceの長所を選び取り、短所を避ける。 集中型のサーバーを持ちつつ、リポジトリの状態をマークルツリーと不変のリビジョンチェ...",
+      "tags": [
+        "バージョン管理",
+        "Git",
+        "Epic Games",
+        "Lore"
+      ],
+      "fetched_at": "2026-06-19T08:47:43.638257+09:00",
+      "summary": "Epic Gamesは、バージョン管理システム「Lore」を公開しました。これは、Gitの設計上の課題に対処し、GitとPerforceの長所を組み合わせることを目指しています。Loreは、集中型サーバーを持ちながらも、マークルツリーと不変リビジョンを使用してリポジトリの状態を管理し、UEFN（Unreal Editor for Fortnite）での運用実績があります。これにより、大規模プロジェクトにおける効率的なバージョン管理が期待されます。"
+    },
+    {
+      "id": "hatena_58197",
+      "source": "hatena",
+      "title": "プロジェクト失敗につながる地雷ワード",
+      "url": "https://speakerdeck.com/bunnchinn3/puroziekutoshi-bai-nitunagarudi-lei-wado",
+      "score": 70,
+      "comments": 0,
+      "raw_description": "Sponsored · Your Podcast. Everywhere. Effortlessly. Share. Educate. Inspire. Entertain. You do you. We'll handle the rest. →",
+      "tags": [
+        "プロジェクトマネジメント",
+        "リスク管理",
+        "コミュニケーション",
+        "地雷ワード"
+      ],
+      "fetched_at": "2026-06-19T08:47:43.638203+09:00",
+      "summary": "本記事は、プロジェクトマネジメントにおいて、意図せずプロジェクトの失敗を招く可能性のある「地雷ワード」について解説しています。これらの言葉は、曖昧な指示、責任の回避、過度な楽観主義などを内包しており、関係者の認識のずれや誤解を生み、結果としてプロジェクトの遅延や品質低下、さらには失敗へとつながるリスクを高めます。プロジェクトを成功に導くためには、これらの言葉の使用を避け、具体的かつ明確なコミュニケーションを心がけることが重要です。"
+    },
+    {
+      "id": "hn_48547969",
+      "source": "hackernews",
+      "title": "Cell-based architecture for resilient payment systems",
+      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
+      "score": 62,
+      "comments": 20,
+      "raw_description": "",
+      "tags": [
+        "セルベースアーキテクチャ",
+        "決済システム",
+        "回復力",
+        "システム設計"
+      ],
+      "fetched_at": "2026-06-19T08:47:44.488254+09:00",
+      "summary": "セルベースアーキテクチャは、決済システムにおける回復力を高めるためのアプローチです。このアーキテクチャでは、システム全体を独立した小さなセルに分割し、各セルが特定の機能やデータセットを担当します。これにより、一部のセルで障害が発生しても、他のセルへの影響を最小限に抑え、システム全体の可用性を維持することが可能になります。決済処理のような高い信頼性が求められるシステムにおいて、障害発生時の影響範囲を限定し、迅速な復旧を実現するための有効な設計パターンと言えます。"
+    },
+    {
+      "id": "hatena_73822",
+      "source": "hatena",
+      "title": "「正規表現が0.002ミリ秒遅かった」という理由だけで、全角/半角判定をすべて『ビット演算』で実装した話 - Qiita",
+      "url": "https://qiita.com/Shiro_Shihi/items/d18bf49f0c7a168baa19",
+      "score": 50,
+      "comments": 0,
+      "raw_description": "この記事は Qiita Tech Festa 2026「この記事誰得？ 私しか得しないニッチな技術で記事投稿！」 の参加記事です。 はじめに みなさん、文字列の全角・半角判定、どうやってますか？ 大半の人はこう答えるでしょう。 「正規表現で /[^\\x20-\\x7E]/ とか使えば一発じゃん」 はい、大正解です。実務では絶対にそうしてくださ...",
+      "tags": [
+        "パフォーマンスチューニング",
+        "ビット演算",
+        "全角半角判定",
+        "正規表現"
+      ],
+      "fetched_at": "2026-06-19T08:47:43.638270+09:00",
+      "summary": "この記事は、文字列の全角・半角判定において、正規表現よりもビット演算を用いることでパフォーマンスを向上させた事例を紹介しています。正規表現による判定がわずか0.002ミリ秒遅延したという微細な差を改善するために、文字コードのビットパターンを利用した効率的な判定ロジックを実装しました。このアプローチは、パフォーマンスが極めて重要視される場面や、特定の文字集合に対する高速な判定が求められる場合に有効な技術的選択肢となり得ます。"
+    },
+    {
+      "id": "hn_48592163",
+      "source": "hackernews",
+      "title": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "score": 41,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-19T08:47:43.886613+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_31267",
+      "source": "hatena",
+      "title": "Pythonパッケージマネージャー「uv」、脆弱性確認コマンド「uv audit」をプレビュー提供 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/06/uv-audit-preview",
+      "score": 34,
+      "comments": 0,
+      "raw_description": "OpenAI傘下のAstralは2026年6月8日、Pythonパッケージマネージャー「uv」に、依存関係の脆弱性を確認する新コマンドuv auditと、インストール時に既知のマルウェア情報を照合する機能を追加したと発表した。いずれも現時点ではプレビュー機能で、設計の反復に伴い破壊的変更が入る可能性があるとしている。 Vulnerabilit...",
+      "tags": [],
+      "fetched_at": "2026-06-19T08:47:43.638226+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48591066",
+      "source": "hackernews",
+      "title": "Zork name origin got an update on Wikipedia",
+      "url": "https://www.dpolakovic.space/blogs/zork-part2#update",
+      "score": 32,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-19T08:47:45.286750+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_68988",
+      "source": "hatena",
+      "title": "Cursor、Gitホスティング「Origin」発表　SpaceXによる買収発表直後に",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2606/17/2000000100/",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "Originは、チームとAIエージェントがコードをホスティングし、レビュー・共同作業するための基盤で、「エージェント時代のGitフォージ」をうたうプラットフォーム。 同日に公式サイトを公開し、ウェイトリストへの登録を呼び掛けている。 Cursorを運営する米Anysphereをめぐっては、SpaceXが600億ドル（約9.6兆円）で買...",
+      "tags": [],
+      "fetched_at": "2026-06-19T08:47:43.638243+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_37442",
+      "source": "hatena",
+      "title": "【特集】 壊れて不要になったモニター、どう処分する？ 2つの方法を比較してみた",
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2118387.html",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "モニター処分",
+        "リサイクル",
+        "産業廃棄物処理",
+        "環境負荷"
+      ],
+      "fetched_at": "2026-06-19T08:47:43.638235+09:00",
+      "summary": "壊れて不要になったモニターの処分方法として、リサイクルと産業廃棄物処理の2つの選択肢が紹介されています。リサイクルは環境負荷を低減し、資源の有効活用に繋がる一方、産業廃棄物処理は専門業者に依頼することで確実かつ安全に処分できます。どちらの方法を選択するかは、モニターの状態や処分量、コストなどを考慮して決定する必要があります。"
+    },
+    {
+      "id": "hn_48592832",
+      "source": "hackernews",
+      "title": "The AirPods Effect",
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "score": 16,
+      "comments": 10,
+      "raw_description": "",
+      "tags": [
+        "AirPods",
+        "ワイヤレスイヤホン",
+        "Apple",
+        "市場トレンド"
+      ],
+      "fetched_at": "2026-06-19T08:47:44.291625+09:00",
+      "summary": "AppleのAirPodsは、ワイヤレスイヤホンの市場を劇的に変え、その普及を加速させました。Bluetooth接続の容易さ、ノイズキャンセリング機能、そしてAppleエコシステムとのシームレスな連携が、ユーザー体験を向上させ、競合他社にも同様の製品開発を促しました。この成功は、オーディオデバイスのポータビリティと機能性を再定義し、現代のモバイルライフスタイルに不可欠なアクセサリーとしての地位を確立しました。"
+    },
+    {
+      "id": "hatena_03060",
+      "source": "hatena",
+      "title": "Webサーバー「nginx」に3件の脆弱性、「CVSS 4.0」の基本値は最高で10点満点中「9.2」／v1.30.3/v1.31.2への更新を",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2118062.html",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-19T08:47:43.638264+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_82554",
+      "source": "reddit",
+      "title": "Announcing TypeScript 7.0 RC",
+      "url": "https://www.reddit.com/r/programming/comments/1u97we9/announcing_typescript_70_rc/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DanielRosenwasser\"> /u/DanielRosenwasser </a> <br /> <span><a href=\"https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u97we9/announcing_typescript_70_rc/\">[comments]</a></span>",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Frontend",
+        "Programming"
+      ],
+      "fetched_at": "2026-06-19T08:47:45.630420+09:00",
+      "summary": "TypeScript 7.0 RCがリリースされました。このバージョンでは、新しい構文や機能が導入され、開発者の生産性向上とコードの堅牢性強化を目指しています。特に、ジェネリクスや型推論の改善により、より複雑な型定義が容易になり、大規模開発における保守性が向上することが期待されます。また、パフォーマンスの最適化も含まれており、コンパイル時間の短縮が図られています。"
+    },
+    {
+      "id": "reddit_21381",
+      "source": "reddit",
+      "title": "How I found 10,000 GitHub repositories distributing Trojan malware",
+      "url": "https://www.reddit.com/r/programming/comments/1u96myu/how_i_found_10000_github_repositories/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlondieCoder\"> /u/BlondieCoder </a> <br /> <span><a href=\"https://orchidfiles.com/github-repositories-distributing-malware/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u96myu/how_i_found_10000_github_repositories/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-06-19T08:47:45.630442+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_96098",
+      "source": "reddit",
+      "title": "Emacs 31 Is Around the Corner: The Changes I'm Already Daily Driving",
+      "url": "https://www.reddit.com/r/programming/comments/1u96mlc/emacs_31_is_around_the_corner_the_changes_im/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlondieCoder\"> /u/BlondieCoder </a> <br /> <span><a href=\"https://www.rahuljuliato.com/posts/emacs-31-around-the-corner\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u96mlc/emacs_31_is_around_the_corner_the_changes_im/\">[comments]</a></span>",
+      "tags": [
+        "Emacs",
+        "Emacs 31",
+        "開発環境",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-06-19T08:47:45.630451+09:00",
+      "summary": "Emacs 31のリリースが近づいており、開発版では既に多くの新機能が導入されています。特に注目すべきは、パフォーマンスの向上、新しいパッケージマネージャーの導入、そしてUI/UXの改善です。これらの変更は、Emacsの現代的な開発環境としての魅力を高め、より効率的なコーディング体験を提供することを目指しています。開発者はこれらの新機能を活用することで、生産性の向上を期待できます。"
+    },
+    {
+      "id": "reddit_60436",
+      "source": "reddit",
+      "title": "Keeping the Internet fast and secure- introducing Merkle Tree Certificates",
+      "url": "https://www.reddit.com/r/programming/comments/1u9czhg/keeping_the_internet_fast_and_secure_introducing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CircumspectCapybara\"> /u/CircumspectCapybara </a> <br /> <span><a href=\"https://blog.cloudflare.com/bootstrap-mtc/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1u9czhg/keeping_the_internet_fast_and_secure_introducing/\">[comments]</a></span>",
+      "tags": [
+        "Merkle Tree Certificates",
+        "TLS",
+        "証明書",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-19T08:47:45.630457+09:00",
+      "summary": "Cloudflareは、インターネットの速度とセキュリティを向上させるための新しい技術として、Merkle Tree Certificates (MTC) を発表しました。MTCは、証明書発行プロセスを効率化し、証明書の検証を高速化することで、TLSハンドシェイクの遅延を削減します。これにより、特に大規模な証明書管理が必要なサービスにおいて、パフォーマンスの向上とセキュリティリスクの低減が期待されます。この技術は、インターネットインフラストラクチャの信頼性とスケーラビリティを高める上で重要な進歩となります。"
+    }
+  ]
+}
