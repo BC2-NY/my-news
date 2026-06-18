@@ -22,8 +22,8 @@ HATENA_FEEDS = [
 ]
 HATENA_TOP_N = 8  # はてブから取得する記事数
 HN_TOP_N   = 8    # HN から取得する記事数
-REDDIT_SUBS = ["programming", "webdev", "MachineLearning", "artificial"]
-REDDIT_TOP_N = 1  # 各サブレから1件ずつ（4サブレ = 4件）
+REDDIT_SUBS = ["programming"]
+REDDIT_TOP_N = 4  # 各サブレから4件ずつ（1サブレ = 4件）
 
 
 # ──────────────────────────────────────────────────────────────────────
