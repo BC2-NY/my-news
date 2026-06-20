@@ -1,0 +1,341 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T08:11:57.672285+09:00",
+  "articles": [
+    {
+      "id": "hatena_55599",
+      "source": "hatena",
+      "title": "【AI駆動開発】AIに「図を描いて」と頼むと“それっぽいけど使えない図”が出てくる問題を、draw.io生成スキルで倒した - Qiita",
+      "url": "https://qiita.com/enomoso_pm/items/68d1a29728e5ee339779",
+      "score": 499,
+      "comments": 0,
+      "raw_description": "はじめに 受託開発やSESの現場にいると、とにかく「図」を作る場面が多いんですよね。 業務フロー図、システム構成図、ER図、シーケンス図、画面遷移図、体制図、CI/CDパイプライン……。設計書のページをめくるたびに図、図、図。しかもこれ、お客様に出す資料だったりするので、雑には作れません。 「じゃあAIに描かせれ...",
+      "tags": [
+        "AI駆動開発",
+        "draw.io",
+        "図生成",
+        "開発効率化"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343826+09:00",
+      "summary": "AIに図の生成を依頼した際に発生する「それっぽいけど使えない」という課題に対し、draw.ioの生成スキルを活用して解決した事例を紹介しています。受託開発やSESの現場では、業務フロー図やシステム構成図など、多岐にわたる図の作成が不可欠ですが、AIによる生成では実用性に欠けるケースが多く見られます。本記事では、この問題を克服し、実用的な図を効率的に生成するアプローチを解説しており、技術者にとって図作成の効率化に繋がる示唆を提供します。"
+    },
+    {
+      "id": "hatena_62950",
+      "source": "hatena",
+      "title": "伝わる発信のつくりかた",
+      "url": "https://yoshiko-pg.github.io/talks/zennfes-2026/",
+      "score": 319,
+      "comments": 0,
+      "raw_description": "2026/06/19のZennfesでの発表「伝わる発信のつくりかた」のスライドです。",
+      "tags": [
+        "情報発信",
+        "Zenn",
+        "コミュニケーション",
+        "技術共有"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343805+09:00",
+      "summary": "本記事は、2026年6月19日に開催されたZennfesでの発表「伝わる発信のつくりかた」のスライド資料を共有するものです。技術的な情報発信において、読者に内容を正確かつ効果的に伝えるためのノウハウがまとめられています。自身の知見や技術を共有する際に、より多くのエンジニアに理解され、役立ててもらうための実践的な手法を学ぶことができます。"
+    },
+    {
+      "id": "hatena_14164",
+      "source": "hatena",
+      "title": "捨てるつもりで作ったシステムが、本稼働している〜 自治体がVibe Codingで「書かない窓口」を内製し、OSSとして公開するまで 〜｜memuro-DX-oss",
+      "url": "https://note.com/memuro_dx_oss/n/nf982351d30ef",
+      "score": 205,
+      "comments": 0,
+      "raw_description": "捨てるつもりで作ったシステムが、本稼働している〜 自治体がVibe Codingで「書かない窓口」を内製し、OSSとして公開するまで 〜 2023年窓口体験調査窓口に来た住民が、名前を55回書く。 北海道芽室町の窓口で、私たちが窓口体験調査をして見えてきた現実です。一つの係でやりとりする申請書は、たいてい1〜3枚。けれど...",
+      "tags": [
+        "Vibe Coding",
+        "書かない窓口",
+        "OSS",
+        "自治体DX"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343819+09:00",
+      "summary": "北海道芽室町は、住民が窓口で氏名を55回記入する現状を改善するため、Vibe Codingを用いて「書かない窓口」システムを内製しました。当初は破棄予定だったこのシステムは、現在本稼働しており、業務効率化と住民サービスの向上に貢献しています。さらに、このシステムはOSSとして公開され、他の自治体での活用も期待されています。"
+    },
+    {
+      "id": "hn_48610827",
+      "source": "hackernews",
+      "title": "SMPTE Makes Its Standards Freely Accessible",
+      "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+      "score": 203,
+      "comments": 58,
+      "raw_description": "",
+      "tags": [
+        "SMPTE",
+        "技術標準",
+        "メディア業界",
+        "オープンアクセス"
+      ],
+      "fetched_at": "2026-06-21T08:11:56.179378+09:00",
+      "summary": "SMPTE（Society of Motion Picture and Television Engineers）は、その重要な技術標準を無料公開しました。これにより、映画、テレビ、および関連メディア業界の技術者は、以前は有料だった仕様書に容易にアクセスできるようになります。この変更は、業界全体のイノベーションを加速し、より広範な技術者コミュニティによる標準の採用と実装を促進する上で重要です。"
+    },
+    {
+      "id": "hatena_78025",
+      "source": "hatena",
+      "title": "Claude Codeをどのように キャッチアップしているか",
+      "url": "https://speakerdeck.com/oikon48/claude-codewodonoyouni-kiyatutiatupusiteiruka",
+      "score": 155,
+      "comments": 0,
+      "raw_description": "Zennfes: https://zenn.dev/events/zennfes-spring-2026",
+      "tags": [
+        "Claude",
+        "LLM",
+        "コード生成",
+        "Zennfes"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343832+09:00",
+      "summary": "本記事は、大規模言語モデル（LLM）であるClaudeのコード生成能力を、Zennfesでの発表内容に基づいて解説しています。Claudeがどのようにコードを理解し、生成するのか、その技術的なアプローチや進化の過程に焦点を当てています。LLMのコード生成能力の向上は、ソフトウェア開発の効率化や新たな開発手法の創出に繋がるため、開発者にとって重要なトピックです。"
+    },
+    {
+      "id": "hn_48610853",
+      "source": "hackernews",
+      "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+      "url": "https://www.lispm.net/apps/uhf-x11/",
+      "score": 141,
+      "comments": 20,
+      "raw_description": "",
+      "tags": [
+        "X11",
+        "VisionOS",
+        "Apple Vision Pro",
+        "VR/AR"
+      ],
+      "fetched_at": "2026-06-21T08:11:56.868890+09:00",
+      "summary": "UHF X11は、Apple Vision Pro向けのX Window Systemの実装です。これにより、macOSやLinux環境で利用可能なX11アプリケーションをVisionOS上で実行できるようになります。この技術は、クロスプラットフォーム開発や既存のデスクトップアプリケーションのVR/AR環境への展開を可能にする点で重要です。"
+    },
+    {
+      "id": "hn_48612502",
+      "source": "hackernews",
+      "title": "Unauthorized alert sent to cell phones across Brazil",
+      "url": "https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam",
+      "score": 64,
+      "comments": 36,
+      "raw_description": "",
+      "tags": [
+        "サイバーセキュリティ",
+        "緊急警報システム",
+        "脆弱性",
+        "ブラジル"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.950779+09:00",
+      "summary": "ブラジル全土の携帯電話に、緊急警報システム（SAS）の脆弱性を突いた不正なアラートが送信されました。このインシデントは、システム設定の不備が悪用された可能性を示唆しており、緊急情報伝達の信頼性に対する懸念を生じさせています。迅速な原因究明と対策が、同様の事態の再発防止に不可欠です。"
+    },
+    {
+      "id": "hatena_23526",
+      "source": "hatena",
+      "title": "ソフトウェア開発をシンプルにする技術 - プププなテクブ",
+      "url": "https://blog.inorinrinrin.com/entry/2026/06/20/162658",
+      "score": 63,
+      "comments": 0,
+      "raw_description": "久しぶりの「xxな技術」シリーズです。今回は『シンプリシティ』を読みました。 シンプリシティ ―持続可能かつ人間的で効果的なソフトウェア開発 作者:Dave Thomas,島田 浩二（翻訳）オーム社Amazon 作者は達人プログラマーの共著者であり、アジャイルソフトウェア開発宣言の署名者でもある、Dave Thomas です。そして D...",
+      "tags": [
+        "ソフトウェア開発",
+        "シンプリシティ",
+        "アジャイル",
+        "達人プログラマー"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343844+09:00",
+      "summary": "「シンプリシティ ―持続可能かつ人間的で効果的なソフトウェア開発」という書籍を紹介する記事です。本書は、「達人プログラマー」の共著者でありアジャイルソフトウェア開発宣言の署名者でもあるDave Thomas氏が執筆しており、ソフトウェア開発における「シンプルさ」の重要性と、それを実現するための実践的なアプローチについて解説しています。技術者は、複雑化しがちな現代のソフトウェア開発において、シンプルさを追求することで、保守性、拡張性、そして開発者自身の生産性を向上させるための示唆を得ることができます。"
+    },
+    {
+      "id": "hatena_49589",
+      "source": "hatena",
+      "title": "AI以後の受託システム開発はどうなっていくのか（2026年6月版）",
+      "url": "https://zenn.dev/terurou/articles/eb9e7a4ca7b364",
+      "score": 61,
+      "comments": 0,
+      "raw_description": "筆者について どういうポジショントークなのかがわかるように、筆者の属性を先に書いておきます。 零細システム開発会社（デンキヤギ）の社長 自社製品（yagisan-reports）の開発・販売もやっているが、売上比率は受託のほうが大きい 受託の内訳は事業会社とのアジャイル・準委任契約がほとんどで、請負契約はごく小規模...",
+      "tags": [
+        "AI",
+        "受託開発",
+        "システム開発",
+        "アジャイル"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343838+09:00",
+      "summary": "AIの進化は、2026年6月現在、受託システム開発のあり方に大きな影響を与え始めています。特に零細システム開発会社では、AIを活用した開発効率の向上が喫緊の課題となっており、自社製品開発と並行して、アジャイル・準委任契約を中心とした受託開発におけるAI導入が模索されています。今後は、AIによるコード生成やテスト自動化が進むことで、開発プロセスが変革され、より高度な顧客要求への対応が求められるようになると予想されます。"
+    },
+    {
+      "id": "hatena_48998",
+      "source": "hatena",
+      "title": "時雨堂のスキル",
+      "url": "https://voluntas.ghost.io/shiguredo-skill-20206-06/",
+      "score": 43,
+      "comments": 0,
+      "raw_description": "流れが速いのでこれは 2026 年 6 月時点での時雨堂で採用しているスキルだけで、これで固定しているとかではないです。 さすがにこの記事を読む人で SKILL.md を知らない人は居ないと思うのですが、簡単にいうと LLM に食わせるまとまった文章の事です。 つまり「レビューして」とだけ書くのではなく「こんな感じでレビ...",
+      "tags": [
+        "LLM",
+        "プロンプトエンジニアリング",
+        "スキルセット",
+        "時雨堂"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343785+09:00",
+      "summary": "時雨堂は2026年6月時点で採用しているLLM向けスキルセットを公開しました。これは、LLMに与える指示（プロンプト）を構造化し、より具体的なタスク実行を可能にするためのものです。単なる「レビューして」といった指示ではなく、「このような形式でレビューしてほしい」といった詳細な要求をLLMに伝えるためのスキルセットであり、LLMの応答精度と実用性を向上させる上で重要です。"
+    },
+    {
+      "id": "hatena_95097",
+      "source": "hatena",
+      "title": "Claude Code と Codex を使い比べて見えた設計思想の違い",
+      "url": "https://zenn.dev/tark_ann/articles/e8b09c6db73bfb",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "この記事は、今まで Claude Code 1本でやってきていたエンジニアが、Opus 4.7 の体験が悪く、Codex に浮気してみて気づいたことのまとめである。 実際に触った感想は多くの人がまとめているが、その振る舞いが起こる理由について考察している人はあまり見かけなかった。 そのため本記事では、 Claude Code と Codex の公...",
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "AI",
+        "コード生成"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.343813+09:00",
+      "summary": "Claude CodeとCodexの設計思想の違いを、Claude Codeを主に使用していたエンジニアがCodexを試した体験に基づいて考察しています。両者の振る舞いの違いに着目し、その根本的な理由を探求することで、コード生成AIの進化と多様性を理解する手がかりを提供します。特に、Opus 4.7での体験が悪かったことからCodexへ移行した経緯が、具体的な比較分析に繋がっています。"
+    },
+    {
+      "id": "hn_48613631",
+      "source": "hackernews",
+      "title": "Pre-2022 Books",
+      "url": "https://notes.lorenzogravina.com/musings/pre-2022-books",
+      "score": 31,
+      "comments": 16,
+      "raw_description": "",
+      "tags": [
+        "技術史",
+        "基礎知識",
+        "レガシーシステム",
+        "IT書籍"
+      ],
+      "fetched_at": "2026-06-21T08:11:55.719462+09:00",
+      "summary": "2022年以前に出版された書籍に関する情報です。これらの書籍は、特定の技術分野における基礎知識や歴史的背景を学ぶ上で依然として価値があります。古い技術に関する理解を深めたり、現代の技術がどのように発展してきたかを追跡したりするのに役立ちます。"
+    },
+    {
+      "id": "hn_48612740",
+      "source": "hackernews",
+      "title": "Alice is impatient",
+      "url": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "score": 28,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-21T08:11:56.640142+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48613732",
+      "source": "hackernews",
+      "title": "Turns Out, There Is a Cabal of Elite Crazies Trying to Control the World",
+      "url": "https://www.esquire.com/news-politics/politics/a71619211/peter-thiel-dialog-club-wired-report/",
+      "score": 28,
+      "comments": 4,
+      "raw_description": "",
+      "tags": [
+        "陰謀論",
+        "社会",
+        "情報リテラシー",
+        "批判的思考"
+      ],
+      "fetched_at": "2026-06-21T08:11:57.102781+09:00",
+      "summary": "この記事は、世界を支配しようとするエリート集団の陰謀論について論じています。しかし、その主張は証拠に乏しく、科学的根拠に基づかない憶測に過ぎません。このような陰謀論は、社会の分断を煽り、誤った情報が拡散するリスクを高めるため、批判的な視点を持つことが重要です。"
+    },
+    {
+      "id": "hn_48612714",
+      "source": "hackernews",
+      "title": "A Love Story",
+      "url": "https://pudding.cool/2026/06/love-story/",
+      "score": 25,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "倫理",
+        "人間関係",
+        "未来技術"
+      ],
+      "fetched_at": "2026-06-21T08:11:56.407707+09:00",
+      "summary": "この記事は、AIと人間の関係性における倫理的、社会的な側面を探求する「ラブストーリー」という概念について論じています。AIが感情や意識を持つ可能性、そしてそれが人間との関係にどのような影響を与えるかという、SF的なテーマに触れています。技術の進歩がもたらす未来の人間関係のあり方について、深い考察を促す内容です。"
+    },
+    {
+      "id": "hn_48613755",
+      "source": "hackernews",
+      "title": "Not just books: renting a sewing machine from the library can improve democracy",
+      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "共有経済",
+        "地域コミュニティ",
+        "DIY",
+        "エンパワーメント"
+      ],
+      "fetched_at": "2026-06-21T08:11:57.362888+09:00",
+      "summary": "図書館が、書籍だけでなく、ミシンなどの道具の貸し出しサービスを提供することで、地域住民のスキル向上とエンパワーメントを促進する事例が紹介されています。これにより、DIY文化の醸成や、地域コミュニティにおける創造性の発揮が期待され、民主主義的な参加の基盤強化に繋がる可能性が示唆されています。技術的な側面としては、共有経済モデルの応用が挙げられます。"
+    },
+    {
+      "id": "reddit_03995",
+      "source": "reddit",
+      "title": "Burnout Is Real for Open Source Maintainers: A Conversation with John-David Dalton, Creator of Lodash",
+      "url": "https://www.reddit.com/r/programming/comments/1uaodhr/burnout_is_real_for_open_source_maintainers_a/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://openjsf.org/blog/burnout-is-real-for-open-source-maintainers\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uaodhr/burnout_is_real_for_open_source_maintainers_a/\">[comments]</a></span>",
+      "tags": [
+        "オープンソース",
+        "メンテナー",
+        "燃え尽き症候群",
+        "Lodash"
+      ],
+      "fetched_at": "2026-06-21T08:11:57.672218+09:00",
+      "summary": "Lodashの作者であるJohn-David Dalton氏へのインタビューによると、オープンソースプロジェクトのメンテナーは深刻な燃え尽き症候群に直面していることが明らかになりました。多くのメンテナーは、プロジェクトの維持管理に多大な時間を費やしているにもかかわらず、十分な報酬や認識を得られていない状況です。この問題は、オープンソースエコシステムの持続可能性にとって重大な懸念事項であり、コミュニティ全体での支援体制の構築が急務となっています。"
+    },
+    {
+      "id": "reddit_09219",
+      "source": "reddit",
+      "title": "wrote my first Garmin app in Monkey C and its the strangest middle ground ive coded in years",
+      "url": "https://www.reddit.com/r/programming/comments/1ub7uqu/wrote_my_first_garmin_app_in_monkey_c_and_its_the/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>spent most of my career either in kernel land where you account for every byte yourself, or in nodejs/nestjs world where you just throw objects around and let the runtime sort it out. Monkey C is neither and it kept messing with my instincts. the lead dev once described the goal as wanting something that looked like javascript but with no features that waste memory, basically &quot;syntactic splenda&quot; instead of sugar. so you get this language that reads lik",
+      "tags": [
+        "Monkey C",
+        "Garmin",
+        "組み込み開発",
+        "JavaScript"
+      ],
+      "fetched_at": "2026-06-21T08:11:57.672241+09:00",
+      "summary": "Monkey Cは、JavaScriptに似た構文を持ちながらも、メモリ効率を重視した言語設計が特徴です。カーネル開発のような低レベルなメモリ管理と、Node.jsのような高レベルなオブジェクト操作の中間に位置するため、開発者は独自のコーディングスタイルを確立する必要があります。この言語は、リソースが限られた組み込み環境でのアプリケーション開発に適しています。"
+    },
+    {
+      "id": "reddit_00681",
+      "source": "reddit",
+      "title": "So You Want To Define a Well-Known URI",
+      "url": "https://www.reddit.com/r/programming/comments/1ub6bqs/so_you_want_to_define_a_wellknown_uri/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlondieCoder\"> /u/BlondieCoder </a> <br /> <span><a href=\"https://mnot.net/blog/2026/well_known_uris\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ub6bqs/so_you_want_to_define_a_wellknown_uri/\">[comments]</a></span>",
+      "tags": [
+        "Well-Known URI",
+        "HTTP",
+        "Webサービス",
+        "API設計"
+      ],
+      "fetched_at": "2026-06-21T08:11:57.672250+09:00",
+      "summary": "この記事は、Web上で特定のサービスやリソースを識別するために使用される「Well-Known URI」の定義方法について解説しています。HTTPのContent-Typeヘッダーや、特定のURIパスにリソースをマッピングする標準的な方法論を理解することは、API設計やWebサービス連携において重要です。これにより、異なるシステム間での相互運用性が向上し、開発者は共通の規約に基づいてサービスを構築できます。"
+    },
+    {
+      "id": "reddit_83507",
+      "source": "reddit",
+      "title": "Build a Bytecode VM (in Sema)",
+      "url": "https://www.reddit.com/r/programming/comments/1uazs9j/build_a_bytecode_vm_in_sema/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheHelgeSverre\"> /u/TheHelgeSverre </a> <br /> <span><a href=\"https://sema-lang.com/docs/internals/build-a-bytecode-vm.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uazs9j/build_a_bytecode_vm_in_sema/\">[comments]</a></span>",
+      "tags": [
+        "バイトコードVM",
+        "Sema",
+        "コンパイラ",
+        "言語実装"
+      ],
+      "fetched_at": "2026-06-21T08:11:57.672258+09:00",
+      "summary": "この記事は、Sema言語を使用してバイトコード仮想マシン（VM）を構築するプロセスを解説しています。バイトコードVMは、プログラムの実行を抽象化し、移植性を高めるための重要なコンポーネントです。Semaの内部構造を理解し、独自のVMを実装することで、コンパイラや実行環境の仕組みに関する深い洞察を得ることができます。この実践的なアプローチは、低レベルのシステムプログラミングや言語設計に関心のある開発者にとって有益です。"
+    }
+  ]
+}
