@@ -1,0 +1,341 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T08:17:10.986406+09:00",
+  "articles": [
+    {
+      "id": "hn_48618455",
+      "source": "hackernews",
+      "title": "Identity verification on Claude",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "score": 496,
+      "comments": 463,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "セキュリティ",
+        "本人確認",
+        "Claude"
+      ],
+      "fetched_at": "2026-06-22T08:17:10.685916+09:00",
+      "summary": "Anthropicは、同社のAIチャットボットClaudeの利用における本人確認プロセスを強化しました。これにより、不正利用や悪意のある活動の防止、およびサービスの一貫性と信頼性の向上が期待されます。具体的な実装方法やプライバシーへの配慮については、今後の詳細な発表が待たれますが、AIサービスの健全な発展に向けた重要な一歩と言えるでしょう。"
+    },
+    {
+      "id": "hn_48620090",
+      "source": "hackernews",
+      "title": "Prefer duplication over the wrong abstraction (2016)",
+      "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "score": 404,
+      "comments": 272,
+      "raw_description": "",
+      "tags": [
+        "ソフトウェア開発",
+        "抽象化",
+        "DRY原則",
+        "保守性"
+      ],
+      "fetched_at": "2026-06-22T08:17:10.441476+09:00",
+      "summary": "2016年の記事「Prefer duplication over the wrong abstraction」は、ソフトウェア開発における抽象化の誤用について論じています。安易な抽象化は、コードの重複よりも保守性を低下させる可能性があると指摘し、DRY原則（Don't Repeat Yourself）を過度に適用することのリスクを警告しています。開発者は、将来の変更を見越した不確かな抽象化よりも、一時的なコード重複を選択する方が、長期的に見てより健全なコードベースを維持できる場合があることを理解する必要があります。"
+    },
+    {
+      "id": "hatena_88610",
+      "source": "hatena",
+      "title": "Steering Claude Code: skills, hooks, subagents and more | Claude",
+      "url": "https://claude.com/ja/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+      "score": 354,
+      "comments": 0,
+      "raw_description": "Claude is built to work the way you work, and in Claude Code you can customize it. There are seven methods for instructing Claude's behavior: CLAUDE.md files, rules, skills, subagents, hooks, output styles, and appending the system prompt. Each method controls: When an instruction loads into cont...",
+      "tags": [
+        "Claude",
+        "AIカスタマイズ",
+        "開発者ツール",
+        "プロンプトエンジニアリング"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645270+09:00",
+      "summary": "AnthropicのClaude Codeは、CLAUDE.mdファイル、ルール、スキル、サブエージェント、フック、出力スタイル、システムプロンプトの追加という7つの方法で、Claudeの動作をカスタマイズ可能にする機能を提供します。これらの機能により、開発者はClaudeの指示ロードタイミングや実行フローを細かく制御でき、より効率的で目的に沿ったAIアシスタントの構築が可能になります。これにより、特定のタスクやワークフローに特化した高度なAIエージェントの開発が促進されます。"
+    },
+    {
+      "id": "hatena_15355",
+      "source": "hatena",
+      "title": "入門から実践 -「🔁 ループエンジニアリング」 - Qiita",
+      "url": "https://qiita.com/Syoitu/items/97ed37e7ba9c38dc75d8",
+      "score": 197,
+      "comments": 0,
+      "raw_description": "前書き 最近 X やブログで 「Loop Engineering（ループエンジニアリング）」 という言葉をやたら見るようになりました。 「もう Claude に指示は出していない、私の仕事はループを書くことだ」 みたいな、ちょっと面白い言い回しで流れてくるアレです 最初は「また新しい “XX エンジニアリング” か……」と斜めに構えてい...",
+      "tags": [
+        "ループエンジニアリング",
+        "プロンプトエンジニアリング",
+        "AI",
+        "大規模言語モデル"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645303+09:00",
+      "summary": "「ループエンジニアリング」は、AIモデル（特にClaudeのような大規模言語モデル）との対話において、単に指示を出すだけでなく、より高度なプロンプトエンジニアリング手法を駆使して、期待される出力を効率的かつ効果的に引き出すための実践的なアプローチです。この手法は、AIの能力を最大限に活用し、開発者がより創造的かつ生産的に作業を進める上で重要性を増しています。具体的なテクニックや応用例を通じて、AIとのインタラクションを最適化する方法論を探求します。"
+    },
+    {
+      "id": "hn_48621517",
+      "source": "hackernews",
+      "title": "JSON-LD Explained for Personal Websites",
+      "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+      "score": 130,
+      "comments": 34,
+      "raw_description": "",
+      "tags": [
+        "JSON-LD",
+        "SEO",
+        "スキーママークアップ",
+        "構造化データ"
+      ],
+      "fetched_at": "2026-06-22T08:17:09.689679+09:00",
+      "summary": "JSON-LDは、ウェブサイトのコンテンツを構造化し、検索エンジンが理解しやすくするためのスキーママークアップ言語です。これにより、検索結果でのリッチスニペット表示が可能になり、ウェブサイトの可視性が向上します。特に個人ウェブサイトでは、ブログ記事、イベント情報、著者情報などを正確に伝えることで、SEO効果を高めることができます。"
+    },
+    {
+      "id": "hatena_18380",
+      "source": "hatena",
+      "title": "ゼロをイチにする仕事の終わり、ソフトウェアエンジニアという仕事の終わり - smasato.log",
+      "url": "https://blog.smasato.net/entry/2026/06/21/181605",
+      "score": 106,
+      "comments": 0,
+      "raw_description": "ソフトウェアエンジニアの仕事のうち、ゼロをイチにする業務の割合はかなり多かったはずです。初期のAIは、GitHub Copilotの行補完のように、その「ゼロをイチにする」ための作業を支援するツールでした。書きかけたコードを完成させるためのツールであり、コードをゼロから書くことを手伝ってくれるものだったと思いま...",
+      "tags": [
+        "ソフトウェアエンジニア",
+        "AI",
+        "GitHub Copilot",
+        "開発プロセス"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645310+09:00",
+      "summary": "ソフトウェアエンジニアの「ゼロからイチを生み出す」作業は、AIの進化により変化しつつあります。GitHub Copilotのような初期のAIは、既存のコード補完や部分的な生成で開発者を支援していましたが、今後はより高度なAIが、より広範な開発プロセスを担う可能性があります。これにより、エンジニアの役割は、AIを活用し、より創造的で戦略的なタスクにシフトしていくことが予想されます。"
+    },
+    {
+      "id": "hn_48622778",
+      "source": "hackernews",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/",
+      "score": 97,
+      "comments": 27,
+      "raw_description": "",
+      "tags": [
+        "オープンソース",
+        "基盤モデル",
+        "主権AI",
+        "AI開発"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.954909+09:00",
+      "summary": "Apertusは、主権AI（Sovereign AI）の実現を目指すオープンソースの基盤モデルです。これにより、組織はデータプライバシーとセキュリティを確保しながら、独自のAIモデルを構築・運用できます。Apertusは、カスタマイズ性と透明性を提供し、AI開発におけるベンダーロックインのリスクを低減させる点で重要です。"
+    },
+    {
+      "id": "hatena_40541",
+      "source": "hatena",
+      "title": "2026年にもなって日本語のTeXワークフローがいまだにDVIを経由しているわけ - golden-luckyの日記",
+      "url": "https://golden-lucky.hatenablog.com/entry/2026/06/21/205551",
+      "score": 78,
+      "comments": 0,
+      "raw_description": "欧米ではすっかりpdfTeXに移行してPDFを直接生成するワークフローになっているのに、なぜ日本語ではPDFを出力できない(u)pTeXがいまだに生き残っているのか。 簡単に言うと、TeXと事実上互換性があるpdfTeXが発明されたときに、日本語圏のデファクトだったpTeXのことが一切考慮されなかったからである。 このような事情...",
+      "tags": [
+        "TeX",
+        "DVI",
+        "pdfTeX",
+        "日本語組版"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645317+09:00",
+      "summary": "2026年においても、日本語のTeXワークフローが依然としてDVI形式を経由しているのは、pdfTeXが開発された際に日本語圏のデファクトスタンダードであったpTeXが考慮されなかったためです。pdfTeXは直接PDFを生成できるため欧米では主流となっていますが、日本語対応の(u)pTeXはDVI経由でのPDF生成に依存しています。この技術的背景が、日本語組版におけるワークフローの遅延の要因となっています。"
+    },
+    {
+      "id": "hn_48622867",
+      "source": "hackernews",
+      "title": "Did my old job only exist because of fraud?",
+      "url": "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
+      "score": 78,
+      "comments": 20,
+      "raw_description": "",
+      "tags": [
+        "キャリア",
+        "倫理",
+        "組織論",
+        "自己分析"
+      ],
+      "fetched_at": "2026-06-22T08:17:09.199976+09:00",
+      "summary": "この記事は、過去の職務が不正行為によってのみ存在していたのではないかという疑問を投げかけています。筆者は、自身の経験を振り返り、当時の業務内容や組織の状況を分析することで、その職務の正当性や必要性を検証しようとしています。この考察は、現代のビジネス環境における職務の意義や、倫理的な観点からの組織運営のあり方について示唆を与えます。"
+    },
+    {
+      "id": "hn_48622626",
+      "source": "hackernews",
+      "title": "Everything Is Logarithms",
+      "url": "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+      "score": 66,
+      "comments": 6,
+      "raw_description": "",
+      "tags": [
+        "対数",
+        "計算量",
+        "アルゴリズム",
+        "コンピュータサイエンス"
+      ],
+      "fetched_at": "2026-06-22T08:17:09.443896+09:00",
+      "summary": "この記事は、コンピュータサイエンスにおける対数（logarithms）の遍在性と重要性を解説しています。対数は、アルゴリズムの計算量、データ構造の効率性、情報理論、そして機械学習モデルの設計など、多岐にわたる分野で基礎的な役割を果たしています。対数を理解することは、これらの技術分野のパフォーマンスを分析し、最適化するための鍵となります。"
+    },
+    {
+      "id": "hatena_16069",
+      "source": "hatena",
+      "title": "🧾Geminiを使ってレシート整理を自動化する仕組み",
+      "url": "https://ipadworkers.substack.com/p/receipt-automation-with-gas",
+      "score": 60,
+      "comments": 0,
+      "raw_description": "🧾レシート整理を自動化する仕組み☔こんにちは、はるなです。 今日は『レシート整理を自動化した話』について紹介します。 我が家はレシートをScanSnap iX2500でスキャンして、Googleドライブに保存する運用にしています。スキャンされたレシート画像を見ながら、Goodnotesのデジタルプランナーに家計簿をつけるのがい...",
+      "tags": [
+        "Gemini API",
+        "レシート自動化",
+        "家計簿",
+        "OCR"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645293+09:00",
+      "summary": "Google CloudのGemini APIを活用し、スキャンされたレシート画像から情報を自動抽出し、家計簿アプリへの入力作業を効率化する仕組みが紹介されています。この自動化により、手作業による転記ミスを削減し、家計管理の精度と利便性を向上させることが期待できます。特に、ScanSnapでスキャンした画像をGeminiで解析することで、レシート情報のデジタル化と活用が容易になります。"
+    },
+    {
+      "id": "hn_48622590",
+      "source": "hackernews",
+      "title": "Stop wasting tokens and re explaining your project between sessions",
+      "url": "https://github.com/raiyanyahya/recall",
+      "score": 45,
+      "comments": 31,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-22T08:17:10.185798+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48622731",
+      "source": "hackernews",
+      "title": "PowerFox Browser",
+      "url": "https://powerfox.jazzzny.me/",
+      "score": 34,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [
+        "プライバシー保護",
+        "Webブラウザ",
+        "オープンソース",
+        "トラッキング防止"
+      ],
+      "fetched_at": "2026-06-22T08:17:09.936147+09:00",
+      "summary": "PowerFox Browserは、プライバシー保護に特化したオープンソースのWebブラウザです。トラッキング防止機能や広告ブロック機能を標準搭載し、ユーザーのオンラインアクティビティを保護します。カスタマイズ可能な設定により、高度なプライバシー管理を実現し、安全で快適なブラウジング体験を提供します。"
+    },
+    {
+      "id": "hatena_70181",
+      "source": "hatena",
+      "title": "JavaScriptを事前コンパイルする。不可能と言われた挑戦に挑む開発者。｜直也テック",
+      "url": "https://note.com/naoya_tech/n/n99f05affec01",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "今回はポッドキャスト「devtools.fm」に出演したOliver Medhurst氏の回をご紹介します。彼はPorffor（ポーファー）というプロジェクトの作者です。Porfforは「JavaScriptをWebAssemblyへと事前にコンパイルする（Ahead of Time Compiler、AOTコンパイラ）」という、多くの人が「不可能だ」と考えてきた仕組みに挑む研究...",
+      "tags": [
+        "JavaScript",
+        "WebAssembly",
+        "AOTコンパイラ",
+        "Porffor"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645338+09:00",
+      "summary": "Oliver Medhurst氏が開発するPorfforは、JavaScriptをWebAssemblyへ事前にコンパイルするAOTコンパイラです。この技術は、実行時ではなくコンパイル時にJavaScriptコードを最適化し、WebAssemblyのパフォーマンス特性を活かすことを目指しています。これにより、JavaScriptアプリケーションの実行速度向上や、より高度なネイティブライクな機能の実現が期待されます。"
+    },
+    {
+      "id": "hatena_98666",
+      "source": "hatena",
+      "title": "無料でグラボのVRAMが壊れていないかチェックできるツール「memtest_vulkan」の使い方、インストール不要でダブルクリックして待つだけでOK",
+      "url": "https://gigazine.net/news/20260621-gpu-vram-check-memtest-vulkan/",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "ゲームやAI処理ではGPUのメモリである「VRAM」を酷使します。VRAMに異常が発生しているとGPUの性能を十分に引き出せずにゲームプレイ中にフリーズが発生したりAI処理を正常に実行できなくなったりします。「memtest_vulkan」は自分の使っているGPUのVRAMが故障していないかチェックできる無料ツールで、インストール不要...",
+      "tags": [
+        "VRAM",
+        "GPU",
+        "診断ツール",
+        "memtest_vulkan"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645324+09:00",
+      "summary": "「memtest_vulkan」は、GPUのVRAMに異常がないかを確認できる無料の診断ツールです。VRAMの故障は、ゲームのフリーズやAI処理の失敗に繋がる可能性があります。このツールはインストール不要で、ダブルクリックするだけでVRAMの健全性をチェックできるため、GPUのパフォーマンス低下や不安定な動作の原因究明に役立ちます。"
+    },
+    {
+      "id": "hatena_10311",
+      "source": "hatena",
+      "title": "AWS、AIエージェントがリポジトリを自動スキャンして技術的負債を指摘してくれる「AWS Transform – continuous modernization」プレビュー公開",
+      "url": "https://www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "AWS、AIエージェントがリポジトリを自動スキャンして技術的負債を指摘してくれる「AWS Transform – continuous modernization」プレビュー公開 Amazon Web Services（AWS）は、AIエージェントがコードリポジトリを継続的に自動スキャンし、サポートが終了したライブラリやフレームワークなどを始めとする技術的負債を検...",
+      "tags": [
+        "AWS",
+        "AI",
+        "技術的負債",
+        "モダナイゼーション"
+      ],
+      "fetched_at": "2026-06-22T08:17:08.645331+09:00",
+      "summary": "AWSは、AIエージェントがコードリポジトリを継続的にスキャンし、サポート終了ライブラリなどの技術的負債を特定する「AWS Transform – continuous modernization」のプレビュー版を公開しました。このサービスは、開発チームが潜在的なリスクを早期に発見し、モダナイゼーションの計画を立てる上で役立ちます。これにより、セキュリティリスクの低減と、将来的なメンテナンスコストの削減が期待されます。"
+    },
+    {
+      "id": "reddit_49976",
+      "source": "reddit",
+      "title": "OCaml 5.5.0 released",
+      "url": "https://www.reddit.com/r/programming/comments/1ubn4uj/ocaml_550_released/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Personal_Rough6944\"> /u/Personal_Rough6944 </a> <br /> <span><a href=\"https://discuss.ocaml.org/t/ocaml-5-5-0-released/18265\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ubn4uj/ocaml_550_released/\">[comments]</a></span>",
+      "tags": [
+        "OCaml",
+        "プログラミング言語",
+        "コンパイラ",
+        "リリース"
+      ],
+      "fetched_at": "2026-06-22T08:17:10.986346+09:00",
+      "summary": "OCaml 5.5.0がリリースされました。このバージョンでは、パフォーマンスの向上、バグ修正、および開発者体験の改善に焦点が当てられています。特に、ジェネレーターと非同期処理のサポート強化は、より効率的で表現力豊かなコード記述を可能にし、大規模なアプリケーション開発における生産性を向上させることが期待されます。このリリースは、OCamlエコシステムの継続的な成熟と進化を示しています。"
+    },
+    {
+      "id": "reddit_68247",
+      "source": "reddit",
+      "title": "epoll vs io_uring in Linux",
+      "url": "https://www.reddit.com/r/programming/comments/1ubsndj/epoll_vs_io_uring_in_linux/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yusufaytas\"> /u/yusufaytas </a> <br /> <span><a href=\"https://sibexi.co/posts/epoll-vs-io_uring/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ubsndj/epoll_vs_io_uring_in_linux/\">[comments]</a></span>",
+      "tags": [
+        "Linux",
+        "epoll",
+        "io_uring",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-06-22T08:17:10.986367+09:00",
+      "summary": "LinuxのI/Oイベント通知メカニズムであるepollとio_uringの比較記事です。epollは長年使われてきた成熟したAPIですが、io_uringはより新しい非同期I/Oインターフェースであり、スループットとレイテンシの点で大幅な改善をもたらす可能性があります。特に、多数の同時接続を扱うサーバーアプリケーションや、高負荷なI/O処理が求められるシステムにおいて、io_uringはパフォーマンス向上のための重要な選択肢となり得ます。"
+    },
+    {
+      "id": "reddit_40533",
+      "source": "reddit",
+      "title": "A practical guide to describing authentication and authorization in OpenAPI.",
+      "url": "https://www.reddit.com/r/programming/comments/1ubwqzn/a_practical_guide_to_describing_authentication/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Hope it helps anyone documenting or reviewing API specs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AntonOkolelov\"> /u/AntonOkolelov </a> <br /> <span><a href=\"https://medium.com/@okoanton/openapi-security-scheme-aed2e762b7d5\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ubwqzn/a_practical_guide_to_describing_authentication/\">[comments]</a></span>",
+      "tags": [
+        "OpenAPI",
+        "APIセキュリティ",
+        "認証",
+        "認可"
+      ],
+      "fetched_at": "2026-06-22T08:17:10.986375+09:00",
+      "summary": "OpenAPI仕様で認証と認可を効果的に記述するための実践的なガイドです。APIセキュリティのドキュメント化やレビューを行う開発者にとって、セキュリティスキームの定義方法を明確に示し、APIのセキュリティ要件を正確に伝えるためのベストプラクティスを提供します。これにより、APIの利用者はセキュリティメカニズムを理解しやすくなり、安全な統合が可能になります。"
+    },
+    {
+      "id": "reddit_81310",
+      "source": "reddit",
+      "title": "\"Reverse Once, Run Forever\" and How We Killed It",
+      "url": "https://www.reddit.com/r/programming/comments/1ubr3b2/reverse_once_run_forever_and_how_we_killed_it/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TrustSig\"> /u/TrustSig </a> <br /> <span><a href=\"https://trustsig.eu/blog/reverse-once-run-forever\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ubr3b2/reverse_once_run_forever_and_how_we_killed_it/\">[comments]</a></span>",
+      "tags": [
+        "リバースエンジニアリング",
+        "ソフトウェア開発",
+        "保守性",
+        "プロジェクト管理"
+      ],
+      "fetched_at": "2026-06-22T08:17:10.986381+09:00",
+      "summary": "この記事は、あるプロジェクトで採用されていた「一度リバースエンジニアリングすれば、その後は永続的に実行できる」というアプローチの失敗談を共有しています。このアプローチは、初期の複雑なセットアップや依存関係を回避できるという利点がある一方で、長期的な保守性や進化への対応が困難になるという課題を抱えていました。結果として、このアプローチはプロジェクトの持続可能性を損ない、最終的に破棄されることになった経緯が説明されています。"
+    }
+  ]
+}
