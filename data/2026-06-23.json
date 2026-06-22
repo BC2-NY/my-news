@@ -1,0 +1,336 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T08:22:41.787302+09:00",
+  "articles": [
+    {
+      "id": "hn_48632884",
+      "source": "hackernews",
+      "title": "Steam Machine launches today",
+      "url": "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
+      "score": 1044,
+      "comments": 925,
+      "raw_description": "",
+      "tags": [
+        "Steam Machines",
+        "Valve",
+        "Gaming PC",
+        "SteamOS"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.715582+09:00",
+      "summary": "Valve's Steam Machines, a line of pre-built gaming PCs designed to bring Steam's extensive library to the living room, are launching today. These machines offer a console-like experience with a focus on SteamOS, Valve's Linux-based operating system, and the Steam Controller. The initiative aims to provide an open alternative to traditional consoles and expand PC gaming into a more accessible, couch-friendly environment."
+    },
+    {
+      "id": "hatena_41780",
+      "source": "hatena",
+      "title": "「AI臭い文章を生成させない」ルール集。LLMに“質の高い技術文書”を書かせるスキルを技術書出版社代表が公開（生成AIクローズアップ） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/06/22/5209.html",
+      "score": 888,
+      "comments": 0,
+      "raw_description": "1週間の気になる生成AI技術・研究をいくつかピックアップして解説する連載「生成AIウィークリー」から、特に興味深いAI技術や研究にスポットライトを当てる生成AIクローズアップ。 今回は、LLM（大規模言語モデル）に日本語の技術文書を書かせたり推敲させたりするためのAI向けの日本語文章規範スキル「japanese-tech-wr...",
+      "tags": [
+        "LLM",
+        "技術文書",
+        "生成AI",
+        "文章規範"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.556687+09:00",
+      "summary": "技術書出版社代表が、LLM（大規模言語モデル）に質の高い技術文書を生成させるための「AI臭い文章を生成させない」ルール集を公開しました。このルール集は、AI向けの日本語文章規範スキル「japanese-tech-wr」としてまとめられており、LLMに日本語の技術文書を書かせたり推敲させたりする際に、より自然で正確な出力を得ることを目的としています。これにより、生成AIを活用した技術文書作成の精度向上が期待されます。"
+    },
+    {
+      "id": "hn_48630171",
+      "source": "hackernews",
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "score": 207,
+      "comments": 61,
+      "raw_description": "",
+      "tags": [
+        "画像生成",
+        "インペインティング",
+        "深層学習",
+        "モデル効率"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.487514+09:00",
+      "summary": "Moebiusは、0.2B（2億）パラメータの画像インペインティングモデルでありながら、10B（100億）クラスのモデルに匹敵する性能を発揮します。このモデルは、効率的なアーキテクチャ設計と学習手法により、計算リソースを抑えつつ高精度な画像生成を実現しています。これにより、低リソース環境での高度な画像編集や生成タスクへの応用が期待されます。"
+    },
+    {
+      "id": "hn_48597221",
+      "source": "hackernews",
+      "title": "My Mathematical Regression",
+      "url": "https://blog.dahl.dev/posts/my-mathematical-regression/",
+      "score": 166,
+      "comments": 56,
+      "raw_description": "",
+      "tags": [
+        "数学",
+        "回帰分析",
+        "データサイエンス",
+        "統計学"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.158641+09:00",
+      "summary": "この記事は、筆者が自身の経験を通して数学的後退（Mathematical Regression）の概念を解説するものです。具体的には、過去のデータから将来の傾向を予測する統計的手法である回帰分析の基本的な考え方と、その応用例について触れています。筆者は、この手法がデータサイエンスや機械学習の基礎となることを強調し、その重要性を自身の数学的探求の文脈で説明しています。"
+    },
+    {
+      "id": "hatena_25678",
+      "source": "hatena",
+      "title": "AIのモデル崩壊と多様性 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "url": "https://joisino.hatenablog.com/entry/collapse",
+      "score": 140,
+      "comments": 0,
+      "raw_description": "モデル崩壊 (model collapse) とは、AI が出力したテキストや画像がインターネットにアップロードされ、それらが AI の訓練データに混入し、そのデータで訓練された AI が出力したものがアップロードされる、というサイクルを繰り返すことで AI の性能が崩壊することです。最も有名な研究は Nature に採択された AI mode...",
+      "tags": [
+        "AI",
+        "モデル崩壊",
+        "訓練データ",
+        "性能劣化"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.556661+09:00",
+      "summary": "AIモデル崩壊は、AI生成コンテンツが訓練データに混入し、性能劣化を招く現象です。このサイクルは、AIの出力品質を低下させ、多様性を失わせるリスクを孕んでいます。Natureに掲載された研究は、この問題の深刻さと、その対策の必要性を浮き彫りにしています。AIの持続的な発展のためには、生成データの品質管理と、オリジナリティを維持するメカニズムが不可欠です。"
+    },
+    {
+      "id": "hn_48635954",
+      "source": "hackernews",
+      "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
+      "url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+      "score": 135,
+      "comments": 81,
+      "raw_description": "",
+      "tags": [
+        "LG Smart TV",
+        "住宅用プロキシ",
+        "SDK",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.874941+09:00",
+      "summary": "LGスマートテレビのアプリの約半数に、ユーザーの自宅ネットワークを介して第三者のトラフィックをルーティングする可能性のある住宅用プロキシSDKが含まれていることが判明しました。これは、ユーザーのIPアドレスが第三者のトラフィックに悪用されるリスクや、プライバシー侵害の懸念を生じさせます。このSDKは、ユーザーの同意なしにバックグラウンドで動作する可能性があり、セキュリティ上の脆弱性につながる可能性があります。"
+    },
+    {
+      "id": "hatena_08303",
+      "source": "hatena",
+      "title": "OpenAIも注目、非エンジニア農家がCodexで進める「農業のDX」。ハウス自動化から翻訳LINE Botまで | Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/2606-openai-codex-farm-automation/",
+      "score": 120,
+      "comments": 0,
+      "raw_description": "従来までは現地に足を運び、温度計を見ながら手動で窓を開け閉めするしかなかった。だが、ハウスが複数棟あると、スタッフが歩き回って手動で対応する負担は大きい。 グループLINEに「温度」と入力したところ、センサーが設置されているビニールハウスの室温が表示された。撮影：小林優多郎冨安さんはスマート温度計「Sw...",
+      "tags": [
+        "農業DX",
+        "OpenAI Codex",
+        "自動化",
+        "LINE Bot"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.556675+09:00",
+      "summary": "非エンジニアの農家がOpenAIのCodexを活用し、農業分野のDX（デジタルトランスフォーメーション）を推進している事例を紹介。Codexを用いることで、ビニールハウスの温度管理を自動化し、スタッフの負担軽減を実現。さらに、LINE Botとの連携により、室温の確認や翻訳機能なども開発し、農業現場の効率化と生産性向上に貢献している。"
+    },
+    {
+      "id": "hn_48634787",
+      "source": "hackernews",
+      "title": "British Columbia, Time Zones, and Postgres",
+      "url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+      "score": 82,
+      "comments": 41,
+      "raw_description": "",
+      "tags": [
+        "PostgreSQL",
+        "Time Zones",
+        "British Columbia",
+        "Database"
+      ],
+      "fetched_at": "2026-06-23T08:22:40.997725+09:00",
+      "summary": "British Columbia's adoption of Pacific Standard Time (PST) and Pacific Daylight Time (PDT) has implications for database systems, particularly PostgreSQL. Managing time zone data accurately in PostgreSQL requires understanding how these shifts affect date and time calculations. Proper configuration and awareness of time zone rules are crucial for applications operating within or interacting with British Columbia's time zones to ensure data integrity and prevent operational errors."
+    },
+    {
+      "id": "hn_48634778",
+      "source": "hackernews",
+      "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+      "url": "https://github.com/dorukkumkumoglu/optocamzero",
+      "score": 73,
+      "comments": 18,
+      "raw_description": "",
+      "tags": [
+        "Raspberry Pi Zero",
+        "デジタルカメラ",
+        "IoT",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-06-23T08:22:40.838231+09:00",
+      "summary": "Optocam Zeroは、Raspberry Pi Zeroと市販のコンポーネントを組み合わせて作られたデジタルカメラです。このプロジェクトは、低コストでカスタマイズ可能なカメラシステムを構築する可能性を示しており、IoTデバイスや組み込みシステムへの応用が期待されます。オープンソースの設計思想に基づき、技術者は自身のニーズに合わせてカメラ機能を拡張・変更することが可能です。"
+    },
+    {
+      "id": "hn_48634803",
+      "source": "hackernews",
+      "title": "Japanese symbols that speak without words",
+      "url": "https://arun.is/blog/japan-symbols/",
+      "score": 72,
+      "comments": 17,
+      "raw_description": "",
+      "tags": [
+        "象形文字",
+        "絵文字",
+        "コミュニケーション",
+        "文化"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.328672+09:00",
+      "summary": "この記事は、文字を使わずに意味を伝える日本の象形文字、特に「絵文字」の進化と文化的背景を探求しています。初期の象形文字から現代のデジタルコミュニケーションにおける絵文字の役割までを解説し、感情やニュアンスを効果的に伝える手段としての重要性を論じています。グローバル化が進む中で、絵文字が言語の壁を超えてコミュニケーションを豊かにする可能性を示唆しています。"
+    },
+    {
+      "id": "hn_48636377",
+      "source": "hackernews",
+      "title": "Unsloth GLM-5.2 – How to Run Locally",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
+      "score": 71,
+      "comments": 22,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "Unsloth",
+        "GLM-5.2",
+        "ローカル実行"
+      ],
+      "fetched_at": "2026-06-23T08:22:40.582105+09:00",
+      "summary": "Unslothは、LLMの推論速度を最大2倍に向上させるための最適化ライブラリです。GLM-5.2モデルをローカル環境で効率的に実行できるようになり、GPUメモリ使用量を削減しつつ、高速な推論を実現します。これにより、開発者はより少ないリソースで高度なLLMアプリケーションを構築・テストすることが可能になります。"
+    },
+    {
+      "id": "hatena_00126",
+      "source": "hatena",
+      "title": "Cloudflare の一時アカウントを使って即座にデプロイできるようになった",
+      "url": "https://azukiazusa.dev/blog/cloudflare-temporary-account-deploy/",
+      "score": 52,
+      "comments": 0,
+      "raw_description": "Cloudflare の Temporary Cloudflare Accounts を使用すると、人間が介入することなく AI エージェントが即座に Cloudflare Workers にデプロイできるようになります。この記事では、Temporary Cloudflare Accounts を使用して実際に Cloudflare Workers にデプロイする方法を試してみます。 現在の開発のワークフローで...",
+      "tags": [],
+      "fetched_at": "2026-06-23T08:22:39.556625+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_01354",
+      "source": "hatena",
+      "title": "新試験制度のサンプル問題について | 試験情報 | IPA 独立行政法人 情報処理推進機構",
+      "url": "https://www.ipa.go.jp/shiken/syllabus/henkou/2026/20260622.html",
+      "score": 43,
+      "comments": 0,
+      "raw_description": "2027年度から開始を予定する新試験制度における各試験区分のサンプル問題を掲載しています。 公開準備が整ったものから順次このページに掲載し、2026年度夏頃を目途に一通り公表する予定です。 サンプル問題 各試験区分における、新たな出題分野、出題形式のサンプル問題を掲載します。 なお、本サンプル問題は、新たな...",
+      "tags": [],
+      "fetched_at": "2026-06-23T08:22:39.556645+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_74959",
+      "source": "hatena",
+      "title": "Excelを代わりに操作してくれる「Copilot in Excel」がさらに便利に、「自分のやり方」や「共同作業のやり方」を設定可能に／「セルは結合しない」「グラフに赤を使わない」「シート名は分かりやすく」など",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2118762.html",
+      "score": 40,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Excel",
+        "Copilot",
+        "AI",
+        "パーソナライゼーション"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.556654+09:00",
+      "summary": "MicrosoftはExcelのCopilotに、ユーザー固有の操作スタイルや共同作業のルールを学習・適用する機能を導入しました。これにより、「セル結合を避ける」「グラフで赤色を使用しない」「シート名を分かりやすくする」といった個別の指示やチームの標準設定をCopilotが理解し、よりパーソナライズされたデータ分析やレポート作成を支援します。この機能は、Excel作業の効率化と一貫性の維持に貢献します。"
+    },
+    {
+      "id": "hatena_20804",
+      "source": "hatena",
+      "title": "北区の小学校火災では消防士が懸命の援護注水で煙と熱から子どもたちを守り抜いた「すごい技術だ」「本当にありがとう」",
+      "url": "https://togetter.com/li/2712392",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "ぐうけん @googlKenS 消防の放水には「攻撃注水」と、要救助者等を守る為の「援護注水」があります。これは後者。噴霧注水による水幕形成という技術ですね。猛火の輻射熱から児童を守る熱の障壁を構築すると同時に、高圧の水流が巻き込む空気の力を利用して、黒煙を児童のいる空間から強制的に吹き飛ばしているんです。 ...",
+      "tags": [
+        "援護注水",
+        "噴霧注水",
+        "消防技術",
+        "人命救助"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.556681+09:00",
+      "summary": "北区の小学校火災において、消防士が「援護注水」と呼ばれる技術を用いて児童を煙と熱から守った。この技術は、噴霧注水により水幕を形成し、猛火の輻射熱を防ぐ熱の障壁を作り出す。さらに、高圧水流が空気を巻き込む力を利用して、児童のいる空間から黒煙を強制的に吹き飛ばす効果もある。この高度な消火技術が、人命救助に大きく貢献した。"
+    },
+    {
+      "id": "hatena_54672",
+      "source": "hatena",
+      "title": "Raspberry Pi + Cloudflare Tunnel で安価で安全な自宅 Web サーバーを手に入れる",
+      "url": "https://zenn.dev/xin9le/articles/1340941f739745",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "背景 先日 超dotnet new に参加した際、@mayuki 先生から「安全に自宅 Web サーバー建てるなら Cloudflare Tunnel が便利」と教えてもらいました。 我が家には Tailscale VPN サーバー用の Raspberry Pi があるし、それを Web サーバーとしても活用するのはアリだなーと思ってやってみました。mayuki 先生は Coolify も...",
+      "tags": [
+        "Raspberry Pi",
+        "Cloudflare Tunnel",
+        "Webサーバー",
+        "自宅サーバー"
+      ],
+      "fetched_at": "2026-06-23T08:22:39.556668+09:00",
+      "summary": "Raspberry PiとCloudflare Tunnelを組み合わせることで、安価かつ安全に自宅でWebサーバーを構築する方法が紹介されています。Cloudflare Tunnelは、自宅サーバーをインターネットに公開する際に、ポート開放や固定IPアドレスの必要なく、安全にアクセス可能にするサービスです。これにより、従来の自宅サーバー構築におけるセキュリティリスクやコストの問題を軽減し、手軽にWebサーバーを運用できるようになります。"
+    },
+    {
+      "id": "reddit_37795",
+      "source": "reddit",
+      "title": "p99 0 ms* autocomplete for 240 million domain names",
+      "url": "https://www.reddit.com/r/programming/comments/1ucdszk/p99_0_ms_autocomplete_for_240_million_domain_names/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ruurtjan\"> /u/ruurtjan </a> <br /> <span><a href=\"https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ucdszk/p99_0_ms_autocomplete_for_240_million_domain_names/\">[comments]</a></span>",
+      "tags": [
+        "Cloudflare",
+        "Rust",
+        "p99",
+        "DNS"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.787228+09:00",
+      "summary": "Cloudflareは、2億4000万ものドメイン名に対して、99パーセンタイルで0ミリ秒のレイテンシを実現するオートコンプリートシステムを開発しました。このシステムは、Rustで書かれたp99というライブラリを活用し、大規模なデータセットに対する高速な検索と補完を可能にします。この技術は、DNSクエリの応答速度向上や、ドメイン名検索サービスにおけるユーザーエクスペリエンスの劇的な改善に貢献します。"
+    },
+    {
+      "id": "reddit_87324",
+      "source": "reddit",
+      "title": "How 4 bytes of padding make array clearing 49% faster",
+      "url": "https://www.reddit.com/r/programming/comments/1uck3ll/how_4_bytes_of_padding_make_array_clearing_49/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I wrote about interesting amd64-specific quirk. If a large array is 4-byte misaligned, making it 8-byte aligned can make the array clearing ~49% faster (at least on my Intel machine). In the post I also touch on Intel's <code>REP STOSQ</code> implementation, ERMS and also on other optimizations related to array clearing.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/watman12\"> /u/watman12 </a> <br /> <span><a href=\"https:",
+      "tags": [
+        "CPU",
+        "最適化",
+        "アライメント",
+        "アセンブリ"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.787246+09:00",
+      "summary": "IntelのCPUにおいて、配列クリア処理が4バイトのパディングによって約49%高速化されるという発見について解説しています。この現象は、配列のアライメントが4バイトずれている場合に、8バイトアライメントに調整することで発生します。記事では、Intel CPUのREP STOSQ命令の実装、ERMS（Enhanced REP MOVSB/STOSB）機能、およびその他の配列クリアに関連する最適化についても触れています。"
+    },
+    {
+      "id": "reddit_48386",
+      "source": "reddit",
+      "title": "Deno Desktop Apps",
+      "url": "https://www.reddit.com/r/programming/comments/1uch33d/deno_desktop_apps/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bowl2564\"> /u/Successful_Bowl2564 </a> <br /> <span><a href=\"https://docs.deno.com/runtime/desktop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uch33d/deno_desktop_apps/\">[comments]</a></span>",
+      "tags": [
+        "Deno",
+        "デスクトップアプリ",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.787254+09:00",
+      "summary": "Denoは、JavaScript/TypeScriptでデスクトップアプリケーションを開発するための新しいAPIを発表しました。これにより、Web技術スタックをそのままデスクトップアプリ開発に活用できるようになります。ChromiumとRustのバインディングを利用し、クロスプラットフォームなGUIアプリケーションを効率的に構築できる点が特徴です。Web開発者にとって、新たなプラットフォームへの展開を容易にする可能性があります。"
+    },
+    {
+      "id": "reddit_47912",
+      "source": "reddit",
+      "title": "256 Lines or Less: Test Case Minimization",
+      "url": "https://www.reddit.com/r/programming/comments/1uchjlr/256_lines_or_less_test_case_minimization/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexeyr\"> /u/alexeyr </a> <br /> <span><a href=\"https://matklad.github.io/2026/04/20/test-case-minimization.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uchjlr/256_lines_or_less_test_case_minimization/\">[comments]</a></span>",
+      "tags": [
+        "テスト自動化",
+        "ソフトウェアテスト",
+        "デバッグ",
+        "コード品質"
+      ],
+      "fetched_at": "2026-06-23T08:22:41.787261+09:00",
+      "summary": "この記事は、ソフトウェアテストにおけるテストケースの最小化手法について解説しています。テストスイートの実行時間を短縮し、デバッグの効率を高めるために、冗長なテストケースを特定し削除するアルゴリズムやアプローチを紹介しています。これにより、開発者は問題のあるコード箇所を迅速に特定し、開発サイクル全体の生産性を向上させることが期待できます。"
+    }
+  ]
+}
