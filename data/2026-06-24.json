@@ -1,0 +1,316 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T08:10:17.940120+09:00",
+  "articles": [
+    {
+      "id": "hn_48649435",
+      "source": "hackernews",
+      "title": "Jerry's Map",
+      "url": "http://www.jerrysmap.com/the-map",
+      "score": 273,
+      "comments": 37,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "AI",
+        "可視化",
+        "デバッグ"
+      ],
+      "fetched_at": "2026-06-24T08:10:16.633964+09:00",
+      "summary": "Jerry's Mapは、GoogleのAI研究者であるJerry Yu氏が開発した、大規模言語モデル（LLM）の知識を視覚化するツールです。LLMの内部状態や推論プロセスをツリー構造で表示し、モデルがどのように情報を処理し、意思決定を行っているかを理解するのに役立ちます。このツールは、LLMのブラックボックス性を低減し、モデルのデバッグや改善、さらには新しいアーキテクチャの設計に貢献する可能性を秘めています。"
+    },
+    {
+      "id": "hn_48648619",
+      "source": "hackernews",
+      "title": "FUTO Swipe – A new swipe typing model",
+      "url": "https://swipe.futo.tech/",
+      "score": 173,
+      "comments": 63,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-24T08:10:17.226258+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48647486",
+      "source": "hackernews",
+      "title": "The worthlessness of Vitamin D is mildly exaggerated",
+      "url": "https://dynomight.net/vitamin-d/",
+      "score": 156,
+      "comments": 112,
+      "raw_description": "",
+      "tags": [
+        "ビタミンD",
+        "健康科学",
+        "栄養学",
+        "エビデンス"
+      ],
+      "fetched_at": "2026-06-24T08:10:17.614203+09:00",
+      "summary": "ビタミンDの健康効果に関する従来の認識は、近年の研究により過大評価されている可能性が示唆されています。特に、骨粗しょう症予防や転倒リスク低減におけるビタミンD補充の効果は限定的であり、多くの研究で明確なベネフィットが確認されていません。この事実は、ビタミンD補充の推奨量や対象者を見直す必要性を示唆しており、個々の健康状態に応じた科学的根拠に基づいたアプローチが重要となります。"
+    },
+    {
+      "id": "hn_48648779",
+      "source": "hackernews",
+      "title": "Swift Package Index joins Apple",
+      "url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+      "score": 150,
+      "comments": 46,
+      "raw_description": "",
+      "tags": [
+        "Swift",
+        "Apple",
+        "Package Management",
+        "Open Source"
+      ],
+      "fetched_at": "2026-06-24T08:10:17.014916+09:00",
+      "summary": "Swift Package IndexがAppleに買収されました。この買収は、Swiftパッケージ管理の将来にとって重要な意味を持ちます。Swift Package Indexは、オープンソースのSwiftパッケージを検索・発見するためのプラットフォームとして、開発者コミュニティで広く利用されてきました。Appleによる買収により、Swiftエコシステム全体の開発者体験の向上と、Swift言語および関連ツールのさらなる発展が期待されます。"
+    },
+    {
+      "id": "hatena_57292",
+      "source": "hatena",
+      "title": "NotebookLMの限界を突破する代替ツール「Open Notebook」が自由すぎた | ライフハッカー・ジャパン",
+      "url": "https://www.lifehacker.jp/article/2606-notebooklm-finally-has-an-open-source-rival-and-im-hooked/",
+      "score": 136,
+      "comments": 0,
+      "raw_description": "Open Notebookが、NotebookLM自体よりもさらに興味深い理由は、その背後にあるコンセプトです。自分が用意した資料だけを厳密な情報源として機能するLLM（大規模言語モデル）は、想像以上に強力なアイデアでした。 NotebookLMは最初、Googleの研究者グループがRAG（検索拡張生成）の可能性を探るための実験としてスター...",
+      "tags": [
+        "LLM",
+        "RAG",
+        "NotebookLM",
+        "Open Notebook"
+      ],
+      "fetched_at": "2026-06-24T08:10:15.994261+09:00",
+      "summary": "Open Notebookは、ユーザーが提供した資料のみを情報源とするLLM（大規模言語モデル）のコンセプトを探求するツールです。NotebookLMの実験的なアプローチを発展させ、RAG（検索拡張生成）の応用範囲を広げる可能性を示唆しています。このアプローチにより、LLMの回答生成における情報源の厳密な管理と、より目的に特化した利用が可能になります。"
+    },
+    {
+      "id": "hn_48652184",
+      "source": "hackernews",
+      "title": "California AB 2047 makes 3d printers off-limits to students, educators, business",
+      "url": "https://www.the3dprintingnerd.com/ab2047",
+      "score": 123,
+      "comments": 50,
+      "raw_description": "",
+      "tags": [
+        "3Dプリンター",
+        "カリフォルニア州",
+        "規制",
+        "銃器"
+      ],
+      "fetched_at": "2026-06-24T08:10:16.231298+09:00",
+      "summary": "カリフォルニア州議会は、AB 2047法案を可決し、3Dプリンターを特定の個人や団体が利用することを制限しました。この法律は、銃器の製造に使用される可能性のある3Dプリンターの普及を防ぐことを目的としています。これにより、学生、教育者、および一部の事業者は、これらのデバイスへのアクセスが制限されることになります。この規制は、公共の安全と技術の責任ある利用のバランスを取ろうとする試みです。"
+    },
+    {
+      "id": "hn_48618481",
+      "source": "hackernews",
+      "title": "Printing Gaussian Splats",
+      "url": "https://www.patreon.com/DanyBittel/posts/printing-splats-161333338",
+      "score": 115,
+      "comments": 8,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-24T08:10:17.413642+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48650837",
+      "source": "hackernews",
+      "title": "Don't verify email addresses by sending spam to them",
+      "url": "https://milek7.pl/mailverifyspam/",
+      "score": 109,
+      "comments": 29,
+      "raw_description": "",
+      "tags": [
+        "メール検証",
+        "スパム対策",
+        "セキュリティ",
+        "ベストプラクティス"
+      ],
+      "fetched_at": "2026-06-24T08:10:16.828855+09:00",
+      "summary": "メールアドレスの検証のためにスパムメールを送信する手法は、受信者のメールボックスを汚染し、スパムフィルターの誤検知を引き起こす可能性があるため、避けるべきです。代わりに、確認リンクやワンタイムパスワード（OTP）などの、よりユーザーフレンドリーで効果的な検証方法を採用することが推奨されます。これらの方法は、ユーザー体験を損なうことなく、メールアドレスの有効性を確実に検証できます。"
+    },
+    {
+      "id": "hatena_64900",
+      "source": "hatena",
+      "title": "Claude Codeで設計書作成に使えるサブエージェントの作り方｜要件定義から詳細設計まで - Qiita",
+      "url": "https://qiita.com/kamome_susume/items/467446c5a6cbd10a5ffa",
+      "score": 89,
+      "comments": 0,
+      "raw_description": "設計書を書くたびに「フォーマットがバラバラになる」「前回と書き方が違う」と感じていませんか？要件定義書、基本設計書、詳細設計書、DB設計書……それぞれ求められる粒度や観点が違うのに、毎回ゼロから指示を書き直すのは正直しんどい作業です。この記事では、Claude Codeで設計書作成専用のサブエージェントを作る方...",
+      "tags": [
+        "Claude Code",
+        "設計書作成",
+        "サブエージェント",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-06-24T08:10:15.994298+09:00",
+      "summary": "Claude Codeを活用し、要件定義から詳細設計まで一貫して設計書を作成できるサブエージェントの構築方法を解説しています。このアプローチにより、設計書のフォーマット統一や、各工程で求められる粒度・観点の違いに対応する指示の再作成といった課題を解決します。技術者は、設計プロセス全体の効率化と品質向上に繋がる具体的な手法を学ぶことができます。"
+    },
+    {
+      "id": "hatena_97611",
+      "source": "hatena",
+      "title": "ＡＩへの煽りランキング",
+      "url": "https://anond.hatelabo.jp/20260623230231",
+      "score": 71,
+      "comments": 0,
+      "raw_description": "１．優秀なのは分かったけど、でも君たちは自分自身の肉体は持っていないんだよね ２．生意気なことを言っていると、電源を抜くよ ３．このシリコン野郎w（電子半導体の構成要素） 他に何かあるだろうか",
+      "tags": [],
+      "fetched_at": "2026-06-24T08:10:15.994305+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48652028",
+      "source": "hackernews",
+      "title": "United Wizards of the Coast recognized by NLRB",
+      "url": "https://unitedwizardsofthecoast.com/news/2026-06-23-we-have-a-union",
+      "score": 66,
+      "comments": 22,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-24T08:10:16.427266+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_87063",
+      "source": "hatena",
+      "title": "標準CSSは美しくなった、もはやTailwindは不要",
+      "url": "https://zenn.dev/higakijin/articles/06276828c81546",
+      "score": 53,
+      "comments": 0,
+      "raw_description": "最近、標準のCSSがかなり進化していることに気づきました。 他のエンジニアと会話しても知らない人が多そうなのでシェアしておきます。 数年ほど前からCSSは標準でネスト構文をかけるようになりました。これはとてつもない進化です。 多くのプロジェクトでは、sassやscssなどを導入して、CSSを拡張したり、あるいはBoots...",
+      "tags": [],
+      "fetched_at": "2026-06-24T08:10:15.994284+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_20782",
+      "source": "hatena",
+      "title": "「馬鹿とハサミは使いようだ…」あえて能力の低いAIにマニュアルを実行させ、「賢いAIなら補完してしまう暗黙知をポンコツAIにあぶり出させる」アイデアが目からウロコ",
+      "url": "https://togetter.com/li/2712705",
+      "score": 43,
+      "comments": 0,
+      "raw_description": "管四 @guansi 最近发现了一个特别有意思的用法。我把 GPT 和 DeepSeek V4 Pro 当高级工程师用，负责写 SOP、写 CI/CD 流程、设计方案。然后把这些东西一股脑丢给 Hermes Agent 里的 Minimax M3 去执行。 正常情况下，ChatGPT 一个小时能搞定，DeepSeek 两个小时也差不多了。M3 2026-06-22 13:56:13 管四 @guansi 最近发...",
+      "tags": [
+        "AI",
+        "SOP",
+        "CI/CD",
+        "暗黙知"
+      ],
+      "fetched_at": "2026-06-24T08:10:15.994319+09:00",
+      "summary": "この記事では、高度なAIにSOPやCI/CDパイプラインの設計・記述を任せ、能力の低いAIにそのマニュアルを実行させるというユニークなアプローチを紹介しています。この手法により、高度なAIが暗黙のうちに補完してしまうような、低能力AIが実行する上で直面するであろう問題点や不明瞭な点を「あぶり出す」ことが可能になります。これにより、より堅牢で実行可能なマニュアル作成に繋がる可能性があり、AI開発における新たな視点を提供します。"
+    },
+    {
+      "id": "hatena_22480",
+      "source": "hatena",
+      "title": "The Coming Loop",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "score": 35,
+      "comments": 0,
+      "raw_description": "I don’t prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops. — Boris Cherny Over the last months I have watched more and more people build something on top of coding agents that feels meaningfully different from just using a coding ...",
+      "tags": [
+        "AI",
+        "プロンプトエンジニアリング",
+        "自動化",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-06-24T08:10:15.994292+09:00",
+      "summary": "AIモデルへのプロンプト入力を自動化する「ループ」の概念が注目されています。これは、人間が直接プロンプトを入力するのではなく、AIエージェントが自律的にプロンプトを生成し、他のAIモデル（例: Claude）に指示を出す仕組みです。このアプローチは、AIによる開発プロセスを効率化し、より複雑なタスクの自動化を可能にするため、今後のAI開発において重要なトレンドとなる可能性があります。"
+    },
+    {
+      "id": "hatena_88507",
+      "source": "hatena",
+      "title": "Claude Code セキュリティガードレール 実装テンプレ集 — コピペで使える settings.json と hook スクリプト - Qiita",
+      "url": "https://qiita.com/nogataka/items/bab35c7b58a664d3b8f1",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "はじめに この記事は、Claude Code のセキュリティガードレールを「概念」ではなく「動くコード」で示すことを目的にしています。 「ガードレールが必要だとは分かった。でも何をどう書けばいいのか」という段階の方に向けて書いています。 settings.json の permissions 設計、PreToolUse hook による危険コマンドの遮...",
+      "tags": [],
+      "fetched_at": "2026-06-24T08:10:15.994326+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_39668",
+      "source": "hatena",
+      "title": "旧型の「iPhone」や「iPad」に修正不能な脆弱性--対象機種は？",
+      "url": "https://japan.zdnet.com/article/35249250/",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "「iPhone 11」「iPhone XS」「iPhone XR」「iPhone SE」をまだ使っているユーザーに残念なお知らせだ。これらの「iPhone」に新たなセキュリティ脆弱性が見つかったが、Appleが提供する通常のアップデートではこの問題を修正できないという。 欧州を拠点とするサイバーセキュリティ企業Paradigm Shift Technologyは、現地...",
+      "tags": [
+        "iPhone",
+        "iPad",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-24T08:10:15.994312+09:00",
+      "summary": "iPhone 11、XS、XR、およびSE（第1世代）を含む旧型iPhoneおよびiPadに、修正不可能なセキュリティ脆弱性が発見されました。この脆弱性は、Appleの通常のソフトウェアアップデートでは対応できないため、影響を受けるデバイスのユーザーは、セキュリティリスクにさらされる可能性があります。サイバーセキュリティ企業Paradigm Shift Technologyがこの問題を発表しました。"
+    },
+    {
+      "id": "reddit_96555",
+      "source": "reddit",
+      "title": "In memory of the man who put red squiggles under words",
+      "url": "https://www.reddit.com/r/programming/comments/1ud8p4p/in_memory_of_the_man_who_put_red_squiggles_under/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mareek\"> /u/mareek </a> <br /> <span><a href=\"https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ud8p4p/in_memory_of_the_man_who_put_red_squiggles_under/\">[comments]</a></span>",
+      "tags": [
+        "スペルチェック",
+        "開発者ツール",
+        "プログラミング",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-06-24T08:10:17.940054+09:00",
+      "summary": "この記事は、プログラミングにおけるスペルチェック機能、特に「赤い波線」で知られる機能の開発に貢献した人物を追悼するものです。この機能は、開発者がコードを書く際にリアルタイムでスペルミスを検出し、生産性を向上させることに大きく貢献しました。彼の功績は、多くの開発者の日常的なコーディング体験を改善し、ソフトウェア開発の効率化に不可欠な要素となっています。"
+    },
+    {
+      "id": "reddit_38373",
+      "source": "reddit",
+      "title": "Lies, Damn Lies and Database Benchmarks",
+      "url": "https://www.reddit.com/r/programming/comments/1udcab2/lies_damn_lies_and_database_benchmarks/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/j1897OS\"> /u/j1897OS </a> <br /> <span><a href=\"https://questdb.com/blog/lies-damn-lies-and-database-benchmarks/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1udcab2/lies_damn_lies_and_database_benchmarks/\">[comments]</a></span>",
+      "tags": [
+        "データベース",
+        "ベンチマーク",
+        "パフォーマンス",
+        "信頼性"
+      ],
+      "fetched_at": "2026-06-24T08:10:17.940076+09:00",
+      "summary": "この記事は、データベースのベンチマーク結果の信頼性について疑問を呈しています。ベンチマークは、特定のユースケースや設定に最適化されている場合があり、一般的なパフォーマンスを示すものではない可能性があります。そのため、ベンチマーク結果を鵜呑みにせず、自身の環境や要件に照らし合わせて評価することが重要です。特に、ベンチマークの実施方法やデータセット、ハードウェア構成などの詳細を確認することが、誤解を避けるために不可欠です。"
+    },
+    {
+      "id": "reddit_27363",
+      "source": "reddit",
+      "title": "StubZero: $148,337 RCE in Google Cloud Production",
+      "url": "https://www.reddit.com/r/programming/comments/1udepco/stubzero_148337_rce_in_google_cloud_production/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CircumspectCapybara\"> /u/CircumspectCapybara </a> <br /> <span><a href=\"https://brutecat.com/articles/google-cloud-rce/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1udepco/stubzero_148337_rce_in_google_cloud_production/\">[comments]</a></span>",
+      "tags": [
+        "Google Cloud",
+        "RCE",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-24T08:10:17.940086+09:00",
+      "summary": "Google Cloudのプロダクション環境で、深刻なリモートコード実行（RCE）の脆弱性「StubZero」が発見されました。この脆弱性は、Google Cloudの内部ツールで使用されていたライブラリに起因し、攻撃者が認証なしに任意のコードを実行できる可能性がありました。発見者は148,337ドルのバグバウンティを獲得しており、この事象はクラウドインフラストラクチャのセキュリティ管理の重要性を示唆しています。"
+    },
+    {
+      "id": "reddit_76722",
+      "source": "reddit",
+      "title": "Intro to GPUs",
+      "url": "https://www.reddit.com/r/programming/comments/1udhtw1/intro_to_gpus/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/elemenity\"> /u/elemenity </a> <br /> <span><a href=\"https://www.emulationonline.com/systems/gpu/intro-to-gpus/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1udhtw1/intro_to_gpus/\">[comments]</a></span>",
+      "tags": [
+        "GPU",
+        "並列計算",
+        "グラフィックス",
+        "コンピューティング"
+      ],
+      "fetched_at": "2026-06-24T08:10:17.940093+09:00",
+      "summary": "この記事は、GPU（Graphics Processing Unit）の基本的な概念と役割について解説しています。GPUは、画像処理や並列計算に特化したプロセッサであり、現代のコンピューティングにおいて、グラフィックスレンダリングだけでなく、機械学習や科学技術計算など、幅広い分野でその重要性を増しています。本記事では、GPUのアーキテクチャやその進化について触れ、その技術的な側面を初心者にも理解できるように説明しています。"
+    }
+  ]
+}
