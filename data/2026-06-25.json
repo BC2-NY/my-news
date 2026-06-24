@@ -1,0 +1,341 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T08:06:37.731693+09:00",
+  "articles": [
+    {
+      "id": "hn_48657030",
+      "source": "hackernews",
+      "title": "We’re making Bunny DNS free",
+      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+      "score": 817,
+      "comments": 250,
+      "raw_description": "",
+      "tags": [
+        "DNS",
+        "Bunny.net",
+        "無料化",
+        "インフラ"
+      ],
+      "fetched_at": "2026-06-25T08:06:36.757884+09:00",
+      "summary": "Bunny.netは、DNSサービスを無料化することを発表しました。これにより、開発者や企業は、高パフォーマンスで信頼性の高いDNSインフラストラクチャをコストなしで利用できるようになります。この変更は、特にスタートアップや小規模ビジネスにとって、インフラコストの削減に大きく貢献する可能性があります。"
+    },
+    {
+      "id": "hn_48663324",
+      "source": "hackernews",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "score": 429,
+      "comments": 280,
+      "raw_description": "",
+      "tags": [
+        "OpenAI",
+        "AIチップ",
+        "Broadcom",
+        "カスタムシリコン"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.964276+09:00",
+      "summary": "OpenAIは、Broadcomと共同開発した初のカスタムAIチップを発表しました。このチップは、同社のAIモデルのトレーニングと推論を高速化し、コスト効率を高めることを目的としています。カスタムシリコンへの移行は、AIインフラストラクチャの垂直統合を進め、パフォーマンスとスケーラビリティを向上させるための重要な戦略であり、AI開発の競争において優位性を確立することを目指しています。"
+    },
+    {
+      "id": "hatena_09657",
+      "source": "hatena",
+      "title": "『クローズアップ現代』で、末期がんの86歳の女性が泣きながらAIに相談している様子に衝撃を受ける→AIの応答はみごとで、たぶんわたしが病床訪問しても、あんなふうに配慮し尽くした受け答えはできないだろう。",
+      "url": "https://posfie.com/@mumimushunyu/p/fzcQPXY",
+      "score": 364,
+      "comments": 0,
+      "raw_description": "沼田和也（王子北教会牧師） @numatakazuya NHK『クローズアップ現代』で、末期がんの86歳の女性が泣きながら、つまり心を深く開いて、AIに相談している様子に衝撃を受ける。AIの応答はみごとで、たぶんわたしが病床訪問しても、あんなふうに配慮し尽くした受け答えはできないだろう。 2026-06-23 19:59:49",
+      "tags": [
+        "AI",
+        "感情認識",
+        "共感",
+        "医療AI"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740917+09:00",
+      "summary": "NHKの番組で、末期がんの86歳女性がAIに心情を吐露する様子が紹介された。AIは、人間が病床で訪問しても難しいほどの配慮と共感を示した応答を行い、その能力に衝撃が走った。この事例は、AIが感情的なサポートや深い共感を提供する可能性を示唆しており、今後の人間とAIの関係性における重要な示唆を与える。"
+    },
+    {
+      "id": "hn_48660711",
+      "source": "hackernews",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "url": "https://rubyllm.com/",
+      "score": 325,
+      "comments": 50,
+      "raw_description": "",
+      "tags": [
+        "Ruby",
+        "LLM",
+        "AI",
+        "フレームワーク"
+      ],
+      "fetched_at": "2026-06-25T08:06:36.356188+09:00",
+      "summary": "RubyLLMは、OpenAI、Anthropic、Googleなどの主要なAIプロバイダーと連携できるRubyフレームワークです。これにより、開発者はRubyのエコシステム内で、様々な大規模言語モデル（LLM）の機能を容易に利用できるようになります。このフレームワークは、APIの抽象化と統一されたインターフェースを提供し、異なるLLM間での切り替えや、AI機能を組み込んだアプリケーション開発を効率化します。"
+    },
+    {
+      "id": "hatena_65759",
+      "source": "hatena",
+      "title": "ChatGPTの心臓部『Transformer』って何がすごいの？　#マンガでわかるAIの仕組み 第1話",
+      "url": "https://codezine.jp/article/detail/24575",
+      "score": 281,
+      "comments": 0,
+      "raw_description": "「AIの仕組みは知っておきたい」「けど分厚い技術書を読む時間はない……」そんなあなたに贈る『マンガでわかるAIの仕組み』Web連載がスタート！",
+      "tags": [
+        "Transformer",
+        "ChatGPT",
+        "自然言語処理",
+        "Attention機構"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740875+09:00",
+      "summary": "ChatGPTの基盤技術であるTransformerは、従来のRNNやCNNとは異なり、Attention機構により入力系列のどの部分に注目すべきかを学習します。これにより、長距離の依存関係を効率的に捉えることが可能となり、自然言語処理タスクにおける性能を飛躍的に向上させました。このアーキテクチャの革新が、ChatGPTのような大規模言語モデルの実現を可能にした重要な要因です。"
+    },
+    {
+      "id": "hn_48660579",
+      "source": "hackernews",
+      "title": "PR spam today looks like email spam in the early 2000s",
+      "url": "https://www.greptile.com/blog/prs-on-openclaw",
+      "score": 159,
+      "comments": 91,
+      "raw_description": "",
+      "tags": [
+        "GitHub",
+        "PRスパム",
+        "オープンソース",
+        "ボット"
+      ],
+      "fetched_at": "2026-06-25T08:06:36.993514+09:00",
+      "summary": "GitHubにおけるPRスパムが、2000年代初頭のメールスパムと同様の様相を呈している。自動化されたボットが大量のプルリクエストを生成し、リポジトリの管理者の負担を増大させている。これは、オープンソースプロジェクトの健全性を脅かす可能性があり、効果的な対策が急務となっている。"
+    },
+    {
+      "id": "hn_48662999",
+      "source": "hackernews",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "score": 134,
+      "comments": 83,
+      "raw_description": "",
+      "tags": [
+        "Gemini 3.5 Flash",
+        "AIモデル",
+        "コンピューティング要件",
+        "Google"
+      ],
+      "fetched_at": "2026-06-25T08:06:37.191408+09:00",
+      "summary": "Googleは、Gemini 3.5 Flashのコンピューティング要件を公開しました。このモデルは、以前のバージョンと比較して、より少ない計算リソースで同等のパフォーマンスを発揮できるように最適化されています。これにより、開発者はより広範なアプリケーションやデバイスで高度なAI機能を展開できるようになり、コスト効率とアクセシビリティが向上します。"
+    },
+    {
+      "id": "hn_48662381",
+      "source": "hackernews",
+      "title": "The Xteink X4 E-Ink Reader",
+      "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
+      "score": 134,
+      "comments": 99,
+      "raw_description": "",
+      "tags": [
+        "E Ink",
+        "電子書籍リーダー",
+        "Xteink X4",
+        "Carta 1250"
+      ],
+      "fetched_at": "2026-06-25T08:06:37.382014+09:00",
+      "summary": "Xteink X4は、E Ink Carta 1250ディスプレイを搭載した新しい電子書籍リーダーです。このディスプレイは、リフレッシュレートの向上とコントラスト比の改善により、より高速なページめくりと鮮明な表示を実現します。また、フロントライトと色温度調整機能を備え、様々な環境下での読書体験を向上させます。これにより、長時間の読書でも目の疲れを軽減し、紙のような自然な読み心地を提供します。"
+    },
+    {
+      "id": "hatena_35526",
+      "source": "hatena",
+      "title": "「コードレビューは人間がやるべき」 という、最後の幻想",
+      "url": "https://newspicks.com/news/16930133/body/",
+      "score": 129,
+      "comments": 0,
+      "raw_description": "観点が言葉になれば、砦は仕組みに変わる スピードが上がった現場で、何が詰まっているか 先日、登壇したパネルセッションで、会場に問いを投げました。「コードレビューがチームのボトルネックになっている方は、手を挙げてください」 と。正確な調査ではありません。ただ、会場の体感では、半分ほどの手が挙がりました...",
+      "tags": [
+        "コードレビュー",
+        "開発プロセス",
+        "ボトルネック解消",
+        "自動化"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740884+09:00",
+      "summary": "コードレビューがチームのボトルネックになっているという課題が、多くの現場で共通認識となっている。観点を言語化し、レビュープロセスを自動化・仕組み化することで、このボトルネックを解消し、開発スピードの向上を目指すことが重要である。これにより、属人的なレビューから脱却し、より効率的でスケーラブルな開発体制を構築できる。"
+    },
+    {
+      "id": "hatena_94757",
+      "source": "hatena",
+      "title": "自衛隊、機密システムに感染USB接続　中国系ウイルス1年気づかず - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOCD075JJ0X00C26A5000000/",
+      "score": 106,
+      "comments": 0,
+      "raw_description": "誰もがスマートフォンや人工知能（AI）などデジタル技術の恩恵を受ける時代では、安価で手軽な製品に国の安全や個人の安心を揺るがしかねないリスクが潜む。テック社会の「罠（わな）」を追っていくと、厳重な防御を誇るはずの自衛隊がその脅威にさらされていたことが分かった。日本経済新聞は陸上自衛隊の内部文書を入...",
+      "tags": [
+        "サイバーセキュリティ",
+        "自衛隊",
+        "USBメモリ",
+        "マルウェア"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740852+09:00",
+      "summary": "陸上自衛隊の機密システムに、中国系とみられるウイルスの感染したUSBメモリが約1年間にわたり接続されていたことが判明しました。この事案は、デジタル化が進む現代社会において、安価で手軽なデバイスがもたらすセキュリティリスクの深刻さを示唆しています。厳重なセキュリティ体制を誇るはずの防衛インフラが、外部からのサイバー攻撃に対して脆弱であった可能性があり、今後の対策強化が急務となります。"
+    },
+    {
+      "id": "hatena_80545",
+      "source": "hatena",
+      "title": "「Transformerの最大475倍」　富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/",
+      "score": 102,
+      "comments": 0,
+      "raw_description": "富士通は6月24日、大規模言語モデル（LLM）を少ないGPUで動かせる新アーキテクチャ「PHOTON」（フォトン）を開発したと発表した。GPU当たりの処理性能（スループット）が、現在のLLMで主流のアーキテクチャ「Transformer」の最大475倍に達するという。LLMの運用に必要なGPUを抑え、大幅なコスト削減につなげられるとして...",
+      "tags": [
+        "LLM",
+        "富士通",
+        "PHOTON",
+        "GPU"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740905+09:00",
+      "summary": "富士通は、大規模言語モデル（LLM）の処理効率を大幅に向上させる新アーキテクチャ「PHOTON」を開発しました。PHOTONは、従来のTransformerアーキテクチャと比較して、GPUあたりのスループットを最大475倍に向上させることが可能です。これにより、LLMの運用に必要なGPUリソースを削減し、大幅なコスト削減と、より少ないハードウェアでのLLM展開を実現します。"
+    },
+    {
+      "id": "hn_48659798",
+      "source": "hackernews",
+      "title": "Qualcomm to Acquire Modular",
+      "url": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+      "score": 95,
+      "comments": 24,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-25T08:06:36.156246+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48666100",
+      "source": "hackernews",
+      "title": "Elastic lays off 7% of employees",
+      "url": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees",
+      "score": 55,
+      "comments": 22,
+      "raw_description": "",
+      "tags": [
+        "Elastic",
+        "人員削減",
+        "テクノロジー業界",
+        "経済"
+      ],
+      "fetched_at": "2026-06-25T08:06:36.558967+09:00",
+      "summary": "Elasticは、全従業員の約7%にあたる130人を削減する人員整理を発表しました。同社は、経済の不確実性に対応するため、組織をスリム化し、より効率的な運営を目指すとしています。この動きは、クラウドコンピューティング市場における競争激化と、マクロ経済の変動がテクノロジー企業に与える影響を示唆しています。"
+    },
+    {
+      "id": "hatena_03885",
+      "source": "hatena",
+      "title": "東宝系に問題が集中、ワーナーはゼロ！映画サイトのドメイン名問題、邦画ヒット作10年間332本の実態を調査 | Web担当者Forum",
+      "url": "https://webtan.impress.co.jp/e/2026/06/24/52777",
+      "score": 37,
+      "comments": 0,
+      "raw_description": "【27卒】就職人気企業ランキング、伊藤忠が2年連続首位！ 東宝が17位→2位、Skyが5位へ大躍進【みん就調べ】 6月5日 6:00",
+      "tags": [
+        "ドメイン名",
+        "映画業界",
+        "就職人気ランキング",
+        "IT企業"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740898+09:00",
+      "summary": "映画サイトのドメイン名に関する問題が、特に東宝系の作品で顕著であることが明らかになりました。ワーナー・ブラザース関連では問題が確認されませんでした。この調査は、過去10年間の邦画ヒット作332本を対象に行われ、映画業界におけるドメイン名の管理とブランド保護の重要性を示唆しています。また、就職人気企業ランキングでは、東宝が前年17位から2位へと大きく順位を上げ、Skyも5位に躍進しました。これは、エンターテイメント業界およびIT企業の採用市場における動向を反映しています。"
+    },
+    {
+      "id": "hatena_60635",
+      "source": "hatena",
+      "title": "「AIがSQLを書いてくれる」で終わらせない — 分析基盤の育て方",
+      "url": "https://zenn.dev/tribeau/articles/c961141dd4c9c8",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "トリビューでCTOをしている小尾（@obiyuta）です。 弊社ではAIを前提とした全社業務の再構築に取り組んでおり、前回はその中で取り組んでいる社内MCPを載せる共通基盤（認証・認可・ログ）をご紹介しました。 今回は具体的な活用事例として、非エンジニアが自分で本番データを分析できるような分析基盤と、作って終わら...",
+      "tags": [
+        "分析基盤",
+        "データ分析",
+        "AI",
+        "業務効率化"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740891+09:00",
+      "summary": "トリビュー社では、AIによるSQL生成に留まらず、非エンジニアでも本番データを分析できる分析基盤の構築を進めている。この基盤は、単にツールを提供するだけでなく、継続的な改善と運用を前提としており、全社的な業務再構築の一環として位置づけられている。認証・認可・ログといった共通基盤の上に構築されており、データ分析の民主化と業務効率化を目指している点が重要である。"
+    },
+    {
+      "id": "hatena_91635",
+      "source": "hatena",
+      "title": "Transformerと比較し、GPU当たり最大475倍の出力トークン数を持つ新アーキテクチャを開発",
+      "url": "https://global.fujitsu/ja-jp/technology/research/article/topics/202606-photon-architecture",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "当社は、大規模言語モデルの大幅なコスト削減を実現するアーキテクチャである「Parallel Hierarchical Operation for TOp-down Networks（以下、PHOTON）」（フォトン）を開発いたしました。PHOTONは現在、大規模言語モデルの主流の基盤アーキテクチャであるTransformerの最大475倍のマルチクエリー性能（注1）を発揮し...",
+      "tags": [
+        "LLM",
+        "アーキテクチャ",
+        "Transformer",
+        "推論効率"
+      ],
+      "fetched_at": "2026-06-25T08:06:35.740911+09:00",
+      "summary": "PHOTON（Parallel Hierarchical Operation for TOp-down Networks）は、大規模言語モデル（LLM）のコスト削減を目指して開発された新しいアーキテクチャです。従来のTransformerと比較して、GPUあたり最大475倍のマルチクエリー性能を発揮し、LLMの推論効率を大幅に向上させる可能性を秘めています。このアーキテクチャは、LLMの展開における計算リソースの制約を緩和し、より広範な利用を促進することが期待されます。"
+    },
+    {
+      "id": "reddit_78530",
+      "source": "reddit",
+      "title": "Apache Pulsar 5.0.0-M1: introducing Scalable Topics — topics that split/merge themselves, no partition count required",
+      "url": "https://www.reddit.com/r/programming/comments/1udxdd5/apache_pulsar_500m1_introducing_scalable_topics/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mmerli\"> /u/mmerli </a> <br /> <span><a href=\"https://pulsar.apache.org/blog/2026/06/23/announcing-apache-pulsar-5-0-m1/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1udxdd5/apache_pulsar_500m1_introducing_scalable_topics/\">[comments]</a></span>",
+      "tags": [
+        "Apache Pulsar",
+        "Scalable Topics",
+        "ストリーミング",
+        "分散システム"
+      ],
+      "fetched_at": "2026-06-25T08:06:37.731609+09:00",
+      "summary": "Apache Pulsar 5.0.0-M1がリリースされ、スケーラブルトピック機能が導入されました。この機能により、トピックが自動的に分割・マージされるため、事前にパーティション数を定義する必要がなくなります。これにより、トピックの管理が簡素化され、動的なワークロードへの対応が容易になります。この進化は、大規模なストリーミングデータ処理における運用効率と柔軟性を大幅に向上させるものです。"
+    },
+    {
+      "id": "reddit_64664",
+      "source": "reddit",
+      "title": "An opinionated (and mainly correct) guide to naming",
+      "url": "https://www.reddit.com/r/programming/comments/1ue916q/an_opinionated_and_mainly_correct_guide_to_naming/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nephrenka\"> /u/nephrenka </a> <br /> <span><a href=\"https://adamtornhill.substack.com/p/an-opinionated-and-mainly-correct\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ue916q/an_opinionated_and_mainly_correct_guide_to_naming/\">[comments]</a></span>",
+      "tags": [
+        "命名規則",
+        "ソフトウェア開発",
+        "可読性",
+        "保守性"
+      ],
+      "fetched_at": "2026-06-25T08:06:37.731651+09:00",
+      "summary": "この記事は、ソフトウェア開発における命名規則の重要性について、著者の経験に基づいた意見を述べています。明確で一貫性のある命名は、コードの可読性と保守性を向上させ、チーム開発におけるコミュニケーションコストを削減する上で不可欠です。特に、変数、関数、クラスなどの命名において、その意図が伝わるような具体的な名前を選ぶことの重要性を強調しています。これにより、将来的にコードを理解し、修正する際の負担が軽減され、プロジェクト全体の品質向上に貢献します。"
+    },
+    {
+      "id": "reddit_19367",
+      "source": "reddit",
+      "title": "Measuring cache misses on macOS with Instruments",
+      "url": "https://www.reddit.com/r/programming/comments/1uecln7/measuring_cache_misses_on_macos_with_instruments/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I couldn't find many resources online that showed how to see cache misses on macOS. I thought I'd learn a bit about Instruments, throw some toy problems at it, and write about the experience in a blog post.</p> <p>These toy examples - iterating sequentially then randomly, summing elements in a matrix, naive vs tiled matmul and iterating AoS vs SoA - are great to see some real numbers from L1 data cache misses, but they're far away from real programming problems.",
+      "tags": [
+        "macOS",
+        "Instruments",
+        "キャッシュミス",
+        "パフォーマンスチューニング"
+      ],
+      "fetched_at": "2026-06-25T08:06:37.731660+09:00",
+      "summary": "macOSのInstrumentsを使用してキャッシュミスを測定する方法について解説しています。筆者は既存の資料が少ないことから、Instrumentsの学習と実験を通じて、シーケンシャル/ランダムアクセス、行列和、ナイーブ/タイルド行列乗算、AoS/SoAイテレーションといった具体的な例でキャッシュミスの挙動を可視化し、その結果を共有しています。これにより、開発者はパフォーマンスチューニングの際にキャッシュ効率を評価する新たな手段を得られます。"
+    },
+    {
+      "id": "reddit_28291",
+      "source": "reddit",
+      "title": "Running database drivers as sandboxed external processes (and why a HashMap insert was a security boundary)",
+      "url": "https://www.reddit.com/r/programming/comments/1ueg71x/running_database_drivers_as_sandboxed_external/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/debba_\"> /u/debba_ </a> <br /> <span><a href=\"https://tabularis.dev/blog/database-drivers-as-external-processes?rdt\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ueg71x/running_database_drivers_as_sandboxed_external/\">[comments]</a></span>",
+      "tags": [
+        "データベース",
+        "セキュリティ",
+        "サンドボックス",
+        "外部プロセス"
+      ],
+      "fetched_at": "2026-06-25T08:06:37.731667+09:00",
+      "summary": "このブログ記事では、データベースドライバーをサンドボックス化された外部プロセスとして実行するアプローチについて解説しています。これにより、ドライバーのバグや脆弱性がデータベースシステム全体に影響を与えるリスクを軽減できます。特に、HashMapへの挿入操作がセキュリティ境界として機能した事例を紹介し、外部プロセス化による分離の重要性を具体的に示しています。この手法は、システムの堅牢性とセキュリティを向上させる上で有効な手段となり得ます。"
+    }
+  ]
+}
