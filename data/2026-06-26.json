@@ -1,0 +1,283 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T08:20:59.212713+09:00",
+  "articles": [
+    {
+      "id": "hn_48675179",
+      "source": "hackernews",
+      "title": "An entire Herculaneum scroll has been read for the first time",
+      "url": "https://scrollprize.org/firstscroll",
+      "score": 835,
+      "comments": 194,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "文化財保護",
+        "デジタル復元",
+        "ヘルクラネウム"
+      ],
+      "fetched_at": "2026-06-26T08:20:57.672695+09:00",
+      "summary": "古代ローマの都市ヘルクラネウムから発見された炭化した巻物について、AI技術を用いて初めて内容の解読に成功しました。この技術は、レーザー光とX線を用いて巻物を傷つけることなく内部の文字を可視化するもので、これまで読むことが不可能だった貴重な歴史資料へのアクセスを可能にします。これにより、古代の文学、哲学、科学に関する新たな知見が得られる可能性があります。"
+    },
+    {
+      "id": "hn_48631450",
+      "source": "hackernews",
+      "title": "Oxide computer 3D rack guided tour",
+      "url": "https://explorer.oxide.computer/",
+      "score": 260,
+      "comments": 109,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:58.051932+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48674967",
+      "source": "hackernews",
+      "title": "IBM debuts sub-1 nanometer chip technology",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "score": 239,
+      "comments": 141,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:58.254245+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48679608",
+      "source": "hackernews",
+      "title": "The 'papers, please' era of the internet will decimate your privacy",
+      "url": "https://expression.fire.org/p/the-papers-please-era-of-the-internet",
+      "score": 185,
+      "comments": 63,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.469597+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_90246",
+      "source": "hatena",
+      "title": "まだ終わらんよ！Windows 10のサポートが1年延長。来年10月まで実質無料に",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2120164.html",
+      "score": 172,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.229017+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_25174",
+      "source": "hatena",
+      "title": "「Mac」「iPad」突然の一斉値上げ　MacBook Airは18万4800円→22万4800円からに",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/25/news138.html",
+      "score": 165,
+      "comments": 0,
+      "raw_description": "米Appleは6月25日、国内のApple StoreでMacやiPad、Apple TV、HomePodの販売価格を引き上げた。Mac製品の場合、ノートだけでなくデスクトップも対象。例えば、「MacBook Air」（M5）は、ベースモデルが18万4800円から22万4800円に引き上げられた。iPhoneやApple Watchなどについては価格に変化はない。 上げ幅は機種ごと...",
+      "tags": [
+        "Apple",
+        "MacBook Air",
+        "iPad",
+        "価格改定"
+      ],
+      "fetched_at": "2026-06-26T08:20:57.228998+09:00",
+      "summary": "Appleは6月25日、日本国内のApple StoreでMac、iPad、Apple TV、HomePodの販売価格を改定しました。MacBook Airのベースモデルは184,800円から224,800円へと大幅に値上げされています。この価格改定はiPhoneやApple Watchには影響しておらず、機種ごとに上げ幅が異なります。今回の値上げは、円安や原材料費の高騰などが背景にあると推測され、特にクリエイターや学生など、MacやiPadを業務・学習用途で利用するユーザーにとって、購入コストへの影響が懸念されます。"
+    },
+    {
+      "id": "hn_48675435",
+      "source": "hackernews",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "score": 160,
+      "comments": 77,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:58.864950+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_68641",
+      "source": "hatena",
+      "title": "ひろゆきが若者へ同情「僕は逃げ切った世代なので大変だなと…」　AIが40〜50代を強化して若手を締め出す現実 | AERA Books",
+      "url": "https://dot.asahi.com/articles/-/285741?page=1",
+      "score": 116,
+      "comments": 0,
+      "raw_description": "ひろゆきさん（右、写真／鈴木芳果）と、外資系IT米国本社勤務でnoteクリエイターの福原たまねぎさん（左、写真／写真映像部・上田泰世） この記事の写真をすべて見る 外資系IT米国本社に勤めるプロダクト・マネージャーで、noteクリエイターとして活躍する福原たまねぎさん。2025年、彼がアメリカの熾烈な競争社会につ...",
+      "tags": [
+        "AI",
+        "雇用",
+        "キャリア",
+        "世代間格差"
+      ],
+      "fetched_at": "2026-06-26T08:20:57.229033+09:00",
+      "summary": "ひろゆき氏は、AIの進化が既存の40〜50代のスキルを強化し、若手人材の機会を奪う可能性について懸念を表明しています。これは、競争の激しいIT業界において、特に若年層がキャリアを築く上での新たな課題を示唆しています。AIによる生産性向上と、それに伴う世代間の雇用機会の再分配という側面が重要です。"
+    },
+    {
+      "id": "hn_48679007",
+      "source": "hackernews",
+      "title": "Un-0: Generating Images with Coupled Oscillators",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "score": 73,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.854100+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_44905",
+      "source": "hatena",
+      "title": "生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claude Code × GitHub」で組織運営をした結果｜Goodpatch Blog グッドパッチブログ",
+      "url": "https://goodpatch.com/blog/2026-06-github",
+      "score": 44,
+      "comments": 0,
+      "raw_description": "ナレッジ・ノウハウ 生産性向上を「個人レベル」から「組織レベル」へ　15人のデザイナーで「Claude Code × GitHub」で組織運営をした結果 こんにちは。グッドパッチのサービスデザイナーのぬまです。 グッドパッチのデザイナーは、クライアントワークとは別に「組織貢献活動」という社内プロジェクトを日々進めています...",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.229026+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48678645",
+      "source": "hackernews",
+      "title": "An oral history of Bank Python (2021)",
+      "url": "https://calpaterson.com/bank-python.html",
+      "score": 43,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:58.460047+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48642474",
+      "source": "hackernews",
+      "title": "A game where you're an OS and have to manage processes, memory and I/O events",
+      "url": "https://github.com/plbrault/youre-the-os",
+      "score": 40,
+      "comments": 10,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:58.660727+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_06846",
+      "source": "hatena",
+      "title": "AnthropicがAlibabaを「蒸留攻撃」で非難、Claudeに2880万回以上のアクセスか",
+      "url": "https://gigazine.net/news/20260625-anthropic-accuses-alibaba/",
+      "score": 28,
+      "comments": 0,
+      "raw_description": "「Claude」シリーズを展開しているAI企業のAnthropicが、中国のビッグテック・AlibabaのAI研究機関・Qwen labによる「蒸留攻撃」を受けているとして、ホワイトハウス関係者や上院議員に対して告発文を送付したことがわかりました。 Anthropic says Alibaba illicitly extracted Claude AI model capabilities | Reuters ...",
+      "tags": [
+        "Anthropic",
+        "Alibaba",
+        "蒸留攻撃",
+        "AIセキュリティ"
+      ],
+      "fetched_at": "2026-06-26T08:20:57.229040+09:00",
+      "summary": "AI企業Anthropicは、Alibaba傘下のQwen labが同社のClaude AIモデルに対して「蒸留攻撃」を仕掛けたと告発しました。この攻撃により、Claudeの能力が2880万回以上不正に抽出されたとされています。Anthropicは、この不正行為がAIモデルの知的財産権を侵害し、セキュリティ上のリスクをもたらす可能性があるとして、ホワイトハウス関係者や上院議員に警告を発しています。"
+    },
+    {
+      "id": "hatena_14811",
+      "source": "hatena",
+      "title": "富士通がAI効率を475倍にするTransformer代替アーキテクチャ「PHOTON」を開発",
+      "url": "https://gigazine.net/news/20260625-fujitsu-photon/",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "2026年6月24日、富士通が大規模言語モデル(LLM)の大幅なコスト削減を実現するアーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks(PHOTON)」を発表しました。LLMの基盤アーキテクチャであるTransformerと比較して、GPUリソース当たりのスループットを最大475倍に改善します。 Transformerと比較し、...",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.229054+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_20993",
+      "source": "hatena",
+      "title": "Actions steps can now be run in parallel - GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-06-25-actions-steps-can-now-be-run-in-parallel/",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "GitHub Actions now supports running steps concurrently using background. Previously, all steps in a workflow ran in sequence, with each step starting only after the previous step completed. Previously, you could run steps in a non-blocking way using shell backgrounding (&), but that often interle...",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.229047+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_10644",
+      "source": "hatena",
+      "title": "公取委のとあるポスターが物議　「アニメ取引適正化」訴えるもイラストに生成AI　採用した理由とは？",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/25/news117.html",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "公正取引委員会（以下、公取委）が公式Xで6月22日に投稿したアニメの制作環境に関するポスターを巡り、画像生成AIの使用を指摘する声がSNS上で相次いでいた。公取委はITmedia NEWSの取材に対し、イラストは委託先の制作会社が手がけ、その制作過程で人物や小道具などの素材に生成AIを使っていたと回答した。 投稿は、契...",
+      "tags": [],
+      "fetched_at": "2026-06-26T08:20:57.229060+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_82752",
+      "source": "reddit",
+      "title": "How to Write an Effective Software Design Document",
+      "url": "https://www.reddit.com/r/programming/comments/1uevttg/how_to_write_an_effective_software_design_document/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mtlynch\"> /u/mtlynch </a> <br /> <span><a href=\"https://refactoringenglish.com/excerpts/write-an-effective-design-doc/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uevttg/how_to_write_an_effective_software_design_document/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-06-26T08:20:59.212652+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_76476",
+      "source": "reddit",
+      "title": "The dogma of entity-based Services and Repositories",
+      "url": "https://www.reddit.com/r/programming/comments/1ufc0ki/the_dogma_of_entitybased_services_and_repositories/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Every day I see more projects where a layer-per-entity approach is created by default: <code>UserService</code>, <code>UserRepository</code>, <code>OrderService</code>, <code>OrderRepository</code>, and so on.</p> <p>My issue is not with layering itself, but with how these layers are used.</p> <p>In theory, a <em>Service</em> should represent application behavior: something that encapsulates real use cases or meaningful interactions with external systems (paymen",
+      "tags": [
+        "ソフトウェアアーキテクチャ",
+        "ドメイン駆動設計",
+        "デザインパターン",
+        "リファクタリング"
+      ],
+      "fetched_at": "2026-06-26T08:20:59.212673+09:00",
+      "summary": "多くのプロジェクトで、エンティティごとにServiceとRepositoryを分割するレイヤー構造がデフォルトで採用されている。しかし、このアプローチは、Serviceがアプリケーションの振る舞いを表すべきという本来の目的から逸脱し、単なるデータ操作のラッパーになりがちである。このパターンは、コードの複雑化や保守性の低下を招く可能性があるため、よりドメイン駆動設計に基づいた、振る舞いを中心としたサービス設計が推奨される。"
+    },
+    {
+      "id": "reddit_73907",
+      "source": "reddit",
+      "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+      "url": "https://www.reddit.com/r/programming/comments/1ufopd6/usb_for_software_developers_an_introduction_to/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://werwolv.net/posts/usb_for_sw_devs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ufopd6/usb_for_software_developers_an_introduction_to/\">[comments]</a></span>",
+      "tags": [
+        "USB",
+        "ドライバ開発",
+        "ユーザー空間",
+        "libusb"
+      ],
+      "fetched_at": "2026-06-26T08:20:59.212681+09:00",
+      "summary": "この記事は、ソフトウェア開発者向けに、ユーザー空間で動作するUSBドライバの作成方法を紹介する入門記事です。USBデバイスとの通信をカーネル空間ではなくユーザー空間で行うことで、開発の容易さやデバッグの効率化が期待できます。記事では、USBの基本的な概念から、libusbなどのライブラリを用いた実装方法までを解説しており、USBデバイス連携機能を開発する際の参考情報となります。"
+    },
+    {
+      "id": "reddit_57464",
+      "source": "reddit",
+      "title": "Domino Tiling: From Dynamic Programming to Finite Fields",
+      "url": "https://www.reddit.com/r/programming/comments/1ufcx1g/domino_tiling_from_dynamic_programming_to_finite/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.omegasyntax.com/domino/\">https://www.omegasyntax.com/domino/</a></p> <p>Series of articles about Domino Tiling problem.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eugene\"> /u/eugene </a> <br /> <span><a href=\"https://www.omegasyntax.com/domino/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ufcx1g/domino_tiling_from_dynamic_programming_to_finite/\">[comments]<",
+      "tags": [
+        "ドミノタイリング",
+        "動的計画法",
+        "有限体",
+        "組み合わせ問題"
+      ],
+      "fetched_at": "2026-06-26T08:20:59.212688+09:00",
+      "summary": "この記事は、ドミノタイリング問題に対する動的計画法から有限体へのアプローチを探求する一連の記事を紹介しています。ドミノタイリングは、グリッド上にドミノを敷き詰める組み合わせ問題であり、計算機科学や統計物理学において重要な研究対象です。有限体を用いることで、この問題の複雑な構造を解析し、より効率的な解法や理論的な洞察を得ることが可能になります。このアプローチは、アルゴリズム設計や離散数学の分野に貢献します。"
+    }
+  ]
+}
