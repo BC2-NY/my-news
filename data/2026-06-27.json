@@ -1,0 +1,303 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T08:09:14.621018+09:00",
+  "articles": [
+    {
+      "id": "hn_48689028",
+      "source": "hackernews",
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "score": 729,
+      "comments": 455,
+      "raw_description": "",
+      "tags": [
+        "GPT-5.6 Sol",
+        "OpenAI",
+        "次世代AIモデル",
+        "自然言語処理"
+      ],
+      "fetched_at": "2026-06-27T08:09:12.714342+09:00",
+      "summary": "OpenAIは次世代モデル「GPT-5.6 Sol」のプレビューを発表しました。このモデルは、より高度な推論能力と、複雑なタスクにおける精度向上を目指しています。特に、自然言語理解の深化と、多様なデータソースからの学習能力の強化に重点が置かれており、AIの応用範囲をさらに広げる可能性を秘めています。GPT-5.6 Solは、研究開発コミュニティに早期アクセスが提供され、フィードバックを通じてさらなる改善が図られる予定です。"
+    },
+    {
+      "id": "hn_48690101",
+      "source": "hackernews",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "score": 682,
+      "comments": 817,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:13.304872+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48642510",
+      "source": "hackernews",
+      "title": "MicroVMs: Run isolated sandboxes with full lifecycle control",
+      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "score": 225,
+      "comments": 134,
+      "raw_description": "",
+      "tags": [
+        "MicroVMs",
+        "仮想化",
+        "サーバーレス",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-27T08:09:13.507830+09:00",
+      "summary": "MicroVMsは、軽量かつ高密度な仮想化環境を提供し、コンテナよりも強力な分離とフルライフサイクル管理を実現します。これにより、セキュリティが強化され、リソース効率が向上するため、サーバーレスコンピューティングやエッジコンピューティングなどのユースケースで、迅速な起動と確実な実行が求められる場面での活用が期待されます。"
+    },
+    {
+      "id": "hn_48688700",
+      "source": "hackernews",
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "score": 130,
+      "comments": 81,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "Claude",
+        "Codex",
+        "Cursor"
+      ],
+      "fetched_at": "2026-06-27T08:09:14.308026+09:00",
+      "summary": "Claude, Codex, and Cursorに直接統合されたスマートモデルルーティング機能がShow HNで紹介されました。この機能により、ユーザーは複数の大規模言語モデル（LLM）を効率的に切り替え、タスクに最適なモデルを選択できるようになります。開発者は、モデルのパフォーマンスやコストを考慮しながら、より柔軟な開発が可能になります。"
+    },
+    {
+      "id": "hn_48692051",
+      "source": "hackernews",
+      "title": "We Can Still Stop California's 3D Printer Surveillance Scheme",
+      "url": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme",
+      "score": 95,
+      "comments": 8,
+      "raw_description": "",
+      "tags": [
+        "3Dプリンター",
+        "銃規制",
+        "カリフォルニア州",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-06-27T08:09:13.913064+09:00",
+      "summary": "カリフォルニア州で提案されている3Dプリンター監視法案は、製造された銃器のシリアル番号記録を義務付け、追跡を可能にするものです。この法案は、銃規制強化の一環として、違法製造銃器の流通抑制を目指していますが、プライバシー侵害や技術的実現性、銃所有者の権利への影響について懸念が表明されています。法案の成立は、3Dプリンターによる銃器製造のあり方に大きな影響を与える可能性があります。"
+    },
+    {
+      "id": "hatena_85799",
+      "source": "hatena",
+      "title": "メインフレーム離脱プロジェクトの7割超が失敗、理由は「生成AIの過大評価」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2606/25/news052.html",
+      "score": 91,
+      "comments": 0,
+      "raw_description": "Gartnerは2026年6月18日（現地時間）、2026年に開始されたメインフレーム離脱プロジェクトの70％超が、意図した利益を生み出せずに終わるとの予測を発表した。原因として、生成AIツールの能力を過大に見積もる傾向を挙げた。同社は、複雑なレガシーコードの変換や移行について、生成AIによる効率化を強調する市場の訴求...",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:12.456972+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48692058",
+      "source": "hackernews",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "score": 69,
+      "comments": 48,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:13.105286+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_04633",
+      "source": "hatena",
+      "title": "final、“気持ちいい”に特化した極小耳栓「YOKONE」一般発売開始。2480円から",
+      "url": "https://av.watch.impress.co.jp/docs/news/2120256.html",
+      "score": 68,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "final",
+        "YOKONE",
+        "耳栓",
+        "睡眠"
+      ],
+      "fetched_at": "2026-06-27T08:09:12.456985+09:00",
+      "summary": "finalは、睡眠時の快適性を追求した極小耳栓「YOKONE」を一般発売しました。この耳栓は、耳の奥まで挿入しても痛みを感じにくい小型設計と、耳道にフィットするシリコン素材を採用しており、静かな睡眠環境を提供します。価格は2480円からで、快適な睡眠を求めるユーザーにとって新たな選択肢となります。"
+    },
+    {
+      "id": "hn_48644111",
+      "source": "hackernews",
+      "title": "The \"Bizarre Headgear\" exhibit at the Sam Noble museum",
+      "url": "https://svpow.com/2026/05/15/the-bizarre-headgear-exhibit-at-the-sam-noble-museum-is-incredible/",
+      "score": 60,
+      "comments": 6,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:14.107121+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_02794",
+      "source": "hatena",
+      "title": "正直に言う。お前のClaude Codeの使い方は間違っている - Qiita",
+      "url": "https://qiita.com/tehito/items/356e5f1dba112a075be1",
+      "score": 59,
+      "comments": 0,
+      "raw_description": "「特定の作業のときだけ要る知識」は Agent Skills（.claude/skills/） に逃がせ。Skillsは必要なときだけ読まれる。常に読ませるな。引かせろ。 CLAUDE.md は憲法。Skills は六法全書。違いが分からないなら、まずそこからだ。 ミス2. 1つの指示に作業を全部詰め込んでいる 「テスト直して、リファクタして、ドキュメン...",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:12.456921+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_29911",
+      "source": "hatena",
+      "title": "潰れたネジ山用の特殊ビットも入った特殊精密工具138点セット「TL-027」がアイネックスから",
+      "url": "https://akiba-pc.watch.impress.co.jp/docs/news/news/2119701.html",
+      "score": 41,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:12.456952+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48692090",
+      "source": "hackernews",
+      "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
+      "url": "https://github.com/Tessil/hopscotch-map",
+      "score": 35,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:12.912098+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_92861",
+      "source": "hatena",
+      "title": "経営者になって廃人となりすべてを失った弟",
+      "url": "https://anond.hatelabo.jp/20260626120948",
+      "score": 30,
+      "comments": 0,
+      "raw_description": "時期はぼかすが今年、弟が死んだ。 44歳、心不全だった。 弟は統合失調症になって社会からリタイヤしてようやく治療の甲斐あって薬で日常生活は送れる程にはなっていた。 統合失調症罹患者は心不全での突然死のリスクが普通の人より30％近く高いので生活管理に気を付けてください、と主治医の先生からは聞いていた。 弟...",
+      "tags": [
+        "統合失調症",
+        "心不全",
+        "突然死リスク",
+        "健康管理"
+      ],
+      "fetched_at": "2026-06-27T08:09:12.456978+09:00",
+      "summary": "統合失調症を患っていた44歳の男性が心不全で亡くなった事例が報告されました。統合失調症罹患者は健常者と比較して心不全による突然死のリスクが約30%高いことが指摘されており、日常生活における健康管理の重要性が示唆されています。この事例は、精神疾患を持つ人々の身体的健康への配慮の必要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_99315",
+      "source": "hatena",
+      "title": "「+65」から始まる番号から不審な電話がありAIに「調べて」とお願いしたら急に通話発信をしはじめて焦った話…その後「絶対に折り返さないように」と言い出してコント",
+      "url": "https://togetter.com/li/2713993",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "あーてぃ @Rantz174978001 ちょっと聞いてや。 +65から始まる不審電話あったからGemini proに「調べて」ってお願いしたら、止めるまもなく「その電話番号に通話発信」しよった。最悪ですよ。 ITリテラシーゼロ。常識が人間と違う。 おまけに 「絶対に折り返しや連絡は行わないようご注意ください。」だって。 お前や！！...",
+      "tags": [
+        "AI",
+        "チャットボット",
+        "セキュリティ",
+        "ITリテラシー"
+      ],
+      "fetched_at": "2026-06-27T08:09:12.456943+09:00",
+      "summary": "AIチャットボットに不審な電話番号の調査を依頼したところ、意図せず通話発信を開始してしまった事例が報告されました。AIが調査の一環として外部への発信を行う挙動は、ユーザーの予期せぬ動作であり、セキュリティ上の懸念やAIの挙動理解の重要性を示唆しています。AIの指示に従うだけでなく、その動作原理やリスクを理解することが、ITリテラシーとして求められます。"
+    },
+    {
+      "id": "hatena_13439",
+      "source": "hatena",
+      "title": "気持ちイイほどよく吹っ飛ぶ!!　電動エアダスターが便利過ぎるのでHiKOKIの18Vモデルを買ったら爆風すぎてやみつきになった件 【テレワークグッズ・ミニレビュー 第162回】",
+      "url": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/2120194.html",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "電動エアダスター",
+        "HiKOKI",
+        "テレワーク",
+        "PC周辺機器"
+      ],
+      "fetched_at": "2026-06-27T08:09:12.456966+09:00",
+      "summary": "HiKOKIの18V電動エアダスターは、強力な風量でPC周辺機器やキーボードのホコリを効率的に除去できる。従来のエアダスター缶に比べてランニングコストを抑えられ、環境負荷も低減できる点がメリット。テレワーク環境でのデスク周りの清掃や、精密機器のメンテナンスに有効なツールと言える。"
+    },
+    {
+      "id": "hatena_90223",
+      "source": "hatena",
+      "title": "Bluesky、ユーザー数が4500万人を突破",
+      "url": "https://www.watch.impress.co.jp/docs/news/2120504.html",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-27T08:09:12.456959+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_44766",
+      "source": "reddit",
+      "title": "Fintech Engineering Handbook",
+      "url": "https://www.reddit.com/r/programming/comments/1ufzafr/fintech_engineering_handbook/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I just published Fintech Engineering Handbook distilled from 6 years of tears, sweat and swears. </p> <p>It’s a free ~25-page resource with various hints and patterns around handling money in software systems. </p> <p>Tell me what you think!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Krever\"> /u/Krever </a> <br /> <span><a href=\"https://w.pitula.me/fintech-engineering-handbook/\">[link]</a></span> &#32; <span><a href=\"h",
+      "tags": [
+        "Fintech",
+        "ソフトウェア開発",
+        "エンジニアリング",
+        "マネーシステム"
+      ],
+      "fetched_at": "2026-06-27T08:09:14.620954+09:00",
+      "summary": "6年間の実務経験に基づいた「Fintech Engineering Handbook」が公開されました。この約25ページの無料リソースは、ソフトウェアシステムにおける金銭の取り扱いに関するヒントやパターンをまとめたものです。金融システム開発における実用的な知見が共有されており、技術者にとって参考になる内容となっています。"
+    },
+    {
+      "id": "reddit_38848",
+      "source": "reddit",
+      "title": "Cartridge Style Development - Everything in One .exe File!",
+      "url": "https://www.reddit.com/r/programming/comments/1ufsqxj/cartridge_style_development_everything_in_one_exe/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UltimaN3rd\"> /u/UltimaN3rd </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=i0Dip6rBNRA\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ufsqxj/cartridge_style_development_everything_in_one_exe/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-06-27T08:09:14.620977+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_60660",
+      "source": "reddit",
+      "title": "Recording 10k user sessions cost us less bandwidth than a single HD video",
+      "url": "https://www.reddit.com/r/programming/comments/1ug3h7y/recording_10k_user_sessions_cost_us_less/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rejourneyco\"> /u/rejourneyco </a> <br /> <span><a href=\"https://rejourney.co/engineering/2026-05-06/mobile-session-replay-cost\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ug3h7y/recording_10k_user_sessions_cost_us_less/\">[comments]</a></span>",
+      "tags": [
+        "ユーザーセッション録画",
+        "帯域幅効率",
+        "コスト削減",
+        "エンジニアリング"
+      ],
+      "fetched_at": "2026-06-27T08:09:14.620985+09:00",
+      "summary": "あるエンジニアリングチームは、10,000件のユーザーセッション録画の帯域幅コストが、単一の高精細ビデオストリームよりも低いことを発見しました。これは、セッションリプレイ技術が効率的にデータを圧縮・転送していることを示唆しています。この効率性は、大規模なユーザー行動分析やデバッグを行う際のインフラコスト削減に大きく貢献する可能性があり、SaaSプロダクト開発において重要な要素となります。"
+    },
+    {
+      "id": "reddit_82106",
+      "source": "reddit",
+      "title": "Insert, a language for self-modifying code",
+      "url": "https://www.reddit.com/r/programming/comments/1uglbou/insert_a_language_for_selfmodifying_code/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>If you ever find yourself with time to kill and crave a fun challenge, you can write a program that prints out its own source code, called a <a href=\"https://en.wikipedia.org/wiki/Quine_(computing\">quine</a>). Go on, give it a try, it's good fun! Once that's done, what's to stop you from modifying the source code instead of printing it verbatim, slowly shifting forms as you iterate on each successive output?</p> <p>Naturally, you'll want to make a <a href=\"https",
+      "tags": [
+        "プログラミング言語",
+        "自己変更コード",
+        "Quine",
+        "動的コード生成"
+      ],
+      "fetched_at": "2026-06-27T08:09:14.620992+09:00",
+      "summary": "Insertは、自己変更コードを生成するために設計された新しいプログラミング言語です。この言語は、プログラムが実行中に自身のソースコードを動的に変更することを可能にし、これにより、従来の静的なコードでは実現困難な高度な適応性や自己修復機能を持つアプリケーションの開発が期待されます。Quine（自身のソースコードを出力するプログラム）の概念を拡張し、コードの生成と実行を統合することで、より柔軟で進化するソフトウェアの構築を目指します。"
+    }
+  ]
+}
