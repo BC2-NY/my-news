@@ -1,0 +1,331 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T08:04:43.194383+09:00",
+  "articles": [
+    {
+      "id": "hn_48696585",
+      "source": "hackernews",
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "score": 707,
+      "comments": 292,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "推論高速化",
+        "投機的デコーディング",
+        "DSpark"
+      ],
+      "fetched_at": "2026-06-28T08:04:42.351799+09:00",
+      "summary": "DSparkは、大規模言語モデル（LLM）の推論を高速化する投機的デコーディング手法です。従来の逐次的なトークン生成とは異なり、DSparkは複数の候補トークンを並列で予測し、それらを検証することで、計算リソースを効率的に活用します。このアプローチにより、特に長いシーケンスの生成において、レイテンシを大幅に削減し、スループットを向上させることが期待されます。LLMの応用範囲を広げる上で重要な技術革新と言えます。"
+    },
+    {
+      "id": "hn_48698617",
+      "source": "hackernews",
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "url": "https://github.com/bikini/exploitarium",
+      "score": 593,
+      "comments": 233,
+      "raw_description": "",
+      "tags": [
+        "ゼロデイ脆弱性",
+        "GitHub",
+        "情報公開",
+        "セキュリティリスク"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.762631+09:00",
+      "summary": "GitHub上で、匿名のユーザーが未公表のゼロデイ脆弱性を大量に公開していることが確認されました。これらの脆弱性は、特定のソフトウェアやシステムに影響を与える可能性があり、悪用されるリスクがあります。開発者やセキュリティ担当者は、これらの脆弱性に関する情報を迅速に収集し、対策を講じる必要があります。この事態は、サプライチェーン攻撃や標的型攻撃のリスクを高める可能性があります。"
+    },
+    {
+      "id": "hn_48697560",
+      "source": "hackernews",
+      "title": "OpenRA",
+      "url": "https://www.openra.net/",
+      "score": 526,
+      "comments": 98,
+      "raw_description": "",
+      "tags": [
+        "OpenRA",
+        "RTS",
+        "オープンソース",
+        "ゲームリマスター"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.963311+09:00",
+      "summary": "OpenRAは、Red Alert、Command & Conquer、Dune 2000などのクラシックなリアルタイムストラテジー（RTS）ゲームを現代のオペレーティングシステムでプレイ可能にするオープンソースのリマスタープロジェクトです。オリジナルのゲームアセットを必要としますが、ゲームエンジン自体はC#で再実装されており、クロスプラットフォーム対応、MODサポートの強化、ネットワークプレイの改善などを実現しています。これにより、過去の名作RTSを最新環境で楽しむだけでなく、コミュニティによる新たなコンテンツ開発も促進されます。"
+    },
+    {
+      "id": "hatena_48687",
+      "source": "hatena",
+      "title": "システム開発と「具体と抽象」 | 技術評論社",
+      "url": "https://gihyo.jp/book/2026/978-4-297-15790-6",
+      "score": 367,
+      "comments": 0,
+      "raw_description": "著者 細谷功（ほそやいさお）　著 定価 2,200円（本体2,000円＋税10%） 発売日 2026.7.28 判型 四六 頁数 272ページ ISBN 978-4-297-15790-6 978-4-297-15791-3 概要 システム開発の現場で、こんな思いをしたことはないでしょうか。「で、具体的に何を作ればいいんですか」 経営者の語る構想も、コンサルタントの描く青...",
+      "tags": [
+        "システム開発",
+        "具体と抽象",
+        "要求定義",
+        "思考法"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.301021+09:00",
+      "summary": "本書は、システム開発における「具体と抽象」の往復思考の重要性を解説しています。経営層の抽象的な構想やコンサルタントの描く青写真を、開発現場が具体的な成果物へと落とし込むプロセスで生じる認識のズレや課題に焦点を当てています。この往復思考を効果的に行うことで、要求定義の精度を高め、手戻りを減らし、より高品質なシステム開発を実現するための実践的なアプローチを提供します。"
+    },
+    {
+      "id": "hatena_00028",
+      "source": "hatena",
+      "title": "Dellでパソコンを注文したが、入金済みなのに遅延の嵐、さらに値上げ告知、3か月後に一方的キャンセル…電話はつながらずAI対応へ誘導され困惑と不満が止まらない",
+      "url": "https://togetter.com/li/2714197",
+      "score": 197,
+      "comments": 0,
+      "raw_description": "CORE @daddymulk2013 DELLパソ、入金まで済んでるのに遅延の嵐だわ、値上げ告知だわ挙句の果て3か月経って一方的にキャンセルしてきおった、、、こっちからのキャンセルは受け付けないとか言って、コンプライアンスを盾に責任回避 これが2026年か。。。。（ ｉ _ ｉ ） 2026-06-26 11:52:18 CORE @daddymulk2013 2週間で...",
+      "tags": [
+        "Dell",
+        "PC注文",
+        "納期遅延",
+        "一方的キャンセル"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.301059+09:00",
+      "summary": "DellでPCを注文後、入金済みにも関わらず度重なる遅延、値上げ通知、そして3ヶ月後に一方的な注文キャンセルが発生した事例が報告されています。顧客はキャンセルを受け付けない一方、Dell側はコンプライアンスを理由に責任を回避する姿勢を見せており、問い合わせ窓口もAI対応への誘導が中心で、顧客の不満と困惑を招いています。これは、サプライチェーンの混乱や顧客対応における課題を示唆しています。"
+    },
+    {
+      "id": "hn_48700834",
+      "source": "hackernews",
+      "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
+      "url": "https://ipcrawl.com/",
+      "score": 174,
+      "comments": 87,
+      "raw_description": "",
+      "tags": [
+        "IP Crawl",
+        "ウェブカメラ",
+        "IoTセキュリティ",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.546904+09:00",
+      "summary": "研究者たちは、インターネット上に公開されているウェブカメラのIPアドレスを自動的に収集・分析する「IP Crawl」という手法を開発しました。この手法により、約45万台のウェブカメラが特定され、その多くがセキュリティ対策の不備を抱えていることが明らかになりました。この発見は、IoTデバイスのセキュリティリスクと、プライバシー保護の重要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_48660021",
+      "source": "hackernews",
+      "title": "AI learns the “dark art” of RFIC design",
+      "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "score": 166,
+      "comments": 107,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "RFIC設計",
+        "自動化",
+        "集積回路"
+      ],
+      "fetched_at": "2026-06-28T08:04:42.737079+09:00",
+      "summary": "AIは、RFIC（高周波集積回路）設計における複雑で経験則に依存する「暗黙知」領域の学習に成功しました。これにより、従来は熟練エンジニアの勘や試行錯誤に頼っていた設計プロセスを自動化・最適化し、設計時間の短縮と性能向上が期待されます。この技術は、5G/6G通信やIoTデバイスなど、高性能RFICが不可欠な分野の発展を加速させる可能性があります。"
+    },
+    {
+      "id": "hn_48701822",
+      "source": "hackernews",
+      "title": "'Careless People' author claims Meta surveilled her for 12mos to enforce silence",
+      "url": "https://fortune.com/2026/06/26/meta-wynn-williams-surveillance-gag-order-lawsuit-2026/",
+      "score": 136,
+      "comments": 41,
+      "raw_description": "",
+      "tags": [
+        "Meta",
+        "プライバシー",
+        "監視",
+        "表現の自由"
+      ],
+      "fetched_at": "2026-06-28T08:04:42.547871+09:00",
+      "summary": "作家がMeta社から12ヶ月間にわたり監視を受け、沈黙を強要されたと主張している。この主張は、Meta社がユーザーのプライバシーをどのように管理し、コンテンツモデレーションや法的措置をどのように実行しているかについての懸念を提起する。もし事実であれば、プラットフォームの監視能力と、それが個人の表現の自由やプライバシーに与える影響について、さらなる議論を呼ぶ可能性がある。"
+    },
+    {
+      "id": "hatena_86616",
+      "source": "hatena",
+      "title": "コードから仕様書を逆生成するWebアプリ「cc-rsg-web」を公開しました",
+      "url": "https://zenn.dev/daishiro/articles/cc-rsg-web-release",
+      "score": 129,
+      "comments": 0,
+      "raw_description": "はじめに こんにちは、daishir0です。 普段はClaude Codeを趣味と開発でガシガシ使っていて、副産物として小さなシステムをいくつか公開しています。GitHubはこちらです。 以前、Claude Code Skill「cc-rsg」をWeb化した話 — OpenHandsという発見 という記事を書きました。その後も手を動かし続けていて、ようやく外に出...",
+      "tags": [
+        "コード生成",
+        "仕様書",
+        "Webアプリ",
+        "Claude Code"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.301079+09:00",
+      "summary": "Claude Code Skill「cc-rsg」をWeb化した「cc-rsg-web」が公開されました。このWebアプリは、既存のコードから仕様書を逆生成する機能を提供します。これにより、ドキュメント作成の効率化や、コードの理解促進に貢献することが期待されます。"
+    },
+    {
+      "id": "hn_48699928",
+      "source": "hackernews",
+      "title": "Turn your site into a place people can bump into each other",
+      "url": "https://cauenapier.com/blog/townsquare_release/",
+      "score": 120,
+      "comments": 59,
+      "raw_description": "",
+      "tags": [
+        "UX",
+        "コミュニティ",
+        "レコメンデーション",
+        "エンゲージメント"
+      ],
+      "fetched_at": "2026-06-28T08:04:42.940684+09:00",
+      "summary": "この機能は、ユーザーが偶然の出会いを体験できるようなウェブサイト構築を支援します。具体的には、関連性の高いコンテンツやユーザーを推薦することで、予期せぬ発見や交流を促進します。これにより、ユーザーエンゲージメントの向上やコミュニティ形成の活性化が期待できます。"
+    },
+    {
+      "id": "hatena_30918",
+      "source": "hatena",
+      "title": "Claude Enterprise全社導入で何を検討し、何をやらなかったか - メドピア開発者ブログ",
+      "url": "https://tech.medpeer.co.jp/entry/2026/06/26/122446",
+      "score": 80,
+      "comments": 0,
+      "raw_description": "こんにちは。セキュリティエンジニア兼SREの侘美です。 2026年6月、メドピアではClaude Enterpriseの全社導入を完了しました。正社員・契約社員あわせて約130名にアカウントを配布しています。 今回の導入は、自分（セキュリティ）とコーポレートIT（社内のIT機器・SaaS管理を担当）で協力して設計・構築しました。セキ...",
+      "tags": [
+        "Claude Enterprise",
+        "全社導入",
+        "AI活用",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.301085+09:00",
+      "summary": "メドピアは、正社員・契約社員約130名を対象に、AIチャットボット「Claude Enterprise」の全社導入を完了しました。この導入は、セキュリティエンジニアとコーポレートIT部門が協力して設計・構築を進めました。導入にあたっては、全社導入で検討した事項と、実施しなかった事項の両方を明確にすることが重要視されました。これにより、AIツールの安全かつ効果的な活用を目指しています。"
+    },
+    {
+      "id": "hn_48701512",
+      "source": "hackernews",
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "score": 53,
+      "comments": 34,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-28T08:04:42.160313+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_28560",
+      "source": "hatena",
+      "title": "エンジニアとして尊敬してた先輩が変わり果てて哀しい",
+      "url": "https://anond.hatelabo.jp/20260627180014",
+      "score": 44,
+      "comments": 0,
+      "raw_description": "30代を捧げてきた技術が死にそう https://anond.hatelabo.jp/20250528222518 という記事を読んで、ふと始めて勤めたITベンチャーで世話になって物凄い憧れだった先輩の話を思い出した。 というか本人かもしれない、そうだったらちょっと謝りたい リアルで他の友人知人や関係者に吐き出すわけにもいかないモヤモヤを、愚...",
+      "tags": [],
+      "fetched_at": "2026-06-28T08:04:41.301043+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_41439",
+      "source": "hatena",
+      "title": "キオクシア、社員600人が「10億り人」　AIが生む富の新景色 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOCD24BRL0U6A620C2000000/",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "元従業員の溶接工や技術者も「ミリオネア」に。2002年にイーロン・マスク氏が創業したスペースXの上場でおよそ4400人がミリオネアになったと報じられている。過去に給与の代わりに付与されたり上場前から購入していたりしたスペースX株が上場により大きな価値がついたからだ。人類史上最大の資本投資競争を呼び込んでい...",
+      "tags": [
+        "キオクシア",
+        "ストックオプション",
+        "IPO",
+        "従業員持株"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.301052+09:00",
+      "summary": "キオクシアの元従業員600人が、同社の株式価値上昇により「10億り人」（ミリオネア）となった。これは、過去に給与の一部として、あるいは上場前に購入した株式が、企業の成長や将来的なIPO（新規株式公開）を見越した価値上昇によって、大きな資産となった事例である。スペースXの例と同様に、従業員への株式付与やストックオプション制度が、個人の資産形成に大きく貢献する可能性を示唆している。"
+    },
+    {
+      "id": "hatena_94403",
+      "source": "hatena",
+      "title": "最近は企業からメールアドレスが漏れることが多いがメールアドレスのドメインに「＋〇〇」のように変えて特定する方法がある「これを拒否するところは…」",
+      "url": "https://togetter.com/li/2714363",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "kakakaya @kakakaya かっぱ寿司のメールアドレス漏洩疑惑が話題だけど、 メールアドレスの登録をさせられるときにサービスのドメインを「example+www.kappasushi .jp @ gmail.com」のように登録することで漏洩されたときにすぐどこか犯人がわかるライフハック……への対策として、 メールアドレス登録時に「+を含む記号は...",
+      "tags": [
+        "メールアドレス漏洩",
+        "ライフハック",
+        "セキュリティ",
+        "情報管理"
+      ],
+      "fetched_at": "2026-06-28T08:04:41.301073+09:00",
+      "summary": "企業からのメールアドレス漏洩が多発する中、メールアドレスのドメインに「+〇〇」を追加するライフハックが注目されています。これは、サービスごとに異なる文字列を付加することで、どのサービスから情報が漏洩したかを特定しやすくするものです。しかし、この手法に対応していないサービスも存在するため、登録時に注意が必要です。このライフハックは、情報漏洩時の追跡を容易にするための有効な手段となり得ます。"
+    },
+    {
+      "id": "hatena_85874",
+      "source": "hatena",
+      "title": "ソニー「aiboはやめません」──“次の開発”も明かす　オーナーに「安心してください」と呼びかけ",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2606/27/news027.html",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "6月25日、ソニーグループが突如として発表した自律型エンタテインメントロボット「aibo」の現行機「ERS-1000」の国内販売終了は、ネット上に大きな波紋を広げた。しかし、不安に揺れるオーナーたちに向けて、ソニーはすぐさま行動を起こした。6月27日の正午、公式YouTubeチャンネルで急きょ特別配信を実施し、「aiboはや...",
+      "tags": [],
+      "fetched_at": "2026-06-28T08:04:41.301066+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_58556",
+      "source": "reddit",
+      "title": "Data Access Patterns That Makes Your CPU Really Angry",
+      "url": "https://www.reddit.com/r/programming/comments/1uh3z4m/data_access_patterns_that_makes_your_cpu_really/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Double_Ad641\"> /u/Double_Ad641 </a> <br /> <span><a href=\"https://blog.weineng.me/posts/slowest_add/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uh3z4m/data_access_patterns_that_makes_your_cpu_really/\">[comments]</a></span>",
+      "tags": [
+        "CPU",
+        "パフォーマンス",
+        "メモリアクセス",
+        "キャッシュ"
+      ],
+      "fetched_at": "2026-06-28T08:04:43.194321+09:00",
+      "summary": "この記事では、CPUのパフォーマンスを著しく低下させる可能性のあるデータアクセスパターンについて解説しています。特に、キャッシュミスを多発させるようなメモリアクセス方法がCPUに大きな負荷をかける原因となります。CPUの命令実行効率を最大化するためには、データ局所性を考慮したメモリアクセス設計が不可欠であり、パフォーマンスチューニングにおいて重要な視点となります。"
+    },
+    {
+      "id": "reddit_33431",
+      "source": "reddit",
+      "title": "50 out of 413 Companies that use my libraries",
+      "url": "https://www.reddit.com/r/programming/comments/1uh2qcg/50_out_of_413_companies_that_use_my_libraries/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bowbahdoe\"> /u/bowbahdoe </a> <br /> <span><a href=\"https://mccue.dev/pages/6-27-26-who-uses\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uh2qcg/50_out_of_413_companies_that_use_my_libraries/\">[comments]</a></span>",
+      "tags": [
+        "オープンソース",
+        "ライブラリ利用",
+        "ソフトウェア開発",
+        "企業採用"
+      ],
+      "fetched_at": "2026-06-28T08:04:43.194343+09:00",
+      "summary": "ある開発者が公開しているライブラリの利用状況に関する分析結果が共有されました。413社の企業のうち50社がこれらのライブラリを利用していることが判明し、そのうち28社はオープンソースライセンスの下で提供されているライブラリを利用していました。このデータは、オープンソースソフトウェアが企業開発において広く採用されている現状を示唆しており、開発者コミュニティへの貢献の重要性を浮き彫りにしています。"
+    },
+    {
+      "id": "reddit_09743",
+      "source": "reddit",
+      "title": "Mojo programming language will become open-source soon.",
+      "url": "https://www.reddit.com/r/programming/comments/1uh1qm4/mojo_programming_language_will_become_opensource/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>The main website of the language <a href=\"https://mojolang.org/\">https://mojolang.org/</a> displays an announcement bar that says &quot;Mojo will be open source soon! Join us at ModCon '26 for an update.&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/baldierot\"> /u/baldierot </a> <br /> <span><a href=\"https://www.modular.com/modcon\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/",
+      "tags": [
+        "Mojo",
+        "オープンソース",
+        "プログラミング言語",
+        "Python"
+      ],
+      "fetched_at": "2026-06-28T08:04:43.194352+09:00",
+      "summary": "Mojoプログラミング言語が近日中にオープンソース化されることが発表されました。詳細は2026年のModConで共有される予定です。MojoはPythonの構文とRustのパフォーマンスを組み合わせることを目指しており、オープンソース化によりコミュニティによる開発促進とエコシステムの拡大が期待されます。"
+    },
+    {
+      "id": "reddit_56465",
+      "source": "reddit",
+      "title": "A Tiny Compiler for Data-Parallel Kernels",
+      "url": "https://www.reddit.com/r/programming/comments/1uguca7/a_tiny_compiler_for_dataparallel_kernels/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitousa\"> /u/mitousa </a> <br /> <span><a href=\"https://healeycodes.com/a-tiny-compiler-for-data-parallel-kernels\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uguca7/a_tiny_compiler_for_dataparallel_kernels/\">[comments]</a></span>",
+      "tags": [
+        "コンパイラ",
+        "データ並列",
+        "GPU",
+        "HPC"
+      ],
+      "fetched_at": "2026-06-28T08:04:43.194358+09:00",
+      "summary": "この記事では、データ並列カーネル向けの軽量コンパイラについて解説しています。このコンパイラは、GPUなどの並列計算リソースを活用し、データ処理のパフォーマンスを向上させることを目的としています。特に、小規模ながらも効率的なコンパイラ設計に焦点を当てることで、開発者が並列計算の複雑さを意識せずに、より高速なコードを生成できる可能性を示唆しています。これは、HPCやAI分野における計算効率の改善に貢献する技術と言えます。"
+    }
+  ]
+}
