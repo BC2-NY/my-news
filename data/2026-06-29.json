@@ -1,0 +1,346 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T08:05:49.788438+09:00",
+  "articles": [
+    {
+      "id": "hn_48707763",
+      "source": "hackernews",
+      "title": "5k menus from the New York Public Library’s Buttolph Collection (1880-1920)",
+      "url": "https://pudding.cool/2026/06/menu-story/",
+      "score": 304,
+      "comments": 80,
+      "raw_description": "",
+      "tags": [
+        "食文化",
+        "歴史資料",
+        "アーカイブ",
+        "社会史"
+      ],
+      "fetched_at": "2026-06-29T08:05:48.210148+09:00",
+      "summary": "ニューヨーク公共図書館のButtolphコレクションから、1880年から1920年までの5000点のメニューが公開されました。このコレクションは、当時の食文化、社会経済、そして料理のトレンドを理解するための貴重な歴史的資料となります。特に、当時の食材の入手可能性や、多様な社会階層における食習慣の違いを分析する上で重要なデータを提供します。"
+    },
+    {
+      "id": "hn_48708941",
+      "source": "hackernews",
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "score": 288,
+      "comments": 394,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "医療",
+        "画像診断",
+        "Claude Code"
+      ],
+      "fetched_at": "2026-06-29T08:05:48.408101+09:00",
+      "summary": "Claude Codeは、MRI画像診断のセカンドオピニオン取得に活用できる可能性を示唆しています。AIが医療画像を解析し、専門医の診断を補完するツールとして期待されます。これにより、診断精度の向上や医療アクセスの改善に貢献する可能性がありますが、AIの判断を鵜呑みにせず、最終的な診断は医師が行うことが重要です。"
+    },
+    {
+      "id": "hn_48709670",
+      "source": "hackernews",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "score": 282,
+      "comments": 114,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "GLM 5.2",
+        "Claude 3 Opus",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-06-29T08:05:48.011389+09:00",
+      "summary": "ChatGLM-6Bの最新版であるGLM 5.2が、Claude 3 Opusを含む複数のベンチマークで性能向上を示しました。特に、自然言語理解、推論、コード生成のタスクにおいて、GLM 5.2はClaude 3 Opusを上回る結果を記録しました。この進歩は、オープンソースの大規模言語モデル（LLM）の能力が商用モデルに匹敵するレベルに達しつつあることを示唆しており、今後のLLM開発における競争とイノベーションを加速させる可能性があります。"
+    },
+    {
+      "id": "hatena_83781",
+      "source": "hatena",
+      "title": "資産5000万達成したから自慢したい",
+      "url": "https://anond.hatelabo.jp/20260628170241",
+      "score": 149,
+      "comments": 0,
+      "raw_description": "30代後半で金融資産5000万を超えた。資産5000万以上は準富裕層と呼ばれるラインだ(今のインフレ下では諸説ある)。 去年まで2000万前後でウロウロしていたが3000万(アッパーマス層ライン)を一瞬で通過して一気に5000万到達した。 リアルではとても言えない。闇バイト襲撃とか怖いし。最近ちょっと使って減ったけど。 最近...",
+      "tags": [
+        "資産形成",
+        "金融",
+        "準富裕層",
+        "個人投資"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775640+09:00",
+      "summary": "30代後半で金融資産5000万円を達成した個人の事例報告です。これは一般的に準富裕層の目安とされる金額であり、インフレの影響でその定義には諸説あるものの、短期間で資産が急増した点が注目されます。具体的な資産形成のプロセスや、それに伴う心理的側面についての言及は限定的ですが、個人の経済的目標達成の一例として捉えられます。"
+    },
+    {
+      "id": "hatena_63584",
+      "source": "hatena",
+      "title": "自動運転レベル4の世界共通ルールが日本主導でついに決定 | 自動運転ラボ",
+      "url": "https://jidounten-lab.com/u_64178",
+      "score": 148,
+      "comments": 0,
+      "raw_description": "国連の自動車基準調和世界フォーラムWP29が、自動運転システムを対象とする初の世界共通ルールを全会一致で採択した。完全な自動運転車が国境を越えて走るための国際的な土台が、ここに整ったことになる。 採択したのはWP29傘下の作業部会である。このルールは約50〜60カ国に適用される見込みで、発効は2027年1月が見込...",
+      "tags": [
+        "自動運転",
+        "国際ルール",
+        "WP29",
+        "法規制"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775688+09:00",
+      "summary": "国連の自動車基準調和世界フォーラム（WP29）において、自動運転システムに関する世界初の共通ルールが全会一致で採択されました。このルールは、約50〜60カ国に適用され、2027年1月からの発効が見込まれています。これにより、完全自動運転車が国際的な移動を可能にするための法的な枠組みが整備され、技術の普及と相互運用性の向上に大きく貢献することが期待されます。"
+    },
+    {
+      "id": "hatena_38437",
+      "source": "hatena",
+      "title": "ゲームチャットを支える技術",
+      "url": "https://pages.awscloud.com/rs/112-TZM-766/images/R13_0625_7_CDN221_v1.pdf",
+      "score": 142,
+      "comments": 0,
+      "raw_description": "CDN221 ゲームチャットを支える技術 高橋 良 ニンテンドーシステムズ株式会社 システム開発部 吉岡 幸一郎 ニンテンドーシステムズ株式会社 システム開発部 ゲームチャットを支える技術 ニンテンドーシステムズ株式会社 高橋 良 吉岡 幸一郎 はじめに ▸発表者が映り込むような写真撮影はお控えください ▸スライド自体の...",
+      "tags": [
+        "ゲームチャット",
+        "CDN",
+        "ネットワーク",
+        "システム開発"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775668+09:00",
+      "summary": "本記事では、任天堂システムズ株式会社が開発・運用するゲームチャットシステムを支える技術について解説しています。リアルタイムでの音声・テキスト通信を実現するために、CDN（Content Delivery Network）の活用や、低遅延・高信頼性を確保するためのネットワークアーキテクチャ、そしてスケーラビリティを考慮したシステム設計などが重要な要素となります。これらの技術は、プレイヤー間の円滑なコミュニケーションを可能にし、ゲーム体験の質を向上させる上で不可欠です。"
+    },
+    {
+      "id": "hn_48708991",
+      "source": "hackernews",
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "score": 129,
+      "comments": 164,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "不正行為",
+        "教育",
+        "生成AI"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.000632+09:00",
+      "summary": "ブラウン大学の教授が、AIによる大規模な不正行為が試験で行われたことを告発しました。学生がChatGPTなどの生成AIを用いて課題を提出し、それがAIによるものだと見抜けないケースが多発しているとのことです。この事態は、教育機関におけるAI利用の倫理的・技術的な課題を浮き彫りにし、今後の評価方法の見直しを迫るものとして重要です。"
+    },
+    {
+      "id": "hn_48710092",
+      "source": "hackernews",
+      "title": "Historical memory prices 1960-2026",
+      "url": "https://dam.stanford.edu/memory-prices.html",
+      "score": 100,
+      "comments": 31,
+      "raw_description": "",
+      "tags": [
+        "メモリ価格",
+        "DRAM",
+        "NANDフラッシュ",
+        "半導体市場"
+      ],
+      "fetched_at": "2026-06-29T08:05:48.606908+09:00",
+      "summary": "1960年から2026年までのDRAMおよびNANDフラッシュメモリの価格履歴を分析した記事です。過去の価格変動パターンと将来の予測を提示しており、メモリ市場の動向を理解する上で重要なデータを提供します。この情報は、半導体業界のサプライチェーンやデバイス開発に関わる技術者にとって、将来のコスト見積もりや技術選択の判断材料となり得ます。"
+    },
+    {
+      "id": "hatena_00346",
+      "source": "hatena",
+      "title": "Clipory — Mac のための最も強力なクリップボードマネージャー",
+      "url": "https://clipory.app/ja",
+      "score": 91,
+      "comments": 0,
+      "raw_description": "Mac のための最も強力なクリップボードマネージャーコピーしたリンク、画像、色、スニペットは、スクリーンショット内の文字までその場で検索でき、コレクションに自動でまとまります。種類で絞り込み、よく使うものはピン留めして、どのアプリにも貼り付け。",
+      "tags": [
+        "クリップボードマネージャー",
+        "Mac",
+        "生産性向上",
+        "情報整理"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775682+09:00",
+      "summary": "CliporyはMac向けのクリップボードマネージャーで、コピーしたテキスト、画像、リンク、色情報、さらにはスクリーンショット内の文字まで、その場で検索・整理できる強力な機能を提供します。自動コレクション機能により、コピー履歴が種類別に整理され、よく使う項目はピン留めして迅速にアクセス・再利用が可能です。これにより、開発者やデザイナーなどの情報整理・活用効率を大幅に向上させることができます。"
+    },
+    {
+      "id": "hn_48710775",
+      "source": "hackernews",
+      "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
+      "url": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
+      "score": 48,
+      "comments": 28,
+      "raw_description": "",
+      "tags": [
+        "TOP500",
+        "スーパーコンピューター",
+        "ISC'26",
+        "HPC"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.399982+09:00",
+      "summary": "ISC'26で開催されたTOP500リストの最新版で、新たなスーパーコンピューターが1位を獲得しました。このランキングは、スーパーコンピューターの性能を標準的なベンチマークで評価するもので、最新技術の進歩と大規模計算能力の向上を示しています。新しいトップシステムは、科学技術計算、AI、データ分析など、幅広い分野でのブレークスルーを可能にする計算能力を提供します。"
+    },
+    {
+      "id": "hatena_26787",
+      "source": "hatena",
+      "title": "AI エージェントフレームワーク Flue を試してみた",
+      "url": "https://azukiazusa.dev/blog/ai-agent-framework-flue/",
+      "score": 40,
+      "comments": 0,
+      "raw_description": "Flue は AI エージェントを構築するための TypeScript フレームワークです。ハーネス駆動のアーキテクチャを採用しており、エージェントの構築に必要な機能を包括的に提供しています。この記事では SRE エージェントを構築する例を通じて Flue の機能に触れていきます。 Flue は AI エージェントを構築するための TypeSc...",
+      "tags": [
+        "AIエージェント",
+        "TypeScript",
+        "フレームワーク",
+        "Flue"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775675+09:00",
+      "summary": "AIエージェント構築のためのTypeScriptフレームワーク「Flue」の紹介記事です。Flueはハーネス駆動アーキテクチャを採用し、エージェント開発に必要な機能を網羅しています。SREエージェント構築の具体例を通して、その機能性と開発プロセスにおける有用性が示されています。このフレームワークは、TypeScriptエコシステム内で効率的にAIエージェントを開発したい開発者にとって価値のある選択肢となり得ます。"
+    },
+    {
+      "id": "hatena_74503",
+      "source": "hatena",
+      "title": "Deno 2.9正式リリース。起動が2倍速、消費メモリは半分に。WebViewを用いたデスクトップアプリが作れる「Deno Desktop」など",
+      "url": "https://www.publickey1.jp/blog/26/deno_292webviewdeno_desktop.html",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "Deno 2.9正式リリース。起動が2倍速、消費メモリは半分に。WebViewを用いたデスクトップアプリが作れる「Deno Desktop」など JavaScript/TypeScriptランタイムのDenoを開発するDeno Landは、Deno 2.9正式版をリリースしました。 Deno 2.9は起動を2倍速にするなどの性能面での大幅向上や、Denoを基盤にJavaScriptやHTMLな...",
+      "tags": [
+        "Deno",
+        "JavaScript",
+        "TypeScript",
+        "デスクトップアプリ"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775695+09:00",
+      "summary": "Deno 2.9が正式リリースされ、起動速度が2倍、メモリ消費量が半分になるなど、パフォーマンスが大幅に向上しました。これにより、JavaScript/TypeScriptアプリケーションの実行効率が向上します。また、WebViewを利用してデスクトップアプリケーションを開発できる「Deno Desktop」も導入され、クロスプラットフォーム開発の可能性が広がります。"
+    },
+    {
+      "id": "hatena_78225",
+      "source": "hatena",
+      "title": "“詰む”前に仕組みを作れ 〜技術の波に溺れないためのキャッチアップ術〜",
+      "url": "https://speakerdeck.com/takasyou/jie-mu-qian-nishi-zu-miwozuo-re-ji-shu-nobo-nini-renaitamenokiyatutiatupushu",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "エンジニアがこの先生きのこるためのカンファレンス2026 向けの登壇資料です。",
+      "tags": [
+        "エンジニア",
+        "キャリア",
+        "技術トレンド",
+        "スキルアップ"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775701+09:00",
+      "summary": "本資料は、エンジニアが技術の急速な変化に対応し、キャリアを継続していくための具体的なキャッチアップ術を解説するものです。変化の激しいIT業界において、常に最新技術を習得し、自身のスキルセットをアップデートし続けることの重要性を強調しています。これにより、技術の波に乗り遅れることなく、将来的なキャリアリスクを低減させるための実践的なアプローチを提供します。"
+    },
+    {
+      "id": "hatena_47412",
+      "source": "hatena",
+      "title": "時速111kmで走行！レゴブロックで作った実物大のハイパーカーがレゴ史上最速記録を樹立",
+      "url": "https://karapaia.com/archives/611884.html",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "見ためおもちゃで中はガチ。32万個以上ものレゴブロックを使い再現した、実物大のハイパーカーが、時速111kmで丘を駆け、レゴの歴代走行可能車の速度記録を大幅に塗り替える最速記録を樹立した。 このハイパーカーは、レゴの新製品発売に先立ち、スウェーデンの超高性能車メーカー、ケーニグセグとコラボ製作したもの。 ...",
+      "tags": [
+        "レゴブロック",
+        "ハイパーカー",
+        "最速記録",
+        "エンジニアリング"
+      ],
+      "fetched_at": "2026-06-29T08:05:47.775660+09:00",
+      "summary": "レゴブロック32万個以上を使用して製作された実物大のハイパーカーが、時速111kmで走行し、レゴ史上最速記録を樹立しました。この車両は、ケーニグセグとのコラボレーションにより、レゴの新製品発売に先駆けて開発されました。見た目はおもちゃながら、実際の走行性能を持つこのハイパーカーは、レゴブロックの可能性とエンジニアリングの限界を押し広げるものです。"
+    },
+    {
+      "id": "hn_48712420",
+      "source": "hackernews",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "score": 9,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [
+        "知識蒸留",
+        "大規模言語モデル",
+        "ブラックボックスAI",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-06-29T08:05:48.806534+09:00",
+      "summary": "本論文では、ブラックボックスの大規模言語モデル（LLM）から知識蒸留を行うための新しい手法を提案しています。この手法は、教師モデルの出力確率分布を直接模倣するのではなく、教師モデルの予測結果を説明する「理由」を生成させることで、より効率的かつ効果的な知識転移を目指します。これにより、計算リソースが限られた環境でも、高性能な小規模モデルを構築することが可能になり、LLMの応用範囲を広げる上で重要な貢献が期待されます。"
+    },
+    {
+      "id": "hn_48712338",
+      "source": "hackernews",
+      "title": "A QNX-inspired operating system with selectable kernels",
+      "url": "https://qsoe.net",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "QNX",
+        "オペレーティングシステム",
+        "マイクロカーネル",
+        "モノリシックカーネル"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.200518+09:00",
+      "summary": "QNXにインスパイアされた新しいオペレーティングシステムが開発されました。このOSは、マイクロカーネルとモノリシックカーネルの両方を選択できる柔軟なアーキテクチャを採用しており、リアルタイム性とパフォーマンスのトレードオフをアプリケーションの要件に応じて最適化できます。これにより、組み込みシステムや高信頼性が求められる分野での応用が期待されます。"
+    },
+    {
+      "id": "reddit_29059",
+      "source": "reddit",
+      "title": "CORS explained in plain English",
+      "url": "https://www.reddit.com/r/programming/comments/1uhpazx/cors_explained_in_plain_english/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdvertisingFancy7011\"> /u/AdvertisingFancy7011 </a> <br /> <span><a href=\"https://sanyamserver.online/posts/cors/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uhpazx/cors_explained_in_plain_english/\">[comments]</a></span>",
+      "tags": [
+        "CORS",
+        "HTTP",
+        "Web開発",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.788380+09:00",
+      "summary": "CORS（Cross-Origin Resource Sharing）は、ブラウザの同一オリジンポリシー（SOP）によって制限される、異なるオリジン間でのリソース共有を可能にするHTTPヘッダーのセットです。これにより、Webアプリケーションは、異なるドメイン、プロトコル、またはポートにあるリソースに安全にアクセスできます。API連携やマイクロサービスアーキテクチャにおいて、フロントエンドとバックエンドの分離を促進し、柔軟な開発を可能にするために不可欠な仕組みです。"
+    },
+    {
+      "id": "reddit_87015",
+      "source": "reddit",
+      "title": "Ante: A New Way to Blend Borrow Checking and Reference Counting",
+      "url": "https://www.reddit.com/r/programming/comments/1ui2ql9/ante_a_new_way_to_blend_borrow_checking_and/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/verdagon\"> /u/verdagon </a> <br /> <span><a href=\"https://verdagon.dev/blog/ante-blending-borrowing-rc\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ui2ql9/ante_a_new_way_to_blend_borrow_checking_and/\">[comments]</a></span>",
+      "tags": [
+        "メモリ管理",
+        "所有権システム",
+        "参照カウント",
+        "プログラミング言語"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.788399+09:00",
+      "summary": "Anteは、Rustの所有権システムと参照カウントを組み合わせた新しいメモリ管理手法を提案するプログラミング言語です。これにより、所有権の制約を受けずにメモリ安全性を確保しつつ、循環参照などの参照カウント特有の問題を回避することを目指しています。このアプローチは、より柔軟で効率的なメモリ管理を可能にし、開発者が直面するトレードオフを軽減する可能性があります。"
+    },
+    {
+      "id": "reddit_31477",
+      "source": "reddit",
+      "title": "Modding a 20-year-old game to make it even better",
+      "url": "https://www.reddit.com/r/programming/comments/1ui85rg/modding_a_20yearold_game_to_make_it_even_better/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HHalo6\"> /u/HHalo6 </a> <br /> <span><a href=\"https://publicstaticvoidmain.hashnode.dev/modding-a-20-year-old-game-to-make-it-even-better-part-i\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ui85rg/modding_a_20yearold_game_to_make_it_even_better/\">[comments]</a></span>",
+      "tags": [
+        "ゲームMOD",
+        "Vulkan",
+        "リバースエンジニアリング",
+        "レガシーコード"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.788407+09:00",
+      "summary": "20年前のゲームに、現代的なグラフィックAPI（Vulkan）やアセット管理システムを導入し、パフォーマンスと拡張性を向上させるMOD開発について解説しています。この取り組みは、レガシーコードの維持管理の難しさを示唆するとともに、古いゲーム資産を最新技術で蘇らせる可能性を示しています。技術的な挑戦を通じて、ゲームの寿命を延ばし、新たなプレイヤー層を開拓する試みとして重要です。"
+    },
+    {
+      "id": "reddit_06094",
+      "source": "reddit",
+      "title": "Conway's Game of Life Explained Visually",
+      "url": "https://www.reddit.com/r/programming/comments/1uhr43k/conways_game_of_life_explained_visually/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/caspervonb\"> /u/caspervonb </a> <br /> <span><a href=\"https://youtu.be/rBaK4-EoF_8\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uhr43k/conways_game_of_life_explained_visually/\">[comments]</a></span>",
+      "tags": [
+        "Conway's Game of Life",
+        "セルオートマトン",
+        "視覚化",
+        "計算理論"
+      ],
+      "fetched_at": "2026-06-29T08:05:49.788414+09:00",
+      "summary": "Conway's Game of Lifeは、セルオートマトンの一種であり、単純なルールに基づいて複雑なパターンを生成するシミュレーションです。このビデオは、その基本的な仕組みと、グライダーなどの興味深い振る舞いを視覚的に解説しています。このゲームは、計算理論、人工生命、複雑系科学の分野で、創発現象や自己組織化の原理を理解するためのモデルとして重要です。"
+    }
+  ]
+}
