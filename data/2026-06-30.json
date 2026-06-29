@@ -1,0 +1,331 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T08:01:20.194025+09:00",
+  "articles": [
+    {
+      "id": "hn_48721903",
+      "source": "hackernews",
+      "title": "Qwen 3.6 27B is the sweet spot for local development",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+      "score": 510,
+      "comments": 447,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "ローカル開発",
+        "Qwen",
+        "AI"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.934899+09:00",
+      "summary": "Qwen 3.6 27Bは、ローカル環境での開発に最適な大規模言語モデル（LLM）です。270億のパラメータを持ち、性能とリソース要件のバランスが取れているため、高性能なハードウェアがなくても、開発者はローカルマシン上で高度なAI機能を試したり、プロトタイピングを行ったりできます。これにより、開発サイクルの迅速化と、より広範な開発者コミュニティによるLLM技術へのアクセス向上が期待されます。"
+    },
+    {
+      "id": "hn_48719485",
+      "source": "hackernews",
+      "title": "Rocketlab acquires Iridium",
+      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+      "score": 332,
+      "comments": 203,
+      "raw_description": "",
+      "tags": [
+        "Rocket Lab",
+        "Iridium",
+        "衛星通信",
+        "宇宙開発"
+      ],
+      "fetched_at": "2026-06-30T08:01:18.851153+09:00",
+      "summary": "Rocket Labは、衛星通信サービスプロバイダーであるIridiumの衛星事業部門を買収しました。この買収により、Rocket Labは低軌道（LEO）衛星コンステレーションの構築・運用能力を強化し、政府および商用顧客向けの衛星サービス提供能力を拡大します。これにより、Rocket Labは単なるロケット打ち上げ企業から、衛星の設計、製造、運用、データサービスまでを統合的に提供する企業へと進化します。"
+    },
+    {
+      "id": "hn_48720758",
+      "source": "hackernews",
+      "title": "A native graphical shell for SSH",
+      "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+      "score": 211,
+      "comments": 97,
+      "raw_description": "",
+      "tags": [
+        "SSH",
+        "GUI",
+        "ターミナル",
+        "開発者ツール"
+      ],
+      "fetched_at": "2026-06-30T08:01:19.891859+09:00",
+      "summary": "SSH接続をグラフィカルに管理できるネイティブアプリケーションが登場しました。これにより、ターミナルベースのSSHクライアントに慣れていないユーザーでも、直感的なインターフェースを通じてサーバーへの接続、セッション管理、ファイル転送などを容易に行えるようになります。このツールは、クロスプラットフォーム対応を目指しており、開発者やシステム管理者のワークフロー効率化に貢献する可能性があります。"
+    },
+    {
+      "id": "hn_48724230",
+      "source": "hackernews",
+      "title": ".self: A new top-level domain designed to support self-hosting",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "score": 204,
+      "comments": 131,
+      "raw_description": "",
+      "tags": [
+        "セルフホスティング",
+        "TLD",
+        "分散型インターネット",
+        ".self"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.687030+09:00",
+      "summary": "新しいトップレベルドメイン（TLD）である.selfが登場し、セルフホスティングを支援することを目的としています。このTLDは、個人や組織が自身のインフラストラクチャ上でウェブサイトやサービスをホストする際の識別子として機能します。これにより、分散型インターネットの推進や、中央集権的なプラットフォームへの依存を減らす動きを技術的にサポートすることが期待されます。セルフホスティングの普及と、それに伴う技術的なエコシステムの発展に寄与する可能性があります。"
+    },
+    {
+      "id": "hatena_38858",
+      "source": "hatena",
+      "title": "「Firefox」内蔵の無償VPN、日本にも展開？　どの国からの接続かを隠し、プライバシーを保護／【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2120633.html",
+      "score": 169,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Firefox",
+        "VPN",
+        "プライバシー",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224843+09:00",
+      "summary": "Mozillaは、Firefoxブラウザに統合された無料VPNサービス「Firefox Private Network」の日本国内での提供を検討している可能性があります。このサービスは、ユーザーのIPアドレスを隠蔽し、通信を暗号化することで、オンラインプライバシーを保護する機能を提供します。これにより、ユーザーはより安全かつ匿名性の高いインターネット利用が可能になります。"
+    },
+    {
+      "id": "hn_48722052",
+      "source": "hackernews",
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "score": 125,
+      "comments": 27,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "コーディング",
+        "オープンソース",
+        "自己改善"
+      ],
+      "fetched_at": "2026-06-30T08:01:19.210687+09:00",
+      "summary": "Ornith-1.0は、エージェント型コーディングタスク向けに開発された、自己改善型のオープンソースモデル群です。これらのモデルは、コード生成、デバッグ、テストといった一連のコーディングプロセスを自律的に実行し、パフォーマンスを継続的に向上させる能力を持ちます。これにより、開発者はより複雑な問題解決に集中できるようになり、ソフトウェア開発の効率化と品質向上が期待されます。"
+    },
+    {
+      "id": "hatena_06704",
+      "source": "hatena",
+      "title": "「ヨドバシ池袋店」を見てきた　関東最大の1万坪に家電体験空間",
+      "url": "https://www.watch.impress.co.jp/docs/news/2120942.html",
+      "score": 121,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "家電量販店",
+        "体験型店舗",
+        "ヨドバシカメラ",
+        "小売"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224872+09:00",
+      "summary": "ヨドバシカメラは池袋に約1万坪の関東最大級店舗をオープンした。この新店舗は単なる販売スペースにとどまらず、最新家電を実際に体験できる「家電体験空間」を重視している。最新技術に触れられる場を提供することで、顧客の購買意欲を高め、家電市場における競争力を強化する狙いがある。"
+    },
+    {
+      "id": "hatena_11157",
+      "source": "hatena",
+      "title": "RAGを作るのではなく、検索される知識を運用する",
+      "url": "https://zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search",
+      "score": 83,
+      "comments": 0,
+      "raw_description": "RAGは作るより、更新され続けるデータの中で精度を保つ方が難しかった。Difyで自前RAGを組んだあと、データ更新に合わせて検索品質を維持し続けるのがしんどかったので、Agent SearchとCloud Storageでナレッジ供給パイプラインを組んだ話。 TL;DR RAGで本当に重かったのは、初期構築ではなく、データ更新後も検索品質を...",
+      "tags": [
+        "RAG",
+        "ナレッジマネジメント",
+        "データパイプライン",
+        "検索品質"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224879+09:00",
+      "summary": "この記事は、RAG（Retrieval-Augmented Generation）システム構築におけるデータ更新と検索品質維持の課題に焦点を当てています。初期構築よりも、継続的に更新されるデータソースに対して検索精度を保つことが困難であるという実体験に基づき、Difyでの自社RAG構築後に直面した課題を解説しています。最終的に、Agent SearchとCloud Storageを活用したナレッジ供給パイプラインの構築により、この問題に対処した事例を紹介しています。"
+    },
+    {
+      "id": "hn_48698908",
+      "source": "hackernews",
+      "title": "Free the Icons",
+      "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+      "score": 75,
+      "comments": 12,
+      "raw_description": "",
+      "tags": [
+        "アイコンフォント",
+        "オープンソース",
+        "ライセンス",
+        "Web開発"
+      ],
+      "fetched_at": "2026-06-30T08:01:18.186724+09:00",
+      "summary": "「Free the Icons」は、Webサイトやアプリケーションで一般的に使用されるアイコンフォントのライセンス問題を解決するためのプロジェクトです。多くのアイコンフォントは、商用利用や改変に制限があり、開発者の自由な利用を妨げていました。このプロジェクトは、オープンソースライセンスで提供されるアイコンセットを拡充し、開発者が自由にアイコンを利用・改変できる環境を提供することを目指しています。これにより、デザインの自由度が高まり、開発コストの削減にも繋がることが期待されます。"
+    },
+    {
+      "id": "hatena_27914",
+      "source": "hatena",
+      "title": "持ち帰り試験で平均96点のクラスが対面試験に切り替えると平均48点に、教授は「AIでカンニングしている」と落胆",
+      "url": "https://gigazine.net/news/20260629-ai-exam-brown-university/",
+      "score": 59,
+      "comments": 0,
+      "raw_description": "アメリカの名門・ブラウン大学の教授が、自身が担当する数理経済学の試験で大規模な不正があったという話を海外メディアのEL PAÍSに共有しました。試験を自宅持ち帰り方式から対面方式に切り替えただけで平均点が大幅に下がり、持ち帰り試験で満点を出した学生のほとんどは対面試験に出席してこなかったといいます。 Pro...",
+      "tags": [
+        "AI不正行為",
+        "教育DX",
+        "試験制度",
+        "数理経済学"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224900+09:00",
+      "summary": "ブラウン大学の数理経済学の試験において、持ち帰り試験では平均96点だったものが、対面試験に切り替えた途端に平均48点へと大幅に低下しました。これは、持ち帰り試験で高得点を取った学生の多くが対面試験に出席しなかったという事実から、AIによる不正行為が疑われる状況を示唆しています。この事例は、教育現場におけるAIの利用と試験の公平性確保という、現代的な課題を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_48725397",
+      "source": "hackernews",
+      "title": "Is It Out Yet?",
+      "url": "https://outyet.ai",
+      "score": 27,
+      "comments": 11,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-30T08:01:18.556196+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_95442",
+      "source": "hatena",
+      "title": "「高市人気」と選挙結果にズレ？　自民推薦候補が杉並区長選で敗北、岸本聡子氏が再選",
+      "url": "https://www.j-cast.com/2026/06/29515961.html?p=all",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "2026年6月28日に投票された東京都杉並区長選。29日に開票され、現職の岸本聡子氏が再選を決めた。得票数は10万6487票、得票率は52.74%で圧勝だった。 「国政の代理戦争」と位置づけるメディアも 前回22年に実施された杉並区長選では、当時の現職・田中良氏をわずか187票差で岸本氏が破る歴史的な大接戦となった。自民党...",
+      "tags": [],
+      "fetched_at": "2026-06-30T08:01:17.224863+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48726073",
+      "source": "hackernews",
+      "title": "Scientists find molecular-level evidence for two structures in liquid water",
+      "url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+      "score": 10,
+      "comments": 1,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-06-30T08:01:19.562686+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_70363",
+      "source": "hatena",
+      "title": "逆にすごい。大手コンサル作「AIのすごさを証明する報告書」がハルシネーションだらけ | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/a-report-full-of-hallucinations/",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "AIのおかげで仕事が楽になった人は多いのではないでしょうか。 私も、ライティングするにあたって、資料を探してもらったり、録音した音声を文字起こしして綺麗に整えてもらったりと、AIによって作業効率が上がったのを実感している側の一員。 特に、録音した自分の声を聞かなくて済むようになったので、心理ストレスか...",
+      "tags": [
+        "AI",
+        "ハルシネーション",
+        "報告書",
+        "信頼性"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224886+09:00",
+      "summary": "大手コンサルティングファームが作成したAIの能力を証明する報告書に、多数のハルシネーション（AIが生成した誤情報）が含まれていたことが判明しました。AIの活用が進む一方で、その出力の正確性を検証する重要性が改めて浮き彫りになりました。特に、AIが生成する情報の信頼性確保は、ビジネス利用における喫緊の課題です。"
+    },
+    {
+      "id": "hatena_17860",
+      "source": "hatena",
+      "title": "ティアフォー7月上場へ　日本発の自動運転、NVIDIA拡張で埋没懸念 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC252LK0V20C26A6000000/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "自動運転開発のティアフォー（東京・品川）が29日、東京証券取引所から上場を承認された。7月22日に東証グロース市場に上場する。自動運転向け人工知能（AI）開発をめぐる競争激化で想定時価総額は700億円と、直近の評価額を下回った。同日公開された有価証券届出書によると、1株当たりの公募・売り出し価格は1015円、時...",
+      "tags": [
+        "ティアフォー",
+        "自動運転",
+        "IPO",
+        "AI"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224906+09:00",
+      "summary": "自動運転開発企業のティアフォーが、7月22日に東証グロース市場への上場を承認された。想定時価総額は700億円で、これはAI開発競争の激化を背景に、直近の評価額を下回る結果となった。同社は自動運転向けAI開発に注力しており、今回のIPOは今後の事業拡大に向けた資金調達の機会となる。しかし、NVIDIAなどの大手プレイヤーとの競争が激化する中で、その独自技術と市場での立ち位置が注目される。"
+    },
+    {
+      "id": "hatena_42616",
+      "source": "hatena",
+      "title": "NICTら、都市の既設光通信インフラで世界新記録となる450Tbpsの大容量伝送に成功",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2120915.html",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "光通信",
+        "NICT",
+        "大容量伝送",
+        "インフラ"
+      ],
+      "fetched_at": "2026-06-30T08:01:17.224893+09:00",
+      "summary": "NICTは、都市に敷設されている既存の光ファイバー網を利用し、毎秒450テラビットという世界最高速の大容量データ伝送に成功しました。これは、従来の伝送容量を大幅に超えるもので、5GやIoTの普及に伴うデータトラフィックの爆発的な増加に対応するための基盤技術として期待されます。今回の成果は、既存インフラの活用による低コストかつ迅速な通信容量増強の可能性を示唆しています。"
+    },
+    {
+      "id": "reddit_86409",
+      "source": "reddit",
+      "title": "GitOps for 15,000+ Clusters: What Large-Scale Testing with vCluster Taught Us",
+      "url": "https://www.reddit.com/r/programming/comments/1uimhb1/gitops_for_15000_clusters_what_largescale_testing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Happycodeine\"> /u/Happycodeine </a> <br /> <span><a href=\"https://medium.com/@artem_lajko/gitops-for-15-000-clusters-what-large-scale-testing-with-vcluster-taught-us-41e4b0d43e0b?source=friends_link&amp;sk=db8e3c653dd9f73254e93564fdcf6f5a\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uimhb1/gitops_for_15000_clusters_what_largescale_testing/\">[comments]</a></span>",
+      "tags": [
+        "GitOps",
+        "vCluster",
+        "Kubernetes",
+        "大規模運用"
+      ],
+      "fetched_at": "2026-06-30T08:01:20.193963+09:00",
+      "summary": "vClusterを用いた15,000以上のクラスター規模でのGitOps運用に関する大規模テストの結果が報告されています。この記事では、多数のクラスターを効率的に管理するためのvClusterの活用方法と、その際の課題やベストプラクティスについて解説しています。特に、大規模環境におけるGitOpsの運用効率とスケーラビリティの重要性が強調されており、技術的な知見が共有されています。"
+    },
+    {
+      "id": "reddit_64186",
+      "source": "reddit",
+      "title": "Uses for nested promises",
+      "url": "https://www.reddit.com/r/programming/comments/1uijqcw/uses_for_nested_promises/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://blog.jcoglan.com/2026/03/23/uses-for-nested-promises/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uijqcw/uses_for_nested_promises/\">[comments]</a></span>",
+      "tags": [
+        "JavaScript",
+        "Promise",
+        "非同期処理",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-06-30T08:01:20.193984+09:00",
+      "summary": "この記事では、JavaScriptのネストされたPromiseの利用方法について解説しています。Promiseの連鎖やエラーハンドリングをより複雑な非同期処理で効果的に管理するためのパターンを紹介し、コードの可読性と保守性を向上させる方法を示しています。特に、複数の非同期処理が依存関係を持つ場合に、ネストされたPromiseがどのように役立つかを具体例と共に説明しています。"
+    },
+    {
+      "id": "reddit_05559",
+      "source": "reddit",
+      "title": "Video about splice: The Linux Syscall That Moves Data It Never Reads",
+      "url": "https://www.reddit.com/r/programming/comments/1uiyxwn/video_about_splice_the_linux_syscall_that_moves/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>A visual walkthrough of how Linux splice() works: file descriptors, pipes, pipe buffers, page cache interaction, avoiding the userspace read/write bounce, and the tradeoffs that come with using such a strange linux kernel interface.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Marionberry8922\"> /u/Ok_Marionberry8922 </a> <br /> <span><a href=\"https://youtu.be/WmurzM8Z4uY?si=coNv5xKc6w_t0wZ7\">[link]</a></span> &#32; <s",
+      "tags": [
+        "Linux",
+        "syscall",
+        "splice",
+        "performance"
+      ],
+      "fetched_at": "2026-06-30T08:01:20.193993+09:00",
+      "summary": "Linuxのsplice()システムコールは、ユーザー空間のread/writeバウンスを回避し、データ転送を効率化する仕組みを解説しています。ファイルディスクリプタ、パイプ、ページキャッシュとの連携を通じて、カーネル空間内でのデータ移動を実現します。このインターフェースは、特定のユースケースで高いパフォーマンスを発揮する一方で、その挙動の複雑さからトレードオフも存在します。"
+    },
+    {
+      "id": "reddit_42066",
+      "source": "reddit",
+      "title": "Do excellent vulnerability reports",
+      "url": "https://www.reddit.com/r/programming/comments/1uinuuf/do_excellent_vulnerability_reports/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bowl2564\"> /u/Successful_Bowl2564 </a> <br /> <span><a href=\"https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uinuuf/do_excellent_vulnerability_reports/\">[comments]</a></span>",
+      "tags": [
+        "脆弱性報告",
+        "セキュリティ",
+        "バグ報告",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-06-30T08:01:20.194000+09:00",
+      "summary": "本記事は、脆弱性報告を効果的に行うためのガイドラインを提供しています。報告者は、発見した脆弱性の詳細、影響、再現手順を明確かつ簡潔に記述することの重要性を強調しています。また、開発者が問題を迅速に理解し、修正できるよう、技術的な詳細と具体的な例を含めることが推奨されています。質の高い脆弱性報告は、ソフトウェアのセキュリティ向上に不可欠です。"
+    }
+  ]
+}
