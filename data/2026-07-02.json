@@ -1,0 +1,326 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T08:18:26.155266+09:00",
+  "articles": [
+    {
+      "id": "hn_48747304",
+      "source": "hackernews",
+      "title": "For first time, a cell built from scratch grows and divides",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "score": 666,
+      "comments": 226,
+      "raw_description": "",
+      "tags": [
+        "合成生物学",
+        "人工細胞",
+        "ゲノム工学",
+        "生命科学"
+      ],
+      "fetched_at": "2026-07-02T08:18:24.604002+09:00",
+      "summary": "科学者たちは、初めてゼロから設計・合成されたゲノムを持つ人工細胞の構築に成功しました。この細胞は、自己複製に必要な遺伝情報と代謝経路をすべて備えており、培養下で増殖・分裂することが確認されました。この成果は、生命の基本原理の理解を深めるだけでなく、合成生物学における新たな応用への道を開くものです。"
+    },
+    {
+      "id": "hn_48745456",
+      "source": "hackernews",
+      "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+      "score": 544,
+      "comments": 581,
+      "raw_description": "",
+      "tags": [
+        "PlayStation",
+        "物理メディア",
+        "デジタル販売",
+        "ゲーム業界"
+      ],
+      "fetched_at": "2026-07-02T08:18:25.850377+09:00",
+      "summary": "ソニーは、PlayStationプラットフォーム向けの新規ゲームの物理ディスク製造を2028年1月に終了する予定です。この決定は、デジタル販売への移行を加速させ、物理メディアのサプライチェーンと流通コストを削減する動きの一環と考えられます。これにより、ゲーム業界全体のビジネスモデルが変化し、開発者やパブリッシャーはデジタル戦略にさらに注力する必要が出てくるでしょう。"
+    },
+    {
+      "id": "hn_48747116",
+      "source": "hackernews",
+      "title": "FFmpeg 9.1's new AAC encoder",
+      "url": "https://hydrogenaudio.org/index.php/topic,129691.0.html",
+      "score": 246,
+      "comments": 82,
+      "raw_description": "",
+      "tags": [
+        "FFmpeg",
+        "AAC",
+        "オーディオエンコーディング",
+        "動画編集"
+      ],
+      "fetched_at": "2026-07-02T08:18:25.598772+09:00",
+      "summary": "FFmpeg 9.1では、新しいAACエンコーダーが導入されました。このエンコーダーは、より効率的なエンコードプロセスと、従来のエンコーダーと比較して音質が向上している可能性があります。これにより、動画編集者やストリーミングサービス提供者は、より高品質なオーディオを少ないリソースで提供できるようになります。特に、リアルタイムエンコーディングやリソースが限られた環境での利用において、その恩恵が期待されます。"
+    },
+    {
+      "id": "hn_48750710",
+      "source": "hackernews",
+      "title": "What to learn to be a graphics programmer",
+      "url": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "score": 196,
+      "comments": 97,
+      "raw_description": "",
+      "tags": [
+        "グラフィックスプログラミング",
+        "レンダリング",
+        "シェーダー",
+        "ゲーム開発"
+      ],
+      "fetched_at": "2026-07-02T08:18:24.851784+09:00",
+      "summary": "グラフィックスプログラマーになるために必要なスキルセットを解説した記事です。レンダリングパイプライン、シェーダー言語（HLSL/GLSL）、数学（線形代数、ベクトル解析）、データ構造とアルゴリズム、そしてCPU/GPUアーキテクチャの理解が重要です。これらの技術を習得することで、リアルタイムレンダリング、ゲーム開発、コンピュータビジョンなどの分野で活躍する道が開けます。"
+    },
+    {
+      "id": "hatena_70843",
+      "source": "hatena",
+      "title": "10 か月 CLI で使ってきた Claude Code を、Desktop メインに移行した 12 の理由",
+      "url": "https://zenn.dev/canly/articles/428767121d7dc2",
+      "score": 130,
+      "comments": 0,
+      "raw_description": "10 か月 CLI で使ってきた Claude Code を、Desktop メインに移行した 12 の理由 本記事は、カンリー社内で実施している AI 共有会で話した内容を記事化したものです(2026 年 6 月時点の macOS 版 Claude Desktop アプリの実機運用に基づく感想記事)。 はじめに 皆さんは Claude Code をどう起動して使っていますか？ タ...",
+      "tags": [],
+      "fetched_at": "2026-07-02T08:18:23.726570+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_45058",
+      "source": "hatena",
+      "title": "「Herdr」を使い始めたら、もう他のターミナルには戻れなくなった",
+      "url": "https://zenn.dev/dragon1208/articles/45708cc45a7a7c",
+      "score": 121,
+      "comments": 0,
+      "raw_description": "tmuxとの違い tmuxやZellijは汎用的なマルチプレクサとしては非常に優秀ですが、「現在動いているプロセスがAIエージェントである」という概念を持っていません。そのため、エージェントがAPIキーの入力を待って止まっていたとしても、画面を切り替えて確認するまで気づくことができません。Herdrはエージェント特有の状...",
+      "tags": [
+        "Herdr",
+        "ターミナル",
+        "AIエージェント",
+        "tmux"
+      ],
+      "fetched_at": "2026-07-02T08:18:23.726602+09:00",
+      "summary": "Herdrは、AIエージェントの実行に特化した新しいターミナル multiplexerです。従来のtmuxやZellijのような汎用的なツールとは異なり、HerdrはAIエージェントがAPIキー入力を待機しているなどの状態を検知し、通知する機能を持っています。これにより、AIエージェントの実行管理が効率化され、開発者はエージェントの状態を迅速に把握できるようになります。"
+    },
+    {
+      "id": "hn_48752905",
+      "source": "hackernews",
+      "title": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+      "url": "https://www.workerowned.info/",
+      "score": 118,
+      "comments": 21,
+      "raw_description": "",
+      "tags": [
+        "オープンソース",
+        "協同組合",
+        "ディレクトリ",
+        "Webアプリケーション"
+      ],
+      "fetched_at": "2026-07-02T08:18:24.357564+09:00",
+      "summary": "このプロジェクトは、22,000以上の製品を扱うワーカー所有の協同組合の検索可能なディレクトリを提供します。オープンソースのWebアプリケーションとして開発されており、社会的に意識の高い消費者や、協同組合エコシステムに関心のある開発者にとって価値のあるリソースとなります。分散型経済モデルの普及と、より公正なビジネス慣行の促進に貢献する可能性があります。"
+    },
+    {
+      "id": "hn_48753715",
+      "source": "hackernews",
+      "title": "ZCode – Harness for GLM-5.2",
+      "url": "https://zcode.z.ai/en",
+      "score": 96,
+      "comments": 173,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "GLM-5.2",
+        "フレームワーク",
+        "AI"
+      ],
+      "fetched_at": "2026-07-02T08:18:24.113660+09:00",
+      "summary": "ZCodeは、GLM-5.2モデルを効率的に活用するための新しいフレームワークです。このフレームワークは、大規模言語モデルのデプロイメントと管理を簡素化し、開発者がモデルの性能を最大限に引き出すことを可能にします。ZCodeは、モデルのファインチューニング、推論、およびリソース管理を統合的にサポートすることで、GLM-5.2の応用範囲を広げ、より高度なAIソリューションの開発を促進します。"
+    },
+    {
+      "id": "hn_48753069",
+      "source": "hackernews",
+      "title": "Qualcomm Linux 2.0",
+      "url": "https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available",
+      "score": 28,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [
+        "Qualcomm",
+        "Linux",
+        "組み込みシステム",
+        "IoT"
+      ],
+      "fetched_at": "2026-07-02T08:18:25.349263+09:00",
+      "summary": "Qualcommは、Linuxカーネルのバージョン2.0をサポートする新しいプラットフォームを発表しました。これにより、組み込みシステムやIoTデバイスにおけるLinuxの利用がさらに拡大し、より高度な機能とパフォーマンスが期待されます。このアップデートは、リアルタイム処理能力の向上や、より広範なハードウェアサポートの提供を目指しており、開発者にとって新たな可能性を開くものです。"
+    },
+    {
+      "id": "hatena_39905",
+      "source": "hatena",
+      "title": "Getting started with loops | Claude by Anthropic",
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "Triggered by: A user prompt.Stop criteria: Claude judges it has completed the task or needs additional context.Best used for: Shorter tasks that are not part of a regular process or schedule.Managed usage by: Write specific prompts and improve verification using skills to reduce the number of tur...",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "AIアシスタント",
+        "タスク管理"
+      ],
+      "fetched_at": "2026-07-02T08:18:23.726609+09:00",
+      "summary": "AnthropicのClaudeは、ユーザープロンプトに応答し、タスク完了または追加コンテキストが必要と判断されるまで動作を続けます。この機能は、定期的でない短いタスクに最適であり、具体的なプロンプトとスキルの検証強化によって利用が管理されます。これにより、対話の回数を減らし、効率的なタスク実行を目指します。"
+    },
+    {
+      "id": "hatena_00377",
+      "source": "hatena",
+      "title": "「Claude Sonnet 5」が登場、Opus 4.8に近い性能で安価＆無料プランでも使用可能",
+      "url": "https://gigazine.net/news/20260701-claude-sonnet-5/",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "AnthropicがAIモデル「Claude Sonnet 5」を現地時間の2026年6月30日にリリースしました。Claude Sonnet 5は無料プランでも使用可能なコストパフォーマンスに優れたモデルで、ベンチマークテストではClaude Opus 4.8に近いスコアを記録しています。 Introducing Claude Sonnet 5 \\ Anthropic https://www.anthropic.com/n...",
+      "tags": [
+        "Claude Sonnet 5",
+        "Anthropic",
+        "AIモデル",
+        "コストパフォーマンス"
+      ],
+      "fetched_at": "2026-07-02T08:18:23.726593+09:00",
+      "summary": "Anthropicは、AIモデル「Claude Sonnet 5」をリリースしました。このモデルは、Claude Opus 4.8に匹敵する性能を持ちながら、より安価に利用できる点が特徴です。特に、無料プランでも利用可能になったことで、多くのユーザーが高性能なAIにアクセスできるようになり、AI活用の裾野が広がる可能性があります。コストパフォーマンスの高さは、AI導入のハードルを下げる重要な要素となります。"
+    },
+    {
+      "id": "hatena_34852",
+      "source": "hatena",
+      "title": "PayPay、他社カード利用を8月末で終了　新方式「他社カード利用券」",
+      "url": "https://www.watch.impress.co.jp/docs/news/2121682.html",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-02T08:18:23.726638+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48753524",
+      "source": "hackernews",
+      "title": "Chip Off the Old Block",
+      "url": "https://www.astralcodexten.com/p/chip-off-the-old-block",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-02T08:18:25.100848+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_23283",
+      "source": "hatena",
+      "title": "メガドライブ実機上でLinuxを動かす「LinuxMD」が登場",
+      "url": "https://gigazine.net/news/20260701-linuxmd/",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "1988年に発売されたセガの家庭用ゲーム機・メガドライブでLinuxを動作させる実験的なプロジェクトが「LinuxMD」です。開発者のダニエル・パルマー氏がGitHubで公開しており、実機上でカーネルと最小構成のLinux環境を起動できます。 GitHub - LinuxMD/linuxmd: Linux for the Sega MegaDrive · GitHub https://github.co...",
+      "tags": [],
+      "fetched_at": "2026-07-02T08:18:23.726616+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_77700",
+      "source": "hatena",
+      "title": "AIエージェント経由でXのAPIを操作して「投稿検索」「トレンド分析」などが可能な「X MCP」が公開される",
+      "url": "https://gigazine.net/news/20260701-x-mcp/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "Xは2026年6月30日に、ユーザー自身のアカウント権限を使用してAIツールがX APIと通信できるようにするホスト型モデルコンテキストプロトコル(MCP)サーバー「X MCP」を発表しました。X MCPを用いることで、ClaudeやGrok BuildといったAIアシスタントやその他のMCP互換アプリがXに直接接続しやすくなり、Xの投稿分析や情報...",
+      "tags": [
+        "X",
+        "AIエージェント",
+        "API",
+        "MCP"
+      ],
+      "fetched_at": "2026-07-02T08:18:23.726623+09:00",
+      "summary": "Xは、AIエージェントがXのAPIを直接操作できるホスト型モデルコンテキストプロトコル(MCP)サーバー「X MCP」を2026年6月30日に公開しました。これにより、ClaudeやGrok BuildなどのAIアシスタントがXアカウントの権限を用いて投稿検索やトレンド分析といった機能にアクセス可能になります。この機能は、AIによるXプラットフォーム上の情報収集・分析能力を大幅に向上させるものです。"
+    },
+    {
+      "id": "hatena_20123",
+      "source": "hatena",
+      "title": "Mistralが自動定理証明向けAI「Leanstral 1.5」リリース、Lean 4の証明作業を支援",
+      "url": "https://gigazine.net/news/20260701-mistral-leanstral-1-5/",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "Mistral AIが数学の証明やプログラムの正しさを機械的に確かめる作業を支援するAIモデル「Leanstral 1.5」を2026年6月30日に公開しました。Leanstral 1.5は形式証明ツール「Lean 4」向けの自動定理証明と自動形式化に最適化されたモデルで、Mistral AIのLabs枠で無料利用できると案内されています。 Leanstral 1.5 - Mis...",
+      "tags": [
+        "AI",
+        "自動定理証明",
+        "Lean 4",
+        "Mistral AI"
+      ],
+      "fetched_at": "2026-07-02T08:18:23.726630+09:00",
+      "summary": "Mistral AIは、形式証明ツールLean 4向けの自動定理証明および自動形式化に特化したAIモデル「Leanstral 1.5」をリリースしました。このモデルは、数学の証明やプログラムの正当性を機械的に検証する作業を支援し、開発者の生産性向上に貢献します。Leanstral 1.5はMistral AIのLabs枠で無料で利用可能です。"
+    },
+    {
+      "id": "reddit_45896",
+      "source": "reddit",
+      "title": "Open source is a thankless job and I think we've lost the plot on how we treat maintainers",
+      "url": "https://www.reddit.com/r/programming/comments/1ukim8j/open_source_is_a_thankless_job_and_i_think_weve/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I saw an issue today on a fairly popular project (better-auth, see the link to the issue attached). No repro, no context, just a wall of caps and profanity ending in &quot;fuck you&quot;. The maintainers ship this for free. People run production businesses on top of it, for free. And the thanks is someone raging into a text box because a minor bump cost them an afternoon.</p> <p>I maintain and contribute to a few projects myself, so this hits a nerve a bit. Some",
+      "tags": [
+        "オープンソース",
+        "メンテナー",
+        "OSS",
+        "コミュニティ"
+      ],
+      "fetched_at": "2026-07-02T08:18:26.155184+09:00",
+      "summary": "オープンソースプロジェクトのメンテナーが、無償で提供しているにも関わらず、ユーザーから不当な扱いを受けている現状が報告されています。人気のあるプロジェクトでも、バグ報告や機能要望が不適切な形で寄せられるケースがあり、メンテナーのモチベーション低下につながっています。オープンソースのエコシステムを持続可能にするためには、メンテナーへの敬意と適切なサポート体制の構築が不可欠です。"
+    },
+    {
+      "id": "reddit_86032",
+      "source": "reddit",
+      "title": "GitHub Stacked PRs",
+      "url": "https://www.reddit.com/r/programming/comments/1ukr5cc/github_stacked_prs/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://github.github.com/gh-stack/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ukr5cc/github_stacked_prs/\">[comments]</a></span>",
+      "tags": [
+        "GitHub",
+        "Stacked PRs",
+        "プルリクエスト",
+        "コードレビュー"
+      ],
+      "fetched_at": "2026-07-02T08:18:26.155226+09:00",
+      "summary": "GitHubは、プルリクエスト（PR）を積み重ねて管理できる新機能「Stacked PRs」を発表しました。この機能により、依存関係のあるPRをまとめて管理し、レビュープロセスを効率化できます。これにより、コードの変更を段階的に統合しやすくなり、大規模な機能開発やリファクタリングにおけるコードレビューの負担軽減に貢献します。"
+    },
+    {
+      "id": "reddit_04497",
+      "source": "reddit",
+      "title": "Teaching Algorithms in 2026",
+      "url": "https://www.reddit.com/r/programming/comments/1ukeup2/teaching_algorithms_in_2026/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br /> <span><a href=\"https://www.cs.uni.edu/~wallingf/blog/archives/monthly/2026-06.html#e2026-06-30T20_43_40.htm\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ukeup2/teaching_algorithms_in_2026/\">[comments]</a></span>",
+      "tags": [
+        "アルゴリズム教育",
+        "コンピュータサイエンス",
+        "ソフトウェアエンジニアリング",
+        "プログラミング教育"
+      ],
+      "fetched_at": "2026-07-02T08:18:26.155235+09:00",
+      "summary": "2026年におけるアルゴリズム教育のあり方について考察する記事。現代のコンピュータサイエンス教育では、アルゴリズムの概念理解に重点が置かれがちだが、実際の開発現場では、既存のライブラリやフレームワークを効果的に活用する能力がより重要視されている。そのため、アルゴリズムの理論的側面だけでなく、その実践的な応用や、効率的なコード実装、デバッグ能力の育成が求められる。教育現場では、これらのスキルをバランス良く教えることが、将来のソフトウェアエンジニアにとって不可欠となるだろう。"
+    },
+    {
+      "id": "reddit_84464",
+      "source": "reddit",
+      "title": "The uphill climb of making diff lines performant",
+      "url": "https://www.reddit.com/r/programming/comments/1ukcx25/the_uphill_climb_of_making_diff_lines_performant/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ukcx25/the_uphill_climb_of_making_diff_lines_performant/\">[comments]</a></span>",
+      "tags": [
+        "GitHub",
+        "パフォーマンス最適化",
+        "コード差分",
+        "エンジニアリング"
+      ],
+      "fetched_at": "2026-07-02T08:18:26.155242+09:00",
+      "summary": "GitHubのエンジニアリングブログでは、コード差分表示のパフォーマンス最適化における課題と取り組みについて解説しています。特に、差分行のレンダリング速度向上は、大規模リポジトリや複雑な変更履歴を持つ場合に顕著なパフォーマンスボトルネックとなり得ます。記事では、アルゴリズムの改善、データ構造の最適化、およびブラウザ上での効率的な描画手法について詳細に説明しており、開発者体験の向上に不可欠な技術的挑戦を示しています。"
+    }
+  ]
+}
