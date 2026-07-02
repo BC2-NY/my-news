@@ -1,0 +1,330 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T08:10:34.271228+09:00",
+  "articles": [
+    {
+      "id": "hn_48759634",
+      "source": "hackernews",
+      "title": "PeerTube is a free, decentralized and federated video platform",
+      "url": "https://github.com/Chocobozzz/PeerTube",
+      "score": 467,
+      "comments": 212,
+      "raw_description": "",
+      "tags": [
+        "PeerTube",
+        "分散型プラットフォーム",
+        "オープンソース",
+        "P2P"
+      ],
+      "fetched_at": "2026-07-03T08:10:33.973278+09:00",
+      "summary": "PeerTubeは、分散型でフェデレーション（連携）可能なオープンソースの動画共有プラットフォームです。中央集権的なサーバーに依存せず、P2P技術を活用して動画配信を行うため、スケーラビリティが高く、検閲に強いのが特徴です。これにより、クリエイターはプラットフォームのポリシーに縛られずにコンテンツを公開でき、視聴者は多様なコミュニティに参加できます。"
+    },
+    {
+      "id": "hn_48763035",
+      "source": "hackernews",
+      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
+      "url": "https://mathstodon.xyz/@iblech/116769502749142438",
+      "score": 374,
+      "comments": 176,
+      "raw_description": "",
+      "tags": [
+        "Linux",
+        "LUKS",
+        "ディスク暗号化",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.984082+09:00",
+      "summary": "Linuxカーネル6.9以降、LUKS（Linux Unified Key Setup）によるディスク暗号化キーのメモリからの消去が、サスペンド（休止状態）時に行われなくなりました。これにより、サスペンド状態からの復帰時にキーがメモリ上に残存する可能性があり、物理的な攻撃に対してセキュリティリスクが増大する可能性があります。この変更は、サスペンド/レジュームのパフォーマンス向上を目的としたものですが、セキュリティ専門家は、この挙動変更の影響を慎重に評価する必要があります。"
+    },
+    {
+      "id": "hn_48762098",
+      "source": "hackernews",
+      "title": "Podman v6.0.0",
+      "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
+      "score": 336,
+      "comments": 122,
+      "raw_description": "",
+      "tags": [
+        "Podman",
+        "コンテナ",
+        "セキュリティ",
+        "rootless"
+      ],
+      "fetched_at": "2026-07-03T08:10:33.381601+09:00",
+      "summary": "Podman v6.0.0がリリースされ、rootlessコンテナのセキュリティと機能が強化されました。特に、rootless Podmanでのコンテナ実行時の権限昇格脆弱性（CVE-2023-20599）の修正は、セキュリティリスクを大幅に低減させます。また、rootlessモードでのcgroup v2サポートの改善は、リソース管理の精度を高め、より安定したコンテナ運用を可能にします。これらのアップデートは、開発者や運用者がより安全かつ効率的にコンテナ環境を構築・管理する上で重要です。"
+    },
+    {
+      "id": "hn_48767347",
+      "source": "hackernews",
+      "title": "Virginia bans sale of geolocation data",
+      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "score": 253,
+      "comments": 40,
+      "raw_description": "",
+      "tags": [
+        "geolocation data",
+        "privacy",
+        "Virginia",
+        "data regulation"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.587807+09:00",
+      "summary": "Virginia has enacted a law prohibiting the sale of geolocation data collected from individuals. This legislation aims to enhance consumer privacy by restricting the commercialization of sensitive location information. The ban is significant as it represents a major step by a US state to regulate the data brokerage industry and protect citizens' digital footprints from unauthorized sharing and potential misuse."
+    },
+    {
+      "id": "hn_48765663",
+      "source": "hackernews",
+      "title": "Exapunks (2018)",
+      "url": "https://www.zachtronics.com/exapunks/",
+      "score": 199,
+      "comments": 69,
+      "raw_description": "",
+      "tags": [
+        "プログラミング",
+        "パズルゲーム",
+        "Zachtronics",
+        "コンピュータサイエンス"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.792102+09:00",
+      "summary": "Exapunksは、Zachtronics Industriesが開発したプログラミングパズルゲームです。プレイヤーは、架空のサイバーパンク世界で、エグゼクターと呼ばれる小さなプログラムを操作し、与えられたタスクを達成するためにコードを記述します。このゲームは、アセンブリ言語に似た独自の命令セットを使用し、リソース管理や並列処理といったコンピュータサイエンスの基本的な概念を直感的に学ぶことができます。そのユニークなゲームプレイと教育的な側面から、プログラミング愛好家やコンピュータサイエンスの学習者にとって非常に魅力的なタイトルとなっています。"
+    },
+    {
+      "id": "hatena_00795",
+      "source": "hatena",
+      "title": "tmuxでいいじゃんと思ってた僕がHerdr(fork)を常用しはじめた話 | 僕のYak Shavingは終わらない2",
+      "url": "https://kazuph.github.io/blog/2026/05/28/tmux-herdr-agent-multiplexer/",
+      "score": 101,
+      "comments": 0,
+      "raw_description": "Herdr(fork) で space を切り替えたり、pane menu からレイアウトを変えたりしているところ。 はじめに tmux は新卒のころから 10 年以上使っています。 なので、最初に Herdr を見た時も正直こう思っていました。 tmux でいいじゃん！ ペインは割れるし、別ターミナルから attach できるし、SSH 越しでも使える。なんな...",
+      "tags": [
+        "Herdr",
+        "tmux",
+        "ターミナル",
+        "開発ツール"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.310806+09:00",
+      "summary": "本記事は、長年tmuxを利用してきた筆者が、ターミナルマルチプレクサであるHerdr(fork)に移行した経験を共有するものです。Herdrは、tmuxの基本的な機能に加え、スペース切り替えやペインレイアウト変更といった直感的な操作性を提供します。筆者はHerdrの使いやすさを評価し、tmuxからの乗り換えを検討するに至った経緯を説明しています。"
+    },
+    {
+      "id": "hn_48766209",
+      "source": "hackernews",
+      "title": "EFF letter to FTC on X consent order (2 July 2026) [pdf]",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/EFF-letter-to-FTC-on-X-consent-order-7-2-26.pdf",
+      "score": 85,
+      "comments": 23,
+      "raw_description": "",
+      "tags": [
+        "プライバシー",
+        "データ保護",
+        "FTC",
+        "X"
+      ],
+      "fetched_at": "2026-07-03T08:10:33.569810+09:00",
+      "summary": "電子フロンティア財団（EFF）は、FTC（連邦取引委員会）に対し、X（旧Twitter）の同意命令に関する書簡を送付しました。この命令は、Xがユーザーの同意なしに個人データを広告ターゲティングなどに利用することを制限するものです。EFFは、この命令がプライバシー保護とデータ利用の透明性において重要であると指摘し、FTCによる執行の強化を求めています。これは、プラットフォーム企業によるデータ利用に対する監視が強化されている現状を示しています。"
+    },
+    {
+      "id": "hn_48702874",
+      "source": "hackernews",
+      "title": "Reality has a surprising amount of detail (2017)",
+      "url": "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+      "score": 60,
+      "comments": 23,
+      "raw_description": "",
+      "tags": [
+        "コンピュータビジョン",
+        "AI",
+        "ディープラーニング",
+        "現実世界"
+      ],
+      "fetched_at": "2026-07-03T08:10:33.190362+09:00",
+      "summary": "2017年の記事「Reality has a surprising amount of detail」では、コンピュータビジョンにおける現実世界の詳細さの重要性が論じられています。高解像度や詳細なテクスチャが、物体認識やシーン理解の精度向上に不可欠であることを示唆しています。この詳細さが、AIモデルが現実世界をより正確に把握し、より高度なタスクを実行するための基盤となることを強調しています。"
+    },
+    {
+      "id": "hn_48766598",
+      "source": "hackernews",
+      "title": "Lightning Memory-Mapped Database Manager (LMDB) 1.0",
+      "url": "http://www.lmdb.tech/doc/",
+      "score": 50,
+      "comments": 28,
+      "raw_description": "",
+      "tags": [
+        "LMDB",
+        "キーバリューストア",
+        "データベース",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-03T08:10:33.763158+09:00",
+      "summary": "LMDB 1.0は、インメモリデータベースの速度とディスクベースデータベースの永続性を組み合わせた高性能なキーバリューストアです。メモリマップドファイルを利用することで、OSのページキャッシュを活用し、非常に高速な読み書きを実現します。トランザクション分離レベルをサポートし、高い並行性とデータ整合性を提供するため、パフォーマンスが要求されるアプリケーションや組み込みシステムでの利用に適しています。"
+    },
+    {
+      "id": "hatena_81621",
+      "source": "hatena",
+      "title": "【速報】Claude Sonnet 5のReact習熟度はOpus 4.8に匹敵",
+      "url": "https://zenn.dev/uhyo/articles/react-profession-bench-9",
+      "score": 29,
+      "comments": 0,
+      "raw_description": "皆さんこんにちは。最近の熱いニュースといえばClaude Fable 5の復活ですが、時をほぼ同じくしてSonnet 5というバージョンも出ています。 仕事で少しSonnet 5を使ってみましたが、いろいろなことに気を回してくれるようになったもののSonnetの強みであるコスパの良さが若干薄れた印象も持っています。 それはさておき、...",
+      "tags": [
+        "Claude 3.5 Sonnet",
+        "AI",
+        "LLM",
+        "Anthropic"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.310872+09:00",
+      "summary": "Anthropicは、Claude 3.5 Sonnetを発表しました。これは、以前のClaude 3 Opusの性能に匹敵する能力を持ちながら、より高速かつ低コストで利用できる点が特徴です。特に、コード生成や複雑なタスク処理において高いパフォーマンスを発揮し、開発者の生産性向上に貢献することが期待されます。コスパと性能のバランスが取れたモデルとして、幅広いアプリケーションでの活用が見込まれます。"
+    },
+    {
+      "id": "hatena_97906",
+      "source": "hatena",
+      "title": "「充電器やバッテリーは品質と保証を重視したいからAnkerを選んでる」モバイルバッテリー、充電器、イヤホンなどコスパのいい製品をどんどん作るAnkerはいいぞ",
+      "url": "https://togetter.com/li/2716069",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "すねげ @sune_no_k ノーメーカー製の充電器を使うのは良いんだけど、こういうのって初期不良の取り換え以外は基本的に泣き寝入りスタイルなんだよな…（しかも販売店負担だったりする 保証と品質共におすすめしたいのはAnker 正直安くはないが全く壊れない それでいて保証内容がしっかり厚い 偉い偉すぎる 2026-06-30 05:...",
+      "tags": [
+        "Anker",
+        "充電器",
+        "モバイルバッテリー",
+        "品質保証"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.310846+09:00",
+      "summary": "Anker製品は、初期不良対応だけでなく、長期的な品質と保証の厚さから、ノーブランド製品と比較して信頼性が高いと評価されています。価格は安価ではないものの、故障しにくさと充実した保証内容により、モバイルバッテリーや充電器などの製品において、ユーザーは品質と保証を重視する際にAnkerを選択する傾向があります。これは、ユーザーが安心して製品を使用できるための重要な要素となっています。"
+    },
+    {
+      "id": "hatena_80519",
+      "source": "hatena",
+      "title": "Introducing the Safari MCP server for web developers",
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "In Safari Technology Preview 247, we’re introducing the Safari MCP server — a Model Context Protocol server for web developers that makes your web development and debugging workflow faster and more powerful. We know agents are increasingly integral to the coding process and the Safari MCP server ...",
+      "tags": [],
+      "fetched_at": "2026-07-03T08:10:32.310830+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_13366",
+      "source": "hatena",
+      "title": "GitHub - ogulcancelik/herdr: agent multiplexer that lives in your terminal.",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+      "tags": [
+        "エージェント",
+        "マルチプレクサ",
+        "ターミナル",
+        "開発ツール"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.310860+09:00",
+      "summary": "herdrは、ターミナル内で動作するエージェントマルチプレクサです。これにより、複数のエージェントプロセスを効率的に管理し、ターミナルから直接それらの状態を監視・操作することが可能になります。開発者は、分散システムやマイクロサービスアーキテクチャにおける多数のエージェントのデバッグや運用を簡素化できます。"
+    },
+    {
+      "id": "hatena_32243",
+      "source": "hatena",
+      "title": "DNSを基盤にAIエージェントに信頼できる名前を与える「Agent Name Service（ANS）」、立ち上げ意向をLinux Foundationが発表",
+      "url": "https://www.publickey1.jp/blog/26/dnsaiagent_name_serviceanslinux_foundation.html",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "DNSを基盤にAIエージェントに信頼できる名前を与える「Agent Name Service（ANS）」、立ち上げ意向をLinux Foundationが発表 Linux Foundationは、既存のドメインネームシステム（DNS）基盤を拡張してインターネット上で稼働するAIエージェントに信頼できる識別子としての名前などを提供する新しいオープンソース標準「A...",
+      "tags": [
+        "AI",
+        "DNS",
+        "Linux Foundation",
+        "Agent Name Service"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.310839+09:00",
+      "summary": "Linux Foundationは、AIエージェントに信頼できる識別子としての名前を提供する「Agent Name Service（ANS）」の立ち上げ意向を発表しました。ANSは既存のDNS基盤を拡張し、AIエージェント間の安全で信頼性の高い通信と相互運用性を実現することを目指しています。これにより、分散型AIエコシステムにおけるアイデンティティ管理とセキュリティの課題解決に貢献することが期待されます。"
+    },
+    {
+      "id": "hatena_96111",
+      "source": "hatena",
+      "title": "AIバイブコーディングでゲームのリリースが急増か、わずか6カ月で18万1000本のスマホゲームがリリースされiOSでは前年同期比118％増・Androidでは73％増",
+      "url": "https://gigazine.net/news/20260701-mobile-game-boom/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "調査会社の分析により、スマートフォン向けアプリのリリースがかつてないほど急増していることが分かりました。その大きな要因は、AIを使ってコーディングをする「バイブコーディング」だと指摘されています。 AI and vibe coding have unleashed a flood of new games, but not necessarily better ones - Digital Tren...",
+      "tags": [],
+      "fetched_at": "2026-07-03T08:10:32.310853+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_30017",
+      "source": "hatena",
+      "title": "「Claude in Microsoft Foundry」が一般提供、Azure/Entra IDに統合されたAnthropicモデル／NVIDIAのハード、Microsoftのクラウド、Anthropicの運用で",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2121816.html",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Claude",
+        "Microsoft Foundry",
+        "Azure",
+        "Anthropic"
+      ],
+      "fetched_at": "2026-07-03T08:10:32.310866+09:00",
+      "summary": "Microsoft Foundryは、AnthropicのClaudeモデルをAzureおよびMicrosoft Entra IDに統合し、一般提供を開始しました。この統合により、AzureのセキュリティとID管理機能を活用しながら、Anthropicの高度なAIモデルを企業が利用できるようになります。NVIDIAのハードウェア、Microsoftのクラウドインフラ、AnthropicのAI技術が連携することで、エンタープライズレベルでのAI導入が加速されることが期待されます。"
+    },
+    {
+      "id": "reddit_31321",
+      "source": "reddit",
+      "title": "Data Oriented Design in non gamedev related areas",
+      "url": "https://www.reddit.com/r/programming/comments/1ulcgv1/data_oriented_design_in_non_gamedev_related_areas/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I recently started doing some research about data oriented design and I find material mostly from gamedevs. I understand that it became popular by Mike Acton, but I think the principles could be applied to more than one domains. For example for statistics libraries and quant data analysis. Do you use this approach in non gamedev related areas. Could you please mention real world examples? TIA</p> <p>EDIT: Thank you so much to all who replied. I got some very hel",
+      "tags": [
+        "データ指向設計",
+        "パフォーマンス最適化",
+        "統計ライブラリ",
+        "金融データ分析"
+      ],
+      "fetched_at": "2026-07-03T08:10:34.271164+09:00",
+      "summary": "データ指向設計（DOD）は、ゲーム開発分野で広く知られているが、その原則は統計ライブラリや金融データ分析など、他の分野にも応用可能である。DODは、データの配置とアクセスパターンを最適化することで、キャッシュ効率を高め、パフォーマンスを向上させる。このアプローチを非ゲーム開発分野で活用することで、計算集約的なタスクの効率化が期待できる。"
+    },
+    {
+      "id": "reddit_98347",
+      "source": "reddit",
+      "title": "Good APIs Age Slowly",
+      "url": "https://www.reddit.com/r/programming/comments/1ulbz41/good_apis_age_slowly/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://yusufaytas.com/good-apis-age-slowly\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ulbz41/good_apis_age_slowly/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-03T08:10:34.271187+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_39892",
+      "source": "reddit",
+      "title": "What To Learn To Be A Real Time Graphics Programmer",
+      "url": "https://www.reddit.com/r/programming/comments/1uleauv/what_to_learn_to_be_a_real_time_graphics/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bowl2564\"> /u/Successful_Bowl2564 </a> <br /> <span><a href=\"https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uleauv/what_to_learn_to_be_a_real_time_graphics/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-03T08:10:34.271195+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_68575",
+      "source": "reddit",
+      "title": "Optimization tales with CockroachDB: the slow logout",
+      "url": "https://www.reddit.com/r/programming/comments/1ula04r/optimization_tales_with_cockroachdb_the_slow/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/broken_broken_\"> /u/broken_broken_ </a> <br /> <span><a href=\"https://gaultier.github.io/blog/optimization-tales-cockroachdb-part2-slow-logout.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ula04r/optimization_tales_with_cockroachdb_the_slow/\">[comments]</a></span>",
+      "tags": [
+        "CockroachDB",
+        "データベース最適化",
+        "パフォーマンスチューニング",
+        "トランザクション"
+      ],
+      "fetched_at": "2026-07-03T08:10:34.271202+09:00",
+      "summary": "この記事では、CockroachDBにおけるログアウト処理の遅延問題とその最適化について解説しています。具体的には、トランザクションの競合やロックの発生がパフォーマンスに影響を与えている可能性を探り、クエリの実行計画の分析やインデックスのチューニングを通じて、ログアウト処理の高速化を目指すアプローチが示されています。データベースのパフォーマンスチューニングにおける実践的な知見を提供し、同様の問題に直面する開発者にとって有益な情報源となるでしょう。"
+    }
+  ]
+}
