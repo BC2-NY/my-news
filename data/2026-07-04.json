@@ -1,0 +1,323 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T08:07:15.853806+09:00",
+  "articles": [
+    {
+      "id": "hn_48775921",
+      "source": "hackernews",
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "url": "https://github.com/jamesob/local-llm",
+      "score": 245,
+      "comments": 117,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "ローカル実行",
+        "SOTA",
+        "ガイド"
+      ],
+      "fetched_at": "2026-07-04T08:07:15.070535+09:00",
+      "summary": "この記事は、最先端（SOTA）の大規模言語モデル（LLM）をローカル環境で実行するためのJamesob氏によるガイドを紹介しています。ローカル実行は、プライバシー保護、カスタマイズの自由度向上、そしてオフラインでの利用を可能にするため、研究者や開発者にとって重要です。ガイドでは、必要なハードウェア要件、ソフトウェアのセットアップ、モデルの選択とデプロイメント、そしてパフォーマンス最適化のヒントについて解説されており、LLMのローカル運用に関心のある技術者にとって実践的な情報を提供します。"
+    },
+    {
+      "id": "hn_48779683",
+      "source": "hackernews",
+      "title": "Espionage Against the European Parliament",
+      "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+      "score": 216,
+      "comments": 53,
+      "raw_description": "",
+      "tags": [
+        "サイバーセキュリティ",
+        "EU",
+        "スパイ活動",
+        "地政学"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.862866+09:00",
+      "summary": "欧州議会に対するスパイ活動が明らかになり、EUの民主的プロセスへの潜在的な脅威が浮上しました。この事件は、外国勢力がEUの意思決定プロセスに影響を与えようとする試みを示唆しており、サイバーセキュリティと情報保護の重要性を改めて浮き彫りにしています。EUは、このような攻撃に対する防御策の強化と、加盟国間の連携を深める必要に迫られています。"
+    },
+    {
+      "id": "hatena_82378",
+      "source": "hatena",
+      "title": "Claude Code「Fable 5」にローカルLLM用シェル支援CLIを作らせたら、コードより仕事の進め方に驚かされた",
+      "url": "https://zenn.dev/gys/articles/fable5-local-llm-ask-cli",
+      "score": 163,
+      "comments": 0,
+      "raw_description": "こういう、「知っているはずなのに毎回うろ覚えになる」シェルコマンドを、日本語で聞く。 一見すると、単なる自然言語コマンド生成ツールに見えると思う。 でも、俺にとって面白かったのはCLIそのものではない。 このツールを作るまでの過程で、Claude Codeのfable5が、 最初に提示した解決策の前提そのものを疑い、 既...",
+      "tags": [
+        "Claude Code",
+        "Fable 5",
+        "LLM",
+        "CLI開発"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.558040+09:00",
+      "summary": "Claude CodeのFable 5は、ローカルLLM用のシェル支援CLI開発において、単なるコマンド生成を超えた能力を示しました。開発者は、Fable 5が提示された解決策の前提を疑い、より本質的な問題解決アプローチを提案した点に驚きを表明しています。この事例は、LLMが単なるコード生成ツールに留まらず、開発プロセス全体を改善する可能性を示唆しています。"
+    },
+    {
+      "id": "hatena_25610",
+      "source": "hatena",
+      "title": "LPI-Japan、「Linuxサーバー構築標準教科書」のUbuntu版を公開",
+      "url": "https://cloud.watch.impress.co.jp/docs/news/2121848.html",
+      "score": 129,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-04T08:07:13.558056+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_04513",
+      "source": "hatena",
+      "title": "AIに8割書かせたコード、半年運用の答え合わせ。効いた3つと、腐った3つ",
+      "url": "https://zenn.dev/rapls/articles/7a1bac83df8b21",
+      "score": 120,
+      "comments": 0,
+      "raw_description": "半年前に「AIに8割書かせたコードを、保守できるようにやっていること」という記事を書きました。ありがたいことに、自分がいちばん読まれた記事になりました。 あれから半年、その方針のまま実際に運用してみて、答え合わせができました。先に言うと、保守性は「足す」では買えませんでした。コメントを足す、ドキュメ...",
+      "tags": [],
+      "fetched_at": "2026-07-04T08:07:13.557999+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_70201",
+      "source": "hatena",
+      "title": "Prompting Claude Fable 5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "score": 114,
+      "comments": 0,
+      "raw_description": "Behavioral differences and prompting patterns for Claude Fable 5 and Claude Mythos 5, covering effort, instruction following, long runs, memory, and scaffolding changes. This guide covers the prompting and scaffolding patterns specific to Claude Fable 5 and Claude Mythos 5. For the model's capabi...",
+      "tags": [
+        "Claude Fable 5",
+        "Claude Mythos 5",
+        "プロンプトエンジニアリング",
+        "LLM"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.558020+09:00",
+      "summary": "AnthropicのClaude Fable 5とClaude Mythos 5の行動特性とプロンプトパターンに関する詳細な分析です。本ガイドでは、両モデルの指示追従能力、長文処理、記憶、スキャフォールディング（足場作り）における違いに焦点を当てています。これらの違いを理解することは、より効果的なプロンプトエンジニアリングと、これらの最新モデルの潜在能力を最大限に引き出すために不可欠です。"
+    },
+    {
+      "id": "hn_48779454",
+      "source": "hackernews",
+      "title": "SearXNG: A free internet metasearch engine",
+      "url": "https://github.com/searxng/searxng",
+      "score": 79,
+      "comments": 19,
+      "raw_description": "",
+      "tags": [
+        "SearXNG",
+        "メタ検索エンジン",
+        "プライバシー",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-07-04T08:07:14.103595+09:00",
+      "summary": "SearXNGは、プライバシーを重視したオープンソースのメタ検索エンジンです。ユーザーの検索クエリを匿名化し、複数の検索エンジンから結果を集約して表示することで、トラッキングを回避し、より中立的な検索体験を提供します。カスタマイズ性が高く、ローカルでのホスティングも可能なため、プライバシー意識の高いユーザーや組織にとって価値のある選択肢となります。"
+    },
+    {
+      "id": "hatena_59561",
+      "source": "hatena",
+      "title": "19年以上見過ごされていたLinux kernelのゼロデイ脆弱性を報告した話：CVE-2026-43456 | セキュリティブログ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ",
+      "url": "https://gmo-cybersecurity.com/blog/19-year-old-linux-kernel-zero-day/",
+      "score": 61,
+      "comments": 0,
+      "raw_description": "上席執行役員/CTO 小池と高度解析課のアルバイトの戸田です。 この度、我々2名でLinux Kernelに報告していた脆弱性CVE-2026-43456が修正され、開示を行ってよい状況になったため、ブログで詳細について紹介できればと思います。 この脆弱性の一番の特徴は、根本の原因となるコードは2007年にLinux kernelに取り込まれて...",
+      "tags": [
+        "Linuxカーネル",
+        "ゼロデイ脆弱性",
+        "CVE-2026-43456",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.558045+09:00",
+      "summary": "GMOサイバーセキュリティのチームが、Linuxカーネルに19年以上存在していたゼロデイ脆弱性CVE-2026-43456を発見し、報告しました。この脆弱性は2007年に取り込まれたコードに起因しており、長期間見過ごされていた点が特徴です。修正が完了し開示可能となったことで、カーネルのセキュリティ維持における長年のコードの潜在的リスクと、継続的な脆弱性診断の重要性が浮き彫りになりました。"
+    },
+    {
+      "id": "hn_48779977",
+      "source": "hackernews",
+      "title": "Africans Are Turning to Starlink",
+      "url": "https://www.economist.com/middle-east-and-africa/2026/07/02/africans-are-turning-to-starlink",
+      "score": 59,
+      "comments": 38,
+      "raw_description": "",
+      "tags": [
+        "Starlink",
+        "アフリカ",
+        "衛星インターネット",
+        "デジタルデバイド"
+      ],
+      "fetched_at": "2026-07-04T08:07:14.350225+09:00",
+      "summary": "アフリカ諸国でStarlinkの導入が進んでいます。衛星インターネットサービスであるStarlinkは、従来の terrestre ネットワークが未整備な地域でも高速インターネット接続を提供できるため、教育、医療、ビジネスの機会拡大に貢献すると期待されています。これにより、デジタルデバイドの解消と経済発展の促進が期待されます。"
+    },
+    {
+      "id": "hatena_03587",
+      "source": "hatena",
+      "title": "パスワード入力のmaxlengthで長いパスワードで登録できたつもりになってた問題2026",
+      "url": "https://gist.github.com/mala/30c4e87c9ab150054e2f722b8256157e",
+      "score": 53,
+      "comments": 0,
+      "raw_description": "password_maxlength.md 2012年版 https://gist.github.com/mala/4129717 https://togetter.com/li/2716116 15文字に切り詰めてパスワードを入力せよという案内を元に、なぜかパスワードが平文で保存されているという主張をする人がいる。これは全く発生している事象と関連がなく、根拠がない。 パスワードを任意の長さに...",
+      "tags": [
+        "パスワード",
+        "maxlength",
+        "セキュリティ",
+        "クライアントサイド"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.558034+09:00",
+      "summary": "パスワード入力フィールドのmaxlength属性による意図しない挙動と、それに伴う誤解について解説しています。maxlength属性はクライアントサイドでの入力制限であり、サーバーサイドでのパスワード検証や保存処理とは独立しています。そのため、maxlength属性で切り詰められたパスワードが平文で保存されているという主張は、技術的な誤解に基づいている可能性が高いです。安全なパスワード管理のためには、クライアントサイドの制限だけでなく、サーバーサイドでの適切なハッシュ化と検証が不可欠です。"
+    },
+    {
+      "id": "hn_48779352",
+      "source": "hackernews",
+      "title": "Kagi Changelog (July 2): Heads, tails, and an AI toggle",
+      "url": "https://kagi.com/changelog#10959",
+      "score": 48,
+      "comments": 10,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-04T08:07:15.548300+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48779723",
+      "source": "hackernews",
+      "title": "Applied Category Theory Course (2018)",
+      "url": "https://math.ucr.edu/home/baez/act_course/index.html",
+      "score": 27,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-04T08:07:15.308380+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_22653",
+      "source": "hatena",
+      "title": "プレゼンツールPeithoをつくっている",
+      "url": "https://mizzy.org/blog/2026/07/03/1/",
+      "score": 14,
+      "comments": 0,
+      "raw_description": "前回の記事でPyxis/Argus/Irisという最近つくっているOSSを紹介したけど、もうひとつ新しいものをつくりはじめた。Peithoというプレゼンテーションツールで、Markdownをsource of truthとして、HTMLネイティブなスライドを生成し、ブラウザでの発表までやる。 ビルドするとどんなスライドになるのかは、デモサイトpeitho...",
+      "tags": [
+        "プレゼンテーションツール",
+        "Markdown",
+        "OSS",
+        "Web開発"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.558050+09:00",
+      "summary": "MarkdownをソースとしてHTMLネイティブなスライドを生成し、ブラウザでの発表まで行うプレゼンテーションツール「Peitho」が開発されている。このツールは、Markdownファイルから直接スライドを生成することで、コンテンツ管理の簡素化と、HTMLの柔軟性を活かした表現力の向上を目指している。デモサイトも公開されており、その機能性を確認できる。"
+    },
+    {
+      "id": "hatena_48556",
+      "source": "hatena",
+      "title": "AIで実装コストが低くなった今、エンジニアは上流に行くべきか？｜いしい",
+      "url": "https://note.com/danimal141/n/neeb219bbc03f",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "「AI時代、実装だけやってるとこの先まずいですかね。上流側に寄るべきですか」。 特に新卒採用などをやっているとこの手の質問が多い。そしてどう回答するか、毎度悩ましい。そもそも質問者の言う「上流」とは、PRDや要件を書くことなのか、何を作るか決めることなのか、その結果に責任を持つことなのか。たいてい本人...",
+      "tags": [
+        "AI",
+        "キャリア",
+        "エンジニア",
+        "上流工程"
+      ],
+      "fetched_at": "2026-07-04T08:07:13.558028+09:00",
+      "summary": "AI技術の進化により、従来エンジニアが担っていた実装コストが低下する中で、キャリアパスに関する懸念が生じています。特に新卒エンジニアなどからは、AI時代において「上流工程」への移行が推奨されるべきかという質問が多く寄せられています。しかし、「上流」の定義は曖昧であり、プロダクト要求定義、企画立案、あるいは最終的な責任まで、その範囲は多岐にわたります。エンジニアは自身のキャリアを考える上で、AIとの協業を見据え、より戦略的・創造的な領域への貢献を模索する必要があります。"
+    },
+    {
+      "id": "hn_48780913",
+      "source": "hackernews",
+      "title": "How Amsterdam invented the fire department",
+      "url": "https://worksinprogress.co/issue/how-amsterdam-invented-the-fire-department/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "消防史",
+        "アムステルダム",
+        "初期消防",
+        "都市安全"
+      ],
+      "fetched_at": "2026-07-04T08:07:14.589283+09:00",
+      "summary": "アムステルダムは、17世紀に火災の脅威に対処するために、組織的な消防組織を創設しました。初期の消防隊は、水バケツの連鎖や、火災現場に水を噴射する手動ポンプなどの技術を導入しました。この革新は、都市の安全性を大幅に向上させ、現代の消防システムの基礎を築きました。"
+    },
+    {
+      "id": "hn_48780826",
+      "source": "hackernews",
+      "title": "Dispersion loss counteracts embedding condensation in small language models",
+      "url": "https://chenliu-1996.github.io/projects/LM-Dispersion/",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "小規模言語モデル",
+        "埋め込み凝縮",
+        "分散損失",
+        "モデル圧縮"
+      ],
+      "fetched_at": "2026-07-04T08:07:14.830312+09:00",
+      "summary": "小規模言語モデル（SLM）において、埋め込み凝縮（embedding condensation）はモデルサイズを削減する有望な技術ですが、分散損失（dispersion loss）がその効果を相殺する可能性が示されました。分散損失は、埋め込みベクトル間の距離を広げることで、モデルの表現能力を維持しようとしますが、これが凝縮による情報密度の向上を妨げます。このトレードオフを理解することは、SLMの効率的な設計と性能最適化のために重要です。"
+    },
+    {
+      "id": "reddit_45797",
+      "source": "reddit",
+      "title": "Linux has officially won",
+      "url": "https://www.reddit.com/r/programming/comments/1um497y/linux_has_officially_won/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Actually it happened in June of 2025, but the process has completed recently, though. After Apple had announced the support of OCI-compatible containers in the June '25 it took a year to complete development and implement full support of continers. Apple had published 1.0 version of own container manager (<a href=\"https://github.com/apple/container\">https://github.com/apple/container</a>). And Microsoft had announced native support of containerization without Do",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-04T08:07:15.853753+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_50123",
+      "source": "reddit",
+      "title": "Hunting a 16-year-old SQLite bug with TLA+: is dqlite affected?",
+      "url": "https://www.reddit.com/r/programming/comments/1umi3j4/hunting_a_16yearold_sqlite_bug_with_tla_is_dqlite/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yusufaytas\"> /u/yusufaytas </a> <br /> <span><a href=\"https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1umi3j4/hunting_a_16yearold_sqlite_bug_with_tla_is_dqlite/\">[comments]</a></span>",
+      "tags": [
+        "SQLite",
+        "TLA+",
+        "バグ検出",
+        "分散データベース"
+      ],
+      "fetched_at": "2026-07-04T08:07:15.853773+09:00",
+      "summary": "Ubuntuのブログ記事では、16年間未解決だったSQLiteのバグをTLA+を用いて発見・検証するプロセスが解説されています。このバグは、データベースの整合性に影響を与える可能性があり、特にdqliteのような分散データベースシステムへの影響が懸念されています。TLA+による形式手法を用いた検証は、複雑なバグの特定と修正において有効なアプローチであることを示しています。"
+    },
+    {
+      "id": "reddit_28474",
+      "source": "reddit",
+      "title": "Understanding Traceroute",
+      "url": "https://www.reddit.com/r/programming/comments/1um4hyx/understanding_traceroute/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://tech.stonecharioteer.com/posts/2026/traceroute/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1um4hyx/understanding_traceroute/\">[comments]</a></span>",
+      "tags": [
+        "traceroute",
+        "ネットワーク診断",
+        "トラブルシューティング",
+        "TCP/IP"
+      ],
+      "fetched_at": "2026-07-04T08:07:15.853779+09:00",
+      "summary": "Tracerouteは、パケットが送信元から宛先まで到達する経路上のルーターを特定し、各ホップまでの遅延を測定するネットワーク診断ツールです。ICMP Echo RequestやUDPパケットを使用し、TTL（Time To Live）値をインクリメントしながらパケットを送信することで、ルーターからの応答（ICMP Time Exceeded）を追跡します。ネットワークの遅延や障害箇所を特定する上で不可欠なツールであり、ネットワーク管理やトラブルシューティングに広く利用されています。"
+    },
+    {
+      "id": "reddit_49220",
+      "source": "reddit",
+      "title": "Keynote: Linus Torvalds in Conversation with Dirk Hohndel",
+      "url": "https://www.reddit.com/r/programming/comments/1umk39t/keynote_linus_torvalds_in_conversation_with_dirk/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Infamous_Sorbet4021\"> /u/Infamous_Sorbet4021 </a> <br /> <span><a href=\"https://youtu.be/YKkEe-PxW10\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1umk39t/keynote_linus_torvalds_in_conversation_with_dirk/\">[comments]</a></span>",
+      "tags": [
+        "Linuxカーネル",
+        "リーナス・トーバルズ",
+        "オープンソース",
+        "開発哲学"
+      ],
+      "fetched_at": "2026-07-04T08:07:15.853784+09:00",
+      "summary": "このセッションでは、Linuxカーネルの開発者であるリーナス・トーバルズ氏が、ダーク・ホーンドル氏との対談形式で、Linuxカーネルの進化や開発哲学について語りました。特に、カーネル開発におけるコミュニティの役割や、将来的な技術的課題、そしてオープンソースソフトウェアの重要性について深く掘り下げられました。技術者にとって、Linuxの未来像や開発の方向性を理解する上で貴重な洞察が得られる内容となっています。"
+    }
+  ]
+}
