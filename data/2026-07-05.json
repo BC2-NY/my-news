@@ -1,0 +1,287 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T07:59:34.368778+09:00",
+  "articles": [
+    {
+      "id": "hn_48786781",
+      "source": "hackernews",
+      "title": "Leaking YouTube creators' private videos",
+      "url": "https://javoriuski.com/post/youtube",
+      "score": 426,
+      "comments": 221,
+      "raw_description": "",
+      "tags": [
+        "YouTube",
+        "セキュリティ",
+        "API脆弱性",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-07-05T07:59:33.296224+09:00",
+      "summary": "YouTubeクリエイターのプライベート動画が流出するセキュリティインシデントが発生しました。この流出は、YouTubeのAPIの脆弱性を悪用したもので、クリエイターが意図せず公開したくないコンテンツが第三者の手に渡るリスクを示しています。この事象は、プラットフォームのセキュリティ対策の重要性と、クリエイター自身の情報管理の必要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_48784777",
+      "source": "hackernews",
+      "title": "Explanation of everything you can see in htop/top on Linux (2019)",
+      "url": "https://peteris.rocks/blog/htop/",
+      "score": 359,
+      "comments": 46,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:34.113724+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_68882",
+      "source": "hatena",
+      "title": "とある部長のObsidian",
+      "url": "https://zenn.dev/canly/articles/173479ac3e9824",
+      "score": 302,
+      "comments": 0,
+      "raw_description": "まえがき カンリーのプロダクトマネジメント部の部長をしている越智（X：@ochi__san）です。 AIが日常の当たり前になってから久しいですが、私ももれなく日々の業務にどうAIを取り込み、いかに生産性高くふるまい続けられるかを考えています。今回は実務というよりはその周辺にあるタスクやふりかえりに焦点をあて、どの...",
+      "tags": [
+        "AI活用",
+        "生産性向上",
+        "プロダクトマネジメント",
+        "業務効率化"
+      ],
+      "fetched_at": "2026-07-05T07:59:32.798013+09:00",
+      "summary": "カンリーのプロダクトマネジメント部長が、AIを活用した日々の業務効率化について考察しています。特に、AIを周辺タスクや振り返りに適用することで、生産性を高める方法に焦点を当てています。この記事は、AIを実務だけでなく、その周辺業務にどう組み込むかという具体的なアプローチを知りたい技術者にとって参考になるでしょう。"
+    },
+    {
+      "id": "hatena_32147",
+      "source": "hatena",
+      "title": "（自分的に）神な自作ツール配布場所",
+      "url": "https://saisokuya.com/soft/",
+      "score": 270,
+      "comments": 0,
+      "raw_description": "自分的に便利なソフトをシェアしますね。すべてWindowsです。今後もどんどん追加していく予定です。広告とか課金とかありません。使うときは自己責任でお願いしますね。",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:32.797951+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48786838",
+      "source": "hackernews",
+      "title": "Google Books (or similar) all book scans – $200k bounty (2025)",
+      "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+      "score": 269,
+      "comments": 144,
+      "raw_description": "",
+      "tags": [
+        "Google Books",
+        "データセット",
+        "懸賞金",
+        "デジタルアーカイブ"
+      ],
+      "fetched_at": "2026-07-05T07:59:33.460663+09:00",
+      "summary": "Google Booksなどの書籍スキャンデータセット全体を対象とした20万ドルの懸賞金が2025年に設定されました。この懸賞金は、書籍のデジタル化とアクセシビリティ向上における課題解決を促進することを目的としています。技術者は、大規模なデータセットの管理、検索機能の改善、著作権問題への対応など、多岐にわたる技術的課題に取り組む機会を得られます。"
+    },
+    {
+      "id": "hn_48785485",
+      "source": "hackernews",
+      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "url": "https://github.com/anthropics/claude-code/issues/74066",
+      "score": 260,
+      "comments": 120,
+      "raw_description": "",
+      "tags": [
+        "Google Cloud",
+        "脆弱性",
+        "セキュリティ",
+        "セッション漏洩"
+      ],
+      "fetched_at": "2026-07-05T07:59:33.949544+09:00",
+      "summary": "Google CloudのWorkspaceインスタンス間またはコンシューマーアカウント間で、セッションやキャッシュ情報が意図せず漏洩する可能性のある脆弱性が報告されました。この問題は、リソースの分離が不十分な場合に発生し、悪意のあるアクターが他のユーザーの機密情報にアクセスできるリスクがあります。この脆弱性は、クラウド環境における厳格な分離とセキュリティ対策の重要性を示唆しています。"
+    },
+    {
+      "id": "hn_48788283",
+      "source": "hackernews",
+      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "score": 254,
+      "comments": 108,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:32.968491+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_44596",
+      "source": "hatena",
+      "title": "個人用メモアプリをつくっている",
+      "url": "https://mizzy.org/blog/2026/07/03/2/",
+      "score": 162,
+      "comments": 0,
+      "raw_description": "Obsidianの代替として、個人用のメモツールWebアプリをつくりはじめた。リポジトリはmizzy/memo。Cloudflare上で動かしている。 なぜつくったか ObsidianはMarkdownが書けるメモツールとして常用していて、PC上での利用には特に不満はない。ただ、Obsidianの豊富な機能を使いこなしているわけでもなくて、メモを書いて読...",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:32.797980+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_50338",
+      "source": "hatena",
+      "title": "現在の日本語のIT用語は横文字ばかりだが、初期の頃は日本IBMが超頑張って意訳した用語が雑誌に出てくると奇異とかバカにされていた話…シャットダウンが「遮断」は秀逸",
+      "url": "https://togetter.com/li/2716883",
+      "score": 123,
+      "comments": 0,
+      "raw_description": "KOIZUKA Akihiko @koizuka 現在の日本語のIT用語がやたらと横文字なのは、インターネット時代の流入速度の問題もあるけど 初期の日本IBMなんかが超頑張って意訳してた用語が、雑誌とかに出てくると奇異とか馬鹿にされてて、カタカナに塗り替えられていったんだよね IBM PC-DOS/Vのマニュアルも5あたりで屈してしまった.....",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:32.797987+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48787329",
+      "source": "hackernews",
+      "title": "Verizon is About to Break our Watches",
+      "url": "https://www.jefftk.com/p/verizon-is-about-to-break-our-watches",
+      "score": 113,
+      "comments": 50,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:33.789978+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_81809",
+      "source": "hatena",
+      "title": "新しいHTTPメソッド「QUERY」をHono + Bunで実装してみる - Qiita",
+      "url": "https://qiita.com/maaaashi/items/6eefccb7361f64607865",
+      "score": 95,
+      "comments": 0,
+      "raw_description": "先日、こんな投稿を見かけました。 ¡Histórico! Nuevo método HTTP para el estándar. Se llama QUERY y es una alternativa a GET y POST （新しいHTTPメソッドが標準に。名前は QUERY で、GETとPOSTの代替になる） 新しいHTTPメソッド QUERY が、ついに \"Proposed Standard\" になったという話題です。 仕様は RFC 1000...",
+      "tags": [
+        "HTTP",
+        "QUERY",
+        "Hono",
+        "Bun"
+      ],
+      "fetched_at": "2026-07-05T07:59:32.798001+09:00",
+      "summary": "HTTPの新しいメソッドであるQUERYがProposed Standardとして提案されました。QUERYはGETやPOSTの代替となりうるメソッドとして期待されており、HonoとBunを用いた実装例が示されています。この新しいメソッドの登場は、HTTPプロトコルの拡張性を示唆しており、将来的なWebアプリケーション開発における選択肢を増やす可能性があります。"
+    },
+    {
+      "id": "hatena_78065",
+      "source": "hatena",
+      "title": "すでに4800スター、Loop Engineeringとは — “自分の仕事はloopを書くこと”",
+      "url": "https://zenn.dev/acntechjp/articles/0c63b5b08bbdb9",
+      "score": 66,
+      "comments": 0,
+      "raw_description": "Loop Engineeringは完全自律への「橋」となる コードが人間の読解速度を超えて生成され続ける——気づいた頃には、誰も全体を把握していないコードベースだけが残る。理解負債は、後から返済できる技術的負債とは違う。負債が積み上がった時点で、返済に必要な\"理解\"そのものが失われている。 TL;DR Claude Code責任者Bori...",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:32.797971+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48789428",
+      "source": "hackernews",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "score": 59,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:33.129249+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48788599",
+      "source": "hackernews",
+      "title": "Better Models: Worse Tools",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "score": 51,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:33.623772+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_39476",
+      "source": "hatena",
+      "title": "バイブコーディングで本当にアプリはリリースできるのか？エンジニアが実際にアプリをリリースして感じたこと - Qiita",
+      "url": "https://qiita.com/yutaka_kozuka/items/cc3be5930b972130885d",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "TL;DR Q: バイブコーディングで本当にアプリをリリースできるのか？ A: できました。ただし「商用・セキュア」という条件では、非エンジニアにはまだ厳しいと感じました。 AI英語学習アプリをゼロから個人開発し、Web・iOS App Store の両方でリリースできました AIは「コードを書くこと」を代替できますが、「何を確認...",
+      "tags": [],
+      "fetched_at": "2026-07-05T07:59:32.797994+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_92519",
+      "source": "hatena",
+      "title": "AIが稼いだお金から年間約16万円の給付金が受け取れる法案、提出される | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/bernie-sanders-new-ai-bill-would-pay-americans-1000-a-year/",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "マーク・キューバンはAIのトークンに連邦税を課すべきって言ってたよな…。 いまあるAIシステムは、全人類の知的・創造的な成果をもとに構築されたもの。だとすれば、そこから生まれる収益は、ひと握りのテック業界の大物たちだけでなく、国民に直接還元されるべき。バーニー・サンダース連邦上院議員はそう主張していま...",
+      "tags": [
+        "AI",
+        "法案",
+        "経済",
+        "分配"
+      ],
+      "fetched_at": "2026-07-05T07:59:32.798007+09:00",
+      "summary": "バーニー・サンダース上院議員が、AIが生み出す収益の一部を国民に還元するための法案を提出しました。この法案は、AIが人類全体の知的・創造的成果を基盤としているという考えに基づき、AIによって得られた利益から年間約16万円の給付金を国民に支給することを目的としています。この動きは、AI技術の発展とその経済的影響に対する社会的な分配のあり方を問う重要な一歩と言えます。"
+    },
+    {
+      "id": "reddit_97477",
+      "source": "reddit",
+      "title": "Division Polynomials of Elliptic Curves in Python",
+      "url": "https://www.reddit.com/r/programming/comments/1un3czl/division_polynomials_of_elliptic_curves_in_python/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DataBaeBee\"> /u/DataBaeBee </a> <br /> <span><a href=\"https://leetarxiv.substack.com/p/division-polynomials-of-elliptic\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1un3czl/division_polynomials_of_elliptic_curves_in_python/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-05T07:59:34.368724+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_45673",
+      "source": "reddit",
+      "title": "CI workflows on Tangled for Elixir",
+      "url": "https://www.reddit.com/r/programming/comments/1un6n4e/ci_workflows_on_tangled_for_elixir/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/joladev\"> /u/joladev </a> <br /> <span><a href=\"https://jola.dev/posts/ci-workflows-on-tangled\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1un6n4e/ci_workflows_on_tangled_for_elixir/\">[comments]</a></span>",
+      "tags": [
+        "Elixir",
+        "CI/CD",
+        "Tangled",
+        "DevOps"
+      ],
+      "fetched_at": "2026-07-05T07:59:34.368741+09:00",
+      "summary": "この記事では、Elixir開発者がTangledというプラットフォーム上でCI/CDワークフローを構築する方法を解説しています。Tangledは、GitHubリポジトリと連携し、コードのプッシュやプルリクエストをトリガーとして自動ビルド、テスト、デプロイメントを実行する機能を提供します。これにより、開発者は迅速なフィードバックループを確立し、ソフトウェアの品質とデリバリーの効率を向上させることが可能になります。"
+    },
+    {
+      "id": "reddit_66379",
+      "source": "reddit",
+      "title": "The Vertical Codebase",
+      "url": "https://www.reddit.com/r/programming/comments/1unat29/the_vertical_codebase/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://tkdodo.eu/blog/the-vertical-codebase\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1unat29/the_vertical_codebase/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-05T07:59:34.368749+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_24755",
+      "source": "reddit",
+      "title": "Software, from First Principles",
+      "url": "https://www.reddit.com/r/programming/comments/1unatjq/software_from_first_principles/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/faza_\"> /u/faza_ </a> <br /> <span><a href=\"https://fazamhd.com/mental-models/software/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1unatjq/software_from_first_principles/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-05T07:59:34.368756+09:00",
+      "summary": ""
+    }
+  ]
+}
