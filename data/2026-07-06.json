@@ -1,0 +1,308 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T08:03:46.298804+09:00",
+  "articles": [
+    {
+      "id": "hn_48794446",
+      "source": "hackernews",
+      "title": "Organic Maps",
+      "url": "https://organicmaps.app/",
+      "score": 732,
+      "comments": 208,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:44.714406+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_22040",
+      "source": "hatena",
+      "title": "「VPC内通信もTLSにすべき？」と聞かれて ── そもそもAWS内で盗聴できるのか脅威モデルで確かめた話 - Qiita",
+      "url": "https://qiita.com/ntaka329/items/de23144fdf7305a2e0c1",
+      "score": 345,
+      "comments": 0,
+      "raw_description": "以下、なぜこの結論になるのかを順に書きます。 そもそもVPC内は盗聴できるのか 最初に確認したかったのは、「物理的に同じLANにぶら下がっていて、他人のパケットが流れてくる」という昔のオフィスLANのイメージが、VPCにも当てはまるのか、でした。当てはまりません。 AWSのVPCは物理的な共有LANではなく、SDNの上に作...",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:43.858848+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48797916",
+      "source": "hackernews",
+      "title": "Reparaible and open source paper printer",
+      "url": "https://www.opentools.studio/",
+      "score": 195,
+      "comments": 51,
+      "raw_description": "",
+      "tags": [
+        "オープンソース",
+        "修理可能",
+        "ペーパープリンター",
+        "持続可能性"
+      ],
+      "fetched_at": "2026-07-06T08:03:44.218570+09:00",
+      "summary": "オープンソースで修理可能なペーパープリンターが登場しました。このプリンターは、部品の入手が容易で、ユーザー自身が修理やカスタマイズを行えるように設計されています。これにより、従来の使い捨て文化からの脱却を目指し、持続可能性と長期的な利用を促進する可能性があります。技術的には、モジュール設計と標準化された部品の採用が鍵となります。"
+    },
+    {
+      "id": "hn_48796552",
+      "source": "hackernews",
+      "title": "The future of Flipper Zero development",
+      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
+      "score": 181,
+      "comments": 51,
+      "raw_description": "",
+      "tags": [
+        "Flipper Zero",
+        "オープンソース",
+        "ファームウェア開発",
+        "IoT"
+      ],
+      "fetched_at": "2026-07-06T08:03:45.451874+09:00",
+      "summary": "Flipper Zeroの将来的な開発は、オープンソースコミュニティの活発な貢献によって推進されています。これにより、ファームウェアの機能拡張、新しいハードウェアモジュールのサポート、およびサードパーティ製ツールの統合が進んでいます。このオープンなアプローチは、デバイスのセキュリティ研究やIoT開発における多様なユースケースへの応用を加速させ、ユーザーによるカスタマイズ性と機能性を高める上で重要です。"
+    },
+    {
+      "id": "hatena_53377",
+      "source": "hatena",
+      "title": "ClaudeのAPI費用が激減。システムプロンプトを「画像」として読ませる新ツールの仕組み | XenoSpectrum",
+      "url": "https://xenospectrum.com/pxpipe-claude-token-image-compression/",
+      "score": 143,
+      "comments": 0,
+      "raw_description": "この記事のポイント 何が起きた: Claude Codeの入力コンテキストをPNG画像に変換し、トークン費用を約6割削減するローカルプロキシ「pxpipe」が登場した。なぜ重要か: テキストの従量課金に対し、画像はピクセルサイズに基づく固定課金というAIモデルの料金体系のギャップを突き、新たなコスト最適化の力学を提示した。...",
+      "tags": [
+        "Claude",
+        "API",
+        "コスト削減",
+        "pxpipe"
+      ],
+      "fetched_at": "2026-07-06T08:03:43.858835+09:00",
+      "summary": "Claude Codeの入力コンテキストをPNG画像に変換し、トークン費用を約6割削減するローカルプロキシ「pxpipe」が登場しました。このツールは、テキストベースの従量課金と画像ベースの固定課金というAIモデルの料金体系の差を利用しています。これにより、大規模言語モデルの利用コストを大幅に削減できる可能性があり、AI活用の新たなコスト最適化手法として注目されます。"
+    },
+    {
+      "id": "hatena_39247",
+      "source": "hatena",
+      "title": "システム思考の実践例だった「エンジニアリング戦略の作り方」を読んだ - 勘と経験と読経",
+      "url": "https://agnozingdays.hatenablog.com/entry/2026/07/05/170000",
+      "score": 142,
+      "comments": 0,
+      "raw_description": "読むのがホネな技術書やビジネス書を取り上げて2週間の読書期限を課して読んでアウトプットする仮想読書会「デッドライン読書会」の第91回。同僚と読書期限を約束することによって積読が確実に減るという仕組み。過去記事はこちら。 今回とりあげるのは「エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破す...",
+      "tags": [
+        "エンジニアリング戦略",
+        "システム思考",
+        "技術書",
+        "デッドライン読書会"
+      ],
+      "fetched_at": "2026-07-06T08:03:43.858867+09:00",
+      "summary": "本書は、エンジニアリング戦略の策定プロセスをシステム思考の観点から解説しています。特に、複雑な技術的課題や組織的な難局を乗り越えるための具体的なアプローチを提供しており、経験や勘に頼りがちなエンジニアリング組織において、より体系的かつ効果的な意思決定を支援する点が重要です。読書期限を設けた仮想読書会という形式で本書の内容を実践的に学んだ体験も共有されています。"
+    },
+    {
+      "id": "hatena_33080",
+      "source": "hatena",
+      "title": "そうだ、時計作ろう - 重力に縋るな",
+      "url": "https://sksat.hatenablog.com/entry/pico-gnssdo",
+      "score": 139,
+      "comments": 0,
+      "raw_description": "みなさん時間測ってますか？ 僕はパスタ茹でる時とかに測ります。 また、時間の間隔だけでなく、正確な時刻を知ったり、正確な時刻に合わせて何かアクションをしたい時があります。 たとえば JST 2026年06月21日22時23分24秒きっかりに数十 ns の精度でパスタを茹で始めたい時などがあると思います。 そんな時に便利なの...",
+      "tags": [
+        "時刻同期",
+        "高精度計測",
+        "ナノ秒精度",
+        "時間計測"
+      ],
+      "fetched_at": "2026-07-06T08:03:43.858826+09:00",
+      "summary": "本記事は、パスタを茹でる際の正確な時間計測という身近な例から、高精度な時刻同期の必要性を説いています。特に、数十ナノ秒精度での時刻同期が求められるユースケースが存在することを示唆しており、従来の重力に依存した時間計測方法では限界があることを示唆しています。高精度な時刻同期を実現するための技術やソリューションの重要性を強調する内容となっています。"
+    },
+    {
+      "id": "hn_48796817",
+      "source": "hackernews",
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "score": 106,
+      "comments": 70,
+      "raw_description": "",
+      "tags": [
+        "AIチューター",
+        "教育AI",
+        "機械学習",
+        "効果量"
+      ],
+      "fetched_at": "2026-07-06T08:03:45.201946+09:00",
+      "summary": "Dartmouth大学のコースで、新しいAIチューターが0.71～1.30の標準偏差（SD）効果量という高い学習効果を示しました。これは、従来の教育手法と比較して、学生の成績が大幅に向上したことを意味します。このAIチューターは、個別最適化された学習支援を提供することで、教育分野におけるAIの応用可能性を広げるものです。"
+    },
+    {
+      "id": "hatena_24307",
+      "source": "hatena",
+      "title": "スタートアップをとりまく思想 - 🐴 (馬)",
+      "url": "https://blog.takaumada.com/entry/startup-thought-2026",
+      "score": 90,
+      "comments": 0,
+      "raw_description": "なぜいま、スタートアップと思想なのか 日本で「シリコンバレー」と聞いて思い浮かぶのは、GAFAのような巨大テック企業か、「失敗を恐れず挑戦する起業家精神」といったビジネス書的なイメージではないでしょうか。 しかし、いまアメリカのテック業界で起きていること、そしてシリコンバレーが世界から注目されている理...",
+      "tags": [
+        "スタートアップ",
+        "思想",
+        "シリコンバレー",
+        "テック業界"
+      ],
+      "fetched_at": "2026-07-06T08:03:43.858798+09:00",
+      "summary": "本記事は、現代のスタートアップを取り巻く思想的背景に焦点を当て、シリコンバレーのイメージを刷新する。単なるビジネスモデルや起業家精神だけでなく、その背後にある思想や哲学が、なぜ今アメリカのテック業界や世界から注目されているのかを解説する。これにより、スタートアップの本質的な理解を深めることを目指す。"
+    },
+    {
+      "id": "hatena_53821",
+      "source": "hatena",
+      "title": "たくさんのリクエスト、本当にありがとうございます。 想像していた以上..",
+      "url": "https://anond.hatelabo.jp/20260705205433",
+      "score": 80,
+      "comments": 0,
+      "raw_description": "たくさんのリクエスト、本当にありがとうございます。 想像していた以上に「あの人を見てみたい」「自分も載せてほしい」という声をいただいており、大変ありがたい一方で、掲載が追いついていません。 現在、順番待ちのリクエストが500件を超えています。 「まだ？」と思われている方、お待たせして申し訳ありません。 ...",
+      "tags": [
+        "サービス",
+        "ユーザーリクエスト",
+        "負荷",
+        "人気"
+      ],
+      "fetched_at": "2026-07-06T08:03:43.858841+09:00",
+      "summary": "あるサービスにおいて、ユーザーからの掲載リクエストが想定を大きく上回り、現在500件以上の順番待ちが発生している。この状況はサービスの人気を示す一方で、リクエストへの対応が追いついていないことを示唆している。今後のサービス展開においては、リクエスト処理能力の向上が課題となる可能性がある。"
+    },
+    {
+      "id": "hn_48770291",
+      "source": "hackernews",
+      "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
+      "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
+      "score": 77,
+      "comments": 12,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:45.943537+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48798061",
+      "source": "hackernews",
+      "title": "Completing a Computer Science Degree on Coursera",
+      "url": "https://notesbylex.com/completing-a-computer-science-degree-on-coursera",
+      "score": 56,
+      "comments": 24,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:44.956948+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_71494",
+      "source": "hatena",
+      "title": "コードレビュー指摘300件を3ヶ月分類したら効いていたのは2種類だけだった",
+      "url": "https://zenn.dev/kenimo49/articles/code-review-300-comments-2-effective-categories",
+      "score": 52,
+      "comments": 0,
+      "raw_description": "Bug指摘の欠陥相関0.51は、Style指摘の0.04の約13倍。同じ「1件のレビューコメント」でも、効きめが1桁違う。 「nit:が多いレビューほどコードが歪む」という逆説 集計の途中で、不気味な相関に気づいた。nit: (Style系) が多いPRほど、3ヶ月後の欠陥相関がむしろ高い。Style指摘の自己相関ではなく、他カテゴリの欠陥相...",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:43.858855+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48798153",
+      "source": "hackernews",
+      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "score": 52,
+      "comments": 12,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:44.468636+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48797655",
+      "source": "hackernews",
+      "title": "Zero-copy in Go: sendfile, splice, and the cost of io.Copy",
+      "url": "https://segflow.github.io/post/zero-copy-sendfile-splice/",
+      "score": 34,
+      "comments": 4,
+      "raw_description": "",
+      "tags": [
+        "Go",
+        "ゼロコピー",
+        "sendfile",
+        "io.Copy"
+      ],
+      "fetched_at": "2026-07-06T08:03:45.695569+09:00",
+      "summary": "Go言語におけるゼロコピー転送の効率性を、sendfileとspliceシステムコールを中心に解説しています。io.Copyとの比較を通じて、これらのシステムコールがカーネル空間で直接データを転送することで、CPUとメモリのオーバーヘッドを削減し、特にネットワークI/Oにおいてパフォーマンスを大幅に向上させるメカニズムを明らかにします。これにより、高負荷なサーバーアプリケーションにおけるデータ転送のボトルネック解消に貢献します。"
+    },
+    {
+      "id": "hatena_60853",
+      "source": "hatena",
+      "title": "GitHub - UniClipboard/UniClipboard: Real-time clipboard sync across all your devices — local-first, peer-to-peer, and end-to-end encrypted. No account. No cloud dependency. No central server.",
+      "url": "https://github.com/UniClipboard/UniClipboard",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "Cross-platform: First-class support on Windows, macOS, and Linux — your clipboard works wherever you do. iPhone and Android can join as a companion (see below). Cross-network sync: Real-time sync on the same Wi-Fi, across different home/office networks, or across the internet, with automatic NAT ...",
+      "tags": [],
+      "fetched_at": "2026-07-06T08:03:43.858861+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_10975",
+      "source": "reddit",
+      "title": "What ORMs have taught me: just learn SQL",
+      "url": "https://www.reddit.com/r/programming/comments/1uo1w91/what_orms_have_taught_me_just_learn_sql/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Either_Collection349\"> /u/Either_Collection349 </a> <br /> <span><a href=\"https://wozniak.ca/blog/2014/08/03/1/index.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uo1w91/what_orms_have_taught_me_just_learn_sql/\">[comments]</a></span>",
+      "tags": [
+        "SQL",
+        "ORM",
+        "データベース",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-06T08:03:46.298747+09:00",
+      "summary": "本記事は、ORM（Object-Relational Mapping）の利用経験から、SQLを直接学ぶことの重要性を説いています。ORMは開発効率を向上させる一方で、データベースの内部動作やSQLの最適化に関する理解を妨げる可能性があると指摘しています。複雑なクエリやパフォーマンスチューニングが必要な場面では、SQLの深い知識が不可欠であり、ORMの抽象化レイヤーを理解するためにもSQLの習得が推奨されています。"
+    },
+    {
+      "id": "reddit_27646",
+      "source": "reddit",
+      "title": "Floating point from scratch: Hard Mode",
+      "url": "https://www.reddit.com/r/programming/comments/1unt3dw/floating_point_from_scratch_hard_mode/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://essenceia.github.io/projects/floating_dragon/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1unt3dw/floating_point_from_scratch_hard_mode/\">[comments]</a></span>",
+      "tags": [
+        "浮動小数点数",
+        "ハードウェア設計",
+        "コンピュータアーキテクチャ",
+        "数値計算"
+      ],
+      "fetched_at": "2026-07-06T08:03:46.298766+09:00",
+      "summary": "この記事は、浮動小数点数の表現と演算をゼロから実装するプロジェクト「Floating Point from Scratch: Hard Mode」を紹介しています。IEEE 754規格に準拠した浮動小数点演算器をハードウェアレベルで設計・実装することで、コンピュータアーキテクチャにおける数値表現の基礎を深く理解することを目指します。この取り組みは、低レベルのハードウェア設計や数値計算の仕組みに関心のある技術者にとって、浮動小数点演算の複雑さとその重要性を学ぶ上で非常に価値があります。"
+    },
+    {
+      "id": "reddit_32024",
+      "source": "reddit",
+      "title": "The Engineer in the Half-Space",
+      "url": "https://www.reddit.com/r/programming/comments/1uo2lk3/the_engineer_in_the_halfspace/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Either_Collection349\"> /u/Either_Collection349 </a> <br /> <span><a href=\"https://yusufaytas.com/the-engineer-in-the-half-space\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uo2lk3/the_engineer_in_the_halfspace/\">[comments]</a></span>",
+      "tags": [
+        "エンジニアリング",
+        "概念",
+        "半空間",
+        "イノベーション"
+      ],
+      "fetched_at": "2026-07-06T08:03:46.298774+09:00",
+      "summary": "この記事は、半空間（half-space）という概念をエンジニアリングの文脈で考察しています。半空間は、物理学や幾何学において無限に広がる領域を指すことがありますが、この記事では、エンジニアリング設計や問題解決における「未踏の領域」や「潜在的な可能性」を比喩的に表現するために用いられています。この概念を理解することは、革新的なソリューションの発見や、既存の枠にとらわれないアプローチを促す上で重要です。"
+    },
+    {
+      "id": "reddit_20772",
+      "source": "reddit",
+      "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
+      "url": "https://www.reddit.com/r/programming/comments/1uo2krr/zig_all_package_management_functionality_moved/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Either_Collection349\"> /u/Either_Collection349 </a> <br /> <span><a href=\"https://ziglang.org/devlog/2026/#2026-06-30\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uo2krr/zig_all_package_management_functionality_moved/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-06T08:03:46.298781+09:00",
+      "summary": ""
+    }
+  ]
+}
