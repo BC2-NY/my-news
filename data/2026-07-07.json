@@ -1,0 +1,323 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T08:11:08.113169+09:00",
+  "articles": [
+    {
+      "id": "hn_48808482",
+      "source": "hackernews",
+      "title": "OpenWrt One – Open Hardware Router",
+      "url": "https://openwrt.org/toh/openwrt/one",
+      "score": 346,
+      "comments": 144,
+      "raw_description": "",
+      "tags": [
+        "OpenWrt",
+        "オープンハードウェア",
+        "ルーター",
+        "IoT"
+      ],
+      "fetched_at": "2026-07-07T08:11:06.064331+09:00",
+      "summary": "OpenWrt Oneは、オープンソースのファームウェアであるOpenWrtをプリインストールした、オープンハードウェア仕様のルーターです。MediaTekのMT7986チップセットを搭載し、Wi-Fi 6に対応しています。開発者やカスタマイズを求めるユーザーにとって、ハードウェアとソフトウェアの両面で高い柔軟性を提供し、コミュニティ主導のルーター開発を推進する点が重要です。"
+    },
+    {
+      "id": "hn_48808928",
+      "source": "hackernews",
+      "title": "CoMaps – FOSS Offline Maps",
+      "url": "https://www.comaps.app/",
+      "score": 247,
+      "comments": 45,
+      "raw_description": "",
+      "tags": [
+        "オフラインマップ",
+        "オープンソース",
+        "ナビゲーション",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-07-07T08:11:06.314004+09:00",
+      "summary": "CoMapsは、オフラインで利用可能なオープンソースの地図アプリケーションです。GPS信号がない環境でも地図の表示やナビゲーションが可能であり、プライバシーを重視するユーザーやデータ通信が制限される状況での利用に適しています。FOSS（Free and Open Source Software）であるため、透明性が高く、コミュニティによる開発やカスタマイズが期待できます。"
+    },
+    {
+      "id": "hatena_39645",
+      "source": "hatena",
+      "title": "クレカ決済代行の全東信が破産、端末が使用不可に　負債は1259億円で今年最大──帝国データバンク",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/06/news127.html",
+      "score": 218,
+      "comments": 0,
+      "raw_description": "飲食店向けクレジットカード決済代行の全東信（大阪市中央区）は7月6日、大阪地裁に自己破産を申請し、同日破産手続き開始決定を受けた。負債は2025年3月期末時点で約1259億2900万円に上り、その後変動している可能性があるものの、今年最大の規模という。帝国データバンクが同日付で報じた。 全東信は06年設立。飲食店...",
+      "tags": [
+        "決済代行",
+        "自己破産",
+        "飲食店",
+        "インフラ"
+      ],
+      "fetched_at": "2026-07-07T08:11:05.674370+09:00",
+      "summary": "飲食店向けのクレジットカード決済代行サービスを提供していた全東信が、1259億円超の負債を抱え、7月6日に大阪地裁へ自己破産を申請し、破産手続き開始決定を受けました。これにより、同社が提供していた決済端末は使用不可となり、飲食店はクレジットカード決済ができなくなる可能性があります。この負債額は今年最大規模であり、決済インフラを提供する企業の経営破綻が、広範な事業者に影響を与える事例として注目されます。"
+    },
+    {
+      "id": "hn_48808002",
+      "source": "hackernews",
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "score": 218,
+      "comments": 74,
+      "raw_description": "",
+      "tags": [
+        "言語モデル",
+        "AI",
+        "Google",
+        "ワークスペース"
+      ],
+      "fetched_at": "2026-07-07T08:11:06.558666+09:00",
+      "summary": "Googleは、言語モデルがグローバルなワークスペースとして機能する新しいアプローチを発表しました。これにより、モデルは異なるタスクやコンテキスト間での知識の共有と再利用を効率的に行えるようになります。この技術は、より汎用的で適応性の高いAIシステムの開発を促進し、多様なアプリケーションにおけるパフォーマンス向上に貢献すると期待されています。"
+    },
+    {
+      "id": "hn_48809496",
+      "source": "hackernews",
+      "title": "Python 3.14 compiled to metal – no interpreter",
+      "url": "https://github.com/can1357/pon",
+      "score": 100,
+      "comments": 62,
+      "raw_description": "",
+      "tags": [
+        "Python",
+        "Apple Silicon",
+        "Metal",
+        "Performance"
+      ],
+      "fetched_at": "2026-07-07T08:11:07.553521+09:00",
+      "summary": "Python 3.14が、インタプリタを介さずに直接メタル（Apple Silicon）上で実行されるようにコンパイルされるプロジェクトが登場しました。これにより、Pythonコードの実行速度が大幅に向上し、特にネイティブコードに近いパフォーマンスが期待できます。この技術は、パフォーマンスが重視されるアプリケーションや、Pythonをより広範なプラットフォームで効率的に利用したい開発者にとって重要な意味を持ちます。"
+    },
+    {
+      "id": "hn_48808663",
+      "source": "hackernews",
+      "title": "Linux on the Atari Jaguar",
+      "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+      "score": 84,
+      "comments": 16,
+      "raw_description": "",
+      "tags": [
+        "Linux",
+        "Atari Jaguar",
+        "組み込みシステム",
+        "レトロゲーム"
+      ],
+      "fetched_at": "2026-07-07T08:11:07.813458+09:00",
+      "summary": "Atari Jaguar上でLinuxが動作するプロジェクトが開発されています。このプロジェクトは、レトロゲーム機に現代的なオペレーティングシステムを移植するという挑戦的な試みであり、組み込みシステム開発やハードウェアの再利用という観点から興味深いものです。成功すれば、Jaguarのハードウェア能力をゲーム以外の用途にも活用できる可能性が開かれます。"
+    },
+    {
+      "id": "hatena_34787",
+      "source": "hatena",
+      "title": "技術を追うのがしんどくなった40代エンジニアは、何を学べばいいのか｜ゆふかげ | 40代フリーランスITエンジニア",
+      "url": "https://note.com/yufukage/n/n652207e2e9f9",
+      "score": 61,
+      "comments": 0,
+      "raw_description": "技術を追うのが、いつの間にかしんどくなった。 IT業界に飛びこんだ頃は、新しい知識を覚えるのがとにかく楽しかった。 文系から未経験での採用だったこともあり、コンピュータやネットワークの基礎、フロントエンドからデータベースまでのアプリケーション構造、当時の技術トレンドなど、学ぶことすべてが喜びだった。 ...",
+      "tags": [
+        "キャリア",
+        "エンジニア",
+        "学習",
+        "IT業界"
+      ],
+      "fetched_at": "2026-07-07T08:11:05.674377+09:00",
+      "summary": "40代のITエンジニアが技術習得のしんどさを感じた際に、キャリアを再構築するための学習指針を示す記事です。かつては新しい技術習得に喜びを感じていたエンジニアが、現在の状況を踏まえ、自身の経験や強みを活かしつつ、将来性のある分野や基礎的な知識の再確認、あるいはマネジメントやコンサルティングといった新たなキャリアパスを模索することの重要性を説いています。変化の速いIT業界において、自身の市場価値を維持・向上させるための戦略的な学習アプローチを提案しています。"
+    },
+    {
+      "id": "hn_48809877",
+      "source": "hackernews",
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "score": 46,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-07T08:11:07.304660+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48811147",
+      "source": "hackernews",
+      "title": "How little exercise can you get away with?",
+      "url": "https://www.economist.com/science-and-technology/2026/07/03/how-little-exercise-can-you-get-away-with",
+      "score": 35,
+      "comments": 27,
+      "raw_description": "",
+      "tags": [
+        "運動不足",
+        "健康リスク",
+        "心血管疾患",
+        "運動習慣"
+      ],
+      "fetched_at": "2026-07-07T08:11:06.808075+09:00",
+      "summary": "最新の研究によると、週にわずか75分の中強度運動でも、心血管疾患のリスクを大幅に低減できることが示唆されています。これは、従来の推奨運動量よりも少ない時間ですが、定期的に行うことで健康へのポジティブな影響が期待できます。運動不足による健康リスクを懸念する人々にとって、この発見は運動習慣を始めるための新たな動機付けとなる可能性があります。"
+    },
+    {
+      "id": "hatena_41992",
+      "source": "hatena",
+      "title": "AIが「安全」判定キノコに猛毒　食べた少年が一時危篤、中国湖北省：朝日新聞",
+      "url": "https://www.asahi.com/articles/ASV762TYLV76UHBI019M.html",
+      "score": 34,
+      "comments": 0,
+      "raw_description": "中国湖北省武漢市で6月、野生のキノコを食べた9歳の少年が、一時は生死の境をさまよう出来事があった。AI（人工知能）で「安全」と判断されたが、猛毒の成分を持つキノコだったという。中国共産党系の地元紙「…",
+      "tags": [
+        "AI",
+        "誤判定",
+        "食品安全",
+        "中国"
+      ],
+      "fetched_at": "2026-07-07T08:11:05.674361+09:00",
+      "summary": "中国湖北省で、AIが安全と判定した野生キノコを食べた少年が一時重体となる事故が発生しました。このキノコは猛毒成分を含んでおり、AIの誤判定が原因と考えられます。AIによる食品の安全性判定における精度と信頼性の課題を浮き彫りにする事例であり、今後の技術開発や運用における注意喚起が必要です。"
+    },
+    {
+      "id": "hn_48809354",
+      "source": "hackernews",
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+      "score": 28,
+      "comments": 1,
+      "raw_description": "",
+      "tags": [
+        "RAG",
+        "LLM",
+        "コンテキスト削減",
+        "情報抽出"
+      ],
+      "fetched_at": "2026-07-07T08:11:07.055894+09:00",
+      "summary": "この研究は、RAG（Retrieval-Augmented Generation）システムにおいて、回答生成に必要なコンテキストのみを効率的に抽出する手法を提案しています。不要な情報を削減することで、LLMの処理負荷を軽減し、応答速度と精度を向上させることを目指します。これにより、よりスケーラブルでコスト効率の高いRAGアプリケーションの実現が期待されます。"
+    },
+    {
+      "id": "hatena_32988",
+      "source": "hatena",
+      "title": "若者による不正アクセスの事件が起きると必ず「才能があるからホワイトハッカーにすればいい」という意見が出るが、IT業界関係者的には「要りません」という話→「知識と技術は後付けできても倫理観はネ…」",
+      "url": "https://togetter.com/li/2717678",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "電ファミニコゲーマー @denfaminicogame 「バンダイチャンネル」に生成AIで不正アクセスを繰り返し会員約4万6000人退会させたか。15歳高校生を逮捕──国内メディア報じる news.denfaminicogamer.jp/news/260706q 自作プログラムを悪用しアカウント登録を勝手に解除させたほか、サービスを一時停止の対応を取らせたとして...",
+      "tags": [],
+      "fetched_at": "2026-07-07T08:11:05.674332+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_03991",
+      "source": "hatena",
+      "title": "中国、AIとの「感情的交流」を規制　バイトダンスとアリババが「擬人化AI」終了へ",
+      "url": "https://japan.cnet.com/article/35250128/",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "中国のテクノロジー大手、字節跳動（バイトダンス）と阿里巴巴（アリババ）は、ユーザーが独自の人格や話し方を設定できるAIエージェントの機能を相次いで終了するという。South China Morning Postが報じた。 報道によると、バイトダンスはAIアプリ「豆包（Doubao）」でエージェント機能を7月15日に終了する。アリババ...",
+      "tags": [],
+      "fetched_at": "2026-07-07T08:11:05.674385+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_93928",
+      "source": "hatena",
+      "title": "日本語特化のAI翻訳サービス「PLaMo翻訳」に新料金プラン ～音声翻訳や添削機能も／最大100MBの文書ファイルを80件まで翻訳可能なProプランなどが追加",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2122637.html",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "AI翻訳",
+        "PLaMo翻訳",
+        "音声翻訳",
+        "文書翻訳"
+      ],
+      "fetched_at": "2026-07-07T08:11:05.674392+09:00",
+      "summary": "AI翻訳サービス「PLaMo翻訳」が、音声翻訳や添削機能を備えた新料金プランを発表しました。特に、最大100MBの文書ファイルを80件まで翻訳できるProプランは、大量の日本語文書を扱うビジネスシーンでの活用が期待されます。これにより、より高度な翻訳ニーズに対応し、業務効率の向上が見込まれます。"
+    },
+    {
+      "id": "hatena_18114",
+      "source": "hatena",
+      "title": "OpenAIが巨大データセンター建設計画「Stargate UK」で現地を一切視察していないことが明らかに",
+      "url": "https://gigazine.net/news/20260706-openai-data-center-stargate-uk/",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "OpenAIが推進するAIデータセンター建設計画「Stargate」のうち、イギリスの「Stargate UK」は一時停止中ですが、調査により、そもそもOpenAIは現地視察を一切行っていなかったことが指摘されています。また、イギリス政府はこの計画で300億ポンド(約6兆4800億円)規模の投資があると述べていましたが、そのうち少なくとも...",
+      "tags": [
+        "OpenAI",
+        "データセンター",
+        "AIインフラ",
+        "英国"
+      ],
+      "fetched_at": "2026-07-07T08:11:05.674406+09:00",
+      "summary": "OpenAIのAIデータセンター建設計画「Stargate UK」において、現地視察が一切行われていなかったことが判明しました。当初、英国政府は300億ポンド（約6兆4800億円）規模の投資があると発表していましたが、その実態には疑問符がついています。この事実は、大規模AIインフラプロジェクトにおける計画段階でのデューデリジェンスの重要性を示唆しています。"
+    },
+    {
+      "id": "hatena_04800",
+      "source": "hatena",
+      "title": "Your Worker can now have its own cache in front of it",
+      "url": "https://blog.cloudflare.com/workers-cache/",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "Your Worker can now have its own cache in front of it2026-07-06 Today we are launching Workers Cache: a tiered cache that sits in front of your Worker, configured by a single line of Wrangler config and the same Cache-Control headers you already know. When Workers Cache is enabled, every cacheabl...",
+      "tags": [],
+      "fetched_at": "2026-07-07T08:11:05.674399+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_24885",
+      "source": "reddit",
+      "title": "Faster Builds with Elm 0.19.2",
+      "url": "https://www.reddit.com/r/programming/comments/1uoumse/faster_builds_with_elm_0192/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/wheatBread\"> /u/wheatBread </a> <br /> <span><a href=\"https://elm-lang.org/news/faster-builds\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uoumse/faster_builds_with_elm_0192/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-07T08:11:08.113108+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_48545",
+      "source": "reddit",
+      "title": "Girls Just Wanna Have Fast Wait-free MPMC Queues · Nahla",
+      "url": "https://www.reddit.com/r/programming/comments/1up1c4a/girls_just_wanna_have_fast_waitfree_mpmc_queues/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nee_-\"> /u/nee_- </a> <br /> <span><a href=\"https://nahla.dev/blog/waitfree_queue/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1up1c4a/girls_just_wanna_have_fast_waitfree_mpmc_queues/\">[comments]</a></span>",
+      "tags": [
+        "wait-free",
+        "MPMC queue",
+        "concurrency",
+        "performance"
+      ],
+      "fetched_at": "2026-07-07T08:11:08.113129+09:00",
+      "summary": "この記事では、高スループットと低レイテンシを実現する、待機フリー（wait-free）なマルチプロデューサー・マルチコンシューマー（MPMC）キューの実装について解説しています。従来のロックベースのキューと比較して、競合状態を回避し、CPUコア間の効率的なデータ共有を可能にすることで、パフォーマンスのボトルネックを解消する可能性を示唆しています。この技術は、並列処理が求められるシステムやリアルタイムアプリケーションにおいて、スケーラビリティと応答性を向上させる上で重要です。"
+    },
+    {
+      "id": "reddit_08716",
+      "source": "reddit",
+      "title": "Execution Truth vs Execution Authority",
+      "url": "https://www.reddit.com/r/programming/comments/1uoup9h/execution_truth_vs_execution_authority/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Ran into this while working on a coordination primitive for a payments system: locks and consensus (Redis, Raft, etcd) all answer &quot;who can act right now&quot; none answer &quot;did the action actually complete&quot; once a crash happens. That's a harder, separate problem most systems just inherit Temporal's answer to (determinism + replay).</p> <p><a href=\"https://statecraft.hashnode.dev/execution-truth-vs-execution-authority\">Blog</a></p> </div><!-- SC_ON ",
+      "tags": [
+        "分散システム",
+        "実行の真実",
+        "実行の権威",
+        "コンセンサス"
+      ],
+      "fetched_at": "2026-07-07T08:11:08.113137+09:00",
+      "summary": "分散システムにおける「実行の真実」（Execution Truth）と「実行の権威」（Execution Authority）という概念の違いについて解説しています。従来のロックやコンセンサスアルゴリズム（Redis, Raft, etcdなど）は「誰が今行動できるか」という実行の権威を決定しますが、クラッシュ発生後に「その行動が実際に完了したか」という実行の真実を保証するものではありません。この実行の真実を保証する問題は、多くの場合、決定論とリプレイメカニズムを持つTemporalのようなシステムに依存して解決されています。"
+    },
+    {
+      "id": "reddit_99941",
+      "source": "reddit",
+      "title": "eBPF Looks Illegal: running your code inside the Linux kernel",
+      "url": "https://www.reddit.com/r/programming/comments/1up3rjj/ebpf_looks_illegal_running_your_code_inside_the/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>A visual walkthrough of Linux eBPF.</p> <p>It goes through the basic pipeline: write a small C program, compile it with clang, load it with bpf(), get it past the verifier, JIT it, attach it to a kernel event, and read data back through maps/ring buffers.</p> <p>The second half gets into why people use it for tracing, XDP packet filtering, security hooks, and sched_ext, then ends with the less fun part: the verifier is the safety boundary, and eBPF gets a lot sc",
+      "tags": [
+        "eBPF",
+        "Linux",
+        "カーネル",
+        "XDP"
+      ],
+      "fetched_at": "2026-07-07T08:11:08.113144+09:00",
+      "summary": "eBPFは、Linuxカーネル内で安全にカスタムコードを実行するための技術です。C言語で記述されたプログラムは、コンパイル、カーネルへのロード、検証、JITコンパイルを経て、カーネルイベントにアタッチされます。これにより、カーネルの動作を可視化し、XDPによるパケットフィルタリングやセキュリティフックなど、カーネルレベルでの高度な機能拡張が可能になります。この技術は、システムのパフォーマンス監視やセキュリティ強化において重要な役割を果たします。"
+    }
+  ]
+}
