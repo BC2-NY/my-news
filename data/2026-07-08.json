@@ -1,0 +1,318 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T08:04:16.453441+09:00",
+  "articles": [
+    {
+      "id": "hn_48816883",
+      "source": "hackernews",
+      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
+      "url": "https://streetcomplete.app/",
+      "score": 651,
+      "comments": 158,
+      "raw_description": "",
+      "tags": [
+        "OpenStreetMap",
+        "データ品質",
+        "モバイルアプリ",
+        "ジオラジ"
+      ],
+      "fetched_at": "2026-07-08T08:04:15.064861+09:00",
+      "summary": "StreetCompleteは、OpenStreetMapのデータ品質を向上させるためのAndroidアプリケーションです。ユーザーは、GPSと地図情報に基づいて提示される簡単な質問に答えることで、道路標識、建物の高さ、自転車レーンの有無といった様々な情報を追加・修正できます。このアプローチにより、専門的な知識がないユーザーでも容易に貢献でき、OpenStreetMapの地図データを継続的に最新かつ正確に保つ上で重要な役割を果たしています。"
+    },
+    {
+      "id": "hn_48816956",
+      "source": "hackernews",
+      "title": "A better way to tie gym shorts (or any drawstring) [video]",
+      "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
+      "score": 429,
+      "comments": 153,
+      "raw_description": "",
+      "tags": [
+        "ドローコード",
+        "結び方",
+        "アパレル技術",
+        "機能性向上"
+      ],
+      "fetched_at": "2026-07-08T08:04:16.168991+09:00",
+      "summary": "この記事では、一般的なドローコード（ジムショーツの紐など）の結び方について、より簡単で緩みにくい方法を紹介しています。従来の結び方では緩みやすいという課題がありましたが、この新しい方法は結び目をよりしっかりと固定し、使用中の不快感を軽減します。この技術は、スポーツウェアだけでなく、様々なアパレル製品やギアの機能性向上に応用可能です。"
+    },
+    {
+      "id": "hn_48818311",
+      "source": "hackernews",
+      "title": "Chat Control 1.0 and 2.0 Explained",
+      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "score": 375,
+      "comments": 117,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-08T08:04:15.248559+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48823557",
+      "source": "hackernews",
+      "title": "Every new car sold in the European Union must include a driver monitoring camera",
+      "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+      "score": 309,
+      "comments": 379,
+      "raw_description": "",
+      "tags": [
+        "自動車",
+        "安全技術",
+        "ADAS",
+        "EU規制"
+      ],
+      "fetched_at": "2026-07-08T08:04:15.433465+09:00",
+      "summary": "欧州連合（EU）では、2022年7月以降に販売される全ての新車に、ドライバーの注意散漫や眠気を検知するカメラの搭載が義務付けられました。このシステムは、車載センサーと連携し、ドライバーの視線や顔の向き、まばたきの頻度などを分析して危険な状態を判断します。これにより、交通事故の削減が期待されており、自動車の安全基準を大きく引き上げるものとなります。"
+    },
+    {
+      "id": "hatena_12864",
+      "source": "hatena",
+      "title": "Windows 11で空き容量が0バイトになる恐れ　影響を確認して速やかに対策を",
+      "url": "https://news.mynavi.jp/techplus/article/20260707-4672951/",
+      "score": 299,
+      "comments": 0,
+      "raw_description": "Windows Latestは7月6日(現地時間)、「Microsoft admits a Windows 11 bug is eating up to 500GB of storage, verify if you are affected」において、Windows 11がストレージを勝手に数百GB消費する不具合の影響を受けているかどうかを確認する方法を伝えた。 これはCapabilityAccessManagerサービスのデータベースフ...",
+      "tags": [
+        "Windows 11",
+        "ストレージ",
+        "バグ",
+        "ディスク容量"
+      ],
+      "fetched_at": "2026-07-08T08:04:14.656228+09:00",
+      "summary": "Windows 11のCapabilityAccessManagerサービスに関連する不具合により、最大500GBのストレージ容量が意図せず消費される問題が報告されています。この問題は、データベースファイルが肥大化することによって発生し、ディスク空き容量がゼロになる可能性があります。影響を受けているか確認し、速やかな対策が推奨されます。"
+    },
+    {
+      "id": "hn_48821576",
+      "source": "hackernews",
+      "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+      "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+      "score": 202,
+      "comments": 42,
+      "raw_description": "",
+      "tags": [
+        "TTS",
+        "ローカル実行",
+        "CPUフレンドリー",
+        "音声合成"
+      ],
+      "fetched_at": "2026-07-08T08:04:14.866024+09:00",
+      "summary": "Kokoroは、ローカル環境で動作し、CPU負荷が低い高品質なText-to-Speech（TTS）エンジンです。従来のクラウドベースのTTSサービスとは異なり、ユーザーのプライバシーを保護し、オフラインでも利用可能です。低リソース環境でも自然な音声合成を実現することで、開発者は多様なアプリケーションに容易に組み込むことができます。"
+    },
+    {
+      "id": "hn_48821848",
+      "source": "hackernews",
+      "title": "Show HN: Davit, a Apple Containers UI",
+      "url": "https://davit.app",
+      "score": 130,
+      "comments": 26,
+      "raw_description": "",
+      "tags": [
+        "macOS",
+        "コンテナ",
+        "Docker",
+        "GUI"
+      ],
+      "fetched_at": "2026-07-08T08:04:15.624212+09:00",
+      "summary": "Davitは、macOSのコンテナ管理を容易にするための新しいGUIアプリケーションです。Docker Desktopの代替として、よりシンプルで直感的なインターフェースを提供することを目指しています。これにより、開発者はコンテナの作成、実行、管理を効率的に行うことができます。macOSネイティブの体験を提供し、Dockerコマンドラインに慣れていないユーザーにもコンテナ技術へのアクセスを広げることが期待されます。"
+    },
+    {
+      "id": "hatena_64460",
+      "source": "hatena",
+      "title": "Fable時代のAI活用法を、Anthropicの開発者が公開",
+      "url": "https://zenn.dev/knowledgesense/articles/283244af941a2d",
+      "score": 126,
+      "comments": 0,
+      "raw_description": "本記事では、最新のAIエージェントを使いこなすためのテクニックについて、ざっくり理解します。 株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ企業向けに開発しているスタートアップです。 この記事は何 この記事は、「FableレベルのAIを使いこなすため」のガイド記事[1]について、日...",
+      "tags": [
+        "AIエージェント",
+        "Anthropic",
+        "生成AI",
+        "RAG"
+      ],
+      "fetched_at": "2026-07-08T08:04:14.656250+09:00",
+      "summary": "Anthropicの開発者が、最新AIエージェントの活用法に関するガイド記事を解説しています。特に、FableレベルのAIを使いこなすための具体的なテクニックに焦点を当てており、生成AIやRAGを活用したプロダクト開発を行うエンタープライズ企業にとって、AIの高度な応用方法を理解する上で参考になる情報を提供しています。これにより、AIエージェントの能力を最大限に引き出すための実践的な知見が得られます。"
+    },
+    {
+      "id": "hatena_82099",
+      "source": "hatena",
+      "title": "コンカフェ勤務だけどおぢアタック凄い多くない？",
+      "url": "https://anond.hatelabo.jp/20260707183302",
+      "score": 116,
+      "comments": 0,
+      "raw_description": "お父さんは元オタクで、私の名前が実は昔のアニメやゲームキャラの名前が由来と知って高校の頃、軽く幻滅したけど元ネタの作品と曲は綺麗だからさらに無性に複雑な気分になった程度にそういう環境で生まれ育って、 一緒に大学進学した友達から誘われて、割合時間のわりにバイト代がいいから始めて、そんなに経験年数はな...",
+      "tags": [
+        "コンカフェ",
+        "接客業",
+        "顧客対応",
+        "労働環境"
+      ],
+      "fetched_at": "2026-07-08T08:04:14.656266+09:00",
+      "summary": "この記事は、コンセプトカフェ（コンカフェ）で働く筆者が、来店客からの過度なアプローチ（おぢアタック）に悩んでいる状況を描写しています。筆者の名前がアニメやゲームキャラに由来することを知った父親の複雑な心情や、筆者自身がそのような環境で育った背景が語られています。コンカフェでのアルバイトは時給が良いものの、客層との関係性において課題があることが示唆されています。"
+    },
+    {
+      "id": "hn_48756578",
+      "source": "hackernews",
+      "title": "Herdr: One terminal to rule them all",
+      "url": "https://herdr.dev/",
+      "score": 112,
+      "comments": 60,
+      "raw_description": "",
+      "tags": [
+        "ターミナル",
+        "開発ツール",
+        "生産性向上",
+        "Herdr"
+      ],
+      "fetched_at": "2026-07-08T08:04:15.808474+09:00",
+      "summary": "Herdrは、複数のターミナルセッションを単一のウィンドウで管理できる新しいターミナルエミュレータです。これにより、開発者は複数のプロジェクトやタスクを効率的に切り替え、管理することが可能になります。特に、複数のサーバーに同時に接続したり、複雑なワークフローを構築したりする際に、生産性の向上に貢献します。"
+    },
+    {
+      "id": "hn_48821378",
+      "source": "hackernews",
+      "title": "l: A new runtime for k and q",
+      "url": "https://lv1.sh/",
+      "score": 85,
+      "comments": 54,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-08T08:04:15.988136+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_67349",
+      "source": "hatena",
+      "title": "陸上自衛隊が使用したマルウェア入りUSBメモリについてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/08/002522",
+      "score": 42,
+      "comments": 0,
+      "raw_description": "防衛省・陸上自衛隊は、中部方面総監部(兵庫県伊丹市)が使用していたUSBメモリについて、2025年2月にマルウェアが含まれていることを検知した事例があったと公表しました。確認されたマルウェアによる情報の窃取や外部への通信、システムへの拡散は確認されておらず、陸自システムへの影響や外部への情報流出もなかった...",
+      "tags": [],
+      "fetched_at": "2026-07-08T08:04:14.656259+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_60111",
+      "source": "hatena",
+      "title": "「LTは5分」とわたしが言い続ける理由 - 941::blog",
+      "url": "https://blog.kushii.net/archives/2026/07/07/235638",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "イベントの募集ページで LT枠（10分）という表記を見かけるたび、心の中で静かにツッコミを入れています。「それ、LTじゃなくない？」と。 わたしは折にふれて「LTは5分」と言い続けています。Xでもしょっちゅうポストしているし、イベント参加してる時も運営の打ち合わせでも言っているし、LTは5分Tシャツを着ているし...",
+      "tags": [],
+      "fetched_at": "2026-07-08T08:04:14.656285+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_91483",
+      "source": "hatena",
+      "title": "情報処理技術者試験の大幅刷新--資格からスキル証明へ転換",
+      "url": "https://japan.zdnet.com/article/35250106/",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます 2027年度に情報処理推進機構（IPA）の情報処理技術者試験が大きく様変わりする。経済産業省とIPAは、応用情報技術者試験・高度試験を中心とした試験体系を見直し、試験区分の再...",
+      "tags": [],
+      "fetched_at": "2026-07-08T08:04:14.656272+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_77420",
+      "source": "hatena",
+      "title": "わずか5MBのAIモデルをウェブサイトに組み込んでユーザーにローカル操作させられる「ternlight」が登場、ウェブサイトにAIを活用した検索機能などを追加可能",
+      "url": "https://gigazine.net/news/20260707-ternlight-webassembly-embeddings/",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "「ternlight」はウェブサイトに軽量な埋め込みモデルを組み込めるパッケージです。埋め込みモデルのサイズは5～7MBで、ウェブサイト訪問者は自分のCPUで埋め込みモデルを実行することができます。 GitHub - soycaporal/ternlight · GitHub https://github.com/soycaporal/ternlight ternlightは小型の埋め込みモデル「al...",
+      "tags": [
+        "WebAI",
+        "軽量モデル",
+        "ローカル実行",
+        "JavaScript"
+      ],
+      "fetched_at": "2026-07-08T08:04:14.656279+09:00",
+      "summary": "ternlightは、5～7MBという軽量なAIモデルをウェブサイトに組み込めるJavaScriptライブラリです。これにより、ユーザーは自身のCPU上でAIモデルをローカル実行できるようになり、ウェブサイトにAIを活用した検索機能やその他のインタラクティブな機能を追加することが可能になります。ローカル実行は、プライバシー保護やオフライン利用、サーバー負荷軽減といったメリットをもたらします。"
+    },
+    {
+      "id": "hatena_11697",
+      "source": "hatena",
+      "title": "【セキュリティ ニュース】農業従事者情報を含むデータを誤送信 - フィルタ解除で閲覧可能（1ページ目 / 全1ページ）：Security NEXT",
+      "url": "https://www.security-next.com/186821",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "徳島県小松島市は、農業従事者の個人情報が含まれるデータをメールで誤送信したことを明らかにした。 同市によれば、2026年6月16日、経営所得安定対策に関する農地管理データを市内の農業法人1社へメールで送信した際、誤送信が発生したもの。 本来は同法人分のみを送信すべきだが、担当職員が6月19日に送信済みデータを...",
+      "tags": [
+        "個人情報漏洩",
+        "情報セキュリティ",
+        "誤送信",
+        "データ管理"
+      ],
+      "fetched_at": "2026-07-08T08:04:14.656291+09:00",
+      "summary": "徳島県小松島市が、農業従事者の個人情報を含む農地管理データを誤って市外の農業法人へメール送信した。本来は特定の法人のみに送信すべきデータであったが、担当職員が送信済みデータをフィルタリングせずに再送信したため、意図しない相手に情報が渡る事態となった。この事案は、個人情報保護におけるデータ送信時の確認プロセスの重要性と、フィルタリング設定の適切な管理の必要性を示唆している。"
+    },
+    {
+      "id": "reddit_30261",
+      "source": "reddit",
+      "title": "Odin 1.0 Announcement",
+      "url": "https://www.reddit.com/r/programming/comments/1upmnop/odin_10_announcement/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gingerbill\"> /u/gingerbill </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=dLPAqXi9In0\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1upmnop/odin_10_announcement/\">[comments]</a></span>",
+      "tags": [
+        "Odin",
+        "プログラミング言語",
+        "システムプログラミング",
+        "コンパイラ"
+      ],
+      "fetched_at": "2026-07-08T08:04:16.453376+09:00",
+      "summary": "Odin 1.0がリリースされました。Odinは、C言語の代替を目指す静的型付けのコンパイル言語であり、シンプルさ、パフォーマンス、そして現代的な開発体験を重視しています。特に、マクロ、ジェネリクス、強力な型システムを備え、低レベルのシステムプログラミングから高レベルのアプリケーション開発まで幅広く対応できる点が特徴です。今回の1.0リリースは、言語の安定性と成熟度を示す重要なマイルストーンであり、今後のエコシステムの発展が期待されます。"
+    },
+    {
+      "id": "reddit_15735",
+      "source": "reddit",
+      "title": "What is a token and why does it cost so much? - Computerphile",
+      "url": "https://www.reddit.com/r/programming/comments/1upu953/what_is_a_token_and_why_does_it_cost_so_much/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/itgforlife\"> /u/itgforlife </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=-0HRzXk8vlk\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1upu953/what_is_a_token_and_why_does_it_cost_so_much/\">[comments]</a></span>",
+      "tags": [
+        "AI",
+        "トークン",
+        "コスト",
+        "自然言語処理"
+      ],
+      "fetched_at": "2026-07-08T08:04:16.453398+09:00",
+      "summary": "この動画は、AIモデルにおける「トークン」の概念とそのコスト構造について解説しています。トークンは、テキストをモデルが処理できる最小単位に分割したもので、AIの学習や推論に不可欠です。しかし、大量のトークンを処理することは計算リソースを大量に消費するため、AIサービスの利用料金に直結します。このコスト構造の理解は、AI技術の発展と普及における重要な課題です。"
+    },
+    {
+      "id": "reddit_65603",
+      "source": "reddit",
+      "title": "Drunk Post: Things I’ve Learned as a Senior Engineer",
+      "url": "https://www.reddit.com/r/programming/comments/1upo7f6/drunk_post_things_ive_learned_as_a_senior_engineer/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1upo7f6/drunk_post_things_ive_learned_as_a_senior_engineer/\">[comments]</a></span>",
+      "tags": [
+        "シニアエンジニア",
+        "キャリア",
+        "ソフトスキル",
+        "エンジニアリング"
+      ],
+      "fetched_at": "2026-07-08T08:04:16.453406+09:00",
+      "summary": "シニアエンジニアとして学んだ教訓をまとめた記事です。技術的な深掘りだけでなく、コミュニケーション、チームワーク、キャリアパスといったソフトスキルや、変化への適応、継続的な学習の重要性についても触れています。これらの経験は、若手エンジニアが技術的成長と共に、より効果的なエンジニアになるための指針となります。"
+    },
+    {
+      "id": "reddit_10973",
+      "source": "reddit",
+      "title": "The mask that compiles to nothing: how HotSpot's JIT learned to reason about bits",
+      "url": "https://www.reddit.com/r/programming/comments/1ups1cn/the_mask_that_compiles_to_nothing_how_hotspots/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/j1897OS\"> /u/j1897OS </a> <br /> <span><a href=\"https://questdb.com/blog/jvm-jit-known-bits/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ups1cn/the_mask_that_compiles_to_nothing_how_hotspots/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-08T08:04:16.453413+09:00",
+      "summary": ""
+    }
+  ]
+}
