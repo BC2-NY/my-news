@@ -1,0 +1,318 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T08:10:31.424209+09:00",
+  "articles": [
+    {
+      "id": "hn_48829312",
+      "source": "hackernews",
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "score": 1251,
+      "comments": 201,
+      "raw_description": "",
+      "tags": [
+        "Bash",
+        "難読化",
+        "サイバーセキュリティ",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-09T08:10:30.465802+09:00",
+      "summary": "ユニクロのTシャツに隠された難読化されたBashスクリプトが解析されました。このスクリプトは、特定の条件下で実行されると、隠されたメッセージを表示する機能を持っていました。これは、日常的なアイテムに隠された技術的な仕掛けや、クリエイティブなコードの応用例として興味深い事例です。"
+    },
+    {
+      "id": "hn_48833116",
+      "source": "hackernews",
+      "title": "Chatto is now open source",
+      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "score": 641,
+      "comments": 180,
+      "raw_description": "",
+      "tags": [
+        "Swift",
+        "オープンソース",
+        "チャットフレームワーク",
+        "モバイル開発"
+      ],
+      "fetched_at": "2026-07-09T08:10:30.057904+09:00",
+      "summary": "Chattoは、リアルタイムのチャットアプリケーションを構築するためのSwift製フレームワークとしてオープンソース化されました。これにより、開発者はカスタマイズ可能なUIコンポーネントと、メッセージング機能のバックエンド統合を容易にする機能を利用できます。オープンソース化により、コミュニティからの貢献が促進され、フレームワークの機能拡張と安定性の向上が期待されます。"
+    },
+    {
+      "id": "hn_48835111",
+      "source": "hackernews",
+      "title": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "score": 405,
+      "comments": 370,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "Grok",
+        "xAI",
+        "モデルアップデート"
+      ],
+      "fetched_at": "2026-07-09T08:10:30.259524+09:00",
+      "summary": "xAIは、同社のAIモデルであるGrokの最新バージョン「Grok 4.5」を発表しました。このモデルは、以前のバージョンと比較して、推論能力、コーディング能力、および多言語対応が大幅に向上しています。特に、複雑な問題解決やコード生成タスクにおいて、より高度なパフォーマンスを発揮することが期待されます。これにより、研究開発やアプリケーション開発におけるAIの活用範囲がさらに広がる可能性があります。"
+    },
+    {
+      "id": "hn_48832212",
+      "source": "hackernews",
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "url": "https://mistral.ai/news/robostral-navigate/",
+      "score": 383,
+      "comments": 89,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-09T08:10:30.666043+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48836778",
+      "source": "hackernews",
+      "title": "FAANG Simulator",
+      "url": "https://www.abeyk.com/escape-the-rat-race/",
+      "score": 161,
+      "comments": 58,
+      "raw_description": "",
+      "tags": [
+        "採用シミュレーション",
+        "コーディング面接",
+        "システムデザイン",
+        "キャリア開発"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.857857+09:00",
+      "summary": "FAANG Simulatorは、Facebook、Apple、Amazon、Netflix、Googleといった大手テクノロジー企業の採用プロセスを模倣したシミュレーションゲームです。プレイヤーは、コーディング面接やシステムデザインの課題に挑戦し、実際の採用担当者の視点から評価を受けることで、これらの企業の選考プロセスを体験できます。このゲームは、ソフトウェアエンジニアを目指す学生や転職希望者にとって、実践的なスキル向上と選考対策に役立つ学習ツールとして機能します。"
+    },
+    {
+      "id": "hn_48836233",
+      "source": "hackernews",
+      "title": "Cloudflare Drop",
+      "url": "https://www.cloudflare.com/drop/",
+      "score": 151,
+      "comments": 84,
+      "raw_description": "",
+      "tags": [
+        "Cloudflare",
+        "オープンソース",
+        "Webサイト構築",
+        "CMS"
+      ],
+      "fetched_at": "2026-07-09T08:10:30.869209+09:00",
+      "summary": "Cloudflare Dropは、Cloudflareが開発したオープンソースのWebサイト構築・管理ツールです。静的サイトジェネレーター、CMS、ヘッドレスCMSの機能を統合し、開発者がコンテンツ管理システムを自分で構築・管理する手間を省きます。これにより、開発者はインフラ管理に時間を費やすことなく、アプリケーション開発に集中できるようになります。"
+    },
+    {
+      "id": "hatena_04522",
+      "source": "hatena",
+      "title": "個人タスク管理を「判断は人間、更新はエージェント、計算はスクリプト」で設計する",
+      "url": "https://zenn.dev/layerx/articles/797bb5b8935bf6",
+      "score": 136,
+      "comments": 0,
+      "raw_description": "こんにちは。Ai Workforce事業部でAIエージェントのためのデータ基盤を開発している uphy です。業務では複数のプロジェクトを並走させているのですが、今回は個人のタスク管理についてお話しします。 タスク管理は、この5年ほどMarkdownベースでわりとライトにやってきました。プロジェクトごとにTODOリストのノートを...",
+      "tags": [],
+      "fetched_at": "2026-07-09T08:10:29.342495+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48837396",
+      "source": "hackernews",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "score": 111,
+      "comments": 44,
+      "raw_description": "",
+      "tags": [
+        "コーディング評価",
+        "採用",
+        "ソフトウェアエンジニア",
+        "スキル測定"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.623043+09:00",
+      "summary": "コーディング評価における「信号」と「ノイズ」を分離することは、候補者の真のスキルを正確に測定するために不可欠です。ノイズとは、コーディング能力とは無関係な要因（例：開発環境への習熟度、問題文の解釈ミス、時間的プレッシャー）を指します。これらのノイズ要因を最小限に抑えることで、アルゴリズム、データ構造、問題解決能力といった本質的なコーディングスキルをより的確に評価できるようになります。これにより、採用プロセス全体の精度が向上し、より優秀なエンジニアの獲得につながります。"
+    },
+    {
+      "id": "hatena_25637",
+      "source": "hatena",
+      "title": "Agent Skills自動最適化の研究、中身はほぼ深層学習の訓練ループだった",
+      "url": "https://zenn.dev/layerx/articles/9f25ec86a31730",
+      "score": 105,
+      "comments": 0,
+      "raw_description": "Ai Workforce事業部FDE部エンジニアの堤(@ozro_223)です。 本記事では、Coding Agent（以降、エージェントと呼びます）に持たせるスキルを、ハーネスの工夫でエージェントの実行経験から学習させる2026年上半期の研究動向を紹介します。ここでいうスキルは、Agent Skillsに代表される、SKILL.mdを含むフォルダを指します...",
+      "tags": [
+        "AIエージェント",
+        "スキル学習",
+        "深層学習",
+        "自動最適化"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.342488+09:00",
+      "summary": "本研究は、コーディングエージェントが自身の実行経験からスキルを自動的に最適化する手法を提案しています。具体的には、ハーネスの工夫を通じて、エージェントが学習プロセス中に生成するSKILL.mdなどのスキル情報を活用します。このアプローチは、深層学習の訓練ループに類似しており、エージェントの能力を継続的に向上させるための効率的なメカニズムを提供します。これにより、AIエージェントの汎用性と適応性が高まることが期待されます。"
+    },
+    {
+      "id": "hn_48837877",
+      "source": "hackernews",
+      "title": "Rewriting Bun in Rust",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "score": 79,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-09T08:10:31.075059+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_93726",
+      "source": "hatena",
+      "title": "祖先はナチスだったか、AIで検索可能に　1200万枚の党員カード活用 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGR05BWD0V00C26A6000000/",
+      "score": 56,
+      "comments": 0,
+      "raw_description": "【ベルリン=杜師康佑】ドイツの有力紙ツァイトが人工知能（AI）を用いて構築したナチス党員の検索エンジンが国際的な注目を集めている。氏名などを入力すれば、祖先が党員だったかを確かめられる。欧州でポピュリズムが台頭する中、身近な存在の過去を通じて社会のあり方を再考する機会を提供している。ツァイトが4月に...",
+      "tags": [
+        "AI",
+        "歴史",
+        "データベース",
+        "ポピュリズム"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.342446+09:00",
+      "summary": "ドイツの新聞社ツァイトが、AIを活用して約1200万枚のナチス党員カードを検索可能なデータベースとして構築しました。このシステムにより、個人が自身の祖先がナチス党員であったか否かを容易に確認できるようになります。ポピュリズムが台頭する現代において、過去の歴史と向き合い、社会のあり方を再考するきっかけを提供するものとして注目されています。"
+    },
+    {
+      "id": "hatena_73407",
+      "source": "hatena",
+      "title": "Announcing TypeScript 7.0 - TypeScript",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "score": 40,
+      "comments": 0,
+      "raw_description": "As you can see, these codebases get a better speedup from dedicating more cores, but results will differ across projects and underlying machines. On the other hand, on machines with fewer CPU cores and less memory (e.g. CI runners) you may want to decrease this number to avoid unnecessary or inci...",
+      "tags": [],
+      "fetched_at": "2026-07-09T08:10:29.342508+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_44501",
+      "source": "hatena",
+      "title": "Fable 5を顧問、Sonnet 5を実行役とすることでコストを抑える方法",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2123524.html",
+      "score": 35,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-09T08:10:29.342474+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_11999",
+      "source": "hatena",
+      "title": "Fable 5が使えなくなる前に、その「働き方」をOpus/Sonnetに引き継がせた",
+      "url": "https://zenn.dev/yui/articles/e4f8268ab5c6c1",
+      "score": 29,
+      "comments": 0,
+      "raw_description": "前回、Fable 5をトークン破産させずに使い倒す方法について書きました。 簡単にいうとオーケストレーターに Fable 5をおいて、スコープ切り、設計、委譲、最終レビューを任せ、手を動かす実装・テスト・シッピング・コードレビューは Opus と Sonnet のサブエージェントが担う形式です。高いモデルが計画と判断を、安い...",
+      "tags": [
+        "AIエージェント",
+        "LLM",
+        "オーケストレーション",
+        "Fable 5"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.342481+09:00",
+      "summary": "Fable 5の利用終了に備え、その高度な計画・判断能力をOpus/Sonnetに引き継ぐアーキテクチャが提案されています。このアプローチでは、Fable 5（または同等の高性能モデル）が全体的なスコープ定義、設計、タスク委譲、最終レビューを担当し、OpusやSonnetといったより安価なモデルが実装、テスト、コードレビューといった具体的な作業を担います。これにより、高性能モデルのコストを抑えつつ、効率的なAIエージェントワークフローを実現します。"
+    },
+    {
+      "id": "hatena_00838",
+      "source": "hatena",
+      "title": "Apple、次期macOS 28以降では暗号化されたMac OS拡張(HFS+)フォーマットが非サポートとなるため、ユーザーに対しボリュームをAPFSで再フォーマット＆復号化しバックアップを取るように指示。",
+      "url": "https://applech2.com/archives/20260708-macos-28-encrypted-mac-os-extended-disks.html",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "Appleが次期macOS 28以降では暗号化されたMac OS拡張(HFS+)フォーマットを非サポートとするため、ユーザーに対しボリュームをAPFSで再フォーマット＆復号化しバックアップを取るように指示しています。詳 […] The post Apple、次期macOS 28以降では暗号化されたMac OS拡張(HFS+)フォーマットが非サポートとなるため、ユ...",
+      "tags": [
+        "macOS",
+        "HFS+",
+        "APFS",
+        "ファイルシステム"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.342502+09:00",
+      "summary": "Appleは次期macOS（バージョン14以降）において、暗号化されたHFS+（Mac OS拡張）フォーマットのサポートを終了します。これにより、このフォーマットを使用しているユーザーは、データをAPFS（Apple File System）に移行し、ボリュームの再フォーマットと復号化を行う必要があります。この変更は、APFSが提供するセキュリティとパフォーマンスの向上を推進するものであり、ユーザーはデータのバックアップを確実に行うことが推奨されます。"
+    },
+    {
+      "id": "hatena_47461",
+      "source": "hatena",
+      "title": "Cloudflare Drop",
+      "url": "https://www.cloudflare.com/drop/",
+      "score": 24,
+      "comments": 0,
+      "raw_description": "Drop a folder or zip. See your site live on Cloudflare's global network in seconds.",
+      "tags": [
+        "Cloudflare",
+        "静的サイトホスティング",
+        "CDN",
+        "デプロイメント"
+      ],
+      "fetched_at": "2026-07-09T08:10:29.342465+09:00",
+      "summary": "Cloudflare Dropは、フォルダやZIPファイルをアップロードするだけで、Cloudflareのグローバルネットワーク上でウェブサイトを数秒で公開できるサービスです。これにより、開発者はインフラストラクチャのセットアップに時間を費やすことなく、迅速にコンテンツをデプロイし、グローバルなパフォーマンスと可用性を享受できます。静的サイトホスティングやプロトタイピングにおいて、その手軽さとスピードが大きな利点となります。"
+    },
+    {
+      "id": "reddit_22774",
+      "source": "reddit",
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "url": "https://www.reddit.com/r/programming/comments/1uqu6au/decoding_the_obfuscated_bash_script_on_a_uniqlo/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitousa\"> /u/mitousa </a> <br /> <span><a href=\"https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uqu6au/decoding_the_obfuscated_bash_script_on_a_uniqlo/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-09T08:10:31.424152+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_42287",
+      "source": "reddit",
+      "title": "Announcing TypeScript 7.0",
+      "url": "https://www.reddit.com/r/programming/comments/1uqx3mn/announcing_typescript_70/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DanielRosenwasser\"> /u/DanielRosenwasser </a> <br /> <span><a href=\"https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uqx3mn/announcing_typescript_70/\">[comments]</a></span>",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "ECMAScript",
+        "型システム"
+      ],
+      "fetched_at": "2026-07-09T08:10:31.424170+09:00",
+      "summary": "TypeScript 7.0がリリースされ、JavaScriptの最新ECMAScript機能への対応強化や、型システムの改善が期待されます。特に、より厳密な型チェックと開発者の生産性向上に貢献する新機能が含まれている可能性があります。これにより、大規模なJavaScriptプロジェクトにおけるコードの保守性と信頼性が向上し、開発プロセス全体のスムーズ化が図られます。"
+    },
+    {
+      "id": "reddit_00214",
+      "source": "reddit",
+      "title": "Unicode's Transliteration Rules Are Turing-Complete",
+      "url": "https://www.reddit.com/r/programming/comments/1uqny65/unicodes_transliteration_rules_are_turingcomplete/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I've been wondering for a while if anything in Unicode could accidentally compute. It turns out that UTS #35 transliteration rules are Turing-complete. I show how to compute Collatz with just 3 rewrite rules running on stock ICU, shipped with every major OS.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dull_Replacement8890\"> /u/Dull_Replacement8890 </a> <br /> <span><a href=\"https://seriot.ch/computation/uts35/\">[link]</",
+      "tags": [
+        "Unicode",
+        "UTS #35",
+        "Turing-complete",
+        "ICU"
+      ],
+      "fetched_at": "2026-07-09T08:10:31.424178+09:00",
+      "summary": "UnicodeのUTS #35（正規化および正規化以外のテキスト処理）で定義されている転写ルールが、チューリング完全であることが示されました。具体的には、ICU（International Components for Unicode）ライブラリに実装されている3つの書き換えルールを用いて、コルラッツ予想の計算が可能であることが実証されています。これは、OSに標準搭載されているICUライブラリで、予期せぬ計算能力がUnicodeの仕様に内包されていたことを意味します。"
+    },
+    {
+      "id": "reddit_80226",
+      "source": "reddit",
+      "title": "Just Keep At It: A Decade at Mozilla",
+      "url": "https://www.reddit.com/r/programming/comments/1uqrx5n/just_keep_at_it_a_decade_at_mozilla/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/eqrion\"> /u/eqrion </a> <br /> <span><a href=\"https://eqrion.net/ten-years-at-mozilla/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uqrx5n/just_keep_at_it_a_decade_at_mozilla/\">[comments]</a></span>",
+      "tags": [
+        "Mozilla",
+        "オープンソース",
+        "ソフトウェア開発",
+        "キャリア"
+      ],
+      "fetched_at": "2026-07-09T08:10:31.424185+09:00",
+      "summary": "Mozillaで10年間勤務した経験を振り返る記事。オープンソースプロジェクトにおける長期的な貢献の重要性や、技術者としての成長、コミュニティとの関わりについて語られている。特に、継続的な開発と改善が、Mozillaのような大規模プロジェクトの成功に不可欠であることを強調している。"
+    }
+  ]
+}
