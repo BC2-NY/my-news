@@ -1,0 +1,326 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T08:13:57.500599+09:00",
+  "articles": [
+    {
+      "id": "hn_48849066",
+      "source": "hackernews",
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "score": 934,
+      "comments": 695,
+      "raw_description": "",
+      "tags": [
+        "GPT-5.6",
+        "OpenAI",
+        "大規模言語モデル",
+        "AI"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.963136+09:00",
+      "summary": "OpenAIが開発中の次世代大規模言語モデル、GPT-5.6に関する情報がリークされました。具体的な性能向上や新機能については不明ですが、現行モデルからの大幅な進化が期待されています。GPT-5.6は、より高度な推論能力、長文コンテキストの理解、マルチモーダル機能の強化などが予想され、AI技術のさらなる進歩と応用範囲の拡大に貢献すると考えられます。"
+    },
+    {
+      "id": "hn_48843923",
+      "source": "hackernews",
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "score": 908,
+      "comments": 438,
+      "raw_description": "",
+      "tags": [
+        "チャットコントロール",
+        "プライバシー",
+        "EU",
+        "児童保護"
+      ],
+      "fetched_at": "2026-07-10T08:13:56.157776+09:00",
+      "summary": "欧州議会は、児童性的虐待コンテンツの検出と削除を目的とした「チャットコントロール1.0」法案を承認しました。この法案は、エンドツーエンド暗号化されたメッセージングサービスを含むオンラインプラットフォームに対し、疑わしいコンテンツをスキャンし、当局に報告することを義務付けます。プライバシー保護団体からは、広範な監視と表現の自由への懸念が表明されており、技術的な実装とプライバシーの両立が課題となります。"
+    },
+    {
+      "id": "hn_48845049",
+      "source": "hackernews",
+      "title": "Show HN: 18 Words",
+      "url": "https://18words.com/",
+      "score": 767,
+      "comments": 277,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-10T08:13:56.557820+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_04181",
+      "source": "hatena",
+      "title": "Anthropic、Claude CodeでAIエージェントを活用するループ設計を紹介 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/07/coding-agent-loop-design-with-claude-code",
+      "score": 368,
+      "comments": 0,
+      "raw_description": "Anthropic⁠⁠、Claude CodeでAIエージェントを活用するループ設計を紹介 AnthropicのClaude Codeチームは2026年6月30日、AIコーディングエージェントを使う際のループの考え方を紹介する記事「Getting started with loops」を公開した。この記事ではループを「エージェントが停止条件を満たすまで作業サイクルを繰り返す...",
+      "tags": [
+        "AIエージェント",
+        "ループ設計",
+        "Anthropic",
+        "Claude Code"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523305+09:00",
+      "summary": "Anthropicは、AIコーディングエージェントの活用における「ループ設計」の概念を解説する記事を公開しました。この設計は、エージェントが停止条件を満たすまで作業サイクルを繰り返し実行するフレームワークを提供します。これにより、複雑なタスクの自動化や、より高度なAIエージェントの協調動作を実現するための基盤となります。"
+    },
+    {
+      "id": "hn_48847552",
+      "source": "hackernews",
+      "title": "Hy3",
+      "url": "https://hy.tencent.com/research/hy3",
+      "score": 343,
+      "comments": 75,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "ハードウェアアクセラレータ",
+        "LLM",
+        "Hy3"
+      ],
+      "fetched_at": "2026-07-10T08:13:56.954818+09:00",
+      "summary": "Hy3は、AIモデルのトレーニングと推論を高速化するために設計された新しいハードウェアアクセラレータです。特に大規模言語モデル（LLM）の処理に最適化されており、従来のGPUと比較して大幅な性能向上と電力効率の改善を実現します。これにより、より複雑なAIモデルの開発や、リアルタイムでの高度なAIアプリケーションの展開が可能になります。"
+    },
+    {
+      "id": "hatena_26848",
+      "source": "hatena",
+      "title": "Yamanote.fun",
+      "url": "https://www.yamanote.fun/",
+      "score": 239,
+      "comments": 0,
+      "raw_description": "These evocative soundscapes combine the station melodies, announcements, door chimes and train sounds of the Yamanote Line to create a complete auditory experience of Tokyo's favourite railway loop. Each direction has its own distinct set of station melodies, so your journey sounds different whet...",
+      "tags": [
+        "山手線",
+        "音響体験",
+        "インタラクティブ",
+        "都市インフラ"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523343+09:00",
+      "summary": "Yamanote.funは、山手線の駅メロディ、アナウンス、ドアチャイム、電車の走行音を組み合わせた音響体験を提供するウェブサイトです。各駅の異なる音源を活用し、電車の進行方向によって変化する聴覚的な没入感を提供します。このプロジェクトは、都市のインフラとテクノロジーを組み合わせ、日常的な体験に新たな価値を見出す試みとして注目されます。"
+    },
+    {
+      "id": "hn_48842459",
+      "source": "hackernews",
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "url": "https://github.com/JustVugg/colibri",
+      "score": 236,
+      "comments": 58,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-10T08:13:55.766900+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48792383",
+      "source": "hackernews",
+      "title": "Train sim created by just one person is being called the best ever made",
+      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+      "score": 184,
+      "comments": 66,
+      "raw_description": "",
+      "tags": [
+        "鉄道シミュレーター",
+        "インディーゲーム",
+        "ゲーム開発",
+        "PCゲーム"
+      ],
+      "fetched_at": "2026-07-10T08:13:57.153839+09:00",
+      "summary": "一人の開発者によって作成された鉄道シミュレーターが、その完成度の高さから「史上最高」と評されています。このゲームは、詳細な物理演算とリアルな運転体験を提供し、多くのプレイヤーを魅了しています。インディーゲーム開発の可能性を示す好例であり、今後のアップデートにも期待が寄せられています。"
+    },
+    {
+      "id": "hatena_20159",
+      "source": "hatena",
+      "title": "三菱自動車、国産ヒューマノイド量産へ　東大発スタートアップと合意　27年後半に月産1000台目指す",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/09/news123.html",
+      "score": 113,
+      "comments": 0,
+      "raw_description": "三菱自動車工業と、東京大学発ロボットスタートアップのHighlanders（東京都豊島区）は7月9日、ヒューマノイドロボットの共同開発と量産化に向けた基本合意書を締結したと発表した。自動車メーカーとヒューマノイドロボット開発企業による量産化を含む協業は初めてという。 両社は基本合意に基づき、三菱自動車の工場で...",
+      "tags": [
+        "ヒューマノイドロボット",
+        "量産化",
+        "三菱自動車",
+        "Highlanders"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523325+09:00",
+      "summary": "三菱自動車と東大発スタートアップHighlandersが、ヒューマノイドロボットの共同開発と量産化で基本合意した。これは自動車メーカーとヒューマノイドロボット開発企業による量産化を含む初の協業であり、2027年後半には月産1000台を目指す。この提携は、製造業におけるロボット活用の新たな可能性を示すものであり、特に三菱自動車の生産技術とHighlandersのロボット技術の融合が期待される。"
+    },
+    {
+      "id": "hn_48849292",
+      "source": "hackernews",
+      "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "score": 54,
+      "comments": 12,
+      "raw_description": "",
+      "tags": [
+        "Ghostty",
+        "Zig",
+        "ターミナルエミュレータ",
+        "Mitchell Hashimoto"
+      ],
+      "fetched_at": "2026-07-10T08:13:56.758433+09:00",
+      "summary": "HashiCorpの共同創業者であるMitchell Hashimoto氏が、彼の新しいターミナルエミュレータであるGhosttyと、開発に使用したZig言語について語っています。GhosttyはRustではなくZigで書かれており、パフォーマンスとメモリ安全性を両立させることを目指しています。Zigの低レベルな制御とモダンな機能が、高速で効率的なターミナルエミュレータ開発に適していることが示唆されています。"
+    },
+    {
+      "id": "hatena_10567",
+      "source": "hatena",
+      "title": "要件定義を整理する3つの手法（イベントストーミング／RDRA／ICONIX）",
+      "url": "https://zenn.dev/tan_go238/articles/976ea64887569d",
+      "score": 40,
+      "comments": 0,
+      "raw_description": "これらは、ゆるやかな文法でつながります。 アクターがコマンドを実行する → コマンドが集約に作用する → 集約がドメインイベントを生む → ポリシーがそのイベントに反応して、次のコマンドを呼ぶ。 たとえば「利用者が\"支払う\"（コマンド）→ 予約（集約）→\"支払いが完了した\"（ドメインイベント）→\"確認メールを送る\"（...",
+      "tags": [
+        "要件定義",
+        "イベントストーミング",
+        "RDRA",
+        "ICONIX"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523337+09:00",
+      "summary": "本記事では、要件定義を整理するための3つの手法として、イベントストーミング、RDRA、ICONIXを紹介しています。これらの手法は、アクターのコマンド実行からドメインイベントの発生、そしてそれに応じた次のコマンド実行へとつながる一連の流れを整理するのに役立ちます。特にイベントストーミングは、アクター、コマンド、集約、ドメインイベント、ポリシーといった要素間の関係性を可視化し、ドメイン駆動設計（DDD）における共通言語の構築を促進するため、複雑なシステム開発において有効です。"
+    },
+    {
+      "id": "hatena_03583",
+      "source": "hatena",
+      "title": "ドメイン駆動設計のよくある誤解",
+      "url": "https://zenn.dev/shotaro_tsuji/articles/a8f2c4a846d552",
+      "score": 34,
+      "comments": 0,
+      "raw_description": "ドメイン駆動設計という用語が世間に広まってからかなりの年月が経過していますが、書籍を読んでもなかなか理解しにくい部分があると思います。私がソフトウェアエンジニアとして経験してきた中で、ドメイン駆動設計の難しいところについて私なりの説明をしたいと思います。最も重要なドメインとユビキタス言語の概念の...",
+      "tags": [],
+      "fetched_at": "2026-07-10T08:13:55.523290+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48853091",
+      "source": "hackernews",
+      "title": "Why American ambulance rides are so expensive",
+      "url": "https://davidoks.blog/p/why-american-ambulance-rides-are",
+      "score": 32,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-10T08:13:56.364246+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_07801",
+      "source": "hatena",
+      "title": "Microsoft Research、AI時代のグラフ作成を支援する中間言語「Flint」を発表 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/07/flint",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "Microsoft Research⁠⁠、AI時代のグラフ作成を支援する中間言語「Flint」を発表 Microsoft Researchは2026年7月8日、AIエージェントによるグラフ作成を支援する中間言語「Flint」を発表した。Flintは、AIエージェントが扱いやすく、人間も確認・編集しやすい短いチャート仕様を、Vega-Lite、Apache ECharts、Chart.js向け...",
+      "tags": [
+        "AI",
+        "データ可視化",
+        "グラフ作成",
+        "中間言語"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523331+09:00",
+      "summary": "Microsoft Researchは、AIエージェントによるグラフ作成を効率化するための中間言語「Flint」を発表しました。Flintは、AIが生成した短いチャート仕様を、Vega-Lite、Apache ECharts、Chart.jsといった主要なグラフ描画ライブラリ向けに変換します。これにより、AIエージェントが生成したグラフの人間による確認や編集が容易になり、AIと人間の協調によるデータ可視化の精度と柔軟性が向上することが期待されます。"
+    },
+    {
+      "id": "hatena_52903",
+      "source": "hatena",
+      "title": "AIがコードを書くほど、レビュー・セキュリティ・理解が追いつかなくなる——次のDevOpsボトルネックは「管理能力」だ",
+      "url": "https://techfeed.io/entries/6a4d8404fb2ec72bcd7fd86a",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "コード生成",
+        "DevOps",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523313+09:00",
+      "summary": "AIによるコード生成の進化は目覚ましいですが、それに伴い、生成されたコードのレビュー、セキュリティチェック、そして開発者による理解といったプロセスが追いつかなくなるという課題が浮上しています。この「管理能力」のギャップが、今後のDevOpsにおける新たなボトルネックとなる可能性が指摘されています。AI生成コードの品質保証とチーム内での知識共有をいかに効率化するかが、今後の開発プロセスにおける重要なテーマとなるでしょう。"
+    },
+    {
+      "id": "hatena_91329",
+      "source": "hatena",
+      "title": "ほんまこういう奴殺したくなるんだけどさ。",
+      "url": "https://anond.hatelabo.jp/20260709170241",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "anond:20260709092321 男性用小便器が少し減ってもいいじゃない よくねーよ 多少混むことになるだろうけど、回転率が非常に高いからそれほど不便はしないだろう。何百人規模の研修の休憩中にホテルのトイレで待っても数分だし。 数分も待ちたくないから立小便形式を受け容れてるんじゃん それより女性の長蛇の列を少しで...",
+      "tags": [
+        "トイレ",
+        "社会問題",
+        "ジェンダー",
+        "インフラ"
+      ],
+      "fetched_at": "2026-07-10T08:13:55.523319+09:00",
+      "summary": "この記事は、男性用小便器の数を減らすことの是非について議論しています。筆者は、小便器の数を減らしても、研修休憩中のような混雑時でも数分程度の待ち時間で済むため、大きな不便はないと主張しています。しかし、待ち時間を避けたいという理由で立小便形式が受け入れられている現状を踏まえ、女性用トイレの混雑緩和策として小便器削減を検討すべきではないかという意見も示唆しています。"
+    },
+    {
+      "id": "reddit_08670",
+      "source": "reddit",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://www.reddit.com/r/programming/comments/1urt5ib/google_pays_250k_for_linux_vulnerability_allowing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CircumspectCapybara\"> /u/CircumspectCapybara </a> <br /> <span><a href=\"https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1urt5ib/google_pays_250k_for_linux_vulnerability_allowing/\">[comments]</a></span>",
+      "tags": [
+        "Linux",
+        "VM Escape",
+        "Vulnerability",
+        "Cloud Security"
+      ],
+      "fetched_at": "2026-07-10T08:13:57.500553+09:00",
+      "summary": "Googleは、Linuxカーネルにおける仮想マシン（VM）からの脱出を可能にする脆弱性に対し、25万ドルの報奨金を支払いました。この脆弱性は、ゲストVMが悪意を持ってホストシステムにアクセスすることを可能にする可能性があり、クラウド環境やコンテナ化された環境におけるセキュリティリスクとなります。この発見は、Linuxカーネルのセキュリティ強化と、仮想化技術における継続的な脆弱性管理の重要性を示唆しています。"
+    },
+    {
+      "id": "reddit_50328",
+      "source": "reddit",
+      "title": "My Thoughts on the Bun Rust Rewrite",
+      "url": "https://www.reddit.com/r/programming/comments/1urmi6h/my_thoughts_on_the_bun_rust_rewrite/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/simon_o\"> /u/simon_o </a> <br /> <span><a href=\"https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1urmi6h/my_thoughts_on_the_bun_rust_rewrite/\">[comments]</a></span>",
+      "tags": [
+        "Bun",
+        "Rust",
+        "JavaScript",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-10T08:13:57.500567+09:00",
+      "summary": "BunのJavaScriptランタイムがRustで再実装されたことに関する考察記事です。Rustによる再実装は、パフォーマンスの向上、メモリ安全性の強化、そして将来的な機能拡張の容易さを目的としています。特に、JavaScriptエンジンのV8からJavaScriptCoreへの移行は、Bunのアーキテクチャにおける重要な変更点であり、パフォーマンスとメモリ使用量に影響を与えています。この再実装は、より高速で信頼性の高いJavaScript実行環境の構築を目指すBunの長期的な戦略を示しています。"
+    },
+    {
+      "id": "reddit_16903",
+      "source": "reddit",
+      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
+      "url": "https://www.reddit.com/r/programming/comments/1urm3mh/why_developers_are_ditching_github_for_codeberg/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bowl2564\"> /u/Successful_Bowl2564 </a> <br /> <span><a href=\"https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1urm3mh/why_developers_are_ditching_github_for_codeberg/\">[comments]</a></span>",
+      "tags": [
+        "GitHub",
+        "Codeberg",
+        "セルフホスティング",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-07-10T08:13:57.500574+09:00",
+      "summary": "一部の開発者がGitHubからCodebergやセルフホスティングの代替手段へ移行する動きが見られます。この背景には、GitHubのライセンスポリシーや、よりオープンでコミュニティ主導のプラットフォームへの関心が高まっていることが挙げられます。CodebergはGiteaをベースにしたオープンソースのGitホスティングサービスであり、セルフホスティングは開発者に完全なコントロールとプライバシーを提供します。このトレンドは、開発者がコードのホスティング場所とその管理方法について、より戦略的な選択をするようになっていることを示唆しています。"
+    },
+    {
+      "id": "reddit_58551",
+      "source": "reddit",
+      "title": "Postgres is enough for more than we admit",
+      "url": "https://www.reddit.com/r/programming/comments/1us129c/postgres_is_enough_for_more_than_we_admit/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I came across this on Hacker News and felt like I needed to share it with the dev community.</p> <p>The main point is simple: a lot of teams reach for extra databases, queues, search engines, caches, and services before they actually need them.</p> <p>This page lays out where Postgres is usually enough, and where you may actually need something else: <a href=\"https://postgresisenough.dev/\">https://postgresisenough.dev/</a></p> <p>Postgres is not perfect for ever",
+      "tags": [
+        "PostgreSQL",
+        "データベース",
+        "インフラ",
+        "開発効率"
+      ],
+      "fetched_at": "2026-07-10T08:13:57.500581+09:00",
+      "summary": "多くの開発チームが、必要になる前に追加のデータベース、キュー、検索エンジン、キャッシュ、その他のサービスを導入している現状に対し、PostgreSQLが多くのユースケースで十分であることを指摘する記事です。PostgreSQLの機能拡張性や、外部サービス導入の判断基準を提示することで、インフラストラクチャの複雑化を避け、開発効率を高めるための指針を示しています。これにより、リソースの最適化と開発サイクルの短縮が期待できます。"
+    }
+  ]
+}
