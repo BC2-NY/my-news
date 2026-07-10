@@ -1,0 +1,331 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T08:00:49.620208+09:00",
+  "articles": [
+    {
+      "id": "hn_48861717",
+      "source": "hackernews",
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "score": 382,
+      "comments": 151,
+      "raw_description": "",
+      "tags": [
+        "QuadRF",
+        "ドローン検知",
+        "WiFi検知",
+        "無線技術"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.721436+09:00",
+      "summary": "QuadRFは、壁越しにドローンやWiFi信号を検知できる新しい無線技術です。この技術は、従来のレーダーやセンサーでは困難だった、障害物の向こう側にある物体や通信をリアルタイムで捉えることを可能にします。これにより、セキュリティ監視、屋内マッピング、さらには救助活動など、多様な分野での応用が期待されます。"
+    },
+    {
+      "id": "hn_48863464",
+      "source": "hackernews",
+      "title": "New York City to to ban deceptive subscription practices",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "score": 318,
+      "comments": 181,
+      "raw_description": "",
+      "tags": [
+        "サブスクリプション",
+        "消費者保護",
+        "ニューヨーク市",
+        "規制"
+      ],
+      "fetched_at": "2026-07-11T08:00:48.835351+09:00",
+      "summary": "ニューヨーク市は、サブスクリプションサービスにおける欺瞞的な販売手法を禁止する新たな条例を可決しました。この条例は、消費者がサブスクリプションの自動更新や解約条件について誤解しないよう、事業者に明確な情報開示を義務付けるものです。これにより、消費者の権利保護が強化され、より透明性の高いサブスクリプション市場の形成が期待されます。"
+    },
+    {
+      "id": "hn_48863490",
+      "source": "hackernews",
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "score": 261,
+      "comments": 224,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "GPT-5.6 Sol Ultra",
+        "Graph Theory",
+        "Cycle Double Cover Conjecture"
+      ],
+      "fetched_at": "2026-07-11T08:00:48.334235+09:00",
+      "summary": "GPT-5.6 Sol Ultra, a new large language model, has reportedly produced a proof for the Cycle Double Cover Conjecture. This conjecture, a long-standing problem in graph theory, concerns the existence of specific subgraphs within larger graphs. The successful proof by an AI model, if verified, represents a significant advancement in the application of artificial intelligence to complex mathematical problems and could open new avenues for AI-assisted mathematical research."
+    },
+    {
+      "id": "hatena_04917",
+      "source": "hatena",
+      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
+      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+      "score": 183,
+      "comments": 0,
+      "raw_description": "TL;DR メールの受信は Cloudflare Email Routing メールの送信は Cloudflare Email Sending メールの閲覧・作成には普段使っているGmailを利用 CloudflareがSMTPをしゃべれるようになったので、Gmailのエイリアスに追加できるぞ！ 独自ドメインのメールアドレスにお金かけたくない問題 個人開発をやっているとポコポコ独...",
+      "tags": [
+        "Cloudflare",
+        "独自ドメインメール",
+        "Gmail連携",
+        "Email Sending"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.476036+09:00",
+      "summary": "Cloudflareは、独自ドメインのメール送受信機能を強化し、Gmailとの連携を可能にしました。Email Routing機能でドメイン宛のメールを受信し、新たに提供されたEmail Sending機能によりGmailから独自ドメインのメールアドレスで送信できるようになります。これにより、Gmailの使い慣れたインターフェースを維持したまま、追加費用なしで独自ドメインのメールアドレスを利用できるようになり、個人開発者などにとってコスト削減と利便性向上が期待できます。"
+    },
+    {
+      "id": "hn_48862365",
+      "source": "hackernews",
+      "title": "The tech of 'Terminator 2' – an oral history (2017)",
+      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "score": 138,
+      "comments": 53,
+      "raw_description": "",
+      "tags": [
+        "VFX",
+        "CG",
+        "映画技術",
+        "ターミネーター2"
+      ],
+      "fetched_at": "2026-07-11T08:00:48.531582+09:00",
+      "summary": "1991年の映画『ターミネーター2』で用いられた革新的なVFX技術に関する関係者へのインタビュー記事です。特に、CGによるキャラクター（T-1000）の表現や、デジタル合成技術の進化が、当時の映画製作に与えた影響と、その後のVFX業界の発展への貢献について詳述しています。これらの技術は、現代のCG技術の基礎を築き、リアルな映像表現の可能性を大きく広げました。"
+    },
+    {
+      "id": "hatena_16419",
+      "source": "hatena",
+      "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法 - Qiita",
+      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
+      "score": 117,
+      "comments": 0,
+      "raw_description": "こんにちは！コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 さて、読者のほとんどの方が Claude Code や Codex を使って開発をしていると思いますが、皆さんは「AIエージェントがシェルコマンドやネットワークアクセスを実行するときにどのように安全性を確認しているか」についてど...",
+      "tags": [
+        "AI",
+        "セキュリティ",
+        "サンドボックス",
+        "Claude Code"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.476010+09:00",
+      "summary": "コロンビア大学の研究者による本記事では、Claude CodeやCodexのようなAIエージェントがシェルコマンドやネットワークアクセスを実行する際の安全性確保に焦点を当てています。特に、これらのAIが生成するコードを安全に実行するための「超爆速で超安全なサンドボックス」の構築方法について解説しています。これにより、AIによる開発プロセスにおけるセキュリティリスクを低減し、安全な実行環境を提供することの重要性が示唆されています。"
+    },
+    {
+      "id": "hatena_49028",
+      "source": "hatena",
+      "title": "【無料】 ObsidianはAIの記憶保管には向いていない｜松濤Vimmer",
+      "url": "https://note.com/shotovim/n/n40164f5b555c",
+      "score": 114,
+      "comments": 0,
+      "raw_description": "AI活用で一番効くのは、細かいTipsを知っていることよりも、あとからAIに渡せる文脈がどれだけ残っているかなんじゃないか、ということです。 AIの長期記憶や会話の保存、Obsidianのvaultに置くより独自のシステムを組んだほうがAI親和性が高い。 Gizmodoの動画でも言われたけどvaultは人間向けのノートで、AIが毎回読む...",
+      "tags": [
+        "Obsidian",
+        "AI",
+        "長期記憶",
+        "情報管理"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.476053+09:00",
+      "summary": "ObsidianのVaultは人間が情報を整理・参照するために設計されており、AIの長期記憶や会話履歴を保存する用途には適していません。AI活用においては、AIに渡せる文脈情報が重要であり、そのためにObsidianのVaultに依存するよりも、AIとの親和性を考慮した独自のシステムを構築することが推奨されます。AIは人間のようにVault全体を毎回読み込むわけではないため、AIの長期記憶には別のアーキテクチャが有効です。"
+    },
+    {
+      "id": "hn_48865019",
+      "source": "hackernews",
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "score": 103,
+      "comments": 48,
+      "raw_description": "",
+      "tags": [
+        "Apple",
+        "OpenAI",
+        "訴訟",
+        "知的財産"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.941563+09:00",
+      "summary": "AppleはOpenAIを提訴し、元従業員が同社の機密情報を盗み、OpenAIに提供したと主張しています。この訴訟は、AI開発における知的財産保護の重要性と、企業間の競争における倫理的な問題点を浮き彫りにしています。Appleは、元従業員が退職前に機密情報にアクセスし、それをOpenAIのAIモデル開発に利用したと指摘しており、今後のAI業界におけるデータセキュリティと競争法遵守のあり方に影響を与える可能性があります。"
+    },
+    {
+      "id": "hn_48795900",
+      "source": "hackernews",
+      "title": "Combustion engine web-based simulator",
+      "url": "https://combustionlab.net",
+      "score": 90,
+      "comments": 39,
+      "raw_description": "",
+      "tags": [
+        "燃焼エンジン",
+        "シミュレーター",
+        "Web技術",
+        "教育ツール"
+      ],
+      "fetched_at": "2026-07-11T08:00:49.054959+09:00",
+      "summary": "Webブラウザ上で動作する、燃焼エンジンのシミュレーターが開発されました。このシミュレーターは、エンジンの基本的な動作原理や性能を視覚的に理解することを可能にします。教育目的や設計初期段階での検証に役立ち、複雑な物理現象を直感的に把握できる点が重要です。"
+    },
+    {
+      "id": "hatena_97488",
+      "source": "hatena",
+      "title": "Claude Codeとハーネスについて考えてみる",
+      "url": "https://speakerdeck.com/oikon48/claude-codetohanesunituitekao-etemiru",
+      "score": 79,
+      "comments": 0,
+      "raw_description": "AI駆動開発勉強会 福岡出張版+ EnjoyAIDeveloping : https://enjoy-dev-ai.connpass.com/event/397844/",
+      "tags": [
+        "Claude Code",
+        "AI駆動開発",
+        "コード生成",
+        "Harness"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.476045+09:00",
+      "summary": "Claude Codeは、AI駆動開発勉強会で紹介された、コード生成に特化したAIモデルです。特に、ハーネス（Harness）というプラットフォームとの連携により、AIが生成したコードを効率的にデプロイ・管理できる可能性が示唆されています。これにより、開発ライフサイクル全体におけるAIの活用範囲が広がり、開発者の生産性向上に貢献することが期待されます。"
+    },
+    {
+      "id": "hatena_37747",
+      "source": "hatena",
+      "title": "「Windows」PCにサードパーティー製ウイルス対策ソフトはまだ必要か",
+      "url": "https://japan.zdnet.com/article/35250124/",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "印刷する メールで送る テキスト HTML 電子書籍 PDF ダウンロード テキスト 電子書籍 PDF クリップした記事をMyページから読むことができます Microsoftの誰かが4月、「Windows Learning Center」で文書を公開し、全く異論の余地のない主張を示した。「多くの『Windows 11』ユーザーにとって、『Microsoft Defender Anti...",
+      "tags": [],
+      "fetched_at": "2026-07-11T08:00:47.476097+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48814170",
+      "source": "hackernews",
+      "title": "Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Efficiency to the Limit",
+      "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+      "score": 14,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-11T08:00:49.323862+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_61169",
+      "source": "hatena",
+      "title": "Interview With Mitchell Hashimoto",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "Mitchell Hashimoto was behind Vagrant, Packer, Consul, Terraform, Vault, Nomad, Waypoint and now builds Ghostty and Vouch. In this interview, we talk about terminals, Zig and open source. You’ve been interviewed a lot. Why do people like to interview you? In interviews, everyone comes from a diff...",
+      "tags": [],
+      "fetched_at": "2026-07-11T08:00:47.476083+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_76992",
+      "source": "hatena",
+      "title": "「AIデスキリング」が始まった…生産性向上の影で、AIは人間の思考とスキルを静かにむしばんでいる | Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/2606-ai-deskilling-impact-on-worker-skills-productivity/",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "アンダーソン氏は6月から8月にかけて、自分では1行もコードを書かず、AIを使ってソフトウェア製品を構築していく様子を、YouTubeでライブ配信した。 彼が開発したアプリ「Road Trip Ninja（ロード・トリップ・ニンジャ）」は、家族連れが長距離ドライブの途中で安心して立ち寄れる場所、例えば清潔なトイレやまともな食...",
+      "tags": [
+        "AI",
+        "ソフトウェア開発",
+        "デスキリング",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.476060+09:00",
+      "summary": "AIによるソフトウェア開発の自動化が進む中、開発者が自らコードを書く機会が減少する「AIデスキリング」という現象が指摘されています。Business Insider Japanの記事では、AIを活用してソフトウェア製品を構築するライブ配信の事例を紹介し、生産性向上の裏で人間の思考力やスキルが静かに低下する可能性に警鐘を鳴らしています。この動向は、AIとの協業における新たな課題を示唆しています。"
+    },
+    {
+      "id": "hn_48866134",
+      "source": "hackernews",
+      "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
+      "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
+      "score": 8,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [
+        "相対性理論",
+        "化学結合",
+        "重元素",
+        "量子化学"
+      ],
+      "fetched_at": "2026-07-11T08:00:48.137531+09:00",
+      "summary": "新しい研究により、アインシュタインの相対性理論が重元素の化学結合に影響を与えることが示されました。特に、重元素では電子の軌道が相対論的効果によって収縮し、原子のサイズや結合の性質が変化します。この発見は、周期表の重い元素の化学的振る舞いをより正確に理解するために不可欠であり、新しい材料科学や触媒設計への応用が期待されます。"
+    },
+    {
+      "id": "hatena_11145",
+      "source": "hatena",
+      "title": "ミズノ、「ピックルボール」市場に参入　競技人口7倍に拡大",
+      "url": "https://www.watch.impress.co.jp/docs/news/2124158.html",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "ミズノ",
+        "ピックルボール",
+        "スポーツ用品",
+        "市場参入"
+      ],
+      "fetched_at": "2026-07-11T08:00:47.476090+09:00",
+      "summary": "ミズノが、近年急速に競技人口を拡大している「ピックルボール」市場に参入した。同社は、ラケットやボールなどの専用用品を展開し、初心者から上級者まで幅広い層のニーズに応える。ピックルボールは、テニス、バドミントン、卓球の要素を併せ持つ手軽さと奥深さから、世界的に人気が高まっており、ミズノの参入は市場のさらなる活性化に寄与すると期待される。"
+    },
+    {
+      "id": "reddit_85472",
+      "source": "reddit",
+      "title": "Good Tools Are Invisible",
+      "url": "https://www.reddit.com/r/programming/comments/1usjlm7/good_tools_are_invisible/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gingerbill\"> /u/gingerbill </a> <br /> <span><a href=\"https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1usjlm7/good_tools_are_invisible/\">[comments]</a></span>",
+      "tags": [
+        "開発ツール",
+        "生産性",
+        "UX",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-07-11T08:00:49.620142+09:00",
+      "summary": "この記事は、優れた開発ツールはユーザーの意識に上らないほどシームレスに機能するという考え方を提唱しています。具体的には、ツールが直感的で、ワークフローに溶け込み、開発者が本来のタスクに集中できる状態が理想とされています。このようなツールは、生産性を向上させるだけでなく、開発体験全体を向上させる上で重要です。"
+    },
+    {
+      "id": "reddit_48189",
+      "source": "reddit",
+      "title": "Quantum Computers Are Not a Threat to 128-bit Symmetric Keys",
+      "url": "https://www.reddit.com/r/programming/comments/1usmas0/quantum_computers_are_not_a_threat_to_128bit/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://words.filippo.io/128-bits/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1usmas0/quantum_computers_are_not_a_threat_to_128bit/\">[comments]</a></span>",
+      "tags": [
+        "量子コンピュータ",
+        "対称鍵暗号",
+        "暗号理論",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-11T08:00:49.620165+09:00",
+      "summary": "量子コンピュータは、現在の128ビット対称鍵暗号に対する直接的な脅威とはならないことが示されています。これは、量子コンピュータのアルゴリズムであるショアのアルゴリズムが、主に非対称鍵暗号の素因数分解や離散対数問題を標的とするためです。128ビット対称鍵は、量子コンピュータを用いても、現在の計算能力では実用的な時間内に解読することが不可能であり、安全性が維持されると考えられています。この事実は、将来の暗号化戦略を検討する上で重要です。"
+    },
+    {
+      "id": "reddit_84036",
+      "source": "reddit",
+      "title": "Packing the infinite truck",
+      "url": "https://www.reddit.com/r/programming/comments/1ut1qjv/packing_the_infinite_truck/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PinkFrojd\"> /u/PinkFrojd </a> <br /> <span><a href=\"https://pehar.dev/reflections/packing-the-infinite-truck/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ut1qjv/packing_the_infinite_truck/\">[comments]</a></span>",
+      "tags": [
+        "アルゴリズム",
+        "データ構造",
+        "最適化",
+        "コンピュータサイエンス"
+      ],
+      "fetched_at": "2026-07-11T08:00:49.620173+09:00",
+      "summary": "この記事は、無限の容量を持つトラックにアイテムを効率的に詰め込むという、一見単純ながらも奥深い問題について考察しています。この問題は、コンピュータサイエンスにおけるデータ構造やアルゴリズムの設計、特にメモリ管理やリソース割り当ての最適化といった分野に深く関連しています。無限のトラックという抽象化を通じて、現実世界の限られたリソースを最大限に活用するための理論的基盤を探求する点が重要です。"
+    },
+    {
+      "id": "reddit_28109",
+      "source": "reddit",
+      "title": "How to implement cryptographically-secure API keys",
+      "url": "https://www.reddit.com/r/programming/comments/1usi4m5/how_to_implement_cryptographicallysecure_api_keys/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/awesomePop7291\"> /u/awesomePop7291 </a> <br /> <span><a href=\"https://kerkour.com/api-keys\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1usi4m5/how_to_implement_cryptographicallysecure_api_keys/\">[comments]</a></span>",
+      "tags": [
+        "APIキー",
+        "セキュリティ",
+        "暗号化",
+        "実装"
+      ],
+      "fetched_at": "2026-07-11T08:00:49.620179+09:00",
+      "summary": "この記事では、APIキーを暗号学的に安全に実装するための実践的な方法について解説しています。APIキーの生成、保存、検証におけるセキュリティリスクを最小限に抑えるための具体的な手法が紹介されており、特にランダム性の高いキー生成や、キーのローテーション、アクセス制御の重要性が強調されています。これにより、APIの不正利用や情報漏洩のリスクを低減し、システムの安全性を向上させることが可能になります。"
+    }
+  ]
+}
