@@ -1,0 +1,346 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T07:52:41.402871+09:00",
+  "articles": [
+    {
+      "id": "hn_48873940",
+      "source": "hackernews",
+      "title": "Prefer strict tables in SQLite",
+      "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "score": 183,
+      "comments": 75,
+      "raw_description": "",
+      "tags": [
+        "SQLite",
+        "データベース",
+        "型チェック",
+        "スキーマ"
+      ],
+      "fetched_at": "2026-07-12T07:52:41.141826+09:00",
+      "summary": "SQLiteは、デフォルトで「lenient」なテーブル定義を許可しており、これはスキーマの変更を容易にする一方で、予期せぬデータ型エラーを引き起こす可能性があります。この挙動は、厳密な型チェックを有効にする `PRAGMA writable_schema.use_strict_tables = ON;` を実行することで変更できます。これにより、データ挿入時に型チェックが厳格化され、データの整合性が向上し、開発中のデバッグが容易になります。"
+    },
+    {
+      "id": "hatena_12614",
+      "source": "hatena",
+      "title": "AI時代でも変わらない、業務自動化／効率化の考え方",
+      "url": "https://zenn.dev/grooves/articles/d0e1a182138ab0",
+      "score": 166,
+      "comments": 0,
+      "raw_description": "はじめに こんにちは！GroovesでCrowd Agent開発組織のマネージャーをしています、鳥井です。本記事は、私が社内向けに書いた業務自動化／効率化に関するドキュメントを、公開用に再構成したものになります。 AI時代に入り、業務自動化／効率化が改めて脚光を浴びています。LLMを司令塔としたMCPやAgent Skillsの普及に...",
+      "tags": [
+        "業務自動化",
+        "効率化",
+        "AI",
+        "LLM"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551395+09:00",
+      "summary": "AI時代においても、業務自動化・効率化の基本的な考え方は変わらない。LLM（大規模言語モデル）を司令塔としたMCP（Multi-agent Conversation Platform）やAgent Skillsの普及は、自動化の可能性を広げている。しかし、技術の進化に依存するだけでなく、業務プロセス自体の理解と改善が、真の効率化には不可欠である。AIを効果的に活用するためには、まず人間が業務を深く理解し、自動化すべき箇所を見極めることが重要となる。"
+    },
+    {
+      "id": "hn_48872874",
+      "source": "hackernews",
+      "title": "We scaled PgBouncer to 4x throughput",
+      "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+      "score": 160,
+      "comments": 28,
+      "raw_description": "",
+      "tags": [
+        "PgBouncer",
+        "パフォーマンスチューニング",
+        "データベース",
+        "スケーラビリティ"
+      ],
+      "fetched_at": "2026-07-12T07:52:40.767190+09:00",
+      "summary": "PgBouncerのパフォーマンスを4倍にスケールさせるための技術的なアプローチについて解説しています。具体的には、コネクションプーリングの最適化、設定チューニング、そしてハードウェアリソースの活用方法に焦点を当てています。これにより、データベースへの負荷を軽減し、アプリケーションの応答性を向上させるための実践的な知見を提供します。"
+    },
+    {
+      "id": "hatena_08990",
+      "source": "hatena",
+      "title": "「AI臭くない文章」を書かせることができる執筆エディタを作った｜なつ (生活者/デザイナー/リサーチャー)",
+      "url": "https://note.com/art_reflection/n/n7ffd5ce3320c",
+      "score": 154,
+      "comments": 0,
+      "raw_description": "ここ最近、いかに「AIでAI臭くない文章を書かせられるか？」を試行錯誤しています。 書かれた文章は自分としてもそれなりに思考を凝らせたものとなっていますが、実のところそろそろアイディアが枯渇し、頭打ちになってきまし。 さて、この文章執筆は一応Fable、Sonnet5.0までを射程として検証しています。正直FableはAP...",
+      "tags": [
+        "AI",
+        "自然言語処理",
+        "文章生成",
+        "執筆エディタ"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551270+09:00",
+      "summary": "AIによる文章生成において、人間が書いたような自然な表現（「AI臭くない文章」）を実現するための執筆エディタが開発されました。このエディタは、FableやSonnet5.0といった大規模言語モデルを対象に、より創造的で思考が凝らされた文章生成を目指して検証されています。AI生成文章の品質向上と、人間らしい表現の追求という点で、今後のコンテンツ制作やコミュニケーションツールへの応用が期待されます。"
+    },
+    {
+      "id": "hn_48875377",
+      "source": "hackernews",
+      "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+      "url": "https://antjs.org",
+      "score": 135,
+      "comments": 52,
+      "raw_description": "",
+      "tags": [
+        "JavaScript",
+        "Runtime",
+        "Ecosystem",
+        "Ant"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.842681+09:00",
+      "summary": "Antは、JavaScriptの実行環境とエコシステムを提供する新しいプロジェクトです。Node.jsやDenoのような既存のランタイムとは異なり、特定のユースケースやパフォーマンス要件に最適化されている可能性があります。このプロジェクトは、JavaScript開発者がより効率的かつ柔軟にアプリケーションを構築するための新たな選択肢を提供するものであり、そのアーキテクチャやパフォーマンス特性が注目されます。"
+    },
+    {
+      "id": "hn_48873836",
+      "source": "hackernews",
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "score": 116,
+      "comments": 40,
+      "raw_description": "",
+      "tags": [
+        "Nvidia",
+        "CoreWeave",
+        "Nebius",
+        "GPU"
+      ],
+      "fetched_at": "2026-07-12T07:52:40.210283+09:00",
+      "summary": "Nvidia, CoreWeave, and Nebiusは、GPUブームを支える循環型資金調達モデルを構築しています。このモデルでは、NvidiaはGPUをCoreWeaveのようなインフラプロバイダーに販売し、CoreWeaveはそれらをクラウドサービスとしてNebiusのような顧客に提供します。この連携により、AI開発に必要なGPUリソースへのアクセスが加速され、GPUメーカー、インフラプロバイダー、そしてAIサービス利用者の間で相互に利益が生まれるエコシステムが形成されています。これは、AIインフラへの巨額投資を効率的に循環させるための重要な戦略です。"
+    },
+    {
+      "id": "hatena_56048",
+      "source": "hatena",
+      "title": "誤爆で「ワインが20本も届いちゃう」　押せば注文できる“Amazon Dash Button ”とは何だったのか",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2607/11/news002.html",
+      "score": 108,
+      "comments": 0,
+      "raw_description": "4月、ある小型端末がSNSを中心に再び注目を集めた。ワンプッシュで日用品を注文できた「Amazon Dash Button（アマゾン・ダッシュ・ボタン）」だ。既に端末の販売およびサービスは終了しているが、買い忘れを防ぐ画期的な仕組みは多くの家庭で重宝された実績があり、現在もさまざまな視点で当時の存在意義が語られた。一...",
+      "tags": [
+        "Amazon Dash Button",
+        "IoT",
+        "スマートホーム",
+        "スマートコマース"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551374+09:00",
+      "summary": "Amazon Dash Buttonは、ワンプッシュで特定の日用品を注文できる小型端末でした。2017年にサービス終了しましたが、買い忘れ防止に役立つ利便性から、多くの家庭で重宝されました。このサービスは、IoTを活用したスマートホームデバイスの先駆けとして、ユーザーの購買行動を簡便化する可能性を示唆しました。現在でも、その革新的なアプローチはスマートコマースの文脈で議論されています。"
+    },
+    {
+      "id": "hatena_18775",
+      "source": "hatena",
+      "title": "Metaがユーザーからの反発を受けInstagramのAI機能を削除",
+      "url": "https://gigazine.net/news/20260711-meta-removes-controversial-ai-instagram/",
+      "score": 80,
+      "comments": 0,
+      "raw_description": "MetaがAIを使ってInstagram上の写真を編集する機能を廃止しました。 Meta removes controversial AI feature on Instagram after backlash | TechCrunch https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/ 現地時間の2026年7月7日、Metaは画像生成AIの「Muse Imag...",
+      "tags": [
+        "Meta",
+        "Instagram",
+        "AI",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551381+09:00",
+      "summary": "Metaは、InstagramでユーザーがAIを用いて写真編集を行う機能を廃止しました。この機能は、ユーザーの意図しない編集やプライバシーへの懸念から強い反発を受けていました。今回の決定は、AI技術の導入におけるユーザーの受容性と倫理的配慮の重要性を示唆しています。Metaは今後、より慎重なアプローチでAI機能の開発を進める可能性があります。"
+    },
+    {
+      "id": "hatena_61305",
+      "source": "hatena",
+      "title": "無料でAI向けのブラウザ自動化ができる「Browser4」",
+      "url": "https://gigazine.net/news/20260711-browser4/",
+      "score": 75,
+      "comments": 0,
+      "raw_description": "「Browser4」はターミナルからAIによるウェブブラウズ・自動化・スクレイピング・クロールといった処理を実現するCLIツールです。 platonai/Browser4: Browser4: a lightning-fast, coroutine-safe browser for your AI. https://github.com/platonai/Browser4 Browser4 - Enable AI to browse/automate/scrape/crawl th...",
+      "tags": [
+        "AI",
+        "Web自動化",
+        "CLIツール",
+        "スクレイピング"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551365+09:00",
+      "summary": "「Browser4」は、AIがターミナルからウェブブラウジング、自動化、スクレイピング、クロールなどのタスクを実行できるようにするオープンソースのCLIツールです。Pythonのasyncioを活用したコルーチンセーフな設計により、高速かつ効率的なブラウザ操作を実現します。AIエージェントがウェブ上の情報を取得・操作する際の強力な基盤となり、開発者はAIによる自動化ワークフローを容易に構築できます。"
+    },
+    {
+      "id": "hn_48873457",
+      "source": "hackernews",
+      "title": "UPI: Anatomy of a Payment Transaction",
+      "url": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
+      "score": 65,
+      "comments": 21,
+      "raw_description": "",
+      "tags": [
+        "UPI",
+        "決済システム",
+        "トランザクション",
+        "アーキテクチャ"
+      ],
+      "fetched_at": "2026-07-12T07:52:40.951266+09:00",
+      "summary": "Unified Payments Interface (UPI)の支払いトランザクションの内部構造を解説する記事です。UPIがどのようにして複数の銀行口座を単一のモバイルアプリに統合し、即時かつ安全な送金を実現しているかの技術的な仕組みを掘り下げています。このアーキテクチャは、インドのデジタル決済エコシステムにおけるスケーラビリティと効率性の基盤となっており、その理解は決済システムの設計や開発に携わる技術者にとって重要です。"
+    },
+    {
+      "id": "hatena_77759",
+      "source": "hatena",
+      "title": "[アップデート] AWS MCP Server が AI エージェントからの接続に業界標準の OAuth 2.1（AWS Sign-In 経由）をサポートしたので試してみました | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/20260710-aws-mcp-server-oauth/",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "AWS",
+        "MCP Server",
+        "OAuth 2.1",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551388+09:00",
+      "summary": "AWS MCP Serverが、AIエージェントからの接続において、業界標準のOAuth 2.1（AWS Sign-In経由）をサポートするようになりました。これにより、AIエージェントはAWSの認証基盤を利用して安全かつ標準化された方法でMCP Serverにアクセスできるようになります。このアップデートは、AIアプリケーションとAWSサービス間の連携を強化し、セキュリティと管理性を向上させる上で重要です。"
+    },
+    {
+      "id": "hatena_56003",
+      "source": "hatena",
+      "title": "GitHub - yusukebe/ax: The AI-era curl",
+      "url": "https://github.com/yusukebe/ax",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "The AI-era curl: fetch, discover, extract. One command. ax is what a coding agent should reach for instead of curl piped into a throwaway parsing script. It fetches a page, helps the agent understand its structure, and extracts structured data — locally, deterministically, with output shaped for ...",
+      "tags": [
+        "CLIツール",
+        "AI",
+        "Webスクレイピング",
+        "開発者ツール"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551347+09:00",
+      "summary": "yusukebe/axは、AI時代に向けた新しいコマンドラインツールで、従来のcurlコマンドの代替を目指しています。Webページから情報を取得し、その構造をAIが理解できるように支援し、構造化されたデータをローカルかつ決定論的に抽出する機能を提供します。これにより、curlと一時的な解析スクリプトの組み合わせよりも効率的で、AIエージェントによるデータ処理のワークフローを大幅に改善することが期待されます。"
+    },
+    {
+      "id": "hatena_20877",
+      "source": "hatena",
+      "title": "LATERALでSQL実行時間を99.75%削減した話 - ANDPAD Tech Blog",
+      "url": "https://tech.andpad.co.jp/entry/2026/07/10/100000",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "こんにちは！ 承認チームでGoエンジニアとしてインターンをしているunagamです。 最近は夏の旅行先として色々な場所を調べるのにハマっています。 今回はあまり馴染みのないSQLのLATERAL句で大幅にAPIを高速化できたので、その学びを共有したいと思います。 概要 APIのボトルネックだったSQLを、LATERAL を使って 94.7ms...",
+      "tags": [
+        "SQL",
+        "LATERAL句",
+        "パフォーマンスチューニング",
+        "API高速化"
+      ],
+      "fetched_at": "2026-07-12T07:52:39.551299+09:00",
+      "summary": "ANDPAD Tech Blogの記事では、承認チームのエンジニアがAPIのボトルネックとなっていたSQLクエリをLATERAL句を用いて最適化した事例が紹介されています。LATERAL句の活用により、SQLの実行時間を99.75%削減し、APIの応答速度を大幅に改善することに成功しました。この技術的なアプローチは、複雑なデータ取得や集計処理においてパフォーマンスを向上させるための有効な手段となり得ます。"
+    },
+    {
+      "id": "hn_48876441",
+      "source": "hackernews",
+      "title": "Stop Telling Me to Ask an LLM",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "score": 14,
+      "comments": 8,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "AI",
+        "ソフトウェア開発",
+        "問題解決"
+      ],
+      "fetched_at": "2026-07-12T07:52:40.025035+09:00",
+      "summary": "この記事は、LLM（大規模言語モデル）への質問を安易に推奨することに対する批判を展開しています。LLMは強力なツールですが、その能力には限界があり、常に正確な情報や適切な回答を提供できるわけではありません。開発者や技術者がLLMに過度に依存することは、問題解決能力の低下や、誤った情報に基づいた意思決定を招くリスクがあると指摘しています。代わりに、問題の本質を理解し、自身の知識や経験、適切なツールを駆使して解決策を見出すことの重要性を強調しています。"
+    },
+    {
+      "id": "hn_48876245",
+      "source": "hackernews",
+      "title": "RISCBoy is an open-source portable games console, designed from scratch",
+      "url": "https://github.com/Wren6991/RISCBoy",
+      "score": 6,
+      "comments": 1,
+      "raw_description": "",
+      "tags": [
+        "RISC-V",
+        "オープンソース",
+        "ポータブルゲーム機",
+        "ハードウェア"
+      ],
+      "fetched_at": "2026-07-12T07:52:40.393699+09:00",
+      "summary": "RISCBoyは、ゼロから設計されたオープンソースのポータブルゲームコンソールです。RISC-Vアーキテクチャを採用しており、ハードウェアとソフトウェアの両方がオープンソースとして公開されています。これにより、開発者は自由にカスタマイズや拡張が可能で、オープンハードウェアとオープンソースソフトウェアの組み合わせによる新しいゲームプラットフォームの可能性を探求できます。"
+    },
+    {
+      "id": "hn_48876505",
+      "source": "hackernews",
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "score": 3,
+      "comments": 1,
+      "raw_description": "",
+      "tags": [
+        "Mesh LLM",
+        "分散AI",
+        "iroh",
+        "LLM"
+      ],
+      "fetched_at": "2026-07-12T07:52:40.582795+09:00",
+      "summary": "Mesh LLMは、分散型AIコンピューティングを可能にする新しいフレームワークです。IPFSの分散ストレージ技術であるirohを活用し、大規模言語モデル（LLM）のトレーニングや推論を複数のノードに分散させます。これにより、単一の高性能ハードウェアに依存せず、よりスケーラブルでアクセスしやすいAIインフラストラクチャの構築を目指します。このアプローチは、AI開発のコスト削減と民主化に貢献する可能性があります。"
+    },
+    {
+      "id": "reddit_52978",
+      "source": "reddit",
+      "title": "How Container Networking Works: Building a Bridge Network From Scratch",
+      "url": "https://www.reddit.com/r/programming/comments/1utfiq2/how_container_networking_works_building_a_bridge/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iximiuz\"> /u/iximiuz </a> <br /> <span><a href=\"https://labs.iximiuz.com/tutorials/container-networking-from-scratch\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1utfiq2/how_container_networking_works_building_a_bridge/\">[comments]</a></span>",
+      "tags": [
+        "コンテナ",
+        "ネットワーク",
+        "Linux",
+        "ブリッジネットワーク"
+      ],
+      "fetched_at": "2026-07-12T07:52:41.402809+09:00",
+      "summary": "この記事は、コンテナネットワーキングの仕組みを、ブリッジネットワークをゼロから構築するプロセスを通じて解説しています。Linuxのネットワーク名前空間、vethペア、ブリッジデバイスなどの基本的なコンポーネントを組み合わせることで、コンテナ間の通信やホストとの通信を実現する方法を具体的に示しています。コンテナオーケストレーションツールがどのように高度なネットワーク機能を提供しているかを理解する上で、基礎となる技術を深く掘り下げており、ネットワークエンジニアやインフラエンジニアにとって有益な情報源となります。"
+    },
+    {
+      "id": "reddit_66590",
+      "source": "reddit",
+      "title": "Programs, Not Objects: How I Stopped Designing Architecture and Started Writing a 3D Editor",
+      "url": "https://www.reddit.com/r/programming/comments/1ut97oi/programs_not_objects_how_i_stopped_designing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheBear_at_SBB\"> /u/TheBear_at_SBB </a> <br /> <span><a href=\"https://alexsyniakov.com/2026/07/11/programs-not-objects-how-i-stopped-designing-architecture-and-started-writing-a-3d-editor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1ut97oi/programs_not_objects_how_i_stopped_designing/\">[comments]</a></span>",
+      "tags": [
+        "ソフトウェアアーキテクチャ",
+        "オブジェクト指向",
+        "プログラミング",
+        "3Dエディタ"
+      ],
+      "fetched_at": "2026-07-12T07:52:41.402831+09:00",
+      "summary": "この記事は、3Dエディタ開発においてオブジェクト指向設計からプログラム中心のアプローチに移行した経験について論じています。著者は、複雑なシステムを管理する上で、オブジェクト指向の設計原則が必ずしも最適ではない場合があることを発見しました。代わりに、プログラムのフローとデータ変換に焦点を当てることで、よりシンプルで保守しやすいコードベースを構築できると主張しています。このアプローチは、特に大規模で複雑なアプリケーションにおいて、開発効率とコードの理解度を向上させる可能性を示唆しています。"
+    },
+    {
+      "id": "reddit_44779",
+      "source": "reddit",
+      "title": "Official jscrambler npm Package Compromised at 8.14.0",
+      "url": "https://www.reddit.com/r/programming/comments/1utqclm/official_jscrambler_npm_package_compromised_at/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BattleRemote3157\"> /u/BattleRemote3157 </a> <br /> <span><a href=\"https://safedep.io/jscrambler-npm-supply-chain-compromise/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1utqclm/official_jscrambler_npm_package_compromised_at/\">[comments]</a></span>",
+      "tags": [
+        "npm",
+        "jscrambler",
+        "supply chain attack",
+        "security"
+      ],
+      "fetched_at": "2026-07-12T07:52:41.402839+09:00",
+      "summary": "npmパッケージjscramblerのバージョン8.14.0が侵害されました。この侵害により、悪意のあるコードがパッケージに混入し、ユーザーのシステムに影響を与える可能性があります。サプライチェーン攻撃の一種であり、信頼されているパッケージであっても脆弱性が存在する可能性があることを示しています。開発者は、依存関係のアップデートに際して、その出所と整合性を慎重に確認する必要があります。"
+    },
+    {
+      "id": "reddit_75603",
+      "source": "reddit",
+      "title": "Self-hosting Umami analytics on Cloudflare, Fly, and Supabase",
+      "url": "https://www.reddit.com/r/programming/comments/1uti5tr/selfhosting_umami_analytics_on_cloudflare_fly_and/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sankra\"> /u/Sankra </a> <br /> <span><a href=\"https://hjerpbakk.com/blog/2026/07/11/self-hosting-umami\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uti5tr/selfhosting_umami_analytics_on_cloudflare_fly_and/\">[comments]</a></span>",
+      "tags": [
+        "Umami",
+        "セルフホスティング",
+        "Cloudflare",
+        "Supabase"
+      ],
+      "fetched_at": "2026-07-12T07:52:41.402846+09:00",
+      "summary": "この記事では、Umamiというオープンソースのウェブ分析ツールを、Cloudflare、Fly.io、Supabaseといった技術スタックを用いてセルフホストする方法を解説しています。Umamiは軽量でプライバシーに配慮した分析を提供し、セルフホスティングによりデータ管理の自由度を高められます。CloudflareのCDN、Fly.ioのサーバーレス実行環境、SupabaseのPostgreSQLデータベースと認証機能を組み合わせることで、スケーラブルでコスト効率の高い分析基盤を構築する具体的な手順が示されています。"
+    }
+  ]
+}
