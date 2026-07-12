@@ -1,0 +1,341 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T07:52:46.506165+09:00",
+  "articles": [
+    {
+      "id": "hn_48880170",
+      "source": "hackernews",
+      "title": "Old and new apps, via modern coding agents",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "score": 389,
+      "comments": 111,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "レガシーコード移行",
+        "プログラミング",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-07-13T07:52:46.042033+09:00",
+      "summary": "Googleは、既存のレガシーアプリケーションを最新のプログラミング言語やフレームワークに移行させるための新しいAIエージェントを開発しました。このエージェントは、コードの解析、変換、テストを自動化することで、開発者が直面する複雑な移行プロセスを大幅に簡素化します。これにより、保守性の向上、セキュリティリスクの低減、最新技術の活用が可能となり、企業のデジタルトランスフォーメーションを加速させることが期待されます。"
+    },
+    {
+      "id": "hn_48883275",
+      "source": "hackernews",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "score": 372,
+      "comments": 206,
+      "raw_description": "",
+      "tags": [
+        "Claude Code",
+        "OpenCode",
+        "コンテキストウィンドウ",
+        "LLM"
+      ],
+      "fetched_at": "2026-07-13T07:52:45.423568+09:00",
+      "summary": "AnthropicのClaude CodeとMetaのOpenCodeのコンテキストウィンドウサイズに関する比較記事です。Claude Codeは33,000トークン、OpenCodeは7,000トークンをプロンプト読み込み前に処理できることが示されています。これは、より長いコードベースやドキュメント全体を一度に分析・理解する能力に差があることを意味し、大規模なコード解析や複雑なプログラミングタスクにおけるモデルの適用性に影響を与えます。"
+    },
+    {
+      "id": "hatena_08339",
+      "source": "hatena",
+      "title": "前の客のATM暗証番号も丸見え…日本でも普及し始めた「スマートグラス」を使用してみた結果。“新型盗撮”に悪用の可能性も | 日刊SPA!",
+      "url": "https://nikkan-spa.jp/2172263",
+      "score": 264,
+      "comments": 0,
+      "raw_description": "今年に入り、新たなデバイスが台頭しつつある。それはスマートグラスだ。 5月下旬、レイバンと米メタが共同開発した「Ray-Ban Meta（第2世代）」が国内で正式発売された。カメラ機能が搭載され、メガネをかけたまま通話や撮影ができ、同時通訳も可能だ。他ブランドの機種も続々と発売され、家電量販店には専用コーナーが...",
+      "tags": [
+        "スマートグラス",
+        "プライバシー",
+        "セキュリティ",
+        "ウェアラブルデバイス"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658340+09:00",
+      "summary": "日本国内でスマートグラスの普及が進んでおり、特にカメラ機能搭載モデルが注目されています。これらのデバイスは、通話や撮影、同時通訳といった機能をメガネ型フォームファクタで提供します。しかし、カメラ機能の悪用によるプライバシー侵害、例えば他人のATM暗証番号の盗撮といった新たなセキュリティリスクも指摘されており、技術の利便性と倫理的な課題の両面からの検討が必要です。"
+    },
+    {
+      "id": "hn_48884853",
+      "source": "hackernews",
+      "title": "Since Chromium 148, Math.tanh is now fingerprintable to link underlying OS",
+      "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "score": 158,
+      "comments": 66,
+      "raw_description": "",
+      "tags": [
+        "Chromium",
+        "Math.tanh",
+        "フィンガープリンティング",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.869995+09:00",
+      "summary": "Chromium 148以降、Math.tanh関数の実装が変更され、オペレーティングシステムに依存するようになったため、フィンガープリンティングに利用される可能性が出てきました。この変更により、WebサイトはユーザーのOSを特定しやすくなり、プライバシーへの懸念が生じています。開発者は、この新しいフィンガープリンティング手法への対策を検討する必要があります。"
+    },
+    {
+      "id": "hn_48884322",
+      "source": "hackernews",
+      "title": "Irish datacenters now guzzle 23% of the country's electricity",
+      "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "score": 149,
+      "comments": 98,
+      "raw_description": "",
+      "tags": [
+        "データセンター",
+        "電力消費",
+        "アイルランド",
+        "エネルギー問題"
+      ],
+      "fetched_at": "2026-07-13T07:52:45.807658+09:00",
+      "summary": "アイルランドのデータセンターが国内電力消費の23%を占めるようになり、電力供給への大きな負担となっています。この増加は、AIやクラウドコンピューティングの需要拡大によるものですが、再生可能エネルギーへの移行が追いついていない現状を示唆しています。電力インフラへの投資と、データセンターのエネルギー効率改善が喫緊の課題となっています。"
+    },
+    {
+      "id": "hatena_88292",
+      "source": "hatena",
+      "title": "有名エンジニアの .claude/skills 公開ラッシュから学ぶ、良い Claude Code Skills の書き方｜テック太郎",
+      "url": "https://note.com/ai_eng_tech/n/n1ef4d57df219",
+      "score": 127,
+      "comments": 0,
+      "raw_description": "有名エンジニアの .claude/skills 公開ラッシュから学ぶ、良い Claude Code Skills の書き方 いま GitHub で、有名エンジニアが自分の .claude ディレクトリを丸ごと公開する動きが続いています。 Total TypeScript の Matt Pocock が公開した mattpocock/skills は 16万スター、Google Chrome チームの Addy Osmani に...",
+      "tags": [
+        "Claude Code Skills",
+        "GitHub",
+        "開発者ツール",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658346+09:00",
+      "summary": "GitHub上で、著名なエンジニアたちが自身のClaude Code Skillsを公開する動きが活発化しています。特にMatt Pocock氏の \"mattpocock/skills\" は16万スターを獲得するなど注目を集めており、これはClaude Code Skillsが開発者のワークフロー効率化に大きく貢献する可能性を示唆しています。この記事では、これらの公開事例から、効果的なClaude Code Skillsの設計・実装方法について解説し、開発者コミュニティにおけるベストプラクティスを共有することを目指しています。"
+    },
+    {
+      "id": "hatena_27789",
+      "source": "hatena",
+      "title": "IT業界入って分かった、そりゃ衰退するわこんなん",
+      "url": "https://anond.hatelabo.jp/20260712172838",
+      "score": 126,
+      "comments": 0,
+      "raw_description": "6歳くらいの頃からプログラミングスクール入ってRuby弄ってたくらいには子供のころからCS一本で、 当然大学も情報系でガッツリ専門的な分野研究して、専門は人工知能とビッグデータ解析とかなんだけど、 周りの奴らと違って家自体は普通の家庭だったので、最初っから海外系を就職先に選べなくて、国内からキャリア積むし...",
+      "tags": [
+        "IT業界",
+        "キャリア",
+        "AI",
+        "ビッグデータ"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658331+09:00",
+      "summary": "この記事は、幼少期からプログラミングに触れ、大学でAIやビッグデータ解析を専門とした著者が、IT業界の現状に対して抱いた疑問を述べています。国内のIT企業でのキャリア形成を余儀なくされた経験から、業界の構造や人材育成に対する課題を指摘し、それが業界の衰退につながるのではないかという懸念を示唆しています。"
+    },
+    {
+      "id": "hn_48884395",
+      "source": "hackernews",
+      "title": "Tiny Emulators",
+      "url": "https://floooh.github.io/tiny8bit-preview/index.html",
+      "score": 98,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [
+        "Rust",
+        "エミュレーター",
+        "フレームワーク",
+        "組み込み"
+      ],
+      "fetched_at": "2026-07-13T07:52:45.051166+09:00",
+      "summary": "Tiny Emulatorsは、Rustで書かれた軽量なエミュレーター開発フレームワークです。CPU、メモリ、周辺機器などの基本的なエミュレーションコンポーネントを抽象化し、開発者が独自のシステムエミュレーターを効率的に構築できるように設計されています。これにより、レトロゲーム機や組み込みシステムの開発・デバッグ・解析といった用途で、迅速なプロトタイピングと高度なカスタマイズが可能になります。"
+    },
+    {
+      "id": "hn_48882716",
+      "source": "hackernews",
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "score": 86,
+      "comments": 19,
+      "raw_description": "",
+      "tags": [
+        "AIエージェント",
+        "GPT-5.6",
+        "LLM",
+        "パフォーマンス向上"
+      ],
+      "fetched_at": "2026-07-13T07:52:45.605267+09:00",
+      "summary": "あるプロダクションAIエージェントがGPT-5.6へ移行され、処理速度が2.2倍向上し、コストが27%削減されたことが報告されました。この移行は、最新の大規模言語モデル（LLM）が、既存のAIシステムにおけるパフォーマンスとコスト効率の課題を解決する可能性を示唆しています。特に、推論時間の短縮と運用コストの低減は、AIエージェントの実用性とスケーラビリティを向上させる上で重要な進歩と言えます。"
+    },
+    {
+      "id": "hatena_18162",
+      "source": "hatena",
+      "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版） - Qiita",
+      "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a?utm_campaign=popular_items&utm_medium=twitter&utm_source=dlvr.it",
+      "score": 84,
+      "comments": 0,
+      "raw_description": "はじめに はじめまして、新卒エンジニアのfuyunokiです。 この度、新卒として入社した会社でClaudeを使えるようになったので、自分用に調べたことをまとめてみました。せっかくなので記事として公開します。同じように「会社でClaude Code使えるようになったけど何から手を付ければ…」となっている新卒・若手エンジニア...",
+      "tags": [
+        "Claude Code",
+        "AIアシスタント",
+        "新卒エンジニア",
+        "開発効率化"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658314+09:00",
+      "summary": "新卒エンジニア向けに、Claude Codeの基本的な使い方と活用法をまとめたQiita記事です。Claude Codeは、コード生成やレビュー、デバッグなどの開発プロセスを支援するAIアシスタントであり、新入社員が業務で活用する際の第一歩として役立ちます。この記事を読むことで、Claude Codeの概要を理解し、実際の開発業務での具体的な利用イメージを持つことができます。"
+    },
+    {
+      "id": "hatena_16162",
+      "source": "hatena",
+      "title": "情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話",
+      "url": "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187",
+      "score": 73,
+      "comments": 0,
+      "raw_description": "はじめに 私は国内の金融機関で、社内の情報システム・セキュリティに関わる業務をしています。この記事では、情報漏洩リスクに人一倍敏感な金融機関という環境で、Claude・Gemini・ChatGPTという複数の生成AIサービスを全社導入するに至った経緯と、その際にどうリスクを整理したかをまとめます。 「生成AIを導入したい...",
+      "tags": [
+        "生成AI",
+        "金融機関",
+        "セキュリティ",
+        "情報漏洩対策"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658372+09:00",
+      "summary": "国内の金融機関が、情報漏洩リスクに配慮しつつ、Claude、Gemini、ChatGPTの3つの生成AIサービスを全社導入した経緯とリスク整理について解説しています。金融機関という高いセキュリティ要求を持つ環境下で、これらの生成AIをどのように導入し、潜在的なリスクを管理したかが焦点です。本記事は、機密情報を取り扱う業界における生成AI導入の現実的なアプローチと課題解決のヒントを提供します。"
+    },
+    {
+      "id": "hn_48883090",
+      "source": "hackernews",
+      "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+      "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+      "score": 70,
+      "comments": 59,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-13T07:52:46.234147+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48827126",
+      "source": "hackernews",
+      "title": "So you want to learn physics (second edition, 2021)",
+      "url": "https://www.susanrigetti.com/physics",
+      "score": 32,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [
+        "物理学",
+        "入門書",
+        "古典力学",
+        "量子力学"
+      ],
+      "fetched_at": "2026-07-13T07:52:45.231373+09:00",
+      "summary": "本書は、物理学の学習を始める人向けに、2021年版として改訂された入門書です。古典力学から量子力学、相対性理論まで、物理学の基本的な概念を網羅的に解説しています。数学的な厳密さと直感的な理解のバランスを取りながら、物理学の魅力を伝えることを目指しており、初学者にとって物理学の世界への扉を開くための良質なリソースとなります。"
+    },
+    {
+      "id": "hatena_76821",
+      "source": "hatena",
+      "title": "AIにGitHubリポジトリを認識させるなら「階層構造＋index.md」と「Obsidian形式」どっちが速くて安くて正確か",
+      "url": "https://zenn.dev/yamitake/articles/github-ai-context-structure-vs-obsidian",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "はじめに 「ドキュメントやナレッジをAIに読ませたい」というニーズが一気に増えました。Claude Code のようなエージェントにリポジトリを丸ごと渡す、RAG の知識ベースとして食わせる、社内 Wiki をそのまま参照させる——用途はさまざまですが、そこで必ず出てくる問いがあります。 ディレクトリがきれいに整理されてい...",
+      "tags": [
+        "AI",
+        "GitHub",
+        "RAG",
+        "ナレッジマネジメント"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658366+09:00",
+      "summary": "AIにGitHubリポジトリの情報を効率的に認識させるための手法として、「階層構造＋index.md」と「Obsidian形式」の比較検証が行われました。この比較では、速度、コスト、正確性の観点から、どちらの形式がAIによる情報抽出や理解に適しているかが評価されています。リポジトリの構造化がAIのナレッジ活用において重要であることを示唆する結果が得られています。"
+    },
+    {
+      "id": "hatena_60300",
+      "source": "hatena",
+      "title": "年間3ケタ近く面接するんだが、技術職でも見た目はめちゃくちゃ重要。男性は特に「ふわふわマッシュヘアにダブついたズボン」は本当に面接を通らない",
+      "url": "https://togetter.com/li/2719839",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "Madmax @madmax99993 ワイ年間2ケタ近い面接するんだが、見た目はめちゃくちゃ重要。技術職でも。女性は面接時にいわゆる見た目ハックが上手い。一方男性特に新卒が壊滅的だなとは思う。ふわふわマッシュヘアにダブついたズボンはホント面接通らない。ワイの好みではなく相当数なNを見ても明らかに偏るんだよね。↓ 2026-...",
+      "tags": [
+        "採用面接",
+        "技術職",
+        "身だしなみ",
+        "就職活動"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658353+09:00",
+      "summary": "技術職の採用面接において、応募者の見た目が合否に大きく影響することが、年間多数の面接を行う経験者から指摘されています。特に男性、新卒においては、いわゆる「ふわふわマッシュヘア」や「だぶついたズボン」といった服装・髪型が、技術力とは別の要因で不採用につながるケースが多いとのことです。これは個人の好みに留まらず、多数の選考結果から見ても明らかに見られる傾向であると述べられています。"
+    },
+    {
+      "id": "hatena_30872",
+      "source": "hatena",
+      "title": "[石川温の「スマホ業界 Watch」] ドコモが仕掛ける金融の反転攻勢、脳裏をよぎる“5つの不安”",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2124380.html",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "ドコモ",
+        "金融事業",
+        "通信キャリア",
+        "ビジネス戦略"
+      ],
+      "fetched_at": "2026-07-13T07:52:44.658360+09:00",
+      "summary": "NTTドコモが金融事業への本格参入を表明し、既存の金融機関との連携や新たなサービス展開を進めています。これにより、通信事業で培った顧客基盤とデータを活用し、決済、融資、保険など多岐にわたる金融サービスで収益源の多角化を図る狙いです。しかし、金融事業への新規参入は、規制対応、セキュリティリスク、既存プレイヤーとの競争激化など、乗り越えるべき課題も多く、その成否が注目されます。"
+    },
+    {
+      "id": "reddit_34835",
+      "source": "reddit",
+      "title": "Prefer STRICT tables in SQLite",
+      "url": "https://www.reddit.com/r/programming/comments/1uuge0p/prefer_strict_tables_in_sqlite/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitousa\"> /u/mitousa </a> <br /> <span><a href=\"https://evanhahn.com/prefer-strict-tables-in-sqlite/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uuge0p/prefer_strict_tables_in_sqlite/\">[comments]</a></span>",
+      "tags": [
+        "SQLite",
+        "データベース",
+        "データ型",
+        "厳密性"
+      ],
+      "fetched_at": "2026-07-13T07:52:46.506107+09:00",
+      "summary": "SQLiteでは、デフォルトでテーブル定義に明示的な型制約がない場合、柔軟な型システムが適用されます。しかし、`STRICT`キーワードを使用することで、テーブル定義時に各カラムの型を厳密に定義し、不正なデータ型が挿入されるのを防ぐことができます。これにより、データの整合性が向上し、予期せぬエラーのリスクを低減できるため、特に大規模なアプリケーションやデータ品質が重要な場合に推奨されます。"
+    },
+    {
+      "id": "reddit_54157",
+      "source": "reddit",
+      "title": "C3 0.8.2 A modest improvement",
+      "url": "https://www.reddit.com/r/programming/comments/1uuaukq/c3_082_a_modest_improvement/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nuoji\"> /u/Nuoji </a> <br /> <span><a href=\"https://c3-lang.org/blog/0_8_2_a_modest_improvement/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uuaukq/c3_082_a_modest_improvement/\">[comments]</a></span>",
+      "tags": [
+        "C3",
+        "コンパイラ",
+        "アップデート",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-13T07:52:46.506127+09:00",
+      "summary": "C3コンパイラがバージョン0.8.2にアップデートされました。このリリースでは、主にバグ修正とパフォーマンス改善に焦点が当てられており、特にメモリ管理の効率化やコンパイル速度の向上が図られています。これらの改善は、C3言語の安定性と実用性を高め、より大規模なプロジェクトでの利用を促進する上で重要です。"
+    },
+    {
+      "id": "reddit_52633",
+      "source": "reddit",
+      "title": "A peek into Reddit's anti-spam internals",
+      "url": "https://www.reddit.com/r/programming/comments/1uuskff/a_peek_into_reddits_antispam_internals/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NXGZ\"> /u/NXGZ </a> <br /> <span><a href=\"https://lyra.horse/blog/2026/06/reddit-spam-internals/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uuskff/a_peek_into_reddits_antispam_internals/\">[comments]</a></span>",
+      "tags": [
+        "Reddit",
+        "スパム対策",
+        "機械学習",
+        "コンテンツモデレーション"
+      ],
+      "fetched_at": "2026-07-13T07:52:46.506135+09:00",
+      "summary": "Redditは、スパム投稿を検出しブロックするために、機械学習とルールベースのアプローチを組み合わせた高度なシステムを使用しています。このシステムは、ユーザー行動の分析、コンテンツの評価、および既知のスパムパターンとの照合を通じて機能します。これにより、プラットフォームの健全性を維持し、ユーザーエクスペリエンスを向上させています。この内部構造の理解は、大規模なオンラインコミュニティにおけるスパム対策の課題と解決策を学ぶ上で重要です。"
+    },
+    {
+      "id": "reddit_64694",
+      "source": "reddit",
+      "title": "Exploiting PackageInstaller parsing: A 974-byte modern Android 14 PoC.",
+      "url": "https://www.reddit.com/r/programming/comments/1uuop01/exploiting_packageinstaller_parsing_a_974byte/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been exploring the absolute structural floor of the Android APK format. By leveraging <code>hasCode=&quot;false&quot;</code> and surgically optimizing the ASN.1 DER encoding of the V2 signature, I’ve managed to get a compliant Android 14 app down to 974 bytes.</p> <p>The system treats it as a first-class app, and it’s fully installable on a stock Android 14 device. It’s an exercise in how much the <code>PackageManager</code> trusts the headers versus what i",
+      "tags": [
+        "Android",
+        "APK",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "fetched_at": "2026-07-13T07:52:46.506142+09:00",
+      "summary": "Android 14において、`hasCode=\"false\"`属性とASN.1 DERエンコーディングの最適化を組み合わせることで、974バイトという極小サイズのAPKを作成する手法が実証されました。この手法は、システムから正規のアプリとして認識され、Android 14上でインストール可能です。この発見は、Androidアプリの構造的な制約を理解し、リソース効率を極限まで追求する上で重要な示唆を与えます。"
+    }
+  ]
+}
