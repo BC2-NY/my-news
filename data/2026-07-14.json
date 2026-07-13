@@ -1,0 +1,329 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T07:57:20.151084+09:00",
+  "articles": [
+    {
+      "id": "hn_48894752",
+      "source": "hackernews",
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "score": 390,
+      "comments": 166,
+      "raw_description": "",
+      "tags": [
+        "SpeechAnalyzer",
+        "Apple",
+        "音声認識",
+        "macOS Sonoma"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.820599+09:00",
+      "summary": "Appleは、macOS Sonomaに搭載される新しいSpeechAnalyzer APIを発表しました。このAPIは、音声認識の精度と効率を向上させることを目的としており、既存のWhisperモデルやApple自身の以前のモデルと比較して、そのパフォーマンスがベンチマークされています。これにより、開発者はより高度な音声処理機能をアプリケーションに統合できるようになり、アクセシビリティや音声コマンドの精度向上が期待されます。"
+    },
+    {
+      "id": "hn_48897945",
+      "source": "hackernews",
+      "title": "Climate.gov was destroyed. Open data saved it",
+      "url": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
+      "score": 344,
+      "comments": 137,
+      "raw_description": "",
+      "tags": [
+        "open data",
+        "data recovery",
+        "climate data",
+        "resilience"
+      ],
+      "fetched_at": "2026-07-14T07:57:19.863872+09:00",
+      "summary": "Climate.gov, a crucial platform for climate data, experienced a catastrophic data loss event. The disaster recovery plan, which relied on open data principles and accessible archives, proved instrumental in restoring the site. This incident highlights the critical importance of open data initiatives for resilience and the preservation of vital scientific information in the face of unforeseen technical failures."
+    },
+    {
+      "id": "hn_48896665",
+      "source": "hackernews",
+      "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
+      "url": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+      "score": 215,
+      "comments": 102,
+      "raw_description": "",
+      "tags": [
+        "クロスプラットフォーム開発",
+        "React Native",
+        "Flutter",
+        "SwiftUI"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.656024+09:00",
+      "summary": "この記事では、Xcodeを使用せずにMacおよびiOSアプリケーションを構築および配布する方法について解説しています。具体的には、クロスプラットフォーム開発フレームワークであるReact NativeやFlutter、あるいはSwiftUIとコマンドラインツールを組み合わせるアプローチを紹介しています。これにより、開発者はより柔軟な開発環境を選択でき、特定のプラットフォームに依存しない効率的なアプリ開発とデプロイメントが可能になります。"
+    },
+    {
+      "id": "hn_48893639",
+      "source": "hackernews",
+      "title": "The art and engineering of Sega CD Silpheed",
+      "url": "https://fabiensanglard.net/silpheed/index.html",
+      "score": 199,
+      "comments": 38,
+      "raw_description": "",
+      "tags": [
+        "Sega CD",
+        "Silpheed",
+        "ゲーム開発",
+        "グラフィックエンジニアリング"
+      ],
+      "fetched_at": "2026-07-14T07:57:19.692469+09:00",
+      "summary": "Sega CD版『Silpheed』は、当時の技術的制約の中で、CD-ROMの容量を活かした高品質なグラフィックとサウンドを実現した点で特筆すべき作品です。特に、背景にフルアニメーションを採用し、スプライトと背景のレイヤーを巧みに組み合わせることで、奥行きのある表現と滑らかな動きを両立させています。これは、限られたハードウェア性能でリッチなゲーム体験を提供するための、独創的なエンジニアリングとアートワークの融合事例と言えます。"
+    },
+    {
+      "id": "hatena_34724",
+      "source": "hatena",
+      "title": "AI使いすぎるとプロジェクトマネジメント力が低下する｜すぅ | AI駆動PM",
+      "url": "https://note.com/suh_sunaneko/n/n98c16a0479ba",
+      "score": 116,
+      "comments": 0,
+      "raw_description": "「AIを使いすぎると、プロジェクトマネジメント力が落ちる。」 AI漬けの育休生活から現場に戻ってきて、私が実感したことです。 この記事では、なぜAI依存でPM力が落ちるのかを整理していきます。 AI漬けの育休明け、数十人規模の現場に戻って感じた不安私は直近の半年間、育休を取っていました。ただ、この期間もプロジ...",
+      "tags": [
+        "AI",
+        "プロジェクトマネジメント",
+        "スキル低下",
+        "AI依存"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452696+09:00",
+      "summary": "AIツールを多用した育児休業明けのプロジェクトマネージャーが、現場復帰後にプロジェクトマネジメント能力の低下を実感した経験を共有する記事です。AIへの過度な依存が、問題解決能力や状況判断能力といったPMとしての本質的なスキルを低下させるメカニズムを解説しています。AIを効果的に活用しつつも、自身のスキル維持・向上のバランスを取ることの重要性を指摘しています。"
+    },
+    {
+      "id": "hn_48896600",
+      "source": "hackernews",
+      "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
+      "url": "https://cakehonolulu.github.io/linux-on-32x/",
+      "score": 77,
+      "comments": 17,
+      "raw_description": "",
+      "tags": [
+        "Linux",
+        "Sega 32X",
+        "組み込みシステム",
+        "OS移植"
+      ],
+      "fetched_at": "2026-07-14T07:57:19.522806+09:00",
+      "summary": "Sega 32X上でLinuxを動作させる試みについて解説しています。このプロジェクトは、ハードウェア同期プリミティブに依存しない方法でLinuxカーネルを移植することを目指しており、組み込みシステム開発におけるリソース制約下でのOS移植の課題と、それを克服するためのアプローチを示唆しています。特に、低レベルハードウェアとのインタラクションにおける同期メカニズムの代替手段を探求する点で興味深い試みです。"
+    },
+    {
+      "id": "hn_48898134",
+      "source": "hackernews",
+      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
+      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
+      "score": 62,
+      "comments": 45,
+      "raw_description": "",
+      "tags": [
+        "Linux",
+        "Rust",
+        "カーネル",
+        "QEMU"
+      ],
+      "fetched_at": "2026-07-14T07:57:19.185694+09:00",
+      "summary": "Linux 0.11カーネルが、現代的なRust言語で再実装されました。このプロジェクトは、Rustのメモリ安全性と並行処理の機能を利用して、オリジナルのCコードの動作を再現することを目指しています。QEMUエミュレータ上で正常に起動することを確認しており、レガシーOSの現代的な再実装におけるRustの有用性を示す事例となります。"
+    },
+    {
+      "id": "hatena_53144",
+      "source": "hatena",
+      "title": "DevOpsとは何だったのか",
+      "url": "https://mizzy.org/blog/2026/07/13/2/",
+      "score": 59,
+      "comments": 0,
+      "raw_description": "SRE NEXT 2026の記事で、maruさん、ゆううきさん、Moriさんとの立ち話から、こんなポストをした、ということを書いた。 https://t.co/mGZbILmQRK にある「開発の時系列上の役割と、技術レイヤーの話が混ざっている」という話、maruさん、yuukiさん、moriさんと立ち話してた時に出た話で、DevOpsもそうだよね、という話に...",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "ソフトウェア開発",
+        "運用"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452724+09:00",
+      "summary": "SRE NEXT 2026での議論から、DevOpsの概念が開発の時系列上の役割と技術レイヤーの話と混同されている現状が指摘されました。この混同は、DevOpsの本来の目的である開発と運用の連携による迅速な価値提供を曖昧にする可能性があります。技術者は、DevOpsを単なるツール導入ではなく、組織文化やプロセス全体の変革として捉え直すことが重要です。"
+    },
+    {
+      "id": "hatena_27946",
+      "source": "hatena",
+      "title": "Cloudflare Workers は AI 搭載の Slack ボットを簡単に作れていいぞ - JX通信社エンジニアブログ",
+      "url": "https://tech.jxpress.net/entry/2026/07/13/113000",
+      "score": 56,
+      "comments": 0,
+      "raw_description": "こんにちは、JX通信社で CTO をしている小笠原(@yamitzky)です。 JX 通信社の Slack では、プレスリリースへの反響や、弊社の情勢調査事業に関する発信や、ニュースアプリの「NewsDigest（ニュースダイジェスト）」についての言及を監視するチャンネルがあります。皆さんの会社でも、広報部門が自社の反響を見ているので...",
+      "tags": [
+        "Cloudflare Workers",
+        "Slackボット",
+        "AI",
+        "サーバーレス"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452741+09:00",
+      "summary": "JX通信社はCloudflare Workersを活用し、AIを搭載したSlackボットを開発した。このボットは、プレスリリースへの反響や情勢調査事業、NewsDigestアプリに関する言及をSlackチャンネルで監視する。Cloudflare Workersのサーバーレスアーキテクチャにより、スケーラビリティと低コストを実現し、リアルタイムでの情報収集と分析を効率化している点が重要である。"
+    },
+    {
+      "id": "hatena_77824",
+      "source": "hatena",
+      "title": "AI駆動開発_ワークフロー設計",
+      "url": "https://speakerdeck.com/mae616/aiqu-dong-kai-fa-wakuhuroshe-ji",
+      "score": 47,
+      "comments": 0,
+      "raw_description": "Claude Codeで考える AI駆動開発のしくみづくりワークショップ　セッション",
+      "tags": [
+        "AI駆動開発",
+        "ワークフロー設計",
+        "Claude Code",
+        "開発効率化"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452729+09:00",
+      "summary": "本ワークショップでは、Claude Codeを活用したAI駆動開発のワークフロー設計に焦点を当てています。AIを開発プロセスに組み込むことで、コード生成、テスト、デバッグなどのタスクを効率化し、開発サイクルの短縮を目指します。これにより、開発者はより創造的で戦略的な業務に集中できるようになり、生産性の向上が期待されます。"
+    },
+    {
+      "id": "hn_48898154",
+      "source": "hackernews",
+      "title": "Show HN: YouTube Guitar Tab Parser",
+      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+      "score": 44,
+      "comments": 31,
+      "raw_description": "",
+      "tags": [
+        "YouTube",
+        "ギター",
+        "タブ譜",
+        "音楽学習"
+      ],
+      "fetched_at": "2026-07-14T07:57:19.019421+09:00",
+      "summary": "YouTubeのギタータブ動画から、自動的にタブ譜を抽出するツールが公開されました。このツールは、動画内の演奏を解析し、ギターのフレットボード上の押弦情報を特定することで、学習者がコードやフレーズを効率的に習得するのを支援します。これにより、手作業でのタブ譜作成の手間が省け、音楽学習のアクセシビリティが向上します。"
+    },
+    {
+      "id": "hatena_07145",
+      "source": "hatena",
+      "title": "ニチレイ、不正アクセスでシステム障害　冷凍食品の出荷業務に影響 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC1383Z0T10C26A7000000/",
+      "score": 28,
+      "comments": 0,
+      "raw_description": "ニチレイは13日、不正アクセスによるシステム障害が発生したと発表した。冷蔵倉庫の入出庫業務や冷凍食品の出荷業務に影響が生じているといい、影響の範囲や程度を調査している。同社によると、現時点で個人情報や顧客データが",
+      "tags": [],
+      "fetched_at": "2026-07-14T07:57:18.452746+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_23681",
+      "source": "hatena",
+      "title": "densha — study Japanese in a living voxel Tokyo",
+      "url": "https://jivx.com/densha",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "densha — ride a living voxel Tokyo and study JapaneseRide the Yamanote line through a voxel Tokyo synced to Japan's real clock, weather, and seasons. A lofi bed plays while N5 sentences are read aloud and drift by as subtitles — an ambient Japanese study room you just press play into. p�# ��",
+      "tags": [
+        "日本語学習",
+        "教育アプリ",
+        "ボクセルアート",
+        "没入型学習"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452717+09:00",
+      "summary": "「densha」は、日本の実際の時刻、天気、季節と同期したボクセルアートの東京を山手線で走破しながら日本語を学習できるアプリケーションです。N5レベルの日本語文が読み上げられ、字幕として表示されるため、リラックスした環境で日本語のリスニングとリーディングの練習が可能です。このアプリは、学習者が手軽に日本語学習に取り組める、没入感のある学習体験を提供します。"
+    },
+    {
+      "id": "hn_48899529",
+      "source": "hackernews",
+      "title": "Claude is just Mr. Meeseeks",
+      "url": "https://github.com/thephw/claude-meseeks",
+      "score": 13,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [
+        "Claude AI",
+        "AIアシスタント",
+        "自然言語処理",
+        "タスク実行"
+      ],
+      "fetched_at": "2026-07-14T07:57:19.355414+09:00",
+      "summary": "Claude AIは、ユーザーの指示に応じてタスクを実行する「Mr. Meeseeks」のような存在として説明されています。この比喩は、Claudeが単に質問に答えるだけでなく、具体的な行動や創造的なアウトプットを生成する能力を持っていることを示唆しています。この汎用性は、AIアシスタントとしてのClaudeの応用範囲の広さと、ユーザーの多様なニーズに応える可能性を強調しています。"
+    },
+    {
+      "id": "hatena_96749",
+      "source": "hatena",
+      "title": "QWERTY物理キーボード搭載の電子ペーパーPDA「PocketMage」登場！電池7日持ち3万円から - すまほん!!",
+      "url": "https://smhn.info/202607-pocketmage-epaper-pda-crowdfunding-launch-30000-yen",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "すまほん!! » ニュース » 噂・リーク情報 » QWERTY物理キーボード搭載の電子ペーパーPDA「PocketMage」登場！電池7日持ち3万円から QWERTYキーボード搭載の小型端末「PocketMage」のクラウドファンディングがCrowd Supplyで始まったようです。 価格はDIYキットが185ドル（約3万円）、組み立て済みが235ドル（約3万8000円...",
+      "tags": [
+        "PDA",
+        "電子ペーパー",
+        "QWERTYキーボード",
+        "ガジェット"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452735+09:00",
+      "summary": "QWERTY物理キーボードを搭載した電子ペーパーPDA「PocketMage」が登場しました。このデバイスは、長時間のバッテリー持続時間（最大7日間）と、約3万円からの手頃な価格帯が特徴です。開発者向けのDIYキットも用意されており、カスタマイズや自作に興味のあるユーザーにもアピールします。電子ペーパーディスプレイは、読書やコーディングなど、長時間の作業に適しており、従来のスマートフォンとは異なる利用体験を提供します。"
+    },
+    {
+      "id": "hatena_02931",
+      "source": "hatena",
+      "title": "中学校でのスマホ禁止ルールは生徒の生活の質や健康状態を大幅に改善することはないとの研究結果",
+      "url": "https://gigazine.net/news/20260713-school-smartphone-bans-mental-health/",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "各国では学校でのスマートフォン使用を禁止する動きが強まっており、これにより生徒の集中力やメンタルヘルスが改善すると期待されています。ところが新たな研究では、中学校におけるスマートフォン禁止ルールは、生徒の生活の質や健康状態に大きな影響をもたらさないとの結果が示されました。 Health economics analysi...",
+      "tags": [
+        "スマートフォン",
+        "教育",
+        "研究",
+        "健康状態"
+      ],
+      "fetched_at": "2026-07-14T07:57:18.452752+09:00",
+      "summary": "中学校におけるスマートフォン禁止ルールが、生徒の生活の質や健康状態に大きな影響をもたらさないとする研究結果が発表されました。多くの国で集中力やメンタルヘルスの改善を期待して学校でのスマホ利用禁止が進められていますが、本研究はそうした期待に疑問を投げかけるものです。この結果は、教育現場におけるスマホ利用に関する政策決定において、より多角的な視点からの検討が必要であることを示唆しています。"
+    },
+    {
+      "id": "reddit_70280",
+      "source": "reddit",
+      "title": "VINs: The Encoding Stamped Into Steel",
+      "url": "https://www.reddit.com/r/programming/comments/1uvb8bc/vins_the_encoding_stamped_into_steel/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bezomaxo\"> /u/bezomaxo </a> <br /> <span><a href=\"https://cargurus.dev/2026/04/29/vins-the-encoding-stamped-into-steel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uvb8bc/vins_the_encoding_stamped_into_steel/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-14T07:57:20.151027+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_13001",
+      "source": "reddit",
+      "title": "Cloudflare Identifies Race Condition in hyper’s HTTP/1 Implementation",
+      "url": "https://www.reddit.com/r/programming/comments/1uvfzlz/cloudflare_identifies_race_condition_in_hypers/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok_Stomach6651\"> /u/Ok_Stomach6651 </a> <br /> <span><a href=\"https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uvfzlz/cloudflare_identifies_race_condition_in_hypers/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-14T07:57:20.151046+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_72280",
+      "source": "reddit",
+      "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+      "url": "https://www.reddit.com/r/programming/comments/1uvgdwm/ghostlock_a_stackuaf_that_has_existed_in_all/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitousa\"> /u/mitousa </a> <br /> <span><a href=\"https://nebusec.ai/research/ionstack-part-2/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uvgdwm/ghostlock_a_stackuaf_that_has_existed_in_all/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-14T07:57:20.151053+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_54420",
+      "source": "reddit",
+      "title": "Converting colors in JS at 6 billion operations per second",
+      "url": "https://www.reddit.com/r/programming/comments/1uve7m2/converting_colors_in_js_at_6_billion_operations/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Either_Collection349\"> /u/Either_Collection349 </a> <br /> <span><a href=\"https://dkryaklin.com/blog/colordx-gpu\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uve7m2/converting_colors_in_js_at_6_billion_operations/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-14T07:57:20.151059+09:00",
+      "summary": ""
+    }
+  ]
+}
