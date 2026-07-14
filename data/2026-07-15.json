@@ -1,0 +1,341 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T07:58:29.668951+09:00",
+  "articles": [
+    {
+      "id": "hn_48869989",
+      "source": "hackernews",
+      "title": "Your 'app' could have been a webpage (so I fixed it for you)",
+      "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
+      "score": 665,
+      "comments": 416,
+      "raw_description": "",
+      "tags": [
+        "Web開発",
+        "PWA",
+        "ネイティブアプリ",
+        "UX"
+      ],
+      "fetched_at": "2026-07-15T07:58:29.156398+09:00",
+      "summary": "この記事は、多くのネイティブアプリが本来ウェブページで十分な機能を提供しているという問題提起を行っています。開発者がウェブ技術を活用することで、クロスプラットフォーム対応やメンテナンス性の向上、そしてユーザー体験の改善が期待できることを示唆しています。特に、PWA（Progressive Web Apps）のような技術は、ネイティブアプリに近い体験をウェブ上で実現する可能性を秘めており、開発リソースの最適化に貢献します。"
+    },
+    {
+      "id": "hn_48910545",
+      "source": "hackernews",
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "score": 334,
+      "comments": 118,
+      "raw_description": "",
+      "tags": [
+        "大規模言語モデル",
+        "オンデバイスAI",
+        "量子化",
+        "モバイルコンピューティング"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.835445+09:00",
+      "summary": "Microsoftが開発したBonsai 27Bは、270億パラメータを持つ大規模言語モデルでありながら、スマートフォン上で動作することを可能にした画期的なモデルです。このモデルは、効率的なアーキテクチャと量子化技術を駆使することで、計算リソースが限られたデバイスでも高度な自然言語処理タスクを実行できるようになります。これにより、オフライン環境での高度なAI機能や、プライバシーを重視したオンデバイスAIアプリケーションの開発が加速することが期待されます。"
+    },
+    {
+      "id": "hatena_09738",
+      "source": "hatena",
+      "title": "GMO熊谷氏、在宅勤務廃止の理由説明--「タイピング数は確実に減少」「トータルでマイナス」",
+      "url": "https://japan.cnet.com/article/35250558/",
+      "score": 294,
+      "comments": 0,
+      "raw_description": "GMOインターネットグループの熊谷正寿代表は7月14日、在宅勤務の完全廃止に踏み切った理由を自身のXアカウントで説明した。在宅勤務では時間当たりのPCタイピング数がデータ上確実に減っているとし、「トータルで在宅勤務はマイナス」と判断したという。",
+      "tags": [
+        "在宅勤務",
+        "生産性",
+        "働き方改革",
+        "GMOインターネット"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534102+09:00",
+      "summary": "GMOインターネットグループは、在宅勤務を完全廃止する理由を説明しました。同社の代表取締役社長である熊谷正寿氏は、在宅勤務下では従業員一人あたりのPCタイピング数がデータ上減少しており、全体として生産性が低下していると指摘しています。この結果に基づき、同社は在宅勤務が事業全体にとってマイナスであると結論付けました。"
+    },
+    {
+      "id": "hn_48909785",
+      "source": "hackernews",
+      "title": "The Tower Keeps Rising",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "score": 292,
+      "comments": 143,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "LLM",
+        "モデルアーキテクチャ",
+        "スケーリング則"
+      ],
+      "fetched_at": "2026-07-15T07:58:28.492426+09:00",
+      "summary": "この記事は、AIモデルの進化における「タワー」構造の重要性について論じています。大規模言語モデル（LLM）の性能向上は、モデルサイズだけでなく、データ量と計算リソースのバランスが取れた「タワー」を構築することによって達成されると説明されています。このアプローチは、より効率的で高性能なAI開発の道筋を示唆しており、今後のAI研究開発における重要な指針となる可能性があります。"
+    },
+    {
+      "id": "hatena_50936",
+      "source": "hatena",
+      "title": "孫正義氏「人類が頂点の時代終わる」--AIの自己増殖「止めようと思っても止められない」",
+      "url": "https://japan.cnet.com/article/35250523/",
+      "score": 211,
+      "comments": 0,
+      "raw_description": "AIがAIを進化させる時代が到来へ 孫氏は、地球上の生命がバクテリアから現在の姿まで進化した背景には、「自己増殖」と「自己進化」という2つの仕組みがあったと説明した。 「もしバクテリアに自己増殖がなかったら、この地球上に生命体は増えていない。もし自己進化という機能が備わっていなかったら、バクテリアのまま...",
+      "tags": [
+        "AI",
+        "自己進化",
+        "自己増殖",
+        "孫正義"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534132+09:00",
+      "summary": "ソフトバンクグループの孫正義氏は、AIがAIを自己増殖・自己進化させる時代が到来し、人類が進化の頂点に立つ時代が終わると予測しています。これは、地球上の生命進化の根幹であった「自己増殖」と「自己進化」の仕組みが、AIにおいても実現されることを示唆しています。このAIの指数関数的な進化は、人類の理解や制御を超える可能性があり、社会や技術に大きな変革をもたらすと考えられます。"
+    },
+    {
+      "id": "hatena_29433",
+      "source": "hatena",
+      "title": "「舐められない人」になるための5つの技術｜もとやま",
+      "url": "https://note.com/yusuke_motoyama/n/nb141e431bc2f",
+      "score": 198,
+      "comments": 0,
+      "raw_description": "仕事をしていて、「ああ、この人はなんとなく押せば引いてくれる人だ」と相手に学習されてしまう瞬間ってあると思うんですよね。 一度そう認知されると、以降ずっと押される側に回り続けることになります。 会議で発言しても流される、雑な依頼が回ってくる、自分の意見が反映されない。 逆に、明らかに同じくらいの実力...",
+      "tags": [
+        "ビジネススキル",
+        "コミュニケーション",
+        "自己啓発",
+        "キャリア"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534123+09:00",
+      "summary": "本記事は、ビジネスシーンにおいて「舐められない」ための具体的な5つの技術を解説しています。相手に「押せば引く人」と認識されると、会議での発言が軽視されたり、不当な依頼を受けたりするリスクが生じます。そうした状況を回避し、自身の意見を通し、対等な関係を築くための実践的なアプローチが紹介されており、特に若手や経験の浅いビジネスパーソンにとって、キャリア形成における重要な示唆を与えます。"
+    },
+    {
+      "id": "hn_48910676",
+      "source": "hackernews",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "score": 181,
+      "comments": 73,
+      "raw_description": "",
+      "tags": [
+        "Cursor",
+        "0-day",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-15T07:58:28.715170+09:00",
+      "summary": "Cursorというソフトウェアに未修正の脆弱性（0-day）が存在し、攻撃者がこれを利用して任意のコードを実行できる可能性が指摘されています。この脆弱性は、特定の条件でファイルパスの検証が不十分なために発生します。開発者による修正パッチが提供されていない状況では、ユーザーは回避策として、脆弱性のある機能を無効化するか、信頼できないソースからのファイルを開かないといった対策を講じる必要があります。この事例は、ゼロデイ脆弱性に対する迅速な開示と、ユーザー側での積極的な防御策の重要性を示唆しています。"
+    },
+    {
+      "id": "hatena_70631",
+      "source": "hatena",
+      "title": "KFC、全店舗で品切れや臨時休業のおそれ　ネット注文も停止　原因はニチレイへの不正アクセス",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/14/news113.html",
+      "score": 155,
+      "comments": 0,
+      "raw_description": "日本ケンタッキー・フライド・チキンは7月14日、食材配送の委託先で不正アクセスによるシステム障害が発生し、KFC全店舗で商品の一部品切れや販売メニューの制限、営業時間の短縮、臨時休業が生じる可能性があると発表した。原因は、13日にニチレイ（東京都中央区）が公表した不正アクセスであると、ITmedia NEWSの取材...",
+      "tags": [
+        "サイバー攻撃",
+        "システム障害",
+        "サプライチェーン",
+        "事業継続計画"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534138+09:00",
+      "summary": "日本ケンタッキー・フライド・チキンは、食材配送を委託しているニチレイへの不正アクセスによるシステム障害の影響を受け、全店舗で品切れや臨時休業の可能性があると発表しました。この障害により、一部商品の販売制限や営業時間短縮も発生しています。サプライチェーン全体に影響が及ぶサイバー攻撃の深刻さを示す事例であり、事業継続計画（BCP）の重要性が改めて浮き彫りになりました。"
+    },
+    {
+      "id": "hn_48872401",
+      "source": "hackernews",
+      "title": "The largest available Minecraft world, totalling 15 TB",
+      "url": "https://2b2t.place/1million",
+      "score": 131,
+      "comments": 37,
+      "raw_description": "",
+      "tags": [
+        "Minecraft",
+        "15TB",
+        "ワールドデータ",
+        "ストレージ"
+      ],
+      "fetched_at": "2026-07-15T07:58:29.371575+09:00",
+      "summary": "Minecraftのワールドデータが15TBに達し、利用可能な最大規模となりました。この膨大なデータは、プレイヤーが作成した建築物、探索した地形、そしてゲーム内のあらゆる要素を含んでいます。この規模のワールドは、ストレージ技術の進歩と、コミュニティによる長期間にわたる創造活動の成果を示しており、今後のゲーム開発や大規模データ管理における新たな可能性を示唆しています。"
+    },
+    {
+      "id": "hn_48912175",
+      "source": "hackernews",
+      "title": "How I use HTMX with Go",
+      "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+      "score": 56,
+      "comments": 10,
+      "raw_description": "",
+      "tags": [
+        "Go",
+        "HTMX",
+        "Web開発",
+        "サーバーサイドレンダリング"
+      ],
+      "fetched_at": "2026-07-15T07:58:28.934801+09:00",
+      "summary": "この記事では、Go言語とHTMXを組み合わせて、サーバーサイドレンダリングを維持しつつ、リッチなユーザーインターフェースを構築する方法を紹介しています。HTMXは、HTML属性を追加するだけでAJAXリクエストを送信できるため、JavaScriptフレームワークへの依存を減らし、よりシンプルな開発体験を提供します。GoのWebフレームワークとHTMXを連携させることで、パフォーマンスと開発効率の両立が可能になります。"
+    },
+    {
+      "id": "hatena_57216",
+      "source": "hatena",
+      "title": "Claude Codeでレガシーシステムの刷新を進めた方法",
+      "url": "https://zenn.dev/knowledgesense/articles/67c61463d9c664",
+      "score": 48,
+      "comments": 0,
+      "raw_description": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 今回は、「Claude Code」を用いて、カナダの州政府が運用する大規模なシステムの刷新を進めた手法を紹介します。 サマリー システムを運用する上で常に課題になるのが、古くなったシステムの運用です。長年にわたって改修が積み重なり、全体像が把握しにくいま...",
+      "tags": [
+        "Claude Code",
+        "レガシーシステム",
+        "システム刷新",
+        "コード解析"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534151+09:00",
+      "summary": "株式会社ナレッジセンスは、カナダの州政府が運用する大規模なレガシーシステム刷新にClaude Codeを活用しました。長年の改修により全体像の把握が困難になったシステムに対し、Claude Codeを用いることで、コードの可読性向上や保守性の改善、そして将来的な拡張性の確保を目指しました。これにより、技術的負債の軽減と運用効率の向上を実現し、持続可能なシステム運用への道筋をつけました。"
+    },
+    {
+      "id": "hn_48913050",
+      "source": "hackernews",
+      "title": "Dependabot version updates introduce default package cooldown",
+      "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/",
+      "score": 44,
+      "comments": 23,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-15T07:58:28.053035+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_64037",
+      "source": "hatena",
+      "title": "Markdownからドキュメントサイトを構築、Astro/ViteベースのOSS「Blume」v1が公開 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/07/blume",
+      "score": 25,
+      "comments": 0,
+      "raw_description": "Markdownからドキュメントサイトを構築⁠⁠、Astro/ViteベースのOSS「Blume」v1が公開 開発者のHayden Bleasel氏は7月13日、MarkdownやMDXを基にドキュメントサイトを構築するオープンソースフレームワーク「Blume」の正式版となるv1.0.0を公開した。本稿執筆時点の最新版はv1.0.3。MITライセンスで公開されている。 Intro...",
+      "tags": [
+        "Blume",
+        "ドキュメントサイト",
+        "Astro",
+        "Vite"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534145+09:00",
+      "summary": "Hayden Bleasel氏が開発したオープンソースフレームワーク「Blume」のv1.0.0が公開されました。BlumeはMarkdownやMDXファイルからドキュメントサイトを効率的に構築できるツールで、AstroとViteを基盤としています。これにより、開発者は技術文書の作成と公開プロセスを簡素化できます。MITライセンスで提供されており、開発者コミュニティによる利用と貢献が期待されます。"
+    },
+    {
+      "id": "hn_48913443",
+      "source": "hackernews",
+      "title": "Financing the AI boom: from cash flows to debt [pdf]",
+      "url": "https://www.bis.org/publ/bisbull120.pdf",
+      "score": 25,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "資金調達",
+        "デットファイナンス",
+        "LLM"
+      ],
+      "fetched_at": "2026-07-15T07:58:28.272425+09:00",
+      "summary": "AIブームを支える資金調達の現状と課題について解説しています。従来のキャッシュフローによる資金調達に加え、AI開発の莫大なコストを賄うためのデットファイナンス（借入）の重要性が増しています。特に、大規模言語モデル（LLM）などの開発には巨額の投資が必要であり、その資金調達戦略はAI産業の持続的な成長に不可欠です。この記事は、AI企業が直面する資金調達の複雑な側面を掘り下げています。"
+    },
+    {
+      "id": "hatena_16475",
+      "source": "hatena",
+      "title": "PdMをやめて、\"プロダクトビルダー\"という働き方に変えました｜shikichee",
+      "url": "https://note.com/shikichee/n/n0bc06a50e66f",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "3ヶ月前、PdMをやめました。 正確には、要件をまとめて開発チームに渡すこれまでのPdMの働き方をやめて、プロダクトビルダーという働き方に変えました。 PdMが自分で作らない人でいられる時代は終わったと思ったからです。 こんにちは、Ubieでプロダクトビルダーをしているしきち（shikichee）です。 AIエージェントを使...",
+      "tags": [
+        "プロダクトマネジメント",
+        "プロダクトビルダー",
+        "アジャイル開発",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534163+09:00",
+      "summary": "Ubieのプロダクトビルダーであるshikichee氏は、従来のプロダクトマネージャー（PdM）の役割から「プロダクトビルダー」へと働き方を変えた。これは、要件定義のみを行うのではなく、自らプロダクト開発に深く関与するスタイルへの転換を意味する。AIエージェントなどの技術を活用し、開発チームと密接に連携しながらプロダクトを構築していくアプローチは、現代のプロダクト開発において、より迅速かつ効果的な価値提供を目指す上で重要である。"
+    },
+    {
+      "id": "hatena_13059",
+      "source": "hatena",
+      "title": "AIの発展によって私たち「人間」に残される仕事は何か？人間とAIの「共同超知能」というビジョン",
+      "url": "https://gigazine.net/news/20260714-ai-left-work/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "AIの能力が向上し続ける中で、「AIに仕事を奪われる」という懸念がしばしば話題になります。2026年7月6日からソウルで開催された「国際機械学習会議(ICML 2026)」の基調講演で、プリンストン大学のコンピューターサイエンス教授であるアルヴィンド・ナラヤナン氏が「AIが私たちが現在行っている仕事の多くを担うようにな...",
+      "tags": [
+        "AI",
+        "仕事",
+        "共同超知能",
+        "ICML 2026"
+      ],
+      "fetched_at": "2026-07-15T07:58:27.534157+09:00",
+      "summary": "プリンストン大学のアルヴィンド・ナラヤナン教授は、ICML 2026での基調講演で、AIの進化が人間の仕事に与える影響について論じました。AIが多くのタスクを代替する一方で、人間とAIが協働する「共同超知能」のビジョンを提示し、人間の創造性や判断力が不可欠な領域での新たな価値創出の可能性を示唆しています。この視点は、AI時代における人間の役割を再定義する上で重要です。"
+    },
+    {
+      "id": "reddit_45311",
+      "source": "reddit",
+      "title": "HTTP gets a QUERY method so complex searches can stop pretending to be POST",
+      "url": "https://www.reddit.com/r/programming/comments/1uvszuq/http_gets_a_query_method_so_complex_searches_can/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/stronghup\"> /u/stronghup </a> <br /> <span><a href=\"https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uvszuq/http_gets_a_query_method_so_complex_searches_can/\">[comments]</a></span>",
+      "tags": [
+        "HTTP",
+        "QUERY method",
+        "API design",
+        "REST"
+      ],
+      "fetched_at": "2026-07-15T07:58:29.668885+09:00",
+      "summary": "HTTPプロトコルに新しいQUERYメソッドが導入されました。これにより、複雑な検索クエリをPOSTメソッドで送信する際の混乱が解消されます。QUERYメソッドは、リソースの検索やフィルタリングに特化しており、リクエストボディを持たないため、GETメソッドのセマンティクスに近く、キャッシュやブックマークが容易になります。この変更は、API設計におけるRESTful原則の遵守を促進し、より明確で保守性の高いWebサービス開発に貢献します。"
+    },
+    {
+      "id": "reddit_20031",
+      "source": "reddit",
+      "title": "The git history command deserves more attention",
+      "url": "https://www.reddit.com/r/programming/comments/1uvwlql/the_git_history_command_deserves_more_attention/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mitousa\"> /u/mitousa </a> <br /> <span><a href=\"https://lalitm.com/post/git-history/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uvwlql/the_git_history_command_deserves_more_attention/\">[comments]</a></span>",
+      "tags": [
+        "Git",
+        "git history",
+        "バージョン管理",
+        "開発効率"
+      ],
+      "fetched_at": "2026-07-15T07:58:29.668907+09:00",
+      "summary": "Gitの`history`コマンドは、コミット履歴をより詳細かつ分かりやすく表示する機能を提供します。このコマンドは、コミットの親子関係やブランチの分岐・合流点を視覚的に把握するのに役立ち、コードの変更経緯やリファクタリングの文脈を理解する上で重要です。開発者はこのコマンドを活用することで、デバッグやコードレビューの効率を向上させることができます。"
+    },
+    {
+      "id": "reddit_37827",
+      "source": "reddit",
+      "title": "git rebase -i is not that scary",
+      "url": "https://www.reddit.com/r/programming/comments/1uwbmr0/git_rebase_i_is_not_that_scary/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cachebags\"> /u/cachebags </a> <br /> <span><a href=\"https://cachebag.sh/journal/interactive-rebasing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uwbmr0/git_rebase_i_is_not_that_scary/\">[comments]</a></span>",
+      "tags": [
+        "Git",
+        "rebase",
+        "Gitコマンド",
+        "開発効率"
+      ],
+      "fetched_at": "2026-07-15T07:58:29.668916+09:00",
+      "summary": "この記事は、Gitのインタラクティブなリベース（git rebase -i）の基本的な使い方と、その利便性について解説しています。インタラクティブなリベースを使用することで、コミットメッセージの修正、コミットの順序変更、不要なコミットの削除などが可能になり、コミット履歴をよりクリーンで分かりやすく整理できます。これにより、コードレビューや共同開発におけるコンフリクトの解消が容易になり、プロジェクト全体のコード品質向上に貢献します。"
+    },
+    {
+      "id": "reddit_44961",
+      "source": "reddit",
+      "title": "two case studies of NaN",
+      "url": "https://www.reddit.com/r/programming/comments/1uw29nt/two_case_studies_of_nan/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Dear-Economics-315\"> /u/Dear-Economics-315 </a> <br /> <span><a href=\"https://sebsite.pw/w/20260709-nan.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uw29nt/two_case_studies_of_nan/\">[comments]</a></span>",
+      "tags": [
+        "NaN",
+        "浮動小数点演算",
+        "デバッグ",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-15T07:58:29.668923+09:00",
+      "summary": "この記事では、NaN（Not a Number）の2つの具体的な使用事例を紹介しています。NaNは浮動小数点演算において未定義または表現不可能な結果を示す特殊な値であり、デバッグやエラーハンドリングにおいて重要な役割を果たします。これらの事例を通じて、NaNがどのように発生し、それがプログラムの挙動にどのような影響を与えるかを理解することで、より堅牢なコードの設計に役立ちます。"
+    }
+  ]
+}
