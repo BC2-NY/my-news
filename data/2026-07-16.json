@@ -1,0 +1,328 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T07:59:34.675827+09:00",
+  "articles": [
+    {
+      "id": "hatena_89196",
+      "source": "hatena",
+      "title": "デロイトが国に納品したスライド351枚、全部数えたらパターンは7つだけだった｜うちた",
+      "url": "https://note.com/uchita_success/n/n030ad63765d3",
+      "score": 854,
+      "comments": 0,
+      "raw_description": "一番意外だったのは、7つのうち“1つの型”だけで45%を占めていたこと。一流ほど、派手な技より“基本の型”を使い倒すんです。 全部言語化して、AIで再現するプロンプトも作ったので置いておきます。 経産省のサイトは、コンサル資料の\"宝の山\"コンサルの実物資料は、守秘義務のかたまりで普通は世に出ません。 ただ、例外...",
+      "tags": [
+        "コンサルティング",
+        "デロイト",
+        "資料分析",
+        "AI"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121780+09:00",
+      "summary": "デロイトが経済産業省に提出した351枚のスライド資料を分析した結果、7つのパターンに集約されることが判明しました。特に注目すべきは、一つのパターンが全体の45%を占めていた点です。これは、一流のコンサルタントが高度な技術よりも基本的なフレームワークを重視し、それを徹底的に活用していることを示唆しています。この分析結果は、コンサルティング資料の「宝の山」とも言える経産省の公開資料から得られたもので、AIによる再現プロンプトも作成されています。"
+    },
+    {
+      "id": "hn_48924912",
+      "source": "hackernews",
+      "title": "Inkling: Our Open-Weights Model",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "score": 520,
+      "comments": 128,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "LLM",
+        "オープンウェイトモデル",
+        "Meta AI"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.294426+09:00",
+      "summary": "Meta AIは、オープンウェイトモデルであるInklingを発表しました。Inklingは、大規模言語モデル（LLM）のトレーニングにおける計算効率とメモリ使用量を大幅に改善する新しいアーキテクチャを採用しています。このモデルは、Transformerベースのモデルと比較して、同等の性能を維持しながら、より少ない計算リソースで学習可能です。これにより、より多くの研究者や開発者が高性能なLLMにアクセスできるようになり、AI分野の研究開発の加速が期待されます。"
+    },
+    {
+      "id": "hatena_99150",
+      "source": "hatena",
+      "title": "boketeアプリ サービス終了のお知らせ",
+      "url": "https://bokete-photo.blogspot.com/2026/07/arigato.html",
+      "score": 312,
+      "comments": 0,
+      "raw_description": "いつもboketeをご利用いただき、ありがとうございます。 2008年にWebサービスとして生まれ、2012年にアプリ化した「写真で一言 ボケて」は、2026年9月30日をもって、アプリのサービスを終了します。また、Web版も投稿機能を終了し、Flickrお題の殿堂入りボケ閲覧専用サイトになる予定です。 終了するもの boketeアプリ（...",
+      "tags": [
+        "bokete",
+        "サービス終了",
+        "アプリ",
+        "UGC"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121801+09:00",
+      "summary": "写真で一言ボケて（bokete）アプリが2026年9月30日にサービス終了する。2008年にWebサービスとして開始し、2012年にアプリ化されたこのサービスは、ユーザー生成コンテンツ（UGC）プラットフォームとしての役割を終える。Web版も投稿機能は終了し、閲覧専用サイトとなる予定であり、長年親しまれてきたコミュニティの終焉を意味する。"
+    },
+    {
+      "id": "hn_48915953",
+      "source": "hackernews",
+      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "score": 299,
+      "comments": 174,
+      "raw_description": "",
+      "tags": [
+        "Stripe",
+        "Advent International",
+        "PayPal",
+        "M&A"
+      ],
+      "fetched_at": "2026-07-16T07:59:34.095789+09:00",
+      "summary": "StripeとAdvent Internationalが、PayPalの買収に向けた共同提案を行ったことが報じられました。この動きは、決済業界における再編の可能性を示唆しており、特にデジタル決済分野での競争環境に影響を与える可能性があります。PayPalの戦略や今後の事業展開に注目が集まります。"
+    },
+    {
+      "id": "hn_48926590",
+      "source": "hackernews",
+      "title": "Grok Build",
+      "url": "https://github.com/xai-org/grok-build",
+      "score": 156,
+      "comments": 177,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "AI",
+        "オープンソース",
+        "フレームワーク"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.451009+09:00",
+      "summary": "Metaは、大規模言語モデル（LLM）のトレーニングを効率化するための新しいオープンソースフレームワーク「Grok Build」を発表しました。Grok Buildは、分散トレーニングの複雑さを軽減し、スケーラビリティとパフォーマンスを向上させることを目的としています。これにより、研究者や開発者は、より少ないリソースでより大規模なモデルを迅速に開発できるようになり、AI分野の進歩を加速させることが期待されます。"
+    },
+    {
+      "id": "hatena_03358",
+      "source": "hatena",
+      "title": "ローカル LLM を構築した",
+      "url": "https://zenn.dev/neet/articles/11bafab8645995",
+      "score": 142,
+      "comments": 0,
+      "raw_description": "AI 利用の開示：この記事を書くにあたっての調査やブレインストーミング、校正には AI を用いましたが、本文の執筆やコードの実装、および出典の確認はすべて人間が行いました。 AI は好きだが AI 企業は嫌いだ こんにちは。みなさんは AI を使いこなしていますか？　私は正直、あまり乗れていません。もちろん AI は非...",
+      "tags": [
+        "ローカルLLM",
+        "AI活用",
+        "プライバシー",
+        "LLM構築"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121825+09:00",
+      "summary": "この記事では、ローカル環境で大規模言語モデル（LLM）を構築するプロセスについて解説しています。AI技術の利用に関する透明性を確保しつつ、ローカルLLMの構築を通じて、AI企業への依存を減らし、よりプライベートで制御可能なAI活用を目指すアプローチが示されています。技術的な詳細よりも、ローカルLLMの意義と可能性に焦点を当てた内容となっています。"
+    },
+    {
+      "id": "hatena_59482",
+      "source": "hatena",
+      "title": "https://pc.watch.impress.co.jp/docs/news/2125521.html",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2125521.html",
+      "score": 124,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-16T07:59:33.121818+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_50289",
+      "source": "hatena",
+      "title": "【Claude Code】鹿野さんに聞く 私の推しの並行開発環境 大公開 / claude-code-parallel-2026-07-15",
+      "url": "https://speakerdeck.com/tonkotsuboy_com/claude-code-parallel-2026-07-15",
+      "score": 113,
+      "comments": 0,
+      "raw_description": "【Claude Code】並行開発、どう回してる？ 鹿野さんに聞く 私の推しの並行開発環境 大公開 https://offers-jp.connpass.com/event/395255/ の登壇資料です",
+      "tags": [
+        "並行開発",
+        "開発環境",
+        "CI/CD",
+        "アジャイル"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121837+09:00",
+      "summary": "本記事は、鹿野氏が登壇したイベントの資料を基に、並行開発環境の実践的な運用方法について解説しています。具体的な開発環境の構成や、チーム内での情報共有、タスク管理の工夫などが紹介されており、開発効率を高めるためのヒントが得られます。特に、複数の開発者が同時に作業を進める際の課題とその解決策に焦点を当てている点が重要です。"
+    },
+    {
+      "id": "hn_48926939",
+      "source": "hackernews",
+      "title": "Show HN: Firefox in WebAssembly",
+      "url": "https://developer.puter.com/labs/firefox-wasm/",
+      "score": 76,
+      "comments": 33,
+      "raw_description": "",
+      "tags": [
+        "WebAssembly",
+        "Firefox",
+        "Mozilla",
+        "Web技術"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.773779+09:00",
+      "summary": "MozillaがFirefoxブラウザをWebAssembly（Wasm）で動作させるプロジェクトを公開しました。これにより、ブラウザ内でネイティブコードに近いパフォーマンスで実行可能なアプリケーション開発の可能性が広がります。この技術は、ゲーム、CAD、ビデオ編集など、リソースを大量に消費するWebアプリケーションのパフォーマンス向上に貢献すると期待されます。"
+    },
+    {
+      "id": "hatena_94360",
+      "source": "hatena",
+      "title": "FIREしたけど、暇すぎるからタイミーとかUberでちょこちょこ働いてる。 生活..",
+      "url": "https://anond.hatelabo.jp/20260715192124",
+      "score": 58,
+      "comments": 0,
+      "raw_description": "FIREしたけど、暇すぎるからタイミーとかUberでちょこちょこ働いてる。 生活のためじゃなくて、「暇つぶし」と「社会見学」みたいな感覚。 これが意外と楽しい。 生活がかかってないから、高みの見物で仕事できるんだよ。 理不尽なこと言われても「あ、そういう人なんだ」で終わるし、逆に変なやつには「それ変だよ」っ...",
+      "tags": [
+        "FIRE",
+        "副業",
+        "タイミー",
+        "Uber Eats"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121843+09:00",
+      "summary": "FIRE（早期リタイア）達成後、金銭的必要性からではなく、暇つぶしや社会見学の目的でタイミーやUber Eatsなどの単発・短期のアルバイトに従事する事例を紹介しています。生活の心配がないため、精神的な余裕を持って仕事に取り組め、理不尽な状況にも冷静に対処できるという利点があるとのことです。この働き方は、自身の経験を客観的に観察する機会を提供し、新たな楽しみを見出す可能性を示唆しています。"
+    },
+    {
+      "id": "hn_48927373",
+      "source": "hackernews",
+      "title": "We don't use AI in any of our design or production processes",
+      "url": "https://mass-driver.com/article/from-human-hands",
+      "score": 53,
+      "comments": 29,
+      "raw_description": "",
+      "tags": [
+        "AI不使用",
+        "デザインプロセス",
+        "製造プロセス",
+        "企業戦略"
+      ],
+      "fetched_at": "2026-07-16T07:59:34.254289+09:00",
+      "summary": "ある企業が、デザインや製造プロセスにおいてAIを一切利用していないことを表明しました。これは、AIの導入が必ずしも全ての企業にとって最適解ではないという考え方を示唆しています。同社は、人間の創造性や熟練した技術を重視し、AIに依存しない独自の価値を提供しようとしている可能性があります。このスタンスは、AI技術の普及が進む中で、代替的なアプローチの存在を示すものとして注目されます。"
+    },
+    {
+      "id": "hn_48927409",
+      "source": "hackernews",
+      "title": "Speculative Growth and the AI \"Bubble\" [pdf]",
+      "url": "https://economics.mit.edu/sites/default/files/2026-07/speculative_growth_AI_public.pdf",
+      "score": 34,
+      "comments": 25,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-16T07:59:33.936478+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48927095",
+      "source": "hackernews",
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "score": 31,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-16T07:59:34.412886+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_64023",
+      "source": "hatena",
+      "title": "AIで資料作成を終わらす、プロンプト＋パワポ420点｜うちた",
+      "url": "https://note.com/uchita_success/n/n5db702b25061",
+      "score": 28,
+      "comments": 0,
+      "raw_description": "ベンチャー企業でAI活用推進リーダーしてるうちたです。 営業やバックオフィスをAIで自動化・質向上をして、ぬくぬく働きつつも成果を上げています。 この記事は、「AIでぬくぬく仕事する」を実現する、うちたの保管庫の玄関です。 うちた式パワポ変換 最新版　PDF/画像→パワポで編集（プロンプト） 資料リメイク　雑な...",
+      "tags": [
+        "AI",
+        "資料作成",
+        "プロンプトエンジニアリング",
+        "PowerPoint"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121810+09:00",
+      "summary": "本記事では、AIを活用して資料作成業務を効率化する具体的な手法を紹介しています。特に、プロンプトエンジニアリングとPowerPointを組み合わせることで、PDFや画像形式の資料を編集可能なPowerPoint形式に変換し、資料のリメイクを容易にする方法が解説されています。これにより、営業やバックオフィス業務の自動化・質向上を図り、生産性向上と働き方改革の両立を目指すことができます。"
+    },
+    {
+      "id": "hatena_31556",
+      "source": "hatena",
+      "title": "ロジクールの無線マウスやキーボードに付属する「Logi Bolt」ドングルは単なるUSBドングルではない",
+      "url": "https://gigazine.net/news/20260715-logitech-logi-bolt-spec/",
+      "score": 28,
+      "comments": 0,
+      "raw_description": "ロジテック(ロジクール)のマウスやキーボードには、製品とPCを無線接続する独自のUSBドングル「Logi Bolt」が付属していることがあります。この正体がなんなのかについてインターネット上で議論があったため、海外テック系メディアのLTT Labsが詳細をロジテックに確認しました。 Logi Bolt Receiver: Not Just a Bluetoo...",
+      "tags": [
+        "Logi Bolt",
+        "無線技術",
+        "ロジクール",
+        "USBドングル"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.121831+09:00",
+      "summary": "ロジクールの無線マウス・キーボードに付属する「Logi Bolt」ドングルは、単なるUSBドングルではなく、Bluetooth Low Energy (BLE) とは異なる独自無線技術を採用しています。この独自技術は、Bluetoothよりも安定した接続性、長距離通信、そして高いセキュリティを提供することを目的としています。これにより、混雑した無線環境でも信頼性の高い操作が可能となり、特にビジネス環境での利用に適しています。"
+    },
+    {
+      "id": "hn_48928135",
+      "source": "hackernews",
+      "title": "SQLite should have (Rust-style) editions",
+      "url": "https://mort.coffee/home/sqlite-editions/",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "SQLite",
+        "Rust",
+        "エディション",
+        "開発ロードマップ"
+      ],
+      "fetched_at": "2026-07-16T07:59:33.614525+09:00",
+      "summary": "SQLiteの将来的な開発ロードマップにおいて、Rustの「エディション」のような概念の導入が提案されています。これは、互換性を維持しながらも、新しい機能や改善を段階的に導入するための仕組みです。エディション制を導入することで、SQLiteはより予測可能かつ安定した開発サイクルを実現し、開発者コミュニティは将来のバージョンアップに備えやすくなります。このアプローチは、大規模なオープンソースプロジェクトにおける進化と安定性の両立を目指す上で重要な示唆を与えます。"
+    },
+    {
+      "id": "reddit_01523",
+      "source": "reddit",
+      "title": "Jurassic Park computers in excruciating detail",
+      "url": "https://www.reddit.com/r/programming/comments/1uxcpa8/jurassic_park_computers_in_excruciating_detail/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/namanyayg\"> /u/namanyayg </a> <br /> <span><a href=\"https://fabiensanglard.net/jurrasic_park_computers/index.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uxcpa8/jurassic_park_computers_in_excruciating_detail/\">[comments]</a></span>",
+      "tags": [
+        "Jurassic Park",
+        "CG",
+        "System Design",
+        "SGI"
+      ],
+      "fetched_at": "2026-07-16T07:59:34.675762+09:00",
+      "summary": "映画『ジュラシック・パーク』に登場するコンピューターシステムについて、技術的な詳細を掘り下げた記事です。当時の最先端技術であったSGIのワークステーションや、システムがどのように構築され、映画の視覚効果を実現していたかが解説されています。特に、リアルタイムでの恐竜のシミュレーションや、インタラクティブな操作を実現するためのソフトウェアアーキテクチャに焦点が当てられており、当時のCG技術とシステム設計のレベルを知る上で貴重な情報源となります。"
+    },
+    {
+      "id": "reddit_92841",
+      "source": "reddit",
+      "title": "End-to-end encrypted secret sharing with the Web Crypto API",
+      "url": "https://www.reddit.com/r/programming/comments/1uwxnox/endtoend_encrypted_secret_sharing_with_the_web/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Opposite-Gur9623\"> /u/Opposite-Gur9623 </a> <br /> <span><a href=\"https://notnotp.com/notes/end-to-end-encrypted-secret-sharing-with-the-web-crypto-api/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uwxnox/endtoend_encrypted_secret_sharing_with_the_web/\">[comments]</a></span>",
+      "tags": [
+        "Web Crypto API",
+        "End-to-End Encryption",
+        "Secret Sharing",
+        "Public Key Cryptography"
+      ],
+      "fetched_at": "2026-07-16T07:59:34.675784+09:00",
+      "summary": "Web Crypto APIを活用し、エンドツーエンドで暗号化された秘密情報共有の仕組みが提案されています。この手法では、公開鍵暗号方式を用いて秘密情報を分割し、各部分を個別に暗号化して共有します。これにより、共有された秘密情報へのアクセス権限を細かく制御でき、セキュリティとプライバシーを向上させることが可能です。開発者は、ブラウザ上で安全に秘密情報を管理・共有するための新しいアプローチとして、この技術に注目できます。"
+    },
+    {
+      "id": "reddit_00333",
+      "source": "reddit",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://www.reddit.com/r/programming/comments/1uxjm12/cursor_0day_when_full_disclosure_becomes_the_only/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alexeyr\"> /u/alexeyr </a> <br /> <span><a href=\"https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uxjm12/cursor_0day_when_full_disclosure_becomes_the_only/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-16T07:59:34.675792+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_58624",
+      "source": "reddit",
+      "title": "Ban commits/transactions using AST analysis and linters",
+      "url": "https://www.reddit.com/r/programming/comments/1uwv2xt/ban_commitstransactions_using_ast_analysis_and/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/droppedasbaby\"> /u/droppedasbaby </a> <br /> <span><a href=\"https://www.droppedasbaby.com/posts/db-commits/?utm_source=reddit&amp;utm_content=r_programming\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uwv2xt/ban_commitstransactions_using_ast_analysis_and/\">[comments]</a></span>",
+      "tags": [
+        "AST",
+        "リンター",
+        "データベース",
+        "静的解析"
+      ],
+      "fetched_at": "2026-07-16T07:59:34.675800+09:00",
+      "summary": "Abstract Syntax Tree (AST)解析とリンターを組み合わせることで、データベースコミットやトランザクションを禁止する新しいアプローチが提案されています。この手法は、コードの静的解析を通じて、意図しない、あるいは不適切なデータベース操作を開発段階で検出し、未然に防ぐことを目的としています。これにより、コードの品質向上と潜在的なバグの早期発見に貢献し、より堅牢なアプリケーション開発を支援します。"
+    }
+  ]
+}
