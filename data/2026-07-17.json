@@ -1,0 +1,346 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T07:58:52.185895+09:00",
+  "articles": [
+    {
+      "id": "hn_48935342",
+      "source": "hackernews",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "score": 985,
+      "comments": 602,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "オープンソース",
+        "AI",
+        "Kimi K3"
+      ],
+      "fetched_at": "2026-07-17T07:58:50.181675+09:00",
+      "summary": "OpenAIの元研究者らが設立したKimi K3は、大規模言語モデル（LLM）のオープンソース化を目指すプロジェクトです。Kimi K3は、商用利用可能なライセンスで提供されるモデル群を開発し、AI技術の民主化を推進します。これにより、企業や研究者は、より自由にLLMを活用できるようになり、AI分野のイノベーション加速が期待されます。"
+    },
+    {
+      "id": "hn_48936426",
+      "source": "hackernews",
+      "title": "Microsoft Comic Chat is now open source",
+      "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+      "score": 455,
+      "comments": 103,
+      "raw_description": "",
+      "tags": [
+        "Comic Chat",
+        "オープンソース",
+        "Microsoft",
+        "レガシー技術"
+      ],
+      "fetched_at": "2026-07-17T07:58:50.894972+09:00",
+      "summary": "Microsoft Comic Chatは、1996年にリリースされた、会話をコミック風のパネルで表現するチャットアプリケーションです。この度、MicrosoftはComic Chatのソースコードを公開しました。これにより、開発者はこのユニークな技術を研究し、現代のコミュニケーションツールへの応用や、レトロな技術の保存・活用に貢献できる可能性があります。"
+    },
+    {
+      "id": "hatena_27055",
+      "source": "hatena",
+      "title": "Claude Codeが化けた。今使っている3つのプラグイン+標準機能の活用法",
+      "url": "https://zenn.dev/sonicmoov/articles/8712598f532b18",
+      "score": 339,
+      "comments": 0,
+      "raw_description": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアとして働いているShoppingSharkです。 ソニックムーブに入社して業務でAIを使い始めて3ヶ月ほど経ちました。昨今はループエンジニアリングが話題ですが、個人ではまだそのレイヤーまで進めておらず、日々の業務はバイブコーディングで回しています。 この記事...",
+      "tags": [
+        "Claude Code",
+        "AI活用",
+        "フロントエンドエンジニア",
+        "コーディング効率化"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838812+09:00",
+      "summary": "株式会社ソニックムーブのフロントエンドエンジニアが、Claude Codeの活用法について解説しています。記事では、現在利用している3つのプラグインと標準機能を組み合わせることで、日々のコーディング業務を効率化する具体的な方法が紹介されています。AIを業務に導入して3ヶ月の経験に基づき、ループエンジニアリングには至らないものの、実用的なバイブコーディングによる生産性向上のヒントが提供されています。"
+    },
+    {
+      "id": "hn_48936584",
+      "source": "hackernews",
+      "title": "Decoy Font",
+      "url": "https://www.mixfont.com/experiments/decoy-font",
+      "score": 337,
+      "comments": 86,
+      "raw_description": "",
+      "tags": [
+        "Decoy Font",
+        "PDF",
+        "フォント",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-17T07:58:51.364469+09:00",
+      "summary": "Decoy Fontは、PDFファイルに埋め込まれたフォントを偽装する技術です。これにより、本来埋め込まれていないフォントでも、PDFビューア上で意図した通りに表示させることが可能になります。この技術は、フォントのライセンス問題を回避したり、特定のデザインを正確に再現したりする際に役立ちますが、悪用されると著作権侵害やセキュリティリスクにつながる可能性も指摘されています。"
+    },
+    {
+      "id": "hn_48936451",
+      "source": "hackernews",
+      "title": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "score": 201,
+      "comments": 113,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "Gemini 1.5 Pro",
+        "NotebookLM",
+        "コンテキストウィンドウ"
+      ],
+      "fetched_at": "2026-07-17T07:58:51.865020+09:00",
+      "summary": "GoogleのAI搭載ノートアプリNotebookLMが、最新のGemini 1.5 Proモデルを搭載し、Gemini Notebookへと名称変更されました。これにより、最大100万トークンという大規模なコンテキストウィンドウを活用できるようになり、長文ドキュメントの分析や要約、複雑な情報からのインサイト抽出といった高度なタスクが可能になります。開発者や研究者にとって、大量のデータセットを効率的に処理し、より深い分析を行うための強力なツールとなります。"
+    },
+    {
+      "id": "hatena_64521",
+      "source": "hatena",
+      "title": "AWSで障害　「CloudFront」世界規模で不調　PayPayに影響　noteやニコニコ生放送もつながりにくく",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/16/news096.html",
+      "score": 191,
+      "comments": 0,
+      "raw_description": "ITmedia NEWS読者調査 当社では企業のビジネストレンドを明らかにするために読者調査を行っております。ご回答いただきました方の中から抽選で5名の方にAmazonギフトカード（3000円分）をプレゼント。何卒ご協力お願い致します。回答はこちらから！ 【追記：2026年7月16日午後6時30分】VPC Originsに関するステータスサ...",
+      "tags": [
+        "AWS",
+        "CloudFront",
+        "障害",
+        "CDN"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838844+09:00",
+      "summary": "Amazon CloudFrontで発生した世界規模の障害により、PayPay、note、ニコニコ生放送などのサービスで接続障害が発生しました。この障害はVPC Originsの設定に関連する問題が原因とされています。CDNの広範な影響は、現代のWebサービスにおけるインフラストラクチャの重要性と、単一障害点のリスクを浮き彫りにしました。"
+    },
+    {
+      "id": "hn_48939662",
+      "source": "hackernews",
+      "title": "LM Studio Bionic: the AI agent for open models",
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "score": 92,
+      "comments": 30,
+      "raw_description": "",
+      "tags": [
+        "LM Studio",
+        "AIエージェント",
+        "ローカルLLM",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-07-17T07:58:50.652955+09:00",
+      "summary": "LM Studio Bionicは、ローカル環境でオープンソースの大規模言語モデル（LLM）を簡単に実行・管理できるAIエージェントです。これにより、ユーザーはプライバシーを保ちながら、高性能なAIモデルを自身のハードウェアで利用できます。APIサーバー機能も搭載しており、既存のアプリケーションとの連携も容易になるため、開発者はローカルLLMの活用範囲を広げることが可能です。"
+    },
+    {
+      "id": "hn_48939896",
+      "source": "hackernews",
+      "title": "Mathematics of Data Science",
+      "url": "https://arxiv.org/abs/2607.11938",
+      "score": 54,
+      "comments": 1,
+      "raw_description": "",
+      "tags": [
+        "データサイエンス",
+        "数学",
+        "機械学習",
+        "統計学"
+      ],
+      "fetched_at": "2026-07-17T07:58:51.607336+09:00",
+      "summary": "データサイエンスの根幹をなす数学的原理を解説する記事です。線形代数、確率統計、微積分などの基礎概念が、機械学習アルゴリズムの理解やデータ分析の精度向上に不可欠であることを論じています。これらの数学的知識は、モデルの選択、パラメータ調整、結果の解釈において、データサイエンティストの深い洞察を可能にし、より効果的な意思決定を支援します。"
+    },
+    {
+      "id": "hn_48941129",
+      "source": "hackernews",
+      "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+      "url": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+      "score": 24,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [
+        "OTAアップデート",
+        "Android Auto",
+        "自動車ソフトウェア",
+        "品質保証"
+      ],
+      "fetched_at": "2026-07-17T07:58:50.413285+09:00",
+      "summary": "一部の車両でOTAアップデート後にAndroid Autoが利用できなくなる問題が発生しており、これは現代の自動車ソフトウェア開発における課題を浮き彫りにしています。OTAアップデートは利便性を向上させる一方で、予期せぬ互換性問題やバグを引き起こすリスクも内包しています。この問題は、自動車メーカーがソフトウェアの品質保証とテストプロセスを強化する必要性を示唆しています。"
+    },
+    {
+      "id": "hn_48941056",
+      "source": "hackernews",
+      "title": "FIFA World Cup 2026 Data Portraits",
+      "url": "https://wc26.bogachev.fr/index.html",
+      "score": 22,
+      "comments": 11,
+      "raw_description": "",
+      "tags": [
+        "FIFA World Cup 2026",
+        "スポーツテクノロジー",
+        "データ分析",
+        "AI"
+      ],
+      "fetched_at": "2026-07-17T07:58:51.123216+09:00",
+      "summary": "FIFA World Cup 2026では、試合中の選手の動きやボールの軌道を詳細に追跡する高度なデータ収集技術が導入されます。これにより、リアルタイムで膨大な量のデータが生成され、試合分析、戦術評価、ファンエンゲージメントの向上に活用されます。このデータは、AIを活用したパーソナライズされたコンテンツ提供や、将来のトレーニングプログラム最適化にも貢献する可能性があり、スポーツテクノロジーの進化を示す事例となります。"
+    },
+    {
+      "id": "hatena_76818",
+      "source": "hatena",
+      "title": "「金属有機構造体(MOF)」の開発でノーベル化学賞を受賞した科学者がアメリカを離れ中国の研究所所長に就任",
+      "url": "https://gigazine.net/news/20260716-nobel-winning-chemist-leaves-us-china/",
+      "score": 14,
+      "comments": 0,
+      "raw_description": "「金属有機構造体(Metal-Organic Frameworks、MOF)」を開発した功績で、2025年にノーベル化学賞を北川進氏やリチャード・ロブソン氏とともに受賞したオマー・ヤギー氏がアメリカを離れ、中国のAI材料研究所の所長に就任することが明らかになりました。この動きは、ドナルド・トランプ大統領による科学予算の削減と、中国...",
+      "tags": [
+        "MOF",
+        "ノーベル化学賞",
+        "オマー・ヤギー",
+        "中国研究機関"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838829+09:00",
+      "summary": "金属有機構造体（MOF）の開発でノーベル化学賞を受賞したオマー・ヤギー氏が、アメリカの大学から中国のAI材料研究所の所長に就任することが決定しました。MOFは、ガス貯蔵や分離、触媒など幅広い応用が期待される多孔性材料であり、ヤギー氏の移籍は、先端材料研究における国際的な勢力図の変化を示唆しています。この動きは、米国の科学予算削減や中国の積極的な研究投資といった背景も影響していると考えられます。"
+    },
+    {
+      "id": "hatena_57671",
+      "source": "hatena",
+      "title": "JavaScriptの日付処理が変わる！ DateからTemporalへ - ICS MEDIA",
+      "url": "https://ics.media/entry/260715/",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "JavaScriptで日付を扱ったことのある方なら、「3月のつもりでnew Date(2026, 3, 15)と書いたら4月になっていた」という経験が一度はあるのではないでしょうか。月だけが0始まりであることはDateクラスの仕様の一例ですが、そのほかにも、日付の計算やフォーマット、タイムゾーンの処理には手間がかかります。そうした扱...",
+      "tags": [
+        "JavaScript",
+        "Temporal API",
+        "Dateオブジェクト",
+        "ECMAScript"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838837+09:00",
+      "summary": "JavaScriptの標準APIであるDateオブジェクトは、月が0から始まる、タイムゾーンの扱いにくい、計算が複雑といった課題を抱えています。これに対し、ECMAScriptの新機能として提案されているTemporal APIは、これらの問題を解決し、より直感的で正確な日付・時刻処理を提供します。Temporalは、日付、時刻、期間、タイムゾーンなどを統一的に扱えるよう設計されており、将来のJavaScript開発における日付処理の標準となることが期待されます。"
+    },
+    {
+      "id": "hatena_51186",
+      "source": "hatena",
+      "title": "Appleの製品保証サービス「AppleCare＋」が値上げされるとの報道",
+      "url": "https://gigazine.net/news/20260716-apple-boosts-applecare-plus-prices/",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "Apple製品が故障した際に迅速な修理サービスを利用できるようになる製品保証サービスのAppleCare＋が値上げされると、Bloombergが報じています。 Apple Boosts AppleCare+ Monthly Prices by 50 Cents in Latest Increase - Bloomberg https://www.bloomberg.com/news/articles/2026-07-15/apple-boosts-applecare-month...",
+      "tags": [
+        "AppleCare+",
+        "値上げ",
+        "製品保証",
+        "修理サービス"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838851+09:00",
+      "summary": "AppleCare+の月額料金が50セント値上げされるとBloombergが報じました。この値上げは、Apple製品の修理や交換サービスへの需要増加と、それに伴うコスト上昇に対応するためと考えられます。AppleCare+は、保証期間の延長や、偶発的な損傷に対する修理サービスを提供するもので、今回の値上げにより、ユーザーは引き続きこれらのサービスを利用するために、より多くの費用を負担することになります。"
+    },
+    {
+      "id": "hatena_49848",
+      "source": "hatena",
+      "title": "Prompting guidance for GPT-5.6 Sol | OpenAI API",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "Example workflows and tasks teams can take on with ChatGPT or Codex",
+      "tags": [
+        "GPT-5.6",
+        "プロンプトエンジニアリング",
+        "OpenAI API",
+        "ChatGPT"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838864+09:00",
+      "summary": "OpenAIは、GPT-5.6 Sol向けのプロンプトエンジニアリングガイドラインを公開しました。このガイドラインは、チームがChatGPTやCodexを活用して、具体的なワークフローやタスクを実行するための実践的な例を提供します。これにより、開発者はより効果的に大規模言語モデルをビジネスプロセスに統合し、生産性向上や新たなアプリケーション開発に繋げることが期待されます。"
+    },
+    {
+      "id": "hatena_86576",
+      "source": "hatena",
+      "title": "Firefoxをブラウザのタブ内で丸ごと動かす「Firefox in WebAssembly」が登場、開発におけるAIコストは合計400万円以上に相当",
+      "url": "https://gigazine.net/news/20260716-firefox-in-webassembly/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "ウェブブラウザのタブ内でMozilla Firefoxを丸ごと起動できる「Firefox in WebAssembly」をPuter Labsが公開しました。外観だけを再現したFirefox風の画面ではなく、ウェブページを描画するGeckoやJavaScriptを実行するSpiderMonkeyまでWebAssemblyとして動作します。開発にはAIが大量に使われ、開発に費やしたトークン...",
+      "tags": [
+        "WebAssembly",
+        "Firefox",
+        "AI開発",
+        "Puter Labs"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838858+09:00",
+      "summary": "Puter Labsが、ブラウザタブ内で完全なFirefoxブラウザを動作させる「Firefox in WebAssembly」を公開しました。これは単なるUIの模倣ではなく、GeckoレンダリングエンジンとSpiderMonkey JavaScriptエンジンがWebAssembly上で実際に動作します。このプロジェクトでは、AIを活用した開発が行われ、そのコストは400万円以上に相当すると報告されています。WebAssemblyの可能性を示すとともに、AI開発コストの現状を浮き彫りにする事例と言えます。"
+    },
+    {
+      "id": "hatena_06951",
+      "source": "hatena",
+      "title": "0から始めるローカルAIエージェント（Win11 + Docker + LM Studio + Hermes Agent） - Qiita",
+      "url": "https://qiita.com/pocokhc/items/eef04a3d6104c0ee03db",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "はじめに LLMの進化がすごくてついていくだけで大変ですね。 最近は、ある程度まとまった仕事をする自律型AIエージェントが注目されるようになりました。 それをローカルで試してみたいなと思っていたところ Hermes Agent や OpenClaw という名前を見かけたので気になって使ってみました。 この記事はその備忘録です。 0...",
+      "tags": [
+        "ローカルAI",
+        "AIエージェント",
+        "Docker",
+        "LM Studio"
+      ],
+      "fetched_at": "2026-07-17T07:58:49.838870+09:00",
+      "summary": "本記事は、Windows 11環境でDocker、LM Studio、Hermes Agentを活用し、ローカルで自律型AIエージェントを構築・実行する手順を解説しています。LLMの進化に伴い注目される自律型AIエージェントを、開発者が自身の環境で試せるように、具体的なセットアップ方法と利用例を紹介しています。これにより、最新のAI技術をローカル環境で手軽に検証・開発することが可能になります。"
+    },
+    {
+      "id": "reddit_83557",
+      "source": "reddit",
+      "title": "Things you didn't know about indexes",
+      "url": "https://www.reddit.com/r/programming/comments/1uy0hyq/things_you_didnt_know_about_indexes/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uy0hyq/things_you_didnt_know_about_indexes/\">[comments]</a></span>",
+      "tags": [
+        "データベース",
+        "インデックス",
+        "パフォーマンス",
+        "Bツリー"
+      ],
+      "fetched_at": "2026-07-17T07:58:52.185838+09:00",
+      "summary": "この記事は、データベースインデックスの仕組みと、そのパフォーマンスへの影響について解説しています。Bツリーインデックスの基本的な構造から、リーフノードでのデータ格納方法、さらにはインデックスのメンテナンスコストや、クエリ最適化におけるインデックスの役割まで、技術的な側面を掘り下げています。インデックスの理解を深めることで、データベースのパフォーマンスチューニングや設計において、より効果的な判断が可能になります。"
+    },
+    {
+      "id": "reddit_62037",
+      "source": "reddit",
+      "title": "Linux transparent proxy internals",
+      "url": "https://www.reddit.com/r/programming/comments/1uy722h/linux_transparent_proxy_internals/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ldelossa\"> /u/ldelossa </a> <br /> <span><a href=\"https://open.substack.com/pub/allhailthetopology/p/linux-transparent-proxy-internals?r=5ylwe7&amp;utm_medium=ios\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uy722h/linux_transparent_proxy_internals/\">[comments]</a></span>",
+      "tags": [
+        "Linux",
+        "Network",
+        "iptables",
+        "netfilter"
+      ],
+      "fetched_at": "2026-07-17T07:58:52.185858+09:00",
+      "summary": "この記事は、Linuxカーネルにおける透過的プロキシの内部実装について解説しています。iptablesやnftablesといったパケットフィルタリング機能と、netfilterフックを利用して、ネットワークトラフィックをカーネルレベルで傍受・操作する方法を詳細に説明しています。これにより、アプリケーション側の変更なしに、ネットワーク通信の監視、フィルタリング、リダイレクトなどが可能となり、セキュリティやネットワーク管理の柔軟性を向上させる上で重要な技術です。"
+    },
+    {
+      "id": "reddit_06297",
+      "source": "reddit",
+      "title": "Reclaiming a decade of podcast listening history",
+      "url": "https://www.reddit.com/r/programming/comments/1uybpgq/reclaiming_a_decade_of_podcast_listening_history/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dabluck\"> /u/dabluck </a> <br /> <span><a href=\"https://www.uncommonapps.nyc/p/reclaiming-a-decade-of-podcast-listening\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uybpgq/reclaiming_a_decade_of_podcast_listening_history/\">[comments]</a></span>",
+      "tags": [
+        "ポッドキャスト",
+        "データ復元",
+        "パーソナルデータ",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-17T07:58:52.185866+09:00",
+      "summary": "この記事は、ポッドキャストのリスニング履歴を10年間分復元した個人の体験談です。筆者は、長年にわたり様々なポッドキャストアプリを利用してきたものの、データのエクスポート機能が限定的であったり、サービス終了によって履歴が失われるリスクに直面しました。そこで、ローカルファイルやAPI、さらにはWebアーカイブなどを駆使して、過去のリスニングデータを収集・統合し、可視化するシステムを構築しました。この取り組みは、デジタルデータの永続性と個人のデータ主権の重要性を示唆しています。"
+    },
+    {
+      "id": "reddit_15920",
+      "source": "reddit",
+      "title": "Dan Smith from OpenJDK -- Identifying JDK value class candidates",
+      "url": "https://www.reddit.com/r/programming/comments/1uxnfri/dan_smith_from_openjdk_identifying_jdk_value/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/davidalayachew\"> /u/davidalayachew </a> <br /> <span><a href=\"https://mail.openjdk.org/archives/list/core-libs-dev@openjdk.org/thread/Y72NRXM7KYBX43OKYBQMVKOZDWKG4MHS/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uxnfri/dan_smith_from_openjdk_identifying_jdk_value/\">[comments]</a></span>",
+      "tags": [
+        "OpenJDK",
+        "Value Class",
+        "Java",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-17T07:58:52.185873+09:00",
+      "summary": "OpenJDKのDan Smith氏が、JDKにおけるValue Classの候補特定に関するメーリングリストでの議論を紹介しています。Value Classは、Javaにおけるプリミティブ型のような値渡しセマンティクスを持つオブジェクト型であり、パフォーマンス向上やメモリ使用量の削減が期待されます。この議論では、既存のAPIやライブラリとの互換性を考慮しつつ、Value Classとして導入すべきクラスを特定するための基準やアプローチが探求されています。これは、Javaのパフォーマンスと効率性をさらに向上させるための重要な取り組みです。"
+    }
+  ]
+}
