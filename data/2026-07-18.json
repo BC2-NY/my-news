@@ -1,0 +1,326 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T07:52:23.357912+09:00",
+  "articles": [
+    {
+      "id": "hn_48945241",
+      "source": "hackernews",
+      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "url": "https://news.ycombinator.com/item?id=48945241",
+      "score": 974,
+      "comments": 614,
+      "raw_description": "",
+      "tags": [
+        "AWS",
+        "Billing",
+        "Cloud Costs",
+        "Data Integrity"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.841095+09:00",
+      "summary": "Amazon Web Services (AWS) has reported an issue where estimated billing data was inaccurate, potentially impacting financial planning for customers. The discrepancy involved an estimated $1.7 billion in billing data, leading to concerns about cost management and forecasting. AWS is working to rectify the data and has stated that actual charges will not be affected, but the incident highlights the importance of robust data integrity in cloud billing systems."
+    },
+    {
+      "id": "hatena_05822",
+      "source": "hatena",
+      "title": "ルーターに挿す約320円の広告ブロッカー、13万ドメインをRAM40KBで判定 - FabScene（ファブシーン）",
+      "url": "https://fabscene.com/new/make/esp32-c3-dns-adblock-hash-in-flash/",
+      "score": 355,
+      "comments": 0,
+      "raw_description": "自宅のネットワーク全体で広告をブロックするなら、Pi-holeを入れたRaspberry Piを常時動かすのが定番だ。もっと小さく安くと考えてESP32でやろうとすると、ブロック対象のドメインを覚えておくメモリーが足りず、PSRAMを積んだ高い方のチップが要る。M-Abozaid氏は、覚え方を変えることで、200円台のESP32-C3で同じこと...",
+      "tags": [
+        "ESP32-C3",
+        "広告ブロッカー",
+        "IoT",
+        "ネットワーク"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.058971+09:00",
+      "summary": "ESP32-C3という低価格なマイクロコントローラーを用いて、RAM 40KBという限られたリソースで約13万ドメインの広告ブロック判定を実現する技術が開発されました。従来のPi-holeのようなソリューションと比較して、ESP32-C3の低消費電力と低コスト性を活かし、ネットワーク全体で広告をブロックする新たな選択肢を提供します。この技術は、リソース制約のある環境でも高度なネットワーク機能を実現できる可能性を示唆しています。"
+    },
+    {
+      "id": "hn_48947560",
+      "source": "hackernews",
+      "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
+      "score": 327,
+      "comments": 217,
+      "raw_description": "",
+      "tags": [
+        "系外惑星",
+        "ハビタブルゾーン",
+        "大気検出",
+        "生命探査"
+      ],
+      "fetched_at": "2026-07-18T07:52:22.298637+09:00",
+      "summary": "系外惑星で初めて、ハビタブルゾーンにある地球型惑星の大気が検出されました。この発見は、生命存在の可能性を探る上で重要な一歩となります。大気組成の分析により、惑星の環境や生命の兆候に関する詳細な情報が得られることが期待されます。"
+    },
+    {
+      "id": "hn_48947717",
+      "source": "hackernews",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+      "score": 238,
+      "comments": 133,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "Kimi K3",
+        "Pelican Benchmark",
+        "AI Performance"
+      ],
+      "fetched_at": "2026-07-18T07:52:22.782244+09:00",
+      "summary": "Kimi K3は、大規模言語モデル（LLM）の性能評価に用いられるPelicanベンチマークにおいて、特に複雑な推論タスクで高い性能を示しました。この結果は、LLMが単なるパターン認識を超え、より高度な論理的思考能力を獲得しつつあることを示唆しています。Pelicanベンチマークは、LLMの真の理解力と問題解決能力を測る上で重要な指標であり、Kimi K3の成果は今後のLLM開発の方向性を示唆するものです。"
+    },
+    {
+      "id": "hatena_96343",
+      "source": "hatena",
+      "title": "AIに「レビューして」はもう古い？「敵対的検証」のすすめ",
+      "url": "https://zenn.dev/loglass/articles/6aa18c80496ec6",
+      "score": 210,
+      "comments": 0,
+      "raw_description": "この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の152週目の記事です！ 3年間連続達成まで残り7週となりました！ こんにちは、ログラスの松岡(@little_hand_s)です。 3行まとめ 「レビューして」でも指摘は返ってくる。「敵対的検証して」は課題がある前提で反証を試み、判定と根拠まで返してくる...",
+      "tags": [
+        "敵対的検証",
+        "AI",
+        "コードレビュー",
+        "品質向上"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.058963+09:00",
+      "summary": "従来の「レビューして」という指示では、単なる指摘の返却に留まる場合がある。一方、「敵対的検証して」という指示は、課題が存在する前提で反証を試みることで、より深い洞察と具体的な根拠に基づいた判定を引き出すことができる。このアプローチは、AIによるコードレビューやドキュメント検証において、潜在的な問題点を早期に発見し、品質向上に貢献する可能性を秘めている。"
+    },
+    {
+      "id": "hn_48949551",
+      "source": "hackernews",
+      "title": "Thanks HN for 15 years of support and helping me find my life's work",
+      "url": "https://news.ycombinator.com/item?id=48949551",
+      "score": 161,
+      "comments": 11,
+      "raw_description": "",
+      "tags": [
+        "Hacker News",
+        "キャリア",
+        "コミュニティ",
+        "自己実現"
+      ],
+      "fetched_at": "2026-07-18T07:52:22.067526+09:00",
+      "summary": "HN (Hacker News)のコミュニティが15年間にわたり、投稿者自身のキャリア形成に多大な貢献をしてきたことを振り返る記事です。HNのフィードバックや議論を通じて、投稿者は自身の人生における重要な仕事を見つけることができたと述べています。この経験は、オンラインコミュニティが個人の専門的成長や自己実現に与える影響の大きさを物語っています。"
+    },
+    {
+      "id": "hatena_55544",
+      "source": "hatena",
+      "title": "世界一わかりみの深いasync/awaitによる非同期処理 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/53462",
+      "score": 154,
+      "comments": 0,
+      "raw_description": "こんにちは、サイオステクノロジー武井です。今回はasync/awaitの動きをOSカーネルのレイヤーから追うことで理解を深めようとしてみます。 1. async/awaitはむずい async/await、なかなかにとっつきにくい概念だと思います。 「非同期処理には async を付ける」「await しないと結果が取れない」——ルールとしては覚えら...",
+      "tags": [
+        "async/await",
+        "非同期処理",
+        "JavaScript",
+        "OSカーネル"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.058925+09:00",
+      "summary": "本記事は、async/awaitによる非同期処理の理解を深めるために、OSカーネルのレイヤーからその動作を解説しています。async/awaitの基本的な構文だけでなく、その背後にあるメカニズムを掘り下げることで、開発者が非同期処理をより正確に把握し、効率的なコード記述に役立てることを目指しています。特に、awaitがどのように処理を中断・再開させるかといった詳細な動作原理に焦点を当てています。"
+    },
+    {
+      "id": "hatena_64844",
+      "source": "hatena",
+      "title": "Obsidianをよりわかりやすく。視覚化プラグイン活用術 | ライフハッカー・ジャパン",
+      "url": "https://www.lifehacker.jp/article/2607-obsidian-plugins-visualize-notes/",
+      "score": 135,
+      "comments": 0,
+      "raw_description": "Canvasはノートをワークスペースに変え、 直線的なドキュメントの枠を超えます。 ホワイトボードは昔ながらの視覚化デバイスであり、Canvasは、Obsidianにおける無限のホワイトボードツールとして機能します。 これを使えば、ノート、画像、PDF、テキストカードを自由に動かすことができます。 これによって、アイデアを...",
+      "tags": [
+        "Obsidian",
+        "Canvas",
+        "ノート術",
+        "情報整理"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.058985+09:00",
+      "summary": "ObsidianのCanvasプラグインは、従来の直線的なノート作成を超え、無限のホワイトボードのようなワークスペースを提供します。この機能により、ユーザーはノート、画像、PDF、テキストカードなどを自由に配置・移動させることができ、アイデアの視覚的な整理や関連付けを直感的に行うことが可能になります。これにより、複雑な情報の構造化やブレインストーミングが効率化され、より深い思考プロセスを支援します。"
+    },
+    {
+      "id": "hn_48948597",
+      "source": "hackernews",
+      "title": "Frame – Linux X server in Assembly",
+      "url": "https://isene.org/2026/07/Frame.html",
+      "score": 128,
+      "comments": 83,
+      "raw_description": "",
+      "tags": [
+        "Linux",
+        "X Server",
+        "Assembly",
+        "System Programming"
+      ],
+      "fetched_at": "2026-07-18T07:52:23.012969+09:00",
+      "summary": "LinuxのXサーバーがアセンブリ言語で実装されました。このプロジェクトは、Xサーバーの基本的な動作原理を低レベルで理解することを目的としており、アセンブリ言語の知識を深めるための教材としても価値があります。パフォーマンスチューニングやシステムレベルのデバッグに役立つ洞察を提供する可能性があります。"
+    },
+    {
+      "id": "hn_48951461",
+      "source": "hackernews",
+      "title": "The Zilog Z80 has turned 50",
+      "url": "https://goliath32.com/blog/z80.html",
+      "score": 127,
+      "comments": 35,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-18T07:52:21.615444+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_53231",
+      "source": "hatena",
+      "title": "戦場投入のロシア兵、生存時間はわずか20～30分か　アメリカCIAが分析　ウクライナAIドローン進化で｜FNNプライムオンライン",
+      "url": "https://www.fnn.jp/articles/-/1076813",
+      "score": 124,
+      "comments": 0,
+      "raw_description": "戦場投入のロシア兵、生存時間はわずか20～30分か　アメリカCIAが分析　ウクライナAIドローン進化で CIA（アメリカ中央情報局）は、ウクライナのAI搭載ドローンの進化により、戦場に投入されたロシア兵が生存できる時間はわずか20分から30分にすぎないとする分析結果を明らかにしました。 CIAのラトクリフ長官は15日、ペ...",
+      "tags": [],
+      "fetched_at": "2026-07-18T07:52:21.058947+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48950122",
+      "source": "hackernews",
+      "title": "Learning a few things about running SQLite",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "score": 120,
+      "comments": 27,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-18T07:52:22.558112+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_13471",
+      "source": "hatena",
+      "title": "エスカレーターで歩く人を半分に減らしたAI──名古屋発、駅の見守りシステムを支えるLiDAR技術とreComputer Jetson - FabScene（ファブシーン）",
+      "url": "https://fabscene.com/new/pr/escalator-lidar-recomputer-jetson/",
+      "score": 78,
+      "comments": 0,
+      "raw_description": "エスカレーターで歩く人を半分に減らしたAI──名古屋発、駅の見守りシステムを支えるLiDAR技術とreComputer Jetson 2026 7/17 エスカレーターの「片側空け」は、長年にわたって日本に定着してきた慣習だ。しかし近年、その慣習を見直す動きが各地で広がっている。2023年10月、名古屋市は政令指定都市として全国初となる、...",
+      "tags": [],
+      "fetched_at": "2026-07-18T07:52:21.058978+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_53132",
+      "source": "hatena",
+      "title": "VS Code拡張機能「Draw.io Integration」、Markdownのプレビュー上で図をインライン編集する機能、プレリリース版で提供 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/07/vscode-drawio-extension-inline-editing",
+      "score": 61,
+      "comments": 0,
+      "raw_description": "VS Code拡張機能「Draw.io Integration」⁠⁠、Markdownのプレビュー上で図をインライン編集する機能⁠⁠、プレリリース版で提供 draw.ioの公式Xアカウントは2026年7月9日、Visual Studio Code（VS Code）用の拡張機能「Draw.io Integration」に、図をインライン編集する機能が加わったと紹介した。Markdownファイルを「Mark...",
+      "tags": [
+        "VS Code",
+        "Draw.io",
+        "Markdown",
+        "拡張機能"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.058956+09:00",
+      "summary": "VS Code拡張機能「Draw.io Integration」のプレリリース版に、Markdownプレビュー上で図をインライン編集できる新機能が追加されました。これにより、Markdownドキュメント内に埋め込まれた図を、プレビュー画面から直接編集できるようになり、開発ワークフローの効率化が期待できます。この機能は、draw.ioの公式Xアカウントで発表され、技術文書作成における図の管理をよりスムーズにします。"
+    },
+    {
+      "id": "hn_48952880",
+      "source": "hackernews",
+      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "score": 25,
+      "comments": 4,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "医療",
+        "職場監視",
+        "看護師"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.383413+09:00",
+      "summary": "Kaiser Permanenteの看護師たちは、AIと職場監視技術の導入が業務と患者ケアの質を低下させていると訴えています。これらの技術は、看護師の業務負担を増加させ、患者との直接的なコミュニケーション時間を奪うことで、ケアの質に悪影響を及ぼす懸念があります。この問題は、医療現場におけるテクノロジー導入の倫理的・実践的な課題を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_90851",
+      "source": "hatena",
+      "title": "Claude Artifact",
+      "url": "https://claude.ai/code/artifact/bfdfaef9-bc62-4dfe-ba9e-c58a26c9accf",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "Try out Artifacts created by Claude users",
+      "tags": [
+        "Claude",
+        "AI",
+        "生成AI",
+        "Artifacts"
+      ],
+      "fetched_at": "2026-07-18T07:52:21.058991+09:00",
+      "summary": "Anthropicが開発した大規模言語モデルClaudeのユーザーが作成した成果物（Artifacts）を試せる機能です。これにより、ユーザーはClaudeを用いて生成したコード、文章、データなどを共有・再利用できるようになります。この機能は、AIモデルの活用範囲を広げ、共同作業や知識共有を促進する可能性を秘めています。"
+    },
+    {
+      "id": "reddit_68820",
+      "source": "reddit",
+      "title": "The most expensive instruction might be… cmov",
+      "url": "https://www.reddit.com/r/programming/comments/1uyt0tf/the_most_expensive_instruction_might_be_cmov/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_shadowbannedagain\"> /u/_shadowbannedagain </a> <br /> <span><a href=\"https://questdb.com/blog/cmov-vs-branch-perf/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uyt0tf/the_most_expensive_instruction_might_be_cmov/\">[comments]</a></span>",
+      "tags": [
+        "x86",
+        "cmov",
+        "パフォーマンス",
+        "CPU"
+      ],
+      "fetched_at": "2026-07-18T07:52:23.357830+09:00",
+      "summary": "x86アーキテクチャにおけるcmov（条件付き移動）命令が、分岐予測の失敗よりもパフォーマンスに悪影響を与える可能性があるという考察です。cmovは分岐を回避する目的で使われますが、実際にはCPU内部の実行ユニットの競合を引き起こし、結果としてパイプラインのストールを招くことがあります。特に、cmov命令が多用されるコードパスでは、そのコストが無視できないほど大きくなる可能性があり、パフォーマンスチューニングにおいて考慮すべき点です。"
+    },
+    {
+      "id": "reddit_10792",
+      "source": "reddit",
+      "title": "Maintaining the code of the man who wrote \"How To Write Unmaintainable Code\"",
+      "url": "https://www.reddit.com/r/programming/comments/1uzadz5/maintaining_the_code_of_the_man_who_wrote_how_to/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Today I accidentally became the maintainer of software that was already almost three decades old: reviving a 1990s Java utility to keep the last PAD submitter alive in 2026.</p> <p>I was looking for a way to submit my AI app RiverScript to old desktop software directories and ended up digging through the long-forgotten world of PAD files.</p> <p>There was one problem.</p> <p>The only batch submission tool I could find was a Java application that first appeared i",
+      "tags": [
+        "Java",
+        "レガシーシステム",
+        "PADファイル",
+        "ソフトウェア保守"
+      ],
+      "fetched_at": "2026-07-18T07:52:23.357871+09:00",
+      "summary": "この記事は、1990年代に書かれたJavaユーティリティの保守を引き継いだ経験について述べている。このユーティリティは、古いソフトウェア配布形式であるPADファイルに対応するために、2026年まで利用可能にする目的で維持されている。著者は、AIアプリを古いディレクトリに登録する過程でこのユーティリティを発見し、その保守を引き受けることになった。この作業は、レガシーシステムの維持と、現代の技術との連携における課題を浮き彫りにしている。"
+    },
+    {
+      "id": "reddit_06313",
+      "source": "reddit",
+      "title": "Learning Software Architecture",
+      "url": "https://www.reddit.com/r/programming/comments/1uyosj1/learning_software_architecture/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://matklad.github.io/2026/05/12/software-architecture.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uyosj1/learning_software_architecture/\">[comments]</a></span>",
+      "tags": [
+        "ソフトウェアアーキテクチャ",
+        "設計パターン",
+        "学習方法",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-18T07:52:23.357880+09:00",
+      "summary": "この記事は、ソフトウェアアーキテクチャの学習方法について論じています。著者は、アーキテクチャの概念を理解するためには、具体的なコード例や設計パターンを深く掘り下げることが重要であると主張しています。また、実際のプロジェクトでの経験を通じて、理論と実践を結びつけることの価値を強調しています。このアプローチは、複雑なシステムを効果的に設計・構築するための実践的なスキルを養う上で不可欠です。"
+    },
+    {
+      "id": "reddit_51787",
+      "source": "reddit",
+      "title": "The 10 Levels of Building a Data Grid - My 1 Year Journey of Building a Table.",
+      "url": "https://www.reddit.com/r/programming/comments/1uyvq9x/the_10_levels_of_building_a_data_grid_my_1_year/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I wanted to make this post because man...tables are way harder than they look. I documented my 1 year journey of optimizations on a stupid table for my Database GUI. I made everything from scratch like an idiot thinking it'd be easy but oh boy was I wrong... The article goes over all the optimizations I made to make my table render data smoothly without lagging. It goes from what data structures I used and the rendering optimizations I did. I used MongoDB Compas",
+      "tags": [
+        "フロントエンド開発",
+        "パフォーマンスチューニング",
+        "データグリッド",
+        "UI開発"
+      ],
+      "fetched_at": "2026-07-18T07:52:23.357888+09:00",
+      "summary": "本記事は、データベースGUIに搭載するテーブル（データグリッド）を1年かけて自作した開発者が、その過程で直面した技術的な課題と最適化手法について解説しています。特に、データ量の増加に伴うレンダリングの遅延を防ぐための様々な工夫が詳細に語られており、パフォーマンスチューニングの重要性が示唆されています。テーブル表示の複雑さと、それを克服するための継続的な改善プロセスは、フロントエンド開発者にとって示唆に富む内容です。"
+    }
+  ]
+}
