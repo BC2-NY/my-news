@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T07:52:53.291861+09:00",
+  "articles": [
+    {
+      "id": "hatena_02420",
+      "source": "hatena",
+      "title": "最近の AI コーディングで実践している、設計を中心とした開発の進め方",
+      "url": "https://azukiazusa.dev/blog/recent-ai-coding-development-process-centered-on-design/",
+      "score": 528,
+      "comments": 0,
+      "raw_description": "AI コーディングエージェントの自律性が向上し、複数のエージェントを並行して動かすことが日常になったことで、開発の中で最も時間を使う工程が実装から設計へ移りつつあります。この記事では、設計セッション、Git worktree を使った並列実行、自律的な検証、AI によるコードレビューなど、最近の私が実践している開発...",
+      "tags": [
+        "AIコーディング",
+        "設計中心開発",
+        "Git worktree",
+        "開発プロセス"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651270+09:00",
+      "summary": "AIコーディングエージェントの自律性向上に伴い、開発プロセスは実装中心から設計中心へとシフトしています。この記事では、設計セッション、Git worktreeを活用した並列実行、自律的な検証、AIによるコードレビューといった、設計フェーズを強化する具体的な開発手法を紹介します。これにより、開発者はより効率的かつ高品質なソフトウェア開発を実現できます。"
+    },
+    {
+      "id": "hn_48957779",
+      "source": "hackernews",
+      "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+      "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "score": 474,
+      "comments": 303,
+      "raw_description": "",
+      "tags": [
+        "GPT-5.6",
+        "凸最適化",
+        "プロンプトエンジニアリング",
+        "AI"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.983972+09:00",
+      "summary": "GPT-5.6は、30年間未解決だった凸最適化問題のギャップを埋めるために、プロンプトエンジニアリングを活用しました。この進歩は、AIが複雑な数学的問題の解決に貢献できる可能性を示しており、今後の科学技術分野におけるAIの応用範囲を広げるものです。特に、最適化アルゴリズムの効率化や、これまで計算困難とされてきた問題へのアプローチに新たな道を開くことが期待されます。"
+    },
+    {
+      "id": "hatena_73419",
+      "source": "hatena",
+      "title": "LG製ゲーミングモニターがWindows Updateを悪用し広告アプリを無断導入。McAfeeの広告表示も",
+      "url": "https://gazlog.jp/entry/lg-gaming-ads-install/",
+      "score": 252,
+      "comments": 0,
+      "raw_description": "LG製ゲーミングモニターをWindows PCに接続すると、ユーザーの同意なしに専用アプリやMcAfee Scam Detectorなどのポップアップ広告をインストールすることが明らかになりました。 LG製ゲーミングモニターがWindows Updateを悪用して無断導入。McAfeeの宣伝表示も 一般的にディスプレイはドライバーなど不要で、HDMIとPC...",
+      "tags": [
+        "LG",
+        "ゲーミングモニター",
+        "Windows Update",
+        "広告アプリ"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651262+09:00",
+      "summary": "LG製ゲーミングモニターが、ユーザーの同意なしにWindows Updateの仕組みを悪用して専用アプリやMcAfee Scam Detectorなどの広告ソフトウェアをPCにインストールする問題が確認されました。この挙動は、本来ドライバー不要で接続されるはずのディスプレイが、意図しないソフトウェアを導入するセキュリティ上の懸念を示しています。ユーザーは、LG製モニター接続後に意図しないアプリがインストールされていないか確認し、不要な場合はアンインストールすることが推奨されます。"
+    },
+    {
+      "id": "hn_48959090",
+      "source": "hackernews",
+      "title": "If You Build It, They Will Come",
+      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
+      "score": 202,
+      "comments": 71,
+      "raw_description": "",
+      "tags": [
+        "プロダクト開発",
+        "ユーザー中心設計",
+        "技術戦略",
+        "価値提供"
+      ],
+      "fetched_at": "2026-07-19T07:52:52.509561+09:00",
+      "summary": "この記事は、単に技術を開発するだけでなく、それがどのように価値を提供し、ユーザーのニーズを満たすかに焦点を当てることの重要性を強調しています。優れた技術も、それが解決する問題や提供するメリットが明確でなければ、成功にはつながりません。開発者は、技術そのものの革新性に加え、それがもたらす具体的な影響やユーザー体験を深く理解する必要があります。"
+    },
+    {
+      "id": "hn_48911793",
+      "source": "hackernews",
+      "title": "Speech Recognition and TTS in less than 500kb",
+      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+      "score": 151,
+      "comments": 19,
+      "raw_description": "",
+      "tags": [
+        "音声認識",
+        "音声合成",
+        "組み込みシステム",
+        "軽量化"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.816817+09:00",
+      "summary": "この技術は、音声認識と音声合成の機能をわずか500KB未満のフットプリントで実現します。これにより、リソースが限られた組み込みシステムやモバイルデバイスでも、高度な音声インターフェースを実装することが可能になります。低消費電力と高速な処理が求められるIoTデバイスやウェアラブル端末への応用が期待されます。"
+    },
+    {
+      "id": "hatena_68352",
+      "source": "hatena",
+      "title": "WordPressの深刻度「緊急」脆弱性 wp2shell の概要と対応指針 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/wp2shell_wordpress",
+      "score": 132,
+      "comments": 0,
+      "raw_description": "2026年7月17日、認証不要でリモートからの任意コード実行（RCE）につながる脆弱性「CVE-2026-63030」「CVE-2026-60137」を修正したWordPress 6.8.6、6.9.5、および 7.0.2 が公開されました（参考：WordPress 7.0.2 Release）。Searchlight Cyber の Adam Kues 氏により報告された脆弱性です。 弊社 GMO Flatt Security ...",
+      "tags": [
+        "WordPress",
+        "脆弱性",
+        "RCE",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651231+09:00",
+      "summary": "WordPressの最新バージョン（6.8.6、6.9.5、7.0.2）にて、認証不要でリモートからの任意コード実行（RCE）を可能にする深刻な脆弱性（CVE-2026-63030、CVE-2026-60137）が修正されました。この脆弱性は、攻撃者が認証なしに悪用できる可能性があり、Webサイトの乗っ取りや情報漏洩につながる危険性があります。速やかなアップデートが強く推奨されます。"
+    },
+    {
+      "id": "hatena_59297",
+      "source": "hatena",
+      "title": "Playwright on GitHub Actions: The setup that actually runs fast",
+      "url": "https://endform.dev/blog/playwright-github-actions",
+      "score": 114,
+      "comments": 0,
+      "raw_description": "Treat the table as a starting point rather than a prescription. Begin at 50%, look at the actual wall-clock time on your suite, and raise the value in steps until the run stops getting faster or the tests start going flaky. There is no single correct number, because it depends on your core count,...",
+      "tags": [
+        "Playwright",
+        "GitHub Actions",
+        "CI/CD",
+        "テスト自動化"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651298+09:00",
+      "summary": "GitHub ActionsでPlaywrightのテスト実行速度を向上させるための設定方法について解説しています。テスト実行時の並列度を調整することが重要であり、CPUコア数やテストスイートの特性に応じて最適な値を見つける必要があります。具体的な設定値は固定ではなく、実際の実行時間とテストの安定性を確認しながら段階的に調整することが推奨されています。"
+    },
+    {
+      "id": "hatena_73396",
+      "source": "hatena",
+      "title": "【NVIDIAグルメ】時価総額800兆円エヌビディア・フアンCEOが行った串焼き80円の激安居酒屋が最高な件 / 東京・神田「やきとん三吉」で半導体グルメ|ガジェット通信 GetNews",
+      "url": "https://getnews.jp/archives/3731287",
+      "score": 101,
+      "comments": 0,
+      "raw_description": "【NVIDIAグルメ】時価総額800兆円エヌビディア・フアンCEOが行った串焼き80円の激安居酒屋が最高な件 / 東京・神田「やきとん三吉」で半導体グルメ NVIDIA(エヌビディア)といえば、時価総額が約800兆円の超大企業であり、世界規模というより、もはや地球規模で世界にとって重要かつ必要不可欠な存在である。 パソコンだ...",
+      "tags": [
+        "NVIDIA",
+        "ジェンスン・フアン",
+        "東京グルメ",
+        "テクノロジー業界"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651253+09:00",
+      "summary": "NVIDIAのCEOであるジェンスン・フアン氏が、東京・神田の「やきとん三吉」という串焼き80円の居酒屋を訪れたことが報じられています。時価総額800兆円を超えるNVIDIAのトップが、日本の庶民的な飲食店を利用したという事実は、同社のグローバルな影響力と、経営トップの意外な一面を示唆しています。この出来事は、テクノロジー業界のリーダーと日本の食文化との接点として注目に値します。"
+    },
+    {
+      "id": "hatena_65822",
+      "source": "hatena",
+      "title": "AI時代の開発生産性は、個人技からチーム設計へ",
+      "url": "https://speakerdeck.com/moongift/aishi-dai-nokai-fa-sheng-chan-xing-ha-ge-ren-ji-karatimushe-ji-he",
+      "score": 74,
+      "comments": 0,
+      "raw_description": "Developers Summit 2026 Summer・IT Strategy Summit 2026での発表資料です。 https://event.shoeisha.jp/devsumi/20260716",
+      "tags": [
+        "AI",
+        "開発生産性",
+        "チーム開発",
+        "開発ワークフロー"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651277+09:00",
+      "summary": "AIの進化は、開発者の生産性を個人のスキル依存からチーム全体の設計能力へとシフトさせています。AIを活用することで、コード生成、テスト自動化、デバッグ支援などが高度化し、開発プロセス全体が効率化されます。この変化に対応するためには、個々の開発者のAIリテラシー向上に加え、チーム内でのAIツールの連携や、AIを前提とした開発ワークフローの設計が不可欠となります。これにより、より複雑なシステム開発においても、迅速かつ高品質な成果を実現することが可能になります。"
+    },
+    {
+      "id": "hn_48961504",
+      "source": "hackernews",
+      "title": "Typing Speed Test, but for Developers",
+      "url": "https://haxxorwpm.0s.is/",
+      "score": 64,
+      "comments": 38,
+      "raw_description": "",
+      "tags": [
+        "タイピングテスト",
+        "開発者ツール",
+        "コーディングスキル",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-07-19T07:52:52.328282+09:00",
+      "summary": "開発者向けのタイピング速度テストが登場しました。このツールは、一般的な単語だけでなく、プログラミング言語のキーワードや構文を正確にタイピングする能力を測定します。コードの記述速度と正確性は開発者の生産性に直結するため、自身のコーディングスキルを客観的に評価し、改善点を見つける上で役立ちます。"
+    },
+    {
+      "id": "hn_48892021",
+      "source": "hackernews",
+      "title": "I'm Making Strandfall, a Solarpunk Orienteering Larp",
+      "url": "https://mssv.net/2026/04/29/im-making-strandfall-a-solarpunk-orienteering-larp/",
+      "score": 58,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [
+        "Solarpunk",
+        "LARP",
+        "Orienteering",
+        "Environmentalism"
+      ],
+      "fetched_at": "2026-07-19T07:52:53.011837+09:00",
+      "summary": "「Strandfall」は、ソーラーパンクの世界観を舞台にしたオリエンテーリングLARP（ライブアクションRPG）です。プレイヤーは、環境再生とコミュニティ再建を目指す中で、自然との調和や持続可能な技術を探求します。このゲームは、テクノロジーと自然が共存する未来像を描き、参加者に環境問題への意識と解決策を体験的に学ばせることを目的としています。"
+    },
+    {
+      "id": "hatena_11223",
+      "source": "hatena",
+      "title": "『読むだけでグングン頭が良くなる下ネタ大全』のKindle版が「50％pt」還元でお得に。慶応卒の著者が古今東西の下ネタを大真面目に考察した教養本",
+      "url": "https://news.denfaminicogamer.jp/news/260718k",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "『キャプテン翼』新作ゲーム、まさかの審判が不在。ファウルの概念がないのでやりたい放題できちまう……！『キャプテン翼２ WORLD FIGHTERS』先行試遊レポート&開発者インタビュー",
+      "tags": [],
+      "fetched_at": "2026-07-19T07:52:51.651291+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48962758",
+      "source": "hackernews",
+      "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+      "url": "https://www.neatnik.net/hardcore-indieweb",
+      "score": 13,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-19T07:52:52.676804+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48962893",
+      "source": "hackernews",
+      "title": "Judge a book by its first pages",
+      "url": "https://uncovered.ink",
+      "score": 11,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [
+        "ソフトウェア開発",
+        "早期レビュー",
+        "コード品質",
+        "開発プロセス"
+      ],
+      "fetched_at": "2026-07-19T07:52:52.164480+09:00",
+      "summary": "このタイトルは、ソフトウェア開発における「早期レビュー」の重要性を示唆しています。特に、コードの初期段階や設計段階でのフィードバックが、後工程での手戻りや品質低下を防ぐ鍵となります。早期に問題を発見し修正することで、開発コストを削減し、最終的なプロダクトの品質を向上させることが期待できます。"
+    },
+    {
+      "id": "hatena_51542",
+      "source": "hatena",
+      "title": "中国のAIエージェントQwen Codeで、Ryzen AI MaxのローカルLLM環境を構築する 【ニコ技深圳フィールドノート】｜TAKASU Masakazu",
+      "url": "https://note.com/takasu/n/n572992ce17a8",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "前回は、Ryzen AI Max+ 395、メモリ128GBのWindows PCを、深圳オフィスのローカルAI端末として使う方針を検討した。 今回は実際に、中国国内からVPNなしで利用できるQwen Codeを構築エージェントとして使い、Windowsの監査、モデル取得、Ollamaへの登録、GPU動作確認、バックエンド比較まで進めた。 単にQwenを動かした...",
+      "tags": [
+        "ローカルLLM",
+        "Qwen Code",
+        "Ryzen AI Max",
+        "Ollama"
+      ],
+      "fetched_at": "2026-07-19T07:52:51.651285+09:00",
+      "summary": "本記事では、Ryzen AI Max搭載のWindows PCに、中国のAIエージェントQwen Codeを用いてローカルLLM環境を構築する手順を解説しています。Qwen Codeをエージェントとして利用し、モデルの取得、Ollamaへの登録、GPUでの動作確認、さらにはバックエンドの比較までを実施。これにより、VPN不要で中国国内からアクセス可能なローカルAI環境の実現可能性を示しています。"
+    },
+    {
+      "id": "hn_48962944",
+      "source": "hackernews",
+      "title": "Real-Time LuaTeX: Recompiling Large Documents in 1ms [pdf]",
+      "url": "https://www.tug.org/tug2026/preprints/lode-realtime.pdf",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "LuaTeX",
+        "リアルタイムコンパイル",
+        "LaTeX",
+        "文書処理"
+      ],
+      "fetched_at": "2026-07-19T07:52:52.844301+09:00",
+      "summary": "LuaTeXのリアルタイム再コンパイル機能により、大規模ドキュメントの処理速度が大幅に向上しました。この技術は、1ミリ秒という驚異的な速度で変更を反映させることを可能にし、特に複雑なレイアウトや数式を多用する学術論文や技術文書の編集ワークフローを劇的に改善します。これにより、開発者や研究者は、イテレーションサイクルを短縮し、より効率的に作業を進めることができます。"
+    },
+    {
+      "id": "reddit_72057",
+      "source": "reddit",
+      "title": "The Java Story | The Official Documentary of Java",
+      "url": "https://www.reddit.com/r/programming/comments/1uzkqdg/the_java_story_the_official_documentary_of_java/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/davidalayachew\"> /u/davidalayachew </a> <br /> <span><a href=\"https://youtu.be/ZqGSg4b_cZA?si=WS4vF7GKZ7HVUkzQ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uzkqdg/the_java_story_the_official_documentary_of_java/\">[comments]</a></span>",
+      "tags": [
+        "Java",
+        "ドキュメンタリー",
+        "プログラミング",
+        "歴史"
+      ],
+      "fetched_at": "2026-07-19T07:52:53.291803+09:00",
+      "summary": "Javaの公式ドキュメンタリー「The Java Story」が公開されました。このドキュメンタリーは、Javaの誕生から現在に至るまでの歴史、その進化、そして現代のソフトウェア開発における重要性を掘り下げています。Javaがどのようにして今日のプラットフォームに影響を与え、技術革新を牽引してきたかを理解する上で貴重な資料となります。"
+    },
+    {
+      "id": "reddit_08523",
+      "source": "reddit",
+      "title": "The Zilog Z80 has turned 50",
+      "url": "https://www.reddit.com/r/programming/comments/1v01zwd/the_zilog_z80_has_turned_50/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/namanyayg\"> /u/namanyayg </a> <br /> <span><a href=\"https://goliath32.com/blog/z80.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v01zwd/the_zilog_z80_has_turned_50/\">[comments]</a></span>",
+      "tags": [
+        "Z80",
+        "マイクロプロセッサ",
+        "レトロコンピューティング",
+        "CPU"
+      ],
+      "fetched_at": "2026-07-19T07:52:53.291823+09:00",
+      "summary": "Zilog Z80マイクロプロセッサが50周年を迎えました。Z80は、CP/Mオペレーティングシステムを搭載した初期のパーソナルコンピュータや、多くのレトロゲーム機で広く採用された8ビットCPUです。そのシンプルさと強力な命令セットにより、当時のホビーコンピュータ市場に大きな影響を与え、現在でもエミュレーションや組み込みシステムでその名を見ることができます。"
+    },
+    {
+      "id": "reddit_41916",
+      "source": "reddit",
+      "title": "Tutorial: Introduction to Formal Verification with Lean (Part 1)",
+      "url": "https://www.reddit.com/r/programming/comments/1uzvfar/tutorial_introduction_to_formal_verification_with/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/badcryptobitch\"> /u/badcryptobitch </a> <br /> <span><a href=\"https://hashcloak.com/blog/tutorial-introduction-to-formal-verification-with-lean-(part-1)?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=lean_tutorial&amp;utm_content=rprog\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1uzvfar/tutorial_introduction_to_formal_verification_with/\">[comments]</a></span>",
+      "tags": [
+        "形式検証",
+        "Lean",
+        "証明支援系",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-07-19T07:52:53.291831+09:00",
+      "summary": "Leanは、数学の証明を記述・検証するための証明支援系であり、近年、ソフトウェアの形式検証への応用が注目されています。本チュートリアル（パート1）では、Leanの基本的な構文や機能を紹介し、形式検証の概念を解説します。これにより、開発者はソフトウェアのバグを未然に防ぎ、信頼性を向上させるための第一歩を踏み出すことができます。"
+    },
+    {
+      "id": "reddit_50078",
+      "source": "reddit",
+      "title": "Sometimes the most resilient thing a system can do isn’t retry",
+      "url": "https://www.reddit.com/r/programming/comments/1v05z0d/sometimes_the_most_resilient_thing_a_system_can/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/madflojo\"> /u/madflojo </a> <br /> <span><a href=\"https://open.substack.com/pub/madflojo/p/sometimes-the-most-resilient-thing?r=mtxfe&amp;utm_medium=ios\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v05z0d/sometimes_the_most_resilient_thing_a_system_can/\">[comments]</a></span>",
+      "tags": [
+        "システム設計",
+        "回復力",
+        "障害対応",
+        "分散システム"
+      ],
+      "fetched_at": "2026-07-19T07:52:53.291837+09:00",
+      "summary": "システムが障害発生時に再試行するのではなく、回復力を発揮する別の方法として、障害を即座に受け入れ、影響を封じ込めるアプローチが提案されています。これは、再試行が状況を悪化させる可能性がある場合や、リソースを浪費する可能性がある場合に有効です。障害を迅速に検出し、影響範囲を限定することで、システム全体の可用性を維持し、より迅速な復旧を可能にします。この戦略は、特に複雑な分散システムにおいて、予期せぬ連鎖障害を防ぐ上で重要です。"
+    }
+  ]
+}
