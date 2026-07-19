@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T07:55:28.991899+09:00",
+  "articles": [
+    {
+      "id": "hn_48968606",
+      "source": "hackernews",
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "score": 1112,
+      "comments": 117,
+      "raw_description": "",
+      "tags": [
+        "ESP32",
+        "IoT",
+        "DIY",
+        "システム置き換え"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.459180+09:00",
+      "summary": "ある開発者が、12万ドルのボウリングセンターシステムを、わずか1600ドルのESP32マイクロコントローラーで構築したシステムに置き換えた事例を紹介しています。このプロジェクトは、IoTデバイスとカスタムソフトウェアを組み合わせることで、高価な専用システムに代わる低コストでスケーラブルなソリューションを構築できる可能性を示しています。特に、既存のハードウェアとの連携や、リアルタイムデータの活用といった点で、技術的な挑戦と成功が伺えます。"
+    },
+    {
+      "id": "hn_48966120",
+      "source": "hackernews",
+      "title": "Qwen 3.8",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "score": 735,
+      "comments": 514,
+      "raw_description": "",
+      "tags": [
+        "大規模言語モデル",
+        "Alibaba Cloud",
+        "Qwen",
+        "AI"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.649554+09:00",
+      "summary": "Alibaba Cloudが開発した大規模言語モデルQwenの最新版であるQwen 3.8が発表されました。このモデルは、前世代と比較して推論能力、多言語対応、およびコード生成能力が大幅に向上しています。特に、長文コンテキストの理解能力が強化されており、複雑なタスクや長大なドキュメントの処理において高いパフォーマンスを発揮することが期待されます。これにより、より高度なAIアプリケーションの開発や、多様な言語での自然な対話が可能になります。"
+    },
+    {
+      "id": "hn_48966569",
+      "source": "hackernews",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "score": 359,
+      "comments": 486,
+      "raw_description": "",
+      "tags": [
+        "Claude",
+        "Bun",
+        "Rust",
+        "AI"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.562672+09:00",
+      "summary": "Anthropicは、同社のAIモデルClaudeのコード生成機能において、BunランタイムをRustで書き直したバージョンを採用しました。これにより、パフォーマンスとメモリ効率が大幅に向上し、より高速で信頼性の高いコード生成が可能になります。この変更は、大規模言語モデルにおける実行環境の最適化が、開発者の生産性向上に直結することを示す好例です。"
+    },
+    {
+      "id": "hatena_32475",
+      "source": "hatena",
+      "title": "セキュリティの勉強になるサイト138選(2026年版) - Qiita",
+      "url": "https://qiita.com/Nakanishi_RareTECH/items/16fd0b847aa68c152e00",
+      "score": 358,
+      "comments": 0,
+      "raw_description": "セキュリティを独学するときに役立つサイトを、Webアプリ・クラウド・CTF・マルウェア解析・資格まで分野ごとにまとめました。ほとんどが無料で、ブラウザだけ、あるいはDockerで自分のマシンに立てればすぐ試せます。 全部で138本。リンクはすべて2026年7月17日に到達を確認しています。上から順に読む必要はないので、...",
+      "tags": [
+        "セキュリティ",
+        "学習リソース",
+        "独学",
+        "CTF"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191032+09:00",
+      "summary": "この記事は、Webアプリケーション、クラウド、CTF、マルウェア解析、資格取得など、多岐にわたるセキュリティ分野の学習リソース138選をまとめたものです。ほとんどのサイトは無料で利用でき、ブラウザやDocker環境で手軽に実践的な学習が可能です。2026年7月17日時点で全てのリンクが有効であることを確認しており、自身の興味やレベルに合わせて分野を選択し、効率的にセキュリティスキルを習得するための貴重なガイドとなります。"
+    },
+    {
+      "id": "hatena_11135",
+      "source": "hatena",
+      "title": "穢れた技術選定について",
+      "url": "https://speakerdeck.com/watany/questionable-technical-choices",
+      "score": 123,
+      "comments": 0,
+      "raw_description": "Developers Summit 2026 summerで話した内容です。 https://event.shoeisha.jp/devsumi/20260716/session/6900",
+      "tags": [
+        "技術選定",
+        "開発プロセス",
+        "組織文化",
+        "プロジェクトマネジメント"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191079+09:00",
+      "summary": "Developers Summit 2026 summerで発表された「穢れた技術選定」に関するセッションでは、技術選定における非技術的要因の重要性が強調されました。プロジェクトの成功には、技術的な優位性だけでなく、組織文化、チームのスキルセット、ステークホルダーの期待といった要素を考慮した現実的なアプローチが不可欠であることが示唆されています。これにより、持続可能で効果的なシステム開発を実現するための指針が提供されます。"
+    },
+    {
+      "id": "hn_48971738",
+      "source": "hackernews",
+      "title": "AI advice made people 3x less accurate but 2x confident, researchers found",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "score": 93,
+      "comments": 36,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "意思決定",
+        "認知バイアス",
+        "人間とAIの協調"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.828922+09:00",
+      "summary": "研究によると、AIからのアドバイスは人間の判断精度を3分の1に低下させる一方で、自信を2倍に増大させることが明らかになりました。これは、AIの提案に過度に依存することで、誤った情報や不確かな結論に対して、かえって確信を持ってしまうリスクを示唆しています。この現象は、AIを意思決定支援ツールとして活用する際に、批判的思考を維持することの重要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_62362",
+      "source": "hatena",
+      "title": "欧州の古書店に入る不可解な大量発注─その裏に潜む「AI」の存在 | 本は喰われて、捨てられる…",
+      "url": "https://courrier.jp/news/archives/452714/",
+      "score": 82,
+      "comments": 0,
+      "raw_description": "「古書の買い占めだ」──カナダ企業による不可解な中古本取引について、スイスの放送局「RTS」はそう断言している。 RTSは、スペインメディア「エル・ディアリオ」とドイツ紙「ターゲスツァイトゥング（TAZ）」の調査を掘り下げ、「中古書籍が買い取られ、デジタル化された後、人工知能（AI）の言語モデルを学習させるた...",
+      "tags": [
+        "AI",
+        "言語モデル",
+        "中古書籍",
+        "データ収集"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191094+09:00",
+      "summary": "カナダ企業が欧州の古書店から大量の中古書籍を買い占めていることが、スイスの放送局RTSの調査で明らかになりました。これらの書籍はデジタル化された後、AIの言語モデル学習に利用されているとみられています。この動きは、AI開発におけるデータソースの確保という側面と、文化遺産や希少本の流通への影響という課題を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_02333",
+      "source": "hatena",
+      "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと - Qiita",
+      "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
+      "score": 73,
+      "comments": 0,
+      "raw_description": "コロンビア大学の博士課程でAI・セキュリティの研究をしている Koukyosyumei です。 最近暇なので、マルチエージェントLLMに関する40本の論文で提案されているワークフローを再実装してみました。論文で報告されているベンチマーク結果を再現するというよりは、それぞれの手法が、どのようなループを持ち、どのような役...",
+      "tags": [
+        "マルチエージェントLLM",
+        "研究",
+        "実装",
+        "AI"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191100+09:00",
+      "summary": "コロンビア大学の研究者が、マルチエージェントLLMに関する40本の論文で提案されたワークフローを再実装した結果を報告しています。本研究は、論文で報告されているベンチマーク結果の再現ではなく、各手法のループ構造や役割分担に着目し、その実装上の特徴を明らかにすることを目的としています。これにより、マルチエージェントLLMの設計思想や実用上の課題に関する深い洞察が得られる可能性があります。"
+    },
+    {
+      "id": "hn_48907390",
+      "source": "hackernews",
+      "title": "The Zen of Parallel Programming",
+      "url": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+      "score": 73,
+      "comments": 4,
+      "raw_description": "",
+      "tags": [
+        "並列プログラミング",
+        "ソフトウェア設計",
+        "パフォーマンス",
+        "デッドロック"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.009105+09:00",
+      "summary": "並列プログラミングの「Zen」とは、複雑な並列処理をシンプルかつ効率的に設計・実装するための哲学や原則を指します。これには、状態の共有を最小限に抑える、依存関係を明確にする、デッドロックや競合状態を避けるための設計パターンなどが含まれます。これらの原則を適用することで、開発者はより堅牢で保守性の高い並列アプリケーションを構築でき、マルチコアプロセッサの性能を最大限に引き出すことが可能になります。"
+    },
+    {
+      "id": "hatena_39312",
+      "source": "hatena",
+      "title": "E2Eテストをユニットテスト並みの実行時間に — Playwright並列化とGitHub Actionsチューニングの実践",
+      "url": "https://zenn.dev/berry_blog/articles/39392e1da7ca71",
+      "score": 62,
+      "comments": 0,
+      "raw_description": "私たちのチームでは、品質管理システム（QMS）SaaS「QMSmart」の開発で、約 100 spec / 140 テストケースの E2E テストを、PR ごとに CI で自動実行し、wall-clock 6〜8 分で完走させる運用が回っています。これはユニットテスト（Vitest）の CI とほぼ同じ所要時間です。 本記事では、これを実現するために行った 並列...",
+      "tags": [
+        "Playwright",
+        "E2Eテスト",
+        "GitHub Actions",
+        "CI/CD"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191072+09:00",
+      "summary": "Playwrightの並列実行とGitHub Actionsのチューニングにより、約100スペック・140テストケースのE2EテストをCIで6〜8分に短縮し、ユニットテストと同等の実行時間を実現した事例を紹介します。この高速化は、PRごとの迅速なフィードバックサイクルを可能にし、開発効率の向上に貢献します。具体的な並列化戦略やGitHub Actionsの設定最適化について解説しています。"
+    },
+    {
+      "id": "hn_48970772",
+      "source": "hackernews",
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "url": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "score": 55,
+      "comments": 37,
+      "raw_description": "",
+      "tags": [
+        "MikroTik",
+        "ホームルーター",
+        "ネットワーク構築",
+        "HomeLab"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.187912+09:00",
+      "summary": "この記事では、家庭用ルーターとしてMikroTikデバイスの導入について解説しています。MikroTikは、高度なルーティング機能や柔軟な設定オプションを提供し、従来のコンシューマー向けルーターでは実現が難しいネットワークのカスタマイズを可能にします。これにより、ネットワーク管理者は帯域幅の制御、VPNの構築、高度なファイアウォール設定などを容易に実現でき、よりセキュアで効率的なホームネットワーク環境を構築できます。"
+    },
+    {
+      "id": "hatena_87704",
+      "source": "hatena",
+      "title": "【海外記事紹介】余ったMacをClaude Code専用の「何でもやらせるマシン」にする — SSH・tmux・LaunchAgentで権限フル解放のエージェント環境を構築",
+      "url": "https://techfeed.io/entries/6a5be90b3d5307dbb0d5d745",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-20T07:55:27.191055+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48971566",
+      "source": "hackernews",
+      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "score": 26,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [
+        "Itanium",
+        "IA-64",
+        "エミュレータ",
+        "Windows"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.748969+09:00",
+      "summary": "Intel Itanium (IA-64)アーキテクチャのエミュレータが新たに開発され、Windowsの起動に成功しました。このエミュレータは、レガシーなItaniumシステム上のソフトウェアを、より現代的なx86/x64環境で動作させることを可能にします。これにより、長年運用されてきた基幹システムや特殊なアプリケーションの移行パスが提供され、ハードウェア保守の制約から解放される可能性があります。"
+    },
+    {
+      "id": "hatena_39413",
+      "source": "hatena",
+      "title": "稼げないと言われる農業で｢時給6000円｣を叩き出す…国産キウイで｢キーエンス超え｣を目指す元県庁職員の戦略",
+      "url": "https://president.jp/articles/-/115203",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "ビタミンや食物繊維が豊富なフルーツとして人気のキウイ。国内消費量は年間約12万トンに達する一方、国産生産量は最盛期の約3分の1まで激減している。この流れに戦いを挑む元県庁職員がいる。農業ライターの鈴木雄人さんは「香川県の職員時代に11種類もの品種を開発した末澤克彦さんは、キウイ業界のレジェンドと呼ばれ...",
+      "tags": [
+        "農業",
+        "キウイ",
+        "高収益化",
+        "品種開発"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191064+09:00",
+      "summary": "元県庁職員が、衰退傾向にある国産キウイ産業において、時給6000円という高収益を実現する戦略を展開しています。11品種を開発したレジェンドとされる末澤克彦氏の知見を活用し、国産キウイの生産量激減という課題に挑む同氏の取り組みは、農業分野における新たな収益モデル構築の可能性を示唆しています。この戦略は、付加価値の高い品種開発と効率的な生産・販売体制の構築が、農業の収益性を向上させる鍵であることを示しています。"
+    },
+    {
+      "id": "hn_48971847",
+      "source": "hackernews",
+      "title": "Show HN: A canvas-based note taking and organizer app",
+      "url": "https://www.passinote.app/",
+      "score": 14,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-20T07:55:28.376229+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_10677",
+      "source": "hatena",
+      "title": "GitHub Release 作成をパッケージリリースのトリガーにするな！",
+      "url": "https://zenn.dev/yumemi_inc/articles/github-release-not-a-publish-trigger",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "はじめに GitHub Actions からパッケージを公開するとき，こんなワークフローを組んでいないでしょうか？ GitHub 上で Release を作成する → on: release: types: [published] でワークフローが起動する → npm publish が走る 操作する側から見ると，非常に分かりやすいですよね。Release を作れば NPM にも公開される。...",
+      "tags": [
+        "GitHub Actions",
+        "CI/CD",
+        "パッケージ管理",
+        "npm"
+      ],
+      "fetched_at": "2026-07-20T07:55:27.191086+09:00",
+      "summary": "GitHub ActionsでRelease作成をトリガーにパッケージを公開するワークフローは、直感的で分かりやすい反面、意図しないパッケージ公開のリスクを伴います。例えば、プレリリース版のReleaseを誤って公開した場合、意図せず古いバージョンがnpmに公開される可能性があります。このため、パッケージ公開のトリガーとしては、より明示的なトリガー（例：特定のブランチへのプッシュや手動実行）の使用が推奨されます。"
+    },
+    {
+      "id": "reddit_64059",
+      "source": "reddit",
+      "title": "A History of IDEs at Google",
+      "url": "https://www.reddit.com/r/programming/comments/1v0gkin/a_history_of_ides_at_google/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://laurent.le-brun.eu/blog/a-history-of-ides-at-google\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v0gkin/a_history_of_ides_at_google/\">[comments]</a></span>",
+      "tags": [
+        "IDE",
+        "Google",
+        "開発ツール",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.991840+09:00",
+      "summary": "Google社内における統合開発環境（IDE）の歴史を辿る記事です。初期のシンプルなテキストエディタから、コード補完、デバッグ機能、バージョン管理連携などを備えた高度なIDEへと進化してきた経緯が解説されています。特に、大規模開発における生産性向上とコード品質維持のために、IDEがどのように貢献してきたかが重要視されています。この記事は、開発ツールの進化がソフトウェア開発プロセスに与える影響を理解する上で示唆に富んでいます。"
+    },
+    {
+      "id": "reddit_84266",
+      "source": "reddit",
+      "title": "The computer at the bottom of a canal",
+      "url": "https://www.reddit.com/r/programming/comments/1v0n806/the_computer_at_the_bottom_of_a_canal/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/double-happiness\"> /u/double-happiness </a> <br /> <span><a href=\"https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v0n806/the_computer_at_the_bottom_of_a_canal/\">[comments]</a></span>",
+      "tags": [
+        "コンピューター",
+        "水没",
+        "耐久性",
+        "データ復旧"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.991861+09:00",
+      "summary": "運河の底から回収されたコンピューターの事例が紹介されています。このコンピューターは、水没による物理的な損傷を受けつつも、一部のコンポーネントがまだ機能する可能性が示唆されています。このような過酷な環境下での電子機器の耐久性や、データ復旧の可能性を探る上で興味深い事例と言えます。"
+    },
+    {
+      "id": "reddit_79367",
+      "source": "reddit",
+      "title": "Finding zombies in our systems: A real-world story of CPU bottlenecks",
+      "url": "https://www.reddit.com/r/programming/comments/1v0llyh/finding_zombies_in_our_systems_a_realworld_story/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://medium.com/pinterest-engineering/finding-zombies-in-our-systems-a-real-world-story-of-cpu-bottlenecks-ea4722e552eb\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v0llyh/finding_zombies_in_our_systems_a_realworld_story/\">[comments]</a></span>",
+      "tags": [
+        "CPUボトルネック",
+        "ゾンビプロセス",
+        "システムパフォーマンス",
+        "デバッグ"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.991869+09:00",
+      "summary": "Pinterestのエンジニアリングチームが、CPUボトルネックを引き起こす「ゾンビプロセス」の特定と解決に成功した事例を紹介します。これらのプロセスは、CPUリソースを消費し続けるものの、実際には有用な処理を行っておらず、システム全体のパフォーマンス低下を招いていました。詳細な調査とデバッグツールを活用することで、原因を特定し、システムの安定性と効率性を向上させました。この経験は、大規模システムにおけるリソース管理の重要性を示唆しています。"
+    },
+    {
+      "id": "reddit_55214",
+      "source": "reddit",
+      "title": "Commutative Complex Number Theory in Plain C",
+      "url": "https://www.reddit.com/r/programming/comments/1v0of6b/commutative_complex_number_theory_in_plain_c/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DataBaeBee\"> /u/DataBaeBee </a> <br /> <span><a href=\"https://leetarxiv.substack.com/p/special-q-descent-and-lattice-sieving-931\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v0of6b/commutative_complex_number_theory_in_plain_c/\">[comments]</a></span>",
+      "tags": [
+        "C言語",
+        "複素数",
+        "数学",
+        "アルゴリズム"
+      ],
+      "fetched_at": "2026-07-20T07:55:28.991876+09:00",
+      "summary": "この記事は、プレーンC言語で実装された可換複素数理論について解説しています。可換複素数（またはクォータニオン）は、通常の複素数とは異なり、乗算の順序が重要になる場合がありますが、この実装ではその性質を考慮しています。これにより、特定の数学的計算やアルゴリズムにおいて、より柔軟で強力な数値表現が可能になります。特に、コンピュータサイエンス分野における代数的構造のモデリングや、高度な暗号理論、物理シミュレーションなどへの応用が期待されます。"
+    }
+  ]
+}
