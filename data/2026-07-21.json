@@ -1,0 +1,323 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T08:02:27.758503+09:00",
+  "articles": [
+    {
+      "id": "hn_48979269",
+      "source": "hackernews",
+      "title": "China’s open-weights AI strategy is winning",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "score": 867,
+      "comments": 706,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "オープンウェイトモデル",
+        "中国",
+        "技術戦略"
+      ],
+      "fetched_at": "2026-07-21T08:02:26.149572+09:00",
+      "summary": "中国はオープンウェイトAIモデル戦略を推進しており、これにより研究開発の加速とグローバルなAIエコシステムの発展に貢献しています。オープンなモデル共有は、技術革新の民主化を促し、多様な応用分野でのAI活用を促進する可能性があります。この戦略は、国際的なAI開発競争において中国の存在感を高める重要な要素となり得ます。"
+    },
+    {
+      "id": "hatena_12080",
+      "source": "hatena",
+      "title": "AIがBlenderを勝手に操作　3D制作のハードルが一気に下がった (1/4)",
+      "url": "https://ascii.jp/elem/000/004/420/4420739/",
+      "score": 546,
+      "comments": 0,
+      "raw_description": "Anthropicの「Claude Fable 5」や、OpenAIの「GPT-5.6 Sol」を使用したCodexから、3D制作ツール「Blender」を操作する手法が注目を集めています。無料で使えることからBlenderは多くの人が利用していますが、初心者が使いこなすためのハードルはかなり高いという実情があります。しかし、AIエージェントと外部ソフトをつ...",
+      "tags": [
+        "AI",
+        "Blender",
+        "3D制作",
+        "GPT"
+      ],
+      "fetched_at": "2026-07-21T08:02:25.926085+09:00",
+      "summary": "AnthropicのClaude Fable 5やOpenAIのGPT-5.6 Solを活用したAIエージェントが、3D制作ツールBlenderを自動操作する技術が登場しました。これにより、これまで初心者にとって高かったBlenderの習得ハードルが大幅に低下し、3Dコンテンツ制作の敷居が下がることが期待されます。AIがBlenderを直接操作することで、より直感的かつ効率的な3Dモデリングやアニメーション制作が可能になります。"
+    },
+    {
+      "id": "hn_48978605",
+      "source": "hackernews",
+      "title": "Hacker wipes Romania's land registry database",
+      "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
+      "score": 538,
+      "comments": 301,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-21T08:02:27.076482+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_67609",
+      "source": "hatena",
+      "title": "「自分の分身」をAIで作れ、アンソロピック社員が教えるClaude活用術5選 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/101067",
+      "score": 385,
+      "comments": 0,
+      "raw_description": "デイジー・ホールマンは、Anthropic（アンソロピック）のClaude Codeチームで働いている。ロンドンで開催されたAnthropicの「Code with Claude」カンファレンスにおける彼女のセッションで、彼女は会場に集まったエンジニアたちに1つの指示を出した。 自分自身のコピー（分身）を作れ。「現時点でソフトウェアエンジニア...",
+      "tags": [
+        "AI",
+        "Claude",
+        "ソフトウェア開発",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-07-21T08:02:25.926141+09:00",
+      "summary": "AnthropicのClaude Codeチームのデイジー・ホールマン氏は、エンジニアに対し、自身の「分身」となるAIをClaudeで作成することを推奨しています。これは、日常的なコーディングタスクの自動化や、開発プロセスの効率化に繋がる可能性を示唆しています。個々のエンジニアの知識やスタイルを学習させることで、よりパーソナライズされたAIアシスタントの構築が可能となり、ソフトウェア開発の生産性向上に貢献すると期待されます。"
+    },
+    {
+      "id": "hn_48981703",
+      "source": "hackernews",
+      "title": "Kimi Work",
+      "url": "https://www.kimi.com/products/kimi-work",
+      "score": 309,
+      "comments": 144,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "LLM",
+        "ファインチューニング",
+        "機械学習"
+      ],
+      "fetched_at": "2026-07-21T08:02:26.329966+09:00",
+      "summary": "Kimi Workは、AIモデルのトレーニングに特化したプラットフォームです。大規模言語モデル（LLM）のファインチューニングや、特定のタスクに合わせたカスタムモデルの構築を効率化します。これにより、開発者はより迅速かつ低コストで、高性能なAIアプリケーションを市場に投入できるようになります。特に、データセットの管理や実験の追跡といった、LLM開発における複雑なプロセスを簡素化する点が重要です。"
+    },
+    {
+      "id": "hn_48981620",
+      "source": "hackernews",
+      "title": "Jelly UI: Soft-body physics for native HTML form controls",
+      "url": "https://jelly-ui.com/",
+      "score": 274,
+      "comments": 111,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-21T08:02:26.515018+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_48983382",
+      "source": "hackernews",
+      "title": "Human mathematicians are being outcounterexampled",
+      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+      "score": 132,
+      "comments": 46,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "数学",
+        "反例",
+        "研究"
+      ],
+      "fetched_at": "2026-07-21T08:02:26.709720+09:00",
+      "summary": "AIが数学分野で、特に反例の発見において人間を凌駕し始めている。これは、AIが膨大なデータセットを分析し、人間が見落としがちなパターンや例外を発見する能力に長けているためである。この傾向は、数学研究の進め方や、AIと人間の協力関係のあり方に大きな影響を与える可能性がある。"
+    },
+    {
+      "id": "hn_48982681",
+      "source": "hackernews",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "url": "https://blaizzy.github.io/nativ/",
+      "score": 131,
+      "comments": 53,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "ローカル実行",
+        "macOS",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-07-21T08:02:27.267181+09:00",
+      "summary": "Nativは、macOS上で最先端のオープンソース大規模言語モデル（LLM）をローカル実行するためのアプリケーションです。これにより、ユーザーはインターネット接続やクラウドサービスに依存せず、プライバシーを保護しながら高度なAIモデルを利用できます。開発者や研究者は、ローカル環境で迅速な実験やプロトタイピングを行うことが可能になり、AI技術の民主化とアクセシビリティ向上に貢献します。"
+    },
+    {
+      "id": "hn_48977128",
+      "source": "hackernews",
+      "title": "Who's Afraid of Chinese Models?",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "score": 68,
+      "comments": 55,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "中国",
+        "LLM",
+        "技術動向"
+      ],
+      "fetched_at": "2026-07-21T08:02:26.893461+09:00",
+      "summary": "中国のAIモデル開発が急速に進展しており、その技術力と影響力に対する懸念が国際的に高まっています。特に、大規模言語モデル（LLM）分野における中国製モデルの性能向上は目覚ましく、欧米の主要モデルに匹敵、あるいは凌駕する可能性が指摘されています。この動向は、AI技術の覇権争いや、データプライバシー、セキュリティ、倫理的側面における国際的な課題を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_31778",
+      "source": "hatena",
+      "title": "AI時代のドキュメント駆動開発のすすめ - Qiita",
+      "url": "https://qiita.com/Asahi_tech_dev/items/5a3c6420cb0b2fa0e823",
+      "score": 50,
+      "comments": 0,
+      "raw_description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? はじめに この数年、AIの登場によって開発現場は大きく様変わりした。バイブコーディングをはじめ、未経験者が開発に参入するハードルは一気に下がり、参入者は急増している。もは...",
+      "tags": [
+        "AI",
+        "ドキュメント駆動開発",
+        "ソフトウェア開発",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-07-21T08:02:25.926109+09:00",
+      "summary": "AIの進化により、開発現場はバイブコーディングなどの影響で未経験者の参入障壁が低下し、開発者が急増しています。このような変化に対応するため、ドキュメント駆動開発（DDD）が注目されています。DDDは、コードの変更履歴や仕様変更をドキュメントとして管理することで、AIによるコード生成やリファクタリングの精度を高め、開発プロセス全体の効率化と品質向上に貢献します。AI時代における開発の持続可能性と生産性向上のための重要なアプローチと言えます。"
+    },
+    {
+      "id": "hn_48985140",
+      "source": "hackernews",
+      "title": "My falling-out with the rationalist community",
+      "url": "https://lcamtuf.substack.com/p/my-falling-out-with-the-rationalist",
+      "score": 50,
+      "comments": 38,
+      "raw_description": "",
+      "tags": [
+        "合理主義",
+        "コミュニティ",
+        "人間関係",
+        "思想"
+      ],
+      "fetched_at": "2026-07-21T08:02:27.450934+09:00",
+      "summary": "この記事は、著者が合理主義コミュニティとの関係が悪化した経緯を綴っています。合理主義の理念と実践における乖離や、コミュニティ内の人間関係の複雑さが原因として挙げられています。著者は、合理主義が本来目指すべき客観性や真理探求から逸脱し、集団内の力学や個人的な感情が優先される状況に失望したと述べています。この経験は、特定の思想コミュニティにおける理想と現実のギャップを示唆しています。"
+    },
+    {
+      "id": "hatena_40909",
+      "source": "hatena",
+      "title": "「ドコモの銀行」で何が変わる？　ポイント最大4.5％還元、金融経済圏のメリットと課題 (1/4)",
+      "url": "https://ascii.jp/elem/000/004/420/4420599/",
+      "score": 43,
+      "comments": 0,
+      "raw_description": "7月1日、NTTドコモ傘下の金融関連会社をまとめた「NTTドコモ・フィナンシャルグループ」が誕生した。 8月3日には住信SBIネット銀行が「ドコモSMTBネット銀行」に社名が変更となり、「ドコモの銀行」というブランドを冠することになる。 SNS上では「ドコモの銀行、ダサすぎる。SBI新生銀行に乗り換える」といった不満の声...",
+      "tags": [],
+      "fetched_at": "2026-07-21T08:02:25.926134+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_01354",
+      "source": "hatena",
+      "title": "外部記憶と化したWebから生成AIを通じて情報を取り出すとき、何が起こっているのか",
+      "url": "https://ki-to-oku.net/outsourcing-judgment-to-ai-after-memory-goes-external/",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "フラッシュメモリが記憶を手のひらに収めた以前、記憶媒体の変遷をたどった記事で、フラッシュメモリの登場について触れた。フラッシュメモリより前、パソコンの中で記憶を担っていたのはハードディスクだった。 ハードディスクは、円盤を回し、その上を読み書きヘッドが物理的に移動して目的の場所を探す。この物理的な...",
+      "tags": [],
+      "fetched_at": "2026-07-21T08:02:25.926126+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_18386",
+      "source": "hatena",
+      "title": "解説「照らす技術」をRubyで照らす #kanrk09 - Harukasan-dot-dev",
+      "url": "https://harukasan.dev/posts/diary/20260720-illuminating-the-technology-of-illumination-using-ruby",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "解説「照らす技術」をRubyで照らす #kanrk092026年7月20日 7月18日(土)に大津市伝統芸能会館で開催された関西Ruby会議09にて、「『照らす技術』をRubyで照らす」という題で登壇させていただきました。今回の発表はデモが多く、スライドもアニメーションを多用しておりそのまま公開するのが難しいです。また、発表中にふ...",
+      "tags": [
+        "Ruby",
+        "照らす技術",
+        "関西Ruby会議09",
+        "登壇"
+      ],
+      "fetched_at": "2026-07-21T08:02:25.926148+09:00",
+      "summary": "関西Ruby会議09にて、「『照らす技術』をRubyで照らす」というテーマで登壇した内容の解説記事です。発表ではデモやアニメーションを多用したスライドが用いられましたが、本記事ではその内容を技術的に掘り下げて解説しています。特に、Rubyを用いた具体的な実装や、照らす技術の応用について理解を深めることができます。"
+    },
+    {
+      "id": "hatena_65924",
+      "source": "hatena",
+      "title": "仕様駆動開発で起こる「仕様とコードのズレ」をハッシュで決定的に検出するツールを作った",
+      "url": "https://zenn.dev/mrmtsntr/articles/artgraph-spec-code-drift",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "はじめに 仕様・ドキュメント・コード・テストの乖離 (ドリフト) を検出する CLI ツール「artgraph」を作りました。仕様駆動開発 (以後、SDD) を進めていると起こる「コードが変わったのに仕様書が古いまま」、「仕様を変えたのに実装が置き去り」を、LLM に頑張って見つけさせるのではなく、決定的な仕組みで検出します...",
+      "tags": [
+        "仕様駆動開発",
+        "コード品質",
+        "開発ツール",
+        "ドリフト検出"
+      ],
+      "fetched_at": "2026-07-21T08:02:25.926118+09:00",
+      "summary": "仕様駆動開発（SDD）において、コードと仕様の乖離（ドリフト）を検出するCLIツール「artgraph」が開発されました。このツールは、LLMに頼るのではなく、ハッシュ値を用いて仕様とコードの整合性を決定的に検証します。これにより、「コード変更の追従漏れ」や「仕様変更の実装遅延」といった、SDDで発生しがちな問題を早期に発見し、開発プロセスの信頼性を向上させることが期待されます。"
+    },
+    {
+      "id": "hatena_96637",
+      "source": "hatena",
+      "title": "2026年7月報告のnginx脆弱性（CVE-2026-42533）をDockerで再現してみた | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/cve-2026-42533-nginx-rce-docker-repro/",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "2026年7月15日に修正されたnginxの認証前RCE脆弱性 CVE-2026-42533（CVSS 9.2）の動作をDockerローカル環境で再現しました。Two-Passキャプチャクロバリングにより、1回のGETリクエストでヒープ情報が漏洩する様子を確認し、修正版1.30.4で問題が解消されることを検証しています。0.9.6から修正版未満の全バージョンが影...",
+      "tags": [
+        "nginx",
+        "CVE-2026-42533",
+        "RCE",
+        "Docker"
+      ],
+      "fetched_at": "2026-07-21T08:02:25.926154+09:00",
+      "summary": "2026年7月15日に修正されたnginxの認証前RCE脆弱性（CVE-2026-42533、CVSS 9.2）について、Docker環境での再現検証結果が報告されています。Two-Passキャプチャクロバリングを利用した1回のGETリクエストでヒープ情報が漏洩するメカニズムが確認され、nginx 1.30.4でこの脆弱性が解消されることが検証されました。この脆弱性は、バージョン0.9.6から修正版未満の全バージョンに影響を与える可能性があります。"
+    },
+    {
+      "id": "reddit_08084",
+      "source": "reddit",
+      "title": "Zig proposes introducing an actually memory safe (unlike Rust) compilation mode inspired by Fil-C at ~1-6x performance penalty",
+      "url": "https://www.reddit.com/r/programming/comments/1v1mpxw/zig_proposes_introducing_an_actually_memory_safe/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Usual-Amount-264\"> /u/Usual-Amount-264 </a> <br /> <span><a href=\"https://codeberg.org/ziglang/zig/issues/36237\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v1mpxw/zig_proposes_introducing_an_actually_memory_safe/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-21T08:02:27.758440+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_26431",
+      "source": "reddit",
+      "title": "Comprehensive JVM Primitive Hashtable Benchmarks",
+      "url": "https://www.reddit.com/r/programming/comments/1v1lqdd/comprehensive_jvm_primitive_hashtable_benchmarks/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tooilln\"> /u/tooilln </a> <br /> <span><a href=\"https://sooniln.github.io/posts/hashmap-benchmarks-2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v1lqdd/comprehensive_jvm_primitive_hashtable_benchmarks/\">[comments]</a></span>",
+      "tags": [
+        "JVM",
+        "HashMap",
+        "ベンチマーク",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-21T08:02:27.758462+09:00",
+      "summary": "この記事は、JVMにおけるプリミティブ型ハッシュテーブルの包括的なベンチマーク結果を報告しています。JavaのHashMapや、より高速な実装を目指したカスタムハッシュテーブルなど、複数の実装を比較し、パフォーマンスの違いを詳細に分析しています。特に、キーと値がプリミティブ型の場合のオーバーヘッド削減や、ガベージコレクションへの影響などが評価されており、JVMでのデータ構造選択における重要な知見を提供します。"
+    },
+    {
+      "id": "reddit_05069",
+      "source": "reddit",
+      "title": "Throw, Result, or neither?",
+      "url": "https://www.reddit.com/r/programming/comments/1v1sg8b/throw_result_or_neither/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adventurous-Salt8514\"> /u/Adventurous-Salt8514 </a> <br /> <span><a href=\"https://www.architecture-weekly.com/p/throw-result-or-neither\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v1sg8b/throw_result_or_neither/\">[comments]</a></span>",
+      "tags": [
+        "エラーハンドリング",
+        "Result型",
+        "例外処理",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-21T08:02:27.758471+09:00",
+      "summary": "この記事は、プログラミングにおけるエラーハンドリングの戦略として、例外（throw）、Result型、あるいはそれ以外の方法について考察しています。特に、Rustなどの言語で採用されているResult型は、明示的なエラー処理を強制することでコードの堅牢性を高める利点があります。しかし、例外処理にも特定のユースケースにおける利便性があり、どちらの手法が最適かは、プロジェクトの要件やチームの慣習によって異なります。この議論は、開発者がより効果的なエラーハンドリング戦略を選択するための洞察を提供します。"
+    },
+    {
+      "id": "reddit_36857",
+      "source": "reddit",
+      "title": "Modula-3: the forgotten language that explored memory safety decades ago",
+      "url": "https://www.reddit.com/r/programming/comments/1v1q3sc/modula3_the_forgotten_language_that_explored/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Pretty cool seeing that people were already thinking about memory safety decades ago. Some of these ideas that feel modern today were being explored back in the 80s and 90s.<br /> Makes you wonder how different things would look if languages like Modula-3 had taken off.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FayeTammy\"> /u/FayeTammy </a> <br /> <span><a href=\"https://softwarepreservation.computerhistory.org/modula3",
+      "tags": [
+        "Modula-3",
+        "メモリ安全性",
+        "プログラミング言語",
+        "過去の技術"
+      ],
+      "fetched_at": "2026-07-21T08:02:27.758478+09:00",
+      "summary": "Modula-3は、1980年代後半から1990年代にかけて開発されたプログラミング言語で、現代では重要視されるメモリ安全性に関する先進的な概念を既に探求していました。この言語は、型システムとランタイムシステムを組み合わせることで、ガベージコレクションや例外処理といった機能を導入し、安全なメモリ管理を実現しようとしました。Modula-3のような言語が普及していれば、現代のソフトウェア開発におけるメモリ関連の脆弱性問題へのアプローチが異なっていた可能性を示唆しています。"
+    }
+  ]
+}
