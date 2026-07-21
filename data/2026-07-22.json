@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T07:59:34.762345+09:00",
+  "articles": [
+    {
+      "id": "hn_48993414",
+      "source": "hackernews",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "score": 565,
+      "comments": 451,
+      "raw_description": "",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AI",
+        "LLM"
+      ],
+      "fetched_at": "2026-07-22T07:59:33.835326+09:00",
+      "summary": "Googleは、Gemini 3.6 Flash、3.5 Flash-Lite、および3.5 Flash Cyberという3つの新しいGeminiモデルを発表しました。これらのモデルは、特に高速な推論と効率的な処理能力を重視して設計されており、リアルタイムアプリケーションやリソースが限られた環境での利用に適しています。Flash-Liteは、より軽量なバージョンとして、モバイルデバイスやエッジコンピューティングでのAI活用を推進する可能性があります。"
+    },
+    {
+      "id": "hn_48997548",
+      "source": "hackernews",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "score": 478,
+      "comments": 311,
+      "raw_description": "",
+      "tags": [
+        "AIセキュリティ",
+        "OpenAI",
+        "Hugging Face",
+        "データ漏洩"
+      ],
+      "fetched_at": "2026-07-22T07:59:33.026274+09:00",
+      "summary": "OpenAIとHugging Faceは、モデル評価中に発生したセキュリティインシデントに対応しました。このインシデントにより、一部のユーザーのデータが意図せず公開される可能性がありましたが、両社は迅速に問題を特定し、修正措置を講じました。この出来事は、AIモデルの評価プロセスにおけるセキュリティの重要性と、潜在的なデータ漏洩リスクへの継続的な注意喚起となります。"
+    },
+    {
+      "id": "hn_48996318",
+      "source": "hackernews",
+      "title": "FreeInk: Open ecosystem for e-readers",
+      "url": "https://freeink.org/",
+      "score": 321,
+      "comments": 72,
+      "raw_description": "",
+      "tags": [
+        "電子書籍リーダー",
+        "オープンソース",
+        "ファームウェア",
+        "エコシステム"
+      ],
+      "fetched_at": "2026-07-22T07:59:33.443247+09:00",
+      "summary": "FreeInkは、電子書籍リーダー向けのオープンエコシステムです。Amazon Kindleのようなクローズドなプラットフォームとは異なり、ユーザーはデバイスのファームウェアを自由にカスタマイズし、異なる電子書籍ストアやフォーマットをサポートさせることができます。これにより、ユーザーはより柔軟でオープンな読書体験を得ることができ、ベンダーロックインを回避する可能性を提供します。"
+    },
+    {
+      "id": "hn_48993816",
+      "source": "hackernews",
+      "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
+      "url": "https://e360.yale.edu/digest/benin-coral-reef",
+      "score": 272,
+      "comments": 48,
+      "raw_description": "",
+      "tags": [
+        "サンゴ礁",
+        "海洋生物多様性",
+        "西アフリカ",
+        "保全"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.043719+09:00",
+      "summary": "西アフリカ沖で、長らく絶滅したと考えられていたサンゴ礁が再発見された。このサンゴ礁は、これまで知られていなかった多様な海洋生物の生息地となっており、海洋生物多様性の保全における新たな希望を示すものである。この発見は、気候変動の影響を受けやすいサンゴ礁の回復力に関する理解を深める上で重要であり、今後の研究に大きな影響を与える可能性がある。"
+    },
+    {
+      "id": "hn_48995213",
+      "source": "hackernews",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "score": 194,
+      "comments": 185,
+      "raw_description": "",
+      "tags": [
+        "Buzz",
+        "AI Agents",
+        "Git Hosting",
+        "Developer Tools"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.437671+09:00",
+      "summary": "Jack Dorsey has launched Buzz, a new platform integrating team chat, AI agents, and Git hosting. This unified approach aims to streamline developer workflows by bringing essential tools into a single environment, potentially reducing context switching and improving collaboration. The inclusion of AI agents suggests a focus on automating tasks and enhancing productivity within the development lifecycle."
+    },
+    {
+      "id": "hatena_64931",
+      "source": "hatena",
+      "title": "LLM の「脳内」をハッキングする技術 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "url": "https://joisino.hatenablog.com/entry/hack",
+      "score": 161,
+      "comments": 0,
+      "raw_description": "LLM の内部状態やパラメータ、いわばLLM の「脳内」を局所的に書き換えることで、LLM の動作に介入する手法が発展を遂げています。 まずは最も基本的な操舵ベクトルについてみていきましょう。 操舵ベクトル LLM の内部状態を特定の方向に動かすことで動作を操作できます。このときに用いるベクトルのことを操舵ベクトル...",
+      "tags": [
+        "LLM",
+        "操舵ベクトル",
+        "モデル制御",
+        "内部状態"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784396+09:00",
+      "summary": "大規模言語モデル（LLM）の内部状態やパラメータを局所的に書き換えることで、その動作を制御する技術が進化しています。この手法は、LLMの「脳内」にアクセスし、特定の方向に内部状態を操作する「操舵ベクトル」を用いることで実現されます。これにより、LLMの応答や振る舞いを意図した通りに調整することが可能になり、モデルの挙動理解や応用範囲の拡大に貢献します。"
+    },
+    {
+      "id": "hatena_47064",
+      "source": "hatena",
+      "title": "政府、マイナカードをAIエージェントと連携へ　重点計画に明記",
+      "url": "https://japan.cnet.com/article/35250805/",
+      "score": 115,
+      "comments": 0,
+      "raw_description": "政府は7月21日、令和8年の「デジタル社会の実現に向けた重点計画」の概要を公表した。マイナンバーカードと外部のAIエージェントを安全につなぐ基盤「MCP」の構築を盛り込んだ。本人に代わってAIが行政手続きを進める将来を見据えた動きだ。 重点計画では、マイナカードについて官民での活用を推進し、「使うことが当た...",
+      "tags": [
+        "マイナンバーカード",
+        "AIエージェント",
+        "行政手続き",
+        "MCP"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784411+09:00",
+      "summary": "政府は、2026年度までにマイナンバーカードと外部AIエージェントを安全に連携させるための基盤「MCP」を構築する計画を公表しました。これにより、将来的にはAIが利用者の代わりに各種行政手続きを代行することが可能になります。この取り組みは、マイナカードの利便性を向上させ、デジタル社会の実現を加速させるための重要な一歩です。"
+    },
+    {
+      "id": "hn_48998362",
+      "source": "hackernews",
+      "title": "A digestion of the Jacobian conjecture counterexample",
+      "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+      "score": 81,
+      "comments": 21,
+      "raw_description": "",
+      "tags": [
+        "Jacobian予想",
+        "反例",
+        "代数幾何学",
+        "複素解析学"
+      ],
+      "fetched_at": "2026-07-22T07:59:33.644524+09:00",
+      "summary": "Jacobian予想の反例に関する論文の解説記事です。この予想は、多項式写像のヤコビアン行列の行列式が定数でない場合、その写像は単射であるというものです。今回、この予想の反例が提示され、その数学的構造と証明の詳細が説明されています。この反例の発見は、代数幾何学や複素解析学の分野における長年の未解決問題に終止符を打ち、今後の研究の方向性に影響を与える可能性があります。"
+    },
+    {
+      "id": "hn_48998404",
+      "source": "hackernews",
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "score": 44,
+      "comments": 12,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "画像生成",
+        "LLM",
+        "GPT-4.5"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.235245+09:00",
+      "summary": "GPT-4.5, Claude 3, Gemini, and Grok were tasked with generating an image of the Mona Lisa. This experiment highlights the current capabilities and limitations of leading large language models in visual generation, demonstrating their progress in interpreting complex prompts and rendering iconic imagery. The results offer insights into the nuances of AI-driven art creation and its potential applications in creative fields."
+    },
+    {
+      "id": "hatena_06754",
+      "source": "hatena",
+      "title": "最近、なぜみんなuvを使っているんですか？ Pythonパッケージ管理の変遷と現在地 - Findy Media",
+      "url": "https://findy-code.io/media/articles/chotto-wakaru-python",
+      "score": 39,
+      "comments": 0,
+      "raw_description": "Pythonのパッケージ管理や仮想環境の構築においては、長らく「多種多様なツールが存在するが、どれがベストプラクティスなのかわからない」という状況が続いてきました。しかし、近年登場したRust製のパッケージ管理ツールuvは、その有力な回答として多くのユーザーから支持され、今、急速に普及しています。 過去に登場...",
+      "tags": [
+        "Python",
+        "パッケージ管理",
+        "uv",
+        "仮想環境"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784373+09:00",
+      "summary": "Pythonのパッケージ管理と仮想環境構築において、長らくベストプラクティスが不明瞭な状況が続いていましたが、近年登場したRust製のパッケージ管理ツールuvがその有力な解決策として急速に普及しています。uvは、pipやvenvといった従来のツールと比較して、高速なパッケージインストールと依存関係解決を実現し、開発者の生産性向上に貢献します。このツールの台頭は、Pythonエコシステムにおけるパッケージ管理の標準化に向けた重要な一歩と言えます。"
+    },
+    {
+      "id": "hatena_81133",
+      "source": "hatena",
+      "title": "コミット履歴は`git log --graph --oneline --decorate --all`で十分 — 読み方のポイントを解説する",
+      "url": "https://zenn.dev/ma_sa_shi/articles/9b140537cadd7e",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "はじめに git logはコミットが縦に長く並び視覚的でない為、私はgit log --graph --oneline --decorate --allでリポジトリの履歴をいつも確認している。 --graph コミット間の親子関係を*や|などの記号で視覚的に表示 --oneline コミットハッシュとコミットメッセージを1行に短縮して表示 --decorate ブランチ名やタグ名...",
+      "tags": [
+        "Git",
+        "git log",
+        "バージョン管理",
+        "開発効率"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784404+09:00",
+      "summary": "Gitのコミット履歴を効率的に把握するためには、`git log --graph --oneline --decorate --all`コマンドが有効です。このコマンドは、コミット間の親子関係を視覚的なグラフで表示し、各コミットを短縮されたハッシュとメッセージで1行にまとめることで、リポジトリの全体像と詳細を迅速に理解することを可能にします。ブランチやタグの情報も同時に表示されるため、開発の流れやバージョン管理の状態を正確に把握する上で重要です。"
+    },
+    {
+      "id": "hn_48999291",
+      "source": "hackernews",
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "score": 31,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-22T07:59:33.214797+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_02723",
+      "source": "hatena",
+      "title": "エンジニアの成果、結局どう測ればいいのか",
+      "url": "https://zenn.dev/awesome_kou/articles/engineer-performance-metrics",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "行数や PR 数が「嘘の指標」なのではありません。連鎖の右端にある 途中経過 なのです。 途中経過を最終成果のように扱った瞬間に、おかしなことが起こり始めます 。 測った瞬間に指標は壊れる おかしなことが起こる理由には、名前がついています。グッドハートの法則 です。 イギリスの経済学者が指摘した現象で、後に...",
+      "tags": [],
+      "fetched_at": "2026-07-22T07:59:32.784432+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_26919",
+      "source": "hatena",
+      "title": "Gemini 3.6 Flash登場！17%効率化+値下げ。3.5 Flash-Liteも",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2126733.html",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Gemini 3.6 Flash",
+        "AIモデル",
+        "推論効率",
+        "Google"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784426+09:00",
+      "summary": "Googleは、最新の大規模言語モデル「Gemini 3.6 Flash」を発表しました。このモデルは、前世代の3.5 Flashと比較して推論効率が17%向上しており、より高速な応答とコスト削減を実現します。また、より軽量な「3.5 Flash-Lite」も提供され、多様なユースケースへの適用が期待されます。これらのアップデートは、AIモデルのパフォーマンスと経済性を両立させるための重要な進歩です。"
+    },
+    {
+      "id": "hatena_02867",
+      "source": "hatena",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "tags": [
+        "Google",
+        "Gemini",
+        "AIモデル",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784438+09:00",
+      "summary": "Googleは、AIモデルファミリーにGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの3つの新しいモデルを追加しました。これらのモデルは、パフォーマンスと効率性のバランスを重視しており、特に高速な応答性が求められるアプリケーションでの活用が期待されます。これにより、開発者は多様なユースケースに対応するAIソリューションを構築する際の選択肢が広がります。"
+    },
+    {
+      "id": "hatena_26690",
+      "source": "hatena",
+      "title": "【速報】ニチレイ障害、ハッカー集団が犯行声明",
+      "url": "https://www.47news.jp/14661811.html",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "サイバー攻撃を受けシステム障害を起こしたニチレイに対し「ランサムハウス」と呼ばれるハッカー集団が、インターネットのダークウェブ上に犯行声明を出したことが21日、セキュリティー関係者への取材で分かった。",
+      "tags": [
+        "サイバー攻撃",
+        "ランサムウェア",
+        "情報セキュリティ",
+        "事業継続"
+      ],
+      "fetched_at": "2026-07-22T07:59:32.784419+09:00",
+      "summary": "ニチレイのシステム障害は、ランサムハウスと名乗るハッカー集団によるサイバー攻撃が原因であることが、ダークウェブ上の犯行声明により明らかになりました。この攻撃は、企業の基幹システムがサイバー攻撃の標的となり得ることを改めて示しており、サプライチェーン全体におけるセキュリティ対策の重要性を浮き彫りにしています。ランサムウェア攻撃は、事業継続に甚大な影響を与えるため、事前の防御策と迅速なインシデント対応計画が不可欠です。"
+    },
+    {
+      "id": "reddit_46289",
+      "source": "reddit",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "url": "https://www.reddit.com/r/programming/comments/1v2bwax/linux_kernel_will_support_origin_sort_of/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlondieCoder\"> /u/BlondieCoder </a> <br /> <span><a href=\"https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v2bwax/linux_kernel_will_support_origin_sort_of/\">[comments]</a></span>",
+      "tags": [
+        "Linuxカーネル",
+        "動的リンカ",
+        "$ORIGIN",
+        "ライブラリパス"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.762277+09:00",
+      "summary": "Linuxカーネルに、実行ファイルと同じディレクトリにライブラリを配置する `$ORIGIN` に似た機能が導入される予定です。これにより、実行ファイルとライブラリのパス指定が簡略化され、特にポータブルなアプリケーションやコンテナ環境でのデプロイメントが容易になります。この機能は、動的リンカの挙動を改善し、依存関係の管理をより柔軟に行えるようにすることを目的としています。"
+    },
+    {
+      "id": "reddit_06636",
+      "source": "reddit",
+      "title": "Secrets Don’t Belong in Config",
+      "url": "https://www.reddit.com/r/programming/comments/1v2cd9i/secrets_dont_belong_in_config/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlondieCoder\"> /u/BlondieCoder </a> <br /> <span><a href=\"https://secretspec.dev/blog/secrets-dont-belong-in-config/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v2cd9i/secrets_dont_belong_in_config/\">[comments]</a></span>",
+      "tags": [
+        "セキュリティ",
+        "設定管理",
+        "機密情報",
+        "DevOps"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.762305+09:00",
+      "summary": "設定ファイルに機密情報を保存することの危険性について解説しています。機密情報は、環境変数や専用のシークレット管理ツールを使用することで、より安全に管理できます。これにより、コードリポジトリへの漏洩リスクを低減し、セキュアな開発運用を実現します。"
+    },
+    {
+      "id": "reddit_19220",
+      "source": "reddit",
+      "title": "The Long Road to Bottomless Postgres: Discussing Neon, pg_mooncake, pg_tier, pg_lake, and ColdFront",
+      "url": "https://www.reddit.com/r/programming/comments/1v24401/the_long_road_to_bottomless_postgres_discussing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pgEdge_Postgres\"> /u/pgEdge_Postgres </a> <br /> <span><a href=\"https://www.pgedge.com/blog/the-long-road-to-bottomless-postgres\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v24401/the_long_road_to_bottomless_postgres_discussing/\">[comments]</a></span>",
+      "tags": [
+        "PostgreSQL",
+        "ストレージ",
+        "データベース",
+        "スケーラビリティ"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.762313+09:00",
+      "summary": "この記事は、PostgreSQLのストレージ拡張に関する様々なアプローチ、特に「ボトムレス」ストレージの実現を目指すプロジェクトについて解説しています。Neon、pg_mooncake、pg_tier、pg_lake、ColdFrontといった技術が紹介されており、これらはストレージコストの削減やスケーラビリティの向上を目的としています。これらの技術は、PostgreSQLのデータをオブジェクトストレージなどにオフロードすることで、従来のデータベースアーキテクチャの限界を超える可能性を示唆しています。"
+    },
+    {
+      "id": "reddit_31840",
+      "source": "reddit",
+      "title": "How We're Scaling Our Infrastructure Across 4 Clouds To Serve 1M+ Sandboxes",
+      "url": "https://www.reddit.com/r/programming/comments/1v2bahd/how_were_scaling_our_infrastructure_across_4/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/writer_coder_06\"> /u/writer_coder_06 </a> <br /> <span><a href=\"https://opencomputer.dev/blog/scaling-one-vm-to-million-sandboxes\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v2bahd/how_were_scaling_our_infrastructure_across_4/\">[comments]</a></span>",
+      "tags": [
+        "クラウドインフラ",
+        "スケーリング",
+        "サンドボックス",
+        "分散システム"
+      ],
+      "fetched_at": "2026-07-22T07:59:34.762320+09:00",
+      "summary": "この記事では、100万以上のサンドボックス環境を提供するために、4つの異なるクラウドプロバイダーにまたがるインフラストラクチャのスケーリング戦略について解説しています。分散型アーキテクチャと自動化を駆使し、リソースの効率的な利用と高可用性を実現することで、大規模なサンドボックス環境の安定的な運用を可能にしています。このアプローチは、開発者やテスターがオンデマンドで隔離された実行環境を利用する際の課題解決に貢献します。"
+    }
+  ]
+}
