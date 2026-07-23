@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T07:58:16.921335+09:00",
+  "articles": [
+    {
+      "id": "hn_49022152",
+      "source": "hackernews",
+      "title": "Writing by hand is good for your brain",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "score": 856,
+      "comments": 431,
+      "raw_description": "",
+      "tags": [
+        "手書き",
+        "脳科学",
+        "認知機能",
+        "学習"
+      ],
+      "fetched_at": "2026-07-24T07:58:15.212751+09:00",
+      "summary": "手書きは、脳の活動を活性化させ、記憶力や学習能力の向上に寄与することが研究で示されています。特に、文字を書き起こす際の運動と視覚の連携が、情報の定着を助けます。デジタル化が進む現代において、手書きの習慣は認知機能の維持・向上に有効な手段となり得ます。"
+    },
+    {
+      "id": "hn_49023016",
+      "source": "hackernews",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "score": 644,
+      "comments": 597,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "オープンソース",
+        "スタートアップ",
+        "政策提言"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.341018+09:00",
+      "summary": "米国のスタートアップ創業者らが、中国製オープンウェイトAIモデルへのアクセスを遮断しないよう政府に求めている。これらのモデルは、研究開発やイノベーションの加速に不可欠であり、米国のAIエコシステム全体の競争力維持に貢献すると主張している。アクセス制限は、米国のAI開発における進歩を遅らせ、国際的な協力の機会を損なう可能性があると懸念されている。"
+    },
+    {
+      "id": "hn_49024691",
+      "source": "hackernews",
+      "title": "What happened to TheNumbers.com",
+      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "score": 244,
+      "comments": 116,
+      "raw_description": "",
+      "tags": [
+        "box office",
+        "data tracking",
+        "entertainment industry",
+        "website closure"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.119480+09:00",
+      "summary": "TheNumbers.com, a website that tracked box office revenue and other entertainment industry data, has ceased operations. The site was a valuable resource for industry professionals and researchers seeking detailed financial information on film and television productions. Its closure leaves a gap in the availability of comprehensive, publicly accessible industry financial data."
+    },
+    {
+      "id": "hn_49028037",
+      "source": "hackernews",
+      "title": "Namecheap Gave My Account to an Unverified Third Party Just Because They Asked",
+      "url": "https://news.ycombinator.com/item?id=49028037",
+      "score": 238,
+      "comments": 75,
+      "raw_description": "",
+      "tags": [
+        "Namecheap",
+        "セキュリティ",
+        "アカウント情報",
+        "第三者提供"
+      ],
+      "fetched_at": "2026-07-24T07:58:15.654721+09:00",
+      "summary": "ドメインレジストラであるNamecheapが、アカウント情報を検証されていない第三者に提供した事例が報告されました。これは、セキュリティ対策の不備を示唆しており、顧客の個人情報やドメイン管理権の侵害につながる可能性があります。このような事態は、サービス提供者側の厳格な本人確認プロセスの重要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_49027892",
+      "source": "hackernews",
+      "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
+      "url": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
+      "score": 184,
+      "comments": 85,
+      "raw_description": "",
+      "tags": [
+        "遺伝子編集",
+        "医療倫理",
+        "臨床応用",
+        "安全性"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.970824+09:00",
+      "summary": "遺伝子編集療法を受けた少女が死亡したという痛ましい事例が報告されました。この治療法は80万ドル以上を費やして実施されましたが、その効果や安全性については、さらなる検証と倫理的な議論が必要です。遺伝子編集技術の臨床応用においては、期待される効果だけでなく、潜在的なリスクや予期せぬ結果についても十分に考慮し、慎重に進めることの重要性を示唆しています。"
+    },
+    {
+      "id": "hn_49026810",
+      "source": "hackernews",
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "score": 166,
+      "comments": 81,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "オープンソース",
+        "機械学習",
+        "コスト削減"
+      ],
+      "fetched_at": "2026-07-24T07:58:15.434207+09:00",
+      "summary": "Echoは、オープンウェイトモデルを活用して、Fableと同等の結果を1/3のコストで実現する新しいAIモデルです。これにより、高性能なAIモデルへのアクセスがより手頃になり、研究開発やアプリケーション開発の敷居を下げることが期待されます。特に、コスト効率を重視するスタートアップや個人開発者にとって、強力な選択肢となり得ます。"
+    },
+    {
+      "id": "hn_49025984",
+      "source": "hackernews",
+      "title": "Building on ATProto",
+      "url": "https://lukekanies.com/writing/building-on-atproto/",
+      "score": 110,
+      "comments": 49,
+      "raw_description": "",
+      "tags": [
+        "ATProto",
+        "分散型SNS",
+        "オープンプロトコル",
+        "相互運用性"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.585678+09:00",
+      "summary": "ATProtoは、分散型ソーシャルネットワークを構築するためのオープンプロトコルです。このプロトコルは、ユーザーが自身のデータを管理し、異なるアプリケーション間での相互運用性を実現することを目指しています。ATProtoの基盤となる技術には、アイデンティティ層、リレー層、データリポジトリ層が含まれ、スケーラビリティと柔軟性を重視した設計がなされています。これにより、中央集権的なプラットフォームに依存しない、新しいソーシャルメディアのエコシステム構築が可能になります。"
+    },
+    {
+      "id": "hn_49007221",
+      "source": "hackernews",
+      "title": "The Beam Engine",
+      "url": "https://glinscott.github.io/beam-engine/",
+      "score": 81,
+      "comments": 34,
+      "raw_description": "",
+      "tags": [
+        "蒸気機関",
+        "産業革命",
+        "歴史",
+        "機械工学"
+      ],
+      "fetched_at": "2026-07-24T07:58:15.895923+09:00",
+      "summary": "蒸気機関の初期の形態であるビームエンジンは、往復運動を回転運動に変換するクランク機構を備えていました。その効率は低かったものの、産業革命初期の工場や鉱山での動力源として不可欠な役割を果たしました。現代のエンジン技術の基礎を築いた歴史的に重要な発明です。"
+    },
+    {
+      "id": "hatena_74342",
+      "source": "hatena",
+      "title": "「人間洗濯機」が高齢者施設に　福祉の現場に万博技術導入　人手不足解消や産業成長に期待",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/23/news116.html",
+      "score": 51,
+      "comments": 0,
+      "raw_description": "2025年の大阪・関西万博で紹介された最先端の製品や技術が、福祉分野で実用化され始めた。大阪ヘルスケアパビリオンで話題を呼んだ「ミライ人間洗濯機」を介護施設用に応用した入浴装置が、大阪市内の高齢者施設で導入されたほか、介護ロボットやAIによる見守りも注目される。介護の人手不足対策やヘルスケア産業の成長...",
+      "tags": [
+        "介護ロボット",
+        "ヘルスケア技術",
+        "人手不足解消",
+        "万博技術"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.651713+09:00",
+      "summary": "2025年大阪・関西万博で展示された「ミライ人間洗濯機」の技術が、介護施設向け入浴装置として実用化されました。この装置は、介護現場の人手不足解消に貢献することが期待されており、高齢者の入浴介助の負担軽減と質の向上を目指します。介護ロボットやAI見守り技術と並び、ヘルスケア産業の成長を促進する可能性も秘めています。"
+    },
+    {
+      "id": "hatena_48226",
+      "source": "hatena",
+      "title": "クラウドにOSSを「持っていかれる」問題：Elastic、Redis、HashiCorpから考えるAGPL - Convergence Lab.",
+      "url": "https://www.convergence-lab.com/blog/2026-07-23-open-core-agpl/",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "「ソースコードを公開すれば、利用者が増え、改善が返ってきて、みんなが得をする」 OSSにはそんな理想があります。しかし、実際にプロジェクトが成功すると、別の光景が現れることがあります。巨大クラウド事業者がOSSをマネージドサービスとして提供し、運用の手軽さと販売網を武器に大きな売上を得る。一方、最初にソ...",
+      "tags": [
+        "OSS",
+        "クラウド",
+        "AGPL",
+        "ライセンス"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.651758+09:00",
+      "summary": "クラウドプロバイダーがオープンソースソフトウェア（OSS）をマネージドサービスとして提供する際に、オリジナルの開発元が収益化に苦慮する「クラウドにOSSを持っていかれる」問題が顕在化しています。Elastic、Redis、HashiCorpなどの事例に見られるように、AGPLのようなライセンスは、ソースコード公開義務を通じてクラウド事業者のサービス提供に対抗する手段となり得ますが、その適用と効果には議論があります。この問題は、OSSエコシステムの持続可能性と開発者への適切な還元という観点から重要です。"
+    },
+    {
+      "id": "hatena_17353",
+      "source": "hatena",
+      "title": "アンソロピック「Claude Opus 5」明日にも発表か、GPT-5.6や中国AIに対抗 焦点は？",
+      "url": "https://www.sbbit.jp/article/cont1/186222",
+      "score": 30,
+      "comments": 0,
+      "raw_description": "米アンソロピックが、次世代の最上位AIモデル「Claude Opus 5」を日本時間24日早朝にも発表するとの観測が強まっている。性能を高めながら安定性を高め、運用コストを抑えるモデルになるとの期待があり、OpenAIのGPT-5.6や低価格な中国勢との競争を左右しそうだ。 米アンソロピックが、次期最上位AIモデル「Claude Opus ...",
+      "tags": [
+        "Anthropic",
+        "Claude Opus 5",
+        "AIモデル",
+        "競争"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.651730+09:00",
+      "summary": "Anthropicは、次世代の最上位AIモデル「Claude Opus 5」を近日中に発表する見込みです。このモデルは、性能向上と安定性の両立、そして運用コストの削減を目指しており、OpenAIのGPT-5.6や中国製AIとの競争において重要な位置を占めると予想されます。性能とコスト効率のバランスが、今後のAI市場における同社の競争力を左右する鍵となるでしょう。"
+    },
+    {
+      "id": "hatena_82118",
+      "source": "hatena",
+      "title": "「惜しいデザイン」 を生み出さないための AIレビューループ",
+      "url": "https://speakerdeck.com/0b1tk/xi-siidezain-wosheng-michu-sanaitameno-airebiyurupu",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "2026年7月22日 「AIで変わる設計と判断——デザイン × フロントエンド、複数社が語る失敗と工夫」 登壇資料",
+      "tags": [],
+      "fetched_at": "2026-07-24T07:58:14.651745+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_72470",
+      "source": "hatena",
+      "title": "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining Classic Principles with AI-Driven Development",
+      "url": "https://speakerdeck.com/itohiro73/beyond-just-vibe-coding-combining-classic-principles-with-ai-driven-development",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "『動くだけ』のその先へ — AI駆動開発で品質と速度を両取りする温故知新な新手法 / Beyond Just Vibe Coding - Combining Classic Principles with AI-Driven Development",
+      "tags": [],
+      "fetched_at": "2026-07-24T07:58:14.651738+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_97700",
+      "source": "hatena",
+      "title": "iPhoneの箱はなぜ無傷で届くのか､アップルが世界中に｢おとりの箱｣を送り続ける驚きの理由",
+      "url": "https://toyokeizai.net/articles/-/952119",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+      "tags": [
+        "サプライチェーン",
+        "盗難防止",
+        "iPhone",
+        "Apple"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.651752+09:00",
+      "summary": "Appleは、iPhoneの箱が無傷で届くようにするために、「おとりの箱」を世界中に送り続けている。これは、輸送中の盗難や不正開封を防ぐためのサプライチェーン管理戦略の一環である。この手法により、製品の完全性を保ち、顧客への信頼性を高めている。"
+    },
+    {
+      "id": "hatena_61472",
+      "source": "hatena",
+      "title": "ソフトバンクの空飛ぶ基地局「HAPS」 8月に日本で飛行試験",
+      "url": "https://www.watch.impress.co.jp/docs/news/2127402.html",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "HAPS",
+        "ソフトバンク",
+        "5G",
+        "通信インフラ"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.651765+09:00",
+      "summary": "ソフトバンクは、成層圏で通信網を構築する空飛ぶ基地局「HAPS」（High Altitude Platform Station）の日本国内での飛行試験を8月に実施します。この試験は、地上から約20km上空にHAPSを滞空させ、LTEや5Gといったモバイル通信の電波を地上に届ける技術の実証を目的としています。HAPSは、災害時の通信確保や、これまで通信網が届きにくかった山間部・離島などへのサービス提供、さらにはIoTデバイスの広域通信網としても期待されており、その実用化に向けた重要なステップとなります。"
+    },
+    {
+      "id": "hatena_05912",
+      "source": "hatena",
+      "title": "iOS 27、リース利用者の支払いが滞るとiPhoneの機能をリモートでロックするシステムを実装か【やじうまWatch】",
+      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2127174.html",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "iOS",
+        "リース契約",
+        "リモートロック",
+        "Apple"
+      ],
+      "fetched_at": "2026-07-24T07:58:14.651771+09:00",
+      "summary": "AppleがiOS 27で、リース契約者の支払いが滞った場合にiPhoneの機能をリモートで制限するシステムを導入する可能性が報じられています。この機能は、デバイスの所有権が完全に購入者に移るまでの間、リース会社が支払いを保証するために利用されると考えられます。これにより、リースモデルの普及に伴うリスクを軽減し、より広範なデバイスへのアクセスを促進する可能性がありますが、プライバシーやセキュリティに関する懸念も指摘されています。"
+    },
+    {
+      "id": "reddit_33226",
+      "source": "reddit",
+      "title": "Everyone Should Know SIMD",
+      "url": "https://www.reddit.com/r/programming/comments/1v4f5gu/everyone_should_know_simd/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/awesomePop7291\"> /u/awesomePop7291 </a> <br /> <span><a href=\"https://mitchellh.com/writing/everyone-should-know-simd\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v4f5gu/everyone_should_know_simd/\">[comments]</a></span>",
+      "tags": [
+        "SIMD",
+        "CPU",
+        "パフォーマンス",
+        "並列処理"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.921282+09:00",
+      "summary": "SIMD（Single Instruction, Multiple Data）は、単一の命令で複数のデータを並列処理する技術であり、現代のCPUに広く搭載されています。この技術を活用することで、画像処理、科学技術計算、機械学習などの分野で大幅なパフォーマンス向上が期待できます。本記事では、SIMDの基本的な概念から、その重要性、そして開発者がどのように活用できるかについて解説しており、パフォーマンス最適化に関心のある技術者にとって必読の内容となっています。"
+    },
+    {
+      "id": "reddit_36147",
+      "source": "reddit",
+      "title": "How Canva uses S3 for logged-in session management",
+      "url": "https://www.reddit.com/r/programming/comments/1v44xfb/how_canva_uses_s3_for_loggedin_session_management/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I put together a writeup about the interesting technical challenges that led to redesigning Canva's session revocation pipeline that keeps hundreds of millions of user sessions fast and secure. Hopefully some people find the content interesting!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/llewvallis\"> /u/llewvallis </a> <br /> <span><a href=\"https://www.canva.dev/blog/engineering/session-revocations-at-scale/\">[link]</a",
+      "tags": [
+        "Canva",
+        "S3",
+        "セッション管理",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.921299+09:00",
+      "summary": "Canvaは、数億ものユーザーセッションを高速かつ安全に管理するため、セッション失効パイプラインを再設計しました。この再設計では、Amazon S3をセッション管理に活用し、効率的なセッション失効メカニズムを実現しています。これにより、ユーザーエクスペリエンスを損なうことなく、セキュリティを維持することが可能になりました。"
+    },
+    {
+      "id": "reddit_44691",
+      "source": "reddit",
+      "title": "The Elm Architecture, without Elm",
+      "url": "https://www.reddit.com/r/programming/comments/1v4pb0a/the_elm_architecture_without_elm/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>This blog post is about implementing the Elm Architecture (TEA) in C for a Raylib + Clay app</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Direct_Beach3237\"> /u/Direct_Beach3237 </a> <br /> <span><a href=\"https://bichanna.github.io/posts/tea-time/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v4pb0a/the_elm_architecture_without_elm/\">[comments]</a></span>",
+      "tags": [
+        "Elm Architecture",
+        "C言語",
+        "状態管理",
+        "ソフトウェア設計"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.921307+09:00",
+      "summary": "この記事では、Elm Architecture (TEA) の概念を、Elm 言語を使わずに C 言語で実装する方法を解説しています。具体的には、Raylib と Clay を使用したアプリケーションで TEA を適用するアプローチが示されています。TEA は、状態管理、更新ロジック、ビューのレンダリングを明確に分離する設計パターンであり、大規模なアプリケーションでも予測可能で保守しやすいコードベースを構築するのに役立ちます。この実装例は、他の言語やフレームワークで TEA の利点を活用したい開発者にとって有益です。"
+    },
+    {
+      "id": "reddit_27532",
+      "source": "reddit",
+      "title": "How MVCC and Transactions Work in RocksDB",
+      "url": "https://www.reddit.com/r/programming/comments/1v4jw4i/how_mvcc_and_transactions_work_in_rocksdb/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KAdot\"> /u/KAdot </a> <br /> <span><a href=\"https://artem.krylysov.com/blog/2026/07/23/how-mvcc-and-transactions-work-in-rocksdb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v4jw4i/how_mvcc_and_transactions_work_in_rocksdb/\">[comments]</a></span>",
+      "tags": [
+        "RocksDB",
+        "MVCC",
+        "トランザクション",
+        "データベース"
+      ],
+      "fetched_at": "2026-07-24T07:58:16.921313+09:00",
+      "summary": "RocksDBにおけるMVCC（Multi-Version Concurrency Control）とトランザクションの仕組みについて解説しています。MVCCは、複数のバージョンを保持することで読み取りと書き込みのロック競合を回避し、高い同時実行性を実現します。トランザクションは、このMVCCを基盤として、アトミック性、一貫性、分離性を提供する機能です。これにより、データベースシステムはデータの一貫性を保ちながら、多数の読み書きリクエストを効率的に処理することが可能になります。"
+    }
+  ]
+}
