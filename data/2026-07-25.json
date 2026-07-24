@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T08:03:08.028747+09:00",
+  "articles": [
+    {
+      "id": "hn_49038433",
+      "source": "hackernews",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "score": 1166,
+      "comments": 630,
+      "raw_description": "",
+      "tags": [
+        "Claude 3 Opus",
+        "大規模言語モデル",
+        "AI",
+        "Anthropic"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.403778+09:00",
+      "summary": "Anthropicが最新の大規模言語モデル「Claude 3 Opus」を発表しました。Opusは、同社が提供するモデルの中で最も高性能であり、複雑なタスクや高度な推論能力において、従来のモデルを凌駕する性能を示します。特に、専門的な知識を要する分野や、長文の分析、コード生成などの領域でその能力を発揮し、AIの応用範囲をさらに広げる可能性を秘めています。"
+    },
+    {
+      "id": "hn_49034292",
+      "source": "hackernews",
+      "title": "My security camera shipped a GitHub admin token in its login page",
+      "url": "https://hhh.hn/hanwha-github-token/",
+      "score": 480,
+      "comments": 167,
+      "raw_description": "",
+      "tags": [
+        "脆弱性",
+        "IoT",
+        "GitHub",
+        "サプライチェーンセキュリティ"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.804283+09:00",
+      "summary": "あるセキュリティカメラ製品において、ログインページにGitHubの管理者トークンがハードコードされていたという脆弱性が発見されました。このトークンは、カメラのファームウェアアップデートに使用されるもので、攻撃者がこれを入手した場合、GitHubリポジトリへの不正アクセスや改ざんが可能になります。この事象は、IoTデバイスにおけるハードコードされた認証情報の危険性と、サプライチェーンセキュリティの重要性を改めて浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_86852",
+      "source": "hatena",
+      "title": "[PDF]株式会社はてな　特別調査委員会による調査報告書の公表及び役員報酬の一部自主返上に関するお知らせ",
+      "url": "https://ssl4.eir-parts.net/doc/3930/tdnet/2856001/00.pdf",
+      "score": 454,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "はてな",
+        "調査報告書",
+        "役員報酬",
+        "再発防止"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090901+09:00",
+      "summary": "株式会社はてなが、特別調査委員会による調査報告書を公表しました。この報告書は、同社における過去のインシデントに関する詳細な調査結果をまとめたものです。報告書の公表に伴い、経営陣は役員報酬の一部を自主返上することを決定しました。これは、今回の調査結果を踏まえ、経営責任を明確にし、再発防止に向けた取り組みの一環として行われるものです。"
+    },
+    {
+      "id": "hn_48973835",
+      "source": "hackernews",
+      "title": "India's first privately-developed rocket reaches orbit on debut launch",
+      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+      "score": 448,
+      "comments": 132,
+      "raw_description": "",
+      "tags": [
+        "インド",
+        "民間宇宙開発",
+        "ロケット",
+        "Vikram-S"
+      ],
+      "fetched_at": "2026-07-25T08:03:07.180841+09:00",
+      "summary": "インド初の民間開発ロケット「Vikram-S」が、初打ち上げで軌道投入に成功しました。この成功は、インドの宇宙開発における民間セクターの台頭と、宇宙へのアクセスを多様化する可能性を示す重要な一歩です。これにより、インドは独自のロケット技術を持つ数少ない国の一つとなり、将来的な商業宇宙ミッションへの道が開かれました。"
+    },
+    {
+      "id": "hn_49035303",
+      "source": "hackernews",
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "score": 443,
+      "comments": 206,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "オープンモデル",
+        "規制",
+        "テクノロジー"
+      ],
+      "fetched_at": "2026-07-25T08:03:07.753844+09:00",
+      "summary": "Nvidia, Microsoft, Metaなどの主要テクノロジー企業が、オープンウェイトAIモデルに対する過度な規制に警鐘を鳴らしている。これらのモデルは、研究開発の加速、イノベーションの促進、そしてより広範なアクセスを可能にする一方で、悪用リスクも指摘されている。企業側は、リスク管理とオープンな開発のバランスを取るための、慎重かつ柔軟なアプローチを求めている。これは、AI技術の健全な発展と社会実装において重要な論点となる。"
+    },
+    {
+      "id": "hatena_76915",
+      "source": "hatena",
+      "title": "ターミナルを自作したら、1日のコミット数が500を超えて、生産性がバグった話",
+      "url": "https://zenn.dev/singularity/articles/diy-terminal-500-commits",
+      "score": 212,
+      "comments": 0,
+      "raw_description": "僕は長いこと、ターミナルの中で暮らしています。エディタは emacs、VS Code や GUI 系のツールはどうにも手に馴染まない。Web 上の開発環境も、あの「ちょっとした不便」が積もって結局使わなくなる。要するに、ターミナルに慣れ親しみすぎて、GUI のボタンがどこにあるのか探せない人間です。 そんな僕が、勢いで自分...",
+      "tags": [
+        "ターミナル",
+        "開発効率",
+        "カスタムツール",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090917+09:00",
+      "summary": "この記事は、ターミナル環境に深く依存する開発者が、独自のターミナルツールを自作した経験について述べています。自作ツールにより、1日のコミット数が500を超えるほどの劇的な生産性向上を実現しましたが、これは従来の開発フローから逸脱した「バグ」とも言える状況です。この事例は、開発者のワークフロー最適化におけるカスタムツールの有効性と、その極端な効果について示唆しています。"
+    },
+    {
+      "id": "hatena_44478",
+      "source": "hatena",
+      "title": "自宅でローカルなテレビ局を開局してみた 【地上デジタル放送の仕組みに迫る】 - Qiita",
+      "url": "https://qiita.com/Rabbit_Program/items/7c3b004ff56ec4cc6b06",
+      "score": 165,
+      "comments": 0,
+      "raw_description": "はじめに 地上デジタル放送のテレビ局が送出しているものは、突き詰めると「MPEG-TS ストリーム」と「その中に埋め込まれた PSI/SI テーブル」の2つに集約される。 であれば、同じ構造のストリームを自前で組み立てれば、市販のテレビ録画ソフトがそれを \"本物のチャンネル\" として認識するのではないか —— そう思い立ち...",
+      "tags": [
+        "地上デジタル放送",
+        "MPEG-TS",
+        "PSI/SI",
+        "放送技術"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090925+09:00",
+      "summary": "この記事では、地上デジタル放送の仕組みを理解するために、自宅でローカルなテレビ局を開設する試みが紹介されています。地上デジタル放送の核心はMPEG-TSストリームとPSI/SIテーブルであり、これらを自前で構築することで、市販のテレビ録画ソフトに認識される「本物のチャンネル」を再現できる可能性が示唆されています。この実験は、放送技術の基礎を実践的に学ぶ上で興味深いアプローチと言えます。"
+    },
+    {
+      "id": "hn_49040296",
+      "source": "hackernews",
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "score": 150,
+      "comments": 28,
+      "raw_description": "",
+      "tags": [
+        "PostgreSQL",
+        "LISTEN/NOTIFY",
+        "スケーラビリティ",
+        "リアルタイム"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.600720+09:00",
+      "summary": "PostgreSQLのLISTEN/NOTIFY機能は、従来の想定よりも高いスケーラビリティを持つことが実証されました。多数のクライアントからの通知を効率的に処理できることが示され、リアルタイムアプリケーションや分散システムにおける非同期通信手段としての有効性が再確認されました。この機能は、データベースレベルでのメッセージキューイングやイベント駆動型アーキテクチャの実装に貢献します。"
+    },
+    {
+      "id": "hatena_18967",
+      "source": "hatena",
+      "title": "AI時代におけるテストの基礎の再定義 / Rethinking the Fundamentals of Testing in the AI Era",
+      "url": "https://speakerdeck.com/mineo_matsuya/rethinking-the-fundamentals-of-testing-in-the-ai-era",
+      "score": 109,
+      "comments": 0,
+      "raw_description": "AI時代到来です。 AIの台頭によって「このままテストをやっていて大丈夫なのか」「学んできたテスト技術は通用し続けるのか」と不安を感じているテストエンジニアも多いのではないでしょうか。 この講演では、AIを過度に恐れず、かといって過信もしないために、テストエンジニアとして押さえておきたい考え方を整理…",
+      "tags": [
+        "AI",
+        "テストエンジニア",
+        "ソフトウェアテスト",
+        "技術動向"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090932+09:00",
+      "summary": "AIの台頭により、従来のテスト手法の有効性に対する不安が高まっています。本講演では、AIを過度に恐れたり過信したりすることなく、テストエンジニアがAI時代に押さえておくべき基本的な考え方を整理します。これにより、AI技術の進化に対応しつつ、テストの質と信頼性を維持するための新たなアプローチを探求します。"
+    },
+    {
+      "id": "hn_48985182",
+      "source": "hackernews",
+      "title": "Designing an Ethernet Switch ASIC",
+      "url": "https://essenceia.github.io/projects/ethernet_switch_asic/",
+      "score": 56,
+      "comments": 14,
+      "raw_description": "",
+      "tags": [
+        "イーサネットスイッチ",
+        "ASIC設計",
+        "ネットワークインフラ",
+        "ハードウェア"
+      ],
+      "fetched_at": "2026-07-25T08:03:07.391893+09:00",
+      "summary": "この記事では、イーサネットスイッチASICの設計プロセスについて解説しています。高性能なネットワークインフラストラクチャの基盤となるASICは、パケット転送、キューイング、トラフィック管理などの複雑な機能をハードウェアレベルで実装します。効率的な設計は、低遅延、高帯域幅、低消費電力といったネットワークパフォーマンスの向上に不可欠であり、データセンターやエンタープライズネットワークの進化を支える上で重要な役割を果たします。"
+    },
+    {
+      "id": "hn_49020545",
+      "source": "hackernews",
+      "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
+      "url": "https://globaloilnetwork.staffinganalytics.io/",
+      "score": 36,
+      "comments": 16,
+      "raw_description": "",
+      "tags": [
+        "ホルムズ海峡",
+        "原油貿易",
+        "地政学リスク",
+        "シミュレーション"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.999546+09:00",
+      "summary": "このプロジェクトは、ホルムズ海峡の封鎖が実際の原油貿易データに与える影響をシミュレーションしたものです。シミュレーション結果は、封鎖がグローバルな原油供給に深刻なボトルネックを引き起こし、価格に大きな変動をもたらす可能性を示唆しています。この分析は、地政学的なリスクがエネルギー市場に与える影響を定量的に理解する上で重要です。"
+    },
+    {
+      "id": "hn_49040741",
+      "source": "hackernews",
+      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+      "url": "https://artificialanalysis.ai/models",
+      "score": 33,
+      "comments": 16,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-25T08:03:07.574405+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_14669",
+      "source": "hatena",
+      "title": "『生成AIガイドライン、誰か作って』と言われたときに読む実務メモ",
+      "url": "https://zenn.dev/gangy/articles/0c6c2153784bd8",
+      "score": 30,
+      "comments": 0,
+      "raw_description": "この記事について 「生成AIの利用ガイドライン、誰か作っておいて」──情シスやセキュリティ担当なら、一度は言われた（言われそうな）お題だと思います。この記事は、そのガイドラインをゼロから実務で回る形に落とすための手順メモです。 前提として、ガイドラインの目的は「使わせないこと」ではありません。安全に使...",
+      "tags": [],
+      "fetched_at": "2026-07-25T08:03:06.090945+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_15763",
+      "source": "hatena",
+      "title": "[rclone] LinuxでOneDriveをファイルシステムに「ちゃんと」マウントする - Qiita",
+      "url": "https://qiita.com/alpaca-honke/items/745df317fc4778e8a5fb",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "Current remotes: e) Edit existing remote n) New remote d) Delete remote r) Rename remote c) Copy remote s) Set configuration password q) Quit config + e/n/d/r/c/s/q> n Enter name for new remote. + name> OneDrive(任意のわかりやすい名前) Option Storage. Type of storage to configure. Choose a number...",
+      "tags": [
+        "rclone",
+        "Linux",
+        "OneDrive",
+        "マウント"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090939+09:00",
+      "summary": "rcloneを使用してLinux上でOneDriveをファイルシステムとしてマウントする方法について解説しています。記事では、rcloneの設定プロセス、特に新しいリモートとしてOneDriveを追加し、認証情報を設定する手順を具体的に示しています。これにより、Linux環境からOneDriveのファイルをローカルファイルシステムのように直接操作できるようになり、クラウドストレージの利便性が向上します。"
+    },
+    {
+      "id": "hatena_39069",
+      "source": "hatena",
+      "title": "Amazonで「Kindle本サマーセール 第1弾」、3万冊以上が最大90％OFF！　「アーキテクトの教科書」などコンピュータ・ITの人気タイトルは50%OFFに",
+      "url": "https://internet.watch.impress.co.jp/docs/shopping/2127499.html",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Kindle",
+        "セール",
+        "IT技術書",
+        "割引"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090958+09:00",
+      "summary": "Amazonは「Kindle本サマーセール 第1弾」を開始し、3万冊以上の電子書籍を最大90%割引で提供しています。特にコンピュータ・ITカテゴリでは、「アーキテクトの教科書」を含む人気タイトルが50%割引となっています。このセールは、技術書を含む幅広いジャンルの書籍を安価に入手する良い機会であり、ITエンジニアが専門知識を深めるための学習コストを削減する上で重要です。"
+    },
+    {
+      "id": "hatena_50301",
+      "source": "hatena",
+      "title": "「LINE広告」の一部記録など約3年半分を誤って削除　LINEヤフー",
+      "url": "https://www.itmedia.co.jp/news/articles/2607/24/news096.html",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "LINEヤフーは7月24日、「LINE広告」などを利用する企業が広告の配信対象を設定した際に生じる記録の一部を誤って削除していたと発表した。対象は2022年12月15日から26年6月9日までの記録で、個人情報保護法に基づき保存が義務付けられていた。現時点において漏えいや不正利用は確認しておらず、ユーザーのサービス利用や...",
+      "tags": [
+        "LINE広告",
+        "データ削除",
+        "個人情報保護法",
+        "LINEヤフー"
+      ],
+      "fetched_at": "2026-07-25T08:03:06.090951+09:00",
+      "summary": "LINEヤフーは、「LINE広告」の配信対象設定に関する一部記録を、2022年12月15日から2026年6月9日までの期間にわたり誤って削除していたことを公表しました。この記録は個人情報保護法で保存が義務付けられており、今回の削除は法令遵守上の課題を示唆しています。現時点では情報漏洩や不正利用は確認されていませんが、広告配信の精度や分析に影響が出る可能性も考えられます。"
+    },
+    {
+      "id": "reddit_62559",
+      "source": "reddit",
+      "title": "Golang Maps: How Swiss Tables Replaced the Old Bucket Design",
+      "url": "https://www.reddit.com/r/programming/comments/1v58vch/golang_maps_how_swiss_tables_replaced_the_old/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>A deep dive on Go 1.24’s map redesign, where the runtime moved from the classic bucket + overflow-chain model to a Swiss Table-inspired implementation:</p> <ul> <li>how the old map layout worked and where pointer-chasing hurt cache locality</li> <li>how control-byte metadata + <code>h2</code> filtering changes lookup behavior</li> <li>why this can improve practical load factor and memory efficiency</li> <li>Go-specific constraints (iteration semantics, GC/runtim",
+      "tags": [
+        "Golang",
+        "Map",
+        "Performance",
+        "Go 1.24"
+      ],
+      "fetched_at": "2026-07-25T08:03:08.028694+09:00",
+      "summary": "Go 1.24では、マップの実装が従来のバケット＋オーバーフローチェーンモデルから、Swiss Tableにインスパイアされた設計に変更されました。この変更は、ポインタ追跡によるキャッシュ局所性の低下という旧設計の課題を解決し、制御バイトメタデータとh2フィルタリングの導入によりルックアップの挙動を改善します。これにより、実用的なパフォーマンス向上が期待されます。"
+    },
+    {
+      "id": "reddit_82814",
+      "source": "reddit",
+      "title": "A Database Engine Written in SWI-Prolog",
+      "url": "https://www.reddit.com/r/programming/comments/1v505dc/a_database_engine_written_in_swiprolog/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aires_id\"> /u/Aires_id </a> <br /> <span><a href=\"http://asa-db.kocoygroup.site\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v505dc/a_database_engine_written_in_swiprolog/\">[comments]</a></span>",
+      "tags": [
+        "Prolog",
+        "データベース",
+        "論理プログラミング",
+        "カスタムエンジン"
+      ],
+      "fetched_at": "2026-07-25T08:03:08.028711+09:00",
+      "summary": "SWI-Prologで実装されたデータベースエンジンが公開されました。このエンジンは、Prologの論理プログラミング能力を活用して、宣言的なデータ操作とクエリ処理を実現しています。これにより、複雑なデータ関係や推論を効率的に扱える可能性があり、従来のデータベースシステムとは異なるアプローチを提供します。特に、知識ベースシステムや複雑なルールベースのアプリケーション開発において、そのユニークな特性が活かされることが期待されます。"
+    },
+    {
+      "id": "reddit_29562",
+      "source": "reddit",
+      "title": "Carbon: graduating from the experiment - Chandler Carruth - NDC Toronto 2026",
+      "url": "https://www.reddit.com/r/programming/comments/1v5i86w/carbon_graduating_from_the_experiment_chandler/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/xoner2\"> /u/xoner2 </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=WJl4ftb5Fxg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v5i86w/carbon_graduating_from_the_experiment_chandler/\">[comments]</a></span>",
+      "tags": [
+        "Carbon",
+        "プログラミング言語",
+        "C++",
+        "Google"
+      ],
+      "fetched_at": "2026-07-25T08:03:08.028719+09:00",
+      "summary": "この動画は、Googleが開発中の新しいプログラミング言語Carbonの現状と将来について解説しています。Carbonは、C++との相互運用性を持ちながら、よりモダンな言語機能とパフォーマンスを提供することを目指しています。実験段階を卒業し、実用化に向けたロードマップやコミュニティの関与について議論されており、C++エコシステムの後継言語としての可能性が示唆されています。"
+    },
+    {
+      "id": "reddit_37780",
+      "source": "reddit",
+      "title": "Transparent high-performance proxy cache for DoorDash services",
+      "url": "https://www.reddit.com/r/programming/comments/1v53o6s/transparent_highperformance_proxy_cache_for/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nilukush\"> /u/nilukush </a> <br /> <span><a href=\"https://careersatdoordash.com/blog/high-performance-proxy-cache-for-doordash-services/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v53o6s/transparent_highperformance_proxy_cache_for/\">[comments]</a></span>",
+      "tags": [
+        "プロキシキャッシュ",
+        "マイクロサービス",
+        "パフォーマンス",
+        "DoorDash"
+      ],
+      "fetched_at": "2026-07-25T08:03:08.028725+09:00",
+      "summary": "DoorDashは、サービス間の通信を高速化するために、透過的な高パフォーマンスプロキシキャッシュシステムを開発しました。このシステムは、HTTPリクエストをインターセプトし、キャッシュ可能なレスポンスをメモリに保存することで、オリジンサーバーへの負荷を軽減し、レイテンシを削減します。これにより、リアルタイム性が求められるフードデリバリーサービスにおいて、応答速度とスケーラビリティを向上させています。このアプローチは、マイクロサービスアーキテクチャにおけるパフォーマンス最適化の有効な手段となります。"
+    }
+  ]
+}
