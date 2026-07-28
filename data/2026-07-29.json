@@ -1,0 +1,316 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T08:01:44.585228+09:00",
+  "articles": [
+    {
+      "id": "hn_49086788",
+      "source": "hackernews",
+      "title": "Substack writers, you need a website",
+      "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
+      "score": 357,
+      "comments": 192,
+      "raw_description": "",
+      "tags": [
+        "Substack",
+        "ウェブサイト",
+        "コンテンツ戦略",
+        "デジタルマーケティング"
+      ],
+      "fetched_at": "2026-07-29T08:01:43.191732+09:00",
+      "summary": "Substackのクリエイターは、自身のブランドを強化し、読者とのエンゲージメントを深めるために、独立したウェブサイトを持つことが推奨されます。ウェブサイトを持つことで、プラットフォームの制約を受けずにコンテンツを自由に展開でき、SEOによる発見可能性を高めることができます。また、メールリストの管理や、将来的な収益化の多様化にも有利に働きます。"
+    },
+    {
+      "id": "hn_49085698",
+      "source": "hackernews",
+      "title": "Kimi K3 Architecture Overview and Notes",
+      "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+      "score": 253,
+      "comments": 33,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-29T08:01:44.249222+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_52046",
+      "source": "hatena",
+      "title": "「Xが情報収集に役立たない……」熊本地震で不満の声続出　「Twitterを返して」",
+      "url": "https://www.itmedia.co.jp/news/article/2607/28/2000000249/",
+      "score": 248,
+      "comments": 0,
+      "raw_description": "7月28日に発生した令和8年熊本地震。政府・自治体や通信各社などが対応や情報発信に動いている一方で、SNSでは「Xが情報収集の役に立たなくなっている」との声が散見される。障害が起きていない点を評価する声もあるが、少なくないユーザーから「Twitter（時代の利便性）を返して」という意見が上がっていた。 特に批判...",
+      "tags": [
+        "X",
+        "熊本地震",
+        "SNS",
+        "情報収集"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.482774+09:00",
+      "summary": "令和8年熊本地震発生後、SNSプラットフォーム「X」（旧Twitter）において、情報収集ツールとしての機能不全に対する不満の声が多数上がっています。一部では障害が発生していない点が評価されているものの、多くのユーザーは旧Twitter時代に比べて情報伝達の効率や信頼性が低下したと感じており、災害時の情報収集手段としての有効性に対する懸念が示されています。"
+    },
+    {
+      "id": "hatena_48404",
+      "source": "hatena",
+      "title": "データベース「PostgreSQL」がどのように実際には内部で動いているかがシムシティっぽい3Dでわかる「PGSimCity」",
+      "url": "https://gigazine.net/news/20260728-pgsimcity-postgresql/",
+      "score": 238,
+      "comments": 0,
+      "raw_description": "PostgreSQLは世界中で広く使われているデータベース管理システムですが、SQLを実行したときに内部でどのプロセスが動き、データがどのようにメモリやディスクへ読み書きされるのかを直感的に把握するのは簡単ではありません。そんなPostgreSQLの内部構造を、シムシティのような3D都市として可視化してくれるウェブアプリ...",
+      "tags": [
+        "PostgreSQL",
+        "データベース",
+        "可視化",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.482795+09:00",
+      "summary": "PostgreSQLの内部動作を視覚的に理解するためのWebアプリケーション「PGSimCity」が公開されました。このツールは、SQL実行時のプロセス、メモリ・ディスクへのデータ読み書きといった複雑な内部構造を、シムシティのような3D都市として表現します。これにより、データベース管理者はPostgreSQLの挙動を直感的に把握し、パフォーマンスチューニングやトラブルシューティングに役立てることができます。"
+    },
+    {
+      "id": "hn_49089755",
+      "source": "hackernews",
+      "title": "OpenAI just open-sourced Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "score": 236,
+      "comments": 46,
+      "raw_description": "",
+      "tags": [
+        "OpenAI",
+        "Codex Security",
+        "オープンソース",
+        "コードセキュリティ"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.765364+09:00",
+      "summary": "OpenAIが、コードセキュリティのためのAIモデルであるCodex Securityをオープンソース化した。このモデルは、Pythonコードの脆弱性を特定し、修正案を提示する能力を持つ。これにより、開発者はより安全なコードを効率的に作成できるようになり、ソフトウェアのセキュリティ向上に貢献する。"
+    },
+    {
+      "id": "hn_49086971",
+      "source": "hackernews",
+      "title": "Steel Bank Common Lisp version 2.6.7",
+      "url": "https://sbcl.org/all-news.html?2.6.7",
+      "score": 175,
+      "comments": 70,
+      "raw_description": "",
+      "tags": [
+        "SBCL",
+        "Common Lisp",
+        "コンパイラ",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-29T08:01:43.820724+09:00",
+      "summary": "Steel Bank Common Lisp (SBCL) version 2.6.7がリリースされました。このバージョンでは、パフォーマンスの向上、バグ修正、および新しい機能の追加が行われています。特に、コンパイラの最適化機能が強化され、より効率的なコード生成が可能になりました。これにより、Common Lispアプリケーションの開発者は、パフォーマンスクリティカルなタスクにおいて、より高速な実行速度とリソース効率の恩恵を受けることができます。"
+    },
+    {
+      "id": "hatena_86558",
+      "source": "hatena",
+      "title": "ヤモリの足裏を科学した米軍の装備、粘着剤なしで垂直壁を走る驚異の技術* | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/101739",
+      "score": 89,
+      "comments": 0,
+      "raw_description": "米国防高等研究計画局（DARPA）は2014年、「Z-Man」と呼ばれるプログラムの成果を公開した。それは、体重90kg超のクライマーが約23kgの荷物を背負い、ロープもハーネスも吸盤も使わず、2つの接着パドルだけを使って、ガラスでできた高さ約7.6mの垂直壁を上るというデモンストレーションだった。 こんな離れ業が可能にな...",
+      "tags": [
+        "ヤモリ技術",
+        "DARPA",
+        "Z-Manプログラム",
+        "ファンデルワールス力"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.482818+09:00",
+      "summary": "米国防高等研究計画局（DARPA）は、ヤモリの足裏の構造を模倣した「Z-Man」プログラムにより、粘着剤や吸盤に頼らず、体重90kg超の人間が約23kgの荷物を背負って垂直なガラス壁を登る技術を実証しました。この技術は、ヤモリの足裏にある微細な毛（剛毛）が壁面にファンデルワールス力で吸着する原理を応用したもので、将来の軍事装備やレスキュー活動への応用が期待されます。"
+    },
+    {
+      "id": "hatena_25678",
+      "source": "hatena",
+      "title": "Windows 11 でローカルアカウントを作成する方法【2026年7月時点】",
+      "url": "https://w1.zawa-lab.net/p/20260728_oobe_bypass/",
+      "score": 79,
+      "comments": 0,
+      "raw_description": "この記事は Claude を用いて執筆しています。 ただし、実際の検証・判断は手元の Windows 環境で行った結果に基づいており、内容は実体験ベースで整理しています。 Windows 11 のセットアップで Microsoft アカウントを要求されて先に進めないとき、コマンド 1 行でローカルアカウントを作成する手順です。 まず手順だけ...",
+      "tags": [
+        "Windows 11",
+        "ローカルアカウント",
+        "Microsoftアカウント",
+        "セットアップ"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.482804+09:00",
+      "summary": "Windows 11のセットアップ時にMicrosoftアカウントの作成を回避し、ローカルアカウントをコマンドラインから作成する手順を解説しています。Claudeで執筆された記事ですが、実機検証に基づき、技術者がWindows 11導入時に直面する可能性のあるアカウント設定の柔軟性に関する課題解決策を提供します。これにより、ユーザーはMicrosoftアカウントに依存しないローカル環境でのPC利用が可能になります。"
+    },
+    {
+      "id": "hn_49089814",
+      "source": "hackernews",
+      "title": "Half-Life ported to Mac OS 9",
+      "url": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+      "score": 74,
+      "comments": 24,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-29T08:01:42.974337+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_29962",
+      "source": "hatena",
+      "title": "「作ること」と「価値を生むこと」はなぜズレるのか：アウトプットと価値の断絶を乗り越える / Why \"Building\" and \"Delivering Value\" Diverge",
+      "url": "https://speakerdeck.com/aki_iinuma/why-building-and-delivering-value-diverge",
+      "score": 48,
+      "comments": 0,
+      "raw_description": "CEDEC2026招待講演",
+      "tags": [],
+      "fetched_at": "2026-07-29T08:01:42.482811+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_68949",
+      "source": "hatena",
+      "title": "Projektor",
+      "url": "https://tajd.github.io/projektor/",
+      "score": 38,
+      "comments": 0,
+      "raw_description": "An issue tracker and wiki your AI coding agent runs as a first-class client - agent-native like a git tracker, deployed and cross-project like Jira, on a single Cloudflare Worker.",
+      "tags": [],
+      "fetched_at": "2026-07-29T08:01:42.482919+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49090083",
+      "source": "hackernews",
+      "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+      "url": "https://github.com/anthropics/cryptography-research-demo",
+      "score": 35,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-29T08:01:44.031718+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49090867",
+      "source": "hackernews",
+      "title": "Underwater Oxygen Loss Threatens Earth's Stability, Researchers Warn",
+      "url": "https://scripps.ucsd.edu/news/underwater-oxygen-loss-threatens-earths-stability-researchers-warn",
+      "score": 29,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-07-29T08:01:43.401114+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49090607",
+      "source": "hackernews",
+      "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "url": "https://github.com/twalichiewicz/HNewhere",
+      "score": 19,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [
+        "HN",
+        "Userscript",
+        "Browser Extension",
+        "Productivity"
+      ],
+      "fetched_at": "2026-07-29T08:01:43.609763+09:00",
+      "summary": "HNリンクを別タブで開く手間を省くためのユーザー ทุกคนสคริปต์が公開されました。このスクリプトは、HNのリンクをクリックした際に自動的に新しいタブで開くように動作し、ユーザーのブラウジング効率を向上させます。特に、多くのHNリンクを一度に確認するユーザーにとって、作業フローを大幅に改善する可能性があります。"
+    },
+    {
+      "id": "hatena_51894",
+      "source": "hatena",
+      "title": "AI検索「Perplexity」もCLIに、コマンドラインツールやエージェントとの連携に／macOS（Apple Silicon）、Linux（x86_64/arm64）で利用可能",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2128588.html",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Perplexity",
+        "CLI",
+        "AI検索",
+        "開発者ツール"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.482898+09:00",
+      "summary": "AI検索エンジンPerplexityが、macOS（Apple Silicon）およびLinux（x86_64/arm64）向けのコマンドラインインターフェース（CLI）ツールをリリースしました。これにより、開発者はコマンドライン環境から直接Perplexityの検索機能を利用できるようになり、シェルスクリプトや他のコマンドラインツール、エージェントとの連携が容易になります。このCLIツールの登場は、開発ワークフローにおける情報収集の効率化と自動化を促進する可能性があります。"
+    },
+    {
+      "id": "hatena_88681",
+      "source": "hatena",
+      "title": "GitHub - nttr-tech/winui4k: WinUI for Kotlin & Java (WinUI4K)",
+      "url": "https://github.com/nttr-tech/winui4k",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "English | 日本語 WinUI is the UI framework that Microsoft promotes as the standard for the Windows 11 generation. With WinUI4K, you can build native Windows apps using WinUI in pure Kotlin or Java — no bridge DLL, no C#, no Visual Studio. WinUI4K calls the WinRT ABI (the binary-level calling conv...",
+      "tags": [
+        "WinUI",
+        "Kotlin",
+        "Java",
+        "Windows App Development"
+      ],
+      "fetched_at": "2026-07-29T08:01:42.482911+09:00",
+      "summary": "WinUI4Kは、KotlinまたはJavaから直接WinUI 4.0を利用してネイティブWindowsアプリケーションを開発できるフレームワークです。WinRT ABIを直接呼び出すことで、ブリッジDLLやC#、Visual Studioといった追加の依存関係なしに、純粋なKotlin/JavaコードでWindows 11世代のUIフレームワークを活用できます。これにより、Java/Kotlin開発者がWindowsネイティブアプリ開発に参入しやすくなり、クロスプラットフォーム開発の選択肢が広がります。"
+    },
+    {
+      "id": "reddit_16476",
+      "source": "reddit",
+      "title": "A shell colon does nothing. Use it anyway. | Filip Roséen",
+      "url": "https://www.reddit.com/r/programming/comments/1v90z1b/a_shell_colon_does_nothing_use_it_anyway_filip/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/f311a\"> /u/f311a </a> <br /> <span><a href=\"https://refp.se/articles/your-shell-and-the-magic-colon\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v90z1b/a_shell_colon_does_nothing_use_it_anyway_filip/\">[comments]</a></span>",
+      "tags": [
+        "シェルスクリプト",
+        "プログラミング",
+        "Unix",
+        "コマンド"
+      ],
+      "fetched_at": "2026-07-29T08:01:44.585171+09:00",
+      "summary": "シェルスクリプトにおいて、コロン `:` は何も実行しないヌルコマンドとして機能します。これは、条件分岐やループの条件式で真偽値が常に真となることを利用して、ブロックの開始を示すために使用できます。例えば、`if :; then ... fi` のように記述することで、コードの可読性を向上させたり、特定のブロックを一時的に無効化する際に役立ちます。このテクニックは、シェルスクリプトの柔軟性と表現力を高める一例です。"
+    },
+    {
+      "id": "reddit_42148",
+      "source": "reddit",
+      "title": "Dependency Cultures - Richard Feldman",
+      "url": "https://www.reddit.com/r/programming/comments/1v8ynjn/dependency_cultures_richard_feldman/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Excellent talk by Richard Feldman about how different programming communities approach dependencies.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/isaacvando\"> /u/isaacvando </a> <br /> <span><a href=\"https://youtu.be/E82ly38YEEQ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v8ynjn/dependency_cultures_richard_feldman/\">[comments]</a></span>",
+      "tags": [
+        "ソフトウェア開発",
+        "依存関係管理",
+        "プログラミング文化",
+        "Richard Feldman"
+      ],
+      "fetched_at": "2026-07-29T08:01:44.585191+09:00",
+      "summary": "Richard Feldman氏による講演では、プログラミングコミュニティが依存関係をどのように扱うかの違いが論じられています。特に、依存関係の管理方法や、それがコミュニティの文化や開発プロセスに与える影響に焦点を当てています。この講演は、ソフトウェア開発における依存関係管理のベストプラクティスを理解し、より健全な開発文化を築くための示唆を与えます。"
+    },
+    {
+      "id": "reddit_53797",
+      "source": "reddit",
+      "title": "Inside Zig's Incremental Compilation",
+      "url": "https://www.reddit.com/r/programming/comments/1v93h07/inside_zigs_incremental_compilation/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/f311a\"> /u/f311a </a> <br /> <span><a href=\"https://mlugg.co.uk/posts/incremental-compilation-internals/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v93h07/inside_zigs_incremental_compilation/\">[comments]</a></span>",
+      "tags": [
+        "Zig",
+        "コンパイラ",
+        "開発効率",
+        "インクリメンタルコンパイル"
+      ],
+      "fetched_at": "2026-07-29T08:01:44.585198+09:00",
+      "summary": "Zig言語は、コンパイル時間の短縮と開発効率の向上を目指し、インクリメンタルコンパイルの内部実装に注力しています。この機能は、変更されたコードのみを再コンパイルすることで、大規模プロジェクトにおけるビルド時間を大幅に削減します。これにより、開発者はより迅速なフィードバックループを得られ、生産性の向上が期待できます。インクリメンタルコンパイルの効率的な実装は、Zigの採用を促進する重要な要素となります。"
+    },
+    {
+      "id": "reddit_59669",
+      "source": "reddit",
+      "title": "Finding bugs in Raft implementations",
+      "url": "https://www.reddit.com/r/programming/comments/1v90kmd/finding_bugs_in_raft_implementations/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/f311a\"> /u/f311a </a> <br /> <span><a href=\"https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v90kmd/finding_bugs_in_raft_implementations/\">[comments]</a></span>",
+      "tags": [
+        "Raft",
+        "分散合意アルゴリズム",
+        "バグ検出",
+        "テスト戦略"
+      ],
+      "fetched_at": "2026-07-29T08:01:44.585205+09:00",
+      "summary": "この記事では、分散合意アルゴリズムであるRaftの実装におけるバグ発見手法について解説しています。Raftは、一貫性を保ちながら分散システムを構築する上で重要な役割を果たしますが、その複雑さから実装ミスが発生しやすいという課題があります。本稿では、具体的なバグの例や、それらを検出するためのテスト戦略、さらには自動化された検証ツールの活用方法に焦点を当て、信頼性の高いRaft実装の実現に向けた知見を提供しています。"
+    }
+  ]
+}
