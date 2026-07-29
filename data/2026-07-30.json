@@ -1,0 +1,333 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T08:00:25.077560+09:00",
+  "articles": [
+    {
+      "id": "hn_49098510",
+      "source": "hackernews",
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "score": 594,
+      "comments": 208,
+      "raw_description": "",
+      "tags": [
+        "Gemma",
+        "LLM",
+        "オープンソース",
+        "Apple Silicon"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.713145+09:00",
+      "summary": "Gemma 4 26Bモデルを2GBのRAMで動作させるオープンソースエンジンが公開されました。このエンジンはApple Silicon (Mシリーズ) 搭載Macで動作し、ローカル環境での大規模言語モデルの実行可能性を大幅に広げます。これにより、リソースが限られた環境でも高度なAIモデルを利用できるようになり、開発者や研究者にとって新たな可能性が開かれます。"
+    },
+    {
+      "id": "hn_49098965",
+      "source": "hackernews",
+      "title": "Superlogical",
+      "url": "https://www.superlogical.com/",
+      "score": 460,
+      "comments": 288,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "デバッグ",
+        "推論可視化",
+        "MLOps"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.915439+09:00",
+      "summary": "Superlogicalは、AIモデルの推論プロセスを可視化し、デバッグを支援するプラットフォームです。モデルがどのように意思決定を行っているかを詳細に分析することで、開発者は潜在的なバイアスやエラーを特定し、モデルの信頼性とパフォーマンスを向上させることができます。これにより、より堅牢で説明責任のあるAIシステムの構築が可能になります。"
+    },
+    {
+      "id": "hn_49101852",
+      "source": "hackernews",
+      "title": "Kimi K3-256k",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/models",
+      "score": 289,
+      "comments": 87,
+      "raw_description": "",
+      "tags": [
+        "大規模言語モデル",
+        "コンテキストウィンドウ",
+        "Kimi",
+        "自然言語処理"
+      ],
+      "fetched_at": "2026-07-30T08:00:24.326268+09:00",
+      "summary": "Kimi K3-256kは、256,000トークンという大規模なコンテキストウィンドウを持つ新しい大規模言語モデルです。これにより、より長いドキュメントや会話の文脈を理解し、より一貫性のある応答を生成することが可能になります。この拡張されたコンテキスト能力は、複雑なタスクや長文の分析において、モデルのパフォーマンスを大幅に向上させる可能性があります。"
+    },
+    {
+      "id": "hn_49089500",
+      "source": "hackernews",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "score": 246,
+      "comments": 129,
+      "raw_description": "",
+      "tags": [
+        "サイバーセキュリティ",
+        "APT攻撃",
+        "インシデントレスポンス",
+        "Frontier Lab"
+      ],
+      "fetched_at": "2026-07-30T08:00:24.559123+09:00",
+      "summary": "2026年7月に発生したFrontier Labエージェントによる侵入事件のタイムラインが詳細に分析されています。このインシデントは、攻撃者がどのようにして初期アクセスを獲得し、ネットワーク内で横展開し、最終的に機密情報を窃取したかの詳細な手順を明らかにしています。この分析は、同様の高度な持続的脅威（APT）攻撃に対する防御戦略を強化するための貴重な洞察を提供します。"
+    },
+    {
+      "id": "hn_49099715",
+      "source": "hackernews",
+      "title": "Keychron announces first open-source firmware for gaming mice",
+      "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+      "score": 242,
+      "comments": 93,
+      "raw_description": "",
+      "tags": [
+        "Keychron",
+        "ゲーミングマウス",
+        "オープンソース",
+        "ファームウェア"
+      ],
+      "fetched_at": "2026-07-30T08:00:24.117578+09:00",
+      "summary": "Keychronが、同社初のオープンソースファームウェアをゲーミングマウス向けに発表しました。これにより、ユーザーはファームウェアのカスタマイズや機能拡張が可能になり、よりパーソナライズされた操作体験を実現できます。オープンソース化は、コミュニティによる開発促進やバグ修正の迅速化にも貢献し、ゲーミングマウスの進化に新たな可能性をもたらす可能性があります。"
+    },
+    {
+      "id": "hn_49102774",
+      "source": "hackernews",
+      "title": "The coolest use for the Vision Pro",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "score": 237,
+      "comments": 106,
+      "raw_description": "",
+      "tags": [
+        "Apple Vision Pro",
+        "空間コンピューティング",
+        "医療トレーニング",
+        "AR"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.319355+09:00",
+      "summary": "Apple Vision Proの最も革新的な活用法として、空間コンピューティングを活用した高度な医療トレーニングが紹介されています。この技術により、外科医は複雑な手術手技をリアルな3Dモデルで繰り返し練習でき、スキル向上とリスク低減に貢献します。従来のトレーニング方法では難しかった精緻なシミュレーションが可能になるため、医療教育の質を飛躍的に向上させる可能性を秘めています。"
+    },
+    {
+      "id": "hatena_87224",
+      "source": "hatena",
+      "title": "現役Appleマップエンジニアが書いた日本の住所表記のやばさを指摘する「ヤバい日本の住所」が出版 | 書籍 | Mac OTAKARA",
+      "url": "https://www.macotakara.jp/etc/book/entry-51535.html",
+      "score": 142,
+      "comments": 0,
+      "raw_description": "ヤバい日本の住所 幻冬舎から、現役Appleマップエンジニアの河合太郎著「ヤバい日本の住所」が出版されました。 元になっているのは、2023年6月7日にnoteで公開された「とにかく日本の住所のヤバさをもっと知るべきだと思います」で、出版のタイミングで、朝日新聞の天声人語「多様すぎる日本の住所」として紹介されるな...",
+      "tags": [
+        "住所表記",
+        "Appleマップ",
+        "地理情報システム",
+        "日本"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.059126+09:00",
+      "summary": "Appleマップの現役エンジニアである河合太郎氏が、日本の住所表記の複雑さと問題点を指摘する書籍「ヤバい日本の住所」を出版しました。本書は、noteでの発表を基にしており、日本の住所が持つ「番地」や「丁目」などの表記の多様性が、地図サービスにおけるデータ処理やナビゲーションの精度に与える影響について、技術的な観点から解説しています。この問題提起は、朝日新聞の天声人語でも取り上げられるなど、広く注目されています。"
+    },
+    {
+      "id": "hatena_52859",
+      "source": "hatena",
+      "title": "[石川温の「スマホ業界 Watch」] iPhone Airがアマゾンで異例の大幅値引き、叩き売りとなった理由とは",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2129015.html",
+      "score": 120,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "iPhone",
+        "Amazon",
+        "価格",
+        "在庫処分"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.059152+09:00",
+      "summary": "AmazonでiPhone Airが異例の大幅値引きで販売されている。これは、Appleが旧モデルの在庫処分を急いでいるためと考えられ、特に新モデルの発表が近い時期にこのような大幅な値引きが行われるのは珍しい。この動きは、iPhoneの市場における価格設定戦略や、Appleの在庫管理体制に影響を与える可能性がある。"
+    },
+    {
+      "id": "hatena_27800",
+      "source": "hatena",
+      "title": "世界を席巻する中国の人型ロボット、米国が輸入を禁止　「容認できない」安保リスク",
+      "url": "https://www.cnn.co.jp/business/35251078.html",
+      "score": 118,
+      "comments": 0,
+      "raw_description": "生産施設で製造ラインから出荷された人型ロボット「EngineAI T800」＝7月24日、中国・鄭州/VCG/Getty Images （CNN） 米政府が外国テクノロジー依存の低減に動く中、世界の人型ロボット（ヒューマノイド）の大部分を供給する中国が突然、最大の輸出市場から締め出された。 トランプ政権は28日、米国の国家安全保障に「容...",
+      "tags": [
+        "人型ロボット",
+        "中国",
+        "米国",
+        "輸入禁止"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.059166+09:00",
+      "summary": "米国政府は、国家安全保障上のリスクを理由に、中国製の人型ロボットの輸入を禁止しました。これは、中国が世界の人型ロボット市場の大部分を供給している現状において、米国の技術的依存低減策の一環として実施されたものです。この措置は、中国のロボット産業、特に高度な人型ロボットの輸出戦略に大きな影響を与える可能性があります。"
+    },
+    {
+      "id": "hn_49103285",
+      "source": "hackernews",
+      "title": "AI's top startups are barely publishing their research",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "score": 81,
+      "comments": 57,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "研究開発",
+        "オープンサイエンス",
+        "競争戦略"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.523930+09:00",
+      "summary": "大手AI企業が研究成果の公開を減らしていることが明らかになりました。これは、競争の激化と、研究成果が直接的な製品開発や競争優位性に結びつくようになったためと考えられます。研究コミュニティは、オープンな知識共有の減少によるイノベーションの停滞を懸念しています。"
+    },
+    {
+      "id": "hatena_32722",
+      "source": "hatena",
+      "title": "深刻度「緊急」のRails脆弱性「KindaRails2Shell」（CVE-2026-66066）の概要と対応指針 - GMO Flatt Security Blog",
+      "url": "https://blog.flatt.tech/entry/kindarails2shell_rails",
+      "score": 72,
+      "comments": 0,
+      "raw_description": "2026年7月30日、認証を必要とせず、リモートからの任意コード実行（RCE）につながり得る脆弱性「CVE-2026-66066」を修正したRuby on Rails 7.2.3.2、8.0.5.1、8.1.3.1が公開されました（参考：Possible arbitrary file read and remote code execution in Active Storage variant processing）。 本脆弱性は、弊社GMO Fl...",
+      "tags": [],
+      "fetched_at": "2026-07-30T08:00:23.059143+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_64745",
+      "source": "hatena",
+      "title": "はてな情報削除ガイドラインを改定しました - はてなの告知",
+      "url": "https://hatena-announce.hatenastaff.com/entry/2026/07/29/160000",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "本日、はてな情報削除ガイドラインを改定しました。下記ページより改定版のダウンロードが可能です。 policies.hatena.ne.jp 今回の改定は、2012年の改定以来となる大幅な改定となります。 本ガイドラインは、2004年12月に制定された後、サービスを取り巻く環境の変化に沿い改定を重ねてまいりました。特に近年の変化と...",
+      "tags": [],
+      "fetched_at": "2026-07-30T08:00:23.059159+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_68278",
+      "source": "hatena",
+      "title": "「Slackの使い方が下手な人なんとかならないの？」休日中の相手にメッセージを送っていいかどうかで大きく意見が割れる",
+      "url": "https://togetter.com/li/2726040",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "あゆゆん♪ @ayu_littlewing もうさぁ。。。Slackの使い方が下手な人なんとかならんの。。。 「〇〇の件を△さんに確認しとけ」って指示したのに、いつまでも送らないから突いたら「△さんがお休みのようだったので送るのやめました」って💢 非同期コミュニケーションなんだから相手が休みかどうかなんて関係ねぇだろ💢 202...",
+      "tags": [
+        "Slack",
+        "非同期コミュニケーション",
+        "業務効率",
+        "ITリテラシー"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.059185+09:00",
+      "summary": "Slackにおける非同期コミュニケーションの誤解が、業務効率の低下を招く事例が報告されています。指示されたタスクについて、相手の休日を理由に実行を遅延させるケースがあり、これはSlackの非同期性を理解していないために発生しています。非同期コミュニケーションでは、相手のリアルタイムな応答を前提とせず、各自の都合の良いタイミングで情報共有やタスク遂行を行うべきであり、この原則の浸透が重要です。"
+    },
+    {
+      "id": "hn_49103089",
+      "source": "hackernews",
+      "title": "The Cold Email",
+      "url": "https://zachholman.com/posts/cold-email",
+      "score": 23,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [
+        "コールドメール",
+        "アウトリーチ戦略",
+        "パーソナライゼーション",
+        "ビジネス開発"
+      ],
+      "fetched_at": "2026-07-30T08:00:24.763206+09:00",
+      "summary": "この「コールドメール」というタイトルの記事は、IT業界における効果的なアウトリーチ戦略について解説しています。特に、ターゲットを絞ったパーソナライズされたメッセージングの重要性を強調し、受信者の関心を引きつけ、具体的なアクションを促すための具体的な手法を提示しています。このアプローチは、新規顧客獲得やパートナーシップ構築において、従来の画一的なアプローチよりも高い成果をもたらす可能性があり、ビジネス開発における重要な戦略となり得ます。"
+    },
+    {
+      "id": "hatena_09690",
+      "source": "hatena",
+      "title": "｢いまの日本は清朝に似ている｣豊かさゆえの\"思考停止\"に危機感を抱く中国人記者が､無償で在日外国人を取材し続ける理由",
+      "url": "https://toyokeizai.net/articles/-/952061?display=b",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "東京・中野区を愛するフランス人ITエンジニア、日本に住む中国人たちの合唱団やボランティア団体、都内の大学院で学ぶベトナム人留学生、日中夫妻のインフルエンサー、日本の「モノづくり」に魅せられメーカーの海外展開支援を行っているタイ人、ミャンマー料理店の店主、外国人と関わり合いながら働く日本人……。生活も...",
+      "tags": [
+        "日本社会",
+        "外国人",
+        "ITエンジニア",
+        "経済"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.059179+09:00",
+      "summary": "この記事は、中国の記者が日本の現状を清朝末期に例え、豊かさゆえの思考停止に危機感を抱いている点を報じている。記者は無償で在日外国人を取材し、彼らが日本で活動する様子を通して、日本の社会や文化、経済における多様な視点と課題を浮き彫りにしようとしている。特に、ITエンジニア、留学生、インフルエンサー、製造業支援者など、様々な分野で活躍する外国人の事例が紹介されており、日本の将来に対する示唆を与えている。"
+    },
+    {
+      "id": "hatena_54682",
+      "source": "hatena",
+      "title": "GitHub - reflex-dev/xy: Ultra-fast and customizable Python charts",
+      "url": "https://github.com/reflex-dev/xy",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "XY is an extremely fast, interactive, customizable Python charting library for the web, notebooks, and static exports. Charts are composed declaratively or through matplotlib conventions. You can fully customize them with Python, CSS, or Tailwind. With small charts, every point is sent to the bro...",
+      "tags": [
+        "Python",
+        "グラフ描画",
+        "Web",
+        "インタラクティブ"
+      ],
+      "fetched_at": "2026-07-30T08:00:23.059173+09:00",
+      "summary": "Reflex-devが開発したPython製グラフ描画ライブラリ「XY」は、Web、ノートブック、静的エクスポートに対応した高速かつインタラクティブな描画機能を提供します。宣言的な構文またはMatplotlibライクなAPIでグラフを構築でき、Python、CSS、Tailwindによる詳細なカスタマイズが可能です。特に、小規模なグラフでは各データポイントがブラウザに送信されるため、インタラクティブな操作性と高速な描画を実現しています。"
+    },
+    {
+      "id": "reddit_70153",
+      "source": "reddit",
+      "title": "That time when I failed the Microsoft interview",
+      "url": "https://www.reddit.com/r/programming/comments/1v9u8yw/that_time_when_i_failed_the_microsoft_interview/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/aochagavia\"> /u/aochagavia </a> <br /> <span><a href=\"https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v9u8yw/that_time_when_i_failed_the_microsoft_interview/\">[comments]</a></span>",
+      "tags": [
+        "Microsoft",
+        "面接",
+        "キャリア",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-07-30T08:00:25.077512+09:00",
+      "summary": "この記事は、Microsoftの面接に落ちた経験談を共有しています。具体的な面接内容や、なぜ不採用となったのかについての考察が述べられています。技術的なスキルだけでなく、問題解決能力やコミュニケーション能力がどのように評価されるのか、また、その評価基準に満たなかった点が示唆されています。この経験は、今後のキャリアや面接対策に役立つ示唆を与えてくれます。"
+    },
+    {
+      "id": "reddit_96214",
+      "source": "reddit",
+      "title": "PostgreSQL's MVCC is bad. So is everyone else's.",
+      "url": "https://www.reddit.com/r/programming/comments/1va00wm/postgresqls_mvcc_is_bad_so_is_everyone_elses/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BrewedDoritos\"> /u/BrewedDoritos </a> <br /> <span><a href=\"https://boringsql.com/posts/mvcc-bad-bad/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1va00wm/postgresqls_mvcc_is_bad_so_is_everyone_elses/\">[comments]</a></span>",
+      "tags": [
+        "PostgreSQL",
+        "MVCC",
+        "データベース",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-07-30T08:00:25.077527+09:00",
+      "summary": "この記事は、PostgreSQLを含む多くのデータベースシステムで採用されているMVCC（Multi-Version Concurrency Control）の設計上の課題について論じています。MVCCは同時実行性を高める一方で、トランザクションの分離レベルによってはパフォーマンスの低下やリソース消費の増大を招く可能性があります。特に、長時間実行されるトランザクションや高負荷な環境下でのデッドロックやロック競合のリスクが指摘されており、これらの問題に対処するための代替アプローチや最適化の重要性が示唆されています。"
+    },
+    {
+      "id": "reddit_50697",
+      "source": "reddit",
+      "title": "The Difference Between a Button and a Link",
+      "url": "https://www.reddit.com/r/programming/comments/1v9lgdk/the_difference_between_a_button_and_a_link/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lelanthran\"> /u/lelanthran </a> <br /> <span><a href=\"https://unplannedobsolescence.com/blog/buttons-vs-links/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1v9lgdk/the_difference_between_a_button_and_a_link/\">[comments]</a></span>",
+      "tags": [
+        "Web開発",
+        "UI/UX",
+        "アクセシビリティ",
+        "HTML"
+      ],
+      "fetched_at": "2026-07-30T08:00:25.077534+09:00",
+      "summary": "この記事は、Web開発におけるボタンとリンクの根本的な違いについて解説しています。ボタンは通常、特定の操作（フォーム送信、ダイアログ表示など）を実行するために使用され、JavaScriptによるイベントハンドリングと密接に関連しています。一方、リンクは主にナビゲーションを目的とし、URLへの遷移を担います。この違いを理解することは、アクセシビリティ、SEO、そしてユーザーエクスペリエンスの向上に不可欠です。"
+    },
+    {
+      "id": "reddit_51920",
+      "source": "reddit",
+      "title": "Fixing bugs in Event Sourcing is hard, for real?",
+      "url": "https://www.reddit.com/r/programming/comments/1va4k7a/fixing_bugs_in_event_sourcing_is_hard_for_real/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adventurous-Salt8514\"> /u/Adventurous-Salt8514 </a> <br /> <span><a href=\"https://www.architecture-weekly.com/p/fixing-bugs-in-event-sourcing-is\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1va4k7a/fixing_bugs_in_event_sourcing_is_hard_for_real/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-07-30T08:00:25.077541+09:00",
+      "summary": ""
+    }
+  ]
+}
