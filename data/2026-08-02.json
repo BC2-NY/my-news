@@ -1,0 +1,319 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T07:57:02.390317+09:00",
+  "articles": [
+    {
+      "id": "hn_49136821",
+      "source": "hackernews",
+      "title": "How Google helped destroy adoption of RSS feeds (2023)",
+      "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
+      "score": 281,
+      "comments": 88,
+      "raw_description": "",
+      "tags": [
+        "RSS",
+        "Google Reader",
+        "コンテンツ配信",
+        "プラットフォーム"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.445335+09:00",
+      "summary": "Googleは、Google Readerの廃止を通じてRSSフィードの普及を阻害したと指摘されています。Google Readerは、RSSフィードを購読・管理するための主要なプラットフォームであり、その終了は多くのユーザーと開発者に影響を与えました。この出来事は、オープンなコンテンツ配信標準であるRSSの利用を低下させ、プラットフォーム依存型のコンテンツ消費モデルへの移行を加速させた可能性があります。"
+    },
+    {
+      "id": "hatena_69448",
+      "source": "hatena",
+      "title": "宮本佳林『アイドルがAIと配信のシステムを全部作った話』",
+      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974432505.html",
+      "score": 243,
+      "comments": 0,
+      "raw_description": "コードが書けないアイドルが、AIと一緒に10時間配信のシステムを全部作った話自分がシステムをしっかり理解するためにも、どんなことをやったのか残しておく為にもClaudeとChatGPTと一緒に（間違ってるところがあったらいけないのでね！）どんな風に制作して行ったのかブログに書いて行くことにしました。配信アーカイブ...",
+      "tags": [
+        "AI",
+        "システム開発",
+        "アイドル",
+        "Claude"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.078258+09:00",
+      "summary": "コードが書けないアイドルが、AI（Claude、ChatGPT）を活用して10時間配信のシステムをゼロから構築した事例を紹介する。AIとの対話を通じてシステム全体を理解し、自ら設計・実装を進めたプロセスは、非エンジニアがAIを駆使して複雑なシステム開発を行う可能性を示す。この経験は、AIを活用したコンテンツ制作やシステム開発の新たなアプローチとして注目される。"
+    },
+    {
+      "id": "hatena_10473",
+      "source": "hatena",
+      "title": "宮本佳林『HANAKIN配信システムの技術構成』",
+      "url": "https://ameblo.jp/miyamotokarin-official/entry-12974440752.html",
+      "score": 217,
+      "comments": 0,
+      "raw_description": "HANAKIN配信システムの技術構成2026年7月31日、5thシングル「HANAKIN／シャニカマー」の発売週に、10時間のYouTube生配信をやりました。企画は「みんなと協力して家にあるものでMV再現配信」。視聴者がCDを買ってハッシュタグで投稿するたびに、メイク・衣装・編集アプリが解禁されていく参加型の配信です。配信アーカイ...",
+      "tags": [
+        "YouTubeライブ",
+        "インタラクティブ配信",
+        "コンテンツ生成",
+        "ファンエンゲージメント"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.078271+09:00",
+      "summary": "宮本佳林氏が、5thシングル発売週に行った10時間YouTube生配信「HANAKIN」の技術構成について解説しています。本配信は、視聴者のCD購入とハッシュタグ投稿に応じて、メイク・衣装・編集アプリが段階的に解禁される参加型企画でした。これにより、視聴者のエンゲージメントを高めつつ、MV再現というクリエイティブなコンテンツをリアルタイムで生成する仕組みが構築されました。技術的には、インタラクティブな視聴者参加とコンテンツ生成の連動が特徴です。"
+    },
+    {
+      "id": "hn_49134599",
+      "source": "hackernews",
+      "title": "The Art of 64-bit Assembly",
+      "url": "https://nostarch.com/art-64-bit-assembly-v2",
+      "score": 168,
+      "comments": 79,
+      "raw_description": "",
+      "tags": [
+        "64-bit",
+        "Assembly Language",
+        "Low-level Programming",
+        "Performance Optimization"
+      ],
+      "fetched_at": "2026-08-02T07:57:02.090724+09:00",
+      "summary": "この記事は、64ビットアセンブリ言語の芸術的な側面を探求しています。64ビットアーキテクチャの複雑さと、それを活用した効率的で最適化されたコードの作成方法について解説しています。低レベルのハードウェア操作やパフォーマンスチューニングに関心のある開発者にとって、アセンブリ言語の深い理解は、システム全体の挙動を把握し、極限のパフォーマンスを引き出す上で不可欠です。"
+    },
+    {
+      "id": "hatena_94997",
+      "source": "hatena",
+      "title": "Playwrightで業務E2Eテストのアーキテクチャを設計する — Screen Object Model、Fluent Chaining、日本語メソッド名、ロケーター辞書の統合パターン | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/playwright-e2e-test-architecture-patterns/",
+      "score": 110,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Playwright",
+        "E2Eテスト",
+        "テストアーキテクチャ",
+        "Screen Object Model"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.078307+09:00",
+      "summary": "この記事では、Playwrightを用いたE2Eテストにおけるアーキテクチャ設計パターンを紹介しています。Screen Object Model、Fluent Chaining、日本語メソッド名、ロケーター辞書の統合により、保守性と可読性の高いテストコードの実現を目指します。これにより、複雑な業務アプリケーションのテスト効率と品質向上に貢献します。"
+    },
+    {
+      "id": "hn_49137060",
+      "source": "hackernews",
+      "title": "Postmortem for Kernel Soundness Bug #14576",
+      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+      "score": 97,
+      "comments": 34,
+      "raw_description": "",
+      "tags": [
+        "Linuxカーネル",
+        "サウンドバグ",
+        "ポストモーテム",
+        "カーネルパニック"
+      ],
+      "fetched_at": "2026-08-02T07:57:01.441340+09:00",
+      "summary": "Linuxカーネルのサウンドサブシステムにおける深刻な健全性バグ（#14576）のポストモーテムです。このバグは、特定の条件下でカーネルパニックを引き起こす可能性があり、システム全体の安定性に影響を与えました。根本原因の特定と、将来の同様の問題を防ぐための修正パッチの適用プロセスについて詳細に解説されており、カーネル開発者にとって重要な教訓となります。"
+    },
+    {
+      "id": "hn_49138188",
+      "source": "hackernews",
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "score": 95,
+      "comments": 14,
+      "raw_description": "",
+      "tags": [
+        "ドキュメンテーション",
+        "ソフトウェア開発",
+        "Diátaxis",
+        "フレームワーク"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.943117+09:00",
+      "summary": "Diátaxisは、ソフトウェアドキュメントの作成と管理のためのフレームワークです。このフレームワークは、チュートリアル、説明、参照、レシピという4つの主要なドキュメントタイプに焦点を当て、それぞれの目的に応じた明確な構造と作成プロセスを提供します。これにより、開発者は読者のニーズに合わせた効果的で理解しやすいドキュメントを体系的に作成できるようになり、ソフトウェアの学習曲線と保守性を向上させます。"
+    },
+    {
+      "id": "hatena_12705",
+      "source": "hatena",
+      "title": "AIを使わず地理演算でファンタジー地図を自動生成するWebツール『USOMAP』がとても面白い「水源から町を作る」「国境線の作り方もリアル」",
+      "url": "https://togetter.com/li/2727453",
+      "score": 79,
+      "comments": 0,
+      "raw_description": "トミナガハルキ | フリーランス歴10年な人 @asobodesign 地図生成の裏側を少しだけ触れると、USOMAPは「絵」を一発で描いているのではなく、世界の成り立ちを順番に計算しています。 ①大地 → ②気候 → ③水 → ④人 → ⑤国 → ⑥道 前の結果を次が受け取るので、地図の上の出来事が噛み合いやすくなっています。 ■なんちゃって...",
+      "tags": [
+        "地理演算",
+        "地図生成",
+        "USOMAP",
+        "自動生成"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.078294+09:00",
+      "summary": "Webツール「USOMAP」は、AIに頼らず地理演算を用いてファンタジー地図を自動生成する。大地、気候、水、人、国、道の順に要素を計算し、各段階の結果が次の段階に影響を与えることで、整合性の取れた地図生成を実現している。この手法により、水源から町が形成されたり、リアルな国境線が生成されたりするなど、説得力のある地図が自動で作成される点が特徴である。"
+    },
+    {
+      "id": "hn_49138302",
+      "source": "hackernews",
+      "title": "Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "score": 54,
+      "comments": 16,
+      "raw_description": "",
+      "tags": [
+        "3Dオーディオ",
+        "リアルタイムレンダリング",
+        "オープンソース",
+        "オーディオエンジン"
+      ],
+      "fetched_at": "2026-08-02T07:57:01.194609+09:00",
+      "summary": "Seedance 2.5は、リアルタイムの3D空間オーディオレンダリングを可能にするオープンソースのオーディオエンジンです。このバージョンでは、空間オーディオのレンダリング精度とパフォーマンスが向上し、より没入感のあるオーディオ体験を実現します。開発者は、ゲーム、VR/ARアプリケーション、インタラクティブメディアなど、多様な分野で高度な音響効果を容易に実装できるようになります。"
+    },
+    {
+      "id": "hn_49137713",
+      "source": "hackernews",
+      "title": "But can your calculator run Linux?",
+      "url": "https://raymii.org/s/articles/But_can_your_calculator_run_Linux.html",
+      "score": 43,
+      "comments": 4,
+      "raw_description": "",
+      "tags": [
+        "Linux",
+        "組み込みシステム",
+        "IoT",
+        "OS"
+      ],
+      "fetched_at": "2026-08-02T07:57:01.838715+09:00",
+      "summary": "Linuxが電卓で動作する可能性が示されました。これは、組み込みシステムにおけるOSの柔軟性とリソース効率の重要性を示唆しています。リソースが限られた環境でも高度な機能を実現できる可能性があり、IoTデバイスや特殊用途のコンピューティング分野での応用が期待されます。"
+    },
+    {
+      "id": "hatena_48144",
+      "source": "hatena",
+      "title": "Web Streams API 入門 ― 基本概念から実践まで",
+      "url": "https://zenn.dev/cybozu_frontend/articles/web-streams-api-guide",
+      "score": 37,
+      "comments": 0,
+      "raw_description": "こんにちは、tasshi です。 この記事では、JavaScriptでストリーム処理を行うための標準API「Web Streams API（Streams API）」について、基本概念から実践的な使い方、Node.js Streamとの違いまでを解説します。 本記事は、TSKaigi 2025で発表した「Web Streams APIの基本と実践、TypeScriptでの活用法」をベースに、現...",
+      "tags": [
+        "Web Streams API",
+        "JavaScript",
+        "ストリーム処理",
+        "非同期処理"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.078319+09:00",
+      "summary": "Web Streams APIは、JavaScriptで効率的なストリーム処理を実現するための標準APIです。これにより、大きなデータをチャンクごとに非同期で処理できるようになり、メモリ使用量の削減や応答性の向上が期待できます。本記事では、その基本概念、実践的な使い方、そしてNode.js Streamとの違いについて解説しており、Webアプリケーションにおけるデータ処理の効率化に役立つ情報を提供します。"
+    },
+    {
+      "id": "hatena_48064",
+      "source": "hatena",
+      "title": "Copilot活用に向けた「Microsoft Teamsでの情報共有の考え方」を作成しました  | 北海道大学DX業務推進室",
+      "url": "https://mx.general.hokudai.ac.jp/posts/SuvDaMaR",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "こんにちは！「事務職員が変われば、北大は変わる」を信じてる、北海道大学DX業務推進室の佐久間です。Microsoft 365 Copilotをもっと活用するためには、業務に関する情報がTeams上に適...",
+      "tags": [],
+      "fetched_at": "2026-08-02T07:57:00.078229+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_06065",
+      "source": "hatena",
+      "title": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］",
+      "url": "https://www.4gamer.net/games/029/G102970/20260801009/",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "「メタルサーガ 〜鋼の季節〜」がリマスター！ 埋もれた一作をなぜ今よみがえらせるのか――開発者に聞いた［CJ2026］ 編集部：haruka 中国のゲームメーカーJoystickは，サクセスが2006年に発売したニンテンドーDS用ソフト「メタルサーガ 〜鋼の季節〜」のリマスター版（PC / PS5 / PS4 / Nintendo Switch 2）を発表し，20...",
+      "tags": [],
+      "fetched_at": "2026-08-02T07:57:00.078331+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_44440",
+      "source": "hatena",
+      "title": "skills/plugins/html/skills/html at main · mathbullet/skills",
+      "url": "https://github.com/mathbullet/skills/tree/main/plugins/html/skills/html",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert",
+      "tags": [
+        "HTML",
+        "Web開発",
+        "セッション管理",
+        "認証"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.078283+09:00",
+      "summary": "このリポジトリは、HTMLスキルに関連するコードやリソースを管理しています。具体的な内容は、サインインセッションの更新やアカウント切り替えに関するアラートメッセージの処理ロジックを示唆しています。Webアプリケーションにおけるユーザー認証フローやセッション管理の技術的な側面を理解する上で参考になる可能性があります。"
+    },
+    {
+      "id": "hn_49139102",
+      "source": "hackernews",
+      "title": "From MIT: AI financial advice is surprisingly good",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "score": 17,
+      "comments": 9,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "金融アドバイス",
+        "MIT",
+        "ポートフォリオ最適化"
+      ],
+      "fetched_at": "2026-08-02T07:57:00.696453+09:00",
+      "summary": "MITの研究によると、AIによる金融アドバイスは人間と同等、あるいはそれ以上の精度を示すことが明らかになりました。特に、AIは複雑な金融商品のリスク評価やポートフォリオ最適化において、感情に左右されない客観的な分析を提供できる可能性があります。これにより、よりパーソナライズされ、かつ効果的な金融アドバイスの提供が期待されます。"
+    },
+    {
+      "id": "reddit_58066",
+      "source": "reddit",
+      "title": "The Bedrock of Software Design",
+      "url": "https://www.reddit.com/r/programming/comments/1vcl5bj/the_bedrock_of_software_design/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I drafted this post years ago but didn’t finish it until now. The concept I write about has shaped the way I design software more than anything else, and I believe every software engineer should be introduced to it early in their career.</p> <p>P.S. I don’t want the title to come across as clickbait: the post is about ADT.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alex35mil\"> /u/alex35mil </a> <br /> <span><a href=\"ht",
+      "tags": [
+        "ソフトウェア設計",
+        "抽象データ型",
+        "ADT",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-02T07:57:02.390258+09:00",
+      "summary": "この記事は、ソフトウェア設計の根幹をなす抽象データ型（ADT）について解説しています。ADTは、データとその操作をカプセル化することで、ソフトウェアのモジュール性、保守性、再利用性を高めるための重要な概念です。ADTを理解し活用することは、複雑なシステムを効果的に設計・実装する上で、ソフトウェアエンジニアにとって不可欠なスキルとなります。"
+    },
+    {
+      "id": "reddit_15510",
+      "source": "reddit",
+      "title": "Flycast WASM JIT v1 released (Dreamcast emulator in browser) with technical write-up",
+      "url": "https://www.reddit.com/r/programming/comments/1vcmpgl/flycast_wasm_jit_v1_released_dreamcast_emulator/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><h1><a href=\"https://github.com/nasomers/flycast-wasm/blob/main/TECHNICAL_WRITEUP.md\">Write-up</a></h1> <p><strong>From <a href=\"https://www.reddit.com/r/emulation\">r/emulation</a>:</strong></p> <p>Six months ago I got upstream Flycast compiling to WebAssembly and running as a libretro core. It booted games at about 2 FPS on the interpreter. Fun proof of concept, completely unplayable.</p> <p>Today, heavy 3D titles like Jet Grind Radio and Shenmue hold their target",
+      "tags": [
+        "WebAssembly",
+        "JITコンパイラ",
+        "エミュレータ",
+        "Dreamcast"
+      ],
+      "fetched_at": "2026-08-02T07:57:02.390279+09:00",
+      "summary": "Dreamcastエミュレータ「Flycast」のWebAssembly (WASM)版JITコンパイラがv1としてリリースされました。これにより、ブラウザ上でDreamcastゲームをより高速に実行できるようになります。WASM JITコンパイラは、ネイティブコードに近いパフォーマンスを実現し、エミュレーションの体験を大幅に向上させる可能性があります。この技術は、ブラウザベースのエミュレーションの可能性を広げる重要な進歩です。"
+    },
+    {
+      "id": "reddit_08268",
+      "source": "reddit",
+      "title": "The History of Pets vs Cattle and How to Use the Analogy Properly",
+      "url": "https://www.reddit.com/r/programming/comments/1vcsm8w/the_history_of_pets_vs_cattle_and_how_to_use_the/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vcsm8w/the_history_of_pets_vs_cattle_and_how_to_use_the/\">[comments]</a></span>",
+      "tags": [
+        "インフラ管理",
+        "ペット対家畜",
+        "DevOps",
+        "クラウドネイティブ"
+      ],
+      "fetched_at": "2026-08-02T07:57:02.390287+09:00",
+      "summary": "この記事は、ITインフラストラクチャ管理における「ペット」と「家畜」のアナロジーの歴史とその適切な使い方について解説しています。「ペット」サーバーは個別に管理され、障害発生時に手動で対応しますが、「家畜」サーバーは自動化されたプロセスで管理され、障害時には交換されます。このアナロジーは、クラウドネイティブなアーキテクチャやDevOpsプラクティスにおいて、スケーラビリティ、信頼性、運用効率を高めるための重要な考え方を示しています。"
+    },
+    {
+      "id": "reddit_36161",
+      "source": "reddit",
+      "title": "The Tech Market Situation is Crazy",
+      "url": "https://www.reddit.com/r/programming/comments/1vcyuc6/the_tech_market_situation_is_crazy/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/deepCelibateValue\"> /u/deepCelibateValue </a> <br /> <span><a href=\"https://medium.com/@sebastiancarlos/the-tech-market-situation-is-crazy-ec49ea772903\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vcyuc6/the_tech_market_situation_is_crazy/\">[comments]</a></span>",
+      "tags": [
+        "テクノロジー市場",
+        "景気後退",
+        "レイオフ",
+        "採用抑制"
+      ],
+      "fetched_at": "2026-08-02T07:57:02.390294+09:00",
+      "summary": "現在のテクノロジー市場は、景気後退懸念やインフレ、金利上昇といったマクロ経済要因の影響を受け、不安定な状況にあります。これにより、多くのテクノロジー企業がレイオフを実施し、採用を抑制する動きが見られます。この状況は、スタートアップの資金調達環境にも影響を与え、投資家はより慎重な姿勢をとるようになっています。技術者にとっては、キャリアパスやスキル習得において、市場の動向を注視し、適応していくことが重要となります。"
+    }
+  ]
+}
