@@ -1,0 +1,328 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T07:58:12.688920+09:00",
+  "articles": [
+    {
+      "id": "hn_49140998",
+      "source": "hackernews",
+      "title": "Karpathy’s Pelican",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "score": 366,
+      "comments": 293,
+      "raw_description": "",
+      "tags": [
+        "ニューラルネットワーク",
+        "機械学習",
+        "Python",
+        "教育"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.945994+09:00",
+      "summary": "Andrej Karpathy氏が公開した、Pythonで書かれたシンプルなニューラルネットワークライブラリ「Pelican」は、ゼロからニューラルネットワークを構築するプロセスを理解するための教育的なツールです。PyTorchやTensorFlowのような高レベルなフレームワークの内部動作を学ぶための基礎を提供し、勾配計算や自動微分といったコア技術の理解を深めることを目的としています。これにより、開発者はより深いレベルで機械学習モデルの挙動を把握し、デバッグや最適化に役立てることができます。"
+    },
+    {
+      "id": "hn_49145937",
+      "source": "hackernews",
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "url": "https://github.com/wie-project/kakehashi",
+      "score": 150,
+      "comments": 36,
+      "raw_description": "",
+      "tags": [
+        "macOS",
+        "Linux",
+        "ARM",
+        "エミュレーション"
+      ],
+      "fetched_at": "2026-08-03T07:58:11.359903+09:00",
+      "summary": "Kakehashiは、Linux ARM環境でmacOSバイナリを実行するための実験的なユーザー空間実装です。これにより、ARMアーキテクチャ上でmacOSアプリケーションの互換性を高め、クロスプラットフォーム開発やエミュレーションの可能性を広げます。特に、macOS固有のAPIやフレームワークをエミュレートすることで、開発者は異なるOS環境でのテストやデバッグを容易に行えるようになります。"
+    },
+    {
+      "id": "hatena_30017",
+      "source": "hatena",
+      "title": "Windowsユーザーは「ホテルのWi-Fiは使うな」マイクロソフトが緊急警告 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/102130",
+      "score": 142,
+      "comments": 0,
+      "raw_description": "「組織は、公共や宿泊施設のネットワークインフラが信頼できない可能性があると想定すべきだ」と、マイクロソフトは米国時間7月31日に警告した。これは、出張者に対する同社のセキュリティアドバイスが著しく厳格化したことを示している。ロシアのサイバー攻撃者（脅威アクター）によるものとされる新たなハッキングの脅...",
+      "tags": [
+        "サイバーセキュリティ",
+        "Windows",
+        "Wi-Fi",
+        "マイクロソフト"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.663322+09:00",
+      "summary": "マイクロソフトは、公共およびホテルのWi-Fiネットワークの信頼性に対する懸念から、Windowsユーザーに対してこれらのネットワークの使用を避けるよう緊急警告を発しました。これは、ロシアのサイバー攻撃者による新たなハッキング脅威の増加を受けて、出張者向けのセキュリティアドバイスを大幅に強化したものです。公共Wi-Fiは、機密情報への不正アクセスやマルウェア感染のリスクを高めるため、特に注意が必要です。"
+    },
+    {
+      "id": "hatena_24670",
+      "source": "hatena",
+      "title": "大阪・関西万博関連ドメインの一部で起きているドロップキャッチについてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/02/165033",
+      "score": 130,
+      "comments": 0,
+      "raw_description": "2026年7月29日、公益社団法人2025年日本国際博覧会協会は、過去に大阪・関西万博の関連事業で専用サイトとして使用していた複数のドメインについて「既に運用を終了しております」としたうえで、現在これらのドメインを使ったURLやメールアドレスが使われていても協会の事業とは全く関係ないと注意喚起しました。piyokan...",
+      "tags": [
+        "ドメイン管理",
+        "サイバーセキュリティ",
+        "大阪・関西万博",
+        "注意喚起"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.663346+09:00",
+      "summary": "2025年日本国際博覧会協会は、過去に使用していた大阪・関西万博関連ドメインの一部が現在、第三者によって取得・運用されている可能性があると注意喚起しました。これらのドメインは既に協会の事業とは無関係であり、現在これらのドメインを使用したURLやメールアドレスが表示されても、協会とは一切関係がないことを強調しています。これは、ドメインの管理不備や、終了したプロジェクトのドメインがサイバー攻撃などに悪用されるリスクを示唆しており、組織的なドメイン管理の重要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hn_49097961",
+      "source": "hackernews",
+      "title": "Developers are attached to tools because tools encode trust",
+      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "score": 113,
+      "comments": 53,
+      "raw_description": "",
+      "tags": [
+        "開発者体験",
+        "ツール",
+        "信頼性",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-08-03T07:58:11.772444+09:00",
+      "summary": "開発者が特定のツールに愛着を持つのは、そのツールが信頼をエンコードしているためです。長期間使用されるツールは、開発者の期待に応え、バグが少なく、予測可能な動作をすることで信頼を築きます。この信頼は、新しいツールへの移行コストを高く感じさせ、既存のツールへの固執を生む要因となります。したがって、ツールの開発者は、単なる機能性だけでなく、長期的な信頼性の構築に注力することが重要です。"
+    },
+    {
+      "id": "hatena_61290",
+      "source": "hatena",
+      "title": "『エンジニアのための自己管理入門』で自身の”行動を設計”する - Magnolia Tech",
+      "url": "https://blog.magnolia.tech/entry/2026/08/02/133343",
+      "score": 112,
+      "comments": 0,
+      "raw_description": "エンジニアのための自己管理入門【リフロー型】 堅牢でスケーラブルな働き方を構築する技術 作者:小田中 育生翔泳社Amazon 小田中育生さんが執筆された『エンジニアのための自己管理入門』を購入して読みました。 とにかく扱っている話題の幅が広く、筆者の引き出しの多さに感心させられましたが、何より構成の素晴らし...",
+      "tags": [
+        "自己管理",
+        "エンジニア",
+        "生産性向上",
+        "キャリア構築"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.663351+09:00",
+      "summary": "本書は、エンジニアが堅牢でスケーラブルな働き方を構築するための自己管理術を解説しています。単なる時間管理に留まらず、自身の行動を設計し、生産性を最大化するための具体的なアプローチを提供します。技術的な専門性を高めつつ、持続可能なキャリアを築く上で重要な示唆を与えます。"
+    },
+    {
+      "id": "hn_49084324",
+      "source": "hackernews",
+      "title": "Note-Taking and Personal Knowledge Management",
+      "url": "https://unattributed.cc/note-taking-and-personal-knowledge-management",
+      "score": 89,
+      "comments": 25,
+      "raw_description": "",
+      "tags": [
+        "ノートテイキング",
+        "個人的知識管理",
+        "PKM",
+        "情報整理"
+      ],
+      "fetched_at": "2026-08-03T07:58:11.567517+09:00",
+      "summary": "この記事は、ノートテイキングと個人的知識管理（PKM）の重要性について解説しています。効果的なノートテイキングは、情報の整理、記憶の定着、創造的な思考の促進に不可欠です。PKMは、断片的な情報を体系化し、長期的な知識資産として活用するためのフレームワークを提供します。これらの実践は、学習効率の向上や問題解決能力の強化に繋がり、技術者にとって継続的なスキルアップとイノベーションの源泉となります。"
+    },
+    {
+      "id": "hatena_91420",
+      "source": "hatena",
+      "title": "ＡＩで生成した画像や動画、ＥＵが識別できる表示義務づけ…違反なら最大２７億円か年売上高３％の制裁金",
+      "url": "https://www.yomiuri.co.jp/economy/20260801-GYT1T00222/",
+      "score": 80,
+      "comments": 0,
+      "raw_description": "【読売新聞】　【ブリュッセル＝秋山洋成】欧州連合（ＥＵ）は２日、ＡＩ（人工知能）で生成・加工した画像や音声、動画などの内容に対し、利用者がＡＩによるものだと分かる表示をするよう事業者に義務づける。規制によって利用者を偽情報などから守",
+      "tags": [
+        "AI生成物",
+        "EU規制",
+        "偽情報対策",
+        "コンテンツ識別"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.663357+09:00",
+      "summary": "欧州連合（EU）は、AIによって生成・加工された画像、音声、動画などのコンテンツに対し、AI生成物であることを示す表示を事業者に義務付ける新たな規制を導入しました。この規制は、利用者を偽情報や誤解から保護することを目的としています。違反した場合、最大27億ユーロまたは年間売上高の3%に相当する制裁金が科される可能性があります。"
+    },
+    {
+      "id": "hn_49146267",
+      "source": "hackernews",
+      "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+      "url": "https://github.com/graham33/nixos-dgx-spark",
+      "score": 80,
+      "comments": 21,
+      "raw_description": "",
+      "tags": [
+        "NixOS",
+        "Nix",
+        "DGX Spark",
+        "AI/ML"
+      ],
+      "fetched_at": "2026-08-03T07:58:12.385837+09:00",
+      "summary": "NixOS-DGX-Sparkは、NVIDIA DGX Spark上でNixとNixOSを動作させるためのプロジェクトです。これにより、Nixの宣言的な構成管理と再現性をDGX Sparkの強力なハードウェア環境で活用できるようになります。AI/ML開発者は、複雑な環境構築の手間を省き、実験の再現性を高めることで、より効率的に開発を進めることが期待できます。"
+    },
+    {
+      "id": "hatena_20922",
+      "source": "hatena",
+      "title": "クラウドセキュリティ入門　～安全なクラウド利用のための基礎知識～",
+      "url": "https://speakerdeck.com/lhazy/kuraudosekiyuriteiru-men-an-quan-nakuraudoli-yong-notamenoji-chu-zhi-shi",
+      "score": 65,
+      "comments": 0,
+      "raw_description": "第03回shirosec しろおび夏祭り2026 https://shirosec.connpass.com/event/397254/ 本セッションではクラウドを支える技術の解説から、実際の攻撃手法までを解説します。前半で攻撃手法の理解に必要な前提知識の提供を行い、後半では、実際に発生したイン…",
+      "tags": [
+        "クラウドセキュリティ",
+        "サイバー攻撃",
+        "基礎知識",
+        "インシデント対応"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.663339+09:00",
+      "summary": "本セッションは、クラウド環境におけるセキュリティの基礎知識を解説するものです。クラウドを支える技術の解説に加え、実際の攻撃手法とその対策についても触れられています。これにより、技術者は安全なクラウド利用のために必要な知識を体系的に習得し、インシデント発生時の対応能力を高めることができます。"
+    },
+    {
+      "id": "hatena_64277",
+      "source": "hatena",
+      "title": "アイドルグループ『Juice=Juice』の宮本佳林さんがAIで10時間配信の全システムを構築し技術ブログも公開している「アイドルの技術ブログ！？」",
+      "url": "https://togetter.com/li/2728033",
+      "score": 46,
+      "comments": 0,
+      "raw_description": "宮本佳林&amp;Mg(マネージャー) @karin__miyamoto コードが書けないアイドルが、 AIと一緒に10時間配信のシステムを 全部作った話。 ameblo.jp/miyamotokarin-… 技術面でまとめたものも書きました。 ameblo.jp/miyamotokarin-… 是非見てみてね！ 2026-08-01 16:58:07 HANAKIN配信システムの技術構成 | 宮本佳林オフィシャル...",
+      "tags": [],
+      "fetched_at": "2026-08-03T07:58:10.663362+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_48689",
+      "source": "hatena",
+      "title": "自動車整備士だが、客が「中古で軽トラ買ったんだけどさ、なんか足元がフワフワするんだよ」というので見てみたら、察し… その後、フロアマットをめくって見せたら、客「うわぁ！何これ！」",
+      "url": "https://togetter.com/li/2728109",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "チームMHO 自動車整備士 @teammho 客 「中古で軽トラ買ったんだけどさ、なんか足元がフワフワするんだよ」 僕 「……あ、サンバーですね。」 （この時点で8割察する） 客 「ちょっと運転席座ってみてよ」 僕 「原因、多分分かります。心の準備だけしてください。」 ベリッ… （フロアマットをめくる） 客 「うわぁぁぁ！！...",
+      "tags": [],
+      "fetched_at": "2026-08-03T07:58:10.663366+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49147978",
+      "source": "hackernews",
+      "title": "Sharing an X11 Server Across Hosts with FamilyWild",
+      "url": "https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/",
+      "score": 21,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-08-03T07:58:12.182062+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49129676",
+      "source": "hackernews",
+      "title": "Read the Novels and Forget Everything Else",
+      "url": "https://hedgehogreview.com/web-features/thr/posts/read-the-novels-and-forget-everything-else",
+      "score": 19,
+      "comments": 5,
+      "raw_description": "",
+      "tags": [
+        "小説",
+        "読書",
+        "教養",
+        "人間性"
+      ],
+      "fetched_at": "2026-08-03T07:58:11.977681+09:00",
+      "summary": "このタイトルの記事は、小説を読むことの重要性について論じています。著者は、小説を読むことが、技術的な知識だけでなく、人間性や共感能力を育む上で不可欠であると主張しています。複雑な物語や登場人物の心理描写を通して、読者は多角的な視点を養い、現代社会で求められる深い洞察力を身につけることができると述べています。"
+    },
+    {
+      "id": "hatena_07792",
+      "source": "hatena",
+      "title": "Illformed :: Glitch²",
+      "url": "https://illformed.com/glitch/",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "In loving memory of Kieran Foster — illformed / dblue / MaDHaTTeR (1979–2026). Glitch² is now free and available as VST3 plugin. Read the memorial → Introduction The infamous FSU plugin is back! And yes, there's finally a Mac version! Glitch is an audio effect plugin for Windows (VST2 and VST3, 6...",
+      "tags": [
+        "オーディオエフェクト",
+        "プラグイン",
+        "Glitch²",
+        "無償公開"
+      ],
+      "fetched_at": "2026-08-03T07:58:10.663371+09:00",
+      "summary": "オーディオエフェクトプラグイン「Glitch²」が、故Kieran Foster氏への追悼としてVST3プラグインとして無償公開されました。このプラグインは、オーディオ信号に意図的なグリッチや破損（FSU: Full Scale Unit）を生成するエフェクトで、音楽制作における実験的なサウンドデザインやノイズ生成に活用できます。新たにMac版も提供され、Windows版（VST2/VST3）と合わせてクロスプラットフォームで利用可能になりました。"
+    },
+    {
+      "id": "hn_49122655",
+      "source": "hackernews",
+      "title": "Autoregressive Language Model on the 6502 Processor",
+      "url": "https://mattbeton.com/blog/bitnet-6502.html",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "6502",
+        "言語モデル",
+        "組み込みAI",
+        "エッジコンピューティング"
+      ],
+      "fetched_at": "2026-08-03T07:58:11.152870+09:00",
+      "summary": "6502プロセッサ上で動作する自己回帰型言語モデルの実装が報告されました。このモデルは、限られたリソースを持つ組み込みシステムやレガシーハードウェアでの自然言語処理の可能性を示唆しています。計算能力が低い環境でも、Transformerアーキテクチャの要素を簡略化して適用できることを実証しており、エッジAIやリソース制約下でのAI応用に関する新たな視点を提供します。"
+    },
+    {
+      "id": "reddit_58520",
+      "source": "reddit",
+      "title": "Should you normalize RGB values by 255 or 256?",
+      "url": "https://www.reddit.com/r/programming/comments/1vdjt5i/should_you_normalize_rgb_values_by_255_or_256/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://30fps.net/pages/255-vs-256-division/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vdjt5i/should_you_normalize_rgb_values_by_255_or_256/\">[comments]</a></span>",
+      "tags": [
+        "RGB",
+        "正規化",
+        "画像処理",
+        "コンピュータグラフィックス"
+      ],
+      "fetched_at": "2026-08-03T07:58:12.688872+09:00",
+      "summary": "RGB値を正規化する際に255で割るか256で割るかという議論は、画像処理やコンピュータグラフィックスにおいて重要な意味を持ちます。255で割る方法は、0から255までの整数値を0から1の範囲にマッピングしますが、値0が失われる可能性があります。一方、256で割る方法は、0から255までの値を0から約0.996の範囲にマッピングし、すべての値を区別できます。この選択は、データの精度や後続の計算に影響を与えるため、文脈に応じて適切な方法を選択する必要があります。"
+    },
+    {
+      "id": "reddit_41019",
+      "source": "reddit",
+      "title": "Every byte matters",
+      "url": "https://www.reddit.com/r/programming/comments/1vdfij8/every_byte_matters/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://fzakaria.com/2026/06/01/every-byte-matters\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vdfij8/every_byte_matters/\">[comments]</a></span>",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-08-03T07:58:12.688889+09:00",
+      "summary": ""
+    },
+    {
+      "id": "reddit_41109",
+      "source": "reddit",
+      "title": "Understanding Raft Leader Election by building from scratch",
+      "url": "https://www.reddit.com/r/programming/comments/1vd9q70/understanding_raft_leader_election_by_building/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sushant098123\"> /u/Sushant098123 </a> <br /> <span><a href=\"https://sushantdhiman.dev/blog/raft/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vd9q70/understanding_raft_leader_election_by_building/\">[comments]</a></span>",
+      "tags": [
+        "Raft",
+        "分散合意アルゴリズム",
+        "リーダー選出",
+        "システム実装"
+      ],
+      "fetched_at": "2026-08-03T07:58:12.688896+09:00",
+      "summary": "この記事は、分散合意アルゴリズムであるRaftのリーダー選出メカニズムを、ゼロから実装することで理解を深めることを目的としています。Raftは、Paxosよりも理解しやすいコンセンサスアルゴリズムとして知られており、特にリーダー選出はシステム全体の可用性と一貫性を保証する上で重要な要素です。記事では、具体的なコード実装を通じて、タイムアウト、投票、リーダー昇格といったプロセスを解説しており、分散システム開発者にとって実践的な知識を提供します。"
+    },
+    {
+      "id": "reddit_48277",
+      "source": "reddit",
+      "title": "Quantum Computers May Put Internet Traffic at Risk. NIST Is Safeguarding Computers With New Standards.",
+      "url": "https://www.reddit.com/r/programming/comments/1vd7jnr/quantum_computers_may_put_internet_traffic_at/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/donutloop\"> /u/donutloop </a> <br /> <span><a href=\"https://www.nist.gov/blogs/taking-measure/quantum-computers-may-put-internet-traffic-risk-nist-safeguarding-computers-new\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vd7jnr/quantum_computers_may_put_internet_traffic_at/\">[comments]</a></span>",
+      "tags": [
+        "量子コンピュータ",
+        "暗号化",
+        "NIST",
+        "PQC"
+      ],
+      "fetched_at": "2026-08-03T07:58:12.688901+09:00",
+      "summary": "量子コンピュータの計算能力向上により、現在のインターネット通信の暗号化技術が破られるリスクが指摘されています。これに対応するため、米国国立標準技術研究所（NIST）は、量子コンピュータでも解読が困難な新しい暗号化標準（PQC: Post-Quantum Cryptography）を策定・公開しました。この新しい標準は、インターネット通信の機密性と安全性を将来にわたって保護するために不可欠であり、システムの移行が求められます。"
+    }
+  ]
+}
