@@ -1,0 +1,341 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T07:39:36.058847+09:00",
+  "articles": [
+    {
+      "id": "hn_49241679",
+      "source": "hackernews",
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "score": 963,
+      "comments": 543,
+      "raw_description": "",
+      "tags": [
+        "Meta AI",
+        "言語モデル",
+        "ローカルAI",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-08-11T07:39:34.086769+09:00",
+      "summary": "Meta AIが開発した300億パラメータの言語モデル「Muse Glimmer」は、常時稼働するローカルエージェントワークフローに最適化されています。このモデルは、低レイテンシと効率的な推論を可能にするアーキテクチャを採用しており、ローカル環境での高度なAIエージェントの実現に貢献します。これにより、プライバシーを保護しつつ、パーソナルアシスタントや自動化タスクなど、多様なアプリケーションでの活用が期待されます。"
+    },
+    {
+      "id": "hn_49243880",
+      "source": "hackernews",
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "score": 279,
+      "comments": 331,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "オープンソース",
+        "Meta",
+        "競合"
+      ],
+      "fetched_at": "2026-08-11T07:39:34.754308+09:00",
+      "summary": "Metaは、自社のAIモデルをオープンソースとして公開する方針を再確認しました。これは、OpenAIやGoogleといった「クローズド」なAI開発を進める競合他社への対抗策であり、AI技術の民主化とイノベーション促進を目指すものです。オープンソース化により、より広範な開発者コミュニティがMetaのAI技術にアクセスし、改良や応用を進めることが可能になります。"
+    },
+    {
+      "id": "hn_49208296",
+      "source": "hackernews",
+      "title": "Sonic Pi v5",
+      "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+      "score": 268,
+      "comments": 69,
+      "raw_description": "",
+      "tags": [
+        "ライブコーディング",
+        "音楽生成",
+        "Sonic Pi",
+        "Python連携"
+      ],
+      "fetched_at": "2026-08-11T07:39:34.529752+09:00",
+      "summary": "Sonic Pi v5は、リアルタイム音楽生成のためのライブコーディング環境に、新たな機能とパフォーマンスの向上をもたらします。特に、Pythonとの連携強化や、より高度な音楽表現を可能にするための新しいAPIが追加された点が注目されます。これにより、教育現場だけでなく、プロのミュージシャンや開発者にとっても、より柔軟で強力な音楽制作ツールとしての価値が高まります。"
+    },
+    {
+      "id": "hn_49249150",
+      "source": "hackernews",
+      "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
+      "url": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
+      "score": 217,
+      "comments": 270,
+      "raw_description": "",
+      "tags": [
+        "年齢確認",
+        "イリノイ州法",
+        "プライバシー",
+        "Linux"
+      ],
+      "fetched_at": "2026-08-11T07:39:35.266730+09:00",
+      "summary": "イリノイ州で、オンラインプラットフォームが未成年者へのコンテンツ提供時に年齢確認を義務付ける法律が可決されました。この法律は、特にLinuxベースのシステムを含む、ウェブサイトやアプリケーションのバックエンドインフラストラクチャに影響を与える可能性があります。年齢確認の実装は、プライバシーへの懸念や技術的な複雑さを伴い、開発者やプラットフォーム運営者にとって新たな課題となります。"
+    },
+    {
+      "id": "hatena_20254",
+      "source": "hatena",
+      "title": "「エンジニアのための自己管理入門」に救われた話 - expajp's Permanent Way",
+      "url": "https://expajp-tech.hatenablog.com/entry/2026/08/09/191222",
+      "score": 164,
+      "comments": 0,
+      "raw_description": "「エンジニアのための自己管理入門」を読み終えました。 本書は自己管理を通して日々の生活に「余白」を作り出し、成果を上げてスキルを磨き、キャリアを前進させる方法を述べた本です。 www.shoeisha.co.jp 最近、読書記事は手元のメモ書きをそのまま出していますが、本書についてはしっかり書こうと思います。 という...",
+      "tags": [
+        "自己管理",
+        "エンジニア",
+        "キャリア",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.681026+09:00",
+      "summary": "本書は、エンジニアが自己管理を通じて日々の生活に「余白」を作り出し、成果向上、スキルアップ、キャリアの前進を目指す方法を解説しています。自己管理は単なる時間管理ではなく、精神的な余裕を生み出し、結果として生産性と創造性を高めるための戦略であることを強調しています。このアプローチは、技術者の持続的な成長と、変化の激しいIT業界でのキャリア構築において重要な示唆を与えます。"
+    },
+    {
+      "id": "hatena_81274",
+      "source": "hatena",
+      "title": "AIインフラの最新技術動向2026 (OCP China)",
+      "url": "https://speakerdeck.com/markunet/aiinhuranozui-xin-ji-shu-dong-xiang-2026-ocp-china",
+      "score": 97,
+      "comments": 0,
+      "raw_description": "技術動向説明会（日本語）",
+      "tags": [
+        "AIインフラ",
+        "技術動向",
+        "OCP China",
+        "データセンター"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.681034+09:00",
+      "summary": "2026年に向けたAIインフラの最新技術動向がOCP Chinaで発表されました。この説明会では、AIワークロードの増大に対応するためのハードウェア、ソフトウェア、およびネットワークアーキテクチャの進化に焦点が当てられました。特に、GPUの効率的な利用、高速インターコネクト技術、そしてデータセンターの電力効率向上に関する最新の研究開発成果が共有され、今後のAIインフラ構築における重要な指針となる情報が提供されました。"
+    },
+    {
+      "id": "hn_49247477",
+      "source": "hackernews",
+      "title": "Rust SIMD on the GPU",
+      "url": "https://www.vectorware.com/blog/simd-on-gpu/",
+      "score": 90,
+      "comments": 43,
+      "raw_description": "",
+      "tags": [
+        "Rust",
+        "GPU",
+        "SIMD",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-08-11T07:39:34.311254+09:00",
+      "summary": "Rust言語でGPU上でSIMD（Single Instruction, Multiple Data）演算を実行するためのアプローチが紹介されています。これにより、GPUの並列処理能力を最大限に活用し、データ並列性の高い計算タスクのパフォーマンスを大幅に向上させることが期待されます。特に、機械学習や科学技術計算などの分野での応用が考えられます。"
+    },
+    {
+      "id": "hn_49246804",
+      "source": "hackernews",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "score": 78,
+      "comments": 49,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "エッジAI",
+        "IoT",
+        "軽量モデル"
+      ],
+      "fetched_at": "2026-08-11T07:39:35.731477+09:00",
+      "summary": "Needle2は、スマートフォン、ウェアラブルデバイス、スマートホーム機器、ロボットなどのリソースが限られた環境向けに設計された、わずか14MBの軽量なエージェント型LLMです。このモデルは、デバイス上で直接動作するように最適化されており、クラウド接続に依存しないローカルでの高度なAI処理を可能にします。これにより、プライバシーの向上、低遅延、オフライン機能といったメリットが実現され、IoTデバイスや組み込みシステムにおけるAIの応用範囲を大きく広げる可能性があります。"
+    },
+    {
+      "id": "hatena_48355",
+      "source": "hatena",
+      "title": "FIREして会社を辞めたはずの元上司が会社に戻ってきた",
+      "url": "https://anond.hatelabo.jp/20260810132143",
+      "score": 59,
+      "comments": 0,
+      "raw_description": "最近、FIREした自慢がネットで多いけど、あれ99％嘘だろうな、と思う時がある。 IT企業でエンジニアとして働いているのだが、特にIT系ではFIREしたいとか投資でFIREするとかそういうのを口にする奴らは多い、特に若手が多いのだが。 前勤めていた会社で上司で先輩だった人も、そうだった。 FIREして会社を辞めたはずなの...",
+      "tags": [
+        "FIRE",
+        "早期リタイア",
+        "キャリア",
+        "IT業界"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.681076+09:00",
+      "summary": "FIRE（早期リタイア）を公言して退職した元上司が、数ヶ月後に復職した事例を紹介。FIRE達成の現実的な難しさや、IT業界におけるFIREブームの過熱ぶり、そしてその裏にある可能性のある実情について考察している。FIREを安易に目指すことへの警鐘を鳴らし、現実的なキャリアパスの重要性を示唆している。"
+    },
+    {
+      "id": "hatena_55756",
+      "source": "hatena",
+      "title": "AIブームでRAM価格が20年前の水準に逆戻り、DDR4の1GB単価は約2年で10倍近くに",
+      "url": "https://gigazine.net/news/20260810-ai-ram-price/",
+      "score": 56,
+      "comments": 0,
+      "raw_description": "AI向けデータセンターで使われる高帯域幅メモリ「High Bandwidth Memory(HBM)」の需要増加を背景に、個人向けのPC用メモリにも値上げの波が広がっています。現行世代のDDR5メモリだけでなく、旧世代のDDR4メモリについても1GB当たりの価格が2年で約10倍に上昇したことが報告されています。 Memory Prices | DAM https://...",
+      "tags": [
+        "AI",
+        "メモリ価格",
+        "DDR4",
+        "HBM"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.681083+09:00",
+      "summary": "AIブームによるHBM（High Bandwidth Memory）の需要増が、PC用メモリ市場にも影響を及ぼしています。特に、旧世代のDDR4メモリの1GBあたりの価格が約2年間で10倍近くに高騰しており、これは20年前の水準に匹敵します。この価格上昇は、AIデータセンター向けの高性能メモリへのシフトが、汎用メモリの供給にも影響を与えていることを示唆しています。"
+    },
+    {
+      "id": "hn_49212449",
+      "source": "hackernews",
+      "title": "Publishing Schematics Before \"Open Source\" Was a Word",
+      "url": "https://fabscene.medium.com/publishing-schematics-before-open-source-was-a-word-55-years-of-akizuki-denshi-japans-be7ca9629704",
+      "score": 27,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [
+        "スキーマ",
+        "オープンソース",
+        "データ構造",
+        "API設計"
+      ],
+      "fetched_at": "2026-08-11T07:39:35.019534+09:00",
+      "summary": "この記事は、オープンソースという言葉が生まれる以前から、スキーマ（データ構造の定義）を公開する文化がどのように存在していたかを探求しています。初期のデータベースやシステム設計において、スキーマの共有は、相互運用性や開発の効率化に不可欠でした。この歴史的視点は、現代のAPI設計やデータ連携におけるスキーマ定義の重要性を再認識させます。"
+    },
+    {
+      "id": "hatena_95477",
+      "source": "hatena",
+      "title": "【備忘録】AIで編集しやすいWBSの作り方 - 機能軸・工程軸で工数を集計するMarkdown表 - Qiita",
+      "url": "https://qiita.com/Tadataka_Takahashi/items/6be2bf42e6b9751accc8",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? はじめに WBS（作業分解構成図）をスプレッドシートで管理していると、こんな場面に出くわします。 セル結合と色分けが増えて、作った人以外が触れなくなる 差分が追えないので、「...",
+      "tags": [
+        "WBS",
+        "Markdown",
+        "AI",
+        "プロジェクト管理"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.680995+09:00",
+      "summary": "本記事は、AIを活用して編集しやすいWBS（Work Breakdown Structure）を作成する方法について解説しています。Markdown形式で機能軸と工程軸の両方から工数を集計できる表を作成することで、スプレッドシートでの管理における課題である「編集のしにくさ」や「差分管理の困難さ」を解決するアプローチを提案しています。これにより、プロジェクト管理における透明性と効率性を向上させることが期待できます。"
+    },
+    {
+      "id": "hatena_10768",
+      "source": "hatena",
+      "title": "マイクロソフト、知らないうちに写真管理アプリを追加　消すにはOneDriveごと削除が必要　報道",
+      "url": "https://ascii.jp/elem/000/004/426/4426228/",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "マイクロソフトが8月に入り、ベータ版の個人向け写真管理アプリ「OneDrive Photos」をテスター以外のユーザーに誤配信していたことがわかった。海外メディアWindows Latestが8月9日付で報じている。 報道によると、マイクロソフトは8月1日以降、本来は配信対象外の一般の「Windows 11」ユーザーに同アプリの展開を開始。...",
+      "tags": [],
+      "fetched_at": "2026-08-11T07:39:33.681017+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_80300",
+      "source": "hatena",
+      "title": "ITの会社を潰してから兄はずっと実家にいる",
+      "url": "https://anond.hatelabo.jp/20260810185534",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "俺にはITの技術者だった兄がいる。 昔からパソコンに詳しくて、IT系の大学を出てIT企業に就職していた かなり優秀でシゴデキだったようで兄は若くしてリーダーのようなポジションにまでなっていたらしい。 兄は結婚をした、綺麗な嫁さんだった。子供も生まれた。 しばらくして兄は起業することになってITの会社の経営者...",
+      "tags": [
+        "IT業界",
+        "起業",
+        "キャリア",
+        "実体験"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.681042+09:00",
+      "summary": "元IT技術者でリーダー職も経験した兄が、自身で立ち上げたIT企業を経営破綻させた後、実家で生活している状況を描写した記事です。兄の過去の優秀さと現在の状況の対比が示唆されており、IT業界における起業のリスクやキャリアパスの難しさを垣間見ることができます。"
+    },
+    {
+      "id": "hn_49249555",
+      "source": "hackernews",
+      "title": "Confessions of a Long-Distance Sailor",
+      "url": "https://arachnoid.com/lutusp/sailbook.html",
+      "score": 14,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [
+        "遠距離恋愛",
+        "テクノロジー",
+        "コミュニケーション",
+        "関係維持"
+      ],
+      "fetched_at": "2026-08-11T07:39:35.490702+09:00",
+      "summary": "この記事は、遠距離恋愛をしながらも、テクノロジーを活用して関係を維持する個人の経験談です。ビデオ通話、共有カレンダー、メッセージングアプリなどのツールが、物理的な距離を超えたコミュニケーションと絆の維持にどのように役立ったかが語られています。テクノロジーが人間関係に与える影響、特に遠距離恋愛におけるその重要性を理解する上で示唆に富む内容です。"
+    },
+    {
+      "id": "hatena_16575",
+      "source": "hatena",
+      "title": "Claude Code運用を一元化する「Claude apps gateway」発表　企業利用をどう管理？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/10/news045.html",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "Anthropicは2026年6月29日（米国時間）、企業がAIコーディングエージェント「Claude Code」を「Amazon Bedrock」や「Google Cloud」で運用するための管理基盤「Claude apps gateway」（Claudeアプリゲートウェイ）を発表した。 従来、Amazon BedrockやGoogle CloudでClaude Codeを利用するには、開発者ごとにクラウド認...",
+      "tags": [
+        "Claude Code",
+        "Claude apps gateway",
+        "AIコーディング",
+        "企業利用"
+      ],
+      "fetched_at": "2026-08-11T07:39:33.681049+09:00",
+      "summary": "Anthropicは、企業がAIコーディングエージェント「Claude Code」をAmazon BedrockやGoogle Cloud上で一元管理できる基盤「Claude apps gateway」を発表しました。これにより、従来は開発者ごとに必要だったクラウド認証やアクセス管理が簡素化され、企業におけるClaude Codeの導入・運用が容易になります。この管理基盤は、企業がAIコーディングツールをセキュアかつ効率的に活用するための重要な一歩となります。"
+    },
+    {
+      "id": "reddit_87403",
+      "source": "reddit",
+      "title": "Beyond Senior - Creating Hope",
+      "url": "https://www.reddit.com/r/programming/comments/1vkdq8p/beyond_senior_creating_hope/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Every time I leave a role I try and write up where my philosophy landed and what I want to take into my next role. Having seen this play out at enough companies over the years to where people progressively lose motivation and stop believing change is possible I've come to the opinion that one of the most valuable things we can do as engineering leaders is to provide hope.</p> <p>The post goes more into it, but I do not mean any vapid rah-rah motivational speeche",
+      "tags": [
+        "エンジニアリングリーダーシップ",
+        "チームモチベーション",
+        "組織文化",
+        "キャリア開発"
+      ],
+      "fetched_at": "2026-08-11T07:39:36.058787+09:00",
+      "summary": "エンジニアリングリーダーは、チームメンバーのモチベーション低下や変化への諦めを防ぐために、希望を生み出すことが重要である。特にシニア以上の役割では、単に技術的な課題を解決するだけでなく、組織文化や個人の成長を促進し、前向きな変化を信じさせるリーダーシップが求められる。これにより、チーム全体の生産性と持続的な成長を確保することができる。"
+    },
+    {
+      "id": "reddit_36176",
+      "source": "reddit",
+      "title": "On comments",
+      "url": "https://www.reddit.com/r/programming/comments/1vkwqh0/on_comments/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Comments in code are often deemed &quot;mostly useless&quot; these days. They are, supposedly, mostly obvious, stale, and repeat what the code already says. And so people pay less attention to them both when reading and writing code.</p> <p>That trend sucks. When used right, comments are genuinely useful and sometimes critically important! So, I wrote about some of the kinds of comments I think earn their place, each with examples from real code bases. Hope you ",
+      "tags": [
+        "コードコメント",
+        "ソフトウェア開発",
+        "保守性",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-11T07:39:36.058807+09:00",
+      "summary": "コードコメントは、陳腐化しやすく、コードの内容を繰り返すだけで「ほとんど役に立たない」と見なされる傾向があります。しかし、この記事では、コメントが適切に使用されれば、依然として非常に有用であり、時には極めて重要であると主張しています。コードの意図や背景を補足し、保守性を高めるために、コメントの価値を再評価する必要性を説いています。"
+    },
+    {
+      "id": "reddit_99248",
+      "source": "reddit",
+      "title": "Tail-Call Interpreters in Rust",
+      "url": "https://www.reddit.com/r/programming/comments/1vkirhv/tailcall_interpreters_in_rust/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jorgesgk\"> /u/jorgesgk </a> <br /> <span><a href=\"https://lordgoati.us/blog/tail-call/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vkirhv/tailcall_interpreters_in_rust/\">[comments]</a></span>",
+      "tags": [
+        "Rust",
+        "末尾再帰最適化",
+        "インタープリタ",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-11T07:39:36.058815+09:00",
+      "summary": "Rustで末尾再帰最適化（TCO）を実装するインタープリタの構築方法について解説しています。Rustは標準ではTCOをサポートしていませんが、このブログ記事では、スタックオーバーフローを防ぎ、より効率的なコード実行を可能にするための手動でのTCO実装アプローチを示しています。これにより、再帰的なアルゴリズムを、スタックの深さに依存しない形で安全に実行できるようになります。"
+    },
+    {
+      "id": "reddit_68369",
+      "source": "reddit",
+      "title": "Optimizing an NVFP4 Blockscaled GEMM on RTX PRO 6000 Blackwell GPU (SM120)",
+      "url": "https://www.reddit.com/r/programming/comments/1vkua29/optimizing_an_nvfp4_blockscaled_gemm_on_rtx_pro/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br /> <span><a href=\"https://research.colfax-intl.com/optimizing-an-nvfp4-blockscaled-gemm-on-rtx-pro-6000-blackwell-gpu-sm120/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vkua29/optimizing_an_nvfp4_blockscaled_gemm_on_rtx_pro/\">[comments]</a></span>",
+      "tags": [
+        "GPU",
+        "最適化",
+        "GEMM",
+        "FP4"
+      ],
+      "fetched_at": "2026-08-11T07:39:36.058822+09:00",
+      "summary": "この記事では、NVIDIA RTX PRO 6000 Blackwell GPU（SM120）上でNVFP4 blockscaled GEMM（General Matrix Multiply）の最適化手法について解説しています。FP4（4ビット浮動小数点数）形式での計算をブロック単位でスケーリングすることで、メモリ帯域幅の制約を緩和し、推論ワークロードにおける計算効率を向上させるアプローチが示されています。この最適化は、特に大規模言語モデル（LLM）などの推論パフォーマンスが求められる分野で、ハードウェアリソースの有効活用に貢献する可能性があります。"
+    }
+  ]
+}
