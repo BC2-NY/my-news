@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T07:44:49.208752+09:00",
+  "articles": [
+    {
+      "id": "hn_49257876",
+      "source": "hackernews",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "score": 437,
+      "comments": 177,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "API",
+        "推論トレース",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-08-12T07:44:48.400344+09:00",
+      "summary": "研究者たちは、プロプライエタリな大規模言語モデル（LLM）APIから推論トレースを抽出する新しい手法を開発しました。この手法は、APIへの複数回のクエリと、それらの出力の分析を通じて、モデルがどのように推論を進めているかのステップを再現しようと試みます。この技術は、ブラックボックス化されたLLMの内部動作を理解する上で重要であり、モデルのバイアスや脆弱性の特定、さらにはより効率的なモデル開発に貢献する可能性があります。"
+    },
+    {
+      "id": "hn_49261128",
+      "source": "hackernews",
+      "title": "Mojo 1.0",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "score": 233,
+      "comments": 105,
+      "raw_description": "",
+      "tags": [
+        "Mojo",
+        "Python",
+        "AI/ML",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-08-12T07:44:48.037714+09:00",
+      "summary": "Mojo 1.0がリリースされ、Pythonの使いやすさとC++のパフォーマンスを両立するプログラミング言語としての地位を確立しました。Pythonのスーパーセットとして、既存のPythonコードとの互換性を持ちつつ、メモリ管理や並列処理の最適化により、AI/MLワークロードで要求される高速な実行速度を実現します。このバージョンは、開発者がより効率的に高性能なアプリケーションを構築するための基盤を提供します。"
+    },
+    {
+      "id": "hn_49257160",
+      "source": "hackernews",
+      "title": "OpenAI’s head of ethics leaves less than a year after joining",
+      "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "score": 217,
+      "comments": 291,
+      "raw_description": "",
+      "tags": [
+        "OpenAI",
+        "AI倫理",
+        "組織",
+        "退職"
+      ],
+      "fetched_at": "2026-08-12T07:44:48.947206+09:00",
+      "summary": "OpenAIの倫理部門責任者が、就任から1年足らずで退職しました。この退職は、AIの安全性と倫理的な開発に対する組織内の懸念を示唆する可能性があります。AI技術の急速な進歩に伴い、倫理的なガイドラインの策定と遵守は、社会的な信頼を得る上で極めて重要です。今回の退職は、AI倫理の分野における課題と、その解決に向けた組織的な取り組みの必要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_10722",
+      "source": "hatena",
+      "title": "AIに書かせた文はバレる時代へ。EU AI法にClaudeも対応、編集しても残る見えないテキスト透かしを導入 | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/08/11/5382.html",
+      "score": 210,
+      "comments": 0,
+      "raw_description": "Anthropicが、AIモデル Claudeが生成する文章に電子透かしを導入する計画を明らかにしました。",
+      "tags": [
+        "AI",
+        "電子透かし",
+        "Claude",
+        "EU AI法"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.446493+09:00",
+      "summary": "Anthropicは、AIモデルClaudeが生成するテキストに電子透かしを導入する計画を発表しました。この技術は、AIによって生成されたコンテンツを識別可能にし、EUのAI法などの規制要件への対応を強化するものです。編集されたテキストでも透かしが残るため、AI生成コンテンツの追跡と透明性の向上が期待されます。"
+    },
+    {
+      "id": "hn_49263497",
+      "source": "hackernews",
+      "title": "Compression is prediction",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "score": 163,
+      "comments": 67,
+      "raw_description": "",
+      "tags": [
+        "データ圧縮",
+        "予測モデル",
+        "機械学習",
+        "情報理論"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.856672+09:00",
+      "summary": "圧縮アルゴリズムは、データ内のパターンを予測し、その予測に基づいてデータを表現することで機能します。この予測能力は、データ圧縮だけでなく、機械学習における予測モデルの構築にも応用可能です。データ圧縮の原理を理解することは、効率的なデータ処理やストレージ、さらには高度な予測技術の開発に不可欠です。"
+    },
+    {
+      "id": "hn_49226623",
+      "source": "hackernews",
+      "title": "Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo",
+      "url": "https://photosynthesis.camera",
+      "score": 157,
+      "comments": 164,
+      "raw_description": "",
+      "tags": [
+        "iPhone",
+        "画像合成",
+        "マルチレンズ",
+        "写真技術"
+      ],
+      "fetched_at": "2026-08-12T07:44:48.766962+09:00",
+      "summary": "このiPhoneアプリは、2つのレンズで同時に撮影した画像を合成し、1枚の写真として保存する機能を提供します。これにより、従来の単一レンズでは実現できなかった、より広い視野角や奥行き感のある写真表現が可能になります。技術的には、画像処理アルゴリズムを用いて2つの異なる視点からの情報を統合し、自然で高品質な合成画像を生成する点が特徴です。この技術は、モバイル写真の表現力を高めるだけでなく、将来的なAR/VRアプリケーションへの応用も期待されます。"
+    },
+    {
+      "id": "hn_49263340",
+      "source": "hackernews",
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "score": 136,
+      "comments": 64,
+      "raw_description": "",
+      "tags": [
+        "Nvidia",
+        "LLM",
+        "Nemotron",
+        "NeMo"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.668184+09:00",
+      "summary": "Nvidiaは、大規模言語モデル（LLM）の開発と展開を加速するための新しい基盤モデル「Nemotron 3.5 Lightning」と、そのためのフレームワーク「NeMo Switchyard」を発表しました。Nemotron 3.5 Lightningは、多様なデータセットで事前学習された高性能な基盤モデルであり、様々なタスクへのファインチューニングが可能です。NeMo Switchyardは、モデルのトレーニング、評価、デプロイメントまでを統合的に管理し、開発ライフサイクル全体を効率化します。これにより、企業はより迅速かつ容易に、独自のLLMソリューションを構築できるようになります。"
+    },
+    {
+      "id": "hatena_08339",
+      "source": "hatena",
+      "title": "管理職にならないまま45歳になるとどうなる？　マネジメントを避ける若者が陥る「3つの誤解」 [1/2] | ログミーBusiness",
+      "url": "https://logmi.jp/main/management/333602",
+      "score": 127,
+      "comments": 0,
+      "raw_description": "【3行要約】 ・「若者は管理職になりたがらない」と言われますが、実は20代の約3割が昇進を望んでいるという意外な実態があります。 ・廣田文将氏は、全体の8割が拒否しているという思い込みを捨て、「今の仕事はおもしろいが管理職にはなりたくない」層に注目します。 ・潜在的な意欲を持つ層を動かすため、今の組織が...",
+      "tags": [
+        "キャリア",
+        "マネジメント",
+        "昇進",
+        "組織"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.446459+09:00",
+      "summary": "20代の約3割が昇進を望んでいるという実態に対し、管理職を避けたいと考える若者が陥りがちな「管理職になりたくない」という思い込みを捨て、潜在的な意欲を持つ層に注目する必要がある。現在の仕事は面白いが管理職にはなりたくないという層を動かすためには、組織側の工夫が求められる。"
+    },
+    {
+      "id": "hn_49262811",
+      "source": "hackernews",
+      "title": "Making holograms with a pen plotter",
+      "url": "https://blog.jordan.matelsky.com/Penplotter-holography/",
+      "score": 84,
+      "comments": 10,
+      "raw_description": "",
+      "tags": [
+        "ホログラム",
+        "ペンプロッター",
+        "ペーパークラフト",
+        "DIY"
+      ],
+      "fetched_at": "2026-08-12T07:44:48.582297+09:00",
+      "summary": "ペーパークラフトとレーザーカッターを組み合わせることで、安価なペンプロッターを用いてホログラムを作成する手法が紹介されています。この技術は、回折格子パターンを精密に描画し、それを基に光を操作することで、低コストかつDIYでホログラムを生成する可能性を示しています。これにより、教育や趣味の分野でホログラム技術へのアクセスが向上することが期待されます。"
+    },
+    {
+      "id": "hatena_69096",
+      "source": "hatena",
+      "title": "義母がキッチンにあるWi-Fiルーターを見て「この電磁波って健康に問題ないの？」というので「そこの鍋から放出されてる電磁波はWi-Fiよりずっと強い」と教えたらたまげてた",
+      "url": "https://togetter.com/li/2731705",
+      "score": 68,
+      "comments": 0,
+      "raw_description": "山崎はるか @harusanda 義母が キッチンにあるWi-Fiルーターを指して 「この電磁波って健康に問題ないの？」 （ルーターの場所を変えたい） というので 僕「そこ お鍋が吹いてるじゃないですか」 義母「うん、ガスで お湯を沸かしてる」 僕「そこから いま放出されてる電磁波、Wi-Fiの1000倍ですよ」 って言ったら たま...",
+      "tags": [
+        "電磁波",
+        "Wi-Fi",
+        "ガスコンロ",
+        "情報リテラシー"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.446535+09:00",
+      "summary": "Wi-Fiルーターの電磁波に関する懸念に対し、ガスコンロでお湯を沸かす際の電磁波がWi-Fiの1000倍強いという事実を提示することで、より身近な電磁波源の強さを理解させ、過度な心配を払拭した事例が報告された。このエピソードは、日常生活に存在する様々な電磁波源とその強度について、一般の人が持つ認識とのギャップを示唆している。技術的な観点からは、電磁波の発生源や強度に関する正確な情報提供の重要性が浮き彫りになった。"
+    },
+    {
+      "id": "hatena_93780",
+      "source": "hatena",
+      "title": "無料で読めるITまんが 2026年版 ～マンガでわかるAIの仕組み／DC業務のリアルを知るヤマダくん、ほか",
+      "url": "https://www.publickey1.jp/blog/26/content_4.html",
+      "score": 67,
+      "comments": 0,
+      "raw_description": "ネット上にはたくさんのIT系のコンテンツがあふれています。そのほとんどは文章として書かれていますが、一部にはマンガの形で面白く分かりやすくしたものもあります。 ここでは、マンガ化されたITコンテンツを集めてみました。毎年夏休みの恒例企画、ITまんがの2026年版です。 今年は3本のマンガを新たに追加しました。...",
+      "tags": [
+        "IT教育",
+        "AI",
+        "マンガ",
+        "技術解説"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.446509+09:00",
+      "summary": "2026年版のITまんがが公開され、AIの仕組みやDC業務のリアルなどをマンガ形式で分かりやすく解説しています。文章中心のITコンテンツが多い中、マンガは直感的な理解を助ける貴重なリソースです。今年は新たに3本の作品が追加され、IT技術への理解を深めるための多様なコンテンツが提供されています。"
+    },
+    {
+      "id": "hatena_16670",
+      "source": "hatena",
+      "title": "macOSでメモリを使い続けるCursorUIViewServiceを無効化する",
+      "url": "https://zenn.dev/discus0434/articles/disable-cursoruiviewservice-macos",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "はじめに こんにちは。 ここ最近、Macのメモリが妙に圧迫されているときにActivity Monitorを開くと、CursorUIViewServiceというプロセスが大量のRAMを使っていることが何度かありました。 私の環境では、気づいたときにはメモリ使用量が約15GBまで増えていました。プロセスを強制終了すればRAMは解放されますが、しばら...",
+      "tags": [],
+      "fetched_at": "2026-08-12T07:44:47.446516+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_42186",
+      "source": "hatena",
+      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
+      "url": "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "導入 こんにちは、株式会社ナレッジセンスの須藤英寿です。 今回は、コード探索にBM25を組み込むことで、回答品質とトークン消費がどのように変わるのかを、自社のコードベースで検証しました。 きっかけは、2026年7月に公開された論文「BM25 Wins at Scale」[1]です。 サマリー 最近のコーディングエージェント、トーク...",
+      "tags": [],
+      "fetched_at": "2026-08-12T07:44:47.446502+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49265051",
+      "source": "hackernews",
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "score": 15,
+      "comments": 3,
+      "raw_description": "",
+      "tags": [
+        "3Dオープンワールド生成",
+        "エージェントベース",
+        "AI",
+        "仮想環境"
+      ],
+      "fetched_at": "2026-08-12T07:44:48.215664+09:00",
+      "summary": "WorldClawは、大規模な3Dオープンワールド生成を可能にするエージェントベースのシステムです。この技術は、複数のエージェントが協調して広大な仮想環境を生成・進化させることで、従来の生成手法では困難だった複雑でダイナミックな世界の構築を実現します。これにより、ゲーム開発やシミュレーション分野におけるリアルで没入感のある体験の創出が期待されます。"
+    },
+    {
+      "id": "hatena_42751",
+      "source": "hatena",
+      "title": "新幹線「独りぼっち席」が話題――「2000円追加で“隣が空席”」との声、なぜ導入？",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2608/11/news018.html",
+      "score": 14,
+      "comments": 0,
+      "raw_description": "SNSを中心に、新幹線で追加料金を支払うだけで“隣が空席の状態で、自分だけの特別なスペースを確保できる座席”が話題を呼んでいる。 SNS上ではこの座席が「課金するだけで独りぼっちの席を確保できる神サービス」や「人権が確保されるシート」などと呼ばれ、長時間の移動を快適に過ごしたい一人旅の旅行者や出張中のビジ...",
+      "tags": [
+        "新幹線",
+        "サービス",
+        "快適性",
+        "プライベート空間"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.446523+09:00",
+      "summary": "JR東日本が提供する「隣席不要」サービスは、追加料金を支払うことで隣席を空席にし、プライベート空間を確保できるオプションです。このサービスは、特に一人旅や出張で長時間の移動を快適にしたい利用者に好評を得ています。個人の快適性を重視するニーズに応えることで、移動体験の質を向上させる試みと言えます。"
+    },
+    {
+      "id": "hatena_14244",
+      "source": "hatena",
+      "title": "AIでPMO業務を再設計してみよう - LayerX エンジニアブログ",
+      "url": "https://tech.layerx.co.jp/entry/ai-pmo-redesign",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "こんにちは、LayerXのAi Workforce事業部でPMOをしているkurosawaです！ この記事ではPMO業務にAIを取り入れる際にどの業務から始めるとよいのか、逆にどこを後回しにすべきなのか、そしてLayerXで実際にどのような取り組みをしているのかを紹介します。 Ai Workforceは、企業内のデータや文書を活用し、AIエージェント...",
+      "tags": [
+        "PMO",
+        "AI導入",
+        "業務効率化",
+        "LayerX"
+      ],
+      "fetched_at": "2026-08-12T07:44:47.446529+09:00",
+      "summary": "LayerXのエンジニアが、PMO業務へのAI導入について解説する記事です。AI導入の優先順位付けや、LayerXでの具体的な取り組み事例を紹介しており、特にデータや文書を活用するAIエージェントの活用に焦点を当てています。これにより、PMO業務の効率化と高度化を目指すアプローチが示されています。"
+    },
+    {
+      "id": "reddit_14869",
+      "source": "reddit",
+      "title": "Moving integer division to floating-point is trivial",
+      "url": "https://www.reddit.com/r/programming/comments/1vl8ulp/moving_integer_division_to_floatingpoint_is/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br /> <span><a href=\"https://marc-b-reynolds.github.io/math/2026/08/10/IntDivByFP.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vl8ulp/moving_integer_division_to_floatingpoint_is/\">[comments]</a></span>",
+      "tags": [
+        "整数除算",
+        "浮動小数点",
+        "精度",
+        "計算手法"
+      ],
+      "fetched_at": "2026-08-12T07:44:49.208691+09:00",
+      "summary": "この記事では、整数除算を浮動小数点除算に変換する手法について解説しています。具体的には、整数除算の計算結果を浮動小数点数として扱うことで、丸め誤差の影響を低減し、より精度の高い計算が可能になることを示しています。この手法は、特に科学技術計算やグラフィックス処理など、高い精度が求められる分野での応用が期待されます。"
+    },
+    {
+      "id": "reddit_97732",
+      "source": "reddit",
+      "title": "Squeak 6.1 (a modern Smalltalk programming environment implemented in itself) was released!",
+      "url": "https://www.reddit.com/r/programming/comments/1vlqtmx/squeak_61_a_modern_smalltalk_programming/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><blockquote> <p>After more than 4 years of work, our community has put together a big bouquet of new capabilities and improvements:</p> <ul> <li>A new tree browser for navigating and organizing classes</li> <li>Objectland, bringing back and extending the colorful world of examples from Squeak 3</li> <li>Plenty of new features, bugfixes, and speed-ups for programming tools, the Morphic UI framework, and the rest of the system</li> </ul> </blockquote> <p>Original ann",
+      "tags": [
+        "Smalltalk",
+        "Squeak",
+        "プログラミング言語",
+        "IDE"
+      ],
+      "fetched_at": "2026-08-12T07:44:49.208712+09:00",
+      "summary": "Squeak 6.1がリリースされ、4年以上の開発を経て、クラスナビゲーションと整理のための新しいツリーブラウザ、Squeak 3のカラフルなサンプルワールドを拡張したObjectland、そして多数の新機能、バグ修正、高速化が導入されました。このバージョンは、自己ホスト型のSmalltalk環境の継続的な進化を示しており、開発者にとってより強力で使いやすいツールを提供します。"
+    },
+    {
+      "id": "reddit_44770",
+      "source": "reddit",
+      "title": "Change Your Root: Chroot Basics",
+      "url": "https://www.reddit.com/r/programming/comments/1vllv5l/change_your_root_chroot_basics/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iximiuz\"> /u/iximiuz </a> <br /> <span><a href=\"https://labs.iximiuz.com/tutorials/change-your-root-chroot-basics-1cef74c2\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vllv5l/change_your_root_chroot_basics/\">[comments]</a></span>",
+      "tags": [
+        "Linux",
+        "chroot",
+        "システム管理",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-08-12T07:44:49.208720+09:00",
+      "summary": "この記事は、Linuxのchrootコマンドの基本的な使い方とその仕組みについて解説しています。chrootは、プロセスとその子プロセスが、指定されたルートディレクトリ以外のファイルシステムにアクセスできないように制限する機能です。これにより、特定の環境を隔離したり、セキュリティを強化したりすることが可能になります。開発者やシステム管理者は、chrootを理解することで、より安全で管理しやすいシステムを構築するための基礎知識を得られます。"
+    },
+    {
+      "id": "reddit_67141",
+      "source": "reddit",
+      "title": "The dangers of Postgres subtransactions",
+      "url": "https://www.reddit.com/r/programming/comments/1vlm2vs/the_dangers_of_postgres_subtransactions/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Really good article explaining the implementation detail within Postgres regarding subtransactions. Very cool benchmark that I was unaware of</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wooden-News-962\"> /u/Wooden-News-962 </a> <br /> <span><a href=\"https://planetscale.com/blog/the-dangers-of-postgres-subtransactions\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vlm2vs/the_danger",
+      "tags": [
+        "PostgreSQL",
+        "トランザクション",
+        "パフォーマンス",
+        "データベース"
+      ],
+      "fetched_at": "2026-08-12T07:44:49.208727+09:00",
+      "summary": "PostgreSQLのサブトランザクションの実装詳細に関する記事は、そのパフォーマンスへの影響を解説しています。特に、サブトランザクションがネストされる場合に発生するオーバーヘッドや、これがトランザクション全体のパフォーマンスにどのように影響するかをベンチマーク結果と共に示しています。この情報は、データベースのパフォーマンスチューニングや、トランザクション設計を行う開発者にとって、サブトランザクションの使用を避けるべき状況を理解する上で重要です。"
+    }
+  ]
+}
