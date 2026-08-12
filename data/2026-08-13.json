@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T07:42:35.261437+09:00",
+  "articles": [
+    {
+      "id": "hn_49272832",
+      "source": "hackernews",
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "score": 700,
+      "comments": 112,
+      "raw_description": "",
+      "tags": [
+        "Tailscale",
+        "SQLite",
+        "WAL",
+        "データベース破損"
+      ],
+      "fetched_at": "2026-08-13T07:42:34.171886+09:00",
+      "summary": "Tailscaleは、16年前に発見されたSQLiteのWAL（Write-Ahead Logging）リセット機能における未解決のバグが原因で、データベースの破損が発生したことを特定しました。このバグは、特定の条件下でWALファイルが破損し、データベース全体が読み取り不能になる可能性があります。Tailscaleは、このバグの影響を軽減するための回避策を実装しましたが、根本的な解決にはSQLiteの将来的な修正が必要となります。"
+    },
+    {
+      "id": "hn_49274600",
+      "source": "hackernews",
+      "title": "DeepSeek V4 Pro 0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "score": 646,
+      "comments": 230,
+      "raw_description": "",
+      "tags": [
+        "DeepSeek",
+        "LLM",
+        "AI",
+        "大規模言語モデル"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.837125+09:00",
+      "summary": "DeepSeek V4 Pro 0813は、大規模言語モデル（LLM）の最新バージョンです。このモデルは、より大規模なコンテキストウィンドウと高度な推論能力を備えていると推測されます。これにより、複雑なタスクの処理能力が向上し、より精度の高い応答が期待できます。AI研究開発において、LLMの性能向上は、自然言語処理の応用範囲を広げる上で重要な進展です。"
+    },
+    {
+      "id": "hn_49270953",
+      "source": "hackernews",
+      "title": "2026 Eclipse Webcams",
+      "url": "https://jonty.github.io/2026_eclipse_webcams/",
+      "score": 449,
+      "comments": 122,
+      "raw_description": "",
+      "tags": [
+        "皆既日食",
+        "ウェブカメラ",
+        "太陽活動",
+        "画像処理"
+      ],
+      "fetched_at": "2026-08-13T07:42:34.658405+09:00",
+      "summary": "2026年の皆既日食を捉えるためのウェブカメラプロジェクトが発表されました。このプロジェクトでは、複数の高解像度カメラと高度な画像処理技術を用いて、日食のダイナミックな現象を詳細に記録することを目指しています。これにより、太陽コロナの構造や変化に関する貴重な科学的データが得られ、太陽活動の理解を深めることに貢献します。特に、これまで観測が難しかった日食中の微細な構造の解析が期待されます。"
+    },
+    {
+      "id": "hn_49273478",
+      "source": "hackernews",
+      "title": "Qwen3.8-2.4T",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "score": 428,
+      "comments": 92,
+      "raw_description": "",
+      "tags": [
+        "大規模言語モデル",
+        "LLM",
+        "Alibaba Cloud",
+        "Qwen"
+      ],
+      "fetched_at": "2026-08-13T07:42:34.331005+09:00",
+      "summary": "Alibaba Cloudが、大規模言語モデル（LLM）であるQwenシリーズの最新版「Qwen3.8-2.4T」を発表しました。このモデルは、2.4兆パラメータという膨大な規模を持ち、多様なタスクにおける性能向上が期待されます。特に、複雑な推論や長文の理解能力が向上しており、研究開発やビジネス応用におけるLLMの活用範囲をさらに広げる可能性があります。"
+    },
+    {
+      "id": "hn_49276574",
+      "source": "hackernews",
+      "title": "Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "score": 297,
+      "comments": 95,
+      "raw_description": "",
+      "tags": [
+        "Delta Lake",
+        "データウェアハウス",
+        "オープンソース",
+        "データレイク"
+      ],
+      "fetched_at": "2026-08-13T07:42:34.007707+09:00",
+      "summary": "Deltaは、データウェアハウス向けのオープンソースのストレージレイヤーです。ACIDトランザクション、スキーマ強制、タイムトラベルなどの機能を提供し、データレイクの信頼性とパフォーマンスを向上させます。これにより、データエンジニアは、より堅牢で管理しやすいデータ基盤を構築できます。"
+    },
+    {
+      "id": "hatena_82553",
+      "source": "hatena",
+      "title": "やる夫で学ぶディジタル信号処理 (PDF版) 暫定配布所 - swk's log はてな別館",
+      "url": "https://swkagami.hatenablog.com/entry/yaruodsp_00pdf",
+      "score": 223,
+      "comments": 0,
+      "raw_description": "「やる夫で学ぶディジタル信号処理」という講義資料を異動前の研究室のサイトにを置きっぱなしにさせて頂いているのですが，諸事情でアクセス不可の状態が続いています．取り急ぎPDF版だけこちらからアクセス可能にしておきます．",
+      "tags": [
+        "ディジタル信号処理",
+        "講義資料",
+        "PDF",
+        "教育"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.650942+09:00",
+      "summary": "「やる夫で学ぶディジタル信号処理」の講義資料が、諸事情によりアクセス不可となっていた問題に対し、暫定的にPDF版が配布されています。この資料は、ディジタル信号処理の基礎を学ぶ上で、分かりやすい解説を提供することを目指しています。技術的な概念を平易な言葉で説明しており、初学者にとって理解を深めるための有用なリソースとなります。"
+    },
+    {
+      "id": "hn_49272655",
+      "source": "hackernews",
+      "title": "Tim King, AmigaDOS developer, has died",
+      "url": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "score": 210,
+      "comments": 27,
+      "raw_description": "",
+      "tags": [
+        "AmigaDOS",
+        "Tim King",
+        "AmigaOS",
+        "パーソナルコンピューティング"
+      ],
+      "fetched_at": "2026-08-13T07:42:34.830892+09:00",
+      "summary": "AmigaDOSの開発者であるTim King氏が死去しました。King氏はAmigaOSのディスクオペレーティングシステムであるAmigaDOSの開発に貢献し、Amigaプラットフォームの初期の成功に不可欠な役割を果たしました。彼の功績は、パーソナルコンピューティングの歴史において重要な一章を刻んでいます。"
+    },
+    {
+      "id": "hn_49272569",
+      "source": "hackernews",
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "url": "https://knownagents.com/insights",
+      "score": 209,
+      "comments": 130,
+      "raw_description": "",
+      "tags": [
+        "サイバーセキュリティ",
+        "脆弱性スキャン",
+        "AIボット偽装",
+        "脅威インテリジェンス"
+      ],
+      "fetched_at": "2026-08-13T07:42:35.000224+09:00",
+      "summary": "悪意のあるアクターが、ClaudeBotなどのAIボットになりすまして大規模な脆弱性スキャンを実行していることが確認されました。この手口は、セキュリティ監視システムによる検出を回避し、潜在的な侵入経路を特定することを目的としていると考えられます。AIボットの偽装は、従来のボット検出手法の有効性を低下させる可能性があり、組織はAIトラフィックの異常を検知する高度なセキュリティ対策を講じる必要があります。"
+    },
+    {
+      "id": "hatena_70086",
+      "source": "hatena",
+      "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
+      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
+      "score": 99,
+      "comments": 0,
+      "raw_description": "2026年8月、Anthropic が「Claude の生成テキストに機械可読なマーク（電子透かし）を埋め込む」と発表しました[1]。EU AI Act 第50条の透明性規範（Code of Practice on Transparency of AI-Generated Content）に署名したことに伴うもので、2026年8月2日以降にリリースされるモデルは、EU 圏内に限らず世界中でテキス...",
+      "tags": [
+        "AI",
+        "電子透かし",
+        "LLM",
+        "透明性"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.650950+09:00",
+      "summary": "Anthropicは、EU AI Actの透明性規範に署名したことを受け、Claudeの生成テキストに機械可読な電子透かしを埋め込むことを発表しました。この技術は、AI生成コンテンツの識別を可能にし、透明性を高めることを目的としています。2026年8月2日以降にリリースされるモデルから適用され、EU域内だけでなく世界中のユーザーが利用するテキストに適用される見込みです。これにより、AI生成コンテンツの普及に伴う偽情報対策や責任追跡の基盤が強化されることが期待されます。"
+    },
+    {
+      "id": "hatena_06027",
+      "source": "hatena",
+      "title": "Microphone Test",
+      "url": "https://vaaaaanquish.github.io/MicrophoneTest/",
+      "score": 98,
+      "comments": 0,
+      "raw_description": "Free online microphone test. Record a few seconds of speech and get a literature-based quality score: noise (SNR), reverb, level, clipping, bandwidth, dropouts, mains hum and more. Runs entirely in your browser — マイクの音質をブラウザでチェック。",
+      "tags": [
+        "マイクテスト",
+        "オーディオ品質",
+        "ブラウザツール",
+        "音響測定"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.650979+09:00",
+      "summary": "この無料のオンラインマイクテストツールは、ブラウザ上で動作し、録音された音声からノイズ（SNR）、リバーブ、レベル、クリッピング、帯域幅、ドロップアウト、ハムノイズなどの音質指標を評価します。技術者は、外部ソフトウェアのインストールなしに、マイクのパフォーマンスを迅速かつ詳細に把握できるため、オーディオ設定のトラブルシューティングや品質確認に役立ちます。"
+    },
+    {
+      "id": "hatena_45799",
+      "source": "hatena",
+      "title": "ドローンのカメラが中国のIPアドレスに信号を送信していることが判明、イギリス海軍がカメラのインターネット接続機能を無効化しなければいけない事態に",
+      "url": "https://gigazine.net/news/20260812-spy-cameras-navy-drones-secretly-sent-data-china/",
+      "score": 72,
+      "comments": 0,
+      "raw_description": "イギリス海軍の管理下にある海兵隊が使用する無人偵察艇の「K3スカウト」に搭載されていたスパイカメラが、中国に信号を送信していることが明らかになりました。これを受け、イギリス海軍はカメラのインターネット接続機能を無効化しています。 Spy cameras on Navy drones secretly sent data to China https://www.tel...",
+      "tags": [
+        "ドローン",
+        "セキュリティ",
+        "イギリス海軍",
+        "データ送信"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.650961+09:00",
+      "summary": "イギリス海軍が運用する無人偵察艇「K3スカウト」に搭載されたカメラが、中国のIPアドレスにデータを送信していたことが判明しました。このセキュリティ上の懸念から、イギリス海軍は当該カメラのインターネット接続機能を無効化する措置を取りました。この事案は、軍事用ドローンにおけるデータ送信先の管理とセキュリティ対策の重要性を示唆しています。"
+    },
+    {
+      "id": "hatena_84543",
+      "source": "hatena",
+      "title": "オントロジーと知識グラフ入門：URI から RDF、RDFS、OWL、推論、SPARQL まで整理して学ぶ - Qiita",
+      "url": "https://qiita.com/haystacker/items/376d86bcbeefc3885183",
+      "score": 57,
+      "comments": 0,
+      "raw_description": "これを下から順番に理解していくと、「今どの話をしているのか」「何がどの上に乗っているのか」が見えやすくなります。 この記事で扱う題材 扱う概念は次の 5 つです。 Animal（動物） Mammal（哺乳類） Cat（猫） Dog（犬） hasLegCount（足の本数） そして、基本となる知識は次の通りです。 Cat は Mammal である Dog...",
+      "tags": [],
+      "fetched_at": "2026-08-13T07:42:33.650919+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_04465",
+      "source": "hatena",
+      "title": "同僚女性教諭の水着画像をAIで生成　男性教諭を懲戒　神奈川県教委：朝日新聞",
+      "url": "https://www.asahi.com/articles/ASV8D2SY0V8DULOB00HM.html",
+      "score": 34,
+      "comments": 0,
+      "raw_description": "神奈川県教育委員会は12日、生徒に性行為の動画を見せたり、生成AI（人工知能）で同僚の女性教諭の水着姿の画像を作ったりしたなどとして、県立高校の男性教諭4人を懲戒処分にし、発表した。　県教委によると…",
+      "tags": [],
+      "fetched_at": "2026-08-13T07:42:33.650956+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49279013",
+      "source": "hackernews",
+      "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
+      "url": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/",
+      "score": 28,
+      "comments": 25,
+      "raw_description": "",
+      "tags": [
+        "缶詰サバ",
+        "SNS",
+        "食品トレンド",
+        "品薄"
+      ],
+      "fetched_at": "2026-08-13T07:42:34.495225+09:00",
+      "summary": "ソーシャルメディアでのバズをきっかけに、缶詰サバがスーパーマーケットの棚から姿を消す事態が発生しています。特に若年層の間で、手軽で栄養価の高い食品としてサバ缶が再評価されたことが背景にあります。このトレンドは、食品業界におけるSNSの影響力の大きさと、消費者の嗜好の変化を示唆しています。品薄状態は、供給側の対応が追いつかない状況を生み出しています。"
+    },
+    {
+      "id": "hatena_02856",
+      "source": "hatena",
+      "title": "TopcoatでRustフルスタック開発 - じゃあ、おうちで学べる",
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/08/12/163644",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "はじめに Topcoatは、HTMLをサーバーで生成しながら、ブラウザ上の状態更新やサーバー処理もRustで記述するフルスタックフレームワークです。フロントエンド用のディレクトリやnpmを用意せず、1つのRustファイルから動きます。2026年7月に発表された0.5.0を検証しました。 サーバーサイドレンダリング、部分的な反応、セ...",
+      "tags": [
+        "Rust",
+        "Webフレームワーク",
+        "サーバーサイドレンダリング",
+        "フルスタック開発"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.650974+09:00",
+      "summary": "Topcoatは、サーバーサイドレンダリングとクライアントサイドのRustコード実行を組み合わせたフルスタックフレームワークです。フロントエンドのビルド環境を必要とせず、単一のRustファイルから開発を開始できる点が特徴です。0.5.0バージョンでは、サーバーサイドレンダリング、部分的なリアクティビティ、サーバー処理といった機能が提供されており、Rustエコシステム内でWebアプリケーションを効率的に開発する手段を提供します。"
+    },
+    {
+      "id": "hatena_46384",
+      "source": "hatena",
+      "title": "https://www.mhlw.go.jp/content/12602000/001715120.pdf",
+      "url": "https://www.mhlw.go.jp/content/12602000/001715120.pdf",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "オンライン診療",
+        "医療DX",
+        "厚生労働省",
+        "健康相談"
+      ],
+      "fetched_at": "2026-08-13T07:42:33.650968+09:00",
+      "summary": "厚生労働省は、令和4年度の「情報通信機器を用いた医療に関する調査」の結果を公表しました。この調査では、オンライン診療の実施状況や、情報通信機器を用いた健康相談の実施状況などがまとめられています。特に、オンライン診療はコロナ禍を経て普及が進んでおり、その利用実態や課題を把握することは、今後の医療提供体制のあり方を検討する上で重要です。"
+    },
+    {
+      "id": "reddit_85828",
+      "source": "reddit",
+      "title": "Hardware researcher spins up 'CPU deoptimization' project to find the slowest single x86 instruction, creates hall of shame — worst offender takes 198 billion cycles spanning 62 seconds to execute",
+      "url": "https://www.reddit.com/r/programming/comments/1vmhj23/hardware_researcher_spins_up_cpu_deoptimization/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/masiroo\"> /u/masiroo </a> <br /> <span><a href=\"https://www.tomshardware.com/pc-components/cpus/hardware-researcher-spins-up-cpu-deoptimization-project-to-find-the-slowest-machine-code-worst-offender-takes-198-billion-cycles-to-execute\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vmhj23/hardware_researcher_spins_up_cpu_deoptimization/\">[comments]</a></span>",
+      "tags": [
+        "CPU",
+        "x86",
+        "パフォーマンス",
+        "研究"
+      ],
+      "fetched_at": "2026-08-13T07:42:35.261343+09:00",
+      "summary": "あるハードウェア研究者が、x86命令セットの中で最も実行に時間のかかる単一命令を特定するプロジェクトを開始しました。このプロジェクトでは、意図的にCPUのパフォーマンスを低下させる「CPU非最適化」手法を用いて、各命令の実行サイクル数を計測しています。その結果、特定の命令が1980億サイクル、約62秒を要することが判明し、その「ワーストオフエンダー」として記録されました。この研究は、CPUの内部動作や命令セットの特性を深く理解する上で貴重な知見を提供します。"
+    },
+    {
+      "id": "reddit_91671",
+      "source": "reddit",
+      "title": "The fastest double-to-string algorithm you’ve never heard of",
+      "url": "https://www.reddit.com/r/programming/comments/1vm65dm/the_fastest_doubletostring_algorithm_youve_never/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br /> <span><a href=\"https://vitaut.net/posts/2026/yy-dtoa/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vm65dm/the_fastest_doubletostring_algorithm_youve_never/\">[comments]</a></span>",
+      "tags": [
+        "double-to-string",
+        "algorithm",
+        "performance",
+        "optimization"
+      ],
+      "fetched_at": "2026-08-13T07:42:35.261363+09:00",
+      "summary": "この記事では、浮動小数点数（double型）を文字列に変換する、これまで知られていなかった高速なアルゴリズムを紹介しています。このアルゴリズムは、従来の一般的な手法と比較して、特にパフォーマンスが要求される場面で顕著な速度向上をもたらす可能性があります。CPUキャッシュの効率的な利用や、不要な計算の削減といった最適化により、実用的なアプリケーションにおけるデバッグやログ出力などのオーバーヘッドを大幅に削減することが期待されます。"
+    },
+    {
+      "id": "reddit_82717",
+      "source": "reddit",
+      "title": "Linus Torvalds Explains What Makes Linux So Fast",
+      "url": "https://www.reddit.com/r/programming/comments/1vmoddq/linus_torvalds_explains_what_makes_linux_so_fast/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Rechenplaner\"> /u/Rechenplaner </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=RQ1IfKUD1nw\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vmoddq/linus_torvalds_explains_what_makes_linux_so_fast/\">[comments]</a></span>",
+      "tags": [
+        "Linux",
+        "カーネル",
+        "パフォーマンス",
+        "CPUスケジューリング"
+      ],
+      "fetched_at": "2026-08-13T07:42:35.261370+09:00",
+      "summary": "Linus Torvaldsは、Linuxカーネルのパフォーマンスの秘訣は、CPUスケジューリングの効率性にあると説明しています。特に、タスクの切り替えコストを最小限に抑え、CPUリソースを最大限に活用する設計思想が重要です。これにより、Linuxは多様なワークロードにおいて高い応答性とスループットを実現し、サーバーから組み込みシステムまで幅広く利用される基盤となっています。"
+    },
+    {
+      "id": "reddit_15669",
+      "source": "reddit",
+      "title": "How Tailscale helped discover a 16+ year old SQLite WAL-Reset bug",
+      "url": "https://www.reddit.com/r/programming/comments/1vmglvj/how_tailscale_helped_discover_a_16_year_old/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/callcifer\"> /u/callcifer </a> <br /> <span><a href=\"https://tailscale.com/blog/sqlite-wal-reset-bug\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vmglvj/how_tailscale_helped_discover_a_16_year_old/\">[comments]</a></span>",
+      "tags": [
+        "SQLite",
+        "WAL-Reset",
+        "バグ発見",
+        "Tailscale"
+      ],
+      "fetched_at": "2026-08-13T07:42:35.261375+09:00",
+      "summary": "Tailscaleは、16年以上前のSQLiteに存在するWAL-Resetバグを発見するのに貢献しました。このバグは、WALモードでデータベースファイルが破損する可能性があり、特に長期間稼働するシステムやデータ整合性が重要なアプリケーションにおいて、潜在的なデータ損失リスクとなります。Tailscaleのネットワーク環境下で予期せぬ挙動が観測されたことが、この長年見過ごされてきた問題の特定につながりました。この発見は、データベースの信頼性向上と、より堅牢なデータ管理の実践に寄与するものです。"
+    }
+  ]
+}
