@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T07:44:25.468176+09:00",
+  "articles": [
+    {
+      "id": "hn_49289112",
+      "source": "hackernews",
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "score": 516,
+      "comments": 308,
+      "raw_description": "",
+      "tags": [
+        "Gemini",
+        "Google",
+        "大規模言語モデル",
+        "AI"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.733827+09:00",
+      "summary": "Googleは、大規模言語モデル「Gemini」ファミリーの最新版として「Gemini 3.7 Flash」を発表しました。このモデルは、高速な推論能力と効率性を重視して設計されており、リアルタイムでの応答が求められるアプリケーションや、リソースが限られた環境での利用に適しています。Gemini 3.7 Flashは、従来のモデルと比較して、応答速度とコスト効率の向上を実現し、開発者がより幅広いユースケースでAIを活用するための選択肢を広げます。"
+    },
+    {
+      "id": "hn_49286341",
+      "source": "hackernews",
+      "title": "Spaghettifying DRAM",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "score": 454,
+      "comments": 132,
+      "raw_description": "",
+      "tags": [
+        "DRAM",
+        "半導体",
+        "チップ設計",
+        "配線"
+      ],
+      "fetched_at": "2026-08-14T07:44:24.992016+09:00",
+      "summary": "DRAMの「スパゲッティ化」とは、メモリセル間の配線が複雑に絡み合い、信号遅延や消費電力の増大を引き起こす現象を指します。この問題は、微細化が進むにつれて深刻化しており、チップ設計における重要な課題となっています。配線最適化技術や新しいメモリ構造の開発が、このスパゲッティ化を克服し、高性能かつ低消費電力なDRAMを実現するために不可欠です。"
+    },
+    {
+      "id": "hn_49289844",
+      "source": "hackernews",
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "score": 340,
+      "comments": 134,
+      "raw_description": "",
+      "tags": [
+        "GPT-5.6",
+        "高速化",
+        "推論速度",
+        "AI"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.961015+09:00",
+      "summary": "GPT-5.6 Solの高速化に関する技術的な進展が報告されています。この進展は、モデルの推論速度を大幅に向上させることを目的としており、より迅速な応答と効率的な運用を可能にします。これにより、リアルタイム性が求められるアプリケーションや大規模なデプロイメントにおけるGPTモデルの利用が現実的になり、AIの応用範囲を広げることが期待されます。"
+    },
+    {
+      "id": "hn_49288889",
+      "source": "hackernews",
+      "title": "Mistral OCR 4.1",
+      "url": "https://docs.mistral.ai/models/ocr-4-1",
+      "score": 217,
+      "comments": 85,
+      "raw_description": "",
+      "tags": [
+        "OCR",
+        "Mistral AI",
+        "画像認識",
+        "AIモデル"
+      ],
+      "fetched_at": "2026-08-14T07:44:24.788752+09:00",
+      "summary": "Mistral OCR 4.1は、最新のOCR（光学文字認識）モデルであり、特に低解像度やノイズの多い画像における文字認識精度を大幅に向上させています。このモデルは、より堅牢な文字検出とテキスト抽出を可能にし、ドキュメント分析や画像からの情報抽出タスクの信頼性を高めます。これにより、多様な実世界のシナリオでのOCR適用範囲が拡大され、データ活用の効率化に貢献します。"
+    },
+    {
+      "id": "hatena_58755",
+      "source": "hatena",
+      "title": "Webサービスの終わらせ方",
+      "url": "https://zenn.dev/kibe/articles/df74c2e9fe76b6",
+      "score": 160,
+      "comments": 0,
+      "raw_description": "作るより消すほうが大変 Webサービスは、作るときより終わらせるときのほうが面倒です。 少なくとも私はそうでした。 作り始めたころは、 「Cloudflare Workers便利！」 「Supabase最高！」 「決済もSaaSでいける！」 「AIも載せちゃおう！」 「監視も入れとくか！」 と、現代Web開発の恩恵を浴びながら、楽しそうに外部...",
+      "tags": [
+        "Webサービス",
+        "サービス終了",
+        "開発プロセス",
+        "システム運用"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.467529+09:00",
+      "summary": "Webサービスの終了プロセスは、開発プロセスよりも複雑で手間がかかることが多く、特に外部サービス連携が多い現代的な開発では、その影響が顕著です。サービス終了時には、単にサーバーを停止するだけでなく、ユーザーデータ、決済情報、利用していた各種APIやデータベースのクリーンアップ、そして場合によっては法的・倫理的な配慮も必要となります。これらの後始末を考慮した上で、サービス設計段階から終了時のシナリオを想定しておくことが、開発者にとっての負担軽減につながります。"
+    },
+    {
+      "id": "hn_49289465",
+      "source": "hackernews",
+      "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+      "url": "https://donkeybas.com/",
+      "score": 157,
+      "comments": 64,
+      "raw_description": "",
+      "tags": [
+        "Microsoft BASIC",
+        "Donkey.bas",
+        "IBM PC",
+        "プログラミング教育"
+      ],
+      "fetched_at": "2026-08-14T07:44:24.584188+09:00",
+      "summary": "Microsoft BASICの初期のインタプリタであるDonkey.basが45周年を迎えました。この131行のプログラムは、初期のPC、特にIBM PCの普及に貢献し、BASICプログラミングの入門として多くのユーザーに親しまれました。そのシンプルさと教育的な価値は、現代のプログラミング教育においても示唆に富むものです。"
+    },
+    {
+      "id": "hn_49290299",
+      "source": "hackernews",
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "score": 115,
+      "comments": 66,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "モデル理解",
+        "ボトルネック",
+        "説明可能性"
+      ],
+      "fetched_at": "2026-08-14T07:44:24.370077+09:00",
+      "summary": "AIモデルの性能向上において、単なる計算能力の増強ではなく、モデルが学習した知識を人間が理解できる形に変換する「理解」が新たなボトルネックとなっている。これは、モデルのブラックボックス性を解消し、その意思決定プロセスを解明する必要性を示唆している。この課題を克服することで、AIの信頼性、デバッグ能力、そして応用範囲の拡大が期待される。"
+    },
+    {
+      "id": "hn_49291268",
+      "source": "hackernews",
+      "title": "NP-Overrated",
+      "url": "https://gruhn.me/blog/2026-08-13/",
+      "score": 85,
+      "comments": 35,
+      "raw_description": "",
+      "tags": [
+        "計算複雑性理論",
+        "NPクラス",
+        "アルゴリズム",
+        "理論"
+      ],
+      "fetched_at": "2026-08-14T07:44:24.164823+09:00",
+      "summary": "NP-Overratedは、計算複雑性理論におけるNPクラスの難しさに対する新たな視点を提供する研究です。従来のNP完全問題の定義では、解の検証が容易であることと、解を見つけることの難しさが同等に扱われてきました。しかし、この研究では、解の検証の容易さ（NP）と、解を見つけることの難しさ（NP-hard）の間に、より細かな階層が存在する可能性を示唆しています。この概念は、アルゴリズム設計や暗号理論など、計算の効率性が重要な分野に新たな理論的基盤を提供する可能性があります。"
+    },
+    {
+      "id": "hn_49290969",
+      "source": "hackernews",
+      "title": "How Gödel's Proof Works (2020)",
+      "url": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
+      "score": 49,
+      "comments": 29,
+      "raw_description": "",
+      "tags": [
+        "ゲーデルの不完全性定理",
+        "数学基礎論",
+        "計算可能性理論",
+        "論理学"
+      ],
+      "fetched_at": "2026-08-14T07:44:25.198746+09:00",
+      "summary": "ゲーデルの不完全性定理は、形式的な数学システムには、そのシステム内で証明も反証もできない命題が存在することを示しました。これは、数学の完全性や決定可能性に関する長年の探求に終止符を打ち、計算可能性理論やコンピュータサイエンスの基礎に大きな影響を与えました。この定理は、数学的真理の限界と、形式化された論理システムの能力についての深い洞察を提供します。"
+    },
+    {
+      "id": "hatena_66317",
+      "source": "hatena",
+      "title": "オールドファン歓喜、ブラウザー上で動作するX68000エミュレーターが登場。ライセンスもクリア【やじうまWatch】",
+      "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2132479.html",
+      "score": 44,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "X68000",
+        "エミュレーター",
+        "Webブラウザ",
+        "レトロコンピューティング"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.467562+09:00",
+      "summary": "Webブラウザ上で動作するX68000エミュレーターが公開されました。これにより、特別なソフトウェアのインストールなしに、手軽にX68000のゲームやアプリケーションを体験できるようになります。開発者は、著作権に配慮した上で、当時の熱狂を現代に蘇らせる試みを行っており、レトロコンピューティング愛好家にとって朗報と言えるでしょう。"
+    },
+    {
+      "id": "hatena_73584",
+      "source": "hatena",
+      "title": "AIに同じ質問をしたら、部署ごとに違う数字が返ってきた　― いま「オントロジー」と呼ばれているもの ― - Qiita",
+      "url": "https://qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "同じ質問を投げたのに、部署ごとに違う数字が返ってくる。しかも、どちらのAIも間違ってない。 生成AIを業務に入れた組織で、いま静かに起きている現象です。この記事では、その正体を解きほぐしたうえで、2025年くらいから主要ベンダーが揃って使い始めた「オントロジー」という言葉が、いま何を指し、技術的に何を作る...",
+      "tags": [
+        "生成AI",
+        "オントロジー",
+        "データ統合",
+        "組織学習"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.467510+09:00",
+      "summary": "生成AIを業務に導入した組織で、同じ質問に対して部署ごとに異なる回答（特に数値）が返ってくる現象が発生しています。これは、AIがそれぞれの部署の文脈やデータに基づいて回答を生成するためであり、どちらの回答も間違いではないという状況です。この現象の背景には、組織内のデータや知識の構造化・意味付けを行う「オントロジー」の重要性が高まっていることが挙げられます。オントロジーは、AIがより一貫性のある、文脈に沿った回答を生成するために不可欠な技術として注目されています。"
+    },
+    {
+      "id": "hatena_08915",
+      "source": "hatena",
+      "title": "続・貧者のアークテクチャ：Next.js + Cloudflare Workers + Turso 本番運用で踏んだ罠ぜんぶ",
+      "url": "https://zenn.dev/nabettu/articles/a964f988e7cc75",
+      "score": 32,
+      "comments": 0,
+      "raw_description": "前作はDBをFirestoreにしていましたが、今回はリレーショナルなデータが多いサービスなので、SQLiteをエッジから引けるTursoにしました。 コストを正直に書いておくと、Workers Paid（$5/月）だけは必須です。理由は3つ。 Workerのバンドルサイズ: OpenNextでビルドしたNext.jsアプリのworkerは、うちの規模でgzip後3.6M...",
+      "tags": [],
+      "fetched_at": "2026-08-14T07:44:23.467541+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_65247",
+      "source": "hatena",
+      "title": "Claude文章で｢AI製｣バレる?　コピペでも残る電子透かしにネット反発 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN139SY0T10C26A8000000/",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "【シリコンバレー=山田遼太郎】米新興アンソロピックが人工知能（AI）「クロード」が生成した文章をAI製だと判別できるようにすると発表した。AI編集の証拠を残す「電子透かし」と呼ぶ手法だが、AIをどう使ったのか正確に検知するのは難しく、一部のユーザーの反発を招いている。8月以降に世界で導入、EUの規制に対応ア...",
+      "tags": [],
+      "fetched_at": "2026-08-14T07:44:23.467536+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_54492",
+      "source": "hatena",
+      "title": "国内ITシステム11社、30年にAI主導の開発に転換　生産性は最大1.5倍 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC0747M0X00C26A5000000/",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "ITシステムの国内各社が主要な開発工程の担い手を人から人工知能（AI）に切り替える。大手11社の全てが2030年までに設計やプログラミングをAIが主導する体制にする。人手をかける労働集約型から付加価値で稼ぐモデルへの転換を急ぐ。大手11社にシステム開発でのAIの活用の状況や計画について6月に聞き取った。全社が30年...",
+      "tags": [
+        "AI",
+        "ソフトウェア開発",
+        "DX",
+        "生産性向上"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.467547+09:00",
+      "summary": "国内の主要ITシステム開発企業11社が、2030年までに設計やプログラミングといった主要開発工程をAI主導に移行する方針を固めました。これにより、従来の労働集約型開発から、AIを活用した高付加価値モデルへの転換を目指します。この取り組みは、開発生産性を最大1.5倍に向上させる可能性があり、IT業界全体の開発手法に大きな変革をもたらすことが期待されます。"
+    },
+    {
+      "id": "hatena_67989",
+      "source": "hatena",
+      "title": "ウェブサイトへのアクセスの99％超がボットに、人間1回に対して214回もページを読み込むAIスクレイパーとの攻防",
+      "url": "https://gigazine.net/news/20260813-traffic-bot-percent/",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "寄付者情報データベース「PatronView」を運営するニック・グレイ氏が、ウェブサイトに押し寄せるAIクローラーやスクレイパーと約1年間にわたって続けてきた攻防を公開しました。サーバーが配信したページ数とアクセス解析の数字を比べると、「人間が1回ページ読み込んだ」と記録される間に、AIによるページ読み込みがお...",
+      "tags": [
+        "AIスクレイピング",
+        "ボット対策",
+        "サーバー負荷",
+        "ウェブサイトセキュリティ"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.467552+09:00",
+      "summary": "ニック・グレイ氏が運営するPatronViewでは、AIクローラーやスクレイパーによる過剰なアクセスが問題となっています。人間によるページ読み込み1回に対し、AIによる読み込みは214回に達しており、ウェブサイトへのアクセスの99%以上がボットによるものと推定されています。この状況は、サーバーリソースの圧迫や分析データの歪みといった課題を引き起こしており、AIトラフィックとの攻防が不可欠となっています。"
+    },
+    {
+      "id": "hatena_63510",
+      "source": "hatena",
+      "title": "Claude Codeに「違反できないコード」を書かせる：ガイドとセンサーの設計 - Qiita",
+      "url": "https://qiita.com/shun123/items/7aa06b6982dfd1730af0",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "はじめに AIにコードを書かせるようになって、人間の作業は「コードを書く」から「コードが規約を守る仕組みを作る」へ移りつつあります。 この記事は、その仕組みづくりを実際に手を動かして体験するための学習ガイドです。題材として、Hono + TypeScript でオニオンアーキテクチャのタスク管理APIを作ります。ただし、...",
+      "tags": [
+        "AI",
+        "コード生成",
+        "オニオンアーキテクチャ",
+        "TypeScript"
+      ],
+      "fetched_at": "2026-08-14T07:44:23.467557+09:00",
+      "summary": "この記事は、AIが生成するコードの品質と規約遵守を保証するための実践的なガイドです。HonoとTypeScriptを用いてオニオンアーキテクチャに基づいたタスク管理APIを開発する過程で、AIが「違反できないコード」を生成する仕組み（ガイドとセンサー）の設計と実装方法を解説しています。AIによるコード生成が普及する中で、開発者の役割がコード作成から規約遵守の仕組み構築へとシフトしている現状を踏まえ、その具体的なアプローチを学ぶことができます。"
+    },
+    {
+      "id": "reddit_92028",
+      "source": "reddit",
+      "title": "A Preview of Roc 0.1.0 by Richard Feldman",
+      "url": "https://www.reddit.com/r/programming/comments/1vn7t7t/a_preview_of_roc_010_by_richard_feldman/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Roc’s first numbered release, 0.1.0, is on the horizon. This talk previews what we’re aiming to include, the key language and tooling milestones needed to get there, and what the release will mean for people interested in trying, using, or contributing to Roc. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MagnusSedlacek\"> /u/MagnusSedlacek </a> <br /> <span><a href=\"https://youtu.be/a7qEOtkkDb8\">[link]</a></span> &#32; <",
+      "tags": [
+        "Roc",
+        "プログラミング言語",
+        "リリース",
+        "開発"
+      ],
+      "fetched_at": "2026-08-14T07:44:25.468124+09:00",
+      "summary": "Roc言語の最初のナンバリングリリースである0.1.0が間もなくリリースされます。このリリースでは、言語とツールの主要なマイルストーンがプレビューされ、ユーザーがRocを試用、利用、または貢献する上でどのような意味を持つかが示されます。このバージョンアップは、Rocのエコシステムと開発の方向性を理解する上で重要です。"
+    },
+    {
+      "id": "reddit_40881",
+      "source": "reddit",
+      "title": "State-of-the-art Bytecode Interpreters in Java by Yudi Zheng",
+      "url": "https://www.reddit.com/r/programming/comments/1vnckbr/stateoftheart_bytecode_interpreters_in_java_by/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/grashalm01\"> /u/grashalm01 </a> <br /> <span><a href=\"https://medium.com/graalvm/escaping-the-giant-switch-dec20b572139\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vnckbr/stateoftheart_bytecode_interpreters_in_java_by/\">[comments]</a></span>",
+      "tags": [
+        "Java",
+        "GraalVM",
+        "バイトコード",
+        "インタプリタ"
+      ],
+      "fetched_at": "2026-08-14T07:44:25.468143+09:00",
+      "summary": "この記事は、Javaにおける最先端のバイトコードインタプリタについて解説しています。特に、GraalVMのコンテキストで、巨大なswitch文に依存する従来のインタプリタアーキテクチャからの脱却を目指すアプローチに焦点を当てています。これにより、パフォーマンスの向上や保守性の改善が期待されます。"
+    },
+    {
+      "id": "reddit_48044",
+      "source": "reddit",
+      "title": "Beyond WASI: Running any Rust application in the browser with BrowserPod 3.0",
+      "url": "https://www.reddit.com/r/programming/comments/1vn7p6q/beyond_wasi_running_any_rust_application_in_the/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vilgefortz91\"> /u/vilgefortz91 </a> <br /> <span><a href=\"https://labs.leaningtech.com/blog/browserpod-rust\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vn7p6q/beyond_wasi_running_any_rust_application_in_the/\">[comments]</a></span>",
+      "tags": [
+        "BrowserPod",
+        "Rust",
+        "WebAssembly",
+        "WASI"
+      ],
+      "fetched_at": "2026-08-14T07:44:25.468150+09:00",
+      "summary": "BrowserPod 3.0は、WebAssembly System Interface (WASI) を超えて、あらゆるRustアプリケーションをブラウザ上で実行可能にする新しいフレームワークです。これにより、Rustで書かれた既存のコードベースやライブラリを、WebAssemblyコンパイルの制約を受けずにブラウザ環境で直接利用できるようになります。この技術は、サーバーサイドのRustコードをクライアントサイドで再利用したり、ブラウザ上で複雑な計算処理を実行したりする際の開発効率とパフォーマンスを大幅に向上させる可能性を秘めています。"
+    },
+    {
+      "id": "reddit_66743",
+      "source": "reddit",
+      "title": "Programming smart pathing in Starcraft 2",
+      "url": "https://www.reddit.com/r/programming/comments/1vmvxdz/programming_smart_pathing_in_starcraft_2/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LaughNgamez\"> /u/LaughNgamez </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=DfkFpxzdqZs\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vmvxdz/programming_smart_pathing_in_starcraft_2/\">[comments]</a></span>",
+      "tags": [
+        "StarCraft 2",
+        "AI",
+        "経路探索",
+        "ゲーム開発"
+      ],
+      "fetched_at": "2026-08-14T07:44:25.468155+09:00",
+      "summary": "この記事は、リアルタイムストラテジーゲーム「StarCraft 2」におけるAIの経路探索（pathing）のプログラミングについて解説しています。特に、ユニットがマップ上の障害物を避けながら効率的に移動するためのアルゴリズムに焦点を当てています。高度な経路探索は、ゲームAIの戦略的行動やユニットの操作性を向上させる上で不可欠であり、この動画ではその実装方法や課題について掘り下げています。"
+    }
+  ]
+}
