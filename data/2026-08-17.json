@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T07:23:21.212707+09:00",
+  "articles": [
+    {
+      "id": "hn_49319556",
+      "source": "hackernews",
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "score": 463,
+      "comments": 201,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "Claude",
+        "システムプロンプト",
+        "Anthropic"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.709620+09:00",
+      "summary": "Anthropicは、同社のAIモデルClaudeに「システムプロンプト」という新機能を追加しました。これにより、開発者はAIの振る舞いや応答スタイルをより詳細に制御できるようになります。システムプロンプトは、AIのパーソナリティ、制約、および特定のタスクへの対応方法を定義するために使用され、より安全で目的に沿ったAIアプリケーションの開発を可能にします。この機能は、AIのカスタマイズ性と信頼性を向上させる上で重要な進歩と言えます。"
+    },
+    {
+      "id": "hn_49321717",
+      "source": "hackernews",
+      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "score": 263,
+      "comments": 139,
+      "raw_description": "",
+      "tags": [
+        "RISC-V",
+        "組み込みシステム",
+        "オープンソース",
+        "発展途上国"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.497559+09:00",
+      "summary": "この記事は、発展途上国で働く組み込みエンジニアの視点から、RISC-Vアーキテクチャの現状と将来性について論じています。特に、リソースが限られた環境でのRISC-Vの利点と課題、そしてオープンソースISAとしてのエコシステムの発展が、グローバルな技術格差の是正にどのように貢献しうるかに焦点を当てています。開発者が直面する現実的な問題と、RISC-Vがもたらす可能性について、実践的な洞察を提供します。"
+    },
+    {
+      "id": "hn_49322695",
+      "source": "hackernews",
+      "title": "Models Are Getting Dumber on Purpose",
+      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "score": 193,
+      "comments": 123,
+      "raw_description": "",
+      "tags": [
+        "LLM",
+        "AI",
+        "機械学習",
+        "過学習"
+      ],
+      "fetched_at": "2026-08-17T07:23:20.697266+09:00",
+      "summary": "大規模言語モデル（LLM）が意図的に「賢くない」振る舞いをするようになっている現象について解説しています。これは、モデルの過剰な最適化や、特定のタスクにおける過学習を防ぐための調整の結果として発生します。モデルの汎用性や、予期せぬ状況への対応能力を維持するために、このような「賢さの抑制」は重要な研究開発テーマとなっています。"
+    },
+    {
+      "id": "hatena_43606",
+      "source": "hatena",
+      "title": "小説文体におけるAI臭さ",
+      "url": "https://anond.hatelabo.jp/20260816172202",
+      "score": 126,
+      "comments": 0,
+      "raw_description": "最近唐突に、AIで書かれた小説を見分けられる能力を得た。 それらには共通の特徴があるように思われるので、皆のために共有しておく。 その前に AI小説が見分けられるというところに疑念を持つ向きもあるだろうから、先にそこを説明しておく。 自分は小説家になろうやその関連18禁サイトの小説をよく読む。 基本的に素人...",
+      "tags": [
+        "AI",
+        "自然言語生成",
+        "小説",
+        "文体分析"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.259375+09:00",
+      "summary": "AIが生成した小説には、特定の文体上の特徴が見られるようになり、人間が書いたものと区別可能になった。この現象は、AIの自然言語生成能力の進化と、その出力の評価・識別に関する新たな課題を示唆している。今後、AIによる創作物の普及に伴い、その真贋を見分ける技術や基準の重要性が増すと考えられる。"
+    },
+    {
+      "id": "hn_49322573",
+      "source": "hackernews",
+      "title": "Protobuf has LSP support. You're welcome",
+      "url": "https://buf.build/blog/protobuf-lsp",
+      "score": 75,
+      "comments": 46,
+      "raw_description": "",
+      "tags": [
+        "Protobuf",
+        "LSP",
+        "IDE",
+        "開発効率"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.892300+09:00",
+      "summary": "Protocol Buffers (Protobuf) が Language Server Protocol (LSP) をサポートするようになりました。これにより、IDE（統合開発環境）でのProtobufファイルの編集体験が大幅に向上します。コード補完、定義ジャンプ、エラーチェックなどの機能が利用可能になり、開発効率とコード品質の向上が期待できます。この機能は、Protobuf開発における生産性向上に大きく貢献するものです。"
+    },
+    {
+      "id": "hn_49323459",
+      "source": "hackernews",
+      "title": "The Case Against Formal Verification, 50 Years Later",
+      "url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "score": 52,
+      "comments": 41,
+      "raw_description": "",
+      "tags": [
+        "形式検証",
+        "ソフトウェア工学",
+        "バグ検出",
+        "システム検証"
+      ],
+      "fetched_at": "2026-08-17T07:23:20.289479+09:00",
+      "summary": "形式検証は、その開発から50年を経ても、依然として複雑なシステムにおけるバグの検出に不可欠なツールである。しかし、その導入コスト、専門知識の必要性、および検証対象の限定性といった課題は、依然として広く普及する上での障壁となっている。これらの課題に対処するため、よりアクセスしやすく、スケーラブルな検証手法の開発が求められている。"
+    },
+    {
+      "id": "hn_49285096",
+      "source": "hackernews",
+      "title": "SIMD in the 90s: Programming Intel's Pentium MMX",
+      "url": "https://pikuma.com/blog/programming-intel-pentium-mmx-simd",
+      "score": 39,
+      "comments": 13,
+      "raw_description": "",
+      "tags": [
+        "SIMD",
+        "Pentium MMX",
+        "CPU",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-17T07:23:20.104944+09:00",
+      "summary": "この記事は、1990年代にIntel Pentium MMXプロセッサでSIMD（Single Instruction, Multiple Data）プログラミングを行った経験について解説しています。MMXは、複数のデータを単一の命令で同時に処理する能力を持ち、特にマルチメディア処理や科学技術計算の高速化に貢献しました。当時のプログラマは、このSIMD命令セットを直接利用することで、パフォーマンスの劇的な向上を実現しましたが、そのプログラミングは複雑で、アセンブリ言語の知識が不可欠でした。この技術は、現代のSIMD命令セットの先駆けとなり、CPUの並列処理能力の進化における重要な一歩を示しています。"
+    },
+    {
+      "id": "hn_49259980",
+      "source": "hackernews",
+      "title": "Low-Tech Ceramic Water Filter",
+      "url": "https://wiki.lowtechlab.org/wiki/Filtre_%C3%A0_eau_c%C3%A9ramique/en",
+      "score": 38,
+      "comments": 11,
+      "raw_description": "",
+      "tags": [
+        "セラミックフィルター",
+        "浄水技術",
+        "低コスト技術",
+        "公衆衛生"
+      ],
+      "fetched_at": "2026-08-17T07:23:20.898041+09:00",
+      "summary": "低コストで製造可能なセラミック製浄水フィルターに関する技術記事です。このフィルターは、微細な孔を利用してバクテリアや寄生虫などの病原体を除去し、安全な飲料水を提供します。特に、インフラが未整備な地域や災害時において、安価で持続可能な水質改善ソリューションとして重要視されています。製造プロセスも比較的単純であるため、現地での生産や修理が容易である点も利点です。"
+    },
+    {
+      "id": "hn_49324078",
+      "source": "hackernews",
+      "title": "Claude Seems Down",
+      "url": "https://news.ycombinator.com/item?id=49324078",
+      "score": 34,
+      "comments": 19,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "Claude",
+        "障害",
+        "Anthropic"
+      ],
+      "fetched_at": "2026-08-17T07:23:20.484311+09:00",
+      "summary": "AnthropicのAIチャットボットであるClaudeが、一時的に利用不能な状態になった模様です。ユーザーからの報告によると、サービスへのアクセスができない、または応答が返ってこないといった問題が発生しています。Claudeは、その高度な自然言語処理能力で注目されており、今回の障害は多くのユーザーに影響を与えた可能性があります。復旧状況については、Anthropicからの公式発表が待たれます。"
+    },
+    {
+      "id": "hatena_14335",
+      "source": "hatena",
+      "title": "ローカル LLM 雑感 (2026-08)",
+      "url": "https://voluntas.ghost.io/local-llm-2026-08/",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "NVIDIA DGX Spark 互換機 (以下 Spark) を 2 台購入し、クラスター起動して ローカルで DeepSeek V4 Flash 0731 の運用を開始したので雑感を書いて行く。 前提悪いのでそもそもコスパを検討するなら API 利用をすべきなので、コスト面でのメリットはとても薄い。 速度まずローカル LLM の一番気になっていた「速度」だが...",
+      "tags": [
+        "ローカルLLM",
+        "NVIDIA DGX Spark",
+        "DeepSeek V4",
+        "LLM運用"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.259330+09:00",
+      "summary": "NVIDIA DGX Spark互換機2台でローカルLLMクラスターを構築し、DeepSeek V4 Flash 0731の運用を開始した。API利用と比較してコストメリットは薄いが、ローカル環境でのLLM実行速度に関する検証が進められている。本記事では、その運用感触と速度について詳細に報告する。"
+    },
+    {
+      "id": "hatena_27443",
+      "source": "hatena",
+      "title": "エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした - Qiita",
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article?",
+      "tags": [
+        "AI",
+        "エンジニアリング",
+        "スキルアップ",
+        "問題解決"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.259381+09:00",
+      "summary": "この記事は、若手エンジニアがエラー解決をAIに依存しすぎている現状に対し、AIからの回答を制限するという著者の試みを述べています。AIへの過度な依存は、エンジニア自身の問題解決能力の低下を招くリスクがあります。著者は、AIの利用方法を再考し、エンジニアのスキルアップを促すための具体的なアプローチを模索しています。"
+    },
+    {
+      "id": "hatena_88614",
+      "source": "hatena",
+      "title": "はてブにピン留め機能が欲しい",
+      "url": "https://anond.hatelabo.jp/20260816215235",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "はてなアイデアがサ終してしまったので、ここに書く 要望 Xにある固定ツイートみたいな機能がはてブにも欲しい。できれば1件限定ではなく3〜5件くらいで 現状の課題 今のはてブは古いブクマがどんどん流れてしまうし、検索がしょぼいのでブックマークとして使い難い ピン留め機能があれば 個人用の備忘録としてはてブを...",
+      "tags": [],
+      "fetched_at": "2026-08-17T07:23:19.259353+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_50682",
+      "source": "hatena",
+      "title": "GitHub - coji/natural-japanese: 仕事の日本語文書を読みやすくわかりやすく書く・直す Agent Skill。議事録・調査レポート・社内ガイド・リサーチメモ・スライド構成に対応し、AI臭さの除去も工程に含む。sudachipy 形態素解析による機械検出付き。",
+      "url": "https://github.com/coji/natural-japanese",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。議事録・調査レポート・社内ガイド・リサーチメモ・スライド構成といった仕事の文書から、note・ブログ・エッセイまで。AIと文書を作るとき毎回プロンプトに書いている指示——結論から書いて、論旨を明確に、見出しは端的に、専門用語は文中で...",
+      "tags": [],
+      "fetched_at": "2026-08-17T07:23:19.259368+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_25074",
+      "source": "hatena",
+      "title": "記憶を保つのはシナプスの強さではなく「つながり方」：沖縄科学技術大学院大などが人工冬眠マウスで示す",
+      "url": "https://ki-to-oku.net/oist-artificial-hibernation-memory-retention/",
+      "score": 14,
+      "comments": 0,
+      "raw_description": "冬眠明けのマウスは記憶を保っていた沖縄科学技術大学院大学（OIST）、筑波大学、自然科学研究機構 生命創成探究センター/生理学研究所などの研究チームは2026年8月13日、人工冬眠を利用したマウス実験により、長期記憶の保持には、神経細胞同士が信号をやり取りする接合部「シナプス」の強さではなく、記憶痕跡を担うそ...",
+      "tags": [
+        "記憶",
+        "神経科学",
+        "人工冬眠",
+        "シナプス"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.259361+09:00",
+      "summary": "沖縄科学技術大学院大学などの研究チームは、人工冬眠させたマウスの実験から、長期記憶の保持にはシナプスの絶対的な強さではなく、神経細胞間の「つながり方」、すなわちネットワーク構造が重要であることを明らかにしました。冬眠明けのマウスは記憶を保持しており、これはシナプス結合の強度が低下しても、その接続パターンが維持されることで記憶が保たれる可能性を示唆しています。この発見は、記憶メカニズムの理解を深めるだけでなく、記憶障害や認知症の治療法開発に新たな視点を提供する可能性があります。"
+    },
+    {
+      "id": "hatena_21085",
+      "source": "hatena",
+      "title": "オープンＡＩで経営幹部が相次ぎ退社、半年前加入の「中心人物」も…新規株式公開を前に「危険信号」（読売新聞オンライン） - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/articles/b12c70eea1870fe6d19b036884a06ae0c00729ef",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "【ニューヨーク＝木瀬武】対話型ＡＩ（人工知能）サービス「チャットＧＰＴ」を手がける米オープンＡＩで、経営幹部の退社が相次いでいる。米国や中国の同業との競争が激化しており、背景には収益向上への対応がありそうだ。年内にも新規株式公開（ＩＰＯ）に踏み切る可能性がある中、経営体制の不安定さが懸念材料とな...",
+      "tags": [
+        "OpenAI",
+        "経営",
+        "AI",
+        "IPO"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.259387+09:00",
+      "summary": "対話型AIサービス「ChatGPT」を開発するOpenAIで、経営幹部の退社が相次いでいる。これは、米国や中国の競合他社との競争激化と、収益向上へのプレッシャーが背景にあると見られている。年内の新規株式公開（IPO）を控える中、経営体制の不安定化は、同社の将来的な成長にとって懸念材料となる可能性がある。"
+    },
+    {
+      "id": "hatena_33071",
+      "source": "hatena",
+      "title": "AIで描いた架空のモデル画像を無断で使われた　著作権侵害で裁判に：朝日新聞",
+      "url": "https://www.asahi.com/articles/ASV7R33SSV7RPTIL009M.html",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "生成AI（人工知能）を使って作製した画像を販売している会社が、第三者に画像を無断で使われたと訴えている。著作権の侵害だとして賠償金を請求したが、相手方が応じず、裁判で争うことになった。「AIでつくっ…",
+      "tags": [
+        "生成AI",
+        "著作権侵害",
+        "法的措置",
+        "AI生成物"
+      ],
+      "fetched_at": "2026-08-17T07:23:19.259393+09:00",
+      "summary": "生成AIで作成された架空のモデル画像を、第三者が無断で使用したとして、販売会社が著作権侵害で訴訟を起こしました。本件は、生成AIによって作成されたコンテンツの著作権保護と、第三者による不正利用に対する法的措置のあり方を示す重要な事例となります。AI生成物の権利関係が法的にどう扱われるか、今後の司法判断が注目されます。"
+    },
+    {
+      "id": "reddit_70062",
+      "source": "reddit",
+      "title": "Protobuf finally has LSP support. You’re welcome. · Buf",
+      "url": "https://www.reddit.com/r/programming/comments/1vq4pbv/protobuf_finally_has_lsp_support_youre_welcome_buf/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/esiy0676\"> /u/esiy0676 </a> <br /> <span><a href=\"https://buf.build/blog/protobuf-lsp\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vq4pbv/protobuf_finally_has_lsp_support_youre_welcome_buf/\">[comments]</a></span>",
+      "tags": [
+        "Protobuf",
+        "LSP",
+        "Buf",
+        "IDE"
+      ],
+      "fetched_at": "2026-08-17T07:23:21.212647+09:00",
+      "summary": "Buf社がProtocol Buffers (Protobuf) のためのLanguage Server Protocol (LSP) サポートをリリースしました。これにより、Protobufのスキーマ定義ファイルに対するコード補完、エラーチェック、定義ジャンプなどのIDE機能が利用可能になります。この機能強化は、Protobuf開発の生産性を向上させ、より効率的なAPI設計とデータ構造の定義を支援します。"
+    },
+    {
+      "id": "reddit_61629",
+      "source": "reddit",
+      "title": "Linux Storage 101: Drives, Partitions, and Mounts",
+      "url": "https://www.reddit.com/r/programming/comments/1vq17rg/linux_storage_101_drives_partitions_and_mounts/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/iximiuz\"> /u/iximiuz </a> <br /> <span><a href=\"https://labs.iximiuz.com/skill-paths/linux-storage-101\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vq17rg/linux_storage_101_drives_partitions_and_mounts/\">[comments]</a></span>",
+      "tags": [
+        "Linux",
+        "ストレージ",
+        "パーティション",
+        "マウント"
+      ],
+      "fetched_at": "2026-08-17T07:23:21.212668+09:00",
+      "summary": "この記事はLinuxのストレージ管理の基本を解説する入門記事です。ディスクデバイス、パーティション、そしてそれらをファイルシステムとして利用可能にするマウントポイントの概念を、技術的な観点から分かりやすく説明しています。Linuxシステムにおけるストレージの構成と管理を理解する上で、基礎となる知識を提供します。"
+    },
+    {
+      "id": "reddit_85370",
+      "source": "reddit",
+      "title": "Pony's Arena Allocator",
+      "url": "https://www.reddit.com/r/programming/comments/1vq4rr0/ponys_arena_allocator/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>I recently discovered that <a href=\"https://www.ponylang.io/\">Pony</a>'s still alive. I had discovered Pony a few years ago while browsing tech forums. Its focus on memory safe &amp; lock-free MT was interesting.</p> <p>I kept up with the weekly development for a brief period but then kind of forgot about the language until recently when I rediscovered it when I was chatting about <a href=\"https://crystal-lang.org/2026/07/16/1.21.0-released/\">Crystal's MT</a>.</",
+      "tags": [
+        "Pony",
+        "メモリ安全性",
+        "並行処理",
+        "アリーナアロケータ"
+      ],
+      "fetched_at": "2026-08-17T07:23:21.212676+09:00",
+      "summary": "Pony言語は、メモリ安全性とロックフリーの並行処理に焦点を当てたプログラミング言語です。最近、その開発が継続されていることが明らかになりました。Ponyのユニークなアリーナアロケータは、ガベージコレクションに依存しないメモリ管理を実現し、パフォーマンスと予測可能性を向上させる可能性があります。このアプローチは、特に高パフォーマンスが求められるシステムプログラミングやゲーム開発などの分野で、従来のメモリ管理手法に対する興味深い代替手段を提供します。"
+    },
+    {
+      "id": "reddit_23448",
+      "source": "reddit",
+      "title": "Lessons from Implementing Functions in My Interpreter (in Rust)",
+      "url": "https://www.reddit.com/r/programming/comments/1vq3w93/lessons_from_implementing_functions_in_my/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TechnologySubject259\"> /u/TechnologySubject259 </a> <br /> <span><a href=\"https://x.com/i/status/2087237076366540854\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vq3w93/lessons_from_implementing_functions_in_my/\">[comments]</a></span>",
+      "tags": [
+        "Rust",
+        "インタプリタ",
+        "関数実装",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-17T07:23:21.212683+09:00",
+      "summary": "Rustでインタプリタを実装する過程で、関数の実装に関する教訓が共有されています。この記事では、関数呼び出しのスタック管理、スコープの扱い、およびクロージャの実装といった、インタプリタ開発における重要な技術的課題に焦点を当てています。これらの要素は、プログラムの実行フロー制御とデータ管理の基盤となるため、インタプリタの機能性と効率性を向上させる上で不可欠です。"
+    }
+  ]
+}
