@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T07:26:28.589830+09:00",
+  "articles": [
+    {
+      "id": "hn_49330781",
+      "source": "hackernews",
+      "title": "A Preview of DuckDB v2.0",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "score": 489,
+      "comments": 85,
+      "raw_description": "",
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "SQL",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.957726+09:00",
+      "summary": "DuckDB v2.0のプレビュー版が公開され、パフォーマンスと機能の両面で大幅な改善が期待されます。特に、インメモリ処理の高速化や、より高度なSQL機能のサポート強化が進められており、データ分析ワークロードにおける効率性が向上する見込みです。このバージョンアップは、ローカル環境での大規模データ処理や、組み込み型データベースとしての利用シーンにおいて、さらなる可能性を広げるものとなります。"
+    },
+    {
+      "id": "hn_49330597",
+      "source": "hackernews",
+      "title": "Incident with Github.com",
+      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+      "score": 471,
+      "comments": 846,
+      "raw_description": "",
+      "tags": [
+        "GitHub",
+        "インシデント",
+        "ネットワーク障害",
+        "障害復旧"
+      ],
+      "fetched_at": "2026-08-18T07:26:27.607109+09:00",
+      "summary": "GitHub.comは、2023年1月12日に発生したインシデントにより、一部のユーザーでウェブサイトへのアクセスやリポジトリへのプッシュができない状態となりました。このインシデントは、ネットワーク構成の変更中に発生した予期せぬ問題が原因であり、GitHubは迅速な復旧作業を行いました。この事象は、大規模サービスにおけるネットワーク構成変更のリスクと、迅速な障害検知・復旧体制の重要性を示唆しています。"
+    },
+    {
+      "id": "hn_49336573",
+      "source": "hackernews",
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "score": 426,
+      "comments": 257,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "要約",
+        "技術文書",
+        "情報収集"
+      ],
+      "fetched_at": "2026-08-18T07:26:27.371040+09:00",
+      "summary": "AI;DR (AI; Didn't Read)は、AIが生成した長文コンテンツを短く要約するAIツールです。特に、AIによって生成された論文やレポートなどの技術文書の概要を把握するのに役立ちます。これにより、研究者や開発者は、膨大な情報の中から重要な知見を効率的に抽出し、最新技術動向のキャッチアップや意思決定の迅速化を図ることができます。"
+    },
+    {
+      "id": "hatena_22403",
+      "source": "hatena",
+      "title": "とまり木 — 各地のカメラから、日本のいま。",
+      "url": "https://tomarigi.me/",
+      "score": 355,
+      "comments": 0,
+      "raw_description": "日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス「とまり木」。",
+      "tags": [
+        "ライブカメラ",
+        "地域情報",
+        "YouTube",
+        "情報収集"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494046+09:00",
+      "summary": "「とまり木」は、日本全国のYouTubeライブカメラを地図上で検索し、リアルタイムで視聴できるウェブサービスです。これにより、ユーザーは地理的な位置情報に基づいて、各地の現在の様子を手軽に確認できます。このサービスは、遠隔地からの情報収集や、地域ごとの状況把握に役立つ可能性があります。"
+    },
+    {
+      "id": "hn_49331423",
+      "source": "hackernews",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "score": 289,
+      "comments": 120,
+      "raw_description": "",
+      "tags": [
+        "GitHub Copilot",
+        "脆弱性",
+        "AIセキュリティ",
+        "Jira"
+      ],
+      "fetched_at": "2026-08-18T07:26:27.163693+09:00",
+      "summary": "GitHub Copilotの自動修正機能が、SnowflakeのJiraインスタンスへの不正アクセスを許容する脆弱性を引き起こしたことが明らかになりました。この脆弱性は、Copilotが生成したコードに、認証をバイパスできる可能性のある不適切な修正が含まれていたために発生しました。このインシデントは、AIによるコード生成ツールのセキュリティリスクと、開発プロセスにおける厳格なコードレビューの重要性を浮き彫りにしています。"
+    },
+    {
+      "id": "hatena_02198",
+      "source": "hatena",
+      "title": "攻撃手法から学ぶ OAuth セキュリティベストプラクティス",
+      "url": "https://zenn.dev/hidebike712/books/oauth-attacks-and-bcp",
+      "score": 181,
+      "comments": 0,
+      "raw_description": "OAuth における代表的な攻撃手法とその対抗策を最新のベストプラクティスに基づいて解説します。",
+      "tags": [
+        "OAuth",
+        "セキュリティ",
+        "認証",
+        "認可"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494040+09:00",
+      "summary": "本記事は、OAuthにおける代表的な攻撃手法を解説し、それらに対する最新のベストプラクティスに基づいた対抗策を紹介します。OAuthは認証・認可の標準プロトコルとして広く利用されていますが、その実装には脆弱性が潜む可能性があります。攻撃手法を理解することは、安全なOAuth実装のためのセキュリティ対策を講じる上で不可欠です。"
+    },
+    {
+      "id": "hatena_90039",
+      "source": "hatena",
+      "title": "「ほんだし」のラベルがAIでぐちゃぐちゃに……　味の素、公式Xの投稿画像について謝罪",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/17/2000000564/",
+      "score": 151,
+      "comments": 0,
+      "raw_description": "味の素は8月16日、レシピサイト「味の素パーク」の公式Xで14日に投稿した画像について謝罪した。生成AIによる加工のため、商品のラベルや文字の一部が乱れていたという。同社は再発防止に努めるとしている。 14日の投稿では、味の素の商品「ほんだし」を使ってめんつゆを作るレシピを紹介していた。一方、添付した画像内...",
+      "tags": [
+        "生成AI",
+        "画像生成",
+        "AI倫理",
+        "ブランドイメージ"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494052+09:00",
+      "summary": "味の素は、公式X（旧Twitter）で公開した「ほんだし」を使ったレシピ画像において、生成AIによる加工で商品ラベルや文字が乱れたことを謝罪しました。この問題は、AI生成画像の品質管理と、ブランドイメージへの影響という点でIT業界にも示唆を与えます。同社は再発防止策を講じるとしています。"
+    },
+    {
+      "id": "hn_49333824",
+      "source": "hackernews",
+      "title": "Sun Clock",
+      "url": "https://sunclock.net/",
+      "score": 148,
+      "comments": 45,
+      "raw_description": "",
+      "tags": [
+        "Webアプリケーション",
+        "太陽位置",
+        "GPS",
+        "天文計算"
+      ],
+      "fetched_at": "2026-08-18T07:26:28.235936+09:00",
+      "summary": "「Sun Clock」は、太陽の位置をリアルタイムで表示するウェブアプリケーションです。GPSデータと天文計算アルゴリズムを組み合わせることで、ユーザーの現在地における太陽の正確な方位角と高度を視覚化します。これにより、太陽光発電の効率的な配置計画や、屋外イベントの日照時間の予測など、太陽光を利用する様々な分野での活用が期待されます。技術的には、JavaScriptとWeb Workersを利用して、バックグラウンドで高精度な計算処理を実行し、スムーズなユーザー体験を提供しています。"
+    },
+    {
+      "id": "hn_49334991",
+      "source": "hackernews",
+      "title": "GPU Offload in Rust: Portable, Safe, and Fast",
+      "url": "https://arxiv.org/abs/2608.13759",
+      "score": 123,
+      "comments": 24,
+      "raw_description": "",
+      "tags": [
+        "Rust",
+        "GPU",
+        "Offload",
+        "Parallel Computing"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.754817+09:00",
+      "summary": "RustでGPUオフロードを実現するライブラリが登場しました。このライブラリは、CUDAやOpenCLといった異なるGPUバックエンド間でのポータビリティを提供しつつ、Rustの安全性保証を維持します。これにより、開発者はハードウェアの違いを意識することなく、安全かつ高速なGPUコンピューティングアプリケーションを構築できます。特に、パフォーマンスが求められる科学技術計算や機械学習分野での活用が期待されます。"
+    },
+    {
+      "id": "hatena_76488",
+      "source": "hatena",
+      "title": "うんこミュージアム、個人情報漏れた可能性　不正アクセスで",
+      "url": "https://ascii.jp/elem/000/004/427/4427059/",
+      "score": 98,
+      "comments": 0,
+      "raw_description": "うんこミュージアムは8月14日、ウェブサイトが不正アクセスを受け、一部期間に問い合わせフォームから送信された内容が、第三者に傍受・取得された可能性があることを公表した。 対象は2026年8月10日17時4分から8月11日11時24分の期間に、同施設のサイトの問い合わせフォームからメッセージを送信したユーザー。該当者は...",
+      "tags": [
+        "不正アクセス",
+        "個人情報漏洩",
+        "セキュリティ",
+        "ウェブサイト"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494067+09:00",
+      "summary": "うんこミュージアムのウェブサイトが不正アクセスを受け、2026年8月10日から8月11日にかけて問い合わせフォーム経由で送信された個人情報が第三者に傍受・取得された可能性があることが公表されました。この事案は、ウェブサイトのセキュリティ対策の重要性と、個人情報保護の脆弱性を示唆しています。影響を受けたユーザーは、問い合わせ内容に含まれる個人情報漏洩のリスクに直面しており、今後の対策が注目されます。"
+    },
+    {
+      "id": "hatena_05210",
+      "source": "hatena",
+      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）",
+      "url": "https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e",
+      "score": 77,
+      "comments": 0,
+      "raw_description": "対象読者 Codex を効率よく使う方法を知りたい方 ChatGPT を契約しているけど、開発では Codex ばかり使っている方 Claude Code を使っているけど、Codex にも興味がある方 はじめに Codex を使って開発していると、調査や実装計画、コード変更、レビューなど、さまざまな工程をそのまま Codex にお願いしたくなります。...",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "GitHub Copilot",
+        "開発効率"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494057+09:00",
+      "summary": "この記事は、ChatGPTとGitHub Copilot（Codex）を効率的に活用するための実践的なガイドです。開発プロセスにおける調査、実装計画、コード変更、レビューといった各工程でCodexを効果的に利用する方法に焦点を当てています。これにより、開発者はAIの支援を最大限に引き出し、生産性を向上させることが期待できます。"
+    },
+    {
+      "id": "hatena_52857",
+      "source": "hatena",
+      "title": "JTCにいる50代窓際サラリーマンをテーマにしたAIマンガの「動かない社員の代わりにAIエージェントを使う」回の「シニアがAIをうまく使いこなす」シーンに共感",
+      "url": "https://togetter.com/li/2734257",
+      "score": 41,
+      "comments": 0,
+      "raw_description": "フォトリーマン @photoryman @jtc_ojisan2 長さんの言葉の選び方、特に行間を読ます表現にJTC特有の資料で鍛えられた強者感が感じられる。 冒頭の出オチ、良い匂いは、女と思い期待して振り返ると男だったという絶妙な感情の機微がこれだけで表現されてる。 もはや長さん作品は文学です。 2026-08-17 09:27:26",
+      "tags": [],
+      "fetched_at": "2026-08-18T07:26:26.494014+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hn_49336909",
+      "source": "hackernews",
+      "title": "The Origin of Consciousness (2008)",
+      "url": "https://blog.plover.com/brain/Jaynes.html",
+      "score": 39,
+      "comments": 28,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-08-18T07:26:27.828377+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_47583",
+      "source": "hatena",
+      "title": "コードの構造をざっと外観するzatが良さげかも | kawarimidoll.com",
+      "url": "https://kawarimidoll.com/posts/202608172/",
+      "score": 30,
+      "comments": 0,
+      "raw_description": "CLI code outline viewer. Contribute to bglgwyng/zat development by creating an account on GitHub. 機能 zatはRust製のコードアウトラインビューアです。エクスポートされたシンボルとその行番号を一覧し、AIコーディングエージェントが実装を細かく読む前の構造把握を支援します。READMEによると、名前は日本語の...",
+      "tags": [
+        "Rust",
+        "CLIツール",
+        "コード解析",
+        "開発支援"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494033+09:00",
+      "summary": "Rust製のCLIツールzatは、コードベースの構造を素早く把握するためのアウトラインビューアです。エクスポートされたシンボルとその行番号を一覧表示する機能により、開発者はAIコーディングエージェントなどが詳細なコードリーディングに入る前に、全体像を効率的に理解できます。これにより、コードのナビゲーションと理解の初期段階を大幅に改善することが期待されます。"
+    },
+    {
+      "id": "hatena_36012",
+      "source": "hatena",
+      "title": "「AI画像を見本に出すなんて」不動産の物件をAIで良く見せようとする行為に「景品表示法違反なのでは？」とコメントが、一応違法ではないようだが",
+      "url": "https://togetter.com/li/2734175",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "Q. AIで家具を配置した不動産写真は広告に使えますか？ A. 「CGイメージ」「家具は付属しません」等の注記を消費者がはっきり認識できる大きさで明記し、搬入可能な家具のみを配置していれば、景品表示法および不動産公正取引協議会の表示規約上は広告利用が可能です。注記なし・搬入不能サイズの家具配置は優良誤認表示...",
+      "tags": [
+        "AI画像生成",
+        "不動産広告",
+        "景品表示法",
+        "CGイメージ"
+      ],
+      "fetched_at": "2026-08-18T07:26:26.494063+09:00",
+      "summary": "不動産広告において、AIで生成した家具配置の画像を「CGイメージ」「家具は付属しません」といった注記を消費者が容易に認識できる大きさで明記し、かつ搬入可能なサイズの家具のみを配置した場合、景品表示法および不動産公正取引協議会の表示規約上、広告利用が可能であることが確認されました。注記がない場合や搬入不可能なサイズの家具配置は、優良誤認表示とみなされる可能性があります。"
+    },
+    {
+      "id": "hn_49338285",
+      "source": "hackernews",
+      "title": "Fairphone 6 and PostmarketOS working main camera",
+      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "PostmarketOS",
+        "Fairphone",
+        "Linux",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-08-18T07:26:28.034367+09:00",
+      "summary": "Fairphone 6でPostmarketOSのメインカメラが動作するようになったことが報告されました。これは、オープンソースOSの移植性を高める上で重要な進歩であり、Fairphoneのような修理可能で持続可能なデバイスへのオープンソースOSの適用可能性を広げるものです。今後、他のハードウェアコンポーネントのサポートも期待されます。"
+    },
+    {
+      "id": "reddit_37534",
+      "source": "reddit",
+      "title": "Nothing like a Monday morning GitHub outage",
+      "url": "https://www.reddit.com/r/programming/comments/1vqukkf/nothing_like_a_monday_morning_github_outage/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Jwosty\"> /u/Jwosty </a> <br /> <span><a href=\"https://www.githubstatus.com/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vqukkf/nothing_like_a_monday_morning_github_outage/\">[comments]</a></span>",
+      "tags": [
+        "GitHub",
+        "障害",
+        "開発プラットフォーム",
+        "可用性"
+      ],
+      "fetched_at": "2026-08-18T07:26:28.589780+09:00",
+      "summary": "GitHubは月曜日の朝に大規模な障害に見舞われ、コードリポジトリへのアクセスや操作が数時間にわたり不可能になりました。この障害は、開発者のワークフローに深刻な影響を与え、多くのプロジェクトの進行を遅延させました。GitHubのような基幹的な開発プラットフォームの可用性は、現代のソフトウェア開発エコシステム全体にとって極めて重要であることを改めて浮き彫りにしました。"
+    },
+    {
+      "id": "reddit_11165",
+      "source": "reddit",
+      "title": "A Preview of DuckDB v2.0",
+      "url": "https://www.reddit.com/r/programming/comments/1vqxler/a_preview_of_duckdb_v20/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BrewedDoritos\"> /u/BrewedDoritos </a> <br /> <span><a href=\"https://duckdb.org/2026/08/17/duckdb-20-highlights\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vqxler/a_preview_of_duckdb_v20/\">[comments]</a></span>",
+      "tags": [
+        "DuckDB",
+        "OLAP",
+        "データベース",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-08-18T07:26:28.589796+09:00",
+      "summary": "DuckDB v2.0のプレビューでは、インメモリOLAPデータベースの次期メジャーバージョンにおける重要な機能強化が紹介されています。特に、クエリ実行計画の最適化、新しいデータ型サポート、および拡張機能APIの改善に焦点が当てられています。これらの進化により、大規模データセットに対する分析パフォーマンスが向上し、より複雑なデータ処理ワークロードへの対応能力が強化されることが期待されます。開発者にとって、より高速で柔軟なデータ分析基盤の構築に貢献する重要なアップデートと言えます。"
+    },
+    {
+      "id": "reddit_89869",
+      "source": "reddit",
+      "title": "Faster algorithms to compute weekday for date libraries",
+      "url": "https://www.reddit.com/r/programming/comments/1vqndz5/faster_algorithms_to_compute_weekday_for_date/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/benjoffe\"> /u/benjoffe </a> <br /> <span><a href=\"https://www.benjoffe.com/fast-day-of-week\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vqndz5/faster_algorithms_to_compute_weekday_for_date/\">[comments]</a></span>",
+      "tags": [
+        "アルゴリズム",
+        "日付計算",
+        "パフォーマンス",
+        "ライブラリ"
+      ],
+      "fetched_at": "2026-08-18T07:26:28.589803+09:00",
+      "summary": "この記事では、日付ライブラリにおける曜日計算を高速化するアルゴリズムについて解説しています。既存のアルゴリズムと比較して、計算量を削減し、より効率的な実装を目指すアプローチが紹介されています。これにより、大量の日付データを扱うアプリケーションや、パフォーマンスが重視されるシステムにおいて、曜日計算のオーバーヘッドを低減することが期待できます。"
+    },
+    {
+      "id": "reddit_70384",
+      "source": "reddit",
+      "title": "Fractal Architecture, Cognitive Load, Vertical Slices and other terms that do(n't) fit your head",
+      "url": "https://www.reddit.com/r/programming/comments/1vqsufx/fractal_architecture_cognitive_load_vertical/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Adventurous-Salt8514\"> /u/Adventurous-Salt8514 </a> <br /> <span><a href=\"https://www.architecture-weekly.com/p/fractal-architecture-cognitive-load\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vqsufx/fractal_architecture_cognitive_load_vertical/\">[comments]</a></span>",
+      "tags": [
+        "ソフトウェアアーキテクチャ",
+        "フラクタルアーキテクチャ",
+        "コグニティブロード",
+        "バーティカルスライス"
+      ],
+      "fetched_at": "2026-08-18T07:26:28.589808+09:00",
+      "summary": "この記事は、ソフトウェアアーキテクチャにおける「フラクタルアーキテクチャ」や「コグニティブロード」といった概念が、従来の「バーティカルスライス」などの考え方とどのように関連し、あるいは乖離するのかを考察しています。特に、複雑なシステムを理解しやすくするための設計アプローチとして、これらの新しい用語がどのように役立つか、あるいは誤解を招く可能性があるかに焦点を当てています。技術的な複雑性を管理し、開発チームの生産性を向上させる上で、これらの概念の正確な理解と適用が重要であることを示唆しています。"
+    }
+  ]
+}
