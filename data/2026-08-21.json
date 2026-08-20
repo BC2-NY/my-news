@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T07:29:37.277513+09:00",
+  "articles": [
+    {
+      "id": "hn_49372583",
+      "source": "hackernews",
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "score": 809,
+      "comments": 273,
+      "raw_description": "",
+      "tags": [
+        "WebAudio",
+        "Fingerprinting",
+        "Bluetooth",
+        "Privacy"
+      ],
+      "fetched_at": "2026-08-21T07:29:36.471134+09:00",
+      "summary": "AliExpressは、WebAudio APIを利用したフィンガープリンティング技術をウェブサイトに実装しています。この技術は、ユーザーのブラウザ設定やハードウェア情報を収集するために使用され、Bluetoothのマルチポイント接続機能と干渉し、接続の不安定化や切断を引き起こす可能性があります。このフィンガープリンティングは、ユーザーのプライバシー侵害のリスクを高めるだけでなく、日常的なデバイス利用における利便性を損なう可能性があるため、注意が必要です。"
+    },
+    {
+      "id": "hatena_09005",
+      "source": "hatena",
+      "title": "はてなパークス",
+      "url": "https://p.hatena.ne.jp/",
+      "score": 635,
+      "comments": 0,
+      "raw_description": "本日（2026/8/20）より「はてなパークス」を正式サービスとして公開しました。 はてなから久しぶりの個人ユーザー向けサービスのリリースです。新サービス「はてなパークス」は、趣味・カルチャーから、生活・仕事など身の回りの話題について、意見を共有・交換するディスカッションフォーラムです。スレッドやコメント...",
+      "tags": [
+        "はてなパークス",
+        "ディスカッションフォーラム",
+        "コミュニティサービス",
+        "個人向けサービス"
+      ],
+      "fetched_at": "2026-08-21T07:29:34.765299+09:00",
+      "summary": "はてなは、個人ユーザー向けの新しいディスカッションフォーラムサービス「はてなパークス」を正式リリースしました。このサービスは、趣味やカルチャー、生活、仕事など、幅広いトピックに関する意見交換を目的としています。スレッド形式での議論を通じて、ユーザー間の情報共有とコミュニティ形成を促進する点が特徴です。個人向けサービスとしては久しぶりの展開であり、多様な関心を持つユーザー層の活性化が期待されます。"
+    },
+    {
+      "id": "hn_49362689",
+      "source": "hackernews",
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "score": 493,
+      "comments": 144,
+      "raw_description": "",
+      "tags": [
+        "HTML",
+        "CSS Grid",
+        "Web Components",
+        "SVG"
+      ],
+      "fetched_at": "2026-08-21T07:29:36.730632+09:00",
+      "summary": "HTMLの最新機能を紹介する記事です。CSS GridやFlexboxなどのレイアウト技術、Web Componentsによるコンポーネント化、SVGの活用、そしてJavaScriptとの連携強化など、HTML単体または標準技術の組み合わせで実現できる高度な表現力とインタラクティブ性を解説しています。これにより、開発者はよりリッチで効率的なWebアプリケーションを構築できるようになります。"
+    },
+    {
+      "id": "hn_49347543",
+      "source": "hackernews",
+      "title": "I like 'em thick: an apology to my English teachers",
+      "url": "https://www.experimental-history.com/p/i-like-em-thick",
+      "score": 480,
+      "comments": 230,
+      "raw_description": "",
+      "tags": [
+        "英文法",
+        "副詞句",
+        "文章構成",
+        "言語表現"
+      ],
+      "fetched_at": "2026-08-21T07:29:35.628428+09:00",
+      "summary": "この記事は、英語の文法における「厚み」の概念、特に副詞句の配置について、ユーモラスかつ個人的な視点から論じています。筆者は、文の構造を豊かにするために副詞句を効果的に配置することの重要性を強調し、それが英語教師への謝罪にもつながる理由を説明しています。技術的な側面というよりは、言語表現の洗練と読者体験の向上に焦点を当てた内容です。"
+    },
+    {
+      "id": "hn_49379550",
+      "source": "hackernews",
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "score": 435,
+      "comments": 73,
+      "raw_description": "",
+      "tags": [
+        "Aaron Swartz",
+        "データスクレイピング",
+        "Meta",
+        "規制"
+      ],
+      "fetched_at": "2026-08-21T07:29:36.245618+09:00",
+      "summary": "Aaron Swartz氏の事件は、データスクレイピングに対する過剰な刑事訴追の事例として知られています。一方、Meta（旧Facebook）のような大手テック企業は、同様のデータ収集行為を法的な問題なく行っています。この対比は、データ収集における規制の不均一性や、企業規模による法の適用の違いを示唆しており、データプライバシーとアクセスに関する議論において重要な論点となっています。"
+    },
+    {
+      "id": "hatena_01356",
+      "source": "hatena",
+      "title": "はてな、創業25周年を迎えた節目に新サービス「はてなパークス」を正式リリース - プレスリリース - 株式会社はてな",
+      "url": "https://hatena.co.jp/press/release/entry/2026/08/20/163000",
+      "score": 402,
+      "comments": 0,
+      "raw_description": "株式会社はてな（代表取締役社長：栗栖義臣／本社所在地：京都市中京区）は、本日2026年8月20日、ディスカッションフォーラム「はてなパークス」を正式リリースしました。2026年5月26日より事前登録ユーザーを対象に提供していたクローズドベータを経て、本日よりはてなIDをお持ちのすべてのユーザーにご利用いただけま...",
+      "tags": [
+        "はてな",
+        "はてなパークス",
+        "ディスカッションフォーラム",
+        "コミュニティ"
+      ],
+      "fetched_at": "2026-08-21T07:29:34.765321+09:00",
+      "summary": "はてなが創業25周年を機に、ディスカッションフォーラム「はてなパークス」を正式リリースしました。本サービスは、事前登録ユーザーを対象としたクローズドベータを経て、はてなIDを持つ全てのユーザーが利用可能となっています。これにより、ユーザー間の活発な議論や情報交換の場を提供し、コミュニティの活性化を目指すものと考えられます。"
+    },
+    {
+      "id": "hn_49378957",
+      "source": "hackernews",
+      "title": "The August 17 outage, and the work ahead",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "score": 171,
+      "comments": 184,
+      "raw_description": "",
+      "tags": [
+        "ネットワーク障害",
+        "ソフトウェアバグ",
+        "インフラ信頼性",
+        "ルーティング"
+      ],
+      "fetched_at": "2026-08-21T07:29:35.164564+09:00",
+      "summary": "8月17日に発生した大規模障害の原因は、ネットワーク機器のソフトウェアバグであることが特定されました。このバグは、特定の条件下でルーティングテーブルの不整合を引き起こし、広範囲のサービス停止につながりました。現在、根本原因の修正と再発防止策の実施が進められており、今後のネットワークインフラの信頼性向上に向けた重要な取り組みとなっています。"
+    },
+    {
+      "id": "hn_49378768",
+      "source": "hackernews",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "score": 166,
+      "comments": 91,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "コーディング",
+        "開発ツール",
+        "Huzzah"
+      ],
+      "fetched_at": "2026-08-21T07:29:36.975073+09:00",
+      "summary": "Huzzahは、AIを活用した新しいコーディングアプローチを提案するプロジェクトです。このツールは、開発者がAIとより効果的に連携し、コード生成やデバッグのプロセスを効率化することを目指しています。AIの能力を最大限に引き出すことで、ソフトウェア開発の生産性向上に貢献する可能性を秘めています。"
+    },
+    {
+      "id": "hn_49377853",
+      "source": "hackernews",
+      "title": "I should have loved biology (2020)",
+      "url": "https://jsomers.net/i-should-have-loved-biology/",
+      "score": 159,
+      "comments": 63,
+      "raw_description": "",
+      "tags": [
+        "生物学",
+        "テクノロジー",
+        "AI",
+        "データサイエンス"
+      ],
+      "fetched_at": "2026-08-21T07:29:35.882706+09:00",
+      "summary": "この記事は、2020年に書かれたもので、筆者が生物学を学ぶことの重要性について後悔を表明しています。現代のテクノロジー、特にAIやデータサイエンスの分野では、生物学的な知識がますます重要になっていることを指摘しています。生物学の理解は、複雑なシステムをモデル化し、データから洞察を得る上で不可欠であり、技術者にとって新たな視点と応用可能性をもたらすとしています。"
+    },
+    {
+      "id": "hn_49378243",
+      "source": "hackernews",
+      "title": "Consumer Rights Wiki",
+      "url": "https://consumerrights.wiki/w/Main_Page",
+      "score": 136,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [
+        "消費者権利",
+        "オンラインリソース",
+        "情報集約",
+        "ITリテラシー"
+      ],
+      "fetched_at": "2026-08-21T07:29:35.405446+09:00",
+      "summary": "Consumer Rights Wikiは、消費者権利に関する情報を集約したオンラインリソースです。製品やサービスに関する権利、購入後のトラブル、返品・交換のルール、オンラインショッピング特有の注意点など、多岐にわたるトピックを網羅しています。技術者にとっても、自身が利用するサービスや開発する製品が消費者の権利にどう関連するかを理解する上で、参照価値のある情報源となり得ます。"
+    },
+    {
+      "id": "hatena_31752",
+      "source": "hatena",
+      "title": "アマゾンに新機能「購入して配送に追加」 購入手続きが不要に",
+      "url": "https://www.watch.impress.co.jp/docs/news/2134299.html",
+      "score": 74,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Amazon",
+        "ECサイト",
+        "購入体験",
+        "利便性向上"
+      ],
+      "fetched_at": "2026-08-21T07:29:34.765359+09:00",
+      "summary": "Amazonは、購入手続きを簡略化する新機能「購入して配送に追加」を導入しました。この機能により、ユーザーは商品をカートに追加する代わりに、ワンクリックで購入し、既存の配送に追加できるようになります。これにより、複数回にわたる購入時の手間が大幅に削減され、利便性が向上します。特に、頻繁にAmazonを利用するユーザーや、追加購入をスムーズに行いたい場合に有効な機能です。"
+    },
+    {
+      "id": "hatena_69799",
+      "source": "hatena",
+      "title": "AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計",
+      "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
+      "score": 62,
+      "comments": 0,
+      "raw_description": "こんにちは、松尾研究所 データサイエンスチームのマネージャーの浮田です。 最近のAI Agentは、一般的な調査や実装であればかなり高い水準でこなせるようになってきました。一方で、実際の社内業務に必要な社内固有の知識は持っておらず、非常に優秀だが、まだオンボーディングを受けていない新入社員に近い状態です。 ...",
+      "tags": [],
+      "fetched_at": "2026-08-21T07:29:34.765344+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_53772",
+      "source": "hatena",
+      "title": "「FastCopy」のシェル統合が強化、D&D・コピペで「エクスプローラー」の代わりに高速ファイル処理／「CET」「CFG」の有効化などによるセキュリティ強化も図られたv5.12.0が公開",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2134059.html",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-08-21T07:29:34.765352+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_62151",
+      "source": "hatena",
+      "title": "現実的なセキュリティ体制の構築 限られたリソースの中で成果を最大化する「選択と集中」",
+      "url": "https://speakerdeck.com/demaecan/app-architecture-transformation",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "Practical Tips for Bootstrapping Information Extraction Pipelines",
+      "tags": [
+        "情報抽出",
+        "セキュリティ",
+        "リソース管理",
+        "パイプライン構築"
+      ],
+      "fetched_at": "2026-08-21T07:29:34.765337+09:00",
+      "summary": "限られたリソースで情報抽出パイプラインを構築する際の現実的なセキュリティ体制構築について解説しています。重要なのは、全ての要素に完璧なセキュリティを施すのではなく、リスク評価に基づき「選択と集中」でリソースを配分し、成果を最大化することです。これにより、効率的かつ効果的なセキュリティ対策が可能となります。"
+    },
+    {
+      "id": "hatena_79662",
+      "source": "hatena",
+      "title": "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた｜ふちゃぎ",
+      "url": "https://note.com/fuchagi/n/n42c43cfe0ff0",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた 「LLMは、次に来る単語を確率的に予測しているだけ」——TLに流れていたこの説明は正しい。GPTもClaudeも、事前学習でやっていることは突き詰めれば次トークンの予測であり、目的関数にそれ以上の何かは書かれてい...",
+      "tags": [
+        "LLM",
+        "創発",
+        "自然言語処理",
+        "AI研究"
+      ],
+      "fetched_at": "2026-08-21T07:29:34.765330+09:00",
+      "summary": "大規模言語モデル（LLM）が、単なる次単語予測を超えて数学の証明のような高度なタスクを実行できるメカニズムについて、創発研究の観点から解説しています。LLMの基盤技術である事前学習における次トークン予測というシンプルな目的関数にもかかわらず、モデルの規模が大きくなるにつれて予期せぬ能力が出現する現象（創発）が、数学的推論能力の根源にある可能性が示唆されています。この研究は、AIの能力の限界と可能性を理解する上で重要です。"
+    },
+    {
+      "id": "hatena_17496",
+      "source": "hatena",
+      "title": "脱構築される欲望：淫夢MAD文化におけるユーモア、クィア批評、そしてホモフォビアの克服｜speed!!",
+      "url": "https://note.com/saboten_and/n/n733304031e1f",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "要約 本稿は、日本のインターネットサブカルチャーにおける独特な現象「淫夢」を、脱構築とクィア理論の視点から分析し、ホモフォビアの克服やユーモアの変遷について探求する。「淫夢」は2001年のゲイポルノ作品『真夏の夜の淫夢』を起源とし、インターネットミームやMAD文化を通じて複雑な文化現象へと進化した。本稿...",
+      "tags": [
+        "淫夢",
+        "クィア理論",
+        "インターネットサブカルチャー",
+        "ホモフォビア"
+      ],
+      "fetched_at": "2026-08-21T07:29:34.765366+09:00",
+      "summary": "本稿は、インターネットサブカルチャーで広がる「淫夢」現象を、脱構築とクィア理論の視点から分析する。2001年のゲイポルノ作品を起源とする「淫夢」は、MAD動画などを通じてミーム化し、ユーモア、クィア批評、ホモフォビアの克服といった多層的な文化を形成してきた。この現象を分析することで、インターネット上の性的マイノリティ表現とその受容の複雑性を理解する手がかりを提供する。"
+    },
+    {
+      "id": "reddit_47534",
+      "source": "reddit",
+      "title": "Turns are Better than Radians",
+      "url": "https://www.reddit.com/r/programming/comments/1vt2lzu/turns_are_better_than_radians/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Iamsodarncool\"> /u/Iamsodarncool </a> <br /> <span><a href=\"https://www.computerenhance.com/p/turns-are-better-than-radians\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vt2lzu/turns_are_better_than_radians/\">[comments]</a></span>",
+      "tags": [
+        "角度単位",
+        "コンピュータグラフィックス",
+        "ロボティクス",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-21T07:29:37.277455+09:00",
+      "summary": "この記事は、コンピュータグラフィックスやロボティクスなどの分野で一般的に使用される角度の単位であるラジアンと比較して、ターン（円周率の2倍）を使用することの利点を論じています。ターンは、1回転を1単位として表すため、直感的で理解しやすく、特に回転の回数や方向を扱う場合にコードの可読性と保守性を向上させます。これにより、計算ミスを減らし、開発効率を高める可能性があります。"
+    },
+    {
+      "id": "reddit_10390",
+      "source": "reddit",
+      "title": "Music theory for programmers",
+      "url": "https://www.reddit.com/r/programming/comments/1vtm44m/music_theory_for_programmers/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lukehaas\"> /u/lukehaas </a> <br /> <span><a href=\"https://runjs.app/blog/music-theory-for-programmers\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vtm44m/music_theory_for_programmers/\">[comments]</a></span>",
+      "tags": [
+        "音楽理論",
+        "プログラミング",
+        "アルゴリズム",
+        "論理的思考"
+      ],
+      "fetched_at": "2026-08-21T07:29:37.277475+09:00",
+      "summary": "この記事は、プログラマーが音楽理論の概念を理解することで、コードの構造やアルゴリズム設計に新たな視点を得られる可能性を示唆しています。例えば、音楽のハーモニーやリズムのパターンは、データ構造やアルゴリズムの効率化に応用できる場合があります。音楽理論の学習は、プログラマーの論理的思考能力をさらに高め、創造的な問題解決能力を刺激するでしょう。"
+    },
+    {
+      "id": "reddit_46739",
+      "source": "reddit",
+      "title": "Quake Shareware, a CD-ROM just a little too full - Fabien Sanglard",
+      "url": "https://www.reddit.com/r/programming/comments/1vtih22/quake_shareware_a_cdrom_just_a_little_too_full/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NXGZ\"> /u/NXGZ </a> <br /> <span><a href=\"https://fabiensanglard.net/quake_shareware_cd/index.html\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vtih22/quake_shareware_a_cdrom_just_a_little_too_full/\">[comments]</a></span>",
+      "tags": [
+        "Quake",
+        "Shareware",
+        "CD-ROM",
+        "Game Development"
+      ],
+      "fetched_at": "2026-08-21T07:29:37.277484+09:00",
+      "summary": "この記事は、1996年にリリースされたQuakeのシェアウェア版CD-ROMに焦点を当てています。CD-ROMには、ゲーム本体だけでなく、開発者によるコメントやソースコードの一部、さらには当時の技術トレンドを示す他のソフトウェアも収録されており、現代の基準から見ると非常に情報量が多い構成でした。このCD-ROMは、ゲーム開発の初期段階における技術的な側面や、当時のPCソフトウェア配布文化を理解する上で貴重な資料となっています。"
+    },
+    {
+      "id": "reddit_49522",
+      "source": "reddit",
+      "title": "Supply chain attack on arrayref",
+      "url": "https://www.reddit.com/r/programming/comments/1vtm22r/supply_chain_attack_on_arrayref/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bowl2564\"> /u/Successful_Bowl2564 </a> <br /> <span><a href=\"https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vtm22r/supply_chain_attack_on_arrayref/\">[comments]</a></span>",
+      "tags": [
+        "Rust",
+        "サプライチェーン攻撃",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-08-21T07:29:37.277490+09:00",
+      "summary": "Rustのクレート`arrayref`がサプライチェーン攻撃を受け、悪意のあるコードが混入されました。この攻撃により、`arrayref`の依存関係を持つプロジェクトに影響が出る可能性があります。開発者は、依存関係の安全性を確認し、必要に応じてアップデートを適用することが重要です。"
+    }
+  ]
+}
