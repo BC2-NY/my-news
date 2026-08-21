@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T07:27:00.992475+09:00",
+  "articles": [
+    {
+      "id": "hn_49388154",
+      "source": "hackernews",
+      "title": "Kagi added a setting for removing paywalled links from search results",
+      "url": "https://kagi.com/changelog#11296",
+      "score": 925,
+      "comments": 317,
+      "raw_description": "",
+      "tags": [
+        "Kagi",
+        "検索エンジン",
+        "有料コンテンツ",
+        "情報アクセス"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.180155+09:00",
+      "summary": "Kagiは、検索結果から有料コンテンツへのリンクを除外する設定を追加しました。これにより、ユーザーはサブスクリプションを必要とせずにアクセスできる情報に絞って検索結果を表示させることが可能になります。この機能は、情報へのアクセス性を高め、ユーザーがより効率的に目的の情報を見つけるのに役立ちます。"
+    },
+    {
+      "id": "hn_49389430",
+      "source": "hackernews",
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "score": 410,
+      "comments": 187,
+      "raw_description": "",
+      "tags": [
+        "社会復帰支援",
+        "AI",
+        "犯罪者更生",
+        "プラットフォーム"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.612140+09:00",
+      "summary": "「Felony Bench」は、犯罪者の社会復帰を支援するための新しいプラットフォームです。このシステムは、過去の犯罪歴を持つ個人が、雇用、住居、教育などのリソースにアクセスするのを容易にすることを目的としています。AIを活用したマッチングアルゴリズムにより、個々のスキルやニーズに合った支援を提供し、再犯率の低下と社会統合の促進を目指しています。"
+    },
+    {
+      "id": "hn_49387570",
+      "source": "hackernews",
+      "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "score": 384,
+      "comments": 43,
+      "raw_description": "",
+      "tags": [
+        "情報漏洩",
+        "セキュリティ",
+        "開発ミス",
+        "機密情報"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.545619+09:00",
+      "summary": "開発者が誤って、数千件の電話番号が軍事基地に発信されていたログを公開してしまった。このログには、発信元電話番号、発信日時、発信先の軍事基地の電話番号が含まれており、機密情報へのアクセスや、基地の通信インフラに対する潜在的な脆弱性を示す可能性がある。この事態は、機密データ管理の重要性と、開発プロセスにおけるセキュリティ対策の必要性を浮き彫りにしている。"
+    },
+    {
+      "id": "hn_49386895",
+      "source": "hackernews",
+      "title": "Felony charges for citizen deleting phone data at US Border",
+      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+      "score": 369,
+      "comments": 466,
+      "raw_description": "",
+      "tags": [
+        "国境管理",
+        "プライバシー",
+        "デジタルデータ",
+        "法的問題"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.813409+09:00",
+      "summary": "米国国境で、当局の要求に応じて携帯電話のデータを削除した市民が、連邦法違反の罪で起訴される事案が発生しました。これは、国境における電子機器の検査権限と個人のプライバシー保護との間の緊張関係を浮き彫りにするものです。法執行機関は、国境管理上の安全保障上の懸念からデータへのアクセスを求めていますが、市民はデータ削除によってこれに抵抗しました。この事件は、国境でのデジタルプライバシーに関する法的な議論をさらに深める可能性があります。"
+    },
+    {
+      "id": "hn_49390427",
+      "source": "hackernews",
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "score": 343,
+      "comments": 119,
+      "raw_description": "",
+      "tags": [
+        "Kobo",
+        "Linux",
+        "オープンソース",
+        "電子書籍リーダー"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.427933+09:00",
+      "summary": "Kobo電子書籍リーダーが、オープンソースのLinuxベースのオペレーティングシステムを採用したことで、サードパーティ製アプリケーションの実行が可能になりました。これにより、ユーザーは標準的な電子書籍リーダーの機能を超えて、カスタマイズされたアプリをインストールし、読書体験を拡張できるようになります。この変更は、デバイスの柔軟性を高め、開発者コミュニティによる新たな機能追加の可能性を開くものです。"
+    },
+    {
+      "id": "hatena_67102",
+      "source": "hatena",
+      "title": "Anthropic、「Claude」の学習サイト「Claude Academy」を無償開設／AIの基礎から「Code」「Cowork」まで。興味や学習状況に応じてさまざまなコースを提案",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2134400.html",
+      "score": 265,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI学習",
+        "Claude Academy"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.253149+09:00",
+      "summary": "Anthropicは、AIモデル「Claude」の学習プラットフォーム「Claude Academy」を無償で公開しました。このプラットフォームでは、AIの基礎知識から、Claudeのコーディング支援機能「Code」や共同作業機能「Cowork」に関する実践的なコースまで、幅広い学習コンテンツを提供しています。ユーザーは自身の興味やスキルレベルに合わせて最適なコースを選択でき、AI技術の理解と活用能力の向上を目指せます。"
+    },
+    {
+      "id": "hn_49357530",
+      "source": "hackernews",
+      "title": "AI boosted homework scores, then exam scores dropped: study",
+      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+      "score": 189,
+      "comments": 244,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "教育",
+        "学習効果",
+        "テクノロジー"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.365641+09:00",
+      "summary": "AIによる宿題支援が成績向上に寄与する一方で、その後の試験成績低下を招く可能性が研究で示唆されました。AIへの過度な依存が、学生自身の問題解決能力や深い理解の定着を妨げている可能性が指摘されています。この結果は、教育現場におけるAIツールの適切な活用方法と、学習プロセスにおける人間の役割の重要性を再考させるものです。"
+    },
+    {
+      "id": "hn_49392200",
+      "source": "hackernews",
+      "title": "Scientists release biggest 2D map of the universe",
+      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+      "score": 101,
+      "comments": 30,
+      "raw_description": "",
+      "tags": [
+        "宇宙",
+        "銀河",
+        "大規模構造",
+        "暗黒エネルギー"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.997472+09:00",
+      "summary": "科学者たちは、宇宙の観測史上最大の2次元マップを公開しました。このマップは、約1億個の銀河の位置と特性を詳細に記録しており、宇宙の大規模構造や暗黒エネルギーの進化に関する理解を深める上で重要なデータとなります。特に、宇宙の膨張率の測定精度向上に貢献し、標準宇宙モデルの検証に新たな知見をもたらすことが期待されます。"
+    },
+    {
+      "id": "hatena_64608",
+      "source": "hatena",
+      "title": "或るログ研究者",
+      "url": "https://zenn.dev/dmikurube/articles/a-logresearch-er",
+      "score": 53,
+      "comments": 0,
+      "raw_description": "Embulk というオープンソース・ソフトウェアのメンテナーをやっていました。 「やっていました」と過去形なのは、いちおうまだメンテナー権限を持ってはいるものの、プロジェクトは「メンテナンス・モード」として実質的にメンテナンスを終了しているし、個人としてもなかば降りているからです。 今から二年ほど前の 202...",
+      "tags": [
+        "Embulk",
+        "OSS",
+        "メンテナンスモード",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.253167+09:00",
+      "summary": "Embulkの元メンテナーが、同オープンソースソフトウェアの現状と自身の関わりについて語っています。Embulkはメンテナンスモードに入り、実質的なメンテナンスが終了している状況です。この記事は、OSSプロジェクトのライフサイクルやメンテナーの役割について考察する上で参考になります。"
+    },
+    {
+      "id": "hn_49392331",
+      "source": "hackernews",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "score": 38,
+      "comments": 34,
+      "raw_description": "",
+      "tags": [
+        "Claude Mythos 5",
+        "サイバーセキュリティ",
+        "AI",
+        "脅威インテリジェンス"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.734347+09:00",
+      "summary": "Anthropicは、サイバーセキュリティに特化した大規模言語モデル「Claude Mythos 5」の能力を、より多くのセキュリティ担当者が利用できるよう拡張しました。これにより、脅威インテリジェンスの分析、脆弱性評価、インシデント対応などのタスクにおいて、高度なAI支援が可能になります。この拡張は、セキュリティチームの効率と効果を高め、複雑化するサイバー攻撃への対応能力を強化する上で重要です。"
+    },
+    {
+      "id": "hatena_26345",
+      "source": "hatena",
+      "title": "「Claude Code×GPT」自律ループが凄すぎ、仕事が“3つ”に減る5ステップ",
+      "url": "https://www.sbbit.jp/article/cont1/186558",
+      "score": 25,
+      "comments": 0,
+      "raw_description": "「バイブコーディング」の次に来るAI開発の形が、早くも見え始めている。いま筆者の開発作業では、直したい点や作りたい機能を短い文章で伝え、自作の自動運転コマンドを起動するだけだ。その後は放っておけば、設計書の作成から実装、テスト、本番への反映まで自動で進み、筆者は途中で上がってくる報告に目を通すだけ...",
+      "tags": [
+        "AI開発",
+        "自律ループ",
+        "Claude Code",
+        "GPT"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.253121+09:00",
+      "summary": "Claude CodeとGPTを組み合わせた自律的な開発ループが、開発プロセスを大幅に効率化する可能性を示唆しています。この手法では、開発者は修正点や新機能の指示をAIに与えるだけで、設計、実装、テスト、本番反映までの一連の作業が自動化されます。これにより、開発者の作業は報告の確認などに限定され、開発サイクルの短縮と生産性向上が期待できます。"
+    },
+    {
+      "id": "hatena_19624",
+      "source": "hatena",
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "score": 25,
+      "comments": 0,
+      "raw_description": "HTML has been gobbling up swathes of what used to be JavaScript’s remit. This page lists a bunch of dynamic functionality that we can now achieve with just HTML. Update 2026-08-20: I originally built this page in one hour during HTML Day 2026 to write and celebrate HTML, but I’ve since made some ...",
+      "tags": [],
+      "fetched_at": "2026-08-22T07:26:59.253214+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_29855",
+      "source": "hatena",
+      "title": "Apple のユニファイドメモリは何を実現したのか ── hUMA との比較による実態整理",
+      "url": "https://resilient-empanada-22de5d.netlify.app/",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "Apple のユニファイドメモリは 何を実現したのか hUMA との比較による実態整理 ── 共有されているのは物理メモリであって、アドレス空間ではない 要旨 Apple はユニファイドメモリアーキテクチャ（UMA）を「CPU と GPU が同一のメモリを共有し、コピーを省略できる」と説明してきた。この説明は虚偽ではないが、しばしば...",
+      "tags": [],
+      "fetched_at": "2026-08-22T07:26:59.253175+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_92213",
+      "source": "hatena",
+      "title": "AIで生産性が3倍になった私たちが、チームを置き去りにした話",
+      "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "「すぐには理解できないが、正しいことを言っているのだと思う」 週次の報告会で、上司がそう言った。 私はAIで作ったスライドとHTMLレポートを画面に映していた。上司は内容を否定しなかった。むしろ、正しいと言ってくれた。理解はできないけれど、正しいのだと思う、と。 そのときの私は、それを好意的な反応として受...",
+      "tags": [
+        "AI活用",
+        "生産性向上",
+        "組織的課題",
+        "DX"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.253159+09:00",
+      "summary": "AIを活用することで、個人の生産性が3倍向上した事例を紹介しています。AIによって生成されたスライドやレポートは、上司からは「理解はできないが正しい」と評価され、その有効性が示唆されています。しかし、チーム全体の理解や連携が追いつかず、個人だけが先行してしまう状況が課題として浮き彫りになっています。この事例は、AI導入における組織的な課題と、その解決策の重要性を示唆しています。"
+    },
+    {
+      "id": "hatena_50680",
+      "source": "hatena",
+      "title": "Bun、バージョン1.4をリリース ——初のRust実装版 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/08/bun-1.4",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "Bunチームは2026年8月20日、JavaScript／TypeScript向けランタイム兼ツールキット「Bun」のバージョン1.4をリリースした。Bun本体をZigからRustへ書き直した初のリリースで、Node.jsとの互換性を高めたほか、CPU・メモリ使用量を削減し、起動を高速化した。また、今回のリリースでは2,900件を超えるIssueを修正した。公...",
+      "tags": [
+        "Bun",
+        "Rust",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.253183+09:00",
+      "summary": "Bun v1.4がリリースされ、ランタイム本体がZigからRustへ書き換えられました。この変更により、Node.jsとの互換性が向上し、CPU・メモリ使用量の削減、起動速度の向上が実現しました。2,900件以上のIssue修正も含まれており、パフォーマンスと安定性の両面で改善が図られています。"
+    },
+    {
+      "id": "hatena_42229",
+      "source": "hatena",
+      "title": "React 19.3 browser() APIの使いみち～FUNSTACK Routerの場合～",
+      "url": "https://zenn.dev/uhyo/articles/react-use-browser-usage",
+      "score": 5,
+      "comments": 0,
+      "raw_description": "皆さんこんにちは。最近、React公式ドキュメントにbrowser() APIの記事が追加されました。この記事公開時点ではまだ正式版のReactでは使用できませんが、次バージョンのReact 19.3で利用可能になると見込まれています。 この記事では、筆者が開発しているOSS FUNSTACK Routerにさっそくこの browser() APIを導入してみた...",
+      "tags": [
+        "React",
+        "browser() API",
+        "FUNSTACK Router",
+        "SSR"
+      ],
+      "fetched_at": "2026-08-22T07:26:59.253204+09:00",
+      "summary": "React 19.3で導入予定の`browser()` APIは、ブラウザ環境でのみ実行されるコードを定義するための新しい機能です。これにより、サーバーサイドレンダリング（SSR）やクライアントサイドレンダリング（CSR）といった異なる環境で、実行したい処理を明確に分離することが可能になります。OSSであるFUNSTACK Routerへの導入事例を通じて、このAPIがルーティングライブラリなどの開発において、環境固有のロジックを安全かつ効率的に管理する上でどのように役立つかが示されています。"
+    },
+    {
+      "id": "reddit_92517",
+      "source": "reddit",
+      "title": "Finding a hidden Mersenne Twister implementation inside a 15 year old game binary",
+      "url": "https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JizosKasa\"> /u/JizosKasa </a> <br /> <span><a href=\"https://medium.com/@jizoskasa/i-reverse-engineered-plants-vs-zombies-to-answer-one-very-specific-question-557637a68a3e\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vuk4b5/finding_a_hidden_mersenne_twister_implementation/\">[comments]</a></span>",
+      "tags": [
+        "リバースエンジニアリング",
+        "Mersenne Twister",
+        "ゲーム開発",
+        "バイナリ解析"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.992411+09:00",
+      "summary": "15年前のゲーム「Plants vs. Zombies」のバイナリから、Mersenne Twister疑似乱数生成器の実装が発見されました。この発見は、古いゲームバイナリに隠された技術的詳細を明らかにするリバースエンジニアリングの価値を示しています。Mersenne Twisterは、その長い周期と高品質な乱数生成能力から、シミュレーションや暗号学など幅広い分野で利用されており、ゲーム開発においても、ランダムなイベント生成やマップ生成などに用いられることがあります。この発見は、当時のゲーム開発者がどのように乱数生成器を組み込んでいたかを知る手がかりとなります。"
+    },
+    {
+      "id": "reddit_60436",
+      "source": "reddit",
+      "title": "Pitfalls of Benchmarking on Modern Systems",
+      "url": "https://www.reddit.com/r/programming/comments/1vu7o3x/pitfalls_of_benchmarking_on_modern_systems/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br /> <span><a href=\"https://stefan-marr.de/2026/08/pitfalls-of-benchmarking-on-modern-systems/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vu7o3x/pitfalls_of_benchmarking_on_modern_systems/\">[comments]</a></span>",
+      "tags": [
+        "ベンチマーク",
+        "パフォーマンス測定",
+        "CPU",
+        "システムアーキテクチャ"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.992434+09:00",
+      "summary": "現代のシステムにおけるベンチマークの落とし穴について解説した記事です。CPUの周波数スケーリング、ターボブースト、キャッシュの挙動、並列処理、OSのスケジューリングなど、現代のハードウェアとソフトウェアが持つ複雑な要因が、単純な測定結果を歪める可能性があることを指摘しています。これらの要因を理解せずにベンチマークを行うと、誤った性能評価につながるため、再現性のある結果を得るためには、これらの影響を考慮した慎重な測定と分析が不可欠です。"
+    },
+    {
+      "id": "reddit_79077",
+      "source": "reddit",
+      "title": "Building Mini Spark, a Tiny Distributed Computing Engine",
+      "url": "https://www.reddit.com/r/programming/comments/1vuctzc/building_mini_spark_a_tiny_distributed_computing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MexicanYoda45\"> /u/MexicanYoda45 </a> <br /> <span><a href=\"https://growingbits.dev/distributed-computing/building-mini-spark\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vuctzc/building_mini_spark_a_tiny_distributed_computing/\">[comments]</a></span>",
+      "tags": [
+        "分散コンピューティング",
+        "Apache Spark",
+        "システム設計",
+        "プログラミング"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.992443+09:00",
+      "summary": "この記事では、分散コンピューティングエンジンの「Mini Spark」の構築について解説しています。Apache Sparkのコアコンセプトを理解するために、小規模ながらも機能する分散処理フレームワークをゼロから開発する過程が示されています。これにより、分散システムのアーキテクチャや、タスクスケジューリング、データパーティショニングといった基本的な仕組みを深く学ぶことができます。学習目的で分散コンピューティングの原理を実践的に習得したい開発者にとって有益な内容です。"
+    },
+    {
+      "id": "reddit_99591",
+      "source": "reddit",
+      "title": "The Great Android Stack Reset: Mobile System Design History",
+      "url": "https://www.reddit.com/r/programming/comments/1vuaimm/the_great_android_stack_reset_mobile_system/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>Android, the last to arrive at the declarative UI party, took its time, until finally reaching a stable solution. Here's a rundown of the major changes in the Android System Design across the eras.</p> <p>I was away from Android for 7 years and came home to a totally strange place. This is my attempt to make sense of what happened while I was gone - how the stack reset four times (Activities -&gt; MVP/RxJava -&gt; Architecture Components -&gt; Compose) and why e",
+      "tags": [
+        "Android",
+        "UIデザイン",
+        "システム設計",
+        "宣言的UI"
+      ],
+      "fetched_at": "2026-08-22T07:27:00.992450+09:00",
+      "summary": "AndroidのUIシステム設計は、宣言的UIのトレンドに追随する形で、長期間を経て安定したソリューションに到達しました。本記事では、Androidシステム設計における主要な変遷を時代ごとに解説しています。特に、7年ぶりにAndroid開発に戻った筆者の視点から、その変化と進化の背景を深く掘り下げています。"
+    }
+  ]
+}
