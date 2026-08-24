@@ -1,0 +1,331 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:28:17.637853+09:00",
+  "articles": [
+    {
+      "id": "hn_49419237",
+      "source": "hackernews",
+      "title": "How Europe is killing makers and micro-entrepreneurs",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "score": 966,
+      "comments": 612,
+      "raw_description": "",
+      "tags": [
+        "EU規制",
+        "RoHS",
+        "REACH",
+        "マイクロ起業家"
+      ],
+      "fetched_at": "2026-08-25T07:28:16.817119+09:00",
+      "summary": "欧州連合（EU）における新たな規制、特にRoHS指令やREACH規則の厳格化が、小規模な電子機器メーカーやマイクロ起業家にとって大きな負担となっている。これらの規制は、特定の化学物質の使用制限や製品登録を義務付けており、中小企業にとってはコンプライアンスコストの増大や、製品開発の遅延、さらには市場からの撤退を余儀なくされるケースも生じている。結果として、イノベーションの担い手となりうる個人や小規模事業者の活動が抑制され、欧州における技術開発のエコシステム全体に悪影響を及ぼす懸念がある。"
+    },
+    {
+      "id": "hn_49420873",
+      "source": "hackernews",
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "score": 653,
+      "comments": 448,
+      "raw_description": "",
+      "tags": [
+        "Xiaomi",
+        "CPU",
+        "Apple",
+        "Performance"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.586474+09:00",
+      "summary": "Xiaomiは、同社が開発した新しいCPUが、シングルスレッド性能においてAppleのコアに匹敵し、マルチスレッド性能ではそれを大幅に上回ることを発表しました。このCPUは、高性能コンピューティングやAI処理など、要求の厳しいタスクにおいて、デバイスのパフォーマンスを飛躍的に向上させる可能性があります。これにより、スマートフォンやその他のデバイスにおける処理能力の新たな基準が設定されることが期待されます。"
+    },
+    {
+      "id": "hn_49421158",
+      "source": "hackernews",
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "score": 477,
+      "comments": 188,
+      "raw_description": "",
+      "tags": [
+        "MS Paint",
+        "Microsoft Photos",
+        "Watermarking",
+        "GUID"
+      ],
+      "fetched_at": "2026-08-25T07:28:16.336375+09:00",
+      "summary": "Microsoft Paintとフォトアプリは、ローカルで生成された画像に対しても、目に見えない形でGUID（Globally Unique Identifier）による透かしを埋め込むようになりました。この変更は、画像生成の出所を追跡可能にするためのもので、プライバシーや著作権管理の観点から重要視される可能性があります。ただし、この透かしは画像ファイル内に直接埋め込まれるため、画像編集ソフトで容易に除去される可能性も指摘されています。"
+    },
+    {
+      "id": "hatena_28933",
+      "source": "hatena",
+      "title": "アンソロピック、AIの使い方を学べる「Claude Academy」　日本語対応",
+      "url": "https://www.watch.impress.co.jp/docs/news/2134964.html",
+      "score": 446,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI活用",
+        "プロンプトエンジニアリング"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.239738+09:00",
+      "summary": "Anthropicは、AIチャットボット「Claude」の活用方法を学べるオンライン学習プラットフォーム「Claude Academy」を日本語で提供開始しました。このプラットフォームでは、プロンプトエンジニアリングの基本から応用まで、Claudeを効果的に使いこなすための知識やスキルを習得できます。AIの活用能力向上を目指す開発者やビジネスパーソンにとって、Claudeの潜在能力を最大限に引き出すための実践的な学習機会となります。"
+    },
+    {
+      "id": "hn_49421489",
+      "source": "hackernews",
+      "title": "IPFS Maintainers Winding Down",
+      "url": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+      "score": 295,
+      "comments": 147,
+      "raw_description": "",
+      "tags": [
+        "IPFS",
+        "Protocol Labs",
+        "分散型ストレージ",
+        "Web3"
+      ],
+      "fetched_at": "2026-08-25T07:28:17.058283+09:00",
+      "summary": "IPFS（InterPlanetary File System）の主要な開発チームであるProtocol Labsは、IPFSのコア開発とメンテナンスを縮小する方針を発表しました。これは、IPFSの普及とエコシステムの成熟に伴い、コミュニティ主導の開発体制への移行を目指すものです。今後は、より広範なコミュニティからの貢献を促進し、IPFSの持続的な発展を図ることで、分散型ウェブの基盤としての役割を強化していくことが期待されます。"
+    },
+    {
+      "id": "hn_49422784",
+      "source": "hackernews",
+      "title": "The entire city of San Francisco as a video game",
+      "url": "https://sf.thijs.gg/",
+      "score": 276,
+      "comments": 98,
+      "raw_description": "",
+      "tags": [
+        "都市シミュレーション",
+        "3Dモデリング",
+        "リアルタイムレンダリング",
+        "インフラ"
+      ],
+      "fetched_at": "2026-08-25T07:28:16.560967+09:00",
+      "summary": "サンフランシスコ市全体をビデオゲーム化したプロジェクトが発表されました。このプロジェクトは、都市の3Dモデルをリアルタイムでレンダリングし、物理シミュレーションを統合することで、都市のインフラや交通の流れなどをインタラクティブに体験できるものです。これにより、都市計画、災害シミュレーション、教育など、多岐にわたる分野での活用が期待されています。"
+    },
+    {
+      "id": "hatena_80010",
+      "source": "hatena",
+      "title": "「うるう秒」27年に事実上廃止へ　自転とのずれ「1時間」まで容認　10月に国際会議で採決",
+      "url": "https://www.itmedia.co.jp/news/article/2608/24/2000000718/",
+      "score": 137,
+      "comments": 0,
+      "raw_description": "1秒単位で世界の標準時を調整する「うるう秒」を事実上廃止する案について、10月13～15日にフランスで開催する国際度量衡総会（CGPM）で審議する。国際度量衡局（BIPM）の決議案では、採択されれば2027年5月20日から、うるう秒による調整を行わない「連続的な協定世界時（continuous UTC）」に移行する。 うるう秒は、原...",
+      "tags": [
+        "うるう秒",
+        "協定世界時",
+        "CGPM",
+        "時刻同期"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.239787+09:00",
+      "summary": "2027年5月20日より、うるう秒による1秒単位の時刻調整が事実上廃止される見込みです。これは、地球の自転速度の変動と原子時計に基づく協定世界時（UTC）とのずれが拡大し、最大1時間まで許容されるようになるためです。国際度量衡総会（CGPM）での採決を経て、連続的なUTCへの移行が決定される予定であり、これにより、コンピュータシステムや通信ネットワークにおける時刻同期の複雑さが軽減される可能性があります。"
+    },
+    {
+      "id": "hatena_85510",
+      "source": "hatena",
+      "title": "優秀なエンジニアが書くDesign Docは何が違うのか? - pospomeのプログラミング日記",
+      "url": "https://www.pospome.work/entry/2026/08/24/223309",
+      "score": 83,
+      "comments": 0,
+      "raw_description": "株式会社カミナシで VPoE を務めている pospome です。 (´・ω・`) 自分はここ数年いろんなエンジニアが書いたDesign Docをレビューする機会があるんですけど、その中で「優秀なエンジニアであれば、ここは押さえて欲しい」「ここでエンジニアとしてのスキルが分かる」というポイントがありまして、今回はそれを言語化し...",
+      "tags": [
+        "Design Doc",
+        "エンジニアリング",
+        "ソフトウェア開発",
+        "技術レビュー"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.239758+09:00",
+      "summary": "この記事では、カミナシのVPoEであるpospome氏が、優秀なエンジニアが作成するDesign Docに共通する特徴を解説しています。Design Docのレビュー経験から、エンジニアのスキルレベルを判断できる重要なポイントを言語化し、読者が自身のDesign Doc作成能力を向上させるための示唆を提供します。技術的な意思決定の質を高める上で、Design Docの重要性が再認識されます。"
+    },
+    {
+      "id": "hn_49425819",
+      "source": "hackernews",
+      "title": "One corner of China’s internet is insisting that the Tang Dynasty never existed",
+      "url": "https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk",
+      "score": 63,
+      "comments": 44,
+      "raw_description": "",
+      "tags": [
+        "歴史修正主義",
+        "陰謀論",
+        "誤情報",
+        "インターネット"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.846507+09:00",
+      "summary": "中国の一部で、唐王朝が存在しなかったという主張が広まっています。これは、歴史的事実に基づかない陰謀論の一種であり、インターネット上での誤情報拡散の事例として注目されています。歴史学的な証拠や学術的なコンセンサスとは全く異なる見解ですが、一部のコミュニティで共有され、議論を呼んでいます。このような歴史修正主義的な言説は、情報リテラシーの重要性を示唆しています。"
+    },
+    {
+      "id": "hatena_85498",
+      "source": "hatena",
+      "title": "消費者庁、「ダークパターン」規制へ　特商法改正視野に中間取りまとめ案",
+      "url": "https://www.itmedia.co.jp/news/article/2608/24/2000000728/",
+      "score": 34,
+      "comments": 0,
+      "raw_description": "消費者庁は8月24日、有識者会議「デジタル取引・特定商取引法等検討会」の第8回会合で、消費者の意思決定をゆがめる表示・UI、いわゆる「ダークパターン」への規律を盛り込んだ中間取りまとめ案を公表した。特定商取引法の改正を視野に入れる。 取りまとめ案では、「お試し」と表示しながら実際は定期購入が条件になって...",
+      "tags": [
+        "ダークパターン",
+        "特定商取引法",
+        "消費者庁",
+        "UI/UX"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.239799+09:00",
+      "summary": "消費者庁は、消費者の意思決定を不当に操作する「ダークパターン」に対し、特定商取引法の改正を視野に入れた規制を検討する中間取りまとめ案を公表しました。「お試し」と表示しながら実質的に定期購入を強いるようなケースなどが対象となります。これにより、オンライン取引における消費者の保護強化が期待されます。"
+    },
+    {
+      "id": "hn_49425800",
+      "source": "hackernews",
+      "title": "Vintage Artificial Intelligence: Before It Got Awkward",
+      "url": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/",
+      "score": 24,
+      "comments": 2,
+      "raw_description": "",
+      "tags": [
+        "AI史",
+        "記号処理",
+        "初期AI",
+        "AI研究"
+      ],
+      "fetched_at": "2026-08-25T07:28:17.315169+09:00",
+      "summary": "この記事は、AIが現代の複雑な課題に直面する以前の、初期のAI研究の時代に焦点を当てています。当時のAIは、限定された問題解決や記号処理に主眼が置かれており、現在の機械学習やディープラーニングとは異なるアプローチを取っていました。この「ヴィンテージAI」の時代を振り返ることで、AIの進化の歴史的背景と、現代のAIが抱える課題の根源を理解する手がかりを提供します。"
+    },
+    {
+      "id": "hn_49426564",
+      "source": "hackernews",
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "score": 20,
+      "comments": 7,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-08-25T07:28:16.097978+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_18716",
+      "source": "hatena",
+      "title": "謎のAI「Ox Alpha」が出現し無料テスト中、コンテキストウィンドウは100万トークンで1日数兆トークンを処理できる匿名ラボがAPIを提供",
+      "url": "https://gigazine.net/news/20260824-ox-alpha/",
+      "score": 12,
+      "comments": 0,
+      "raw_description": "OpenRouterやOpenCodeが謎の匿名AI「Ox Alpha」の無料テストを実施しています。Ox Alphaの開発組織や詳細な仕様は不明で、複数のユーザーが性能検証結果を報告しています。 Ox Alpha - API Pricing & Providers | OpenRouter https://openrouter.ai/stealth/ox-alpha OpenRouterはAI開発組織に対して正式リリース前のテ...",
+      "tags": [],
+      "fetched_at": "2026-08-25T07:28:15.239767+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_68602",
+      "source": "hatena",
+      "title": "「うわ、すげえ！」Unreal EngineをCodexに操作させたら制作の常識が変わった (1/5)",
+      "url": "https://ascii.jp/elem/000/004/428/4428658/",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "6月にリリースされたEpic Gamesのゲームエンジン「Unreal Engine 5.8（UE5）」で、AIを通じてアプリケーションの操作を可能にするMCP（モデル・コンテキスト・プロトコル）を実験的機能として使えるようになりました。なかなかとっつきにくく、まだ使用事例が多く出てきていないこともあり、どこまで使えるのか測りかね...",
+      "tags": [],
+      "fetched_at": "2026-08-25T07:28:15.239780+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_30405",
+      "source": "hatena",
+      "title": "なぜいま30Bクラスのオープンモデルが“熱い”のか　「27BパラメータでOpus 4.6超え」も",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/24/2000000723/",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "米Metaの「Muse Glimmer」、米NVIDIAの「Nemotron 3.5 Lightning」、中国Alibaba Cloudの「Qwen3.8-27B」──8月10日からの9日間で、海外大手3社がパラメータ数30B（300億）クラスのオープンウェイトモデルを相次ぎ公開した。18日には国立情報学研究所（NII）も約332億パラメータの「LLM-jp-4 33B」を投入し「国産モデル」...",
+      "tags": [
+        "大規模言語モデル",
+        "オープンモデル",
+        "LLM",
+        "パラメータ数"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.239793+09:00",
+      "summary": "近年、300億パラメータクラスのオープンウェイト大規模言語モデル（LLM）の開発が活発化しています。MetaのMuse Glimmer、NVIDIAのNemotron 3.5 Lightning、Alibaba CloudのQwen3.8-27B、そして国立情報学研究所のLLM-jp-4 33Bなどが相次いで公開されました。これらのモデルは、性能と計算リソースのバランスが取れており、研究開発コミュニティにおけるLLMの民主化と応用範囲の拡大に貢献すると期待されています。"
+    },
+    {
+      "id": "hatena_69300",
+      "source": "hatena",
+      "title": "The modern Protobuf workflow · Buf",
+      "url": "https://buf.build/blog/the-modern-protobuf-workflow",
+      "score": 4,
+      "comments": 0,
+      "raw_description": "For a long time, Protobuf had a notoriously bad developer experience: protoc flags you couldn’t find documentation for, .proto files copied between repositories by hand, a separate plugin install story for every language, and an RPC-based API you couldn’t curl. Buf has spent the last few years im...",
+      "tags": [
+        "Protobuf",
+        "Buf",
+        "Developer Experience",
+        "gRPC"
+      ],
+      "fetched_at": "2026-08-25T07:28:15.239773+09:00",
+      "summary": "Bufは、Protobufの長年の開発者体験の悪さを解消するツール群を提供します。ドキュメント不足のprotocフラグ、手作業での.protoファイルコピー、言語ごとの複雑なプラグインインストール、curlで扱えないRPC APIといった問題を解決し、Protobuf開発の効率と生産性を向上させます。これにより、マイクロサービス間通信などで広く利用されるProtobufの導入と運用が容易になります。"
+    },
+    {
+      "id": "reddit_51434",
+      "source": "reddit",
+      "title": "Your executable is a SQLite database",
+      "url": "https://www.reddit.com/r/programming/comments/1vx81cr/your_executable_is_a_sqlite_database/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/segv\"> /u/segv </a> <br /> <span><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vx81cr/your_executable_is_a_sqlite_database/\">[comments]</a></span>",
+      "tags": [
+        "SQLite",
+        "実行可能ファイル",
+        "バイナリ",
+        "ポータブルアプリケーション"
+      ],
+      "fetched_at": "2026-08-25T07:28:17.637797+09:00",
+      "summary": "この記事では、実行可能ファイル（バイナリ）をSQLiteデータベースとして扱うというユニークなアプローチを紹介しています。これにより、プログラムのコード、リソース、設定などを単一のデータベースファイルに格納し、管理することが可能になります。この手法は、特に組み込みシステムやポータブルアプリケーションにおいて、デプロイメントの簡素化やデータの永続化、バージョン管理の容易さといったメリットをもたらす可能性があります。"
+    },
+    {
+      "id": "reddit_30961",
+      "source": "reddit",
+      "title": "What Zig felt like, coming from Rust",
+      "url": "https://www.reddit.com/r/programming/comments/1vwyjg2/what_zig_felt_like_coming_from_rust/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BrewedDoritos\"> /u/BrewedDoritos </a> <br /> <span><a href=\"https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vwyjg2/what_zig_felt_like_coming_from_rust/\">[comments]</a></span>",
+      "tags": [
+        "Zig",
+        "Rust",
+        "プログラミング言語",
+        "比較"
+      ],
+      "fetched_at": "2026-08-25T07:28:17.637815+09:00",
+      "summary": "Rust経験者がZigを試した際の所感をまとめた記事です。ZigはRustと比較して、より低レベルな制御とシンプルな言語仕様を提供し、手動でのメモリ管理やコンパイル時実行機能が特徴です。これにより、Rustの厳格な所有権システムやライフタイムの制約から解放され、より直接的なハードウェア操作やメタプログラミングが可能になります。ただし、その自由度ゆえに、Rustのようなコンパイラによる強力な安全保証は限定的であり、開発者はより多くの責任を負う必要があります。"
+    },
+    {
+      "id": "reddit_30226",
+      "source": "reddit",
+      "title": "How an Underrated Refactor Saved 90% Memory Usage",
+      "url": "https://www.reddit.com/r/programming/comments/1vwvdom/how_an_underrated_refactor_saved_90_memory_usage/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fagnerbrack\"> /u/fagnerbrack </a> <br /> <span><a href=\"https://tanstack.com/blog/tanstack-table-v9-memory-performance\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vwvdom/how_an_underrated_refactor_saved_90_memory_usage/\">[comments]</a></span>",
+      "tags": [
+        "TanStack Table",
+        "リファクタリング",
+        "メモリ最適化",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-08-25T07:28:17.637823+09:00",
+      "summary": "TanStack Table v9では、データ構造の最適化により、メモリ使用量を90%削減するリファクタリングが行われました。具体的には、不要なオブジェクトの生成を抑制し、状態管理を効率化することで、大規模データセットを扱う際のパフォーマンスが大幅に向上しました。この改善は、特にリソースが限られる環境や、大量のデータを扱うアプリケーションにおいて、メモリ効率の重要性を示す好例と言えます。"
+    },
+    {
+      "id": "reddit_92887",
+      "source": "reddit",
+      "title": "Block-layer error injection",
+      "url": "https://www.reddit.com/r/programming/comments/1vx3ygt/blocklayer_error_injection/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/haris3301\"> /u/haris3301 </a> <br /> <span><a href=\"https://lwn.net/Articles/1086344/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vx3ygt/blocklayer_error_injection/\">[comments]</a></span>",
+      "tags": [
+        "Linuxカーネル",
+        "ブロック層",
+        "エラー注入",
+        "ストレージテスト"
+      ],
+      "fetched_at": "2026-08-25T07:28:17.637830+09:00",
+      "summary": "Linuxカーネルのブロック層に、I/Oエラーを意図的に注入する機能が提案されています。この機能は、ストレージデバイスやファイルシステムの堅牢性をテストし、エラー発生時の挙動を検証するために重要です。これにより、予期せぬデータ破損やシステムクラッシュを防ぐための対策を事前に講じることが可能になります。"
+    }
+  ]
+}
