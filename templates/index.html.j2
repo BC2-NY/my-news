@@ -1,299 +1,735 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ITnewsまとめ</title>
-  <style>
-    :root {
-      --bg: #0D0D0D;
-      --bg-card: #161616;
-      --bg-card-hover: #1E1E1E;
-      --text: #E8E6E0;
-      --text-muted: #8B8B8B;
-      --text-dim: #9CA3AF;
-      --accent-green: #4ADE80;
-      --accent-purple: #818CF8;
-      --border: #222222;
-      --border-hover: #333333;
-      --source-hatena: #00A4DE;
-      --source-hn: #FF6600;
-      --source-reddit: #FF4500;
-      --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, monospace;
-      --font-sans: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal/Log — ITニュースまとめ</title>
+<meta name="description" content="はてなブックマーク・Hacker News・Reddit から毎朝集めたITニュースを、AI要約つきで1日20件。">
+<meta property="og:title" content="Signal/Log">
+<meta property="og:description" content="はてブ・Hacker News・Reddit の今日のITニュースを、AI要約つきで。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%2312655A'/%3E%3Cpath d='M3 11.5V9m3 2.5V6m3 5.5V3.5m3 8V7.5' stroke='%23F6F8F8' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --ground:#E9ECEC; --surface:#F6F8F8; --sunken:#E1E6E5;
+    --ink:#161B1C; --muted:#5F6C6B; --faint:#8A9695;
+    /* 読ませる本文専用。--ink より一段強く、畳んだ行は --muted より一段強く */
+    --read:#0D1112; --read-dim:#4A5655;
+    --rule:#D2D9D8; --rule-strong:#BAC4C3;
+    --accent:#12655A; --accent-soft:rgba(18,101,90,.09);
+    --band:#C8D0CF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#0F1414; --surface:#161D1C; --sunken:#0A0E0E;
+      --ink:#E4E9E8; --muted:#8B9998; --faint:#6B7877;
+      --read:#F4F8F7; --read-dim:#AAB7B6;
+      --rule:#242E2D; --rule-strong:#384544;
+      --accent:#5EC8B6; --accent-soft:rgba(94,200,182,.12);
+      --band:#2C3736;
     }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: var(--bg); color: var(--text);
-      font-family: var(--font-sans); font-size: 15px; line-height: 1.7; min-height: 100vh;
-    }
-    header {
-      border-bottom: 1px solid var(--border); padding: 28px 0 20px;
-      position: sticky; top: 0; background: rgba(13,13,13,0.92);
-      backdrop-filter: blur(8px); z-index: 100;
-    }
-    .header-inner {
-      max-width: 860px; margin: 0 auto; padding: 0 24px;
-      display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap;
-    }
-    .site-name {
-      font-family: var(--font-mono); font-size: 22px; font-weight: 700;
-      color: var(--text); letter-spacing: -0.5px;
-    }
-    .site-name span { color: var(--accent-green); }
-    .date-nav { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-    .date-arrow {
-      font-family: var(--font-mono); font-size: 16px; line-height: 1;
-      width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;
-      border: 1px solid var(--border); border-radius: 5px; background: transparent;
-      color: var(--text-muted); cursor: pointer; transition: all 0.15s;
-    }
-    .date-arrow:hover:not(:disabled) { border-color: var(--accent-green); color: var(--accent-green); }
-    .date-arrow:disabled { opacity: 0.3; cursor: not-allowed; }
-    #dateSelect {
-      font-family: var(--font-mono); font-size: 13px; padding: 6px 12px;
-      background: var(--bg-card); color: var(--text);
-      border: 1px solid var(--border); border-radius: 5px; cursor: pointer;
-      appearance: none; text-align: center; min-width: 150px;
-    }
-    #dateSelect:hover { border-color: var(--border-hover); }
-    .today-badge {
-      font-family: var(--font-mono); font-size: 9px; color: var(--accent-green);
-      border: 1px solid var(--accent-green); border-radius: 3px;
-      padding: 2px 6px; letter-spacing: 0.05em;
-    }
-    .filter-row {
-      max-width: 860px; margin: 0 auto; padding: 14px 24px 0; display: flex; gap: 8px;
-    }
-    .filter-btn {
-      font-family: var(--font-mono); font-size: 11px; padding: 4px 10px;
-      border: 1px solid var(--border); border-radius: 4px; background: transparent;
-      color: var(--text-muted); cursor: pointer; transition: all 0.15s;
-    }
-    .filter-btn:hover, .filter-btn.active { border-color: var(--accent-green); color: var(--accent-green); }
-    .filter-btn[data-source="hatena"].active { border-color: var(--source-hatena); color: var(--source-hatena); }
-    .filter-btn[data-source="hackernews"].active { border-color: var(--source-hn); color: var(--source-hn); }
-    .filter-btn[data-source="reddit"].active { border-color: var(--source-reddit); color: var(--source-reddit); }
-    main { max-width: 860px; margin: 0 auto; padding: 24px 24px 80px; }
-    .stats-bar {
-      display: flex; gap: 28px; margin-bottom: 28px; padding-bottom: 20px;
-      border-bottom: 1px solid var(--border);
-    }
-    .stat { display: flex; flex-direction: column; gap: 2px; }
-    .stat-value {
-      font-family: var(--font-mono); font-size: 24px; font-weight: 700;
-      color: var(--accent-green); line-height: 1;
-    }
-    .stat-label {
-      font-family: var(--font-mono); font-size: 10px; color: var(--text-muted);
-      text-transform: uppercase; letter-spacing: 0.08em;
-    }
-    .articles { display: flex; flex-direction: column; gap: 2px; }
-    .card {
-      display: grid; grid-template-columns: 4px 1fr;
-      background: var(--bg-card); border: 1px solid var(--border);
-      border-radius: 6px; overflow: hidden;
-      transition: border-color 0.15s, background 0.15s; cursor: pointer;
-    }
-    .card:hover { background: var(--bg-card-hover); border-color: var(--border-hover); }
-    .card-stripe { flex-shrink: 0; }
-    .card[data-source="hatena"] .card-stripe { background: var(--source-hatena); }
-    .card[data-source="hackernews"] .card-stripe { background: var(--source-hn); }
-    .card[data-source="reddit"] .card-stripe { background: var(--source-reddit); }
-    .card-body { padding: 16px 20px; }
-    .card-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-    .source-badge {
-      font-family: var(--font-mono); font-size: 10px; font-weight: 600;
-      padding: 2px 7px; border-radius: 3px; letter-spacing: 0.05em; text-transform: uppercase;
-    }
-    .card[data-source="hatena"] .source-badge { background: rgba(0,164,222,0.15); color: var(--source-hatena); }
-    .card[data-source="hackernews"] .source-badge { background: rgba(255,102,0,0.15); color: var(--source-hn); }
-    .card[data-source="reddit"] .source-badge { background: rgba(255,69,0,0.15); color: var(--source-reddit); }
-    .score-bar { display: flex; align-items: center; gap: 6px; flex: 1; }
-    .score-track {
-      height: 3px; background: var(--border); border-radius: 2px;
-      flex: 1; max-width: 120px; overflow: hidden;
-    }
-    .score-fill { height: 100%; border-radius: 2px; background: var(--accent-green); opacity: 0.6; }
-    .card[data-source="hatena"] .score-fill { background: var(--source-hatena); }
-    .card[data-source="hackernews"] .score-fill { background: var(--source-hn); }
-    .card[data-source="reddit"] .score-fill { background: var(--source-reddit); }
-    .score-num { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); min-width: 36px; }
-    .comment-count { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
-    .card-title {
-      font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.45;
-      margin-bottom: 10px; text-decoration: none; display: block;
-    }
-    .card-title:hover { color: var(--accent-green); }
-    .ai-summary {
-      font-size: 16px; color: #E8E6E0; line-height: 1.65; padding: 10px 12px;
-      background: rgba(129,140,248,0.05); border-left: 2px solid rgba(129,140,248,0.35);
-      border-radius: 0 4px 4px 0; margin-bottom: 12px;
-    }
-    .ai-label {
-      display: inline-flex; align-items: center; gap: 4px; font-family: var(--font-mono);
-      font-size: 9px; color: var(--accent-purple); letter-spacing: 0.08em;
-      text-transform: uppercase; margin-bottom: 6px;
-    }
-    .ai-dot { width: 5px; height: 5px; background: var(--accent-purple); border-radius: 50%; }
-    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-    .tag {
-      font-family: var(--font-mono); font-size: 10px; color: var(--text-dim);
-      border: 1px solid var(--text-dim); border-radius: 3px; padding: 1px 7px;
-    }
-    footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; }
-    .footer-text { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); }
-    .footer-text span { color: var(--accent-green); }
-    .empty {
-      display: none; text-align: center; padding: 60px 0;
-      font-family: var(--font-mono); color: var(--text-muted); font-size: 13px;
-    }
-    @media (max-width: 600px) {
-      .stats-bar { gap: 16px; }
-      .stat-value { font-size: 18px; }
-      .date-nav { margin-left: 0; width: 100%; margin-top: 8px; }
-      #dateSelect { flex: 1; }
-    }
-  </style>
+  }
+  :root[data-theme="dark"] {
+    --ground:#0F1414; --surface:#161D1C; --sunken:#0A0E0E;
+    --ink:#E4E9E8; --muted:#8B9998; --faint:#6B7877;
+    --read:#F4F8F7; --read-dim:#AAB7B6;
+    --rule:#242E2D; --rule-strong:#384544;
+    --accent:#5EC8B6; --accent-soft:rgba(94,200,182,.12);
+    --band:#2C3736;
+  }
+
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{ -webkit-text-size-adjust:100% }
+  body{
+    background:var(--ground); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","Noto Sans JP","Segoe UI",sans-serif;
+    font-size:15px; line-height:1.7; font-feature-settings:"palt" 1;
+  }
+  .mono{ font-family:ui-monospace,"SF Mono","Cascadia Mono","Roboto Mono",Consolas,monospace;
+    font-variant-numeric:tabular-nums }
+  a{ color:inherit }
+  :focus-visible{ outline:2px solid var(--accent); outline-offset:2px; border-radius:2px }
+  [hidden]{ display:none !important }
+  .wrap{ max-width:52rem; margin:0 auto; padding:0 1.5rem }
+  .sr{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap }
+
+  /* ── masthead ────────────────────────────────── */
+  header{ border-bottom:1px solid var(--rule); background:var(--surface) }
+  .masthead{ display:flex; align-items:flex-end; gap:1.25rem; flex-wrap:wrap;
+    padding-top:1.75rem; padding-bottom:1.25rem }
+  .brand{ font-size:1.5rem; font-weight:700; letter-spacing:-.02em; line-height:1;
+    text-decoration:none; display:block }
+  .brand em{ font-style:normal; color:var(--accent) }
+  .tagline{ font-size:.75rem; color:var(--muted); letter-spacing:.04em; margin-top:.4rem }
+  .datenav{ margin-left:auto; display:flex; align-items:center; gap:.5rem }
+  .iconbtn{
+    font:inherit; cursor:pointer; background:transparent; color:var(--muted);
+    border:1px solid var(--rule-strong); border-radius:2px;
+    min-width:1.75rem; height:1.75rem; padding:0 .35rem;
+    line-height:1; display:grid; place-items:center;
+  }
+  .iconbtn:hover:not(:disabled){ color:var(--accent); border-color:var(--accent) }
+  .iconbtn:disabled{ opacity:.35; cursor:not-allowed }
+  #dateSelect{
+    font:inherit; font-size:.9rem; font-weight:600; letter-spacing:.02em;
+    background:transparent; color:var(--ink); border:1px solid var(--rule-strong);
+    border-radius:2px; padding:.2rem .4rem; cursor:pointer;
+  }
+  .today-badge{ font-size:.6rem; letter-spacing:.1em; color:var(--accent);
+    border:1px solid var(--accent); border-radius:2px; padding:.1rem .3rem }
+
+  /* ── archive strip ───────────────────────────── */
+  .archive{ padding-bottom:1.25rem }
+  .archive-head{ display:flex; justify-content:space-between; align-items:baseline;
+    font-size:.65rem; letter-spacing:.1em; color:var(--faint); margin-bottom:.4rem }
+  .strip{ display:flex; align-items:flex-end; gap:1px; height:2.25rem }
+  .strip button{ flex:1; background:var(--band); min-height:2px; border:0; padding:0;
+    border-radius:1px 1px 0 0; cursor:pointer; transition:background .12s }
+  .strip button:hover{ background:var(--accent) }
+  .strip button.is-current{ background:var(--accent) }
+
+  /* ── toolbar ─────────────────────────────────── */
+  .toolbar{ position:sticky; top:0; z-index:20; background:var(--ground);
+    border-bottom:1px solid var(--rule) }
+  .toolbar .wrap{ display:flex; gap:.4rem; align-items:center; flex-wrap:wrap;
+    padding-top:.6rem; padding-bottom:.6rem }
+  .chip{
+    font:inherit; font-size:.7rem; letter-spacing:.06em; cursor:pointer;
+    background:transparent; color:var(--muted);
+    border:1px solid var(--rule-strong); border-radius:2px; padding:.2rem .55rem;
+  }
+  .chip:hover{ color:var(--ink); border-color:var(--ink) }
+  .chip[aria-pressed="true"]{ background:var(--accent); border-color:var(--accent); color:var(--surface) }
+  .chip .n{ opacity:.65; margin-left:.3rem }
+  .toolbar .spacer{ margin-left:auto }
+
+  /* ── ledger ──────────────────────────────────── */
+  main{ padding-bottom:4rem; min-height:50vh }
+  .ledger{ list-style:none }
+  .row{
+    display:grid; grid-template-columns:2rem 2.25rem 1fr 4.75rem;
+    gap:0 .85rem; align-items:start;
+    padding:.7rem 0; border-bottom:1px solid var(--rule);
+  }
+  .row:hover{ background:var(--accent-soft) }
+  .rank{ font-size:.75rem; color:var(--faint); text-align:right; padding-top:.2rem }
+  .src{ font-size:.6rem; letter-spacing:.08em; font-weight:600; text-align:center;
+    border:1px solid var(--rule-strong); border-radius:2px; padding:.1rem 0;
+    color:var(--muted); margin-top:.25rem }
+  .row[data-open="true"] .src{ color:var(--accent); border-color:var(--accent) }
+
+  .headline{ display:block; font-size:1rem; font-weight:600; line-height:1.55;
+    text-decoration:none; text-wrap:pretty }
+  .headline:hover{ color:var(--accent); text-decoration:underline; text-underline-offset:2px }
+
+  .disclose{ font:inherit; text-align:left; cursor:pointer; width:100%;
+    background:transparent; border:0; color:var(--muted);
+    display:flex; gap:.4rem; align-items:baseline; padding:.15rem 0 0 }
+  .lead{ font-size:.88rem; line-height:1.6; color:var(--read-dim); flex:1; min-width:0;
+    display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden }
+  .caret{ font-size:.6rem; color:var(--faint); flex-shrink:0; transition:transform .15s }
+  .row[data-open="true"] .caret{ transform:rotate(90deg) }
+  .row[data-open="true"] .lead{ display:none }
+
+  .detail{ padding-top:.35rem }
+  /* 実際に読ませる本文。日本語は 13〜14px だと詰まって読み負荷が上がるので
+     見出しと同じ 1rem まで上げ、階層は太さと色で保つ */
+  .summary{ font-size:1rem; line-height:1.95; color:var(--read); max-width:34em }
+  .tags{ display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.55rem }
+  .tag{ font:inherit; font-size:.65rem; letter-spacing:.03em; cursor:pointer;
+    background:transparent; color:var(--faint);
+    border:1px solid var(--rule); border-radius:2px; padding:.05rem .4rem }
+  .tag:hover,.tag[aria-pressed="true"]{ color:var(--accent); border-color:var(--accent) }
+
+  .meta{ text-align:right; padding-top:.15rem }
+  /* スコアと操作ボタンを同じ行に畳む。別行にすると行高が2割増えて
+     一覧性が落ちるため、右レールは3行（数値+操作 / コメント / バー）に収める */
+  .metatop{ display:flex; align-items:center; justify-content:flex-end; gap:.2rem }
+  .score{ font-size:.85rem; font-weight:600; line-height:1.2 }
+  .comments{ font-size:.65rem; color:var(--faint); display:block }
+  .bar{ height:2px; background:var(--rule); border-radius:1px; margin-top:.3rem; overflow:hidden }
+  .bar i{ display:block; height:100%; background:var(--accent); opacity:.75 }
+  .rowacts{ display:flex; gap:.1rem; justify-content:flex-end }
+  .act{ font:inherit; font-size:.8rem; line-height:1; cursor:pointer;
+    background:transparent; border:1px solid transparent; border-radius:2px;
+    color:var(--faint); padding:.15rem .25rem }
+  .act:hover{ color:var(--accent); border-color:var(--rule-strong) }
+  .act[aria-pressed="true"]{ color:var(--accent) }
+
+  /* ── memo ────────────────────────────────────── */
+  .memo{ margin-top:.6rem }
+  .memo label{ display:block; font-size:.6rem; letter-spacing:.1em; color:var(--faint); margin-bottom:.25rem }
+  .memo textarea{
+    font:inherit; font-size:.9rem; line-height:1.7; width:100%; max-width:34em;
+    min-height:3.2rem; resize:vertical; color:var(--read);
+    background:var(--surface); border:1px solid var(--rule-strong);
+    border-radius:3px; padding:.45rem .6rem;
+  }
+  .memo textarea:focus{ border-color:var(--accent); outline:none }
+  .memo .state{ font-size:.6rem; letter-spacing:.08em; color:var(--faint); margin-top:.2rem; min-height:1em }
+
+  /* ── saved view ──────────────────────────────── */
+  .viewhead{ display:flex; gap:.6rem; align-items:center; flex-wrap:wrap;
+    padding:1.25rem 0 .75rem; border-bottom:1px solid var(--rule) }
+  .viewhead h2{ font-size:1rem; font-weight:600 }
+  .viewhead .count{ font-size:.7rem; color:var(--faint) }
+  #savedSearch{
+    font:inherit; font-size:.85rem; flex:1; min-width:10rem;
+    background:var(--surface); color:var(--ink);
+    border:1px solid var(--rule-strong); border-radius:2px; padding:.25rem .5rem;
+  }
+  #savedSearch:focus{ border-color:var(--accent); outline:none }
+  .saved-item{ padding:.9rem 0; border-bottom:1px solid var(--rule) }
+  .saved-meta{ display:flex; gap:.5rem; align-items:baseline; flex-wrap:wrap;
+    font-size:.65rem; color:var(--faint); margin-bottom:.2rem }
+  .empty{ padding:3rem 0; text-align:center; color:var(--faint); font-size:.85rem }
+  .empty code{ font-size:.9em; color:var(--muted) }
+
+  /* ── toast ───────────────────────────────────── */
+  #toast{
+    position:fixed; left:50%; bottom:1.5rem; transform:translateX(-50%) translateY(.5rem);
+    background:var(--accent); color:var(--surface);
+    font-size:.8rem; padding:.45rem .9rem; border-radius:3px;
+    opacity:0; pointer-events:none; transition:opacity .18s, transform .18s; z-index:100;
+  }
+  #toast.show{ opacity:1; transform:translateX(-50%) translateY(0) }
+
+  footer{ border-top:1px solid var(--rule); padding:1.5rem 0 2.5rem; background:var(--surface) }
+  .footer-text{ font-size:.7rem; color:var(--faint); display:flex; gap:.75rem;
+    flex-wrap:wrap; align-items:center }
+  .footer-text button{ font:inherit; font-size:.7rem; background:transparent;
+    border:0; color:var(--muted); text-decoration:underline; cursor:pointer; padding:0 }
+  .footer-text button:hover{ color:var(--accent) }
+
+  @media (max-width:36rem){
+    .row{ grid-template-columns:1.5rem 2rem 1fr; gap:0 .6rem }
+    .meta{ grid-column:3; text-align:left; display:flex; align-items:center;
+      gap:.6rem; padding-top:.25rem; flex-wrap:wrap }
+    .metatop{ order:1; gap:.6rem }
+    .bar{ flex:1; margin-top:0; max-width:6rem; min-width:3rem }
+    .score,.comments{ display:inline }
+    .rowacts{ margin-top:0; margin-left:auto; gap:.15rem }
+    /* 指で押す前提のタップ目標。デスクトップの見た目は変えたくないので
+       狭い画面でだけ 44px 角まで広げる */
+    .act{ min-width:2.75rem; min-height:2.75rem; font-size:1.05rem;
+      display:grid; place-items:center; padding:0 }
+    .datenav{ margin-left:0; width:100%; margin-top:.5rem }
+  }
+  @media (prefers-reduced-motion:reduce){ *{ transition:none !important } }
+</style>
 </head>
 <body>
+
 <header>
-  <div class="header-inner">
-    <div class="site-name">ITnews<span>//</span>まとめ</div>
-    <div class="date-nav">
-      <button class="date-arrow" id="prevDate" aria-label="前の日">&lsaquo;</button>
-      <select id="dateSelect"></select>
-      <button class="date-arrow" id="nextDate" aria-label="次の日">&rsaquo;</button>
-      <span class="today-badge" id="todayBadge">最新</span>
+  <div class="wrap">
+    <div class="masthead">
+      <div>
+        <a class="brand" href="#/" id="brandLink">Signal<em>/</em>Log</a>
+        <div class="tagline">はてブ · Hacker News · Reddit &nbsp;/&nbsp; 毎朝 07:00 JST</div>
+      </div>
+      <div class="datenav">
+        <button class="iconbtn" id="prevDate" aria-label="前の日">&lsaquo;</button>
+        <select id="dateSelect" class="mono" aria-label="日付を選ぶ"></select>
+        <button class="iconbtn" id="nextDate" aria-label="次の日">&rsaquo;</button>
+        <span class="today-badge mono" id="todayBadge">最新</span>
+      </div>
+    </div>
+    <div class="archive">
+      <div class="archive-head mono">
+        <span>アーカイブ <span id="dayCount"></span>日</span>
+        <span>棒の高さ = その日の最高スコア</span>
+      </div>
+      <div class="strip" id="strip"></div>
     </div>
   </div>
-  <div class="filter-row">
-    <button class="filter-btn active" data-source="all">ALL</button>
-    <button class="filter-btn" data-source="hatena">はてな</button>
-    <button class="filter-btn" data-source="hackernews">HN</button>
-    <button class="filter-btn" data-source="reddit">Reddit</button>
-  </div>
 </header>
-<main>
-  <div class="stats-bar" id="statsBar"></div>
-  <div class="articles" id="articleList"></div>
-  <div class="empty" id="emptyState">該当する記事がありません</div>
+
+<div class="toolbar"><div class="wrap" id="toolbar"></div></div>
+
+<main class="wrap">
+  <ol class="ledger" id="ledger"></ol>
+
+  <section id="savedView" hidden>
+    <div class="viewhead">
+      <h2>保存済み</h2>
+      <span class="count mono" id="savedCount"></span>
+      <input type="search" id="savedSearch" placeholder="タイトル・要約・メモを検索" aria-label="保存済みを検索">
+    </div>
+    <div id="savedList"></div>
+  </section>
+
+  <p class="empty" id="empty" hidden></p>
 </main>
-<footer>
-  <div class="footer-text">
-    summarized by <span>Gemini</span> &nbsp;&middot;&nbsp; source: はてブ / HN / Reddit
-    &nbsp;&middot;&nbsp; <span id="footerDate"></span>
-  </div>
-</footer>
+
+<footer><div class="wrap footer-text">
+  <span>summarized by Gemini</span>
+  <span id="footerDate" class="mono"></span>
+  <button id="exportBtn">保存済みを書き出す</button>
+  <button id="importBtn">読み込む</button>
+  <button id="themeBtn">テーマ切替</button>
+  <input type="file" id="importFile" accept="application/json" hidden>
+</div></footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
 <script id="newsData" type="application/json">{{ all_data_json | safe }}</script>
 <script>
-const NEWS = JSON.parse(document.getElementById('newsData').textContent);
+(() => {
+'use strict';
+
+const NEWS  = JSON.parse(document.getElementById('newsData').textContent);
 const DATES = Object.keys(NEWS).sort().reverse();
-let currentDate = DATES[0];
-let currentFilter = 'all';
-const sourceLabel = { hatena: 'はてな', hackernews: 'HN', reddit: 'Reddit' };
+const SRC   = {
+  hatena:     { code:'HB', label:'はてブ' },
+  hackernews: { code:'HN', label:'HN' },
+  reddit:     { code:'RD', label:'Reddit' }
+};
 
-function buildDateSelector() {
-  const sel = document.getElementById('dateSelect');
-  sel.innerHTML = '';
-  DATES.forEach(d => {
-    const opt = document.createElement('option');
-    opt.value = d;
-    const dt = new Date(d + 'T00:00:00');
-    const wd = ['日','月','火','水','木','金','土'][dt.getDay()];
-    opt.textContent = d + ' (' + wd + ')';
-    sel.appendChild(opt);
-  });
-  sel.value = currentDate;
-}
+const esc = s => String(s).replace(/[&<>"']/g, c =>
+  ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
 
-function render() {
-  const day = NEWS[currentDate];
-  let articles = day.articles.slice().sort((a,b) => (b.score||0) - (a.score||0));
-  const counts = { all: articles.length, hatena: 0, hackernews: 0, reddit: 0 };
-  articles.forEach(a => { if (counts[a.source] !== undefined) counts[a.source]++; });
-  document.getElementById('statsBar').innerHTML =
-    '<div class="stat"><div class="stat-value">' + counts.all + '</div><div class="stat-label">articles</div></div>' +
-    '<div class="stat"><div class="stat-value">' + counts.hatena + '</div><div class="stat-label">はてな</div></div>' +
-    '<div class="stat"><div class="stat-value">' + counts.hackernews + '</div><div class="stat-label">HN</div></div>' +
-    '<div class="stat"><div class="stat-value">' + counts.reddit + '</div><div class="stat-label">Reddit</div></div>';
-  if (currentFilter !== 'all') articles = articles.filter(a => a.source === currentFilter);
-
-  // スコアはソースごとに桁が違う（HNは3桁、はてブは2〜3桁）ので、
-  // その日・そのソース内の最大値を基準に相対化して初めてバーが意味を持つ。
-  const maxBySource = {};
-  articles.forEach(a => {
-    const s = a.source;
-    maxBySource[s] = Math.max(maxBySource[s] || 0, a.score || 0);
-  });
-
-  const list = document.getElementById('articleList');
-  list.innerHTML = articles.map(a => {
-    const max = maxBySource[a.source] || 0;
-    const width = max > 0 ? Math.round((a.score || 0) / max * 100) : 0;
-    const tags = (a.tags||[]).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-    const href = safeUrl(a.url);
-    return '<article class="card" data-source="' + escapeHtml(a.source) + '" data-url="' + escapeHtml(href) + '">' +
-      '<div class="card-stripe"></div><div class="card-body">' +
-      '<div class="card-meta"><span class="source-badge">' + escapeHtml(sourceLabel[a.source]||a.source) + '</span>' +
-      '<div class="score-bar"><div class="score-track"><div class="score-fill" style="width:' + width + '%"></div></div>' +
-      '<span class="score-num">&#9650; ' + (a.score||0) + '</span></div>' +
-      '<span class="comment-count">&#128172; ' + (a.comments||0) + '</span></div>' +
-      '<a class="card-title" href="' + escapeHtml(href) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(a.title) + '</a>' +
-      (a.summary ? '<div class="ai-summary"><div class="ai-label"><span class="ai-dot"></span>AI要約</div>' + escapeHtml(a.summary) + '</div>' : '') +
-      '<div class="tags">' + tags + '</div></div></article>';
-  }).join('');
-  document.getElementById('emptyState').style.display = articles.length === 0 ? 'block' : 'none';
-  document.getElementById('todayBadge').style.display = (currentDate === DATES[0]) ? 'inline' : 'none';
-  document.getElementById('footerDate').textContent = currentDate;
-  const idx = DATES.indexOf(currentDate);
-  document.getElementById('nextDate').disabled = (idx <= 0);
-  document.getElementById('prevDate').disabled = (idx >= DATES.length-1);
-}
-
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-
-// クロール元のURLは信用できないので、http(s) 以外は握りつぶす（javascript: 対策）
-function safeUrl(u) {
+// クロール元のURLは信用できないので http(s) 以外は握りつぶす（javascript: 対策）
+const safeUrl = u => {
   try {
-    const parsed = new URL(String(u));  // baseを渡さない = 絶対URL以外は例外にする
-    return (parsed.protocol === 'http:' || parsed.protocol === 'https:') ? parsed.href : '#';
-  } catch (e) {
-    return '#';
+    const p = new URL(String(u));           // baseを渡さない = 絶対URL以外は例外にする
+    return (p.protocol === 'http:' || p.protocol === 'https:') ? p.href : '#';
+  } catch (e) { return '#'; }
+};
+
+/* ── 保存層 ───────────────────────────────────────
+   主キーは id ではなく URL。crawler の旧IDは実行ごとに
+   randomize されていて（同一URLに複数IDが実在する）、
+   IDで保存すると過去の記事を取りこぼすため。
+   localStorage を差し替えれば他のバックエンドにも載せ替えられる。 */
+const Store = (() => {
+  const KEY = 'signallog:saved:v1';
+  let cache = null;
+
+  const load = () => {
+    if (cache) return cache;
+    try {
+      const raw = localStorage.getItem(KEY);
+      cache = raw ? JSON.parse(raw) : {};
+      if (typeof cache !== 'object' || cache === null || Array.isArray(cache)) cache = {};
+    } catch (e) { cache = {}; }
+    return cache;
+  };
+  const persist = () => {
+    try { localStorage.setItem(KEY, JSON.stringify(cache)); return true; }
+    catch (e) { toast('保存できません（ストレージが一杯か、プライベートモードです）'); return false; }
+  };
+
+  return {
+    has: url => Object.prototype.hasOwnProperty.call(load(), url),
+    get: url => load()[url] || null,
+    all: () => Object.values(load()).sort((a, b) => (b.savedAt || '').localeCompare(a.savedAt || '')),
+    count: () => Object.keys(load()).length,
+    add(article, date) {
+      const url = safeUrl(article.url);
+      if (url === '#') return false;
+      load()[url] = {
+        url, title: article.title, source: article.source,
+        score: article.score || 0, comments: article.comments || 0,
+        summary: article.summary || '', tags: article.tags || [],
+        date, memo: '', savedAt: new Date().toISOString()
+      };
+      return persist();
+    },
+    remove(url) { delete load()[url]; return persist(); },
+    setMemo(url, memo) {
+      const it = load()[url];
+      if (!it) return false;
+      it.memo = memo;
+      return persist();
+    },
+    replaceAll(obj) { cache = obj; return persist(); }
+  };
+})();
+
+/* ── toast ─────────────────────────────────────── */
+let toastTimer = null;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
+}
+
+/* ── 共有 ──────────────────────────────────────── */
+async function shareOrCopy(data, okMsg) {
+  // モバイルは OS 標準の共有シート、デスクトップはクリップボードへ
+  if (navigator.share) {
+    try { await navigator.share(data); return; }
+    catch (e) { if (e && e.name === 'AbortError') return; }
+  }
+  try {
+    await navigator.clipboard.writeText(data.url ? data.url : data.text);
+    toast(okMsg);
+  } catch (e) { toast('コピーできませんでした'); }
+}
+
+/* ── ルーティング ──────────────────────────────
+   #/YYYY-MM-DD           … その日
+   #/YYYY-MM-DD/hackernews … ソース絞り込み
+   #/saved                … 保存済み                    */
+// open は「展開中の行のURL」。再描画でDOMを作り直しても
+// 展開状態が畳まれないように、状態側に持たせる。
+const state = { view: 'day', date: DATES[0], source: 'all', tag: null, open: new Set() };
+
+function parseHash() {
+  const raw = decodeURIComponent(location.hash.replace(/^#\/?/, '')).trim();
+  const parts = raw.split('/').filter(Boolean);
+  if (parts[0] === 'saved') return { view: 'saved', date: state.date, source: 'all' };
+  const date = DATES.includes(parts[0]) ? parts[0] : DATES[0];
+  const source = SRC[parts[1]] ? parts[1] : 'all';
+  return { view: 'day', date, source };
+}
+function writeHash(replace) {
+  const h = state.view === 'saved'
+    ? '#/saved'
+    : '#/' + state.date + (state.source !== 'all' ? '/' + state.source : '');
+  if (location.hash === h) return;
+  if (replace) history.replaceState(null, '', h);
+  else location.hash = h;
+}
+function applyHash() {
+  const next = parseHash();
+  state.view = next.view; state.date = next.date; state.source = next.source;
+  state.tag = null;
+  render();
+}
+
+/* ── 描画：日次 ────────────────────────────────── */
+function render() {
+  const savedView = state.view === 'saved';
+  document.getElementById('savedView').hidden = !savedView;
+  document.getElementById('ledger').hidden = savedView;
+
+  renderToolbar();
+  if (savedView) renderSaved(); else renderDay();
+
+  document.getElementById('dateSelect').value = state.date;
+  document.getElementById('todayBadge').hidden = savedView || state.date !== DATES[0];
+  document.getElementById('footerDate').textContent = savedView ? '' : state.date;
+  const i = DATES.indexOf(state.date);
+  document.getElementById('nextDate').disabled = savedView || i <= 0;
+  document.getElementById('prevDate').disabled = savedView || i >= DATES.length - 1;
+  [...document.querySelectorAll('#strip button')].forEach(b =>
+    b.classList.toggle('is-current', !savedView && b.dataset.date === state.date));
+}
+
+function renderToolbar() {
+  const day = NEWS[state.date];
+  const arts = day ? day.articles : [];
+  const counts = arts.reduce((m, a) => (m[a.source] = (m[a.source] || 0) + 1, m), {});
+  const chips = [['all', 'ALL', arts.length]]
+    .concat(Object.keys(SRC).map(k => [k, SRC[k].label, counts[k] || 0]));
+  document.getElementById('toolbar').innerHTML =
+    chips.map(([k, l, n]) =>
+      '<button class="chip mono" data-src="' + k + '" aria-pressed="' +
+      (state.view === 'day' && state.source === k) + '">' + esc(l) +
+      '<span class="n">' + n + '</span></button>').join('') +
+    '<span class="spacer"></span>' +
+    '<button class="chip mono" id="shareDay">この日を共有</button>' +
+    '<button class="chip mono" id="savedToggle" aria-pressed="' + (state.view === 'saved') + '">' +
+    '&#9733; 保存済み<span class="n">' + Store.count() + '</span></button>';
+}
+
+function renderDay() {
+  const day = NEWS[state.date];
+  let list = day ? day.articles.slice().sort((a, b) => (b.score || 0) - (a.score || 0)) : [];
+  if (state.source !== 'all') list = list.filter(a => a.source === state.source);
+  if (state.tag) list = list.filter(a => (a.tags || []).includes(state.tag));
+
+  // スコアはソースごとに桁が違う（HN 986 と はてブ 220 は別スケール）ので、
+  // その日・そのソース内の最大値を基準に相対化して初めてバーが意味を持つ。
+  const max = {};
+  list.forEach(a => { max[a.source] = Math.max(max[a.source] || 0, a.score || 0); });
+
+  document.getElementById('ledger').innerHTML = list.map((a, i) => {
+    const m = max[a.source] || 0;
+    const w = m > 0 ? Math.round((a.score || 0) / m * 100) : 0;
+    const href = safeUrl(a.url);
+    const saved = Store.has(href);
+    const open = state.open.has(href);
+    const id = 'det-' + i;
+    return '<li class="row" data-open="' + open + '" data-url="' + esc(href) + '">' +
+      '<div class="rank mono">' + String(i + 1).padStart(2, '0') + '</div>' +
+      '<div class="src mono">' + esc(SRC[a.source] ? SRC[a.source].code : '??') + '</div>' +
+      '<div>' +
+        '<a class="headline" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' +
+          esc(a.title) + '</a>' +
+        (a.summary
+          ? '<button class="disclose" aria-expanded="' + open + '" aria-controls="' + id + '">' +
+            '<span class="caret mono">&#9656;</span><span class="lead">' + esc(a.summary) + '</span></button>'
+          : '') +
+        '<div class="detail" id="' + id + '"' + (open ? '' : ' hidden') + '>' +
+          (a.summary ? '<p class="summary">' + esc(a.summary) + '</p>' : '') +
+          '<div class="tags">' + (a.tags || []).map(t =>
+            '<button class="tag" data-tag="' + esc(t) + '" aria-pressed="' +
+            (state.tag === t) + '">' + esc(t) + '</button>').join('') + '</div>' +
+          (saved ? memoHtml(href) : '') +
+        '</div>' +
+      '</div>' +
+      '<div class="meta">' +
+        '<div class="metatop">' +
+          '<span class="score mono">' + (a.score || 0) + '</span>' +
+          '<div class="rowacts">' +
+            '<button class="act save" data-url="' + esc(href) + '" aria-pressed="' + saved + '" ' +
+              'title="保存" aria-label="保存">' + (saved ? '&#9733;' : '&#9734;') + '</button>' +
+            '<button class="act share" data-url="' + esc(href) + '" title="共有" aria-label="共有">&#8599;</button>' +
+          '</div>' +
+        '</div>' +
+        '<span class="comments mono">' + (a.comments || 0) + ' c</span>' +
+        '<div class="bar"><i style="width:' + w + '%"></i></div>' +
+      '</div>' +
+    '</li>';
+  }).join('');
+
+  const empty = document.getElementById('empty');
+  empty.hidden = list.length > 0;
+  empty.textContent = state.tag
+    ? 'タグ「' + state.tag + '」に該当する記事がありません'
+    : '該当する記事がありません';
+}
+
+function memoHtml(url) {
+  const it = Store.get(url);
+  return '<div class="memo">' +
+    '<label for="memo-' + encodeURIComponent(url) + '">メモ</label>' +
+    '<textarea id="memo-' + encodeURIComponent(url) + '" data-url="' + esc(url) + '" ' +
+      'placeholder="なぜ保存したか、あとで何を確かめるか">' + esc(it ? it.memo : '') + '</textarea>' +
+    '<div class="state" data-for="' + esc(url) + '"></div></div>';
+}
+
+/* ── 描画：保存済み ────────────────────────────── */
+function renderSaved() {
+  const q = document.getElementById('savedSearch').value.trim().toLowerCase();
+  let items = Store.all();
+  if (q) items = items.filter(it =>
+    (it.title + ' ' + (it.summary || '') + ' ' + (it.memo || '') + ' ' + (it.tags || []).join(' '))
+      .toLowerCase().includes(q));
+
+  document.getElementById('savedCount').textContent =
+    Store.count() + '件' + (q ? ' / 該当 ' + items.length + '件' : '');
+
+  document.getElementById('savedList').innerHTML = items.length === 0
+    ? '<p class="empty">' + (q ? '該当する保存記事がありません'
+        : '保存した記事はまだありません。記事の <code>&#9734;</code> を押すと、メモを添えてここに残せます。') + '</p>'
+    : items.map(it => {
+        const href = safeUrl(it.url);
+        return '<article class="saved-item">' +
+          '<div class="saved-meta mono">' +
+            '<span>' + esc(SRC[it.source] ? SRC[it.source].code : '??') + '</span>' +
+            '<span>' + esc(it.date || '') + '</span>' +
+            '<span>&#9650; ' + (it.score || 0) + '</span>' +
+          '</div>' +
+          '<a class="headline" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' +
+            esc(it.title) + '</a>' +
+          (it.summary ? '<p class="summary" style="margin-top:.35rem">' + esc(it.summary) + '</p>' : '') +
+          memoHtml(it.url) +
+          '<div class="rowacts" style="justify-content:flex-start;margin-top:.5rem">' +
+            '<button class="act share" data-url="' + esc(href) + '" title="共有" aria-label="共有">&#8599;</button>' +
+            '<button class="act remove" data-url="' + esc(href) + '" title="削除" aria-label="削除">&#10005;</button>' +
+          '</div>' +
+        '</article>';
+      }).join('');
+
+  document.getElementById('empty').hidden = true;
+}
+
+/* ── 日付セレクタ / アーカイブ帯 ───────────────── */
+function buildChrome() {
+  const sel = document.getElementById('dateSelect');
+  sel.innerHTML = DATES.map(d => {
+    const wd = ['日','月','火','水','木','金','土'][new Date(d + 'T00:00:00').getDay()];
+    return '<option value="' + d + '">' + d + ' (' + wd + ')</option>';
+  }).join('');
+
+  document.getElementById('dayCount').textContent = DATES.length;
+
+  const asc = DATES.slice().reverse();
+  const tops = asc.map(d => Math.max(0, ...NEWS[d].articles.map(a => a.score || 0)));
+  const peak = Math.max(1, ...tops);
+  document.getElementById('strip').innerHTML = asc.map((d, i) =>
+    '<button data-date="' + d + '" style="height:' +
+    Math.max(6, Math.round(tops[i] / peak * 100)) + '%" title="' + d +
+    ' — ' + NEWS[d].articles.length + '件 / 最高 ' + tops[i] + '" aria-label="' + d + '"></button>'
+  ).join('');
+}
+
+/* ── イベント ──────────────────────────────────── */
+function go(patch, replace) {
+  Object.assign(state, patch);
+  writeHash(replace);
+  render();
+}
+
+document.getElementById('toolbar').addEventListener('click', e => {
+  const chip = e.target.closest('.chip');
+  if (!chip) return;
+  if (chip.id === 'savedToggle') { go({ view: state.view === 'saved' ? 'day' : 'saved' }); return; }
+  if (chip.id === 'shareDay') {
+    const day = NEWS[state.date];
+    shareOrCopy({
+      title: 'Signal/Log ' + state.date,
+      text: state.date + ' のITニュース ' + (day ? day.articles.length : 0) + '件',
+      url: location.origin + location.pathname + '#/' + state.date
+    }, 'この日のURLをコピーしました');
+    return;
+  }
+  go({ view: 'day', source: chip.dataset.src });
+});
+
+document.getElementById('ledger').addEventListener('click', onListClick);
+document.getElementById('savedList').addEventListener('click', onListClick);
+
+function onListClick(e) {
+  const save = e.target.closest('.act.save');
+  if (save) {
+    const url = save.dataset.url;
+    if (Store.has(url)) { Store.remove(url); toast('保存を解除しました'); }
+    else {
+      const a = (NEWS[state.date] ? NEWS[state.date].articles : [])
+        .find(x => safeUrl(x.url) === url);
+      if (a && Store.add(a, state.date)) toast('保存しました');
+    }
+    render();
+    return;
+  }
+  const rm = e.target.closest('.act.remove');
+  if (rm) { Store.remove(rm.dataset.url); toast('削除しました'); render(); return; }
+
+  const sh = e.target.closest('.act.share');
+  if (sh) {
+    const url = sh.dataset.url;
+    const row = sh.closest('.row, .saved-item');
+    const title = row ? row.querySelector('.headline').textContent : '';
+    shareOrCopy({ title, text: title, url }, '記事URLをコピーしました');
+    return;
+  }
+  const tag = e.target.closest('.tag');
+  if (tag) {
+    if (state.view === 'saved') {
+      document.getElementById('savedSearch').value = tag.dataset.tag;
+      renderSaved();
+    } else {
+      state.tag = state.tag === tag.dataset.tag ? null : tag.dataset.tag;
+      render();
+    }
+    return;
+  }
+  const btn = e.target.closest('.disclose');
+  if (btn) {
+    const row = btn.closest('.row');
+    const open = row.dataset.open !== 'true';
+    if (open) state.open.add(row.dataset.url); else state.open.delete(row.dataset.url);
+    row.dataset.open = String(open);
+    btn.setAttribute('aria-expanded', String(open));
+    row.querySelector('.detail').hidden = !open;
   }
 }
 
-// カード全体クリックで記事を開く（インライン onclick を使わないための委譲）
-document.getElementById('articleList').addEventListener('click', e => {
-  if (e.target.closest('a')) return;  // タイトルリンクは本来の挙動に任せる
-  const card = e.target.closest('.card');
-  if (!card) return;
-  const url = card.dataset.url;
-  if (url && url !== '#') window.open(url, '_blank', 'noopener');
-});
+// メモは打鍵のたびに書くと重いので、止まってから保存する
+const memoTimers = new Map();
+function onMemoInput(e) {
+  const ta = e.target.closest('.memo textarea');
+  if (!ta) return;
+  const url = ta.dataset.url;
+  const note = document.querySelector('.memo .state[data-for="' + CSS.escape(url) + '"]');
+  if (note) note.textContent = '入力中…';
+  clearTimeout(memoTimers.get(url));
+  memoTimers.set(url, setTimeout(() => {
+    if (Store.setMemo(url, ta.value) && note) {
+      note.textContent = '保存しました';
+      setTimeout(() => { if (note.textContent === '保存しました') note.textContent = ''; }, 1600);
+    }
+  }, 400));
+}
+document.getElementById('ledger').addEventListener('input', onMemoInput);
+document.getElementById('savedList').addEventListener('input', onMemoInput);
 
-document.getElementById('dateSelect').addEventListener('change', e => { currentDate = e.target.value; render(); });
+document.getElementById('savedSearch').addEventListener('input', renderSaved);
+document.getElementById('dateSelect').addEventListener('change', e =>
+  go({ view: 'day', date: e.target.value }));
 document.getElementById('prevDate').addEventListener('click', () => {
-  const idx = DATES.indexOf(currentDate);
-  if (idx < DATES.length-1) { currentDate = DATES[idx+1]; document.getElementById('dateSelect').value = currentDate; render(); }
+  const i = DATES.indexOf(state.date);
+  if (i < DATES.length - 1) go({ view: 'day', date: DATES[i + 1] });
 });
 document.getElementById('nextDate').addEventListener('click', () => {
-  const idx = DATES.indexOf(currentDate);
-  if (idx > 0) { currentDate = DATES[idx-1]; document.getElementById('dateSelect').value = currentDate; render(); }
+  const i = DATES.indexOf(state.date);
+  if (i > 0) go({ view: 'day', date: DATES[i - 1] });
 });
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentFilter = btn.dataset.source;
-    render();
-  });
+document.getElementById('strip').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (b) go({ view: 'day', date: b.dataset.date });
 });
 
-buildDateSelector();
+document.getElementById('exportBtn').addEventListener('click', () => {
+  if (Store.count() === 0) { toast('保存済みがありません'); return; }
+  const blob = new Blob([JSON.stringify(Store.all(), null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'signal-log-saved-' + new Date().toISOString().slice(0, 10) + '.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast(Store.count() + '件を書き出しました');
+});
+document.getElementById('importBtn').addEventListener('click', () =>
+  document.getElementById('importFile').click());
+document.getElementById('importFile').addEventListener('change', async e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  try {
+    let items;
+    try { items = JSON.parse(await file.text()); }
+    catch (parseErr) { throw new Error('JSONとして読めないファイルです'); }
+    if (!Array.isArray(items)) throw new Error('「保存済みを書き出す」で作ったファイルを選んでください');
+    // 取り込みは既存に足す。同じURLは、メモが入っている方を残す
+    const merged = {};
+    Store.all().forEach(it => { merged[it.url] = it; });
+    let added = 0;
+    items.forEach(it => {
+      const url = safeUrl(it && it.url);
+      if (url === '#') return;
+      const cur = merged[url];
+      if (!cur || (!cur.memo && it.memo)) { merged[url] = Object.assign({}, it, { url }); }
+      if (!cur) added++;
+    });
+    Store.replaceAll(merged);
+    toast(added + '件を追加しました（計 ' + Store.count() + '件）');
+    render();
+  } catch (err) { toast('読み込めませんでした: ' + err.message); }
+  finally { e.target.value = ''; }
+});
+
+document.getElementById('themeBtn').addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const sysDark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const next = cur ? (cur === 'dark' ? 'light' : 'dark') : (sysDark ? 'light' : 'dark');
+  document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem('signallog:theme', next); } catch (e) {}
+});
+
+document.getElementById('brandLink').addEventListener('click', e => {
+  e.preventDefault();
+  go({ view: 'day', date: DATES[0], source: 'all' });
+});
+
+window.addEventListener('hashchange', applyHash);
+
+/* ── 起動 ──────────────────────────────────────── */
+try {
+  const t = localStorage.getItem('signallog:theme');
+  if (t) document.documentElement.setAttribute('data-theme', t);
+} catch (e) {}
+
+buildChrome();
+Object.assign(state, parseHash());
+writeHash(true);
 render();
+})();
 </script>
 </body>
 </html>
