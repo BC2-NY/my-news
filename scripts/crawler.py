@@ -4,6 +4,7 @@ crawler.py  ―  はてブ / Hacker News / Reddit から今日のITトレンド�
 
 import json
 import time
+import hashlib
 import feedparser
 import requests
 from datetime import datetime, date, timezone, timedelta
@@ -15,6 +16,17 @@ OUTPUT_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 HEADERS = {"User-Agent": "ITNoise-NewsBot/1.0 (personal aggregator)"}
+
+
+def url_id(prefix: str, url: str) -> str:
+    """URLから安定したIDを作る。
+
+    組み込みの hash() は文字列に対してプロセスごとにランダム化される
+    (PYTHONHASHSEED) ため、同じ記事でも実行のたびにIDが変わってしまう。
+    日をまたいだ重複判定に使えるよう hashlib で固定する。
+    """
+    digest = hashlib.sha1(url.encode("utf-8")).hexdigest()
+    return f"{prefix}_{digest[:12]}"
 
 # ── 設定 ──────────────────────────────────────────────────────────────
 HATENA_FEEDS = [
@@ -43,7 +55,7 @@ def fetch_hatena() -> list[dict]:
                     score = int(entry.hatena_bookmarkcount)
 
                 articles.append({
-                    "id": f"hatena_{abs(hash(entry.link)) % 100000:05d}",
+                    "id": url_id("hatena", entry.link),
                     "source": "hatena",
                     "title": entry.title,
                     "url": entry.link,
@@ -118,7 +130,7 @@ def fetch_reddit() -> list[dict]:
                     raw_desc = entry.content[0].value[:500]
 
                 articles.append({
-                    "id": f"reddit_{abs(hash(entry.link)) % 100000:05d}",
+                    "id": url_id("reddit", entry.link),
                     "source": "reddit",
                     "title": entry.title,
                     "url": entry.link,

@@ -218,17 +218,28 @@ function render() {
     '<div class="stat"><div class="stat-value">' + counts.hackernews + '</div><div class="stat-label">HN</div></div>' +
     '<div class="stat"><div class="stat-value">' + counts.reddit + '</div><div class="stat-label">Reddit</div></div>';
   if (currentFilter !== 'all') articles = articles.filter(a => a.source === currentFilter);
+
+  // スコアはソースごとに桁が違う（HNは3桁、はてブは2〜3桁）ので、
+  // その日・そのソース内の最大値を基準に相対化して初めてバーが意味を持つ。
+  const maxBySource = {};
+  articles.forEach(a => {
+    const s = a.source;
+    maxBySource[s] = Math.max(maxBySource[s] || 0, a.score || 0);
+  });
+
   const list = document.getElementById('articleList');
   list.innerHTML = articles.map(a => {
-    const width = Math.min((a.score||0) / 60, 100);
+    const max = maxBySource[a.source] || 0;
+    const width = max > 0 ? Math.round((a.score || 0) / max * 100) : 0;
     const tags = (a.tags||[]).map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-    return '<article class="card" data-source="' + a.source + '" onclick="window.open(\'' + a.url + '\',\'_blank\',\'noopener\')">' +
+    const href = safeUrl(a.url);
+    return '<article class="card" data-source="' + escapeHtml(a.source) + '" data-url="' + escapeHtml(href) + '">' +
       '<div class="card-stripe"></div><div class="card-body">' +
-      '<div class="card-meta"><span class="source-badge">' + (sourceLabel[a.source]||a.source) + '</span>' +
+      '<div class="card-meta"><span class="source-badge">' + escapeHtml(sourceLabel[a.source]||a.source) + '</span>' +
       '<div class="score-bar"><div class="score-track"><div class="score-fill" style="width:' + width + '%"></div></div>' +
       '<span class="score-num">&#9650; ' + (a.score||0) + '</span></div>' +
       '<span class="comment-count">&#128172; ' + (a.comments||0) + '</span></div>' +
-      '<a class="card-title" href="' + a.url + '" onclick="event.stopPropagation()">' + escapeHtml(a.title) + '</a>' +
+      '<a class="card-title" href="' + escapeHtml(href) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(a.title) + '</a>' +
       (a.summary ? '<div class="ai-summary"><div class="ai-label"><span class="ai-dot"></span>AI要約</div>' + escapeHtml(a.summary) + '</div>' : '') +
       '<div class="tags">' + tags + '</div></div></article>';
   }).join('');
@@ -243,6 +254,25 @@ function render() {
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+
+// クロール元のURLは信用できないので、http(s) 以外は握りつぶす（javascript: 対策）
+function safeUrl(u) {
+  try {
+    const parsed = new URL(String(u));  // baseを渡さない = 絶対URL以外は例外にする
+    return (parsed.protocol === 'http:' || parsed.protocol === 'https:') ? parsed.href : '#';
+  } catch (e) {
+    return '#';
+  }
+}
+
+// カード全体クリックで記事を開く（インライン onclick を使わないための委譲）
+document.getElementById('articleList').addEventListener('click', e => {
+  if (e.target.closest('a')) return;  // タイトルリンクは本来の挙動に任せる
+  const card = e.target.closest('.card');
+  if (!card) return;
+  const url = card.dataset.url;
+  if (url && url !== '#') window.open(url, '_blank', 'noopener');
+});
 
 document.getElementById('dateSelect').addEventListener('change', e => { currentDate = e.target.value; render(); });
 document.getElementById('prevDate').addEventListener('click', () => {

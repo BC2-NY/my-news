@@ -4,6 +4,8 @@ __pycache__/
 
 # 環境変数・秘密情報（絶対にアップロードしない）
 .env
+.env.*
+!.env.example
 *.key
 
 # OS
