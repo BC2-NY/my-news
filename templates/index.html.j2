@@ -135,6 +135,9 @@
   /* 実際に読ませる本文。日本語は 13〜14px だと詰まって読み負荷が上がるので
      見出しと同じ 1rem まで上げ、階層は太さと色で保つ */
   .summary{ font-size:1rem; line-height:1.95; color:var(--read); max-width:34em }
+  /* 本文が取れずタイトルだけで書かれた要約は、そうと分かるようにする */
+  .caveat{ font-size:.7rem; color:var(--faint); margin-top:.3rem;
+    padding-left:.5rem; border-left:2px solid var(--rule-strong); max-width:34em }
   .tags{ display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.55rem }
   .tag{ font:inherit; font-size:.65rem; letter-spacing:.03em; cursor:pointer;
     background:transparent; color:var(--faint);
@@ -272,13 +275,46 @@
 
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script id="newsData" type="application/json">{{ all_data_json | safe }}</script>
+<script id="indexData" type="application/json">{{ index_json | safe }}</script>
 <script>
 (() => {
 'use strict';
 
-const NEWS  = JSON.parse(document.getElementById('newsData').textContent);
-const DATES = Object.keys(NEWS).sort().reverse();
+// ページには日付一覧だけを埋め込み、その日の記事は表示するときに取りに行く。
+// 全日分を埋め込むとページが際限なく肥大化するため（75日で1.5MBだった）。
+const INDEX = JSON.parse(document.getElementById('indexData').textContent);
+const DAYS  = INDEX.days;
+const DATES = DAYS.map(d => d.d);
+const DAYMETA = Object.fromEntries(DAYS.map(d => [d.d, d]));
+const cache = new Map();      // date -> articles（取得済み）
+const inflight = new Map();   // date -> Promise（取得中）
+
+function loadDay(date) {
+  if (cache.has(date)) return Promise.resolve(cache.get(date));
+  // 日付を連打すると同じ日に何本もリクエストが飛ぶので、
+  // 取得中のものがあればその Promise を使い回す
+  if (inflight.has(date)) return inflight.get(date);
+
+  const meta = DAYMETA[date];
+  if (!meta) return Promise.resolve([]);
+
+  // v は中身のハッシュ。更新された日だけ再取得される
+  const p = fetch('api/' + date + '.json?v=' + meta.v)
+    .then(res => {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(day => {
+      const articles = day.articles || [];
+      cache.set(date, articles);
+      return articles;
+    })
+    .finally(() => inflight.delete(date));
+
+  inflight.set(date, p);
+  return p;
+}
+
 const SRC   = {
   hatena:     { code:'HB', label:'はてブ' },
   hackernews: { code:'HN', label:'HN' },
@@ -401,13 +437,15 @@ function applyHash() {
 }
 
 /* ── 描画：日次 ────────────────────────────────── */
-function render() {
+// 続けて日付を切り替えたとき、遅れて届いた古い応答で
+// 画面を上書きしないよう、最新の描画だけを採用する
+let renderSeq = 0;
+
+async function render() {
+  const seq = ++renderSeq;
   const savedView = state.view === 'saved';
   document.getElementById('savedView').hidden = !savedView;
   document.getElementById('ledger').hidden = savedView;
-
-  renderToolbar();
-  if (savedView) renderSaved(); else renderDay();
 
   document.getElementById('dateSelect').value = state.date;
   document.getElementById('todayBadge').hidden = savedView || state.date !== DATES[0];
@@ -417,11 +455,34 @@ function render() {
   document.getElementById('prevDate').disabled = savedView || i >= DATES.length - 1;
   [...document.querySelectorAll('#strip button')].forEach(b =>
     b.classList.toggle('is-current', !savedView && b.dataset.date === state.date));
+
+  const empty = document.getElementById('empty');
+  let articles = [], failed = false;
+  if (cache.has(state.date)) {
+    articles = cache.get(state.date);
+  } else {
+    if (!savedView) {
+      document.getElementById('ledger').innerHTML = '';
+      empty.hidden = false;
+      empty.textContent = '読み込み中…';
+    }
+    try { articles = await loadDay(state.date); }
+    catch (e) { failed = true; }
+  }
+  if (seq !== renderSeq) return;   // もう次の描画が始まっている
+
+  renderToolbar(articles);
+  if (savedView) { renderSaved(); return; }
+  if (failed) {
+    document.getElementById('ledger').innerHTML = '';
+    empty.hidden = false;
+    empty.textContent = 'この日のデータを読み込めませんでした。通信状況を確認して再読み込みしてください。';
+    return;
+  }
+  renderDay(articles);
 }
 
-function renderToolbar() {
-  const day = NEWS[state.date];
-  const arts = day ? day.articles : [];
+function renderToolbar(arts) {
   const counts = arts.reduce((m, a) => (m[a.source] = (m[a.source] || 0) + 1, m), {});
   const chips = [['all', 'ALL', arts.length]]
     .concat(Object.keys(SRC).map(k => [k, SRC[k].label, counts[k] || 0]));
@@ -436,9 +497,8 @@ function renderToolbar() {
     '&#9733; 保存済み<span class="n">' + Store.count() + '</span></button>';
 }
 
-function renderDay() {
-  const day = NEWS[state.date];
-  let list = day ? day.articles.slice().sort((a, b) => (b.score || 0) - (a.score || 0)) : [];
+function renderDay(articles) {
+  let list = articles.slice().sort((a, b) => (b.score || 0) - (a.score || 0));
   if (state.source !== 'all') list = list.filter(a => a.source === state.source);
   if (state.tag) list = list.filter(a => (a.tags || []).includes(state.tag));
 
@@ -466,6 +526,8 @@ function renderDay() {
           : '') +
         '<div class="detail" id="' + id + '"' + (open ? '' : ' hidden') + '>' +
           (a.summary ? '<p class="summary">' + esc(a.summary) + '</p>' : '') +
+          (a.summary_basis === 'title'
+            ? '<p class="caveat">本文を取得できなかったため、タイトルだけを元にした要約です</p>' : '') +
           '<div class="tags">' + (a.tags || []).map(t =>
             '<button class="tag" data-tag="' + esc(t) + '" aria-pressed="' +
             (state.tag === t) + '">' + esc(t) + '</button>').join('') + '</div>' +
@@ -549,13 +611,14 @@ function buildChrome() {
 
   document.getElementById('dayCount').textContent = DATES.length;
 
-  const asc = DATES.slice().reverse();
-  const tops = asc.map(d => Math.max(0, ...NEWS[d].articles.map(a => a.score || 0)));
-  const peak = Math.max(1, ...tops);
-  document.getElementById('strip').innerHTML = asc.map((d, i) =>
-    '<button data-date="' + d + '" style="height:' +
-    Math.max(6, Math.round(tops[i] / peak * 100)) + '%" title="' + d +
-    ' — ' + NEWS[d].articles.length + '件 / 最高 ' + tops[i] + '" aria-label="' + d + '"></button>'
+  // 帯に必要な件数と最高スコアは index.json に入っているので、
+  // 全日分の記事を読み込まずに描ける
+  const asc = DAYS.slice().reverse();
+  const peak = Math.max(1, ...asc.map(d => d.top));
+  document.getElementById('strip').innerHTML = asc.map(d =>
+    '<button data-date="' + d.d + '" style="height:' +
+    Math.max(6, Math.round(d.top / peak * 100)) + '%" title="' + d.d +
+    ' — ' + d.n + '件 / 最高 ' + d.top + '" aria-label="' + d.d + '"></button>'
   ).join('');
 }
 
@@ -571,10 +634,10 @@ document.getElementById('toolbar').addEventListener('click', e => {
   if (!chip) return;
   if (chip.id === 'savedToggle') { go({ view: state.view === 'saved' ? 'day' : 'saved' }); return; }
   if (chip.id === 'shareDay') {
-    const day = NEWS[state.date];
+    const meta = DAYMETA[state.date];
     shareOrCopy({
       title: 'Signal/Log ' + state.date,
-      text: state.date + ' のITニュース ' + (day ? day.articles.length : 0) + '件',
+      text: state.date + ' のITニュース ' + (meta ? meta.n : 0) + '件',
       url: location.origin + location.pathname + '#/' + state.date
     }, 'この日のURLをコピーしました');
     return;
@@ -591,8 +654,7 @@ function onListClick(e) {
     const url = save.dataset.url;
     if (Store.has(url)) { Store.remove(url); toast('保存を解除しました'); }
     else {
-      const a = (NEWS[state.date] ? NEWS[state.date].articles : [])
-        .find(x => safeUrl(x.url) === url);
+      const a = (cache.get(state.date) || []).find(x => safeUrl(x.url) === url);
       if (a && Store.add(a, state.date)) toast('保存しました');
     }
     render();

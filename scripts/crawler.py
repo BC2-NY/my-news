@@ -3,10 +3,12 @@ crawler.py  ―  はてブ / Hacker News / Reddit から今日のITトレンド�
 """
 
 import json
+import re
 import time
 import hashlib
 import feedparser
 import requests
+from bs4 import BeautifulSoup
 from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 
@@ -28,6 +30,83 @@ def url_id(prefix: str, url: str) -> str:
     digest = hashlib.sha1(url.encode("utf-8")).hexdigest()
     return f"{prefix}_{digest[:12]}"
 
+
+def strip_html(html: str) -> str:
+    """HTML片からテキストだけ取り出す（RSSのdescriptionにタグが入るため）"""
+    if not html:
+        return ""
+    text = BeautifulSoup(html, "html.parser").get_text(" ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def fetch_page_text(url: str) -> tuple[str, str]:
+    """記事ページから要約の材料になるテキストを取る。
+
+    戻り値は (本文, 取得元)。取れなければ ("", "none")。
+    優先順位は og:description / meta description → <article>/<main> の本文。
+    メタ記述は書き手が要約した一文なので、雑な本文抽出より当たりが良い。
+    """
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT,
+                           allow_redirects=True, stream=True)
+        if res.status_code != 200:
+            return "", "none"
+        if "html" not in res.headers.get("content-type", "").lower():
+            return "", "none"
+
+        chunks, size = [], 0
+        for chunk in res.iter_content(8192):
+            chunks.append(chunk)
+            size += len(chunk)
+            if size >= FETCH_MAX_BYTES:
+                break
+        res.close()
+        html = b"".join(chunks).decode(res.encoding or "utf-8", errors="replace")
+
+        soup = BeautifulSoup(html, "html.parser")
+
+        meta = ""
+        for sel, attr in (({"property": "og:description"}, "content"),
+                          ({"name": "description"}, "content")):
+            tag = soup.find("meta", attrs=sel)
+            if tag and tag.get(attr):
+                meta = re.sub(r"\s+", " ", tag[attr]).strip()
+                break
+
+        for junk in soup(["script", "style", "noscript", "nav", "header",
+                          "footer", "aside", "form", "iframe"]):
+            junk.decompose()
+        main = soup.find("article") or soup.find("main") or soup.body
+        body = re.sub(r"\s+", " ", main.get_text(" ")).strip() if main else ""
+
+        # メタ記述だけで十分な長さなら本文と繋げず、それを使う
+        if len(body) >= 200:
+            combined = (meta + " " + body).strip() if meta else body
+            return combined[:BODY_CHARS], "page"
+        if len(meta) >= 60:
+            return meta[:BODY_CHARS], "meta"
+        return "", "none"
+
+    except Exception as e:
+        print(f"  [body] {url[:60]}: {type(e).__name__}")
+        return "", "none"
+
+
+def enrich_bodies(articles: list[dict]) -> None:
+    """説明文が薄い記事に本文を補う。ここが要約品質を決める。"""
+    if not FETCH_BODY:
+        return
+    need = [a for a in articles if len(a.get("raw_description", "")) < 120]
+    print(f"[body] {len(need)}/{len(articles)} 件の本文を取得します")
+    for a in need:
+        text, origin = fetch_page_text(a["url"])
+        if text:
+            a["raw_description"] = text
+            a["content_source"] = origin
+        time.sleep(FETCH_SLEEP)
+    got = sum(1 for a in need if a.get("content_source") in ("page", "meta"))
+    print(f"[body] {got}/{len(need)} 件で本文を取得")
+
 # ── 設定 ──────────────────────────────────────────────────────────────
 HATENA_FEEDS = [
     "https://b.hatena.ne.jp/hotentry/it.rss",
@@ -36,6 +115,14 @@ HATENA_TOP_N = 8  # はてブから取得する記事数
 HN_TOP_N   = 8    # HN から取得する記事数
 REDDIT_SUBS = ["programming"]
 REDDIT_TOP_N = 4  # 各サブレから4件ずつ（1サブレ = 4件）
+
+# 本文取得の設定。要約の材料が無いとAIが内容を捏造するため、
+# 説明文が空の記事は元ページから本文を取りに行く。
+FETCH_BODY = True
+BODY_CHARS = 1500      # Geminiに渡す本文の最大文字数
+FETCH_TIMEOUT = 12     # 1ページあたりの上限（秒）
+FETCH_MAX_BYTES = 600_000
+FETCH_SLEEP = 0.6      # 相手サイトへの連続アクセスを避ける
 
 
 # ──────────────────────────────────────────────────────────────────────
@@ -54,6 +141,7 @@ def fetch_hatena() -> list[dict]:
                 if hasattr(entry, 'hatena_bookmarkcount'):
                     score = int(entry.hatena_bookmarkcount)
 
+                desc = strip_html(summary)
                 articles.append({
                     "id": url_id("hatena", entry.link),
                     "source": "hatena",
@@ -61,7 +149,8 @@ def fetch_hatena() -> list[dict]:
                     "url": entry.link,
                     "score": score,
                     "comments": 0,
-                    "raw_description": summary[:500],
+                    "raw_description": desc[:BODY_CHARS],
+                    "content_source": "feed" if desc else "none",
                     "tags": [],
                     "fetched_at": datetime.now(JST).isoformat(),
                 })
@@ -92,6 +181,9 @@ def fetch_hackernews() -> list[dict]:
                 item = r.json()
                 if not item or item.get("type") != "story":
                     continue
+                # Ask HN / Show HN などの自己投稿は本文が text に入る。
+                # 外部リンク記事はここが空なので、あとで enrich_bodies が拾う。
+                self_text = strip_html(item.get("text", ""))
                 articles.append({
                     "id": f"hn_{story_id}",
                     "source": "hackernews",
@@ -99,7 +191,8 @@ def fetch_hackernews() -> list[dict]:
                     "url": item.get("url", f"https://news.ycombinator.com/item?id={story_id}"),
                     "score": item.get("score", 0),
                     "comments": item.get("descendants", 0),
-                    "raw_description": "",  # HNは本文なし → Claudeがタイトルから要約
+                    "raw_description": self_text[:BODY_CHARS],
+                    "content_source": "hn_text" if self_text else "none",
                     "tags": [],
                     "fetched_at": datetime.now(JST).isoformat(),
                 })
@@ -127,7 +220,7 @@ def fetch_reddit() -> list[dict]:
                 score = 0
                 raw_desc = ""
                 if entry.get("content"):
-                    raw_desc = entry.content[0].value[:500]
+                    raw_desc = strip_html(entry.content[0].value)
 
                 articles.append({
                     "id": url_id("reddit", entry.link),
@@ -136,7 +229,8 @@ def fetch_reddit() -> list[dict]:
                     "url": entry.link,
                     "score": score,
                     "comments": 0,
-                    "raw_description": raw_desc,
+                    "raw_description": raw_desc[:BODY_CHARS],
+                    "content_source": "feed" if raw_desc else "none",
                     "tags": [sub],
                     "fetched_at": datetime.now(JST).isoformat(),
                 })
@@ -155,6 +249,8 @@ def main():
     all_articles.extend(fetch_hatena())
     all_articles.extend(fetch_hackernews())
     all_articles.extend(fetch_reddit())
+
+    enrich_bodies(all_articles)
 
     # スコアでソート
     all_articles.sort(key=lambda x: x["score"], reverse=True)

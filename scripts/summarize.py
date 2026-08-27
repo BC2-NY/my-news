@@ -32,30 +32,60 @@ client = genai.Client(api_key=API_KEY, vertexai=False)
 
 MODEL = "gemini-2.5-flash-lite"
 
-SYSTEM_PROMPT = """あなたはITニュースのキュレーターです。
-与えられた記事タイトルと説明文を読み、以下のJSON形式で必ず回答してください。
+# 本文が取れている記事用。事実は本文の中だけから拾わせる。
+PROMPT_WITH_BODY = """あなたはITニュースのキュレーターです。
+与えられた記事の本文を読み、以下のJSON形式で必ず回答してください。
 
 {
   "summary": "3〜4文の日本語要約。技術的に正確で、なぜ重要かを含める。",
   "tags": ["タグ1", "タグ2", "タグ3"]
 }
 
-注意:
-- summaryは技術者が読んで価値があると感じる内容にする
+厳守:
+- **必ず日本語で書く**。原文が英語でも要約は日本語にする
+- 本文に書かれていないことは書かない。数値・企業名・製品の性質を
+  推測で補わない。本文が何の話か曖昧なら、曖昧なまま短く書く
 - 誇張や煽りは避け、事実ベースで書く
+- summaryは技術者が読んで価値があると感じる内容にする
 - タグは最大4つ、内容を正確に反映させる
-- 必ずJSONのみ返す（説明文や```は不要）"""
+- 必ずJSONのみ返す（説明文や``` は不要）"""
+
+# 本文が取れなかった記事用。ここで自由に書かせると捏造が起きるので、
+# タイトルから読み取れる範囲に明示的に閉じ込める。
+PROMPT_TITLE_ONLY = """あなたはITニュースのキュレーターです。
+**記事タイトルしか手元にありません。本文は取得できませんでした。**
+以下のJSON形式で必ず回答してください。
+
+{
+  "summary": "タイトルから確実に読み取れる範囲だけの、1〜2文の日本語の説明。",
+  "tags": ["タグ1", "タグ2"]
+}
+
+厳守:
+- **必ず日本語で書く**
+- **タイトルに書かれていない事実を絶対に補わない**。製品の機能、企業の
+  業種、金額、技術的な仕組み、影響範囲などを想像で書いてはいけない。
+  これらは全て捏造になる
+- 分かるのが「何についての記事らしいか」だけなら、それだけを書く
+- 「〜と思われる」「〜についての記事」のように、断定を避けた書き方にする
+- タグはタイトルに現れた語だけから付ける。最大2つ。無ければ空配列
+- 必ずJSONのみ返す（説明文や``` は不要）"""
+
+# これ未満なら本文とみなさない
+MIN_BODY_CHARS = 80
 
 
 def summarize_article(article: dict) -> dict:
     title = article.get("title", "")
-    raw_desc = article.get("raw_description", "")
+    raw_desc = (article.get("raw_description") or "").strip()
+    has_body = len(raw_desc) >= MIN_BODY_CHARS
 
-    user_content = f"タイトル: {title}"
-    if raw_desc:
-        user_content += f"\n説明: {raw_desc[:400]}"
-
-    full_prompt = SYSTEM_PROMPT + "\n\n---\n\n" + user_content
+    if has_body:
+        user_content = f"タイトル: {title}\n\n本文:\n{raw_desc[:1500]}"
+        full_prompt = PROMPT_WITH_BODY + "\n\n---\n\n" + user_content
+    else:
+        user_content = f"タイトル: {title}"
+        full_prompt = PROMPT_TITLE_ONLY + "\n\n---\n\n" + user_content
 
     try:
         response = client.models.generate_content(
@@ -72,14 +102,16 @@ def summarize_article(article: dict) -> dict:
         return {
             "summary": parsed.get("summary", ""),
             "tags": parsed.get("tags", [])[:4],
+            # 何を根拠に書かれた要約かを残す。UI側で断り書きを出すため。
+            "basis": "content" if has_body else "title",
             "ok": True,
         }
     except json.JSONDecodeError:
         print(f"  [warn] JSON parse failed for: {title[:40]}")
-        return {"summary": "", "tags": article.get("tags", []), "ok": False}
+        return {"summary": "", "tags": article.get("tags", []), "basis": "", "ok": False}
     except Exception as e:
         print(f"  [error] {title[:40]}: {e}")
-        return {"summary": "", "tags": article.get("tags", []), "ok": False}
+        return {"summary": "", "tags": article.get("tags", []), "basis": "", "ok": False}
 
 
 def main():
@@ -104,9 +136,12 @@ def main():
             print(f"  [上限] {DAILY_LIMIT}件に達したので残り{total - i}件は明日に回します")
             break
 
-        print(f"  [{i+1}/{total}] summarizing: {article['title'][:50]}")
+        body = len((article.get("raw_description") or "").strip())
+        mark = "本文" if body >= MIN_BODY_CHARS else "タイトルのみ"
+        print(f"  [{i+1}/{total}] ({mark}) {article['title'][:44]}")
         result = summarize_article(article)
         article["summary"] = result["summary"]
+        article["summary_basis"] = result["basis"]
         if result["tags"]:
             article["tags"] = result["tags"]
 
@@ -115,7 +150,8 @@ def main():
         time.sleep(SLEEP_SEC)
 
     target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"=== summarize complete: {done}件を要約 → {target} ===")
+    thin = sum(1 for a in articles if a.get("summary_basis") == "title")
+    print(f"=== summarize complete: {done}件を要約（うち{thin}件はタイトルのみ） → {target} ===")
 
 
 if __name__ == "__main__":
