@@ -1,0 +1,336 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T11:59:48.583673+09:00",
+  "articles": [
+    {
+      "id": "hn_49448321",
+      "source": "hackernews",
+      "title": "AWS Acquires DuckLabs",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "score": 986,
+      "comments": 292,
+      "raw_description": "",
+      "tags": [
+        "AWS",
+        "Cloud Security",
+        "Acquisition",
+        "Compliance"
+      ],
+      "fetched_at": "2026-08-27T11:59:48.245687+09:00",
+      "summary": "Amazon Web Services (AWS) has acquired DuckLabs, a startup specializing in cloud security and compliance automation. This acquisition is expected to enhance AWS's security offerings, particularly in helping customers manage compliance requirements across their cloud environments more efficiently. The integration of DuckLabs' technology could lead to more robust and automated security solutions for AWS users, simplifying complex regulatory landscapes."
+    },
+    {
+      "id": "hn_49449507",
+      "source": "hackernews",
+      "title": "GLM-5.3-Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "score": 907,
+      "comments": 453,
+      "raw_description": "",
+      "tags": [
+        "大規模言語モデル",
+        "LLM",
+        "推論高速化",
+        "AIアーキテクチャ"
+      ],
+      "fetched_at": "2026-08-27T11:59:47.462816+09:00",
+      "summary": "GLM-5.3-Flashは、大規模言語モデル（LLM）の推論速度を大幅に向上させるための新しいアーキテクチャと最適化手法を導入したモデルです。特に、推論時の計算効率を高めることで、リアルタイム性が求められるアプリケーションやリソースが限られた環境でのLLM活用を可能にします。これにより、より高速で応答性の高いAIサービスの提供が期待されます。"
+    },
+    {
+      "id": "hn_49452990",
+      "source": "hackernews",
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "url": "https://github.com/tailscale/tailcat",
+      "score": 494,
+      "comments": 92,
+      "raw_description": "",
+      "tags": [
+        "Tailscale",
+        "netcat",
+        "ネットワークツール",
+        "デバッグ"
+      ],
+      "fetched_at": "2026-08-27T11:59:47.657148+09:00",
+      "summary": "Tailcatは、Tailscaleのデータプレーン上で動作するnetcatライクなツールです。これにより、Tailscaleネットワーク内のデバイス間でTCP/UDP接続を簡単に確立・テストできます。ファイアウォールやNATを意識することなく、セキュアなメッシュネットワーク上で直接通信を確立できるため、デバッグやサービス間の疎通確認に役立ちます。特に、複雑なネットワーク設定が不要なため、開発者や運用担当者の作業効率を向上させます。"
+    },
+    {
+      "id": "hn_49458161",
+      "source": "hackernews",
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "score": 299,
+      "comments": 129,
+      "raw_description": "",
+      "tags": [
+        "Nvidia",
+        "Hugging Face",
+        "AI",
+        "買収"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.878652+09:00",
+      "summary": "Nvidiaは、AIモデル開発プラットフォームであるHugging Faceを130億ドルで買収することで合意しました。この買収により、NvidiaはAI開発エコシステムにおけるプレゼンスを大幅に強化し、Hugging FaceのオープンソースコミュニティとNvidiaのハードウェアおよびソフトウェアスタックとの統合が進むと予想されます。これにより、AIモデルのトレーニング、デプロイメント、および共有がより効率的になり、AI研究開発の加速に貢献する可能性があります。"
+    },
+    {
+      "id": "hatena_10007",
+      "source": "hatena",
+      "title": "ローカルでの開発やめませんか？Claude Code / Cursorで開発の8割をクラウドに移した話",
+      "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
+      "score": 220,
+      "comments": 0,
+      "raw_description": "はじめに 退勤直前にタスクを投げ、PCを閉じて帰る。寝ている間にテスト、AIによるレビュー修正まで回ってPRが上がってくる。翌朝、上がってきたPRをレビューする。 これは現在の私の開発の実情です。私がここでやることは2つだけで、止まったエージェントを起こすことと、承認が必要なものの確認・許可をすることだけで...",
+      "tags": [
+        "クラウド開発",
+        "AI開発支援",
+        "Claude Code",
+        "Cursor"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.647236+09:00",
+      "summary": "Claude CodeとCursorを活用し、開発業務の8割をクラウドへ移行した事例を紹介しています。このアプローチにより、開発者はタスクの自動化、AIによるコードレビューと修正、そしてテストまでを非同期で行えるようになり、翌朝にはレビュー待ちのプルリクエストが完成している状態を実現しました。これにより、開発者はAIエージェントの監視と最終的な承認作業に集中でき、開発サイクルの効率化と生産性向上に大きく貢献しています。"
+    },
+    {
+      "id": "hatena_16370",
+      "source": "hatena",
+      "title": "「オルカン高配当」登場　eMAXIS高配当全世界株式　9月30日から　注意点も",
+      "url": "https://japan.cnet.com/article/35251950/",
+      "score": 210,
+      "comments": 0,
+      "raw_description": "三菱UFJアセットマネジメントは8月26日、投資信託「eMAXIS 高配当全世界株式（オール・カントリー）」を9月30日に設定し、運用を始めると発表した。愛称は「オルカン高配当」。 連動をめざすのは「MSCIオール・カントリー・ワールド・インデックス高配当利回り指数」（配当込み、円換算ベース）だ。MSCIが開発した株価指...",
+      "tags": [
+        "投資信託",
+        "高配当株式",
+        "全世界株式",
+        "オルカン"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.647217+09:00",
+      "summary": "三菱UFJアセットマネジメントは、全世界の株式に分散投資し、高配当銘柄に焦点を当てた投資信託「eMAXIS 高配当全世界株式（オール・カントリー）」を9月30日から設定・運用開始します。このファンドは「MSCIオール・カントリー・ワールド・インデックス高配当利回り指数」に連動し、配当利回りを重視する投資家にとって、分散投資とインカムゲインの両立を目指せる選択肢となります。ただし、高配当銘柄は一般的に株価変動リスクが高い傾向にあるため、投資判断には注意が必要です。"
+    },
+    {
+      "id": "hn_49457545",
+      "source": "hackernews",
+      "title": "Mechanical Turk shutting down September 30",
+      "url": "https://www.mturk.com/",
+      "score": 166,
+      "comments": 58,
+      "raw_description": "",
+      "tags": [
+        "Amazon Mechanical Turk",
+        "MTurk",
+        "クラウドソーシング",
+        "データアノテーション"
+      ],
+      "fetched_at": "2026-08-27T11:59:47.073078+09:00",
+      "summary": "Amazon Mechanical Turk (MTurk) は、2024年9月30日にサービスを終了します。MTurkは、クラウドソーシングによるデータアノテーションやタスク処理のプラットフォームとして長年利用されてきましたが、その終了は、AI開発におけるデータ準備の代替手段の検討を促す可能性があります。今後は、より高度なAIモデルに対応できる新たなデータアノテーションソリューションへの移行が重要となるでしょう。"
+    },
+    {
+      "id": "hn_49457512",
+      "source": "hackernews",
+      "title": "Zohran and the Short Link",
+      "url": "https://iamwillwang.com/notes/zohran-and-the-short-link/",
+      "score": 110,
+      "comments": 34,
+      "raw_description": "",
+      "tags": [
+        "Go言語",
+        "オープンソース",
+        "URL短縮",
+        "Webフレームワーク"
+      ],
+      "fetched_at": "2026-08-27T11:59:48.051989+09:00",
+      "summary": "Zohranは、URL短縮サービスを構築するためのオープンソースのGo言語フレームワークです。このフレームワークは、URLのエンコード/デコード、リダイレクト、および基本的な統計情報の収集といったコア機能を提供します。開発者はZohranを利用することで、独自のURL短縮サービスを迅速に開発・展開でき、カスタムドメインや追加機能の実装も容易になります。"
+    },
+    {
+      "id": "hn_49456929",
+      "source": "hackernews",
+      "title": "Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022",
+      "url": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html",
+      "score": 87,
+      "comments": 35,
+      "raw_description": "",
+      "tags": [
+        "氷河湖決壊洪水",
+        "ヒマラヤ",
+        "気候変動",
+        "災害リスク管理"
+      ],
+      "fetched_at": "2026-08-27T11:59:47.857057+09:00",
+      "summary": "ヒマラヤ山脈の国境を越える流域における氷河湖決壊洪水（GLOF）の最悪シナリオを分析した研究です。この研究では、気候変動による氷河湖の拡大と、それに伴う洪水リスクの増大を評価し、特に下流域のインフラやコミュニティへの影響を定量化しています。この種の分析は、国境を越える地域における災害リスク管理と適応策の計画立案に不可欠です。"
+    },
+    {
+      "id": "hn_49458418",
+      "source": "hackernews",
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "score": 81,
+      "comments": 43,
+      "raw_description": "",
+      "tags": [
+        "AI",
+        "オープンソース",
+        "開発者",
+        "企業文化"
+      ],
+      "fetched_at": "2026-08-27T11:59:47.268864+09:00",
+      "summary": "ある企業のCEOが、AI導入のために開発者を解雇したと報じられた。しかし、その解雇された開発者たちが、オープンソースのAIモデルを開発し、CEOの行動に反論する形で技術コミュニティに貢献した。この出来事は、AIと人間の開発者の関係性、およびオープンソースコミュニティの力について示唆している。"
+    },
+    {
+      "id": "hatena_69570",
+      "source": "hatena",
+      "title": "「ChatGPT」の無償プランにも予定済みタスクが開放 ～Plus/Proは「Webhook」に対応／「Gmail」「Slack」「GitHub」などのイベントをトリガー、タスクの共有も可能に",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2135731.html",
+      "score": 76,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [
+        "ChatGPT",
+        "タスク管理",
+        "Webhook",
+        "自動化"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.647260+09:00",
+      "summary": "ChatGPTの無償プランで予定済みタスク機能が利用可能になりました。これにより、ユーザーは事前に設定した時間にタスクを実行できるようになります。有料プランであるPlusおよびProユーザーは、Webhook機能に対応し、Gmail、Slack、GitHubなどの外部サービスとの連携が可能になります。この連携により、外部イベントをトリガーとしたタスク実行や、タスクの共有といった高度な自動化が実現します。"
+    },
+    {
+      "id": "hatena_41852",
+      "source": "hatena",
+      "title": "OH! NAMAE DOMAIN - ドメイン取得サービス",
+      "url": "https://project.activetk.jp/dark-domain-shop/",
+      "score": 73,
+      "comments": 0,
+      "raw_description": "",
+      "tags": [],
+      "fetched_at": "2026-08-27T11:59:46.647248+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_12673",
+      "source": "hatena",
+      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
+      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
+      "score": 61,
+      "comments": 0,
+      "raw_description": "前にFable 5の「働き方」をドキュメント化してOpus/Sonnetに引き継がせる話を書きました。 Fable 5とOpus/Sonnetの品質差の大半は知能ではなく規律・順序・検証の差なので、それをスキル(working method + チーム別playbook)として明文化し、サブエージェントチーム全体に配る、というものです。これはかなりうまく機能...",
+      "tags": [],
+      "fetched_at": "2026-08-27T11:59:46.647243+09:00",
+      "summary": ""
+    },
+    {
+      "id": "hatena_89287",
+      "source": "hatena",
+      "title": "AI時代のプロダクト立ち上げ ── バクラク人事労務の開発プロセスと、盛大に踏んだ失敗｜Shinshiro",
+      "url": "https://note.com/shinshiro/n/n45c9931a88e5",
+      "score": 47,
+      "comments": 0,
+      "raw_description": "LayerXでバクラク人事労務のPdMを担当しているShinshiro（@U2Qshinshiro）です。 先日、バクラク人事労務を開発する上でこだわったことを、noteに書きました。 こちらでは、それをどうやって作ったかを書きます。 やり方の大枠は、バクラク勤怠を立ち上げた時と変わっていません。ひたすら業務を見せてもらい、業務に深...",
+      "tags": [
+        "プロダクト開発",
+        "AI",
+        "PdM",
+        "ユーザー中心設計"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.647264+09:00",
+      "summary": "LayerXのプロダクトマネージャーが、AI時代のプロダクト開発における「バクラク人事労務」の開発プロセスと、その過程で直面した失敗について解説しています。記事では、過去のプロダクト開発と同様に、徹底的な業務ヒアリングを通じてユーザーのニーズを深く理解し、それを製品開発に反映させるアプローチが取られています。AI技術の活用が前提となる現代において、ユーザー中心のプロセスがいかに重要であるかが示唆されています。"
+    },
+    {
+      "id": "hatena_21098",
+      "source": "hatena",
+      "title": "最後のYAPC::Japanと聞いたのでYAPC::Asia/JPAの（私）歴史",
+      "url": "https://lestrrat.github.io/blog/posts/2026-08-26-45d27dc6e8c7/index.html",
+      "score": 45,
+      "comments": 0,
+      "raw_description": "これはインターネットの歴史として残すので、それ以上でもそれ以下でもないです。あと自分の記憶の中の話なので間違ってたすみません。 最後のYAPC::Japanと聞いたのでYAPC::Asia/JPAの（私）歴史これはインターネットの歴史として残すので、それ以上でもそれ以外でもないです。あと自分の記憶の中の話なので間違ってた...",
+      "tags": [
+        "YAPC",
+        "Perl",
+        "インターネット史",
+        "イベント"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.647269+09:00",
+      "summary": "この記事は、筆者の個人的な記憶に基づいたYAPC::Asia/JPAの歴史を振り返るものです。YAPC::Japanの終了を受けて、インターネットの歴史の一端として記録することを目的としています。筆者は記憶違いの可能性も示唆しており、あくまで個人の視点からの記録であることが強調されています。"
+    },
+    {
+      "id": "hatena_30608",
+      "source": "hatena",
+      "title": "「Twitter」が再始動 | 気になる、記になる…",
+      "url": "https://taisy0.com/2026/08/27/226774.html",
+      "score": 39,
+      "comments": 0,
+      "raw_description": "2023年に「X」に名前が変更され、姿を消していたあの「Twitter」が再始動しました。 放棄されたとされる「Twitter」の名称とロゴを復活させようとしているバージニア州のスタートアップ企業「Operation Bluebird」が、現地時間の8月24日、新たなソーシャルメディア・ネットワーク「Twitter.now」を立ち上げたと発表しま...",
+      "tags": [
+        "Twitter",
+        "X",
+        "ソーシャルメディア",
+        "Operation Bluebird"
+      ],
+      "fetched_at": "2026-08-27T11:59:46.647254+09:00",
+      "summary": "かつて「Twitter」として知られ、その後「X」に名称変更されたソーシャルメディアプラットフォームが、バージニア州のスタートアップ企業「Operation Bluebird」によって「Twitter.now」として再始動しました。この動きは、放棄されたとされる「Twitter」の名称とロゴを復活させる試みであり、新たなソーシャルメディアネットワークの提供を目指しています。この再始動は、SNSのブランド再活用や、既存プラットフォームの名称変更後の代替サービスへの関心を示すものとして注目されます。"
+    },
+    {
+      "id": "reddit_20995",
+      "source": "reddit",
+      "title": "GitHub confirms Actions outage caused by database issue",
+      "url": "https://www.reddit.com/r/programming/comments/1vz0z6b/github_confirms_actions_outage_caused_by_database/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "<!-- SC_OFF --><div class=\"md\"><p>If your GitHub Actions jobs are stuck in &quot;Queued&quot; or waiting for a runner, GitHub has now confirmed there is an incident.</p> <p>GitHub says they identified an issue with a database primary and are failing over to a replica.</p> <p>Actions is affected, and GitHub Pages is also experiencing degraded performance.</p> <p>So if you have been checking your workflow, runner settings, permissions or billing, it might not be your configuration.</p> <p>Status p",
+      "tags": [
+        "GitHub Actions",
+        "データベース障害",
+        "CI/CD",
+        "障害情報"
+      ],
+      "fetched_at": "2026-08-27T11:59:48.583623+09:00",
+      "summary": "GitHub Actionsでデータベースのプライマリに障害が発生し、現在レプリカへのフェイルオーバーを実施中です。この影響により、GitHub Actionsのジョブが「Queued」のまま停止したり、ランナーの待機が発生したりしています。また、GitHub Pagesもパフォーマンスの低下を経験しています。この障害は、CI/CDパイプラインの実行に影響を与える可能性があるため、迅速な復旧が求められます。"
+    },
+    {
+      "id": "reddit_09645",
+      "source": "reddit",
+      "title": "Casey Muratori – The Root of The Root of All Evil – BSC 2026",
+      "url": "https://www.reddit.com/r/programming/comments/1vynzwf/casey_muratori_the_root_of_the_root_of_all_evil/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cdb_11\"> /u/cdb_11 </a> <br /> <span><a href=\"https://www.youtube.com/watch?v=hpj6r6CjJf8\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vynzwf/casey_muratori_the_root_of_the_root_of_all_evil/\">[comments]</a></span>",
+      "tags": [
+        "ソフトウェア開発",
+        "抽象化",
+        "パフォーマンス",
+        "デバッグ"
+      ],
+      "fetched_at": "2026-08-27T11:59:48.583642+09:00",
+      "summary": "Casey Muratori氏は、ソフトウェア開発における「悪の根源」は、抽象化レイヤーの過剰な積み重ねにあると指摘しています。これにより、コードの理解が困難になり、デバッグやパフォーマンスチューニングに多大な時間と労力が費やされるという問題点を解説しています。この問題は、開発効率の低下や技術的負債の増大に直結するため、根本的な解決策が求められています。"
+    },
+    {
+      "id": "reddit_61413",
+      "source": "reddit",
+      "title": "The Depths of JavaScript: Minesweeper in 247 Bytes",
+      "url": "https://www.reddit.com/r/programming/comments/1vyuagp/the_depths_of_javascript_minesweeper_in_247_bytes/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yui01\"> /u/yui01 </a> <br /> <span><a href=\"https://yui.dev/blog/minesweeper-in-247-bytes\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vyuagp/the_depths_of_javascript_minesweeper_in_247_bytes/\">[comments]</a></span>",
+      "tags": [
+        "JavaScript",
+        "コードゴルフ",
+        "パフォーマンス",
+        "Web開発"
+      ],
+      "fetched_at": "2026-08-27T11:59:48.583649+09:00",
+      "summary": "JavaScriptのコードをわずか247バイトに圧縮してマインスイーパーを実装した事例が紹介されています。このコードは、JavaScriptの言語仕様やブラウザAPIの深い理解、そして高度なコードゴルフ技術を駆使して実現されており、JavaScriptの表現力の限界を探求する興味深い試みです。このような極限まで最適化されたコードは、パフォーマンスチューニングや難読化技術の参考になる可能性があります。"
+    },
+    {
+      "id": "reddit_61502",
+      "source": "reddit",
+      "title": "mold: A Massively Parallel Linker",
+      "url": "https://www.reddit.com/r/programming/comments/1vz921w/mold_a_massively_parallel_linker/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mttd\"> /u/mttd </a> <br /> <span><a href=\"https://arxiv.org/abs/2608.23228\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1vz921w/mold_a_massively_parallel_linker/\">[comments]</a></span>",
+      "tags": [
+        "リンカ",
+        "並列処理",
+        "ビルドシステム",
+        "C++"
+      ],
+      "fetched_at": "2026-08-27T11:59:48.583654+09:00",
+      "summary": "moldは、C++プログラムのリンク時間を大幅に短縮するために設計された、並列リンカです。従来のリンカが逐次的に処理していたリンクプロセスを、複数のCPUコアを活用して並列化することで、大規模プロジェクトにおけるビルド時間のボトルネックを解消します。これにより、開発サイクルの高速化と生産性向上が期待されます。"
+    }
+  ]
+}
