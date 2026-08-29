@@ -1,0 +1,378 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T12:33:42.505788+09:00",
+  "articles": [
+    {
+      "id": "hn_49479837",
+      "source": "hackernews",
+      "title": "GUIs should be fully keyboard-driven",
+      "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "score": 655,
+      "comments": 322,
+      "raw_description": "GUI applications should be fully driven by the keyboard using shortcuts This post has made it to the Hacker News front page. See the discussion . Last week I came across a post on Hacker News that encouraged application developers to stop making terminal user interfaces 1 (a.k.a. TUIs) and instead focus on graphical user interfaces (a.k.a. GUIs). The post reached the HN front page and sparked a lively debate in the comments section. I think there is merit in both sides of the debate. On one hand, I understand the GUI-positive arguments of the post author. In theory, the capabilities of GUI application frameworks are a superset of the capabilities of their TUI counterparts, so they should be preferred. On the other hand, as a heavy terminal user , I also greatly appreciate all TUIs that allow me to “stay” in the terminal and fulfill all my needs. But I want to oppose a recurring argument in favor of TUIs that in my opinion does not have a solid foundation 2 . To paraphrase various commenters: TUIs should be preferred because they are keyboard-driven. While it’s true that if you randomly pick a GUI and a TUI application, the latter is more probable to be fully keyboard-driven, this does not tip the scale in favor of developing TUIs over GUIs 3 . What it does is highlight the inadequacies of keyboard navigation in many GUI applications. There is nothing preventing a GUI from being fully keyboard-driven 4 just like — or even better than — a TUI. In fact, many GUI framework applic",
+      "content_source": "page",
+      "tags": [
+        "GUI",
+        "キーボード操作",
+        "TUI",
+        "Hacker News"
+      ],
+      "fetched_at": "2026-08-29T12:33:28.334782+09:00",
+      "summary": "GUIアプリケーションは、キーボードショートカットのみで操作できるようにすべきである。多くのGUIアプリでキーボード操作が不十分であるというTUI支持者の主張に対し、GUIでもTUIと同等かそれ以上のキーボード駆動は可能であり、GUIフレームワークの能力を活かすべきだと論じている。これにより、ターミナルから離れずに高度な操作が可能になる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49478178",
+      "source": "hackernews",
+      "title": "Htmx 4.0",
+      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "score": 561,
+      "comments": 138,
+      "raw_description": "Release announcement, 2026-08-28. htmx 4.0.0 Release The htmx team is very happy to announce the release of htmx 4.0.0! This is the culmination of 8 months of work (plus a game ) and we are very happy with the results. The idea of htmx 4 started to germinate when I decided to create fixi and, in doing so, got more familiar with the fetch() API and async programming in JavaScript. (htmx had always used XMLHttpRequest due to backwards compatibility issues.) One chance evening I was contacted by Christian, who had some interesting ideas around streaming HTML that got me thinking that moving the internals to fetch() would simplify things for him and for the library in general. After a bit of work I managed to get Michael and Alex on board, and we were off to the races. Development has been very smooth. We started a port of fixi + the htmx test suite. Over time, we rediscovered why htmx did many of the things that it did and moved our new implementation closer and closer to the old one. At this point the behavioral differences between 2.x and 4.x are relatively small and where they do diverge we have made explicit choices that we feel will put htmx-based applications in a good spot for being 100-year web services Note that we are not marking 4.0 as latest in NPM because we do not want to force-upgrade users who are relying on non-versioned CDN URLs for htmx. Instead, 2.x will remain latest and the 4.0 line will remain next until some point in early 2027. The website, however, will",
+      "content_source": "page",
+      "tags": [
+        "htmx",
+        "JavaScript",
+        "Web開発",
+        "fetch API"
+      ],
+      "fetched_at": "2026-08-29T12:33:28.962755+09:00",
+      "summary": "htmx 4.0.0がリリースされました。このバージョンでは、内部実装がXMLHttpRequestからfetch APIと非同期プログラミングに移行されました。これにより、HTMLストリーミングなどの機能が簡素化され、ライブラリ全体の開発効率が向上しました。htmx 4.0は、将来のWebサービスを見据えた設計がなされていますが、CDNのURL互換性の問題から、NPMでは2.xが引き続きlatestとして提供されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_309d0ef85b48",
+      "source": "hatena",
+      "title": "Claude Codeで開発以外の業務も爆速化しよう！",
+      "url": "https://speakerdeck.com/minorun365/claude-code-de-kaihatsu-igai-no-gyoumu-mo-ka-shiyou",
+      "score": 143,
+      "comments": 0,
+      "raw_description": "［みのるん式］ビジネスパーソンのためのClaude Code仕事術 https://www.amazon.co.jp/dp/4297159392 Upgrade to Pro — share decks privately, control downloads, hide ads and more … Speaker Deck Claude Codeで開発以外の業務も爆速化しよう！ みのるん PRO August 28, 2026 Technology 4.6k 7 Share Embed Copy iframe code Copy JS code Copy link Start on current slide Claude Codeで開発以外の業務も爆速化しよう！ ［みのるん式］ビジネスパーソンのためのClaude Code仕事術 https://www.amazon.co.jp/dp/4297159392 みのるん PRO August 28, 2026 More Decks by みのるん See All by みのるん Mastraエージェント、どのクラウドにデプロイする？ minorun365 PRO 3 250 「勝手に広まる」人気 AI エージェントを爆速で作ろう！（AWS Summit Japan 2026講演資料） minorun365 PRO 12 3.4k やさしいA2A入門 minorun365 PRO 12 2.7k もりもり新機能を一挙紹介！ AgentCoreに入門して、AWS上にAIエージェントを構築しよう minorun365 PRO 6 1.7k Claude Codeですべての日常業務を爆速化しよう！ minorun365 PRO 19 19k 2026年春のAgentCoreアプデ 細かいやつ全部まとめ minorun365 PRO 5 370 「責任あるAIエージェント」こそ自社で開発しよう！ minorun365 PRO 10 3.9k 2026年のAIエージェント構築はどうなる？ minorun365 PRO 23 14k モダンUIでフルサーバーレスなAIエージェントをAmplifyとCDKでサクッとデプロイしよう minorun365 PRO 7 570 Other Decks in Technology See All in Technology 信頼性はSREだけのものじゃない hkawaras 0 150 会計事務所と顧問先の契約関係をOIDC・OAuthで表現する terara 0 440 Eight Engineering Unit 紹介資料 sansan33 PRO 3 8.3k AI時代の「OAuth認証」にどう物申すか？（OAuth/OIDC Numa (Immersion) Workshop 2026） oidfj PRO 0 300 分割40%キーボードにスムーズに入門するには hoto17296 1 110 作って理解するCoding Agent 〜フレームワークに頼らないピュア Python での実装〜 takapy 4 1.3k 500名弱規模の組織のPythonプロジェクト(dbt) をどう管理するか？ hiracky16 0 270 マイナンバーカード本人確認の実装比較（OAuth/OIDC Numa (Immersion) Workshop 2026） / 20260825 numa-12 oidfj PRO 0 300 Kiro WebとCloud Sess",
+      "content_source": "page",
+      "tags": [
+        "Claude Code",
+        "業務効率化",
+        "AIエージェント",
+        "ビジネス"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.194748+09:00",
+      "summary": "Claude Codeを活用することで、開発業務だけでなく、ビジネスパーソンの日常業務全般を効率化できる。この技術は、AIエージェント構築や業務自動化の文脈で重要性を増しており、迅速な開発とデプロイを支援する。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49486172",
+      "source": "hackernews",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "score": 139,
+      "comments": 45,
+      "raw_description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX. August 28, 2026 Company Our decision on Cursor following its acquisition by SpaceX Loading… Share Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026. To maximize the time that developers can retain access to our models through Cursor, we are giving the maximum notice provided by our contract. This decision was incredibly tough, as we care deeply about our models being broadly available for developers. We are making this choice because we cannot be confident that SpaceX will use our technology within our terms of service, based on our experience with Elon Musk's companies violating contracts. To work with a large partner like SpaceX, we typically rely on custom contracts to ensure compliance with our terms of service and that the integration provides for safety at scale. After Musk acquired Twitter, now part of SpaceX, the company broke ⁠ (opens in a new window) the terms of our contract (alongside many others). Under oath earlier this year, Musk admitted ⁠ (opens in a new window) that xAI, now also part of SpaceX, had violated OpenAI’s terms of service (terms which are similar to xAI’s own). Our custom agreement with Cursor gives us a limited time window to cancel it after a change of control. As AI capabilities advance, we also have a new level of accountability to en",
+      "content_source": "page",
+      "tags": [
+        "OpenAI",
+        "SpaceX",
+        "Cursor",
+        "契約終了"
+      ],
+      "fetched_at": "2026-08-29T12:33:29.385199+09:00",
+      "summary": "OpenAIは、SpaceXによるCursor買収に伴い、CursorへのOpenAIモデル提供契約を終了する意向を発表しました。これは、SpaceXのイーロン・マスク氏が過去に契約違反を繰り返した経験から、同社がOpenAIの利用規約を遵守できるか確信が持てないためです。特に、Twitter買収後の契約違反や、xAIによるOpenAI利用規約違反の事実が挙げられています。OpenAIは、開発者がモデルにアクセスできる時間を最大化するため、契約上の最大限の通知期間を与えています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49485267",
+      "source": "hackernews",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "score": 128,
+      "comments": 40,
+      "raw_description": "Contribute to Lakr233/vphone-cli development by creating an account on GitHub. 🇰🇷한국어 | 🇯🇵日本語 | 🇨🇳中文 | 🇬🇧English vphone-cli Boot a virtual iPhone via Apple's Virtualization.framework using PCC research VM infrastructure. Prerequisites Host: Apple Silicon macOS 15+ (Sequoia) Xcode + iOS SDK (cross-compiles the guest daemon) SIP/AMFI relaxation to allow private PV=3 entitlements with unsigned-binary Dependencies: brew install python@3.13 aria2 wget gnu-tar openssl@3 ldid-procursus sshpass keystone cmake libusb ipsw zstd Install brew install zqxwce/tap/vphone-cli Build git clone --recurse-submodules https://github.com/Lakr233/vphone-cli.git ./scripts/setup_tools.sh # install deps, build toolchain submodules, create the Python venv ./scripts/build.sh # build + sign vphone-cli, bundle the .app, cross-compile vphoned cd .build/vphone-cli.app/Contents/MacOS/ vphone-cli --help Quick Start One command creates a VM end-to-end (download → patch → DFU restore → CFW install → first boot): vphone-cli vm create myphone -V jb # -V / --variant vphone-cli vm launch myphone Commands vphone-cli vm create runs the whole pipeline; the individual steps below let you drive it manually or re-run one stage. Manage vphone-cli vm list # list VMs (--json for scripting) vphone-cli vm info myphone # show one VM vphone-cli vm new myphone # create an empty bundle (cpu/mem/disk options) vphone-cli vm config myphone --cpu 8 --memory 8192 vphone-cli vm clone myphone myphone-2 # fast APFS clone, fresh device iden",
+      "content_source": "page",
+      "tags": [
+        "Virtualization.framework",
+        "仮想iPhone",
+        "macOS",
+        "vphone-cli"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.666221+09:00",
+      "summary": "Apple Silicon macOS 15+上で動作するvphone-cliは、Virtualization.frameworkを利用して仮想iPhoneを起動するツールです。PCCリサーチVMインフラストラクチャを活用し、DFUリストア、カスタムファームウェア（CFW）のインストールまでを自動化します。これにより、開発者は物理デバイスなしでiOS環境をテスト・デバッグできるようになります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_0f62c2f584c2",
+      "source": "hatena",
+      "title": "並行開発に Orca がめちゃ便利",
+      "url": "https://zenn.dev/rhosokawa/articles/d0a958c17c2820",
+      "score": 85,
+      "comments": 0,
+      "raw_description": "Orca という並行開発前提のエディタ（正確には Agent IDE と言うらしい）があります。 元々1年ほど前は VSCode や Cursor を使ってその中でたくさんターミナルを生やし、その後は cmux や Superset などを活用しておりました。 しかし最近 Orca に乗り換えて感動した&全人類これ使ったほうが幸せになりそうなので共有で...",
+      "content_source": "feed",
+      "tags": [
+        "並行開発",
+        "Agent IDE",
+        "Orca",
+        "開発効率"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.194991+09:00",
+      "summary": "Orcaは、並行開発を前提としたAgent IDEと呼ばれる新しいエディタです。従来のVSCodeやCursorでのターミナル多用、cmuxやSupersetの活用といった開発手法から乗り換えた結果、開発効率が大幅に向上したことが報告されています。このエディタは、並行開発を行う多くの開発者にとって有用である可能性が示唆されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49485452",
+      "source": "hackernews",
+      "title": "9th Circuit sides with states in Kalshi gambling fight",
+      "url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/",
+      "score": 81,
+      "comments": 40,
+      "raw_description": "9th Circuit ruling could revive the Arizona Kalshi case, finding sports bets aren’t protected as federal ‘swaps.’ 14:30 Brief A federal judge’s order blocking Arizona from prosecuting online prediction market company Kalshi for violating the state’s gambling laws is living on borrowed time after the 9th U.S. Circuit Court of Appeals ruled that gambling on sporting events is not protected by the federal law that otherwise allows prediction market firms to operate. The ruling, which came in a similar but separate Nevada case, directly undercuts the rationale used by federal Judge Michael Liburdi earlier this year when he issued an injunction stopping Arizona Attorney General Kris Mayes from prosecuting Kalshi and suing the firm for violating Arizona’s gambling laws and a law that makes it illegal to bet on election outcomes in the Grand Canyon State. Arizona could use the Nevada decision to argue that Liburdi should allow the Arizona case to proceed. In its ruling that upheld a lower court’s decision to dissolve an injunction allowing Nevada regulators to bar Kalshi from offering trades — known as “swaps” in the commodities market, referring to a contract whose value depends on some future outcome — on sporting events, the three-judge panel concluded that sports events don’t qualify as “swaps,” and thus aren’t protected by federal law. In May, Liburdi sided with Kalshi’s broad reading of the federal Commodity Exchange Act and concluded that sporting events qualify as “events” a",
+      "content_source": "page",
+      "tags": [
+        "Kalshi",
+        "スポーツベッティング",
+        "連邦法",
+        "予測市場"
+      ],
+      "fetched_at": "2026-08-29T12:33:28.036790+09:00",
+      "summary": "米第9巡回区控訴裁判所は、スポーツイベントへの賭けは連邦法で保護される「スワップ」には該当しないとの判断を下しました。この判決は、スポーツイベントの予測市場を運営するKalshi社が、連邦法によって州の賭博法違反から保護されるという連邦地裁判事の判断を覆す可能性があります。これにより、アリゾナ州がKalshi社を賭博法違反で訴追する道が開かれる可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49485532",
+      "source": "hackernews",
+      "title": "Does the Sumerian King List Align with Paleoclimate Events?",
+      "url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
+      "score": 67,
+      "comments": 18,
+      "raw_description": "A statistical test of whether the Sumerian King List's antediluvian reigns line up with paleoclimate events better than chance. Context The Sumerian King List starts with eight kings who ruled before the flood. Their reign lengths are enormous and unusually regular. Three examples are 28,800 years, 36,000 years, and 43,200 years. Most are integer multiples of 3,600, and all eight are multiples of 600. Their total is 241,200 years. The input sequence tested here is the ETCSL composite antediluvian list: Order King Reign length 1 Alulim 28,800 years 2 Alalgar 36,000 years 3 Enmenluana 43,200 years 4 Enmengalana 28,800 years 5 Dumuzid 36,000 years 6 Ensipadzidana 28,800 years 7 Enmenduranna 21,000 years 8 Ubara-Tutu 18,600 years Total 241,200 years The transliterations follow the composite text cited below. Like the post-flood sections of the King List, the antediluvian list is a textual tradition with variants, so the table is an analysis input rather than a claim about literal historical reigns. One speculative interpretation treats these numbers as a distorted memory of prehistory. Under this hypothesis, the reign boundaries encode real climate shifts, eruptions, impacts, or sea-level changes. After rescaling and anchoring the list to a proposed flood date, the boundaries should coincide with dated events in the geological record. Here, I test that idea with an exploratory analysis. The explorer rescales each chronology to a fixed 241.2 ka span, anchors one boundary, and comp",
+      "content_source": "page",
+      "tags": [
+        "シュメール王名録",
+        "古気候",
+        "統計分析",
+        "史前時代"
+      ],
+      "fetched_at": "2026-08-29T12:33:28.545099+09:00",
+      "summary": "シュメール王名録の洪水以前の王たちの治世期間が、偶然よりも高い確率で古気候イベントと一致するかを統計的に検証する研究。王名録の治世期間は非常に長く、3,600年や600年の倍数といった規則性が見られる。この数値データを地質学的記録の気候変動などのイベントと照合することで、史前時代の記憶が歪んだ形で記録されている可能性を探る。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d5b49a673199",
+      "source": "hatena",
+      "title": "「ミスを許さない手順書」を作ってみた 〜 個人的にはこれ以上できることはあまりなさそう/20260827-ssmjp-operation-procedure-update",
+      "url": "https://speakerdeck.com/opelab/20260827-ssmjp-operation-procedure-update",
+      "score": 63,
+      "comments": 0,
+      "raw_description": "ssmonline #53 での発表資料です。 (運用設計ラボ合同会社 波田野 裕一) Upgrade to Pro — share decks privately, control downloads, hide ads and more … Speaker Deck 「ミスを許さない手順書」を作ってみた 〜 個人的にはこれ以上できることはあまりなさそう/202... opelab August 27, 2026 Technology 5.2k 10 Share Embed Copy iframe code Copy JS code Copy link Start on current slide 「ミスを許さない手順書」を作ってみた 〜 個人的にはこれ以上できることはあまりなさそう/20260827-ssmjp-operation-procedure-update ssmonline #53 での発表資料です。 (運用設計ラボ合同会社 波田野 裕一) opelab August 27, 2026 More Decks by opelab See All by opelab 続 運用改善、不都合な真実 〜 物理制約のない運用改善はほとんど無価値 / 20260518-ssmjp-kaizen-no-value-without-physical-constraints opelab 3 530 なぜ、IAMロールのプリンシパルに*による部分マッチングが使えないのか? / 20260518-ssmjp-iam-role-principal opelab 3 190 JAWS Days 2026 楽しく学ぼう！ 認証認可 入門/20260307-jaws-days-novice-lane-auth opelab 14 3.2k アーキテクチャ専門支部 presents 帰ってきた！CDP道場 (解説編)/ 20260307-jaws-days-architecture-dojo-secure opelab 0 53 レジリエントな運用を実現する 「運用エンジニアリング」/20250904-itmedia-operation-resilience opelab 0 95 25分で解説する「最小権限の原則」を実現するための AWS「ポリシー」大全 / 20250625-aws-summit-aws-policy opelab 15 2.9k スモールスタート、不都合な真実 〜 耳当たりの良い言葉に現場が振り回されないために/20240930-ssmjp-small-start opelab 14 2.7k 20分で分かるIAM全機能 (拡大版) / 20240903-jawsug-yokohama-iam opelab 3 610 AWS IAM Identity Center議論会 〜 認証認可結合モデルと認証認可分離モデル / 20240827-jawsug-arch-iam_identity_center opelab 5 810 Other Decks in Technology See All in Technology Introduction to Sansan, inc / Sansan Global Development Center, Inc. sansan33 PRO 0 3.2k VPCでもFloatingIPを使いたいんだ y_kotani 1 100 AIで変わるエンジニアの働き方（仮） naoinaoi 0 570 A",
+      "content_source": "page",
+      "tags": [
+        "運用手順書",
+        "ヒューマンエラー対策",
+        "信頼性向上",
+        "IT運用"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.194836+09:00",
+      "summary": "本記事は、ssmonline #53で発表された「ミスを許さない手順書」作成に関する資料です。運用設計ラボ合同会社の波田野裕一氏が、技術的な観点から、ヒューマンエラーを極力排除し、確実な運用を実現するための手順書作成について解説しています。この資料は、運用の信頼性向上や、ミスによるインシデント発生リスク低減に貢献するものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49485416",
+      "source": "hackernews",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "score": 49,
+      "comments": 8,
+      "raw_description": "Why I stopped trying to give LLM agents a better memory and instead built Lemmalog, a Datalog engine that maintains an agent's knowledge as analysis state, with provenance, retractions and incremental evaluation, plus what happened when I benchmarked it on LongMemEval and LoCoMo. I accidentally turned LLM memory into program analysis [ 28 Aug 2026 ] // JORDY ZOMER // 19 MIN READ Over the past few months I have been playing around quite a bit with LLM agents, particularly for vulnerability research. They are becoming surprisingly good at navigating large codebases, explaining unfamiliar subsystems and helping explore potential attack surfaces. However, once an investigation starts taking a few hours, I kept running into the same problem: the model would slowly lose track of what we had actually established. It might suggest an approach that we had already ruled out, forget that an assumption turned out to be false, or confidently continue reasoning from an observation that was no longer valid. Obviously, telling an LLM that something is wrong does not necessarily mean that it will stop believing all of the things that depended on it :) I initially started looking into memory systems because I wanted to make LLMs more useful for complex vulnerability research and reduce this type of hallucination. There are of course already plenty of solutions for giving LLMs memory. Usually this involves storing old conversations or observations somewhere, embedding them, and then retrieving ",
+      "content_source": "page",
+      "tags": [
+        "LLM",
+        "脆弱性研究",
+        "Datalog",
+        "Lemmalog"
+      ],
+      "fetched_at": "2026-08-29T12:33:28.752530+09:00",
+      "summary": "LLMエージェントの脆弱性研究における記憶喪失問題に対し、筆者は従来の記憶システムではなく、Datalogエンジン「Lemmalog」を開発した。Lemmalogは、エージェントの知識を分析状態として管理し、証跡管理、撤回、増分評価を可能にする。これにより、LLMが過去の発見事項を忘れ、誤った推論を続ける問題を解決し、複雑な研究におけるLLMの信頼性を向上させる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49486081",
+      "source": "hackernews",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "score": 37,
+      "comments": 8,
+      "raw_description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar for practice, transcription, remixing, and creative ... Free, local stem separation. No account. No upload. No subscription. JOIN THE COMMUNITY Drop in an MP3, WAV, FLAC, OGG/Opus, MP4, or M4A file, or paste a YouTube URL, and StemDeck splits the audio into up to six stems (vocals, drums, bass, guitar, piano, other). Play them back in a DAW-style multitrack mixer: mute, solo, balance levels, zoom the waveform, loop a region, and export individual stems or a custom mix. Everything runs locally on your own machine. What is this? StemDeck is a stem separation tool, not a downloader. Its main job is processing audio you already own: drag an MP3, WAV, FLAC, OGG, or M4A onto the import bar and go. YouTube support is a convenience for content you have the right to process. StemDeck does not store, cache, or redistribute any downloaded content. Everything happens locally and nothing leaves your machine. StemDeck is a free, open alternative to cloud stem-splitters like Moises and LALAL.AI: no account, no quota, no uploads, no subscription. If you want stems for personal study and prefer to keep things local and free, StemDeck has you covered. If you need the polish, a mobile app, or deeper musician tooling, the commercial products are a better fit. Star History We Recommend StemDeck is free and does not accept any money, sponsorship, or fundin",
+      "content_source": "page",
+      "tags": [
+        "ステム分離",
+        "AI",
+        "ローカル実行",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-08-29T12:33:29.174483+09:00",
+      "summary": "StemDeckは、ミュージシャンやプロデューサー向けの無料かつオープンソースのローカルAIステム分離プラットフォームです。MP3やYouTube URLなどのオーディオファイルを最大6つのステム（ボーカル、ドラム、ベース、ギター、ピアノ、その他）に分離し、DAWスタイルのミキサーで再生・編集できます。すべての処理がローカルマシンで完結するため、プライバシーを重視し、クラウドベースのサービスに依存したくないユーザーにとって有用です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_0b17f4b00667",
+      "source": "hatena",
+      "title": "Cloudflareが1.1.1.1のDNSキャッシュを数十バイト単位で削り込んで100TBのメモリを節約",
+      "url": "https://gigazine.net/news/20260828-cloudflare-dns-cache-optimization/",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "CloudflareがパブリックDNSリゾルバー「1.1.1.1」などで使われているDNSキャッシュのデータ構造を見直し、システム全体で約100TBのメモリを削減したと発表しました。ベンチマークではキャッシュ1件当たりのメモリ使用量が953バイトから420バイトへと56％減少し、メモリを減らしながらキャッシュへの書き込みや読み出しも...",
+      "content_source": "feed",
+      "tags": [
+        "Cloudflare",
+        "DNS",
+        "メモリ削減",
+        "パフォーマンス"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.194889+09:00",
+      "summary": "Cloudflareは、パブリックDNSリゾルバー「1.1.1.1」で使用されるDNSキャッシュのデータ構造を最適化し、システム全体で約100TBのメモリを削減したと発表しました。この最適化により、キャッシュ1件あたりのメモリ使用量が56%削減され、メモリ効率の向上とパフォーマンスの維持・向上が実現されました。これは、大規模なインフラストラクチャにおけるメモリ管理の重要性を示す事例です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_7c1666985ef1",
+      "source": "hatena",
+      "title": "htmx 4.0.0 has been released!",
+      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "score": 19,
+      "comments": 0,
+      "raw_description": "In addition, the following changes were made: Most error events collapse into htmx:error. HTTP error responses fire htmx:response:error. The htmx:xhr:* events are removed. htmx 4 uses fetch(). The htmx:validation:* events are removed in favor of native browser form validation. The full table is i...",
+      "content_source": "feed",
+      "tags": [
+        "htmx",
+        "Web開発",
+        "JavaScript",
+        "フロントエンド"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.194936+09:00",
+      "summary": "htmx 4.0.0がリリースされ、主要な変更点として、エラーイベントの集約とHTTPエラーレスポンスイベントの導入が行われました。htmx:xhr:*イベントは削除され、代わりにfetch()が使用されます。また、htmx:validation:*イベントはネイティブのブラウザフォームバリデーションに置き換えられました。これらの変更は、イベントハンドリングの簡素化と標準技術への準拠を目指したものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_48f86ab3ea32",
+      "source": "hatena",
+      "title": "ローカルLLMを直接実行できるマイコンボード「Arduino VENTUNO Q」予約販売開始 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/08/arduino-ventuno-q",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "Arduinoは2026年8月25日、40TOPSの性能を発揮するNPUを備え、Qwen 3、Gemma 4、Qwen 3 VLMなどのローカルLLMを直接実行できるマイコンボード「Arduino VENTUNO Q」を発表、同社の正規販売店を通じて予約販売を開始した。 Arduino VENTUNO Q https://www.arduino.cc/product-ventuno-q/ The wait is over! Meet Arduino V...",
+      "content_source": "feed",
+      "tags": [
+        "Arduino",
+        "マイコンボード",
+        "ローカルLLM",
+        "NPU"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.195073+09:00",
+      "summary": "Arduinoは、40TOPSのNPUを搭載したマイコンボード「Arduino VENTUNO Q」の予約販売を開始しました。このボードは、Qwen 3やGemma 4などのローカルLLMを直接実行できる能力を持ちます。これにより、エッジデバイスでの高度なAI処理が可能になり、プライバシー保護やリアルタイム応答性が向上することが期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_9ce79e431d2b",
+      "source": "hatena",
+      "title": "「Stable Diffusion XL」がCopilot+ PCのNPUを使って約1秒で画像を生成",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/usecopilotpc/2136322.html",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "Windows 11の2026年7月のプレビューパッチの情報の中に、こんな一文があった。 使ってわかるCopilot+ PC 第109回 「Stable Diffusion XL」がCopilot+ PCのNPUを使って約1秒で画像を生成 Windows AI APIで呼び出せる画像生成AIを試してみた 石田 賀津男 2026年8月28日 18:20 「AI Dev Gallery」での画像生成 「画像生成AIコンポーネント」とは？ Windows 11の2026年7月のプレビューパッチの情報 の中に、こんな一文があった。 この更新プログラムを使用すると、コンポーネントがインストールされているサポートされているCopilot+ PCから画像生成AIコンポーネントを削除できます Copilot+ PCの画像生成AIといえば、「フォト」や「ペイント」で使える画像生成機能がある。ただ、これに使われるAIモデルは、Microsoft Storeからダウンロードできる「Image Generation Extension」で、アンインストールもMicrosoft Storeでできる。 「Image Generation Extension」はMicrosoft Storeからアンインストール可能 ということは、ここで言う画像生成AIコンポーネントは別物なのだろうかと思い調べてみると、昨年11月に発表されたWindows AI APIの拡充で追加された「Stable Diffusion XL」のことだとわかった。 関連記事 生成AI 画像生成 「Windows AI API」が拡充、「ビデオ超解像」「Stable Diffusion XL」もカバーへ これが削除できるようになったという話も含めて、内容を確認していく。 約1秒で画像生成するCopilot+ PC専用機能 Windows AI APIによる画像生成については、 マイクロソフトのWebサイト に情報があった。これによると、この画像生成はCopilot+ PC専用の機能であり、NPUだけを使って処理されるという。 ただしCopilot+ PCの標準機能として用意されているわけではなく、アプリが「EnsureReadyAsync」を初めて呼び出した際に、Windows Updateを通じてバックグラウンドでモデルがダウンロードされるという。 要するに、アプリ側からこの画像生成機能を使うために呼び出されることで、初めてAIモデルがダウンロードされ、画像生成が可能になる。この機能だけを単体でダウンロードして使うものではなく、何かしらのプログラムから呼び出される必要がある。 自分でプログラムを書いて実行するという手もあるが、WindowsのAI機能をテストできる「AI Dev Gallery」にサンプルが用意されているのではないかと当たりをつけた。 関連記事 生成AI その他 NPU対応を含む25種類以上のローカルAI機能を試せる「AI Dev Gallery」 確認してみると、［Generate Image］の中に［Windows AI APIs］という項目があった。［Generate Image］のサンプルコードを確認すると、「EnsureReadyAsync」を呼び出す記述が確認できた。 ［Generate Image］を選択 ［Windows AI APIs］にある［Generate Image］のサンプルを実行 サンプルを実行すると、Copilot+ PCが必要であることと、Windows Ins",
+      "content_source": "page",
+      "tags": [
+        "Stable Diffusion XL",
+        "Copilot+ PC",
+        "NPU",
+        "Windows AI API"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.195079+09:00",
+      "summary": "Copilot+ PCは、NPU（Neural Processing Unit）を活用して「Stable Diffusion XL」による画像生成を約1秒で実現する機能を備えています。この機能はWindows AI APIの一部として提供され、アプリが初めて呼び出した際にバックグラウンドでモデルがダウンロードされます。これにより、ローカル環境での高速な画像生成が可能となり、開発者やユーザーにとってAI機能の利用体験が向上します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ec8c2f02f90f",
+      "source": "hatena",
+      "title": "新型「Mac mini」「Mac Studio」の“数字”を読み解く――驚異のAI性能と、日米価格設定のからくり",
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2608/28/news093.html",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "新型「Mac mini」「Mac Studio」の“数字”を読み解く――驚異のAI性能と、日米価格設定のからくり：本田雅一のクロスオーバーデジタル（1/2 ページ） 新型の「Mac mini」と「Mac Studio」が、一部構成を除き9月22日に発売される。8月26日のコラムでは、Mac miniでデビューを果たした「M6チップ」、そしてMac Studioでデビュ...",
+      "content_source": "feed",
+      "tags": [
+        "Mac mini",
+        "Mac Studio",
+        "M6チップ",
+        "AI性能"
+      ],
+      "fetched_at": "2026-08-29T12:33:27.195032+09:00",
+      "summary": "Appleは新型Mac miniとMac Studioを9月22日に発売する。これらの新モデルは、M6チップを搭載し、特にAI処理性能の向上が期待される。記事では、これらの新製品の性能面での特徴と、日本とアメリカでの価格設定の違いについて解説している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_37714d6604e2",
+      "source": "reddit",
+      "title": "htmx 4.0.0 has been released!",
+      "url": "https://www.reddit.com/r/programming/comments/1w0w1pp/htmx_400_has_been_released/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BrewedDoritos [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "htmx"
+      ],
+      "fetched_at": "2026-08-29T12:33:29.702487+09:00",
+      "summary": "htmxのバージョン4.0.0がリリースされたようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_4e3ac5dda8f2",
+      "source": "reddit",
+      "title": "Follow-up: Running the same Spring Boot app on a 256 MB VPS with JDK 25",
+      "url": "https://www.reddit.com/r/programming/comments/1w0u6rw/followup_running_the_same_spring_boot_app_on_a/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Follow-up to my 512 MB Spring Boot experiment: I tried the same application on a 256 MB Alpine VPS. JDK 21 struggled badly at this size, but with JDK 25 and a tuned 80 MB heap, the app plus lightweight monitoring completed a one-hour run without restarts or OOM kills. Still not something I’d recommend for normal production, but the difference was interesting. submitted by /u/fykup [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Spring Boot",
+        "JDK 25",
+        "VPS",
+        "リソース制限"
+      ],
+      "fetched_at": "2026-08-29T12:33:29.702848+09:00",
+      "summary": "256MBのVPS上でJDK 25を使用し、チューニングされた80MBヒープでSpring Bootアプリケーションの1時間連続稼働に成功した。JDK 21では困難だったこの低リソース環境での実行が可能になった。本番環境での利用は推奨されないものの、低リソース環境におけるJVMの進化とチューニングの可能性を示す興味深い結果である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_9889ebba2d7a",
+      "source": "reddit",
+      "title": "Lean explained with TypeScript",
+      "url": "https://www.reddit.com/r/programming/comments/1w190pi/lean_explained_with_typescript/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/ngruhn [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-08-29T12:33:29.703056+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "reddit_b077b05ca9ac",
+      "source": "reddit",
+      "title": "Log-first or Table-first? Apache Kafka, Fluss, & Streaming Tables",
+      "url": "https://www.reddit.com/r/programming/comments/1w12s1m/logfirst_or_tablefirst_apache_kafka_fluss/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mmatloka [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Apache Kafka",
+        "Streaming Tables"
+      ],
+      "fetched_at": "2026-08-29T12:33:29.703262+09:00",
+      "summary": "Apache Kafka、Fluss、およびストリーミングテーブルに関する、ログファーストとテーブルファーストのアプローチについての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
