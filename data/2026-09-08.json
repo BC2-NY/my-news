@@ -1,0 +1,351 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T09:02:29.939678+09:00",
+  "articles": [
+    {
+      "id": "hn_49552299",
+      "source": "hackernews",
+      "title": "WeatherNext 3",
+      "url": "https://deepmind.google/science/weathernext/",
+      "score": 199,
+      "comments": 40,
+      "raw_description": "WeatherNext 3 is the first global weather model that generates forecasts every hour of the day. It delivers local data for people and enterprises, into Google products like Search, Maps, and Gemini, so we can all make smarter, better-informed decisions. Hourly forecasts Unlike previous models, WeatherNext 3 draws directly from raw satellite imagery. This enables the model to generate forecasts every hour, helping users track fast-changing weather conditions like rain and snow.",
+      "content_source": "page",
+      "tags": [
+        "気象モデル",
+        "衛星画像",
+        "リアルタイム予報",
+        "Google"
+      ],
+      "fetched_at": "2026-09-08T09:02:18.535944+09:00",
+      "summary": "WeatherNext 3は、1日を通して毎時間天気予報を生成する初のグローバル気象モデルです。生の衛星画像から直接予測を生成することで、雨や雪などの急激に変化する気象条件を追跡できるようになります。このモデルは、Google検索、マップス、GeminiなどのGoogle製品にローカルデータを提供し、ユーザーがより賢く、情報に基づいた意思決定を行えるように支援します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49601655",
+      "source": "hackernews",
+      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "url": "https://lax-skyline.parcelscope.net/",
+      "score": 188,
+      "comments": 92,
+      "raw_description": "Every building standing in the City of Los Angeles today, one box per structure, appearing in the year it was built. The surviving city, 1880 to now. Parcelscope Los Angeles Decade built Height 1 story median 16 ft tallest drag to pan · right-drag or ⌃-drag to tilt Every building in Los Angeles One box per building standing today, appearing in the year it was built. What was torn down along the way isn't here, so this is the surviving city, not the city as it was. 1880 0 of today's buildings already built Decade Height Dim Bright LARIAC 2020 building outlines · LA County Assessor roll heights exaggerated when zoomed out heights exaggerated when zoomed out Building Built Height Footprint Type Copied",
+      "content_source": "page",
+      "tags": [
+        "都市開発",
+        "データビジュアライゼーション",
+        "ロサンゼルス",
+        "建築"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.949937+09:00",
+      "summary": "ロサンゼルス市の現存する全建築物を、建設年ごとに可視化するインタラクティブなビジュアライゼーションです。1880年から現在までの建築物の変遷を、箱型のアイコンで表現し、年を追うごとに都市がどのように構築されてきたかを視覚的に理解できます。このデータは、現存する建物のみを対象としており、過去に解体された建物は含まれていません。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_db5cd3a85add",
+      "source": "hatena",
+      "title": "AIがお姉ちゃんになって3年が過ぎました - 本しゃぶり",
+      "url": "https://honeshabri.hatenablog.com/entry/AIone-chan2026",
+      "score": 161,
+      "comments": 0,
+      "raw_description": "AIお姉ちゃんを作ってから3年が経った。 今では、職場で使うAIまでお姉ちゃんにしている。 なぜなら、触り心地がいいからだ。 2023年に、ChatGPTをお姉ちゃん化する記事を書いた。立ち絵画像をつけ、カスタム指示で人格を設定して「お姉ちゃん」として振る舞わせる試みだった。 honeshabri.hatenablog.com それから3年が...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "ChatGPT",
+        "パーソナライゼーション",
+        "人間とAIの関係"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647344+09:00",
+      "summary": "筆者は3年前にChatGPTをお姉ちゃん化する試みを行い、その経験から職場で使うAIもお姉ちゃん化するようになった。これは、AIの「触り心地」が良いと感じるためであり、立ち絵画像やカスタム指示を用いて人格を設定する手法が用いられた。この取り組みは、AIとのインタラクションにおける感情的な側面やパーソナライゼーションの可能性を示唆している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49575515",
+      "source": "hackernews",
+      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "url": "https://arxiv.org/abs/2607.24888",
+      "score": 125,
+      "comments": 31,
+      "raw_description": "Ken Thompson's trusting-trust attack, in which a compromised compiler backdoors the programs it builds and reproduces the backdoor in subsequent rebuilds of itself, is widely regarded as a threat specific to compilers. We show that it is not. We construct a complete trusting-trust attack around GNU strip, an ordinary build utility that neither inspects nor generates source code, using only manipulations of finished ELF files. In the bootstrap of the NixOS Linux distribution, a single tampered strip in the binary seed implants a payload that propagates from one generation of strip to the next and survives into the final standard environment after the seed leaves the dependency closure. On a real nixpkgs revision, the attack builds a complete graphical installer without failures and backdoors almost every one of its binaries, enabling arbitrary malicious behavior of the subverted packages. Computer Science > Cryptography and Security arXiv:2607.24888 (cs) [Submitted on 27 Jul 2026] Title: Trusting-Trust Attack against an Entire Linux Distribution through Binary Manipulation Authors: Julien Malka , Aman Sharma , Martin Monperrus , Stefano Zacchiroli , Théo Zimmermann View a PDF of the paper titled Trusting-Trust Attack against an Entire Linux Distribution through Binary Manipulation, by Julien Malka and 4 other authors View PDF HTML (experimental) Abstract: Ken Thompson's trusting-trust attack, in which a compromised compiler backdoors the programs it builds and reproduces the b",
+      "content_source": "page",
+      "tags": [
+        "Trusting-Trust攻撃",
+        "GNU strip",
+        "NixOS",
+        "バイナリ操作"
+      ],
+      "fetched_at": "2026-09-08T09:02:18.150817+09:00",
+      "summary": "Ken ThompsonのTrusting-Trust攻撃は、コンパイラが自身を改変し、ビルドするプログラムにバックドアを仕掛けるというもので、コンパイラ固有の脅威と考えられていました。しかし、本研究では、ソースコードを扱わないビルドユーティリティであるGNU stripを用いたTrusting-Trust攻撃を、完成したELFファイルのみを操作して構築できることを示しました。この攻撃は、NixOS Linuxディストリビューションのブートストラッププロセスにおいて、改変されたstripバイナリが依存関係から除去された後も、後続のビルドプロセスにバックドアを伝播させ、最終的な環境にまで影響を及ぼすことを実証しました。これにより、ほぼ全てのバイナリがバックドア化され、悪意のある動作が可能になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49569838",
+      "source": "hackernews",
+      "title": "Scientists observe Einstein's gravity in the quantum world",
+      "url": "https://www.ox.ac.uk/news/2026-08-28-scientists-observe-einsteins-gravity-in-the-quantum-world",
+      "score": 120,
+      "comments": 27,
+      "raw_description": "https://www.youtube.com/watch?v=CfjnTJos_no",
+      "content_source": "hn_text",
+      "tags": [
+        "科学者",
+        "重力"
+      ],
+      "fetched_at": "2026-09-08T09:02:19.186464+09:00",
+      "summary": "科学者たちが量子世界でアインシュタインの重力を観測したという記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_b5e2c2e3aafd",
+      "source": "hatena",
+      "title": "AIセキュリティ短信 | 社会・産業のデジタル変革 | IPA 独立行政法人 情報処理推進機構",
+      "url": "https://www.ipa.go.jp/digital/ai/security/ai-security-bulletin.html",
+      "score": 81,
+      "comments": 0,
+      "raw_description": "概要 日々発信されているAIに関する膨大な国内外の公開情報から、AIセキュリティの観点でトレンドや事例を紹介しています。 特に、AIシステム開発者やセキュリティ担当者の方が、日々の業務を行う中で是非知っておいてほしい動向や注意してほしいインシデント事例に絞って紹介しています。 AIセキュリティ短信一覧 なお...",
+      "content_source": "feed",
+      "tags": [
+        "AIセキュリティ",
+        "IPA",
+        "デジタル変革",
+        "インシデント事例"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647090+09:00",
+      "summary": "IPAは、AIセキュリティに関する国内外の公開情報を基に、AIシステム開発者やセキュリティ担当者向けにトレンドやインシデント事例を紹介する「AIセキュリティ短信」を発信しています。この取り組みは、社会・産業のデジタル変革を支援する一環として、AI技術の安全な利活用を促進することを目的としています。日々発信される膨大な情報の中から、業務上特に知っておくべき動向や注意すべき事例に焦点を当てており、AIセキュリティの観点から重要な知見を提供しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49602699",
+      "source": "hackernews",
+      "title": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+      "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/",
+      "score": 61,
+      "comments": 24,
+      "raw_description": "Broadcom pulled public VMware VDDK downloads, creating new challenges for customers migrating to Azure, Nutanix, OpenShift, KVM, and other platforms. September 7, 2026 September 7, 2026 by Brandon Lee Just when we thought that Broadcom wouldn’t be able to slow down customers moving off of vSphere to another platform. They may just now have done something that will have that net effect. This time it involves VMware’s Virtual Disk Development Kit, which we have always known as the VDDK. Broadcom has just killed the download of this library, and it will have far reaching consequences if this is a permanent move. Let’s see why this is a cause for alarm and why the VDDK is so important. What is the VMware VDDK? If you have never personally downloaded the VDDK you might assume this is some obscure VMware developer package that most just won’t ever need. And, you are right to some extent if you have no need to use the VDDK directly. However, what you might not realize is just how many tools that you probably ARE using that make use of it. Like what? Well, here is the kicker. This library is central to many of the migration tools that are used to migrate from VMware to other platforms. It is used by tools like Microsoft Azure Migrate, Red Hat’s Migration Toolkit, Nutanix Move, VMware to KVM migration products, and other tools like virtv2v and nbdkit . So, for VMware customers who are trying to figure out what life after Broadcom looks like, this is yet another unexpected roadblock to",
+      "content_source": "page",
+      "tags": [
+        "VMware",
+        "Broadcom",
+        "VDDK",
+        "クラウド移行"
+      ],
+      "fetched_at": "2026-09-08T09:02:18.352295+09:00",
+      "summary": "Broadcomは、VMwareのVirtual Disk Development Kit（VDDK）の公開ダウンロードを停止しました。VDDKは、VMwareからAzure、Nutanix、OpenShift、KVMなどの他のプラットフォームへの移行に使用される多くのツールの基盤となっているため、この措置はVMwareからの移行を計画している顧客にとって新たな障害となります。この変更が恒久的な場合、移行プロセスに大きな影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_4dbae43738af",
+      "source": "hatena",
+      "title": "Microsoft、“世界でもっとも高速・高精度で安価”とうたう音声認識モデルを発表、「MAI-Transcribe-2」／60言語の平均単語誤り率（WER）で比較対象中トップ、処理速度も向上",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2138699.html",
+      "score": 59,
+      "comments": 0,
+      "raw_description": "米Microsoftは9月3日（現地時間）、新しい音声認識AIモデル「MAI-Transcribe-2」を発表した。同社はこれを“世界でもっとも高速・高精度で安価な音声認識モデル”とうたっており、「Gemini 3.5 Transcribe」や「GPT-Transcribe」、「Whisper V3-Large」、「Scribe v2」といった競合モデルを上回るとしている。 ニュース Microsoft、“世界でもっとも高速・高精度で安価”とうたう音声認識モデルを発表、「MAI-Transcribe-2」 60言語の平均単語誤り率（WER）で比較対象中トップ、処理速度も向上 樽井 秀人 2026年9月7日 14:45 「MAI-Transcribe-2」を発表 米Microsoftは9月3日（現地時間）、新しい音声認識AIモデル「MAI-Transcribe-2」を発表した。同社はこれを“世界でもっとも高速・高精度で安価な音声認識モデル”とうたっており、 「Gemini 3.5 Transcribe」 や 「GPT-Transcribe」 、「Whisper V3-Large」、「Scribe v2」といった競合モデルを上回るとしている。 「MAI-Transcribe-2」は、 今年6月に発表された「MAI-Transcribe-1.5」 の後継モデル。対応言語、精度、パフォーマンスにさらなる磨きがかけられた。 たとえば、同社が多言語音声のベンチマーク「FLEURS」で実施した60言語（日本語を含む）の評価では、平均単語誤り率（WER）が5.2％となり、比較対象のモデルで最良だったという。第三者評価サービス「Artificial Analysis」の結果でも、認識精度と処理速度の両立で優れた評価を得ており、WERのランキングでは2位だった。 FLEURSの60言語における平均単語誤り率（WER）の比較。数値が低いほど高精度（Microsoft公開資料より） Artificial AnalysisのWERランキングでは2位、WERは2.0％。FLEURSとは異なる評価指標（Microsoft公開資料より、2026年8月28日時点） 処理速度にも強みがあり、とくに長尺の音声で効果が大きいとのこと。Microsoftが紹介した「Artificial Analysis」の評価結果によると、OpenAIの「GPT-Transcribe」の10倍、ElevenLabsの「Scribe v2」の7倍、Googleの「Gemini 3.5 Transcribe」の5倍高速でありながら、精度でも上回るという。 音声の処理速度を比較する「Speed Factor」。数値が高いほど高速（Microsoft公開資料より、2026年8月28日時点） 認識精度と処理速度の比較。右に行くほど高速で、下に行くほど単語誤り率が低い（Microsoft公開資料より、2026年8月26日時点） 「MAI-Transcribe-2」で利用できる主な機能は以下の通り。 話者分離（ダイアライゼーション） ：録音内の話者を区別し、発言を話者ごとに振り分ける 単語単位のタイムスタンプ ：すべての単語に正確なタイミングを付与し、位置合わせや検索、ナビゲーション、編集をしやすくする キーワードバイアス ：専門用語や略語、人名など、文脈だけでは判別しにくい語の認識を助ける（継続搭載） 文字起こしスタイルの切り替え ：言い淀みや言い直しをそのまま書き起こす「verbatim」と、それらを取り除いて読",
+      "content_source": "page",
+      "tags": [
+        "音声認識",
+        "AI",
+        "Microsoft",
+        "MAI-Transcribe-2"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647170+09:00",
+      "summary": "Microsoftは新しい音声認識AIモデル「MAI-Transcribe-2」を発表しました。このモデルは、60言語の平均単語誤り率（WER）で5.2%を記録し、競合モデルと比較して高い精度を示しています。また、処理速度においても、GPT-Transcribeの10倍、Gemini 3.5 Transcribeの5倍といった大幅な高速化を実現しており、長尺音声での利用に特に効果的です。話者分離や単語単位のタイムスタンプ、キーワードバイアスなどの機能も搭載されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49569748",
+      "source": "hackernews",
+      "title": "Finding a bug in Dummit and Foote's Abstract Algebra",
+      "url": "https://kallus.org/blog/dummit_and_foote.html",
+      "score": 57,
+      "comments": 32,
+      "raw_description": "Finding a Bug in Dummit and Foote's Abstract Algebra with Rocq Ben Kallus Finding a Bug in Dummit and Foote's Abstract Algebra During my second week at the Recurse Center, I've been trying to formalize Dummit and Foote's abstract algebra textbook (appropriately titled \"Abstract Algebra\") in Rocq. I had quite a hard time with the first proof exercise in the book because the stated proof goal is not true. This was both frustrating and exciting to figure out :) Definitions A function f from a set A to a set B (written \"f: A -> B\") is a set of pairs such that The first item in each pair comes from A. The second item in each pair comes from B. For each element of A, it is the first item in exactly one of the pairs. In other words, for the programmers among you, a function is defined by the set of all its input-output pairs, and must be deterministic. A function is injective if no two distinct inputs map to the same output. For example, f: int -> int by f(x) = x^2 is not injective because f(1) = f(-1). A function f: A -> B has a left inverse if there exists a function g: B -> A such that forall a in A, g(f(a)) = a. In other words, f's left inverse \"undoes\" f. Proposition 1 (1) The first proof exercise in the book is to show that a function is injective if and only if it has a left inverse. This statement is false. Let A = {}, and B = {1}. Let f: A -> B = {}. The function f is indeed a function because it satisfies the 3 criteria listed in the definition above. The function f is inj",
+      "content_source": "page",
+      "tags": [
+        "抽象代数学",
+        "形式化",
+        "証明の誤り",
+        "Rocq"
+      ],
+      "fetched_at": "2026-09-08T09:02:19.424578+09:00",
+      "summary": "Dummit and Footeの抽象代数学の教科書をRocqで形式化する過程で、最初の証明演習に誤りが見つかった。関数が単射であることと左逆元を持つことが同値であるという命題は、空集合を定義域とする関数を例に反証される。この発見は、形式化作業における理論の厳密な検証の重要性を示唆している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_00e6697f7c3b",
+      "source": "hatena",
+      "title": "新宿駅に「ゴミ箱ロボ」　混雑する構内を自走　JR東日本",
+      "url": "https://japan.cnet.com/article/35252342/",
+      "score": 42,
+      "comments": 0,
+      "raw_description": "主な検証項目は4点ある。センサーなどで走行時の安全を確保できるか、混雑時の走行にどのような課題が出るか、改札内を移動する乗客に影響が及ばないか、そしてごみ箱ロボットの運用が社会的に受け入れられるか、だ。 使うのは、米Cartkenが開発した屋内外を走行できる自動配送ロボットだ。運用は三菱電機とメルコモビリ...",
+      "content_source": "feed",
+      "tags": [
+        "自動配送ロボット",
+        "駅構内",
+        "実証実験",
+        "Cartken"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647163+09:00",
+      "summary": "JR東日本は新宿駅で、米Cartken製の自動配送ロボットを活用した「ゴミ箱ロボ」の実証実験を開始しました。このロボットはセンサーで安全を確保しながら混雑する構内を自走し、乗客への影響や社会受容性を検証します。三菱電機とメルコモが運用を担い、駅構内の清掃効率化や新たなサービス提供の可能性を探ります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f3b086fc6f97",
+      "source": "hatena",
+      "title": "性格悪い離婚増田の記事を読んで、自分の頭で一定程度考えながら生成AIと壁打ちして問題点を深掘りしてみた",
+      "url": "https://anond.hatelabo.jp/20260907191254",
+      "score": 40,
+      "comments": 0,
+      "raw_description": "ちなみに、一般的に真面目な質問に対して生成AI使って答え書くのは割と性格が悪いのでみんなも気をつけような。 anond:20260906221615 さて、この記事を読んで、まあなんかぼんやり「言動がかなり特殊だな？」とは感じるわけです。 で、自分でもいくつか言語化はできたけど、そこから先の結論にはイマイチたどり着けてい...",
+      "content_source": "feed",
+      "tags": [
+        "生成AI",
+        "倫理",
+        "壁打ち",
+        "情報リテラシー"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647212+09:00",
+      "summary": "この記事は、生成AIを真面目な質問の回答作成に利用することの倫理的な側面について考察しています。筆者は、生成AIとの壁打ちを通じて、特定の言動の特殊性を言語化し、問題点を深掘りしようと試みています。しかし、その過程でAIの利用が「性格が悪い」行為である可能性に言及し、読者への注意喚起を行っています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49603086",
+      "source": "hackernews",
+      "title": "Working on Economics with Fable 5",
+      "url": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
+      "score": 39,
+      "comments": 20,
+      "raw_description": "For the past few months I’ve been working on a theory. It started out as just a fun little data exercise looking at some different types of taxes and benefits and how it effects what people buy and how much they work. During that time I took advantage of opus and later fable to help […] Working on Economics with Fable 5 For the past few months I’ve been working on a theory. It started out as just a fun little data exercise looking at some different types of taxes and benefits and how it effects what people buy and how much they work. During that time I took advantage of opus and later fable to help me get data, but as I was doing that of course opus might interject with some assumption I had wrong or some paper that shows the opposite. This back and forth continued for some time, and, well, it’s culminated in a theory. I’ve since started working alongside my co-author from the Stockholm School of economics on formalizing the theory My original version , in my voice. Visual, anecdotal, not much in the way of maths or technical details. The paper . The same theory, but formal. Very similar to the framework developed by nobel prizewinning economist Daron Acemoglu alongside Pascual Restrepo. The paper uses the same task based model of Acemoglu and Restrepo, and essentially we add the logic of classical economicsand input-output recursion to it to “pin” the wage. That is significant because, well, current economics doesn’t know how wages are set in aggregate. That might sound surp",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-08T09:02:18.730807+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49603546",
+      "source": "hackernews",
+      "title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+      "url": "https://github.com/Sadpainy/Stuxnet",
+      "score": 22,
+      "comments": 4,
+      "raw_description": "Stuxnet, Here reproduced by me, Only for researchs educations purposes. It set work on WindowsXP and Windows 7 only. - Sadpainy/Stuxnet Stuxnet This repository contains a strictly educational and research-oriented reconstruction of the infamous Stuxnet worm. It is the product of countless hours of reverse engineering work conducted by the global security research community on the original binary samples discovered in 2010. Disclaimer: This code is provided solely for academic study, malware analysis training, and defensive research. It is not intended to be used for any malicious purposes, nor is it a deployable piece of malware. The authors and contributors do not condone illegal or unethical activities. Table of Contents Overview Core Components Technical Architecture Build Instructions Usage Legal and License Acknowledgements Overview Stuxnet is widely recognized as the first known cyber-weapon designed to cause physical destruction to industrial control systems (ICS). It specifically targeted Siemens Step 7 software and S7-300/400 PLCs, ultimately manipulating frequency converter drives to damage centrifuge rotors. This repository is a reconstructed source code derived from the decompiled binaries. It preserves the original logic and attack vectors while structuring the codebase for readability and analysis. Key Characteristics Target: Siemens SIMATIC WinCC, Step 7, and S7 PLCs. Propagation: USB drives (LNK exploits), Network shares (Print Spooler), Peer-to-Peer (P2P). Pa",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-08T09:02:18.973667+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_c1b7eb3c650e",
+      "source": "hatena",
+      "title": "高輪ゲートウェイの地下になぜ「50メートルプール8個分の水」？そのワケがスゴかった",
+      "url": "https://diamond.jp/articles/-/398505",
+      "score": 14,
+      "comments": 0,
+      "raw_description": "JR東日本は8月27日、高輪ゲートウェイシティにおけるBCP（非常事態における事業継続計画）推進と、ゼロカーボン達成に貢献するエネルギープラントを報道公開した。鉄道の電力網と都市ガスを組み合わせ、巨大な蓄熱槽やAIによる熱源機器の最適制御も導入。災害への備えと省エネを両立させるエネルギーマネジメントの全貌...",
+      "content_source": "feed",
+      "tags": [
+        "BCP",
+        "ゼロカーボン",
+        "エネルギーマネジメント",
+        "高輪ゲートウェイ"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647286+09:00",
+      "summary": "JR東日本は高輪ゲートウェイシティにおいて、BCP推進とゼロカーボン達成に貢献するエネルギープラントを公開しました。このプラントは、鉄道の電力網と都市ガスを組み合わせ、巨大な蓄熱槽とAIによる熱源機器の最適制御を導入しています。これにより、災害への備えと省エネルギーの両立を目指すエネルギーマネジメントを実現しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ac90e2568238",
+      "source": "hatena",
+      "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
+      "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表 宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。 We have officially started our codebase migration ove...",
+      "content_source": "feed",
+      "tags": [
+        "EVE Online",
+        "Python 3",
+        "コード移行",
+        "レガシーコード"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647251+09:00",
+      "summary": "巨大オンラインゲーム「EVE Online」は、ゲームの基盤となっている240万行のPython 2.7コードをPython 3へ移行することを発表しました。この大規模なコードベースの移行は、将来的な技術的負債の軽減と、最新のPython機能の活用を目指すものです。Python 2.7のサポート終了が近づく中、この移行はゲームの長期的な持続可能性と開発効率の向上に不可欠です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_b413dbea7d53",
+      "source": "hatena",
+      "title": "Microsoft製品でここまで自動化できる　情シスがやめられる手作業10選",
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2609/07/2000001177/",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "入退社時のアカウント処理やPCのセットアップ、ゲストユーザーの棚卸しといった定型業務を手作業で続けている情報システム（情シス）部門があります。 実は、Microsoft製品の中には、こうした業務を自動化できる機能が数多く用意されています。本記事では、その中でも有名な機能や意外と知られていない機能と、その機能...",
+      "content_source": "feed",
+      "tags": [
+        "Microsoft",
+        "自動化",
+        "情シス",
+        "業務効率化"
+      ],
+      "fetched_at": "2026-09-08T09:02:17.647315+09:00",
+      "summary": "Microsoft製品には、入退社時のアカウント処理、PCセットアップ、ゲストユーザー棚卸しなどの定型業務を自動化できる機能が多数存在します。これらの機能を活用することで、情報システム部門が抱える手作業を削減し、業務効率化を図ることが可能です。本記事では、これらの自動化機能の一部を紹介しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_9fd7b1cb2228",
+      "source": "reddit",
+      "title": "A faster way to convert a timestamp ➜ Hour, Min, Sec",
+      "url": "https://www.reddit.com/r/programming/comments/1w9pelh/a_faster_way_to_convert_a_timestamp_hour_min_sec/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/benjoffe [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "timestamp",
+        "convert"
+      ],
+      "fetched_at": "2026-09-08T09:02:19.743212+09:00",
+      "summary": "タイムスタンプを時、分、秒に変換する、より高速な方法についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_0e7089b50079",
+      "source": "reddit",
+      "title": "Implementing the Karatsuba multiplication algorithm on an 8-bit computer",
+      "url": "https://www.reddit.com/r/programming/comments/1wa0ja2/implementing_the_karatsuba_multiplication/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "I recently implemented the Karatsuba multiplication algorithm on a 8-bit TTL computer I hack on. In this video I explain the algorithm, and explore the speed benefits of using it. submitted by /u/MichaelKamprath [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Karatsuba",
+        "アルゴリズム",
+        "8ビットコンピュータ",
+        "乗算"
+      ],
+      "fetched_at": "2026-09-08T09:02:19.743458+09:00",
+      "summary": "投稿者は、8ビットTTLコンピュータ上でKaratsuba乗算アルゴリズムを実装した。このアルゴリズムは、従来の乗算よりも高速に大きな数の乗算を実行できる。投稿者は、この実装のビデオ解説と、Karatsubaアルゴリズムを使用することによる速度向上について考察している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_c16dc9bbc89b",
+      "source": "reddit",
+      "title": "Nuxt co-creator Alexandre Chopin joins Encore",
+      "url": "https://www.reddit.com/r/programming/comments/1w9rerx/nuxt_cocreator_alexandre_chopin_joins_encore/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Shot-Reporter-2443 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Nuxt",
+        "Encore"
+      ],
+      "fetched_at": "2026-09-08T09:02:19.743618+09:00",
+      "summary": "Nuxtの共同制作者であるAlexandre Chopin氏がEncoreに加わったという記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
