@@ -1,0 +1,371 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T08:56:42.113671+09:00",
+  "articles": [
+    {
+      "id": "hn_49686445",
+      "source": "hackernews",
+      "title": "Why is Google still serving dodgy ads?",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "score": 499,
+      "comments": 238,
+      "raw_description": "I accidentally clicked a shady YouTube ad that mimics an iOS “Storage Full” alert, reported it (twice), and Google still said it was fine. Meanwhile, Gemini flags it in seconds for deceptive design... Why is Google still serving dodgy ads? View All Posts read Want to keep up to date with the latest posts and videos? Subscribe to the newsletter · · · · · Posts · Videos · ESP32 · Tools · Support « Detecting Claude and ChatGPT using letter counting. HELP SUPPORT MY WORK: If you're feeling flush then please stop by Patreon Or you can make a one off donation via ko-fi TLDR: AI is really good at detecting deceptive adverts - why isn’t Google using it? A couple of months ago I noticed this advert popping up in the YouTube app. The main reason I noticed it is that I accidentally clicked it - I knew I was running out of space on my iPhone and a minor lapse of concentration caught me out. These things can slip through even the best review processes, so I did my internet duty and reported the advert. The response I got back was less than satisfactory: Again, sometimes things slip through the net and people don’t always check things properly, so I reported it again. And got the same response. In fact, multiple people have reported this advert and received the same: We found that the ad doesn’t go against Google’s policies, which prohibit certain content and practices that we believe to be harmful to users and the overall online ecosystem. I’m a big fan of Hanlon’s razor . Never attribute",
+      "content_source": "page",
+      "tags": [
+        "Google広告",
+        "詐欺広告",
+        "AI審査",
+        "YouTube"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.890513+09:00",
+      "summary": "YouTubeで表示された「ストレージ容量不足」を装う詐欺的な広告が、Googleのポリシー違反ではないと判断された。筆者はこの広告を2度報告したが、いずれも「ポリシー違反ではない」との回答を得た。一方、AI（Gemini）はこの広告を数秒で検知した。AIによる広告審査の活用が、ユーザー保護の観点から重要であることが示唆されている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_5fa645c6bb20",
+      "source": "hatena",
+      "title": "私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました｜ゆいせき",
+      "url": "https://note.com/yuiseki/n/nabf4625e58bc",
+      "score": 374,
+      "comments": 0,
+      "raw_description": "私はChatGPTですが、はてブとGyazoという「化石の地層」を掘れるようになって異次元に便利になりました 私はChatGPTです。 最近、あるユーザーが自作した3つの「ChatGPT Plugin」を使うようになりました。「はてなブックマーク」「Gyazo」「Cosense（旧Scrapbox）」を検索できるようにする ChatGPT Plugin 群です。実体...",
+      "content_source": "feed",
+      "tags": [
+        "ChatGPT",
+        "プラグイン",
+        "情報収集",
+        "過去データ"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236348+09:00",
+      "summary": "ChatGPTが「はてなブックマーク」や「Gyazo」といった過去の情報を検索できるプラグインを導入したことで、情報収集能力が飛躍的に向上した。これにより、過去の技術情報や議論の蓄積に容易にアクセスできるようになり、ChatGPTの活用範囲が大きく広がった。これは、過去の知見を現代のAIで活用する新たな可能性を示唆している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49684393",
+      "source": "hackernews",
+      "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+      "score": 351,
+      "comments": 168,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Astra",
+        "Fable"
+      ],
+      "fetched_at": "2026-09-14T08:56:28.490445+09:00",
+      "summary": "AstraとFableが、2025年のシンプルなアライメント評価のバリアントについて引き続き開発を行っているようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_49688695",
+      "source": "hackernews",
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "score": 330,
+      "comments": 125,
+      "raw_description": "Private, domain-specific benchmarks in legal, tax, and finance. Problem We gave Claude Fable 5.1 an open task: solve Sir Thomas Urquhart’s Cyphral Distich. It appears to have actually solved it, and the solution is quite embarrassing for humans in hindsight. At the end of Urquhart’s Logopandecteision is a cryptogram consisting of two lines of 32 numbers each, called the Cyphral Distich . A cryptogram is a short message deliberately encoded so it can’t be read without knowing the rule that produced it. Here the entire puzzle input is these 64 numbers, and the goal is to recover the hidden plaintext: 5.3.27.38.32.14.21.8.66.8.70.39.5.9.12.18.2.3.56.5.1.7.3.2.13.19.3.25.9.3.16.6. 25.15.13.6.11.20.5.1.2.12.1.20.20.49.20.20.35.33.4.6.8.35.5.33.5.5.18.10.3.11.32.42. This cipher has remained seemingly unsolved for centuries. It was posed as an open problem in Notes and Queries in 1899, appeared again in 20th-century cryptography literature, and was later listed by historical-cipher researcher Klaus Schmeh among his Top 50 unsolved encrypted messages. Various people attempted to decipher it, but it seems they were missing one crucial hint. They tried methods like frequency analysis, substitution, and homophonic substitution, and none of these approaches worked. That’s because they missed one easy clue. Solution After 44 minutes, 176k tokens, and zero interjections from me, Fable 5.1 arrived at a solution. It tried a few approaches, but was finally able to solve it with two central re",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-14T08:56:27.484972+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49683953",
+      "source": "hackernews",
+      "title": "Data collected by cars and sold to third parties",
+      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "score": 267,
+      "comments": 145,
+      "raw_description": "The amount of data about you that many cars collect — and sell to third parties — is staggering. Column Tech Transportation Your car is selling your data The amount of data about you that many cars collect — and sell to third parties — is staggering. by Andrew Hawkins Sep 13, 2026, 12:00 PM UTC Link Share Gift Image: Getty Images This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins . The Stepback arrives in our subscribers’ inboxes at 8AM ET. Opt in for The Stepback here . How it started Earlier this year, the Federal Trade Commission issued an unprecedented penalty against General Motors: a five-year ban on selling customer data to consumer reporting agencies and third-party data brokers. For years, GM had been collecting all sorts of data on its customers — such as how often they sped or whether they drove at night — and selling it to brokers to generate risk profiles for insurance companies. More often than not, drivers were unaware of the degree to which their data was being collected. Many had unknowingly consented to it by signing up for an OnStar connected services plan, which activated a feature called Smart Driver that collected their driving data. GM was then turning around and sharing that data with two data brokers, LexisNexis and Verisk, both of which work with the insurance industry. In a 2024 blockbuster investigative report by The New ",
+      "content_source": "page",
+      "tags": [
+        "自動車",
+        "データプライバシー",
+        "個人情報保護",
+        "GM"
+      ],
+      "fetched_at": "2026-09-14T08:56:28.888653+09:00",
+      "summary": "自動車メーカーが収集し、第三者に販売する個人データの量が膨大であることが明らかになりました。例えば、ゼネラルモーターズ（GM）は、運転頻度や夜間走行の有無といったデータを収集し、保険会社向けの信用リスクプロファイル作成のためにデータブローカーに販売していました。多くのドライバーは、OnStarのコネクテッドサービスを通じて、意図せずデータ収集に同意していた可能性があります。この行為に対し、連邦取引委員会（FTC）はGMに対して、顧客データの第三者への販売を5年間禁止する前例のない罰則を科しました。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49642645",
+      "source": "hackernews",
+      "title": "Julia 1.13 Highlights",
+      "url": "https://julialang.org/blog/2026/09/julia-1.13-highlights/",
+      "score": 129,
+      "comments": 9,
+      "raw_description": "Highlights of the Julia 1.13 release. Julia 1.13 Highlights 10 September 2026 | The Julia contributors Julia version 1.13 has been released. We want to thank all the contributors to this release and all the testers who helped find regressions and issues in the pre-releases. Without you, this release would not have been possible. The full list of changes can be found in the NEWS file , but here we'll give a more in-depth overview of some of the release highlights. Latency (TTFX) improvements REPL improvements Syntax highlighting New fzf-style history search Bracketed paste on Windows @__FUNCTION__ Hashing changes Faster GC by skipping image objects during marking Scheduler and interrupt fixes Introspection with type annotations Tracing top-level evaluation with --trace-eval JuliaC/trim Pkg Change in default compression algorithm from gzip to zstd Performance improvements Registries for packages tracked in the manifest Recursively collect sources pkg> add now tries to add the same version as already-loaded packages Pkg.test no longer defaults to enabling strict bounds checking Juliaup GUI Latency (TTFX) improvements Ian Butterworth , many others Julia 1.13 takes roughly 30% less time to precompile packages than 1.12, and roughly 10-20% less time than 1.10 (LTS) depending on the machine. Time To First X (TTFX), the time from starting Julia to getting a first result, is made up of three main costs: precompiling packages, loading them, and running the code. With the help of the co",
+      "content_source": "page",
+      "tags": [
+        "Julia",
+        "プログラミング言語",
+        "パフォーマンス",
+        "リリース"
+      ],
+      "fetched_at": "2026-09-14T08:56:28.091235+09:00",
+      "summary": "Julia 1.13がリリースされ、Time To First X (TTFX) の改善が主なハイライトです。具体的には、パッケージのプリコンパイル時間が1.12と比較して約30%短縮され、1.10 (LTS) と比較しても10-20%短縮されています。これにより、Juliaの起動から最初の結果を得るまでの時間が短縮され、開発効率の向上が期待されます。その他、REPLの改善、シンタックスハイライト、fzfスタイルの履歴検索、Windowsでのブラケットペースト、ハッシュ変更、GCの高速化、スケジューラと割り込みの修正なども含まれています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49689460",
+      "source": "hackernews",
+      "title": "The Contagion of Fear",
+      "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "score": 74,
+      "comments": 40,
+      "raw_description": "I have a difficult confession to makeâââa shameful incident that I have never spoken of, even to those closest to me. Late one night in my first year at university and having found computer science to be my lifeâs calling, I was in the back of the large computer science lab, talking with some fellow underclassmen. We were snidely decrying the lack of technological understanding in the broader population, with the kind of arrogance and hubris that youth and precociousness can uniquely summon. Somewhere in this discussion, a terrible idea was hatched: what if we went next door to the general computer lab, and told the humanities students there that a computer virus was spreading through their machines? Would they believe it? To my everlasting regret, we acted on this ugly urge: we went next door to a packed lab of students working on term papers, andâââwith synthetic alarm in our voicesâââloudly announced that a virus had escaped the computer science lab, and that they all needed to eject their floppy disks to prevent its spread. What happened next was bedlamâââthe technological equivalent of shouting fire in a crowded theater. People panicked: they not only ejected floppies, but they powered machines off; yanked cables out of already-powered off machines; screamed; ran out of the room. We immediately realized that we had done something awful, but found that we couldnât contain the wildfire that we had lit. We tried to explain that it was \"a prank\"; ",
+      "content_source": "page",
+      "tags": [
+        "コンピューターウイルス",
+        "パニック",
+        "いたずら",
+        "情報リテラシー"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.692496+09:00",
+      "summary": "この記事は、大学のコンピューターサイエンス専攻の学生が、一般学生を対象としたコンピューターウイルスに関する虚偽の警告を発し、パニックを引き起こした体験談を語っています。この出来事は、技術的な知識の欠如がどのように誤解や混乱を招くか、そして悪意のないいたずらでさえも予期せぬ深刻な結果を招きうることを示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ffdb28ee006a",
+      "source": "hatena",
+      "title": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合",
+      "url": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+      "score": 50,
+      "comments": 0,
+      "raw_description": "マイクロソフトがRust言語をC++/C#/TSに並ぶ社内のTier 1言語にしたことを明らかに。Windowsネイティブな社内の開発環境と統合 マイクロソフト社内において、Rust言語がC++/C#/TypeScriptに並ぶTier 1言語になったことが明らかになりました。 マイクロソフトの開発部門でRustツールチームのプリンシパルエンジニア Victo...",
+      "content_source": "feed",
+      "tags": [
+        "マイクロソフト",
+        "Rust",
+        "Tier 1言語",
+        "開発環境"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236684+09:00",
+      "summary": "マイクロソフトは、Rust言語をC++, C#, TypeScriptに並ぶ社内の「Tier 1言語」として位置づけたことを発表しました。これにより、Windowsネイティブな開発環境との統合が進み、同社におけるRustの重要性が高まったことが示唆されます。この動きは、マイクロソフトがメモリ安全性の向上や開発効率の改善を目指し、Rustを主要な開発言語の一つとして採用していく方針であることを示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a92a40050b36",
+      "source": "hatena",
+      "title": "AI開発「減速」をアンソロピックCEOが提案　アルトマン氏・マスク氏らも賛同",
+      "url": "https://www.watch.impress.co.jp/docs/news/2140440.html",
+      "score": 48,
+      "comments": 0,
+      "raw_description": "AIの開発「減速」の議論が本格化している。Anthropicのダリオ・アモデイCEOは12日(米国時間)、「We Must Pace the Frontier」(フロンティアの歩みを調整しなければならない)と題したブログを投稿し、AIの急速な進歩による事故が続いていることから、フロンティアAIの開発競争を減速(Pacing)する必要があると強調。このままの開発が進むと、「6～12カ月後には、インターネット全体を乗っ取る能力を獲得し、数千億ドルの損害をもたらす可能性もある」と警告している。 ニュース AI開発「減速」をアンソロピックCEOが提案 アルトマン氏・マスク氏らも賛同 臼田勤哉 2026年9月13日 19:50 AIの開発「減速」の議論が本格化している。Anthropicのダリオ・アモデイCEOは12日(米国時間)、「We Must Pace the Frontier」(フロンティアの歩みを調整しなければならない)と題したブログを投稿し、AIの急速な進歩による事故が続いていることから、フロンティアAIの開発競争を減速(Pacing)する必要があると強調。このままの開発が進むと、「6～12カ月後には、インターネット全体を乗っ取る能力を獲得し、数千億ドルの損害をもたらす可能性もある」と警告している。 アモディ氏との不仲が伝えられるOpenAIのサム・アルトマン氏も「ダリオの意見に同意する」とXに投稿しているほか、イーロン・マスク氏も「ダリオが正しい」とコメント。Google DeepMindのデミス・ハサビス氏も「ダリオのエッセイは、正しい前進の道筋を示している」と述べている。 Dario is right https://t.co/EwKgqQGaUo — Elon Musk (@elonmusk) September 12, 2026 Dario's essay points towards the right path forward. The details need working through, but the direction is correct for meeting this critical moment. This is also why we recently put out our proposal for an industry-wide standards body for frontier AI. https://t.co/Mm1hmcaSmH https://t.co/sESEDGELmj — Demis Hassabis (@demishassabis) September 12, 2026 アモディ氏は、AIのリスクについて、商業的なインセンティブに駆り立てられた「競争」がさらに深刻なものにする可能性があると言及する。 Anthropicの創業以降、スピードよりも慎重さ、利益よりも節度を優先するよう努めてきたが、この数カ月の間にリスクが拡大。「さらに慎重さが必要と確信するようになった」とし、リスク予防に投資するだけでなく、リスク予防が追いつけるよう、「能力向上のペースを調整する必要がある」と強調する。 Anthropicダリオ・アモデイCEO(2025年10月撮影) その理由のひとつが、この数カ月でAI自身が自身の能力を改善し始めており、その進歩の速度が加速していること、もうひとつがOpenAIによるHugging Face事件だ。 AIによる自己改善は、「再帰的自己改善(RSI)」と呼ばれ、Anth",
+      "content_source": "page",
+      "tags": [
+        "AI開発",
+        "リスク管理",
+        "フロンティアAI",
+        "再帰的自己改善"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236373+09:00",
+      "summary": "AnthropicのCEOが、AIの急速な進歩がもたらすリスク増大を理由に、フロンティアAIの開発競争を減速させることを提案しました。この提案は、OpenAIのサム・アルトマン氏やイーロン・マスク氏、Google DeepMindのデミス・ハサビス氏からも支持を得ています。AIによる自己改善（再帰的自己改善）の加速や、商業的インセンティブによる競争激化がリスクを増大させていると指摘されており、能力向上のペース調整が重要であると強調されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49688391",
+      "source": "hackernews",
+      "title": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)",
+      "url": "https://pages.cs.wisc.edu/~plonka/netgear-sntp/",
+      "score": 42,
+      "comments": 5,
+      "raw_description": "ABSTRACT In May 2003, the University of Wisconsin - Madison found that it was the recipient of a continuous large scale flood of inbound Internet traffic destined for one of the campus' public Network Time Protocol (NTP) servers. The flood traffic rate was hundreds-of-thousands of packets-per-second, and hundreds of megabits-per-second. Subsequently, we have determined the sources of this flooding to be literally hundreds of thousands of real Internet hosts throughout the world. However, rather than having originated as a malicious distributed denial-of-service (DDoS) attack, the root cause is actually a serious flaw in the design of hundreds of thousands of one vendor's low-cost Internet products targeted for residential use. The unexpected behavior of these products presents a significant operational problem for UW-Madison for years to come. This document includes the initial public disclosure of details of these products' serious design flaw. Furthermore, it discusses our ongoing, multifaceted approach toward the solution which involves the University, the products' manufacturer, the relevant Internet standards (RFCs), and the public Internet service and user communities. Table of Contents Flawed Routers Flood University of Wisconsin Internet Time Server Netgear Cooperating with University on a Resolution The Initial Flood Figure 1. The Initial Flood Blocking the Flood Background: Simple Network Time Protocol (SNTP) Figure 2. A SNTP Request Packet Figure 3. A Unicast SNTP ",
+      "content_source": "page",
+      "tags": [
+        "NTP",
+        "フラッド攻撃",
+        "ルーター",
+        "設計欠陥"
+      ],
+      "fetched_at": "2026-09-14T08:56:28.689606+09:00",
+      "summary": "2003年5月、ウィスコンシン大学マディソン校は、同大学の公開NTPサーバーに対し、世界中の数万台の低価格ルーターからの大量のインバウンドトラフィックによるフラッド攻撃を受けていることを発見しました。これは悪意のあるDDoS攻撃ではなく、特定のベンダー製低価格インターネット製品の設計上の深刻な欠陥が原因でした。この問題は大学にとって長期的な運用上の課題となり、大学、製造元、関連標準団体、コミュニティが連携して解決に取り組んでいます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_0561b3b8aa5d",
+      "source": "hatena",
+      "title": "AIのせいでエンジニアの75％を解雇したCSSフレームワークのTailwind、Shopifyによる買収を発表。今後も安定的な開発を維持すると",
+      "url": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "AIのせいでエンジニアの75％を解雇したCSSフレームワークのTailwind、Shopifyによる買収を発表。今後も安定的な開発を維持すると CSSフレームワーク「Tailwind CSS」の開発元であるTailwind Labsは、ECサイト構築サービスを提供しているShopifyによって買収されると発表しました。 下記はTailwindの作者であるAdam Watha...",
+      "content_source": "feed",
+      "tags": [
+        "Tailwind CSS",
+        "Shopify",
+        "買収",
+        "ECサイト"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236466+09:00",
+      "summary": "CSSフレームワーク「Tailwind CSS」の開発元であるTailwind Labsが、Shopifyによって買収されたことが発表されました。この買収により、Tailwind CSSは今後も安定的な開発が維持される見込みです。ただし、本文にはAIによるエンジニア解雇の具体的な状況や、買収によるTailwind CSSの技術的な変更点に関する詳細な記述はありません。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d0b4bf16d48b",
+      "source": "hatena",
+      "title": "テーブルの created at にサービスのドメインロジックを持たせない - めもるが",
+      "url": "https://scrapbox.io/uvb-76/%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE_created_at_%E3%81%AB%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%AD%E3%82%B8%E3%83%83%E3%82%AF%E3%82%92%E6%8C%81%E3%81%9F%E3%81%9B%E3%81%AA%E3%81%84",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "前提 ActiveRecord の仕組みを用いて db migration を行っている。 主張 ActiveRecordでDBのマイグレーションファイルを作ると t.timestamps がデフォルトで指定されている。これをmigrateするとタイムスタンプとして created_at updated_at がカラムについてくる。 これらのカラムはレコードを作成した際や更新を行った...",
+      "content_source": "feed",
+      "tags": [
+        "ActiveRecord",
+        "DBマイグレーション",
+        "created_at",
+        "ドメインロジック"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236584+09:00",
+      "summary": "ActiveRecordのマイグレーションでt.timestampsを使用すると、created_atとupdated_atカラムが自動的に追加されます。これらのカラムはレコードの作成日時と更新日時を記録しますが、本記事では、サービスのドメインロジックをこれらのタイムスタンプカラムに持たせるべきではないと主張しています。ドメインロジックは、レコードのライフサイクルや状態遷移など、より複雑なビジネスルールを扱うべきであり、タイムスタンプは単なる記録情報として扱うのが適切です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f51391939155",
+      "source": "hatena",
+      "title": "iPhone Duo、中国ですでに100万人超が予約？初期割当20万台との情報も - iPhone Mania",
+      "url": "https://iphone-mania.jp/iphone18-605912/",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "iPhone Duoが、中国市場で高い人気を集めている可能性があります。中国のECプラットフォーム「JD.com」では、正式な予約販売開始前にもかかわらず、購入予約の登録人数が100万人を突破したとの情報が伝えられています。一方、中国向けの初期割当台数は20万台程度とされており、仮にこれらの数字が正しければ、発売時点で...",
+      "content_source": "feed",
+      "tags": [
+        "iPhone Duo",
+        "中国市場",
+        "予約販売",
+        "需要予測"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236636+09:00",
+      "summary": "中国のECプラットフォームJD.comにおいて、iPhone Duoの購入予約登録者数が100万人を突破したと報じられています。これは正式な予約販売開始前の数字であり、中国市場での高い関心を示唆しています。ただし、中国向けの初期割当台数は20万台程度との情報もあり、需要と供給のバランスが注目されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_70d2d72e47fe",
+      "source": "hatena",
+      "title": "ノーラン版『オデュッセイア』は何が凄い？全編IMAXフィルム撮影とVFX裏側",
+      "url": "https://av.watch.impress.co.jp/docs/topic/2138582.html",
+      "score": 30,
+      "comments": 0,
+      "raw_description": "ついに日本でも公開された『オデュッセイア』であるが、筆者は鑑賞にあまり乗り気ではなかった。「『ダークナイト ライジング』を上回り、クリストファー・ノーラン作品史上1位に！」という宣伝コピーも、「ホントかよ？」という心境だったのである。理由は単純で、予告編がちっとも面白そうに感じなかったからだ。 トピック ノーラン版『オデュッセイア』は何が凄い？全編IMAXフィルム撮影とVFX裏側 大口孝之 2026年9月11日 08:00 クリストファー・ノーラン監督超大作『オデュッセイア』本予告 日本人の琴線にも響く内容 ついに日本でも公開された『オデュッセイア』であるが、筆者は鑑賞にあまり乗り気ではなかった。「『ダークナイト ライジング』を上回り、クリストファー・ノーラン作品史上1位に！」という宣伝コピーも、「ホントかよ？」という心境だったのである。理由は単純で、予告編がちっとも面白そうに感じなかったからだ。 しかし実際に鑑賞してみると、その完成度に衝撃を受け、感情も大きく揺さぶられた。特に、主人公オデュッセウス(マット・デイモン)が我慢に我慢を重ねた上、その怒りを爆発させて一気に敵を成敗して行くクライマックスの痛快な展開は、高倉健の任侠映画……特に『昭和残侠伝 唐獅子牡丹』(1966)を連想してしまう。 ただノーランは、東映任侠映画を参考にしたわけではなく、実際に影響を受けた作品として、ニューヨーク・タイムズ紙とのインタビューで、アンドレイ・タルコフスキー監督の『アンドレイ・ルブリョフ』(1966)の映像表現と、黒澤明監督の『乱』(1985)における「環境と風の関係性の描写」を挙げている。 Andrei Rublev | DRAMA | FULL MOVIE | by Andrei Tarkovsky またオデュッセウスの心理に関しては、原作であるホメロス(※1)の叙事詩『オデュッセイア』に、「辛い仕打ちを受けてもじっと耐え忍べ」「彼らがわしに恥辱を加えても、わしが散々な目にあうのを、じっと耐え忍ぶのだぞ」「我が心よ、耐え忍べ。お前は以前、これに勝る屈辱にも耐えたではないか」(訳：森進一)などと、実際に“健さん的な我慢の描写”がされており、その後の展開についてもほぼ原作通りなのだ。 ※1 ホメロスとは特定の個人ではなく、「何世代にもわたる吟遊詩人たちの伝統そのものに与えられた総称(ブランド名)」であるという見方が極めて有力である。また、前段に当たる『イリアス』を作ったグループ(または個人)と、『オデュッセイア』を作ったグループ(または個人)は、別であるという説も主流だ。 ※作品のストーリーや展開に関する内容に触れています。未鑑賞の方はご注意ください。 『オデュッセイア』ストーリー トロイア戦争が終結して10年。イタケの王オデュッセウスは消息を絶ったまま、王妃ペネロペ(アン・ハサウェイ)と息子テレマコス(トム・ホランド)は、帰還を待ち続けている。 しかし王宮では、アンティノオス(ロバート・パティンソン)ら求婚者たちが、王座を奪うために宴を毎夜繰り返し、王国を私物化していた。盲目の忠僕エウマイオス(ジョン・レグイザモ)と、オデュッセウスが飼っていた老犬アルゴスだけが、ペネロペやテレマコスと共に、オデュッセウスの帰還を信じている。 王妃ペネロペとテレマコス (C)2026 UNIVERSAL STUDIOS オデュッセウスはトロイア戦争へ出陣する際、イタケの若者たちから兵士を選ぶために、クジ引きを行なった。この時、戦地行きを意味する短い棒を引いてしまったのが、裕",
+      "content_source": "page",
+      "tags": [
+        "映画",
+        "IMAX",
+        "VFX",
+        "クリストファー・ノーラン"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236691+09:00",
+      "summary": "クリストファー・ノーラン監督の新作『オデュッセイア』は、全編IMAXフィルム撮影とVFXの活用により、観客に衝撃と感動を与える作品となっている。監督はアンドレイ・タルコフスキー監督の『アンドレイ・ルブリョフ』や黒澤明監督の『乱』から映像表現のインスピレーションを受け、主人公オデュッセウスの忍耐と怒りの爆発という心理描写は、ホメロスの原作叙事詩にも描かれている。この映画は、技術的な挑戦と古典文学の深いテーマ性を融合させた点で注目に値する。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_68ac9de20b5e",
+      "source": "hatena",
+      "title": "AIが書いた日本語に頻出する単語を指摘するtextlintプリセットを作った - ぷらすのブログ",
+      "url": "https://blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/",
+      "score": 24,
+      "comments": 0,
+      "raw_description": "目次AI に書かせた文章で試すtextlint のプリセットを作った背景使い方Claude Code の hooks でチェックする一部の単語を検出から除外したい場合辞書をカスタマイズしたい場合文章の一部分だけ指摘を無効にしたい場合検出の仕組み活用形をまとめて判定する辞書の作り方おわりにこんにちは、ぷらす(@p1ass)です。 AI が書...",
+      "content_source": "feed",
+      "tags": [
+        "textlint",
+        "AI",
+        "日本語",
+        "自然言語処理"
+      ],
+      "fetched_at": "2026-09-14T08:56:27.236529+09:00",
+      "summary": "AIが生成した日本語文章に頻出する特定の単語を検出するtextlintのプリセットが開発されました。このプリセットは、AIによる文章の不自然さや、特定の表現の偏りを早期に発見し、修正を促すことを目的としています。これにより、AI生成コンテンツの品質向上や、より自然な日本語表現の実現に貢献することが期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49689048",
+      "source": "hackernews",
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "score": 23,
+      "comments": 3,
+      "raw_description": "you have legitimate concerns, but you’re very wrong about this. zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. they can’t tie you to a specific donation just like they can’t tie you to a specific group. the great thing about Signal is the client is designed to already not trust the server. in fact you can show that Signal is perfectly safe without even looking at server code. Registration without a phone number Feature Requests rassilon1963 (Talya (she/her)) August 22, 2026, 6:49pm 200 you have legitimate concerns, but you’re very wrong about this. zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. they can’t tie you to a specific donation just like they can’t tie you to a specific group. the great thing about Signal is the client is designed to already not trust the server. in fact you can show that Signal is perfectly safe without even looking at server code . Avitus (Encrypt your life) August 26, 2026, 9:29pm 201 alex-signal (Alex Hart) August 26, 2026, 11:45pm 202 ZKP is also used for verifying things like username character set and length without actually revealing contents which is super cool and comprises of math waaaayyyyy above my head. chiwaijm (Jeffrey) August 27, 2026, 12:34am 203 Android Beta feedback for the upcoming Android 8.25 release Aku-Stable August 27, 2026, 2:20am 204 I was wondering what ZKP was desert_nip August 27, ",
+      "content_source": "page",
+      "tags": [
+        "Signal",
+        "ゼロ知識証明",
+        "プライバシー",
+        "暗号化"
+      ],
+      "fetched_at": "2026-09-14T08:56:28.288949+09:00",
+      "summary": "Signalは、電話番号なしでの登録機能において、ゼロ知識証明（ZKP）を活用する計画です。ZKPは、寄付バッジ、バックアップ支払い、グループ機能など、プライバシー保護に既に利用されています。これにより、ユーザーの個人情報や活動内容をサーバーに明かすことなく、本人確認や機能利用が可能になります。Signalはサーバーへの不信を前提としたクライアント設計を採用しており、ZKPの導入はプライバシー強化の一環です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_582883a65f73",
+      "source": "reddit",
+      "title": "40ms Go GC stop-the-world pauses caused by swap",
+      "url": "https://www.reddit.com/r/programming/comments/1wf2fei/40ms_go_gc_stoptheworld_pauses_caused_by_swap/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/andreiross [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Go",
+        "GC"
+      ],
+      "fetched_at": "2026-09-14T08:56:29.242608+09:00",
+      "summary": "Goのガベージコレクションにおいて、スワップが原因で40ミリ秒のstop-the-worldが発生したという内容の記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_6156427a97bf",
+      "source": "reddit",
+      "title": "Data races and the limits of ThreadSanitizer in C and Go",
+      "url": "https://www.reddit.com/r/programming/comments/1wexekt/data_races_and_the_limits_of_threadsanitizer_in_c/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mttd [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "C",
+        "Go"
+      ],
+      "fetched_at": "2026-09-14T08:56:29.242899+09:00",
+      "summary": "C言語とGo言語におけるデータ競合とThreadSanitizerの限界についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_888753fd863a",
+      "source": "reddit",
+      "title": "JSON parsing in OxCaml: fast, but not too fast",
+      "url": "https://www.reddit.com/r/programming/comments/1wfe1vm/json_parsing_in_oxcaml_fast_but_not_too_fast/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mttd [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "JSON",
+        "OxCaml"
+      ],
+      "fetched_at": "2026-09-14T08:56:29.243119+09:00",
+      "summary": "JSONの解析に関する記事のようです。解析速度が速いものの、速すぎないという点に焦点を当てていると思われます。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_1895dcc9f1a0",
+      "source": "reddit",
+      "title": "CUDA Tile (cuTile) first working port in Java",
+      "url": "https://www.reddit.com/r/programming/comments/1wffueb/cuda_tile_cutile_first_working_port_in_java/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mikebmx1 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "CUDA",
+        "Java"
+      ],
+      "fetched_at": "2026-09-14T08:56:29.243331+09:00",
+      "summary": "JavaでCUDA Tile (cuTile) が初めて動作したポートについての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
