@@ -1,0 +1,365 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:58:59.958383+09:00",
+  "articles": [
+    {
+      "id": "hn_49715813",
+      "source": "hackernews",
+      "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "url": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+      "score": 482,
+      "comments": 188,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Fujitsu",
+        "CPU"
+      ],
+      "fetched_at": "2026-09-18T08:58:47.920923+09:00",
+      "summary": "富士通が日本国内で製造された次世代CPU「FUJITSU-MONAKA」を発表したようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_c3d9a8429360",
+      "source": "hatena",
+      "title": "Claude Codeを「使うほど育つ」AI秘書にするノウハウ",
+      "url": "https://speakerdeck.com/minorun365/claude-code-o-tsukau-hodo-sodatsu-ai-hisho-ni-suru-nouhau",
+      "score": 476,
+      "comments": 0,
+      "raw_description": "［みのるん式］ビジネスパーソンのためのClaude Code仕事術 https://www.amazon.co.jp/dp/4297159392 Upgrade to Pro — share decks privately, control downloads, hide ads and more … Claude Codeを「使うほど育つ」AI秘書にするノウハウ Sponsored · SiteGround - Reliable hosting with speed, security, and support you can count on. → みのるん PRO September 17, 2026 Technology 11k 16 Share Embed Copy iframe code Copy JS code Copy link Start on current slide Claude Codeを「使うほど育つ」AI秘書にするノウハウ ［みのるん式］ビジネスパーソンのためのClaude Code仕事術 https://www.amazon.co.jp/dp/4297159392 みのるん PRO September 17, 2026 More Decks by みのるん See All by みのるん The Agent Builder Loop from Daily Work to OSS minorun365 PRO 3 190 Claude Codeで開発以外の業務も爆速化しよう！ minorun365 PRO 12 10k Mastraエージェント、どのクラウドにデプロイする？ minorun365 PRO 3 280 「勝手に広まる」人気 AI エージェントを爆速で作ろう！（AWS Summit Japan 2026講演資料） minorun365 PRO 12 3.6k やさしいA2A入門 minorun365 PRO 12 2.9k もりもり新機能を一挙紹介！ AgentCoreに入門して、AWS上にAIエージェントを構築しよう minorun365 PRO 6 1.8k Claude Codeですべての日常業務を爆速化しよう！ minorun365 PRO 19 19k 2026年春のAgentCoreアプデ 細かいやつ全部まとめ minorun365 PRO 5 390 「責任あるAIエージェント」こそ自社で開発しよう！ minorun365 PRO 10 4k Other Decks in Technology See All in Technology 20260912_スクフェス三河 kgnkhkr 0 350 AIを活用するために決めた \"やらないこと\" - 価値に注目する / Not betting on AI soudai PRO 1 510 iOSDC Japan 2026 day1 TrackC 10:50 feedtailor 1 150 synctest時代のhttptest Go 1.27で変わるHTTPサーバテストの裏側 / go conference2026 synctest and httptest budougumi0617 1 2.9k Omarchy Quattro の日本語設定周り simosako 2 180 Amazon Quick on DesktopがIAM Identity Centerで動かない理由 yukiogawa 0 190 絵ではじめるKubernetes",
+      "content_source": "page",
+      "tags": [
+        "Claude Code",
+        "AI秘書",
+        "業務効率化",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975559+09:00",
+      "summary": "この記事は、Claude Codeを「使うほど育つ」AI秘書として活用するためのビジネスパーソン向け仕事術を紹介しています。具体的なノウハウや、開発以外の業務を効率化するClaude Codeの活用法について解説されており、AIエージェント構築や日常業務の爆速化に焦点を当てています。AIを活用する上での「やらないこと」の重要性にも触れています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49743097",
+      "source": "hackernews",
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "url": "https://github.com/asciimoo/hister",
+      "score": 416,
+      "comments": 124,
+      "raw_description": "Your own search engine. Contribute to asciimoo/hister development by creating an account on GitHub. Hister Your own search engine Hister is a private search engine for the pages you visit and the files you keep. It indexes their full contents so you can find information again from the web interface, terminal, or an AI assistant connected through MCP. Try the demo · Download Hister · Read the quickstart · Documentation Quickstart Download the binary for your platform from the latest release , then rename it to hister ( hister.exe on Windows). On Linux or macOS, make it executable: chmod +x hister Start Hister on Linux or macOS: ./hister listen On Windows, run .\\hister.exe listen in PowerShell. Keep this terminal open while using Hister. The server must be running to index pages and search them. Open http://127.0.0.1:4433 and install the browser extension for Firefox or Chrome . Visit a web page with the extension enabled, then return to Hister and search for a phrase from that page to find your first indexed result. No configuration is required for a local personal setup. See the complete quickstart to choose what Hister indexes. To search existing content, import browser history , index local directories , or import files . Alternative installation methods include Homebrew ( brew install hister ), Docker, and Nix. See the installation guide for instructions. Features Privacy focused : No telemetry or mandatory cloud service. Run Hister locally or on infrastructure you control",
+      "content_source": "page",
+      "tags": [
+        "プライベート検索エンジン",
+        "ローカルインデックス",
+        "プライバシー",
+        "情報検索"
+      ],
+      "fetched_at": "2026-09-18T08:58:47.144367+09:00",
+      "summary": "Histerは、ローカルで実行可能なプライベート検索エンジンで、訪問したウェブページやローカルファイルをフルコンテンツでインデックス化します。ブラウザ拡張機能、ターミナル、またはAIアシスタント経由でアクセス可能で、ユーザーは自身のデータから情報を効率的に検索できます。プライバシーに重点を置き、テレメトリやクラウドサービスを必要としないため、ユーザーは自身のインフラストラクチャ上で完全に制御できます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49745940",
+      "source": "hackernews",
+      "title": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "score": 242,
+      "comments": 272,
+      "raw_description": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work. September 17, 2026 Company Introducing Astra for Law Our most powerful model, configured into a new AI foundation for law. Explore solutions for law Contact Legal sales Loading… Share Today, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise. It combines GPT‑6 Astra, our latest and most powerful model, with settings, tools, and context tailored for professional legal work. API customers including Harvey and Legora will be able to build on Astra for Law, bringing this intelligence into their own products and workflows. As our frontier models advance, we’ll bring these legal capabilities to our latest models. We are also expanding our work on privacy and governance to give law firms specific controls for confidential client work. Firms can also customize Astra for Law using our 26 new ecosystem plugins that connect ChatGPT to the specialist tools firms already use, like Relativity and Clio. Frontier intelligence for law Astra for Law combines GPT‑6 Astra with a powerful legal search index and instructions for legal analysis and writing. Together, they amplify Astra’s capabilities across the legal practice, while giving firms and legal technology companies the freedom to build their own applications and workflows. Legal ",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "法律",
+        "GPT-6 Astra",
+        "リーガルテック"
+      ],
+      "fetched_at": "2026-09-18T08:58:46.370000+09:00",
+      "summary": "OpenAIは、最新かつ最も強力なモデルであるGPT-6 Astraを基盤とした、法律業界向けの新しいAIソリューション「Astra for Law」を発表しました。これは、法律事務所やリーガルテック企業が、専門知識を中心にAI製品やワークフローを構築するためのものです。法律業務に特化した設定、ツール、コンテキストを備え、機密性の高いクライアントワークのためのプライバシーとガバナンス機能も強化されています。さらに、RelativityやClioのような既存の専門ツールと連携する26種類の新しいエコシステムプラグインにより、カスタマイズも可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49746163",
+      "source": "hackernews",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "score": 224,
+      "comments": 120,
+      "raw_description": "Bend: a fast language that blocks AI mistakes via proof. × 1. Install curl -fsSL https://bend-lang.com/install.sh | sh 2. Add this to your AGENTS.md When using Bend: - run `bend guide` to learn it - use `LAWS.bend` to keep important rules - run `bend PROOF.bend` before committing - parallelize the code whenever possible 3. Enjoy bug-free, fast vibe-coded apps! Bend a fast language that blocks AI mistakes via proof C speed · CUDA parallelism · Lean proofs · Python syntax In the post-AGI economy, humans will eventually stop writing and reading code, but we still need an ambiguity-free way to tell the AIs building the world around us what we want done. With laws , our intents can be much more precise than natural language. With proofs , we can verify that the AI implemented our prompts correctly. And a fast compiler runs it at speed. That's Bend - and nothing else. 1. Bend runs FAST . Bend compiles to native code. On one core, it runs nearly as fast as C. The same binary also runs on sixteen cores, or on the GPU, running up to a hundred times faster than one core. Apple M4 Max · lower is better 2. Bend compiles FAST . Bend's type checker is a proof checker, as in Lean and Rocq. Those can take minutes on a mid-sized codebase. Bend takes a second at most, so an AI agent can check after every change. Apple M4 Max · lower is better 3. Bend is PARALLEL . No threads, no locks, no kernels to write. Split the work in two, and Bend spreads the calls over every core it can find, then join",
+      "content_source": "page",
+      "tags": [
+        "プログラミング言語",
+        "AI",
+        "証明",
+        "並列処理"
+      ],
+      "fetched_at": "2026-09-18T08:58:46.890022+09:00",
+      "summary": "Bendは、AIの誤りを証明によってブロックする高速なプログラミング言語です。CPUおよびGPUで動作し、C言語並みの速度とCUDAによる並列処理能力を持ちます。LeanやRocqのような証明チェッカーを内蔵しつつ、コンパイル速度は1秒以内と高速です。これにより、AIがコードを生成する際に、人間の意図を正確に実装しているかを検証し、バグのないアプリケーション開発を目指します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49726007",
+      "source": "hackernews",
+      "title": "Wax motor",
+      "url": "https://en.wikipedia.org/wiki/Wax_motor",
+      "score": 198,
+      "comments": 41,
+      "raw_description": "From Wikipedia, the free encyclopedia Wax-based linear actuator device A wax motor manufactured by iSwell A wax motor is a linear actuator device that converts thermal energy into mechanical energy by exploiting the phase-change behaviour of waxes . [ 1 ] During melting, wax typically expands in volume by 5–20% ( Freund et al. 1982 ) . A wide range of waxes can be used in wax motors, ranging from highly refined hydrocarbons to waxes extracted from vegetable matter. Specific examples include paraffin waxes in the straight-chain n-alkanes series. These melt and solidify over a well-defined and narrow temperature range. Design [ edit ] The principal components of a wax motor are: An enclosed volume of wax A plunger or stroke-rod to convert the thermo-hydraulic force from the wax into a useful mechanical output A source of heat such as: Electric current; typically a PTC thermistor , that heats the wax Solar radiation; e.g. greenhouse vents Combustion heat; e.g. excess heat from internal combustion engines Ambient heat A sink to reject heat energy such as: Convection to cooler ambient air Peltier effect device arranged to transfer heat energy away When the heat source is energized, the wax block is heated and it expands , driving the plunger outwards by volume displacement. When the heat source is removed, the wax block contracts as it cools and the wax solidifies. For the plunger to withdraw, a biasing force is usually required to overcome the mechanical resistance of seals that ",
+      "content_source": "page",
+      "tags": [
+        "リニアアクチュエータ",
+        "ワックスモーター",
+        "熱エネルギー変換",
+        "相変化"
+      ],
+      "fetched_at": "2026-09-18T08:58:47.663076+09:00",
+      "summary": "ワックスモーターは、ワックスの相変化を利用して熱エネルギーを機械的エネルギーに変換するリニアアクチュエータです。加熱によりワックスが膨張してプランジャーを押し出し、冷却により収縮してプランジャーを引き戻します。電気、太陽光、燃焼熱、外気温などを熱源とし、対流やペルチェ素子などを放熱源として利用できます。この原理は、様々な熱源と組み合わせることで、アクチュエータとして機能します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f6bf41e32ee6",
+      "source": "hatena",
+      "title": "Claude Code「スキル」が凄すぎる…毎日のコピペ指示を“全自動化”する神スキル5選",
+      "url": "https://www.sbbit.jp/article/cont1/186367",
+      "score": 189,
+      "comments": 0,
+      "raw_description": "Claude Codeを日常的に使い始めてから、ある違和感に気づきました。「Gmailの未読メールを、件名・送信者・日時で整理して、優先度が高いものから順番に、見やすい形でまとめて」といったように、毎朝、同じ内容の指示（プロンプト）を打ち込んでいたのです。このように、繰り返し頼む作業を毎回ゼロから指示していては...",
+      "content_source": "feed",
+      "tags": [
+        "Claude Code",
+        "AI",
+        "自動化",
+        "プロンプトエンジニアリング"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975316+09:00",
+      "summary": "AnthropicのClaude Codeは、定型的な指示を自動化する「スキル」機能を搭載しています。これにより、例えば毎朝のGmail未読メール整理のような繰り返し行うタスクに対して、毎回プロンプトを入力する手間を省き、効率化を図ることができます。この機能は、日常的なコーディング作業における生産性向上に貢献する可能性を秘めています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49746618",
+      "source": "hackernews",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "score": 143,
+      "comments": 45,
+      "raw_description": "Ternary Bonsai 2 27B retains 98.2% of Qwen3.8 27B benchmark performance in a 5.9GB footprint, with multimodal and agentic capabilities. LAUNCH 1001011100 11010 1 001 Back to all posts Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint September 17, 2026 • PrismML Two months ago, we released our first Bonsai 27B models and showed that a 27B-class multimodal model could be compressed enough to run efficiently on a local device. Today, we’re releasing Ternary Bonsai 2 27B, our most capable model yet. Based on Qwen3.8 27B, Ternary Bonsai 2 27B brings stronger reasoning, coding, vision, and agentic capability to the Bonsai series while preserving the deployment profile that defines it: a dramatically smaller memory footprint, high local throughput, and better energy efficiency. Ternary Bonsai 2 27B uses ternary {−1, 0, +1} weights with FP16 group-wise scaling, for 1.76 effective bits per weight and a total model footprint of 5.9GB . The low-bit representation is applied end to end across the language model. It supports a 262K-token context window , multimodal text-and-image input, and is released under the Apache 2.0 license. Against its full-precision counterpart, Ternary Bonsai 2 27B is more than 9x smaller while retaining 98.2% of aggregate benchmark performance . At this level of retention, compression becomes a deployment unlock: nearly the same capability, in a footprint that can run in far more places. What changed from the first Bonsai 27B releas",
+      "content_source": "page",
+      "tags": [
+        "大規模言語モデル",
+        "モデル圧縮",
+        "量子化",
+        "マルチモーダル"
+      ],
+      "fetched_at": "2026-09-18T08:58:46.635580+09:00",
+      "summary": "PrismMLは、Qwen3.8 27BをベースにしたTernary Bonsai 2 27Bを発表しました。このモデルは、わずか5.9GBのフットプリントで、元のモデルの98.2%のベンチマーク性能を維持しつつ、推論、コーディング、ビジョン、エージェント能力が強化されています。これは、FP16グループワイズスケーリングを用いた3値（-1, 0, +1）重み表現により、重量あたり1.76ビットの実効ビット数と大幅な小型化を実現したことで、ローカルデバイスでの実行可能性を高めています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_6c520a5d89af",
+      "source": "hatena",
+      "title": "オントロジー？ナレッジグラフ？AI時代のデータ基盤用語をざっくり理解する - Qiita",
+      "url": "https://qiita.com/yushibats/items/d4e3e0186f4d8eb83874?utm_source=dlvr.it&utm_medium=twitter",
+      "score": 90,
+      "comments": 0,
+      "raw_description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article?",
+      "content_source": "feed",
+      "tags": [
+        "オントロジー",
+        "ナレッジグラフ",
+        "AI",
+        "データ基盤"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975422+09:00",
+      "summary": "この記事は、AI時代におけるデータ基盤の重要な概念であるオントロジーとナレッジグラフについて解説しています。オントロジーは概念とその関係性を定義する枠組みであり、ナレッジグラフは、このオントロジーを用いて現実世界の情報を構造化し、相互に関連付けたデータ表現です。これらを理解することは、AIがより高度な推論や知識活用を行う上で不可欠となります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a2f7aa7f1551",
+      "source": "hatena",
+      "title": "Jevとは何か？ 従来型LLMやAIエージェントとの違いを理解する - Qiita",
+      "url": "https://qiita.com/nasuvitz/items/44f20ed515b9734afb26",
+      "score": 65,
+      "comments": 0,
+      "raw_description": "はじめに Jevは、文章や業務データを読み取り、分類・採点・条件判定の結果を確率付きで返すAIモデルです。 モデルが返す結果は、ソフトウェアが処理を分岐する場面に利用することが想定されています。プログラムは条件を明確に判定し、複雑な制御に応用することが可能です。 このJevが発表された後、まるでJevが従来のL...",
+      "content_source": "feed",
+      "tags": [
+        "AIモデル",
+        "Jev",
+        "LLM",
+        "AIエージェント"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975758+09:00",
+      "summary": "Jevは、文章や業務データを読み取り、分類・採点・条件判定の結果を確率付きで返すAIモデルです。このモデルは、ソフトウェアが処理を分岐する際の判断材料として利用されることを想定しており、プログラム側で明確な条件判定に基づいた複雑な制御を可能にします。従来のLLMやAIエージェントとは異なり、Jevは判定結果を確率として返すことで、より精密なシステム連携を目指しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_5edc0bf4e0c2",
+      "source": "hatena",
+      "title": "なぜ世界中のハッカーが変なデバイスで『DOOM』を動かしているのか～デジカメから妊娠検査キット、ハエの中枢神経系まで - nomolkのブログ",
+      "url": "https://nomolk.hatenablog.com/entry/2026/09/18/020558",
+      "score": 54,
+      "comments": 0,
+      "raw_description": "先日、Google Researchらがハエの中枢神経系を網羅したデータセットを公開して話題になりました。するとすぐさま現れたのが、それを使ってハエ（のシミュレーション）にDOOMをプレイさせる人です。 I'm training a fly brain to play Doom using the full MaleCNS v1.0 fruit fly connectome. Each Doom frame stimulate...",
+      "content_source": "feed",
+      "tags": [
+        "ハエ",
+        "DOOM",
+        "AI",
+        "神経科学"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975500+09:00",
+      "summary": "Google Researchが公開したハエの中枢神経系のデータセットを利用し、ハエの神経系シミュレーションでビデオゲーム『DOOM』をプレイさせる試みが報告されました。この実験は、複雑な生物学的システムを理解し、それを応用する可能性を示すものです。ハエの神経接続データを用いて、ゲームのフレームを処理し、操作を行うというアプローチは、AIと神経科学の融合における新たな地平を開く可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49747070",
+      "source": "hackernews",
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "score": 50,
+      "comments": 36,
+      "raw_description": "Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work. Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure like everybody else and find writing this piece weirdly unpleasant. But I’m getting over myself and getting this down because this advice is important, hard to argue with, and straightforward. Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register to much of your audience not as writing but as output. So, first the bad news: you have to write for yourself. But LLMs are still extraordinarily useful. It’s just you need to use them like a copyeditor rather than a ghostwriter. So, step one of my method: write your piece. Then, step two: feed it to a good model to find flaws. But before we talk about how that works, there are two rules you need to understand. They’ll ward off LLM-creep that will knock you into the uncanny valley between expression and output and knock you out of your reader’s attention. Rule Number One: You may not use a single word an LLM suggests to ",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-18T08:58:47.397386+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49746117",
+      "source": "hackernews",
+      "title": "More than 100k people in Japan are now aged 100 or older",
+      "url": "https://www.bbc.com/news/articles/cmzezj5e18xxo",
+      "score": 46,
+      "comments": 22,
+      "raw_description": "Figures show 88% of the centenarians are women as the population continues to age and shrink. More than 100,000 people in Japan are now aged 100 or older 2 days ago Share Save Add as preferred on Google Kurumi Mori , Tokyo correspondent and Issey Izumi Getty Images When records began in 1963 there were only 153 centenarians in Japan - now there are 107,677 The number of people aged 100 or more in Japan has exceeded 100,000 for the first time, according to the health ministry. Figures show Japan is now home to 107,677 centenarians, the highest number in the world, of whom 88% are women. The oldest woman is Kishimoto Fuyo, a 114-year-old from Kyoto City and the oldest man is Kato Hikaru, a 112-year-old from Kumamoto. Health Minister Kenichiro Ueno said he was \"delighted that so many people are living long, healthy and active lives\", citing progress in medicine and technology. But Kenichiro also warned of the challenge the country faces in maintaining a sustainable social security system. Experts put the long lives of the Japanese down to several factors, including a healthy diet and an active lifestyle. The island nation's cuisine predominantly consists of fish, vegetables, and rice - and less saturated fat than many Western diets. Older people also regularly walk, use public transport, cycle and stretch. Japan has been aging for years and sales of adult nappies have been higher than those for babies for more than a decade. Companies have also developed new products for the old",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-18T08:58:48.187330+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_4873638b77a8",
+      "source": "hatena",
+      "title": "TypeSafeのJevを正しく驚く、それってLLMでできませんか？",
+      "url": "https://zenn.dev/nwn/articles/824026c76116e0",
+      "score": 44,
+      "comments": 0,
+      "raw_description": "Jevとは？ TypeSafe AIの「Jev」は、文章を生成する代わりに、ソフトウェアがそのまま使える判断と確率を高速に返すモデルです。 詳しい説明に関しては公式サイトに譲ります これをみて正直なところ「それは既存のLLMでもできるのでは？」と思ってしまいました。 JSON出力 まず注目したのはこのデモです。 LLMでJSON出力...",
+      "content_source": "feed",
+      "tags": [
+        "TypeSafe AI",
+        "Jev",
+        "LLM",
+        "JSON出力"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975624+09:00",
+      "summary": "TypeSafe AIのJevは、文章生成ではなく、ソフトウェアが直接利用できる判断と確率を高速に返すモデルです。この機能は既存のLLMでも実現可能ではないかという疑問が提示されています。特に、LLMによるJSON出力のデモに注目が集まっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_fd1fc0f2a9b0",
+      "source": "hatena",
+      "title": "『マネーフォワード ME』、2026年9月17日(木)より「Apps in ChatGPT」で利用できるアプリの提供を開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000001675.000008962.html",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "マネーフォワードホーム株式会社は、2026年9月17日（木）より、OpenAIが提供する「Apps in ChatGPT」（※1）で利用できる『マネーフォワード ME』アプリ（以下、本アプリ）の提供を開始しました。ユーザーが接続を許可すると、『マネーフォワード ME』のデータをChatGPTの会話内で活用し、自然な対話を通じてお金の不安や...",
+      "content_source": "feed",
+      "tags": [
+        "マネーフォワード ME",
+        "ChatGPT",
+        "Apps in ChatGPT",
+        "家計簿アプリ"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975684+09:00",
+      "summary": "マネーフォワードホームは、2026年9月17日よりChatGPT上で利用できる『マネーフォワード ME』アプリの提供を開始しました。これにより、ユーザーはChatGPTとの自然な対話を通じて、家計簿アプリのデータを活用し、お金に関する不安の解消や情報収集が可能になります。この連携は、AIアシスタントがお金の管理をより身近で分かりやすいものにする可能性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ff4217510e36",
+      "source": "hatena",
+      "title": "[法林岳之の「週刊モバイルCATCH UP」]ローミング終了の「楽天モバイル」とはどう付き合う？",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/mobile_catchup/2141810.html",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "今年8月の決算会見において、KDDIが楽天モバイルに提供してきたローミングを9月末で終了することが発表され、ユーザーからは不安の声が挙がっている。 法林岳之の「週刊モバイルCATCH UP」 ローミング終了の「楽天モバイル」とはどう付き合う？ 法林 岳之 2026年9月18日 00:00 今年8月の決算会見において、KDDIが楽天モバイルに提供してきたローミングを9月末で終了することが発表され、ユーザーからは不安の声が挙がっている。 2020年4月に正式サービスを開始し、昨年12月には1000万契約を達成した楽天モバイルだが、今回のローミング終了でひとつの転換期を迎えることになりそうだ。ローミング終了の背景と今後の楽天モバイルについて、考えてみよう。 「ローミング」とは 国内では総務省が割り当てた周波数帯域を利用して、各社の携帯電話サービスが提供されている。現在は、NTTドコモ、KDDI及び沖縄セルラー、ソフトバンク、楽天モバイル、ワイモバイル、Wireless City Planning（WCP）、UQコミュニケーションズに周波数帯域が割り当てられており、各社は総務省に提出した開設計画に則って、基地局や設備を展開することを求められている。 1990年代まで、単独の携帯電話会社（事業者グループ）が全国エリアをカバーしていたのはNTTドコモのみで、サービスを提供できるエリアが限られていた他の携帯電話会社は各事業者が提携し、お互いの顧客が他の事業者のエリアでも携帯電話サービスが利用できる「ローミング」という形で全国エリアをカバーしていた。 たとえば、現在、auやUQモバイルのサービスを提供するKDDIも2000年の統合以前は、関東・東海・甲信エリアを日本移動通信（IDO）、それ以外の地域を第二電電（DDI）傘下のDDI-セルラーがカバーしていた。 関西在住のDDI-セルラーの契約者が東京に来たときは、IDOの携帯電話ネットワークに接続することで、音声通話などが利用できていた。さらに遡ると、DDI-セルラーとIDOはcdmaOneサービス開始以前、両社のエリアを補完するため、NTTドコモのPDC方式のネットワークを利用する「ドコモローミングサービス」を提供していた。 2000年代に入り、DDI、KDD、IDOの合併によるKDDI設立をはじめ、各携帯電話会社の合併や統合などが進んだ結果、NTTドコモ、KDDI、ボーダフォン（2006年からはソフトバンク）の3グループが全国エリアで携帯電話サービスを提供する形になった。そんな中、第4の携帯電話会社として、イー・モバイルが2007年に携帯電話事業に新規参入した。 当時は2001年に開始した3Gサービスのエリアが全国に拡大し、人口カバー率（当時の算出方式に基づく）も99％に達していたが、新規参入のイー・モバイルがエリアを全国に展開するには、一定の時間を要するため、2008年からNTTドコモがイー・モバイルに対し、ローミングという形で携帯電話ネットワークを貸し出した。 関連記事 イー・モバイルとドコモ、ローミング協定に最終合意 まだ従来型携帯電話での利用が中心で、モバイルデータ通信の利用は限定的だったが、イー・モバイルのドコモローミングは音声通話、モバイルデータ通信ともに、完全従量制で提供されていた。 ちなみに、当時のイー・モバイル端末ではドコモローミングのエリアに移動すると、アンテナピクトに「R」の文字が表示され、料金体系が異なるローミングエリア内であることが明示されていた。 イー・モバイルのドコモローミングは",
+      "content_source": "page",
+      "tags": [
+        "楽天モバイル",
+        "ローミング",
+        "KDDI",
+        "インフラ"
+      ],
+      "fetched_at": "2026-09-18T08:58:45.975694+09:00",
+      "summary": "楽天モバイルがKDDIからのローミング提供を2024年9月末で終了する。これは、楽天モバイルが全国エリアをカバーするためにKDDIのネットワークを借りていたもので、終了により楽天モバイルは自社回線エリアのみでのサービス提供となる。ローミングは、事業者が自社エリア外でサービスを提供するために他社ネットワークを利用する仕組みであり、過去には新規参入事業者などがエリア補完のために利用してきた歴史がある。今回の終了は、楽天モバイルにとってサービス提供体制の大きな転換点となる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_0e70105e2174",
+      "source": "reddit",
+      "title": "Unicode 18.0.0 has been released!",
+      "url": "https://www.reddit.com/r/programming/comments/1wifzlx/unicode_1800_has_been_released/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/PthariensFlame [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Unicode"
+      ],
+      "fetched_at": "2026-09-18T08:58:48.498350+09:00",
+      "summary": "Unicode 18.0.0 がリリースされたようです。Unicodeの新しいバージョンに関する記事と思われます。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_003c19e5fdcb",
+      "source": "reddit",
+      "title": "Be alert: targeted attacks on prominent Rustaceans | Rust Blog",
+      "url": "https://www.reddit.com/r/programming/comments/1wj1x9m/be_alert_targeted_attacks_on_prominent_rustaceans/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mareek [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Rust",
+        "Rustaceans"
+      ],
+      "fetched_at": "2026-09-18T08:58:48.498651+09:00",
+      "summary": "Rustの著名な開発者に対する標的型攻撃に関する注意喚起についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_f84a3db6d94b",
+      "source": "reddit",
+      "title": "The Golden Spike, and Resurrecting the Vale(n) Programming Language",
+      "url": "https://www.reddit.com/r/programming/comments/1wivpt2/the_golden_spike_and_resurrecting_the_valen/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/verdagon [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Vale(n)",
+        "Programming Language"
+      ],
+      "fetched_at": "2026-09-18T08:58:48.498961+09:00",
+      "summary": "プログラミング言語「Vale(n)」の復活に関する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_780493136158",
+      "source": "reddit",
+      "title": "Mojo 1.1 released, now accepting community contributions to the compiler",
+      "url": "https://www.reddit.com/r/programming/comments/1wizhuv/mojo_11_released_now_accepting_community/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Mojo",
+        "compiler"
+      ],
+      "fetched_at": "2026-09-18T08:58:48.499245+09:00",
+      "summary": "Mojoのバージョン1.1がリリースされ、コンパイラへのコミュニティからの貢献受付を開始したようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
