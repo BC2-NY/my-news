@@ -1,0 +1,368 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T09:07:08.538484+09:00",
+  "articles": [
+    {
+      "id": "hn_49803892",
+      "source": "hackernews",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "score": 1123,
+      "comments": 775,
+      "raw_description": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads. We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. Claude Opus 5.5 is our first release since we called for pacing the frontier . It was tested before release by external evaluators, including Frontier Design and METR . On our automated behavioral audit, the most comprehensive alignment test we run, Opus 5.5 is the strongest-performing model we’ve tested to date. It also comes with the safeguards we’ve developed for our most capable models. Here are some of the improvements you can expect from Opus 5.5: Performance. Opus 5.5 is a major step up from Opus 5. It’s the new leading model, and early testers saw large jumps in performance on their most complex work. One tester completed a 680,000-line code migration in less than a day—work that would have taken an engineering team weeks. It’s good at finding and fixing inefficiencies in software: when we asked it to cut load times across every page of a web app, Opus 5.5 succeeded 39 of 40 times, while Opus 5 made smaller improvements that also altered the app’s behavior. A different tester had several Claude models build a game from a single prompt; Opus 5.5 scored higher than any other model on the strength of its graphics and polish. Safety. Opus 5.5 achieves the best scores of any model",
+      "content_source": "page",
+      "tags": [
+        "Claude Opus 5.5",
+        "Anthropic",
+        "AIモデル",
+        "コーディング"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.490855+09:00",
+      "summary": "Anthropicは、エージェント型コーディングとナレッジワークで業界をリードするClaude Opus 5.5を発表しました。この新モデルは、従来のOpus 5と比較して、一般的なワークロードで40%のコスト削減を実現しながら、Opus 5.1と同等以上の性能を発揮します。特に、大規模なコード移行やウェブアプリのパフォーマンス改善、ゲーム開発などの複雑なタスクにおいて、顕著な性能向上を示しており、安全性に関してもこれまでのモデルで最高のスコアを達成しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49805509",
+      "source": "hackernews",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "score": 1089,
+      "comments": 565,
+      "raw_description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost. Introducing GPT‑6 Sol and Luna More ways to bring frontier intelligence into the work you do every day. Loading… Share Earlier this month, we introduced GPT‑6 Astra , the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhythms, and budgets. That’s why we’re expanding the GPT‑6 universe with GPT‑6 Sol and GPT‑6 Luna. GPT‑6 Astra introduced a new generation of intelligence—these models help distribute the benefits of that intelligence by advancing the frontier on cost efficiency. We trained GPT‑6 Sol and Luna with similar methods as GPT‑6 Astra, bringing the advances behind Astra’s state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models. The GPT‑6 models lead across the cost–intelligence curve, combining exceptional capabilities at every tier with infrastructure that delivers them efficiently at scale. Improvements in caching and inference let us serve these models at lower cost, and we’re passing those savings directly on to users and customers by reducing API prices for Sol and Luna by 50% compared with their GPT‑5.6 promotional pricing. Together, these improvements make advanced AI practical for more everyday tasks and applications at scale. GPT‑6 API ",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "GPT-6",
+        "コスト効率",
+        "API"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.292236+09:00",
+      "summary": "OpenAIは、最先端のAIモデルGPT-6シリーズに、コスト効率を重視した「Sol」と「Luna」の2つの新モデルを追加しました。これらは、既存の最上位モデル「Astra」と同様の学習手法を用いており、専門業務、事実性、コーディング、コンピュータ操作、アライメントといった分野でAstraの先進的な性能を、より高速かつ低コストで提供します。API価格を従来の50%に引き下げることで、より多くの日常業務やアプリケーションで高度なAIを実用的に活用できるようになります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49801324",
+      "source": "hackernews",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "score": 541,
+      "comments": 354,
+      "raw_description": "OpenAI GPTâ6 Astra breaking an Enigma message that has resisted solution since 2005. On 15 September 2026, Carter Leffer contacted me to request validation of a break of the German Army Enigma message MVUEH of 10 July 1941. The message, which was sent by a radio station with the tactical callsign 2ny, was received by the radio station of the SS-Totenkopf Quartiermeister, Ib. Ib received the message at 17:30 on 10 July 1941 and logged the message as Nr. 172 in its log of incoming messages for July 1941. Since 2005, the message has resisted all attempts to break it. On 9 June 2017, Alex Shovkoplyas succeeded in breaking another unbroken message from this day, Nr. 173, SIPVX. However, the Enigma key he recovered for the message differed slightly from the daily Enigma key for 10 July 1941 used for all other messages from this day. The SIPVX key used the same wheel order, 512, as the daily key, but the plug connections ( Stecker ) and ring setting ( Ringstellung ) differed. However, the new key did not allow us to break the MVUEH message. After Carter Leffer sent the MVUEH break details, it was immediately clear he had found the correct key and plaintext. The MVUEH key turns out to be completely different from the other keys from 10 July 1941; even the wheel order differs: 253 instead of 512 for the other two keys. More surprising is that the plaintext is almost identical to the plaintext for message Nr. 173, SIPVX. The two messages differ in length by twelve letters. MVUEH is 8",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "暗号解読",
+        "エニグマ",
+        "GPT-6"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.888906+09:00",
+      "summary": "OpenAI GPT-6 Astraは、2005年から解読不能だったドイツ軍のエニグマ暗号メッセージMVUEH（1941年7月10日送信）の解読に成功した。このメッセージの鍵は、同日の他のメッセージの鍵とは異なり、ローター順も異なっていた。さらに驚くべきことに、解読された平文は、同じく解読不能だった別のメッセージSIPVX（1941年7月10日送信）の平文とほぼ同一であった。この発見は、エニグマ暗号の解読における新たな進展を示唆している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49805278",
+      "source": "hackernews",
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+      "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "score": 330,
+      "comments": 219,
+      "raw_description": "A sample of 5,000 alleged agents seen by 404 Media includes names, addresses, phone numbers, and details on FBI employees' spouses. A high profile hacking group claims it has breached multiple FBI-related services and stolen data “on all FBI employees and applicants.” A representative of the group, called ShinyHunters, told 404 Media the data includes FBI agents’ names, home addresses, phone number, and information on their spouse. The data breach could be massively significant and may have all sorts of national security and counterintelligence implications. Criminals from the same ecosystem as ShinyHunters have previously used hacked data like phone records to track , intimidate, and harass the FBI agents investigating them. The highly sensitive data could also be a boon to foreign intelligence agencies who want to better understand how one of the most important law enforcement and intelligence agencies in the U.S. operates. And if the data fell into the hands of more criminals, FBI agents and their spouses could face serious threats to their safety. “We hacked the FBI. We hold data on all FBI employees and applicants,” the representative of the group told 404 Media. 💡 Do you work at the FBI? Do you know anything else about this hack? I would love to hear from you. Using a non-work device, you can message me securely on Signal at joseph.404 or send me an email at joseph@404media.co. The representative provided 404 Media with a sample appearing to contain the personal data of",
+      "content_source": "page",
+      "tags": [
+        "サイバーセキュリティ",
+        "データ漏洩",
+        "FBI",
+        "ハッキング"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.691289+09:00",
+      "summary": "ハッカー集団ShinyHuntersがFBIの複数のサービスに侵入し、全従業員と応募者の個人情報（氏名、住所、電話番号、配偶者情報など）を窃取したと主張しています。この情報漏洩は、国家安全保障や対諜報活動に重大な影響を与える可能性があり、犯罪者や外国諜報機関による悪用が懸念されます。過去には、同様のハッキングで得られた情報がFBI捜査官への嫌がらせに利用された事例もあります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ecb2a7d780f9",
+      "source": "hatena",
+      "title": "思考の外注割合を増やし、理解は外注しない - Konifar's ZATSU",
+      "url": "https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134",
+      "score": 316,
+      "comments": 0,
+      "raw_description": "「思考は外注できるが理解は外注できない」という AI の関わり方を端的に表したﾂｲｯﾄがある。 you can outsource your thinking but you cannot outsource your understanding you can outsource your thinking but you cannot outsource your understanding— kache (@yacineMTB) 2026年2月4日 Andrej Karpathy 氏も \"ble...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "思考",
+        "理解",
+        "協調"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.014133+09:00",
+      "summary": "AIの活用において、「思考は外注できるが理解は外注できない」という考え方が示唆されている。これは、AIが複雑な推論や問題解決を支援する一方で、最終的な判断や深い理解は人間が行う必要があるという、AIと人間の協調関係の重要性を表している。AIの能力を最大限に引き出すためには、その出力を鵜呑みにせず、人間が主体的に理解し、意思決定を行うことが不可欠である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49804316",
+      "source": "hackernews",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "score": 220,
+      "comments": 62,
+      "raw_description": "Analysis of Anthropic's Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more. Artificial Analysis K Anthropic • Claude Opus 5.5 max • Proprietary model • Released September 2026 Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) Intelligence, Performance & Price Analysis Compare Try it out API Provider Benchmarks Model summary Intelligence Updated # 1 / 212 58 Artificial Analysis Intelligence Index 4 out of 4 units for Intelligence. Speed N/A Output tokens per second Unknown out of 4 units for Speed. Cost # 93 / 212 In $4.00 Out $20.00 Cache Discount 95% $5.98 Cost per Intelligence Index task 4 out of 4 units for Cost. Verbosity # 95 / 212 260M Output tokens from Intelligence Index 4 out of 4 units for Verbosity. Comparison Summary Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) is amongst the leading models in intelligence, but somewhat expensive when comparing to other models of similar price. The model supports text and image input, outputs text, and has a 1M tokens context window. Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback) scores 58 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 25). When evaluating the Intelligence Index, it generated 260M tokens, which is very verbose in comparison t",
+      "content_source": "page",
+      "tags": [
+        "Claude Opus 5.5",
+        "Anthropic",
+        "AIモデル",
+        "ベンチマーク"
+      ],
+      "fetched_at": "2026-09-23T09:06:56.683240+09:00",
+      "summary": "AnthropicのClaude Opus 5.5は、2026年9月にリリースされたプロプライエタリモデルで、人工知能の知能指数（Intelligence Index）で58点を記録し、比較対象モデルの中央値25点を大きく上回る高い知能を示しています。このモデルはテキストと画像の入力をサポートし、100万トークンのコンテキストウィンドウを備えています。ただし、同等性能のモデルと比較すると価格はやや高めです。速度に関する具体的な数値は不明ですが、知能指数タスクにおけるトークン生成量は2億6000万トークンと非常に多いことが示されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_022c9970acd9",
+      "source": "hatena",
+      "title": "「AIは意識を持ち得ない」――世界的SF作家から届いたアンソロピックへの“メッセージ”",
+      "url": "https://que.dailyshincho.jp/node/20880/",
+      "score": 152,
+      "comments": 0,
+      "raw_description": "何もしなければ永遠にそこに「留まる」だけ ― Anthropic社を中心にAIに意識を持たせようとする試みが拡大しています。特に同社は社内にAIに意識をその哲学者を抱え、そうした傾向を加速させています。あなたはAIが意識を持つ可能性を強く批判していますが、その真意を教えてください。 チャン これは「理論的に意識を...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "意識",
+        "Anthropic",
+        "SF作家"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.014311+09:00",
+      "summary": "AI企業Anthropicを中心にAIに意識を持たせようとする動きが拡大している。しかし、世界的SF作家はAIが意識を持つ可能性を強く批判しており、その真意は「理論的に意識を...」という部分で語られている。この作家の批判は、AIの意識に関する議論において重要な視点を提供する可能性がある。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_9c5e4b254c6e",
+      "source": "hatena",
+      "title": "ホームページに還ろう",
+      "url": "https://kitasenjudesign.com/zine/",
+      "score": 141,
+      "comments": 0,
+      "raw_description": "____ ____ ____ _ _ ____ __ _ ____ __ ____ _ _ ____ _ _ __ _ _ ____ ____ __ ___ ____ ( _ \\( __)(_ _)/ )( \\( _ \\( ( \\ (_ _)/ \\ (_ _)/ )( \\( __) / )( \\ / \\ ( \\/ )( __)( _ \\ / _\\ / __)( __) ) / ) _) )( ) \\/ ( ) // / )( ( O ) )( ) __ ( ) _) ) __ (( O )/ \\/ \\ ) _) ) __// \\( (_ \\ ) _) (__\\_)(____) (__) ...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-09-23T09:06:55.014480+09:00",
+      "summary": "提供された記事の本文は、意味をなさない文字列で構成されており、具体的な技術情報やニュースとしての価値を判断できません。そのため、要約を作成することは不可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49808023",
+      "source": "hackernews",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "url": "https://foxscript.org/",
+      "score": 134,
+      "comments": 100,
+      "raw_description": "A modern IDE and 64-bit runtime for Visual FoxPro 9 applications: the same language, rebuilt on Electron, React and a Rust virtual machine in WebAssembly. Your FoxPro applications, at home on a modern machine. FoxDev Studio opens the projects, forms and tables you already have and runs them the way you remember: no rewrite, no conversion, no export step . Download Get started How it is built Customer Company Western Trading Co. Credit limit 25,000.00 Save It picks up where you left off Point it at a folder you have not opened in years, and what is there is what you get. Your project, as it is Projects, forms, class libraries, menus and reports open straight from the files you already have. Nothing is migrated first, and nothing is left behind. The designers you know Forms, classes, menus and reports are edited where you expect them to be, alongside the project manager, the Command Window and a debugger that stops on your line. Your data stays your data Tables, indexes, memos and databases are read and written in place. What sits on disk afterwards is the same kind of file it was before. Whatever it talked to, it still talks to The system calls, the automation objects and the old add-in libraries your application leans on keep working, so the parts nobody wants to touch stay untouched. What it looks like The IDE, on Visual FoxPro's own sample projects. Every picture is a real session. Visual FoxPro's own Solution sample, imported and running: its launcher form on the Screen ta",
+      "content_source": "page",
+      "tags": [
+        "Visual FoxPro",
+        "モダナイゼーション",
+        "IDE",
+        "WebAssembly"
+      ],
+      "fetched_at": "2026-09-23T09:06:56.084570+09:00",
+      "summary": "Visual FoxPro 9アプリケーション向けのモダンなIDEと64ビットランタイムが登場しました。これはElectron、React、Rust VM（WebAssembly）上で再構築されており、既存のFoxProアプリケーションを書き換えや変換なしに最新の環境で実行できます。プロジェクト、フォーム、テーブルをそのまま利用でき、データもインプレースで読み書き可能です。システムコールやCOMオブジェクトなどの依存関係も維持されるため、既存資産を活かしたモダナイゼーションが可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49806335",
+      "source": "hackernews",
+      "title": "SAML: A fractal of bad design",
+      "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "score": 130,
+      "comments": 74,
+      "raw_description": "SAML, the XML-based authentication protocol that birthed the SSO industry, is fundamentally flawed due to XML complexity, canonicalization issues, enveloped signatures, and design ossification, making it vulnerable to signature wrapping attacks and parser differentials that persist despite decades of awareness. Organizations should migrate to OpenID Connect (OIDC), which avoids these pitfalls through simpler JSON-based design, detached signatures, and agile evolution. Page content Born out of academia and raised in corporate IT departments, the Security Assertion Markup Language (SAML) authentication protocol continues to be a staple in these organizations. However, it’s time for it to retire. With the rise of software-as-a-service (SaaS) companies in the late aughts, IT departments needed a way for users to authenticate to many new web services. SAML and the burgeoning single sign-on (SSO) industry fulfilled this need. However, SAML is being crushed under the weight of its own complexity. It’s time to deprecate it and move on to modern alternatives like OpenID Connect (OIDC). In this post, I will explore the design-by-committee origin of SAML, its progression through the ranks in academic and corporate environments, its slow disintegration at the hands of the security research community, and its (hopeful) deprecation in favor of newer protocols. SAML 101 What’s insidious about SAML is that it really is mostly straightforward to understand, but it’s built on a foundation of s",
+      "content_source": "page",
+      "tags": [
+        "SAML",
+        "OIDC",
+        "SSO",
+        "認証プロトコル"
+      ],
+      "fetched_at": "2026-09-23T09:06:56.484071+09:00",
+      "summary": "SAMLは、XMLの複雑性、正規化の問題、署名のラップ攻撃、パーサーの差異など、設計上の根本的な欠陥により、SSO業界の基盤でありながらも脆弱性を抱えています。これらの問題は長年認識されているにもかかわらず、依然として存在します。よりシンプルでJSONベースの設計、分離された署名、アジャイルな進化を特徴とするOpenID Connect（OIDC）への移行が推奨されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_06ec6317ef0d",
+      "source": "hatena",
+      "title": "大量注文が来てた古本屋(Amazon)だけど質問ある？",
+      "url": "https://anond.hatelabo.jp/20260922210618",
+      "score": 85,
+      "comments": 0,
+      "raw_description": "ないだろうからデータだけ置いとく。ちな副業。 全体出品数2000で日売上が5点ぐらいだから大量といえば大量。お前ら安いのしか買わないし。 全体像 対象: レポート11ファイル（2026/04/13-09/14）、注文1,xxx件・商品売上 3,xxx,xxx円 該当疑い: 49件 / 商品売上 137,392円 / 手数料控除後の入金 116,597円 月別の全注文...",
+      "content_source": "feed",
+      "tags": [
+        "Amazon",
+        "副業",
+        "古本販売",
+        "データ開示"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.014371+09:00",
+      "summary": "Amazonで古本を副業として販売している個人が、約2000点の出品から1日あたり約5点の売上がある状況についてデータを開示しています。開示されたデータには、特定の期間における注文数、商品売上、および手数料控除後の入金額が含まれており、一部の注文について該当疑いがあることも示唆されています。この情報は、個人がAmazonで古本販売を行う際の規模感や収益性の一端を示すものと言えます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_6c071adba554",
+      "source": "hatena",
+      "title": "コロンビアで乗ったUberのおっちゃん「日本人は人生を良くしようとしすぎ」.…幸せって問題がない状態じゃなくて、問題があっても機嫌よくいられること",
+      "url": "https://posfie.com/@Count_Down_000/p/GX0uIFx",
+      "score": 54,
+      "comments": 0,
+      "raw_description": "旅人KAD @kad4ani コロンビアで乗ったUberのおっちゃんが「日本人は人生を良くしようとしすぎ」「こっちは渋滞する、雨降る、予定ズレる、でもコーヒー飲んで笑う」「幸せって問題がない状態じゃなくて、問題があっても機嫌よくいられること」と言っていて、ボゴタの大渋滞の中でめちゃくちゃ人生の答え出てた。￼ 2026-0...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-09-23T09:06:55.014249+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_2fe1fdf80f52",
+      "source": "hatena",
+      "title": "「50歳超えだけど今からゲーム開発者になれる？」との人生相談に、“経験者”が大集結。年配組の熱い回答、あの人気ゲームのディレクターも名乗り出る - AUTOMATON",
+      "url": "https://automaton-media.com/articles/newsjp/20260922-469364/",
+      "score": 50,
+      "comments": 0,
+      "raw_description": "もっとも注目された返信のひとつは「自分のことだ」として経歴を語るユーザー-Xaron-氏のものだ。ソフトウェアエンジニアだったという同氏がゲーム開発を始めたのは38歳の時で、10本のスマートフォン向けゲームをリリースしたものの失敗。その後46歳になってからフルタイムでゲーム業界で働き始め、50歳になってようやく...",
+      "content_source": "feed",
+      "tags": [
+        "ゲーム開発",
+        "キャリアチェンジ",
+        "人生相談",
+        "ソフトウェアエンジニア"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.014421+09:00",
+      "summary": "38歳でゲーム開発を始めた元ソフトウェアエンジニアが、10本のスマホゲームリリース失敗を経て46歳でゲーム業界にフルタイムで参入し、50歳で成功を収めた経験談が共有されました。この経験談は、年齢に関わらずゲーム開発者を目指せる可能性を示唆しており、特にキャリアチェンジを検討している層にとって重要な示唆を与えています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_b6125ef51684",
+      "source": "hatena",
+      "title": "AIがチェスで圧勝する理由の一端が見えてきた――「ややこしいまま耐える」時間が人間より長い - ナゾロジー",
+      "url": "https://nazology.kusuguru.co.jp/archives/199973",
+      "score": 44,
+      "comments": 0,
+      "raw_description": "「考えることが多すぎる。いったん状況をスッキリさせたい」 チェスや将棋で、駒の攻防が複雑に絡み合ったとき、そんな気持ちになったことはないでしょうか。 では、強いAIは、そのような局面をどう扱っているのでしょう。 オーストリアの複雑系科学ハブ（CSH）とイタリアのパルマ大学の研究チームが、人間とAIの対局記...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "チェス",
+        "複雑系科学",
+        "意思決定"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.014522+09:00",
+      "summary": "チェスAIが人間よりも複雑な局面で「ややこしいまま耐える」時間が長いことが、オーストリアの複雑系科学ハブとイタリアのパルマ大学の研究で示唆されました。この能力は、AIが人間のように状況を単純化せず、複雑な状態を維持しながら最適な手を探索できることを示唆しており、AIの強さの一端を説明する可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49781862",
+      "source": "hackernews",
+      "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "url": "https://github.com/xCuri0/ReBarUEFI",
+      "score": 37,
+      "comments": 12,
+      "raw_description": "Resizable BAR for (almost) any UEFI system. Contribute to xCuri0/ReBarUEFI development by creating an account on GitHub. ReBarUEFI A UEFI DXE driver to enable Resizable BAR on systems which don't support it officially. This provides performance benefits and is even required for Intel Arc GPUs to function optimally. If using an NVIDIA Turing GPU (20 or 16 series) see NvStrapsReBar for enabling Resizable BAR on it. Requirements (optional) 4G Decoding enabled. See wiki page Enabling hidden 4G decoding if you can't find an option for it. Without 4G Decoding you will be limited to 1GB BAR and in some cases 512MB you can try to increase this upto 2GB by reducing TOLUD (optional) BIOS support for Large BARs. Patches exist to fix most issues relating to this Usage Follow the wiki guide Adding FFS module and continue through the steps. It covers adding the module and the additional modifications needed if required. Once running the modified firmware make sure that 4G decoding is enabled and CSM is off . Next run ReBarState which can be found in Releases (if you're on Linux build with CMake) and set the Resizable BAR size. In most cases you should be able to use 32 (unlimited) without issues but you might need to use a smaller BAR size if 32 doesn't work If Resizable BAR works for you reply to List of working motherboards so I can add it to the list. Most firmware will accept unsigned/patched modules with Secure Boot on so you won't have any problems running certain games. If you have ",
+      "content_source": "page",
+      "tags": [
+        "Resizable BAR",
+        "UEFI",
+        "DXEドライバー",
+        "Intel Arc GPU"
+      ],
+      "fetched_at": "2026-09-23T09:06:56.282437+09:00",
+      "summary": "ReBarUEFIは、公式にサポートされていないUEFIシステムでもResizable BARを有効にするためのUEFI DXEドライバーです。これにより、パフォーマンスが向上し、Intel Arc GPUの最適動作に不可欠です。NVIDIA Turing GPUの場合は別のツールが必要です。4Gデコーディングの有効化や、場合によってはTOLUDの調整が推奨されます。BIOSサポートやパッチも必要になる場合があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_35346a55edf1",
+      "source": "hatena",
+      "title": "Claude Opus 5.5登場　Fable 5.1並みの性能をOpus 5より40%安価に",
+      "url": "https://www.watch.impress.co.jp/docs/news/2142619.html",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "Anthropicは22日(米国時間)、最新のAIモデル「Claude Opus 5.5」を提供開始した。ほとんどの作業において最上位モデル「Fable 5.1」と同等の性能を発揮し、コストは現行の「Opus 5」よりも40%安くなるという。Claude上ではすでに利用可能となっているほか、Amazon Web Services、Google Cloud、Microsoft Azureなどでも展開される。 ニュース Claude Opus 5.5登場 Fable 5.1並みの性能をOpus 5より40%安価に 臼田勤哉 2026年9月23日 02:16 Anthropicは22日(米国時間)、最新のAIモデル「Claude Opus 5.5」を提供開始した。ほとんどの作業において最上位モデル「Fable 5.1」と同等の性能を発揮し、コストは現行の「Opus 5」よりも40%安くなるという。Claude上ではすでに利用可能となっているほか、Amazon Web Services、Google Cloud、Microsoft Azureなどでも展開される。 また、Opus 5.5はAnthropicが「フロンティアのペース調整」を呼びかけて以来、初のモデルリリースとなる。リリースに先立ち、Frontier DesignやMETRを含む外部評価機関によるテストが行なわれたほか、同社の包括的なアライメントテストでも高いパフォーマンスを発揮した。 「AI開発の減速を」 OpenAIやAnthropicの開発者らが米政府に提言 2026年7月30日 00:24 パフォーマンスにおいては、従来モデルの「Opus 5」から大幅に進化。初期テスターによれば、68万行のコードの移行を1日未満で完了させたという。これは、エンジニアリングチームが数週間を要する作業で、Opus 5.5ではソフトウェアの非効率性を発見し、修正する能力に優れているという。Webアプリの全ページで読み込み時間を短縮するよう指示したところ、Opus 5.5は40回中39回成功。一方、Opus 5は改善の幅が小さく、アプリの動作にも変化が生じてしまったという。 ベンチマークでも多くの項目でOpus 5だけでなく、Fable 5.1を越えており、プロンプトからゲームを作成したケースでも、グラフィックと完成度の高さにおいて、他のどのモデルよりも高い評価を得ている。 安全性については、数千のシミュレーションシナリオでClaudeをテストするAnthropicのアライメントスイート「自動行動監査」において、これまでのどのモデルよりも高いスコアを達成。最近のモデルに比べ、元に戻すのが困難な行動をとったり、与えられた境界外で行動したりする可能性が低く、Opus 5よりもプロンプトインジェクションに対する耐性も高いという。 またOpus 5.5は、生物学やサイバーセキュリティの分野においてClaude Mythos 5.1と同等の性能を持つため、Fable 5.1と同様の安全対策を導入した上で展開。審査済みの組織においては、ライフサイエンス検証プログラムに申請し、生物学研究にOpus 5.5を利用できるようになるほか、今後数週間以内にサイバー検証プログラムへのアクセスも拡大予定。検証済みのサイバーセキュリティ担当者に対し、Opus 5.5のサイバー能力を提供する。 コストと速度においても改善。 Opus 5.5はOpus 5よりも少ない計算リソースで動作し、その点を価格設定にも反映した。デフォルト設定では、一",
+      "content_source": "page",
+      "tags": [
+        "AIモデル",
+        "Claude Opus 5.5",
+        "Anthropic",
+        "性能向上"
+      ],
+      "fetched_at": "2026-09-23T09:06:55.014157+09:00",
+      "summary": "Anthropicは最新AIモデル「Claude Opus 5.5」を発表しました。このモデルは、多くのタスクで最上位モデル「Fable 5.1」と同等の性能を持ちながら、現行の「Opus 5」と比較して40%安価に提供されます。Opus 5.5は、大規模なコード移行やWebアプリの読み込み時間短縮など、エンジニアリングタスクにおいて顕著な効率向上を示し、安全性テストでも過去最高のスコアを達成しています。また、生物学やサイバーセキュリティ分野でも活用が期待され、関連プログラムを通じて提供されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_ce6cdea7b4f3",
+      "source": "reddit",
+      "title": "C3 0.8.4: Parameter Reflection, Stack Protection, iOS Support—and One Last Renaming",
+      "url": "https://www.reddit.com/r/programming/comments/1wn5gnz/c3_084_parameter_reflection_stack_protection_ios/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Nuoji [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-09-23T09:06:57.056485+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "reddit_d6a744bed35c",
+      "source": "reddit",
+      "title": "FloatLib: Verified Floating-Point Arithmetic in Lean",
+      "url": "https://www.reddit.com/r/programming/comments/1wmwab9/floatlib_verified_floatingpoint_arithmetic_in_lean/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mttd [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "FloatLib",
+        "Lean"
+      ],
+      "fetched_at": "2026-09-23T09:06:57.056731+09:00",
+      "summary": "Lean証明支援系で利用可能な、検証済みの浮動小数点演算ライブラリFloatLibについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_189765536e82",
+      "source": "reddit",
+      "title": "Amundsen’s Maxim",
+      "url": "https://www.reddit.com/r/programming/comments/1wn8ung/amundsens_maxim/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/fagnerbrack [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-09-23T09:06:57.056959+09:00",
+      "summary": "Amundsen's Maximという言葉についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_dd6a2d411406",
+      "source": "reddit",
+      "title": "The History of Compiled (portion of) Javascript and V8 Engine",
+      "url": "https://www.reddit.com/r/programming/comments/1wnictu/the_history_of_compiled_portion_of_javascript_and/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "All attempts to compile the Javascript, V8 was not the first to compile(portion of ) JavaScript submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "JavaScript",
+        "V8エンジン",
+        "コンパイル",
+        "Web技術"
+      ],
+      "fetched_at": "2026-09-23T09:06:57.057271+09:00",
+      "summary": "JavaScriptのコンパイルはV8エンジンが最初ではありませんでした。過去にもJavaScriptをコンパイルする試みは存在しましたが、V8エンジンの登場により、その効率とパフォーマンスが大きく向上しました。これにより、JavaScriptはWebブラウザだけでなく、サーバーサイドなど多様な環境で高速に実行できるようになりました。",
+      "summary_basis": "content"
+    }
+  ]
+}
