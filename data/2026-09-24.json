@@ -1,0 +1,365 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T09:17:46.702196+09:00",
+  "articles": [
+    {
+      "id": "hn_49820134",
+      "source": "hackernews",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "score": 452,
+      "comments": 501,
+      "raw_description": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. Science Claude discovers a novel enzyme system with CRISPR-like repeats Sep 23, 2026 We’re introducing a new life sciences research group and laboratory at Anthropic. Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists. Many discoveries that have revolutionized biology and medicine started with a scientist noticing something odd in the staggering diversity of molecular machines found in nature. Restriction enzymes , proteins that cut DNA at specific short sequences , were found in bacterial immune systems, where they destroy the DNA of invading viruses. Researchers realized they could use these enzymes to cut DNA at chosen places and splice genes from one organism into another, which launched the biotechnology industry. Taq polymerase, an enzyme that copies DNA at high temperatures, was identified in a bacterium in a Yellowstone hotspring. It became the basis for PCR, the DNA-copying method used in much of modern diagnostics. CRISPR was first noticed as an unusual repeat sequence in the",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "ライフサイエンス",
+        "酵素",
+        "CRISPR"
+      ],
+      "fetched_at": "2026-09-24T09:17:32.767240+09:00",
+      "summary": "Anthropicの新しいライフサイエンス研究グループが、Claude AIを用いてDNAデータセットを探索し、CRISPRに似た繰り返し配列を持つ未知の酵素システムを発見した。この発見は、自然界の分子機械の多様性から生物学や医学に革命をもたらす発見が生まれる可能性を示唆しており、AIが基礎生物学研究の仮説生成と検証に貢献できることを示している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49817469",
+      "source": "hackernews",
+      "title": "Fixing the Portobello Police Station Clock",
+      "url": "https://pointinthecloud.com/2026-04-11-211700.html",
+      "score": 373,
+      "comments": 84,
+      "raw_description": "Written on 11th April 2026 I got a message from a friend today which read along the lines of \"I know we were going to meet in Edinburgh today, but do you fancy meeting in Portobello instead and trying to fix the clock in the old police station with me?\" I don't know about you, but clambering around the dusty nineteenth century clock tower of an abandoned police station sounds an ideal way to spend a Saturday afternoon to me, so I jumped at the chance. The rather grand Portobello Police Station building. This was in response to a message from Action Porty : \"Can you help keep Portobello on time? Action Porty has recently bought the Police Station for the community, but we can't work out how to change the time on the clock tower! We wondered if there was anyone in the community with expertise that could advise us of the details for changing the time? Or who best to contact for help?\" The bit I hadn't figured out was that clocks are high up. If we were to fix the clock we would be next to it and so we would also be high up. And being high up involves heights, and steep long ladders are needed to get up high. I suppressed my whimpers at climbing up the rather high, steep ladder into the likely spider-infested darkness and was rewarded with an explore of the attic, which lead to another set of steps which went to the clock tower itself. Once there we were rewarded with the magnificent sight of the clock mechanism and its three clock faces: Construction of the building apparently s",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-24T09:17:33.256523+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49822555",
+      "source": "hackernews",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "score": 101,
+      "comments": 70,
+      "raw_description": "Documentation and guides from the team at Fly.io. Author Name Thomas Ptacek @tqbf @tqbf Weâre interested in getting integrated into the flow VSCode uses to do remote editing over SSH, because everybody is using VSCode now, and, in particular, theyâre using forks of VSCode that generate code with LLMs. âhallucinationâ is what we call it when LLMs get code wrong; âengineeringâ is what we call it when people do. LLM-generated code is useful in the general case if you know what youâre doing. But itâs ultra-useful if you can close the loop between the LLM and the execution environment (with an âAgentâ setup). Thereâs lots to say about this, but for the moment: itâs a semi-effective antidote to hallucination: the LLM generates the code, the agent scaffolding runs the code, the code generates errors, the agent feeds it back to the LLM, the process iterates. So, obviously, the issue here is you donât want this iterative development process happening on your development laptop, because LLMs have boundary issues, and theyâll iterate on your system configuration just as happily on the Git project you happen to be working in. A thing youâd really like to be able to do: run a closed-loop agent-y (âagenticâ? is that what we say now) configuration for an LLM, on a clean-slate Linux instance that spins up instantly and that canât screw you over in any way. You get where weâre going with this. Anyways! I would like to register a concern. Emacs hosts the s",
+      "content_source": "page",
+      "tags": [
+        "VSCode",
+        "SSH",
+        "LLM",
+        "コード生成"
+      ],
+      "fetched_at": "2026-09-24T09:17:33.011442+09:00",
+      "summary": "VSCodeのSSHエージェント機能は、LLMによるコード生成の反復プロセスをリモート環境で実行するために重要です。LLMが生成したコードは、エージェントが実行し、エラーをフィードバックすることで精度を高めます。これにより、開発者のローカル環境を危険に晒すことなく、LLMの「幻覚」を軽減し、より堅牢なコード生成が可能になります。この機能は、LLMと実行環境を連携させることで、コード生成の質を向上させる上で価値があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_b1e6f9a041f5",
+      "source": "hatena",
+      "title": "まさかの「Appleが神コスパ」になっちゃった：新型M6 Mac miniレビュー | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/2609-m6-mac-mini-review/",
+      "score": 89,
+      "comments": 0,
+      "raw_description": "手のひらサイズの5×5インチ筐体なのに、他社PCを凌駕する圧倒的パワー。 Appleの小型デスクトップPCの最新モデルが「M6 Mac mini」です。2026年のPC市場を襲う世界的なメモリ高騰でWindows PCが軒並み値上がりするなか、「他社PCが高騰した結果、なぜかAppleがコスパの良い選択肢になる」という、誰も予想しなかった逆転...",
+      "content_source": "feed",
+      "tags": [
+        "Mac mini",
+        "M6",
+        "Apple",
+        "コストパフォーマンス"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944529+09:00",
+      "summary": "Appleの新型M6 Mac miniは、小型ながらも他社PCを凌駕する性能を持つ。2026年のメモリ高騰によるWindows PCの値上げが予想される中、結果的にApple製品がコストパフォーマンスの良い選択肢となる可能性が示唆されている。この状況は、従来のApple製品の価格帯を考えると予想外の展開である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_2219be660a79",
+      "source": "hatena",
+      "title": "Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み",
+      "url": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
+      "score": 85,
+      "comments": 0,
+      "raw_description": "Claude Codeが「AGENTS.md」に対応。CLAUDE.mdが存在しない場合、自動的に読み込み Anthropicは、Claude Codeの9月18日付けでアップデートが公開されたClaude Code 2.1.277で「AGENTS.md」の読み込みに対応したことを明らかにしました。 以下のように説明されています。 Added AGENTS.md support: in a project with no ...",
+      "content_source": "feed",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "AGENTS.md",
+        "開発者支援"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944324+09:00",
+      "summary": "AnthropicはClaude Code 2.1.277で、プロジェクト内にCLAUDE.mdが存在しない場合に「AGENTS.md」を自動的に読み込む機能を実装しました。このアップデートにより、開発者はエージェントの振る舞いや設定に関する情報をAGENTS.mdに記述することで、Claude Codeがそれを参照できるようになります。これにより、より複雑なコード生成やデバッグタスクにおいて、開発者の意図を正確に反映させることが期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49823582",
+      "source": "hackernews",
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "score": 84,
+      "comments": 37,
+      "raw_description": "Explore the agentic AI PCs, Googlebook laptops, Linux support and partner devices powered by Snapdragon unveiled at Snapdragon Summit 2026.",
+      "content_source": "meta",
+      "tags": [
+        "Snapdragon",
+        "Linux",
+        "AI PC",
+        "Googlebook"
+      ],
+      "fetched_at": "2026-09-24T09:17:32.544165+09:00",
+      "summary": "Snapdragon Summit 2026で、Snapdragon搭載のAI PC、Googlebookラップトップ、Linuxサポート、パートナーデバイスが発表されました。これにより、Snapdragonプラットフォーム上でLinuxが利用可能になることが示唆されています。これは、モバイルプラットフォームにおけるLinuxエコシステムの拡大と、開発者やユーザーにとっての選択肢の増加を意味します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_c4a40f0fb5f3",
+      "source": "hatena",
+      "title": "loading.dev",
+      "url": "https://loading.dev/",
+      "score": 81,
+      "comments": 0,
+      "raw_description": "A lightweight library full of beautiful loading indicators for React. $ npm install loading-dev Arc Atom Blocks Bouncing dots Cascade Circular dots Classic Classic v2 Clock Comet Dual Eclipse Flip Gather Leap Linear dots Loading Morph Orbit Pulse Ring Ripple Slide Snake Swirl Trace Wave Made with care by Jakub Krehel and Paul Faivret",
+      "content_source": "page",
+      "tags": [
+        "React",
+        "ローディングインジケーター",
+        "UI/UX",
+        "JavaScriptライブラリ"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944111+09:00",
+      "summary": "loading.devは、React向けの軽量なローディングインジケーターライブラリです。Arc, Atom, Blocks, Bouncing dotsなど、多様なデザインのインジケーターを提供しており、開発者はアプリケーションのUI/UXを向上させるために容易に組み込むことができます。Jakub Krehel氏とPaul Faivret氏によって開発されました。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49824268",
+      "source": "hackernews",
+      "title": "Meta VR Glasses",
+      "url": "https://www.meta.com/vr-glasses/",
+      "score": 74,
+      "comments": 29,
+      "raw_description": "Introducing Meta VR glasses and headsets. AR glasses to stream movies, shows and live sports, or work on an infinite screen. Shop today!",
+      "content_source": "meta",
+      "tags": [
+        "Meta",
+        "VR",
+        "AR",
+        "グラス"
+      ],
+      "fetched_at": "2026-09-24T09:17:32.281216+09:00",
+      "summary": "Metaは、映画、番組、ライブスポーツのストリーミングや、無限のスクリーンでの作業が可能なARグラスとVRヘッドセットを発表しました。これらのデバイスは、エンターテイメントと生産性の両面で新しい体験を提供するものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_42c94caf4deb",
+      "source": "hatena",
+      "title": "Codexを使うなら、SkillsとPluginsを押さえておきたい - じゃあ、おうちで学べる",
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/23/123604",
+      "score": 51,
+      "comments": 0,
+      "raw_description": "はじめに 同じ仕事を頼むたびに、前の会話からうまくいった指示をコピーすることがあります。その手順を残す場所として、Claude Codeの記事ではAgent Skillsを紹介しました。続くPluginsの記事では、社内で共有するSkillをプラグインにまとめ、更新を届けるところまで管理する方針を書きました。今回は、その方針をCodex...",
+      "content_source": "feed",
+      "tags": [
+        "Claude Code",
+        "Agent Skills",
+        "Plugins",
+        "Codex"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944731+09:00",
+      "summary": "Claude Codeの記事では、過去の指示を再利用するためのAgent Skillsを紹介しました。続くPluginsの記事では、社内で共有するSkillをプラグインとして管理し、更新を届ける方針が示されました。今回は、その方針をCodexでどのように活用できるかについて解説しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d41b4ed1fcc0",
+      "source": "hatena",
+      "title": "Herdr Annotate で効率的なAIコーディングレビューサイクルを実現する",
+      "url": "https://portablecode.info/2026/09/23/herdr-annotate-ai-review/",
+      "score": 43,
+      "comments": 0,
+      "raw_description": "最近の私の（趣味の）アプリ開発は、まず自分で（AIの支援を借りつつ）全体デザインや進め方をできるだけしっかりとドキュメントにする -> AI(ClaudeCodeや、OpenCode等）にレビューさせて矛盾点不足点等を洗い出させ、構築プランに落とす -> それを私がレビューしてAIに戻して改善する…という繰り返しで設計と計画を精...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "コーディングレビュー",
+        "開発効率化",
+        "Herdr Annotate"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944449+09:00",
+      "summary": "Herdr Annotateは、AIを活用したコーディングレビューサイクルを効率化するツールです。開発者はまずAIに設計やコードのレビューを依頼し、そのフィードバックを元に改善を繰り返すことで、設計と計画の精度を高めます。このプロセスにより、開発者はAIの支援を受けながら、より堅牢なアプリケーションを迅速に構築することが可能になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49823195",
+      "source": "hackernews",
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "url": "https://blog.cloudflare.com/vary-support/",
+      "score": 41,
+      "comments": 4,
+      "raw_description": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable. The response header, Vary , has been called â the ugliest part of HTTP that we haven't yet improved. â The same post describes it as a âhorrible, kludgy mechanismâ with âpretty abysmal interoperabilityâ across intermediaries. That is usually where sensible engineers back away slowly with their hands raised.Â Thatâs not exactly an endorsement of Vary , but ugly doesnât mean useless.Â One URL can have more than one correct response. A server might, for example, deliver different image formats to different browsers. If a cache ignores Vary , it risks serving the wrong bytes to a request. But if it treats every raw header value as distinct, a handful of similar requests can spread into thousands of barely reusable cache entries. Vary tells a cache which request fields may affect the response, but it does not tell the cache which differences actually matter. Vary support is now available in Cache Rules on every plan. The origin still names the request headers that may affect a response, but you decide how Cloudflare handles each one. You can normalize known negotiation headers, pass exact values through when those small differences matter, or bypass cache when the variation is too unpredictable. The origin declares what may vary, ",
+      "content_source": "page",
+      "tags": [
+        "Cloudflare",
+        "HTTP",
+        "キャッシュ",
+        "Varyヘッダー"
+      ],
+      "fetched_at": "2026-09-24T09:17:33.732641+09:00",
+      "summary": "Cloudflareは、HTTPのVaryヘッダーに対応したキャッシュルールを全プランで提供開始しました。Varyヘッダーは、リクエストヘッダーのわずかな違いによって異なるレスポンスが返される場合に、キャッシュが正しいコンテンツを提供するために重要ですが、その扱いは複雑でした。今回の機能強化により、ユーザーはネゴシエーションヘッダーの正規化、重要な違いの通過、または予測不能な変動時のキャッシュバイパスを選択できるようになり、キャッシュ効率と正確性を向上させることができます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49823348",
+      "source": "hackernews",
+      "title": "Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://artificialanalysis.ai/models/mercury-2-5",
+      "score": 25,
+      "comments": 9,
+      "raw_description": "Analysis of Inception's Mercury 2.5 and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more. Artificial Analysis K Inception • Proprietary model • Released September 2026 Mercury 2.5 Intelligence, Performance & Price Analysis Compare Try it out API Provider Benchmarks Model summary Intelligence Updated # 91 / 175 12 Artificial Analysis Intelligence Index 2 out of 4 units for Intelligence. Speed # 2 / 175 770.4 Output tokens per second 4 out of 4 units for Speed. Cost # 21 / 175 In $0.25 Out $0.75 Cache Discount 90% $0.06 Cost per Intelligence Index task 2 out of 4 units for Cost. Verbosity # 14 / 175 35M Output tokens from Intelligence Index 2 out of 4 units for Verbosity. Comparison Summary Mercury 2.5 is below average in intelligence, but well priced when comparing to other models of similar price. It's also notably fast and fairly concise. The model supports text input, outputs text, and has a 260k tokens context window. Mercury 2.5 scores 12 on the Artificial Analysis Intelligence Index, placing it below average among comparable models (median: 13). When evaluating the Intelligence Index, it generated 35M tokens, which is fairly concise in comparison to the median of 85M. Pricing for Mercury 2.5 is $0.25 per 1M input tokens (moderately priced, median: $0.25) and $0.75 per 1M output tokens (moderately priced, median: $0.90). On average, it costs $0.06 per task to evaluate Me",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-24T09:17:33.953126+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_118429021f9a",
+      "source": "hatena",
+      "title": "グーグルマップが遅い経路を表示してくるときに試したいこと - ねじまき日記",
+      "url": "https://nejimakinikki.hatenablog.com/entry/google-maps-ecomode-off-route",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "Google Mapsのエコモードをオフにする 最近、グーグルマップの経路表示が変だな、と思う方いませんか？？ 5分短縮するために1200円ぐらい高速料金かかる道を表示してきたり、 そうかと想えば、 普通なら15分でイケるところを、燃費のためかどうかしらないですけど、 18分で遠回りな道を表示するようになったり。 Reddit...",
+      "content_source": "feed",
+      "tags": [
+        "Google Maps",
+        "ナビゲーション",
+        "エコモード",
+        "経路最適化"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944789+09:00",
+      "summary": "Google Mapsの経路表示において、エコモードが意図しない経路を選択する場合があります。具体的には、高速料金が高額になる経路や、燃費を優先して遠回りになる経路が表示されることがあります。これらの問題を解決するために、Google Mapsのエコモードをオフにすることが提案されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_9e3109ac4161",
+      "source": "hatena",
+      "title": "SREとは何か、AWSでどう始めるか",
+      "url": "https://speakerdeck.com/kokitamura/sre-toha-nani-ka-aws-de-dou-hajimeru-ka",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "Upgrade to Pro — share decks privately, control downloads, hide ads and more … SREとは何か、AWSでどう始めるか KOKI TAMURA September 05, 2026 Technology 430 2 Share Embed Copy iframe code Copy JS code Copy link Start on current slide SREとは何か、AWSでどう始めるか KOKI TAMURA September 05, 2026 More Decks by KOKI TAMURA See All by KOKI TAMURA DLTをふんわり理解しよう kokitamura 0 140 Glue Studio Visual ETL実装時にハマったこと kokitamura 1 490 RCPと宣言型ポリシーについてのお話し kokitamura 1 370 Amazon Nova のトークナイザについて調べてみた kokitamura 0 190 Other Decks in Technology See All in Technology 「守り」で活用するオンデバイスLLM 〜写ってはいけないを総力戦で防ぐ〜 / iOSDC Japan 2026 nakamuuu 0 180 Azure Serverless 2026：Production-ready な AI エージェント基盤 / Azure Serverless 2026: Production-Ready AI Agent Platform miyake 2 420 人間はどの意思決定を手放せるのか kawasima 15 7.6k Cloudflare Workers 向けアプリを C# で構築する ～WASM Native AOT への道～ nenonaninu 1 640 アプリログインとWeb認証基盤をつなぐ ASWebAuthenticationSession 作法 shimastripe 1 350 ScotSecure West 2026 - Glasgow raybugg 0 140 現場で役立つ技術負債の効果的な返済方法 masuda220 PRO 9 4.8k 負債のメタファと2026年 / Debt Metaphor in Agentic Engineering Age 202609 Edition twada PRO 10 4.5k バイブコーディング時代のWebアプリ開発入門~Cloud Runで学ぶセキュアなビルドとデプロイ waiwai2111 1 140 AIで社員の自主発信に広報目線を組み込む _mossann_t 0 130 時うどん〜Socket.getifaddrsで学ぶネットワーク編 / Tokiudon: The Socket.getifaddrs Edition coe401_ 3 200 SREの視点で考えるSIEM活用術 〜AWS環境でのセキュリティ強化〜 cscengineer PRO 0 130 Featured See All Featured Connecting the Dots Between Site Speed, User Experience & Your Business [WebExpo 2025] tammyeverts 11 1k The State of eCommerce SEO: Ho",
+      "content_source": "page",
+      "tags": [
+        "SRE",
+        "AWS",
+        "信頼性エンジニアリング",
+        "クラウド"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944604+09:00",
+      "summary": "本記事は、サイト信頼性エンジニアリング（SRE）の概念と、Amazon Web Services（AWS）を活用してSREプラクティスを開始する方法について解説しています。SREは、システムの信頼性、可用性、パフォーマンスを確保するための実践的なアプローチであり、AWSの各種サービスを利用することで、監視、自動化、インシデント対応などのSRE活動を効率的に実装できます。これにより、運用負荷の軽減とサービス品質の向上が期待できます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ca83a27a1d19",
+      "source": "hatena",
+      "title": "Cloudflare、Python Wrokersを正式サービスに。PythonでWebサイトの構築、データベース接続、オブジェクトストレージ操作など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflarepython_wrokerspythonweb.html",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "Cloudflare、Python Wrokersを正式サービスに。PythonでWebサイトの構築、データベース接続、オブジェクトストレージ操作など Cloudflareは、同社のサーバレス実行基盤上でPythonを実行できる「Python Workers」が正式サービスになったことを発表しました。 JavaScriptによるサーバレス実行基盤のCloudflare Workers上で...",
+      "content_source": "feed",
+      "tags": [
+        "Cloudflare Workers",
+        "Python",
+        "サーバレス",
+        "エッジコンピューティング"
+      ],
+      "fetched_at": "2026-09-24T09:17:31.944671+09:00",
+      "summary": "Cloudflareは、サーバレス実行基盤であるCloudflare Workers上でPythonを実行できる「Python Workers」の正式サービス提供を開始しました。これにより、開発者はPythonを用いてWebサイトの構築、データベース接続、オブジェクトストレージ操作といった多様なアプリケーションを、Cloudflareのエッジネットワーク上で実行できるようになります。このサービスは、Pythonエコシステムの豊富なライブラリを活用しつつ、サーバレスの利便性とパフォーマンスを享受できる点が重要です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49796372",
+      "source": "hackernews",
+      "title": "The \"Windows XP Box\" (2003)",
+      "url": "https://www.mini-itx.com/projects/windowsxpbox/",
+      "score": 18,
+      "comments": 1,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Windows XP",
+        "2003"
+      ],
+      "fetched_at": "2026-09-24T09:17:33.486570+09:00",
+      "summary": "2003年に発売された「Windows XP Box」についての記事らしい。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_14830ccd155e",
+      "source": "reddit",
+      "title": "We ported the original Doom to SQL",
+      "url": "https://www.reddit.com/r/programming/comments/1wo7amj/we_ported_the_original_doom_to_sql/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Yaruxi [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Doom",
+        "SQL"
+      ],
+      "fetched_at": "2026-09-24T09:17:34.250813+09:00",
+      "summary": "オリジナルのDoomをSQLに移植したという記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_d4f4b5e10aa1",
+      "source": "reddit",
+      "title": "Android 17 enables certificate transparency, and breaks custom CAs",
+      "url": "https://www.reddit.com/r/programming/comments/1wo04r9/android_17_enables_certificate_transparency_and/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/pimterry [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Android 17",
+        "certificate transparency"
+      ],
+      "fetched_at": "2026-09-24T09:17:34.251102+09:00",
+      "summary": "Android 17で証明書透明性が有効化され、カスタム認証局が利用できなくなるようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_f9e63a3f150a",
+      "source": "reddit",
+      "title": "Railway-Oriented Programming",
+      "url": "https://www.reddit.com/r/programming/comments/1wo3zxx/railwayoriented_programming/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/kciter [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Railway-Oriented Programming"
+      ],
+      "fetched_at": "2026-09-24T09:17:34.251384+09:00",
+      "summary": "Railway-Oriented Programmingについての記事らしいです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_5eab1826c01c",
+      "source": "reddit",
+      "title": "How we rebuilt complex permissions without migrating to Zanzibar",
+      "url": "https://www.reddit.com/r/programming/comments/1wo11v8/how_we_rebuilt_complex_permissions_without/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/finncmdbar [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "permissions",
+        "Zanzibar"
+      ],
+      "fetched_at": "2026-09-24T09:17:34.251646+09:00",
+      "summary": "Zanzibarへの移行を行わずに、複雑な権限管理を再構築した方法についての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
