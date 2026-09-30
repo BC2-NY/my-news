@@ -1,0 +1,336 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T10:08:46.752135+09:00",
+  "articles": [
+    {
+      "id": "hn_49896586",
+      "source": "hackernews",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "score": 770,
+      "comments": 717,
+      "raw_description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices. GPT-6.1 Sol Near-Astra intelligence for a fifth of the price We’re introducing GPT‑6.1 Sol , an upgrade to GPT‑6 Sol that nearly matches GPT‑6 Astra’s intelligence on agentic coding, computer use, and professional work at one-fifth of Astra’s standard input and output token prices. Cached input costs just $0.10 per million tokens —95% less than standard input pricing and 50% less than GPT‑6 Sol’s cached input pricing—giving developers more room to build and run capable agents that reuse context across requests. A more capable Sol across tasks GPT‑6.1 Sol offers a new balance of capability and cost for important everyday work. It delivers substantial improvements over GPT‑6 Sol across complex professional tasks, from writing and debugging code to understanding documents and executing multi-step business workflows. On several of these evaluations, it approaches GPT‑6 Astra’s performance at substantially lower cost. Coding On DeepSWE v1.1 , which evaluates complex software-engineering tasks in real codebases, GPT‑6.1 Sol matches GPT‑6 Astra at roughly one-fifth of the cost, while eclipsing GPT‑6 Sol’s best score by 6.4 percentage points at a lower reasoning effort and cost. In DeepSWE 1.1⁠ ⁠ (opens in a new window) , AI agents solve original, long-horizon software engineering tasks. Professional work On GDP.pdf , which meas",
+      "content_source": "page",
+      "tags": [
+        "GPT-6.1 Sol",
+        "AIモデル",
+        "コスト削減",
+        "コーディング性能"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.092960+09:00",
+      "summary": "GPT-6.1 Solは、GPT-6 Astraの知能に迫る性能を、APIトークン価格の5分の1で提供する新しいモデルです。特にコーディングや専門的な業務において、GPT-6 Solから大幅な性能向上を遂げています。キャッシュ入力料金は100万トークンあたり0.10ドルと、標準価格の95%削減を実現し、開発者がより低コストで高性能なエージェントを構築・運用できるようになります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_4089df94b1a3",
+      "source": "hatena",
+      "title": "IIJ、新人エンジニア向け研修教材を無料公開　Web技術の基礎から生成AI活用まで20講義超",
+      "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
+      "score": 493,
+      "comments": 0,
+      "raw_description": "インターネットイニシアティブ（IIJ）は9月28日、新人エンジニア向けハンズオン研修「IIJ Bootcamp」の2026年度版資料を公式エンジニアブログで紹介した。資料は社内限定の一部を除いて専用サイトで無料公開している。 IIJ Bootcampは、同社の有志が講師となって19年度から毎年開いている研修。IT系のどの分野でも必要に...",
+      "content_source": "feed",
+      "tags": [
+        "新人研修",
+        "Web技術",
+        "生成AI",
+        "IIJ"
+      ],
+      "fetched_at": "2026-09-30T10:08:32.991811+09:00",
+      "summary": "IIJは、新人エンジニア向けのハンズオン研修「IIJ Bootcamp」の2026年度版資料を無料公開しました。この研修資料は、Web技術の基礎から生成AIの活用まで、20講義以上の内容を網羅しており、ITエンジニアが基礎知識を体系的に学ぶ上で役立ちます。社内限定コンテンツを除き、専用サイトでアクセス可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49892245",
+      "source": "hackernews",
+      "title": "How Delhi cut electricity loss from 50 to 5 percent",
+      "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "score": 435,
+      "comments": 253,
+      "raw_description": "It slashed electricity losses from 50 to 5 percent Energy Magazine Feature Climate Tech Here’s How Delhi Achieved Its Epic Power-Grid Fix It slashed electricity losses from 50 to 5 percent Mini Shaji Thomas 28 Sep 2026 13 min read Delhi brilliantly illuminates Humayun's Tomb on 14 August 2026, on the eve of India’s Independence Day. Sanchit Khanna/Hindustan Times/Getty Images It’s 6 a.m. on a cold January morning in 2002 in New Delhi. It’s still dark outside, and I’m in the kitchen preparing breakfast, packing lunches, and getting my two children ready to catch the school bus when, for the third time in a week, the power goes out. No lights, no mixer to finish my daughter’s puttu —her favorite rice dish—no kettle, no toaster. The bathroom is dark, and the kids are upset. It will probably be hours before the power comes back on, so I grab a flashlight and light the candles that are set up around the house for these occasions. We’re behind schedule now. We pack the food we have, bundle up as the house turns chilly, and head outside, leaving a mess in the kitchen. We make our way to the bus stop in the dark—the streetlights are out, too—only to discover my daughter has missed her ride. Again. I’ll be late for work at Jamia Millia Islamia, a university where I am a professor of electrical engineering and teach power systems and smart grids. I just hope the power is on there. This was a common scene for my family and all of Delhi in the early 2000s. Power outages happened almost d",
+      "content_source": "page",
+      "tags": [
+        "電力システム",
+        "インフラ改善",
+        "デリー",
+        "電力損失削減"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.524583+09:00",
+      "summary": "デリーでは、2000年代初頭に頻繁に発生していた電力供給の不安定さを解消するため、電力損失率を50%から5%に大幅に削減しました。この改善は、電力システムの効率化と安定化に大きく貢献し、市民生活の質の向上に繋がりました。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49893509",
+      "source": "hackernews",
+      "title": "America.gov",
+      "url": "https://america.gov/",
+      "score": 330,
+      "comments": 268,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:34.754167+09:00",
+      "summary": "America.govについての記事らしい。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_7dea21defe7e",
+      "source": "hatena",
+      "title": "「タイムズカーWebサイト」への不正アクセスに関する調査結果および今後の対応について（第3報） | カーシェアリングのタイムズカー",
+      "url": "https://share.timescar.jp/news/2026/0929/1816.html",
+      "score": 271,
+      "comments": 0,
+      "raw_description": "2026年9月25日に公表いたしました『「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）』に関し、その後の調査により現時点で判明している内容をご報告いたします。 第1報はこちら 第2報はこちら 会員の皆様ならびに関係者の皆様に、多大なるご迷惑とご心配をお掛けしております...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:32.992134+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49901736",
+      "source": "hackernews",
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "score": 179,
+      "comments": 92,
+      "raw_description": "Benchmark for tracking model capability after release. - ninjahawk/livenerf livenerf A long-running, deterministic-as-possible benchmark for detecting whether a frontier model gets quietly worse after launch. 📋 The plan · 📊 Results · 🔬 How it works · 🧪 Pre-registration livenerf is a small, boring, append-only benchmark for one question: does a model get worse after it ships? For months there have been reports that Anthropic \"nerfs\" models some days or weeks after release. That could mean quantization, a smaller model behind the same name, lower effort, or routing changes. It could also mean nothing happened and people are pattern-matching on noise. Nobody has had a clean day-0 baseline to check against, so every argument ends up as vibes versus vibes. Claude Opus 5.5 came out on 2026-09-22, so this is a chance to start the clock on launch day and keep it running. Right now v0 runs on a Claude Max subscription through headless Claude Code ( claude -p ), with no API key. You can't make these models deterministic: sampling params are gone and thinking can't be turned off. So livenerf makes everything else deterministic: frozen prompts, pinned CLI, exact graders, raw logs forever. It then measures drift statistically over thousands of samples. It's built on Inspect , the UK AI Security Institute's open-source eval framework. The stats follow Anthropic's own Adding Error Bars to Evals , so there's nothing homebrew to argue about. For questions about the repo, open a thread in the ",
+      "content_source": "page",
+      "tags": [
+        "AIベンチマーク",
+        "モデル性能",
+        "Livenerf",
+        "Claude Opus"
+      ],
+      "fetched_at": "2026-09-30T10:08:33.232061+09:00",
+      "summary": "Livenerfは、モデルリリース後に性能が低下していないかを追跡するためのベンチマークツールです。AnthropicのClaude Opus 5.5のような最先端モデルが、リリース後に意図せず性能が劣化（ナーフ）していないかを、数千のサンプルと統計的手法を用いて検証します。これにより、モデルの性能変化に関する議論を、主観的な意見ではなく客観的なデータに基づいて行うことを目指しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49899090",
+      "source": "hackernews",
+      "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+      "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+      "score": 165,
+      "comments": 88,
+      "raw_description": "Share on Facebook Follow on Facebook Add to Google+ Connect on Linked in Subscribe by Email Print This Post Miami, FL â 9/24/26 – The U.S. Postal Inspection Service and partner federal agencies have seized an internet domain, charging a Pakistani national with operating an unauthorized website that allegedly sold more than 5 million counterfeit U.S. Postal Service (USPS) postage labels, resulting in more than $126 million in losses. Court records show Faheem Akram, 33, of Khanewal, Pakistan, operated LabelsBank.com, a website that allegedly sold counterfeit USPS postage at a fixed rate, typically charging $2 per label, regardless of the packageâs weight, size, or destination. LabelsBank.com was not authorized to sell USPS products and services. The counterfeit labels allowed customers to ship packages at deeply discounted prices, resulting in a substantial loss in revenue to USPS for shipping services rendered. Postal inspectors from the Miami Division of the Postal Inspection Service found more than 5,000 customers used LabelsBank.com to purchase more than 5.1 million counterfeit shipping labels. In conjunction with Akramâs indictment, a court order was issued authorizing the domain seizure and shutdown of the website. Akram is charged with one count of conspiracy to defraud the United States and to make and sell counterfeit postage stamps, five counts of making and selling counterfeit postage stamp labels, and four counts of wire fraud. It is important to note that cr",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:33.446771+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49898778",
+      "source": "hackernews",
+      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+      "url": "https://space.bl2.net/",
+      "score": 98,
+      "comments": 27,
+      "raw_description": "ÐÐ¾ÑÐ¼Ð¾Ñ ÑÐµÐ¹ÑÐ°Ñ â¶ Ð´ÐµÐ¼Ð¾ ÐÐ°Ð³ÑÑÐ¶Ð°Ñâ¦ ð ÐÐµÐ¼Ð»Ñ âï¸ ÐÑÑ ÑÐ¸ÑÑÐµÐ¼Ð° ð ÐÑÐ°ÑÐ°ÑÑ Ñ ÐÐµÐ¼Ð»ÑÐ¹ â ÐÐ¾ÑÐ¾ÑÐºÐ¸Ðµ Ð¿ÑÑÐ¸ Ð²ÑÐµ Ð½Ð¸ÑÐµÐ³Ð¾ Ð¢ÑÐ½Ð¸ â Ð²ÑÐ°ÑÐ°ÑÑ, ÐºÐ¾Ð»ÐµÑÐ¾ â Ð¿ÑÐ¸Ð±Ð»Ð¸Ð·Ð¸ÑÑ, ÐºÐ»Ð¸Ðº â ÐºÐ°ÑÑÐ¾ÑÐºÐ° Ð¸ Ð¾ÑÐ±Ð¸ÑÐ°, Ð´Ð²Ð¾Ð¹Ð½Ð¾Ð¹ ÐºÐ»Ð¸Ðº â Ð»ÐµÑÐµÑÑ Ðº ÑÐµÐ»Ñ. WASD â Ð¿Ð¾Ð»ÑÑ, R/F â Ð²Ð²ÐµÑÑ /Ð²Ð½Ð¸Ð·, Q/E Ð¸ ÑÑÑÐµÐ»ÐºÐ¸ â Ð¿Ð¾Ð²Ð¾ÑÐ¾Ñ, Shift â Ð±ÑÑÑÑÐµÐµ. ÐÐ»Ð¸Ðº Ð¿Ð¾ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ Ð³ÑÑÐ¿Ð¿Ñ â Ð¿Ð¾Ð´ÑÐ²ÐµÑÐ¸ÑÑ, ð â Ð¾ÑÐ±Ð¸ÑÑ UTC ÐÐµÑÐµÐ¹ÑÐ¸ â ÐÐ°Ð½Ð½ÑÐµ Ð¾Ð±Ð½Ð¾Ð²Ð¸Ð»Ð¸ÑÑ ( ) ÐÐ±Ð½Ð¾Ð²Ð¸ÑÑ ÑÑÑÐ°Ð½Ð¸ÑÑ",
+      "content_source": "page",
+      "tags": [
+        "太陽系",
+        "シミュレーション",
+        "リアルタイム",
+        "宇宙"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.306269+09:00",
+      "summary": "これは、526,000個以上のアステロイドと追跡可能な全ての人工衛星を含む、リアルタイムの太陽系シミュレーションを表示するWebアプリケーションです。ユーザーはWASDキーやマウス操作で宇宙空間を自由に移動し、天体をクリックすることで詳細情報や軌道を確認できます。このプロジェクトは、膨大な天体データを視覚化し、インタラクティブに操作できる点が特徴です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_7a4b4b2ee728",
+      "source": "hatena",
+      "title": "オレのClaude Code作業環境、控えめにいって最高すぎる〜Stream Deckでherdrを操作、完了はずんだもんが読み上げ〜 | SIOS Tech Lab",
+      "url": "https://tech-lab.sios.jp/archives/54936",
+      "score": 69,
+      "comments": 0,
+      "raw_description": "手元のボタンを見るだけで、どの Claude Code が作業中で、どれが確認待ちで、どれが終わったのかが一目で分かる。 ボタンを押せば、そのターミナルに一発で飛べる。 作業が終わったら、ずんだもんが「何をやって、次に何をすればいいか」を声で教えてくれる。 そんな作業環境をStream Deckとherdr、ローカルLLM、そして...",
+      "content_source": "feed",
+      "tags": [
+        "Stream Deck",
+        "herdr",
+        "ローカルLLM",
+        "Claude Code"
+      ],
+      "fetched_at": "2026-09-30T10:08:32.991917+09:00",
+      "summary": "Stream Deckとherdr、ローカルLLMを連携させることで、Claude Codeの作業状況をボタンで一元管理し、ターミナルへのアクセスを容易にする環境を構築した。作業完了時には、ずんだもんによる音声通知で次のアクションを指示する。これにより、開発者は作業内容の把握と次のステップへの移行を効率化できる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49897993",
+      "source": "hackernews",
+      "title": "Vermont replacing power plants with home batteries",
+      "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+      "score": 69,
+      "comments": 42,
+      "raw_description": "Spread across thousands of ordinary homes, Vermont's virtual power plant has become its largest power source. It's protecting owners from outages and providing cheaper, cleaner energy. The US state replacing power plants with home batteries 15 hours ago Share Save Add as preferred on Google Jack Carroll BBC/ Serenity Strull (Credit: BBC/ Serenity Strull) Spread across thousands of ordinary homes, this \"power plant\" has become Vermont's largest power source. It's protecting owners from outages and providing cheaper, cleaner energy. Vermont has faced an increase in extreme weather events in recent decades, including some of its worst storms in recorded history . For Pollyanna Bladyka, such events used to mean losing power a dozen times every year, often for multiple hours. \"I don't mind being cold… but I just want my coffee in the morning and I want to be able to watch my news,\" says Bladyka, who lives in the rural town of Springfield in eastern Vermont with her husband Andy and her dog. Bladyka became so fed up with the frequent power outages that in 2024 she was on the verge of buying a gas generator, as many of her neighbours had already done. But the electrician she hired to install it told her about a programme providing a compelling alternative. Run by Vermont's largest utility, Green Mountain Power (GMP), the scheme installs two batteries in participants' home for $55 (£41) a month over a 10-year lease agreement . After doing some research, Bladyka and her husband decide",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:33.665166+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_49890733",
+      "source": "hackernews",
+      "title": "NASA asked several former SR-71A staffers to help secret restart",
+      "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+      "score": 56,
+      "comments": 45,
+      "raw_description": "Nearly 27 years after the final Blackbird flight, NASA quietly launched a project last summer to return an SR-71A to flight. NASA Asked Several Former SR-71A Staffers To Help Secret Restart Share Steve Trimble September 29, 2026 A long list of seemingly impregnable challenges confronts a NASA team working to put this SR-71A back in flight for the first time since 1999, former Blackbird workers say. Credit: NASA Mike Relja, a retiree in his late 70s, received an unexpected job offer from NASA about a month ago. The assignment: Help put a former NASA-operated Lockheed SR-71A Blackbird back in the air after a nearly 27-year hiatus. Two former test engineers confirm jobs were offered NASA withdrew Tail No. 844 from display pole Agency administrator seeks new X-planes for aeronautic breakthroughs Relja, an ex-U.S. Air Force and NASA test engineer for the SR-71A, could not believe his ears. David Ash, a former U.S. Navy and Joby test pilot who was hired in June as a special projects director for NASA, asked Relja to provide his expertise for a secret effort to return a long-retired and neglected Blackbird to flight. “I told the guy, ‘You know, I’m too old to be doing this,’” Relja recalls to Aviation Week. “‘I wish you well. I’d like to see you make it. It would be interesting. But I just don’t think you can get there from here.’” It appears NASA is going to try. At some point early this year—certainly before May 17 and perhaps even before April, according to commercial satellite i",
+      "content_source": "page",
+      "tags": [
+        "SR-71A",
+        "NASA",
+        "航空宇宙",
+        "プロジェクト"
+      ],
+      "fetched_at": "2026-09-30T10:08:33.880021+09:00",
+      "summary": "NASAは、1999年以来飛行していないSR-71Aブラックバードを再び飛行させるための極秘プロジェクトを開始しました。このプロジェクトには、退役した元SR-71Aのスタッフやエンジニアが協力しており、27年ぶりの飛行再開を目指しています。しかし、長期間放置されていた機体の整備や技術的な課題は多く、関係者はその実現の難しさも指摘しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d82330828d32",
+      "source": "hatena",
+      "title": "OpenAI、「24時間働く」エージェント「dots」発表　Astra搭載、クラウド上で常時稼働",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001864/",
+      "score": 53,
+      "comments": 0,
+      "raw_description": "OpenAIは常時稼働エージェント機能「dots」を発表。「GPT-6 Astra」を搭載し、ユーザーが定義した目標に応じて、クラウド上のコンピュータで24時間自律的に稼働するとうたう。 Share 印刷する OpenAI、「24時間働く」エージェント「dots」発表 Astra搭載、クラウド上で常時稼働 公開 2026年09月30日 03時02分 [ITmedia] 印刷する Googleで優先するソースとして追加 米OpenAIは9月29日（現地時間）、常時稼働エージェント機能「dots」を発表した。同社のAIモデル「GPT-6 Astra」を搭載し、ユーザーが設定した目標に応じて、クラウド上のコンピュータで24時間自律的に稼働するとうたう。 29日開催のイベント「OpenAI DevDay」でdotsを発表するサム・アルトマンCEO dotsの稼働イメージ。画面右側はクラウド上でdotsが操作するコンピュータの画面｜公式ブログ ユーザーはテキストメッセージやチャットツールでdotsに質問したり、仕事を依頼したりできる。dotsはユーザーの依頼に応じて4000以上のアプリに接続しタスクをこなすという。 dotsとのメッセージのやりとり｜公式ブログ OpenAIは、dotsの真価は「タスクを頼む前に、期待以上の成果を届けてくれるとき」だと述べ、初期テスターのdotsが、請求書の発行を忘れていたユーザーに代わって書類を作成し、本人の承認後に送信したというエピソードを紹介している。 dotsは発表同日から、「ChatGPT」のWeb、モバイル、デスクトップ版において、欧州、スイス、英国を除く地域の「Pro」プランユーザーに順次展開される。また、全ての地域の「Business」「Enterprise」プランユーザーも利用可能。提供当初は1つのエージェントのみ設定可能だが、将来的には複数のエージェントを定義できるようになるという。 今後1カ月間は、Pro、Business、Enterpriseプランにおいてdotsの利用上限を設けないという。1カ月経過後に利用上限を知らせるとしている。 Copyright © ITmedia, Inc. All Rights Reserved. 印刷する SNSでシェア 関連リンク 公式ブログ コメントをすべて読むには、コメントの利用規約に同意し「アイティメディアID」および「ITmedia AI＋メールマガジン」の登録、もしくは ログイン が必要です Special PR 関連記事 ChatGPT、サブスク最上位プランの新規受付を再開へ “5時間制限”を完全撤廃 「利用枠を消費しない新機能」も GPT-6 Astraの「low」はGPT-5.6 Solの「high」より高性能？ 公式が推奨 「ChatGPT Images 2.5」登場 特定部分の編集を強化、落書きの清書やテンプレート機能も Special PR こんなメディアも見られています ITmedia AI＋に関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。 企業ITのトレンドを詳説 ITmedia エンタープライズ エネルギーの専門メディア スマートジャパン 建設×テクノロジーの最前線 BUILT ビジネスと働き方のヒント ITmedia ビジネスオンライン メールマガジンを配信中 メールマガジンを配信中 国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。 いますぐご登録 メール",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:32.991988+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_6ecb1e73b5fe",
+      "source": "hatena",
+      "title": "GitHub - mizchi/explainer",
+      "url": "https://github.com/mizchi/explainer",
+      "score": 53,
+      "comments": 0,
+      "raw_description": "English | 日本語 Skills and tools for explaining concepts from an AI to a human. Coding agents now write faster than people can understand what they wrote (Geoffrey Litt, Understanding is the new bottleneck). This repository is for writing, for one reader, only what that reader does not already k...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:32.992065+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_52fe66b7cdfe",
+      "source": "hatena",
+      "title": "OpenAI DevDay 2026 発表まとめ",
+      "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
+      "score": 39,
+      "comments": 0,
+      "raw_description": "tl;dr OpenAI DevDay 2026 がサンフランシスコで開催されたよ サンフランシスコ現地から情報をお送りするよ ひと通りのリソースをまとめたけど、まずは Recap ページを見るといいよ 24 時間常時稼働のエージェント dots が発表されたよ GPT-6 Astra に近い性能を低コストで使える GPT-6.1 Sol が公開されたよ 高速にトー...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:32.992201+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_14e82c64f27d",
+      "source": "hatena",
+      "title": "タイムズカーの会員情報漏えいのニュース→TOPPAN「タイムズがデカいのやらかしたぞ！！今のうちにリリースしろ！！」企業が続々「俺も！！！」",
+      "url": "https://togetter.com/li/2752131",
+      "score": 29,
+      "comments": 0,
+      "raw_description": "AIと人事に苦しむマーモット @Duetousandyou トッパン「タイムズがデカいのやらかしたぞ！！ 今のうちにリリースしろ！！」 レゴランド「俺も！」 日本郵便「俺も！」 京王グループ「俺も！」 東京メトロ「俺も！」 イープラス「俺も！」 ニッポンレンタカー「俺も！」 スターツ出版「俺も！」 セコマ「俺も！」 集英社...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-09-30T10:08:32.992261+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_90e30790ef13",
+      "source": "hatena",
+      "title": "【速報】「Windows 11 2026 Update」（バージョン 26H2）の一般提供が開始／「バージョン 24H2/25H2」からは切り替えパッチ「eKB」で",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2144293.html",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "米Microsoftは9月29日（現地時間）、「Windows 11」の新しい機能更新プログラム「Windows 11 2026 Update」（バージョン 26H2）を一般公開した。「Windows Insider Program」に加入していない一般のユーザーに対しても、段階的な配信が開始される。 ニュース 【速報】「Windows 11 2026 Update」（バージョン 26H2）の一般提供が開始 「バージョン 24H2/25H2」からは切り替えパッチ「eKB」で 樽井 秀人 2026年9月30日 03:41 Microsoft、「Windows 11 2026 Update」（バージョン 26H2）を一般公開 米Microsoftは9月29日（現地時間）、「Windows 11」の新しい機能更新プログラム「Windows 11 2026 Update」（バージョン 26H2）を一般公開した。「Windows Insider Program」に加入していない一般のユーザーに対しても、段階的な配信が開始される。 「Windows 11 バージョン 26H2」（Build 26300） は、「Windows 11」で5回目となる年次の大規模アップデート。サービス期間は従来通り、Home/Proエディションが24カ月、Enterprise/Educationエディションが36カ月。 「バージョン 26H2」のOSコードは、「バージョン 24H2」「バージョン 25H2」と共通化されている。「バージョン 26H2」限定の機能は無効化された状態で「バージョン 24H2/25H2」の月次更新プログラムとともに出荷されており、小さな切り替えパッチ「イネーブルメントパッケージ」（eKB）でこの無効化された機能を活性化するだけで「バージョン 24H2/25H2」から「バージョン 26H2」になる仕組みだ。 そのため、アップグレードにかかる時間は比較的短くなる（月次アップデートと同程度）。また、「バージョン 24H2/25H2」と基盤となるコードやサービスブランチを共有しているため、従来型の機能更新に比べて検証や展開の負担を抑えられるという。「バージョン 26H2」独自の不具合は少なくなるだろう。 入手方法 「バージョン 26H2」は すでに「バージョン 24H2/25H2」を実行 しており、かつ「Windows Update」設定ページで ［利用可能になったらすぐに最新の更新プログラムを入手する］オプションをONに しているユーザーを皮切りに、順次展開される。利用可能となった環境では、「Windows Update」設定ページに利用可能な更新プログラムとして「Windows 11, version 26H2」が表示され、［ダウンロードとインストール］が案内される。 「Windows Update」設定ページで［利用可能になったらすぐに最新の更新プログラムを入手する］オプションをONにしているユーザーを皮切りに、順次展開 更新プログラムのダウンロードはバックグラウンドで行われ、準備が完了すると、インストールとOSの再起動を行うタイミングをユーザーが選択できる。勝手にアップグレードされてしまうことはないので安心してほしい。 案内が表示されない場合は、利用中のデバイスにまだ「バージョン 26H2」が展開されていないか、既知の互換性問題があるなどの理由で配信対象から除外されている可能性がある。後日改めてチェックしてみよう。どうしても待てない場合は、インストールア",
+      "content_source": "page",
+      "tags": [
+        "Windows 11",
+        "26H2",
+        "機能更新プログラム",
+        "eKB"
+      ],
+      "fetched_at": "2026-09-30T10:08:32.992271+09:00",
+      "summary": "Microsoftは「Windows 11 2026 Update」（バージョン 26H2）の一般提供を開始しました。このアップデートは、バージョン 24H2/25H2とOSコードを共通化し、小さな切り替えパッチ「eKB」によって新機能が有効化される仕組みです。これにより、アップグレード時間が短縮され、検証や展開の負担が軽減されるため、不具合の発生も抑えられると期待されます。配信は段階的に行われ、ユーザーはインストールタイミングを選択できます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_387dab75526c",
+      "source": "reddit",
+      "title": "nine npm packages shipping worm that spread by itself over SSH",
+      "url": "https://www.reddit.com/r/programming/comments/1wt8odk/nine_npm_packages_shipping_worm_that_spread_by/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BattleRemote3157 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "npm",
+        "SSH"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.989238+09:00",
+      "summary": "SSH経由で自己増殖するワームを配布していた9つのnpmパッケージについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_af20ae545eb1",
+      "source": "reddit",
+      "title": "Zero-Growth Stack, Real Gains: How Stack Allocation Can Save 10% CPU in Go",
+      "url": "https://www.reddit.com/r/programming/comments/1wtnwfs/zerogrowth_stack_real_gains_how_stack_allocation/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Go",
+        "CPU"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.989553+09:00",
+      "summary": "Go言語におけるスタック割り当てについて、CPU使用率を10%削減できる可能性を示唆する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_eaa3d0a6f644",
+      "source": "reddit",
+      "title": "Needed 1+1, Built a Functional Programming Language",
+      "url": "https://www.reddit.com/r/programming/comments/1wsx9fe/needed_11_built_a_functional_programming_language/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/GenericAHHyoutuber [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.989829+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "reddit_48e2035aece4",
+      "source": "reddit",
+      "title": "In Defense of the Visual Cortex",
+      "url": "https://www.reddit.com/r/programming/comments/1wtfh4j/in_defense_of_the_visual_cortex/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Jernesstar [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "programming"
+      ],
+      "fetched_at": "2026-09-30T10:08:34.990092+09:00",
+      "summary": "",
+      "summary_basis": ""
+    }
+  ]
+}
