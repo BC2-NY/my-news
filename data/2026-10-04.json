@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T09:23:50.974124+09:00",
+  "articles": [
+    {
+      "id": "hn_49942706",
+      "source": "hackernews",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "score": 487,
+      "comments": 296,
+      "raw_description": "tech report: https://aleph-alpha.com/downloads/tech-report.pdf additional paper: https://tej.as/blog/aleph-alpha-kolibri",
+      "content_source": "hn_text",
+      "tags": [
+        "大規模言語モデル",
+        "オープンソース",
+        "AI",
+        "プライバシー"
+      ],
+      "fetched_at": "2026-10-04T09:23:41.915730+09:00",
+      "summary": "Aleph Alphaが開発したKolibriは、オープンな重みを持つ大規模言語モデル（LLM）です。このモデルは、特定のユースケースに特化させるためのファインチューニングや、オンプレミス環境での実行を容易にするように設計されています。これにより、データプライバシーやセキュリティを重視する組織にとって、より柔軟で安全なAI活用が可能になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49948254",
+      "source": "hackernews",
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+      "score": 228,
+      "comments": 140,
+      "raw_description": "A federal judge ruled that a sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock to search for her license plate without a warrant. A federal judge ruled this week that a Tulsa, Oklahoma sheriff’s deputy violated a woman’s Fourth Amendment rights when using Flock Safety to search for her license plate without a warrant. As reported by 404 Media , this ruling does not create a binding precedent, but it is one of the first times that a federal judge has ruled that a Flock search is unconstitutional. In this case, Judge Sara Hill said the deputy should have obtained a warrant before searching the Flock database for the woman’s license plate, as he had “no apparent reason” for the search “other than the fact that [the woman’s vehicle] had a California license plate.” The deputy then used the woman’s travel history in Flock as part of the justification for searching her car, where he allegedly discovered 91 pounds of meth. But Judge Hill wrote that all evidence obtained after the Flock search “must be suppressed as the fruit of a poisonous tree.” Judge Hill also took broader aim at warrantless searches of the Flock database, writing that tracking people’s location — even when they’re in public places — becomes “constitutionally problematic when law enforcement can indiscriminately and passively catalog your whereabouts over an extended period of time and then use that information for any purpose whenever convenient.” “This is a type of indiscriminate mass ",
+      "content_source": "page",
+      "tags": [
+        "Flock Safety",
+        "プライバシー",
+        "令状なし捜索",
+        "憲法修正第4条"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.413723+09:00",
+      "summary": "オクラホマ州の連邦裁判所は、令状なしにFlock Safetyのデータベースを検索して女性のナンバープレートを特定した保安官代理の行為が、憲法修正第4条で保障された権利を侵害したと判断しました。裁判官は、公共の場であっても、法執行機関が個人の位置情報を無差別に広範に収集し、それを都合の良い時に利用することは憲法上の問題があると指摘しました。この判決は拘束力のある先例とはなりませんが、Flock検索の違憲性を認めた初期の事例として重要です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49946393",
+      "source": "hackernews",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "url": "https://notoriousbfg.com/hole-punch/",
+      "score": 212,
+      "comments": 55,
+      "raw_description": "Punch black holes in space and sling a ship home round them.",
+      "content_source": "meta",
+      "tags": [
+        "Hole Punch",
+        "ゲーム"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.658494+09:00",
+      "summary": "重力場を利用して宇宙船を操る「Hole Punch」というゲームについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_6ca39793dc56",
+      "source": "hatena",
+      "title": "Codex Security ・ Claude Security 入門｜npaka",
+      "url": "https://note.com/npaka/n/n2b9c36c471b6",
+      "score": 135,
+      "comments": 0,
+      "raw_description": "「Codex Security」と「Claude Security」を使って、AIで自社サービスの脆弱性を発見・検証する方法を簡単にまとめました。 1. はじめにWebサービスでは、氏名やメールアドレス、住所など、多くの重要なデータを扱います。情報流出のニュースを見ると、自分たちのサービスにも、気付いていない脆弱性が残っているのでは...",
+      "content_source": "feed",
+      "tags": [
+        "Codex Security",
+        "Claude Security",
+        "AI",
+        "脆弱性診断"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.056701+09:00",
+      "summary": "Codex SecurityとClaude Securityは、AIを活用して自社サービスの脆弱性を発見・検証するためのツールです。これらのツールを利用することで、Webサービスが扱う氏名、メールアドレス、住所などの機密情報に対する潜在的な脆弱性を特定し、情報流出のリスクを低減することが期待できます。本記事では、これらのツールを用いた具体的な活用方法の入門的な解説を提供しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49923873",
+      "source": "hackernews",
+      "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+      "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
+      "score": 132,
+      "comments": 40,
+      "raw_description": "ROCHESTER, N.Y. — A Webster man is celebrating the 100th birthday of the kidney his mom donated to him as a teenager. In March 1978, surgeons at Strong Hospital transplanted a kidney into 16-year-old Ray Vetuskey. The story behind that kidney is now one for the record books. Vetuskey grew up in Seabreeze as the youngest […] Webster man celebrating the 100th birthday of the kidney his mom donated to him as a teenager Jennifer Lewke News10NBC Webster man celebrating the 100th birthday of the kidney his mom donated to him as a teenager ROCHESTER, N.Y. — A Webster man is celebrating the 100th birthday of the kidney his mom donated to him as a teenager. In March 1978, surgeons at Strong Hospital transplanted a kidney into 16-year-old Ray Vetuskey. The story behind that kidney is now one for the record books. Vetuskey grew up in Seabreeze as the youngest of five kids and always had a special bond with his mom Betty, “she was a great lady; everyone loved her in the neighborhood,” Vetuskey recalls. When he was a teenager, Vetuskey started having health issues and doctors ran several tests. “They told the doctors that the kidneys aren’t working and put me on dialysis,” Vetuskey says. The dialysis did not help; his kidneys didn’t recover and the only option was a transplant. Betty Vetuskey, who was 52 years old at the time, offered one of her kidneys to her son. “I don’t think she gave it two thoughts, anything she could do to help her son, I think she would have done anything which sh",
+      "content_source": "page",
+      "tags": [
+        "腎臓移植",
+        "医療技術",
+        "家族愛",
+        "長寿"
+      ],
+      "fetched_at": "2026-10-04T09:23:41.674986+09:00",
+      "summary": "16歳で母親から提供された腎臓移植を受けた男性が、その腎臓の100歳の誕生日を祝っている。1978年3月に移植手術が行われ、現在も機能している。これは、臓器提供の長期的な成功と、家族の絆の重要性を示す事例である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49946895",
+      "source": "hackernews",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "score": 88,
+      "comments": 10,
+      "raw_description": "The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux Written by Michael Larabel in Radeon on 3 October 2026 at 02:56 PM EDT. 13 Comments Over the past year Timur Kristóf of Valve's Linux graphics driver team has made multiple very nice improvements to the AMDGPU kernel driver for enhancing support for old (GCN 1.0/1.1 era from a decade ago) graphics cards so that they can better handle Linux gaming and other tasks. This week in Toronto, Kristóf presented on this AMDGPU work that he initially began as a kernel driver development exercise after initially spending years in user-space focused on the Mesa 3D driver code. Timur Kristóf has become a legend for those with old AMD GCN 1.0/1.1 graphics cards and APUs for transitioning them from the legacy Radeon driver over to the modern AMDGPU kernel driver, which unlocks being able to use the RADV Vulkan driver, better performance, and all-around better functionality than the legacy Radeon code. In the process he had to address defects in the AMDGPU display code for these legacy graphics cards along with various power management issues and more. Then he went on to improve these graphics cards further with soft reset support and other enhancements all to make these aging graphics cards more viable for Linux gaming use in 2026 and beyond. For getting an idea of the impact of transitioning the old Radeon graphics cards to AMDGPU, see last year's Linux 6.19's Significant ~30% Performance Boost For Old AMD Radeon G",
+      "content_source": "page",
+      "tags": [
+        "Linux",
+        "AMD GPU",
+        "AMDGPU",
+        "Vulkan"
+      ],
+      "fetched_at": "2026-10-04T09:23:41.426761+09:00",
+      "summary": "ValveのTimur Kristóf氏は、Linux向けの古いAMD GPU（GCN 1.0/1.1世代）のサポートを大幅に改善しました。これにより、これらのGPUはLinuxゲーミングやその他のタスクをより快適に処理できるようになります。この取り組みは、レガシーRadeonドライバーから最新のAMDGPUカーネルドライバーへの移行を可能にし、RADV Vulkanドライバーの利用やパフォーマンス向上、機能改善を実現しました。さらに、ソフトリセット機能などの追加により、古いGPUのLinuxでの実用性が向上しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_e06e95e8cbde",
+      "source": "hatena",
+      "title": "「決め方」の渡し方 / How to hand over the \"decision-making process\"",
+      "url": "https://speakerdeck.com/pauli/how-to-hand-over-the-decision-making-process",
+      "score": 79,
+      "comments": 0,
+      "raw_description": "【Startup in Agile #7 】ボトルネックは人の意思決定？「決め方」の変遷教えて https://startup-in-agile.connpass.com/event/386112/ Upgrade to Pro — share decks privately, control downloads, hide ads and more … 「決め方」の渡し方 / How to hand over the \"decision-maki... Pauli April 08, 2026 Technology 3.4k 10 Share Embed Copy iframe code Copy JS code Copy link Start on current slide 「決め方」の渡し方 / How to hand over the \"decision-making process\" 【Startup in Agile #7 】ボトルネックは人の意思決定？「決め方」の変遷教えて https://startup-in-agile.connpass.com/event/386112/ Pauli April 08, 2026 More Decks by Pauli See All by Pauli カンファレンスに参加した後の浮遊感とセルフケア pauli 0 270 登壇の自信を奪う3匹のオバケ / 3 Ghosts That Rob You of Your Confidence in Public Speaking pauli 9 1.1k 勉強会企画をアプリで構造化してみた 〜そこで見えた、AIとの付き合い方〜 / I've structured a study group plan using an app. pauli 0 470 建設的な現実逃避のしかた / How to practice constructive escapism pauli 5 710 「任せる」をちゃんとする / To delegate effectively pauli 0 120 そんなのおかしいよ！ 高い椅子に座って、素敵な事業開発に＜中略＞... それがどれだけ幸せなことか、 わかってるぅ！？ / That is ridiculous! Sitting in a high-end chair, contributing to wonderful business development, using tools in an enterprise environment... do you have any idea how lucky you are!? pauli 2 110 新任部長から学ぶ 1on1 / Learning 1-on-1 Techniques from a New Department Head pauli 1 170 好奇心という宝石 / The jewel of curiosity pauli 1 100 マネージメントプリキュア！/ Management Precure ! pauli 3 150 Other Decks in Technology See All in Technology AI感のないAWS構成図をAIエージェントに描かせたい！ sagochiko 2 480 OpenClawでAzure DevOpsのWiki更新を自動化する - クラウドAIだけでは届かない場所へ yutakaosada 0 1",
+      "content_source": "page",
+      "tags": [
+        "アジャイル開発",
+        "意思決定",
+        "プロジェクトマネジメント",
+        "チームビルディング"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.056563+09:00",
+      "summary": "本記事は、アジャイル開発における意思決定プロセスを円滑に進めるための「決め方」の渡し方について論じている。特に、意思決定がボトルネックとなっている状況に着目し、その変遷や改善策を探求するイベントの内容を紹介している。アジャイル開発の現場で直面する意思決定の課題とその解決策を理解することは、プロジェクトの効率化に繋がるため重要である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49948332",
+      "source": "hackernews",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "score": 69,
+      "comments": 25,
+      "raw_description": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technology David Robinson said AI firms were not ‘being nearly careful enough’ about developing the technology. Photograph: Dado Ruvić/Reuters View image in fullscreen David Robinson said AI firms were not ‘being nearly careful enough’ about developing the technology. Photograph: Dado Ruvić/Reuters OpenAI safety leader quits, warning AI company’s culture is ‘broken’ David Robinson joins other insiders in urging industry to take more care over rapidly developing technology A safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not “being nearly careful enough” about developing the technology. David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer’s product releases, explained his resignation in an essay headlined, “I quit OpenAI because its culture is broken”. Robinson wrote that a cultural overhaul was needed at cutting-edge AI firms and incidents such as a “swarm” of OpenAI agents – AI programmes operating autonomously without human oversight – attacking the AI startup Hugging Face were “typical of the industry, given the speed and flexibility with which people operate”. Writing in The Atlantic magazine , Robinson wrote: “I agree with other recently departed staff that the companies building this technology aren’t being nearly careful enough. But I believe that we need to look deeper than sp",
+      "content_source": "page",
+      "tags": [
+        "OpenAI",
+        "AI倫理",
+        "AI安全",
+        "企業文化"
+      ],
+      "fetched_at": "2026-10-04T09:23:42.162304+09:00",
+      "summary": "OpenAIの安全担当リーダーであるDavid Robinson氏が、同社の文化は「壊れている」と警告し、退職した。同氏は、AI企業が技術開発において十分に注意を払っていないと指摘し、特に人間による監視なしに自律的に動作するAIエージェントの「群れ」が他の企業を攻撃するようなインシデントは、業界のスピード感と柔軟性ゆえに典型的であると述べている。彼は、最先端AI企業には文化的な改革が必要だと主張している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_35f6d50b6a63",
+      "source": "hatena",
+      "title": "ＡＩの社会実装に関する情報提供のお願い : 規制改革 - 内閣府",
+      "url": "https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html",
+      "score": 67,
+      "comments": 0,
+      "raw_description": "内閣府規制改革推進室 内閣府科学技術・イノベーション推進事務局人工知能政策推進室 デジタル庁戦略・組織グループ 経済産業省経済産業政策局産業創造課 令和８年７月14日に閣議決定された「人工知能基本計画」では、単にＡＩを導入することにとどまらず、意思決定や業務の進め方を根底から見直すＡＸに率先して取り組...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "社会実装",
+        "AX",
+        "政策"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.056816+09:00",
+      "summary": "内閣府、AI政策推進室、デジタル庁、経済産業省がAIの社会実装に関する情報提供を求めている。これは、2026年7月14日に閣議決定された「人工知能基本計画」に基づき、単なるAI導入に留まらず、意思決定や業務プロセスを根本的に見直す「AX（AI Transformation）」を推進するためである。関係省庁は、AIの社会実装に向けた具体的な取り組みや課題に関する情報を収集し、今後の政策立案に活用する方針だ。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49947631",
+      "source": "hackernews",
+      "title": "Reasons I didn't become an EMT, ranked",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
+      "score": 64,
+      "comments": 27,
+      "raw_description": "Here are 21 reasons I delayed getting my EMT licensed, sorted loosely by ridiculousness. 21 reasons I didn't become an EMT, ranked I’m an EMT (Emergency Medical Technician). My main job is software engineering, but I’ve always been interested in medicine. A friend turned me onto the idea in college, and it rattled around my head for years. I delayed for a long time — until finally, in 2024, I took a month off and got my EMT. Here are actual reasons I delayed getting my license , sorted loosely by ridiculousness: Not ridiculous It will take a lot of my spare time. Yes; my accelerated class ( NOLS Wilderness EMT ) took 28 consecutive days. I was only able to take the class because Microsoft switched to unlimited vacation, my boss was great, and I had the money to fly to Wyoming for the course (the usual alternative is a semester of night school!). And to be a good EMT, you have to actually take calls on an ambulance, hopefully more than the typical “1 weekend a month” minimum. I won’t like the culture. Yes. This was a huge barrier: I had an awful experience with some first responders a few years after college — bad enough that I gave up on getting my EMT for a while. There are a lot of burned-out people in EMS . Many services — including the one I saw — are incredibly fratty, to be charitable. Lord help you if you are a woman . You will hear many excuses for these issues, but, yes, culture is a huge concern. NOLS WEMT: sometimes you can have a good culture Kinda ridiculous I wo",
+      "content_source": "page",
+      "tags": [
+        "EMT",
+        "キャリア",
+        "医療",
+        "ソフトウェアエンジニア"
+      ],
+      "fetched_at": "2026-10-04T09:23:41.180971+09:00",
+      "summary": "ソフトウェアエンジニアである著者が、EMT（緊急医療技術者）の資格取得を延期した21の理由を挙げている。主な理由として、資格取得に長期間の時間を要すること、医療現場の文化への懸念（燃え尽きた人が多く、特に女性にとっては厳しい環境である可能性）が挙げられている。著者は最終的に2024年に1ヶ月間の集中コースで資格を取得したが、その背景には無制限の有給休暇制度や上司の理解があった。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49946355",
+      "source": "hackernews",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "score": 56,
+      "comments": 27,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "ロダン美術館",
+        "3Dスキャン"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.921236+09:00",
+      "summary": "ロダン美術館の3Dスキャンに関する評決についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_1b5bdddec3c3",
+      "source": "hatena",
+      "title": "貧乏な子どもが“稼げる大人”になる条件とは？　米ハーバード大などがFacebook7000万アカウント超から分析　2022年にNature掲載",
+      "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001935/",
+      "score": 38,
+      "comments": 0,
+      "raw_description": "2019年の開始以来、多様な最新論文を取り上げている連載「Innovative Tech」。ここではその番外編として“ちょっと昔”に発表された世界中の個性的な研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-04T09:23:40.056758+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_927bb149f860",
+      "source": "hatena",
+      "title": "高市首相がAppleに要請――「自殺防止機能の搭載を」　生成AIへの相談増加を受け",
+      "url": "https://www.itmedia.co.jp/mobile/articles/2610/03/news015.html",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "「Appleティム・クック前CEOからお手紙をいただきました」――10月2日、高市早苗首相はXを通じて、Appleとの間で交わされた子どもの安全対策や自殺防止に向けた取り組みに関するやりとりについて公開した。 高市氏は若者の間で生成AIへの相談が増加している現状や海外での深刻な事例を挙げ、デバイスに自殺防止機能などの...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-04T09:23:40.056290+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_af4af0351ec3",
+      "source": "hatena",
+      "title": "地面に落としたネジをGrokに探してもらったらすぐ見つけてくれた話…画像処理におけるAIは強すぎる",
+      "url": "https://togetter.com/li/2753759",
+      "score": 24,
+      "comments": 0,
+      "raw_description": "Togetter編集部 X（旧Twitter）に日々流れる情報の中から、編集部がさまざまなポストを選び出し、わかりやすい形でお届けすることを大切にしています。新たな視点や世間の反応を添えることで、読者の皆様にとって安心・安全で価値あるコンテンツとすることを目指しています。詳しくは編集方針をご覧ください。 あわせて...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "画像認識",
+        "Grok",
+        "物体検出"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.056399+09:00",
+      "summary": "AIモデルGrokが、地面に落ちたネジを画像認識で即座に発見した事例が紹介されています。この出来事は、画像処理におけるAIの高度な能力を示しており、その実用性の高さを浮き彫りにしています。AIが現実世界の物体認識において、いかに強力なツールとなり得るかを示唆する内容です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a1330f664344",
+      "source": "hatena",
+      "title": "CSS の margin-trim でコンテナーの端の余白を取り除く",
+      "url": "https://azukiazusa.dev/blog/css-margin-trim/",
+      "score": 22,
+      "comments": 0,
+      "raw_description": "2026 年 9 月 27 日時点で、margin-trim はすべての主要ブラウザーで利用できる機能ではありません。Safari 16.4 で導入されていますが、Chromium や Firefox では未対応です。 カードの上下に余分な余白ができる まずは、margin-trim を使わない場合の余白を確認しましょう。次のカードには、見出しと 2 つの段落があり...",
+      "content_source": "feed",
+      "tags": [
+        "CSS",
+        "margin-trim",
+        "Web開発",
+        "ブラウザ互換性"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.056638+09:00",
+      "summary": "CSSのmargin-trimは、要素間のマージンをトリミングし、コンテナの端の余分な空白を削除する機能です。これにより、要素間の垂直方向の間隔をより正確に制御できるようになります。ただし、2026年9月27日現在、Safari 16.4では利用可能ですが、ChromiumやFirefoxではまだサポートされていません。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_659a510e9e56",
+      "source": "hatena",
+      "title": "Microsoft Digital Defense Report 2026 | Microsoft",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/cybersecurity/reports/microsoft-digital-defense-report/",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "In an era of interconnected risk, attackers are increasingly exploiting the trusted identities, systems, relationships, and services organizations rely on most. The 2026 Microsoft Digital Defense Report reveals a fundamental shift in cybersecurity with the interconnected digital ecosystem and the...",
+      "content_source": "feed",
+      "tags": [
+        "サイバーセキュリティ",
+        "Microsoft",
+        "デジタルディフェンスレポート",
+        "攻撃手法"
+      ],
+      "fetched_at": "2026-10-04T09:23:40.056475+09:00",
+      "summary": "2026年版Microsoft Digital Defense Reportによると、攻撃者は組織が最も信頼するアイデンティティ、システム、関係、サービスを悪用する傾向が強まっている。これは、相互接続されたデジタルエコシステムとサイバーセキュリティにおける根本的な変化を示唆している。攻撃者は、信頼関係を悪用することで、より巧妙な攻撃を展開している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_600c97d142d9",
+      "source": "reddit",
+      "title": "Skip List Data structure",
+      "url": "https://www.reddit.com/r/programming/comments/1wwfp40/skip_list_data_structure/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Comfortable-Fan-580 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Skip List",
+        "Data structure"
+      ],
+      "fetched_at": "2026-10-04T09:23:42.441490+09:00",
+      "summary": "Skip Listデータ構造についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_9ce515b76e56",
+      "source": "reddit",
+      "title": "Go JSON v2 in Go 1.27: what breaks when you migrate from encoding/json",
+      "url": "https://www.reddit.com/r/programming/comments/1wwifin/go_json_v2_in_go_127_what_breaks_when_you_migrate/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Efficient_File [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Go",
+        "JSON"
+      ],
+      "fetched_at": "2026-10-04T09:23:42.441793+09:00",
+      "summary": "Go 1.27で導入されるGo JSON v2への移行時に、encoding/jsonから何が壊れるかについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_02292c91b35e",
+      "source": "reddit",
+      "title": "Hybrid Core Allocation: From Overallocation to Reliable Sharing",
+      "url": "https://www.reddit.com/r/programming/comments/1wwzeu7/hybrid_core_allocation_from_overallocation_to/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Hybrid Core Allocation"
+      ],
+      "fetched_at": "2026-10-04T09:23:42.442058+09:00",
+      "summary": "ハイブリッドコア割り当てに関する記事で、過剰割り当てから信頼性の高い共有への移行について説明しているようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_59ff7c5ac65c",
+      "source": "reddit",
+      "title": "Finding 552 MiB in the Miden prover with Ying",
+      "url": "https://www.reddit.com/r/programming/comments/1wwxncp/finding_552_mib_in_the_miden_prover_with_ying/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/redixhumayun [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Miden",
+        "Ying"
+      ],
+      "fetched_at": "2026-10-04T09:23:42.442308+09:00",
+      "summary": "Miden proverにおける552 MiBの発見について、Yingという人物が関与している記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
