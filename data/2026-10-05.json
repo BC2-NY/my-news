@@ -1,0 +1,382 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T09:32:11.041270+09:00",
+  "articles": [
+    {
+      "id": "hn_49953495",
+      "source": "hackernews",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "score": 577,
+      "comments": 278,
+      "raw_description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input. - Niko1221/Strata Strata English · 简体中文 · 日本語 · Deutsch · Français · Español · Português Run a 125-billion-parameter AI model on your own gaming PC NVIDIA or AMD graphics card (12 GB or more) · Windows or Linux · free and open source A voxel pagoda garden, 1 shot prompt running on an RTX 5070 with Strata (IQ3_S, 128K context) · full video (49 s) Strata runs Qwen3.8-Flash-Next on a normal PC. This is a large, smart AI model that usually needs a server. It chats, writes code, reads pictures and works with your apps and coding agents. Nothing leaves your PC. How fast is it? We measured it on two ordinary gaming PCs. A token is about ¾ of a word. Writes answers: how fast the reply appears in a short chat. 60 tokens per second is faster than you can read. Reads your prompt: how fast it takes in what you send (here a 32K-token document, code or chat history). NVIDIA: RTX 5070 (12 GB), Ryzen 5 7600, 64 GB RAM AMD: RX 9070 XT (16 GB), Ryzen 9 3900X, 47 GB RAM Size Writes answers Reads your prompt Q2_0 94 tokens/s 2,650 tokens/s IQ2_XS 79 tokens/s 2,090 tokens/s IQ3_XXS 62 tokens/s 1,750 tokens/s IQ3_S 53 tokens/s 1,620 tokens/s Coder 55 tokens/s 2,180 tokens/s Size Writes answers Reads your prompt Q2_0 60 tokens/s 1,160 tokens/s IQ2_XS 52 tokens/s 1,110 tokens/s Coder 44 tokens/s 1,420 tokens/s NVIDIA: Q2_0 with engine 0",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "大規模言語モデル",
+        "ローカル実行",
+        "Strata"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.936324+09:00",
+      "summary": "Strataという推論エンジンにより、1250億パラメータを持つ大規模AIモデル「Qwen3.8-Flash-Next」を、NVIDIA RTX 4090などのコンシューマー向けGPU（12GB以上）を搭載したPCで動作させることが可能になりました。この技術により、ローカル環境でOpenAI互換APIを利用し、画像入力にも対応しながら、プライバシーを保ったままAIモデルのチャット、コーディング、画像読み取りなどの機能を利用できます。応答速度は最大94トークン/秒、プロンプト読み込みは最大2650トークン/秒を記録し、従来のサーバー環境を必要としていた大規模モデルの利用を一般ユーザーに広げる可能性を示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49957116",
+      "source": "hackernews",
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "score": 314,
+      "comments": 200,
+      "raw_description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible. - omlahore/RemoveMacAI RemoveMacAI Turn off Apple Intelligence on macOS 27 and remove its downloaded models. macOS 27 no longer has a single switch for Apple Intelligence, and its models stay on disk after the features are turned off. RemoveMacAI turns the features off, removes the models and prevents macOS from downloading them again. All changes can be reverted. Demo video Install curl -fsSL https://raw.githubusercontent.com/omlahore/RemoveMacAI/main/install.sh | bash The script downloads the latest release, verifies its SHA-256 checksum and runs it from a temporary directory. Nothing is installed. Every release is built from its tag by GitHub Actions and carries a build provenance attestation. To check that a download came from this repository's source: gh attestation verify removemacai-darwin-arm64.tar.gz -R omlahore/RemoveMacAI With Homebrew: brew install omlahore/tap/removemacai removemacai RemoveMacAI shows the current state and asks for confirmation. It then opens System Settings to install its configuration profile, which macOS requires the user to approve, and removes the models. Usage Command Description removemacai Show the current state, then turn Apple Intelligence off removemacai status Show each feature and the size of the models on disk removemacai off --keep <features> Leave the listed features on removemacai off --dry-run Show the changes without applying the",
+      "content_source": "page",
+      "tags": [
+        "macOS",
+        "Apple Intelligence",
+        "ディスク容量",
+        "スクリプト"
+      ],
+      "fetched_at": "2026-10-05T09:32:02.353117+09:00",
+      "summary": "macOS 27ではApple Intelligenceの機能を無効化し、ディスク容量を解放するための公式な設定項目が削除されました。このスクリプトは、Apple Intelligenceの機能を無効化し、ダウンロードされたモデルファイルを削除することでディスク容量を回復させます。また、将来的なモデルの再ダウンロードを防ぐことも可能です。全ての変更は元に戻すことができます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_05a3d223b5dc",
+      "source": "hatena",
+      "title": "6年通った博士課程を、退学しました。 --社会人博士を志すあなたに、先に渡しておきたいこと--｜清水 啓太郎 / Keitaro Shimizu",
+      "url": "https://note.com/keitaro_shimizu/n/n1cd34c93e432",
+      "score": 251,
+      "comments": 0,
+      "raw_description": "6年通った博士課程を、退学しました東京大学の博士課程に、社会人として約6年在籍していました。 その課程を、修了ではなく退学というかたちで終えることにしました。 正直に書きます。悔しいです。悲しいです。 自分で決めたことなのに、いまだに飲み込みきれていない感覚があります。 ただ、6年という時間は、失敗の記...",
+      "content_source": "feed",
+      "tags": [
+        "博士課程",
+        "社会人大学院",
+        "キャリア",
+        "自己決定"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575262+09:00",
+      "summary": "東京大学の博士課程に約6年間社会人として在籍していた筆者が、修了ではなく退学という形で課程を終えたことを報告しています。筆者はこの決断に悔しさや悲しさを感じつつも、6年間の経験を振り返り、社会人博士を目指す人々に向けて、自身の経験から得た教訓を共有したい意向を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49957068",
+      "source": "hackernews",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "score": 208,
+      "comments": 317,
+      "raw_description": "Nebraska data centers are required to turn in an annual report to Nebraska’s Department of Water, Energy, and Environment, but some state statutes are preventing the public from seeing just how much electricity and water data centers are using. Share Add Us On Google Add as a preferred source on Google LINCOLN, Neb. (KOLN) - Nebraska data centers are required to turn in an annual report to Nebraska’s Department of Water, Energy, and Environment, but some state statutes are preventing the public from seeing just how much electricity and water data centers are using. The Google Data Center in Lincoln, named Agate LLC, claimed their electricity usage and water usage were trade secret information, citing Neb. Rev. State §§ 81-1527 ; 84-712.05 and NAC TITLE 115, CH. 2 . In fact, Google did this for all three data centers, including their sites in Omaha and Papillion. However, using a computer cursor to highlight the redacted text box in the report to DWEE, then copying and pasting it into a separate document reveals that Agate LLC is reporting 52.65 megawatts of electricity during peak electrical demand and 13.299 megagallons of water between cooling towers, evaporative systems and site operations in the last year. That totals out to 13 million gallons of water. For context, 13 million gallons is enough to fill around 20 Olympic-size swimming pools, and is less than half of what the City of Lincoln reports using on Sept. 29. The six data centers reporting as of Sept. 30 show a tot",
+      "content_source": "page",
+      "tags": [
+        "データセンター",
+        "電力使用量",
+        "水使用量",
+        "情報公開"
+      ],
+      "fetched_at": "2026-10-05T09:32:02.763605+09:00",
+      "summary": "ネブラスカ州のデータセンターは、電力と水の年次報告が義務付けられているが、一部の州法により公開が制限されていた。Googleのリンカーンにあるデータセンター（Agate LLC）では、当初、電力使用量と水使用量を企業秘密としていた。しかし、 redacted されたテキストをコピー＆ペーストすることで、ピーク時の電力使用量が52.65メガワット、水使用量が年間13.299メガガロン（約1300万ガロン）であることが判明した。この情報は、データセンターの環境負荷を評価する上で重要である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_3a2008414207",
+      "source": "hatena",
+      "title": "AI時代に、次のベテランエンジニアは育つのか｜柴田 芳樹",
+      "url": "https://note.com/yoshiki_shibata/n/n185f3d9e13bc",
+      "score": 160,
+      "comments": 0,
+      "raw_description": "私は1978年4月にプログラミングを学び始めました。それから48年以上、さまざまなソフトウェア開発のプロジェクトに携わり、現在もソフトウェア開発を続けています。 この48年間で、ソフトウェア開発を取り巻く環境は大きく変わりました。 そして今、生成AIによって、また大きな変化が起きています。 しかし、今回の変化...",
+      "content_source": "feed",
+      "tags": [
+        "ソフトウェア開発",
+        "生成AI",
+        "エンジニア育成",
+        "キャリアパス"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575181+09:00",
+      "summary": "著者は48年以上のソフトウェア開発経験を持ち、プログラミング学習開始以来、環境の変化を経験してきた。現在は生成AIによる大きな変化の最中にあるが、過去の経験を踏まえ、AI時代におけるベテランエンジニアの育成について考察している。AIの進化が開発者のキャリアパスやスキル習得に与える影響が焦点となる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_8a81a316101e",
+      "source": "hatena",
+      "title": "何これ、すごすぎる！！ PhotoshopやIllustratorをオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料",
+      "url": "https://coliss.com/wp-content/cache/all/articles/build-websites/operation/work/7-adobe-apps-open-sourced.html/index.html",
+      "score": 117,
+      "comments": 0,
+      "raw_description": "これには思わず二度見、いや三度見しました！ Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat Pro, After Effects, InDesignのAdobeのアプリ7種類をAdobeのコードを一切使用せずに、完全に新しいコードを使用して各アプリの機能を忠実に再現したオープンソースのアプリを紹介します。 しかも、すべてのアプ...",
+      "content_source": "feed",
+      "tags": [
+        "オープンソース",
+        "グラフィックデザイン",
+        "動画編集",
+        "Webアプリケーション"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575109+09:00",
+      "summary": "Adobeの主要7製品（Photoshop、Illustratorなど）の機能を、Adobeのコードを一切使用せずに、完全に新規のコードで再現したオープンソースアプリケーション群が開発されました。これらのアプリケーションは、Windows、macOS、Linux、およびWebブラウザで利用可能であり、無料で使用できます。これにより、高機能なクリエイティブツールへのアクセスが大幅に向上し、オープンソースエコシステムにおける新たな可能性が開かれます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_031e340fb499",
+      "source": "hatena",
+      "title": "30年かけて育てた自動耳コピ「WaoN」がiOS/Macアプリに！AI時代にあえて挑む、0倍速でも音が鳴り続ける「わおん」",
+      "url": "https://www.dtmstation.com/archives/80372.html",
+      "score": 113,
+      "comments": 0,
+      "raw_description": "録音された音楽から音符を取り出す「自動耳コピ」は、コンピュータと音楽の世界で昔から追い求められてきたテーマです。そうした中、物理学の研究者からプログラマーに転じた市來健吾（いちき けんご）さんが1996年に書き始め、GPLのオープンソースとして公開してきた採譜プログラム「WaoN」が、iPhone/iPad/Mac用のネイ...",
+      "content_source": "feed",
+      "tags": [
+        "自動耳コピ",
+        "WaoN",
+        "音楽解析",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575322+09:00",
+      "summary": "1996年から開発が続くオープンソースの自動耳コピプログラム「WaoN」が、iOS/Macアプリとしてリリースされました。このプログラムは、録音された音楽から音符を抽出する技術であり、AI時代にあえて挑戦する姿勢が特徴です。0倍速でも音が鳴り続けるという、詳細な音楽解析を目指しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_cb2c326c9f0a",
+      "source": "hatena",
+      "title": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通",
+      "url": "https://zenn.dev/qnighy/articles/json-ambiguity",
+      "score": 96,
+      "comments": 0,
+      "raw_description": "JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通 タイトルは「JSONはシンプルで明快な仕様が魅力ですが、そんなJSONでも微妙な実装差異が生じる罠がいくつかあります。本稿はこうした機微を実装の比較を通じて明らかにします。...",
+      "content_source": "feed",
+      "tags": [
+        "JSON",
+        "実装差異",
+        "データフォーマット",
+        "開発者向け"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575294+09:00",
+      "summary": "JSONはシンプルで明快な仕様を持つデータフォーマットですが、その実装には微妙な差異が生じる可能性があります。本稿では、これらの実装上の機微を比較を通じて明らかにすることで、開発者がJSONを扱う上での注意点を提示します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49943637",
+      "source": "hackernews",
+      "title": "Infidel goes wild",
+      "url": "https://blog.zarfhome.com/2026/10/infidel-goes-wild",
+      "score": 58,
+      "comments": 8,
+      "raw_description": "Planetfall was yesterday's public release, but of course I've spent the past few weeks concentrating on Infidel. A couple of days I came across the most egregious bug I've yet seen in an Infocom game. This bug is extremely difficult to detect ... Zarf Updates Interactive fiction, narrative in games , and so on ▼ ▲ Posts by Andrew Plotkin My links zarfeblong@mastodon eblong.com@bluesky My IF My game reviews Zarfhome Software My Patreon page IFTF Older projects Search (via DDG ) Blog archive ( recent ) 2026 2025 2024 2023 2022 ( more... ) Tag archive if interactive fiction zarf myst cyan hadean lands meanwhile igf boston infocom zork ( more... ) Previous post Visible Planetfall is now available to all Next post A note on content restrictions Feeds atom rss Games are for everyone Infidel goes wild Friday, October 2, 2026 Comments: 6 (plus live) (latest 4 hours later) Tagged: if , interactive fiction , infidel , bugs , z-machine , infocom , zil , visible zorker , patreon Planetfall was yesterday's public release, but of course I've spent the past few weeks concentrating on Infidel . A couple of days I came across the most egregious bug I've yet seen in an Infocom game. This bug is extremely difficult to detect by playing the game. I must the first person to notice it, just because I'm the first person to play the game with (the equivalent of) a memory-level debugger. So why do I call it an egregious bug? Most people would call it a \"trivial\" bug, since it almost never impacts gam",
+      "content_source": "page",
+      "tags": [
+        "Infidel",
+        "Infocom",
+        "バグ",
+        "インタラクティブフィクション"
+      ],
+      "fetched_at": "2026-10-05T09:32:02.147336+09:00",
+      "summary": "Infocomのゲーム「Infidel」で、非常に検出が困難な重大なバグが発見された。このバグは、通常のプレイではほとんど影響がないため、多くのプレイヤーには「些細な」ものと見なされる可能性がある。しかし、開発者視点では、メモリデバッガのようなツールを用いて初めて発見できるほど検出が難しく、ゲーム体験に潜在的な影響を与える可能性があるため、重大視されている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49956681",
+      "source": "hackernews",
+      "title": "A browser-native classic Visual Basic VB6 IDE",
+      "url": "https://wieslawsoltes.github.io/VB6/",
+      "score": 54,
+      "comments": 22,
+      "raw_description": "Independent browser-native Visual Basic style IDE, runtime, form designer and single-file HTML compiler.",
+      "content_source": "meta",
+      "tags": [
+        "VB6",
+        "IDE",
+        "ブラウザネイティブ",
+        "Web開発"
+      ],
+      "fetched_at": "2026-10-05T09:32:02.968118+09:00",
+      "summary": "ブラウザネイティブで動作するVisual Basic 6 (VB6) スタイルのIDE、ランタイム、フォームデザイナー、およびシングルファイルHTMLコンパイラが開発されました。これにより、Webブラウザ上でVB6のような開発環境を利用できるようになります。これは、レガシーなVB6アプリケーションの開発や移行、あるいはVB6の思想を取り入れた新しいWebアプリケーション開発において、開発者の生産性向上に貢献する可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49957117",
+      "source": "hackernews",
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "score": 47,
+      "comments": 15,
+      "raw_description": "Paper: https://www.usenix.org/system/files/atc21-ousterhout.pdf Related: https://lwn.net/Articles/1003059/ , https://www.theregister.com/networks/2026/10/01/stanford-pro...",
+      "content_source": "hn_text",
+      "tags": [
+        "Homa",
+        "ネットワークプロトコル",
+        "AIクラスター",
+        "TCP"
+      ],
+      "fetched_at": "2026-10-05T09:32:03.174897+09:00",
+      "summary": "Stanford大学の研究者らが、AIクラスター向けの新しいネットワークプロトコル「Homa」を発表しました。Homaは、TCPの遅延とオーバーヘッドを削減し、大規模な分散学習ワークロードにおけるメッセージングのパフォーマンスを大幅に向上させることを目指しています。特に、多数の小規模メッセージと少数の大規模メッセージが混在するAIワークロードの特性に合わせて設計されており、レイテンシの改善とスループットの向上が期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_92b9083ba1ad",
+      "source": "hatena",
+      "title": "最近プロジェクトマネジメントで感じたこと - Qiita",
+      "url": "https://qiita.com/shirakurak/items/ee7565d212fd3ae1adcb",
+      "score": 42,
+      "comments": 0,
+      "raw_description": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this article? 最近のプロジェクトマネジメント業務を振り返って、学びの言語化をします。3つ大事だと思ったことを書きます。 この記事は、AI を使っていません（AI 使ってたら、もっとそれっぽい...",
+      "content_source": "feed",
+      "tags": [
+        "プロジェクトマネジメント",
+        "業務改善",
+        "学び",
+        "ITエンジニア"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575230+09:00",
+      "summary": "本記事は、プロジェクトマネジメント業務における3つの重要な学びを言語化したものです。具体的な内容は本文で詳述されていますが、AIは使用していないことが明記されています。プロジェクトマネジメントの現場で得られた実践的な知見を共有することを目的としています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49958569",
+      "source": "hackernews",
+      "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+      "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+      "score": 33,
+      "comments": 10,
+      "raw_description": "No extra software to install: OpenSSH remote forwarding and nginx's secure_link module give you a shareable HTTPS URL with an expiring token. A friend wants to proofread your work-in-progress blog post, but its preview only runs on localhost:8080 . Several tools can help. Some run as a commercial service, like ngrok or Cloudflare Quick Tunnels . Some are self-hostable but require a specific client, like frp or localtunnel . Some only require a plain SSH client but rely on a specific SSH server, like sish . Let’s implement a self-hosted solution with only OpenSSH and nginx ! $ ssh -R 0 :localhost:8080 http-over-ssh Allocated port 41535 for remote forward to localhost:8080 https://6J3jK1WmB15c6WmjW_X-Wg--1789928654@p41535.ssh.luffy.cx/ Basic setup # First, we forward connections from a port on a remote server to your local service: $ ssh -N -R 0 :localhost:8080 web02.luffy.cx Allocated port 41535 for remote forward to localhost:8080 When you specify 0 as the remote port, the server allocates a free port. Then, we configure nginx to proxy requests from https://p41535.ssh.luffy.cx to http://127.0.0.1:41535 : server { listen 0.0.0.0 : 443 ssl ; listen [::0]:443 ssl ; server_name ~ ^p(?<port>\\d\\d\\d\\d\\d)\\.ssh\\.luffy\\.cx$; location / { proxy_pass http://127.0.0.1: $port ; } } We also need to add DNS records for *.ssh.luffy.cx and get a wildcard certificate through Let’s Encrypt : *.ssh.luffy.cx. CNAME web02.luffy.cx. ssh.luffy.cx. CAA 0 issuewild \"letsencrypt.org\" _acme-challenge.ssh",
+      "content_source": "page",
+      "tags": [
+        "OpenSSH",
+        "Nginx",
+        "HTTPトンネル",
+        "セキュア"
+      ],
+      "fetched_at": "2026-10-05T09:32:02.559241+09:00",
+      "summary": "OpenSSHのリモートフォワーディングとNginxのsecure_linkモジュールを組み合わせることで、追加ソフトウェアのインストールなしに、有効期限付きトークンを持つ共有可能なHTTPS URLを作成できます。これにより、ローカルホストで実行されているサービスを外部に公開する際に、SSHクライアントとNginxのみでセキュアなトンネルを構築できます。この方法は、既存のインフラストラクチャを活用しつつ、手軽に外部共有を実現する手段として有効です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_278fc3e765ec",
+      "source": "hatena",
+      "title": "最近の不正アクセスのパターンから読む — 攻撃開始が見えない「静かな侵入」",
+      "url": "https://aikido-community.jp/articles/quiet-business-app-database-access",
+      "score": 17,
+      "comments": 0,
+      "raw_description": "9月下旬に相次いだ日本郵便・ヤマト・佐川・セイコーマート・タイムズカー・ニッポンレンタカーの不正アクセスを並べ、被害範囲の境界と発覚のきっかけから共通する攻撃パターンを推測します。攻撃者は先に正常な利用パターンを読み、アプリの正規の経路でデータを読んでいたのではないか。...",
+      "content_source": "feed",
+      "tags": [
+        "不正アクセス",
+        "サイバー攻撃",
+        "セキュリティ",
+        "侵入検知"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575347+09:00",
+      "summary": "最近の日本郵便、ヤマト、佐川などの不正アクセス事例から、攻撃者が正規のアプリ経路を利用し、正常な利用パターンを模倣して静かに侵入する手口が推測される。この「静かな侵入」は、従来の攻撃と異なり、検知が困難であるため、セキュリティ対策の新たな課題となっている。攻撃者は、ユーザーの行動を学習し、そのパターンに紛れ込むことで、発見されずに情報を窃取する可能性が指摘されている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49959260",
+      "source": "hackernews",
+      "title": "1 in 8 cancer cases are caused by infections",
+      "url": "https://www.livescience.com/health/cancer/1-in-8-cancer-cases-are-caused-by-infections-underscoring-the-importance-of-vaccines-experts-say",
+      "score": 16,
+      "comments": 4,
+      "raw_description": "Four pathogens account for most infection-related cancers, a new study highlights, but the tools to prevent them range from well-established vaccines to treatments still under development.",
+      "content_source": "meta",
+      "tags": [
+        "がん",
+        "感染症",
+        "予防",
+        "研究"
+      ],
+      "fetched_at": "2026-10-05T09:32:03.401312+09:00",
+      "summary": "感染症が原因となるがんの約8分の1は、4つの病原体によって引き起こされることが新たな研究で示されました。これらの感染症を予防する手段には、確立されたワクチンから開発中の治療法まで様々です。感染症予防によるがんリスク低減の重要性が示唆されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d923b47d39e0",
+      "source": "hatena",
+      "title": "AIエージェントによる通信が1700％増、Cloudflareが課金基盤を整備──ステーブルコイン決済対応 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/105823",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "AIエージェントの急増で、ウェブの利用構造と収益モデルが変わり始めている。Cloudflare（クラウドフレア）では、AIエージェントからの1日当たりアクセス要求が過去1年間で1700％超増え、同社が処理するトラフィックの半分超を人間以外による通信が占めた。同社は、AIエージェントがウェブページやデータ、APIなどを利用...",
+      "content_source": "feed",
+      "tags": [
+        "AIエージェント",
+        "Cloudflare",
+        "トラフィック増加",
+        "課金基盤"
+      ],
+      "fetched_at": "2026-10-05T09:32:01.575371+09:00",
+      "summary": "Cloudflareは、AIエージェントからの通信量が過去1年間で1700%以上増加し、処理トラフィックの半分以上を占めるようになったことを発表しました。この急増は、AIエージェントがウェブページ、データ、APIなどを利用するようになったことで、ウェブの利用構造と収益モデルに変化をもたらしています。同社は、この変化に対応するため、AIエージェントからの通信を課金対象とする基盤整備を進めており、ステーブルコインによる決済にも対応する予定です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_51a13e18f7e0",
+      "source": "reddit",
+      "title": "Red, green and mud: fixing color mixing in Total Draw",
+      "url": "https://www.reddit.com/r/programming/comments/1wxd33z/red_green_and_mud_fixing_color_mixing_in_total/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "I went into a bit of a rabbit hole of gamma-based color blending vs linear-based color blending vs perceptual-based color blending for my drawing app Total Draw, so I decided to create a blog post about it. submitted by /u/Rupour [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "カラーブレンディング",
+        "ガンマ補正",
+        "リニア補正",
+        "描画アプリ"
+      ],
+      "fetched_at": "2026-10-05T09:32:03.710669+09:00",
+      "summary": "描画アプリ「Total Draw」の開発者は、ガンマベース、リニアベース、知覚ベースのカラーブレンディングに関する技術的な調査結果を共有しています。この調査は、アプリのカラーミキシング機能の改善を目的としており、技術的な詳細と実装上の考慮事項に焦点を当てています。これにより、より正確で意図した通りの色表現を実現することが期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_8d39a183971d",
+      "source": "reddit",
+      "title": "\"8-pinski\" - EIGHT(!) bytes intro for MSDOS",
+      "url": "https://www.reddit.com/r/programming/comments/1wxoefa/8pinski_eight_bytes_intro_for_msdos/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/double-happiness [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "MS-DOS",
+        "intro"
+      ],
+      "fetched_at": "2026-10-05T09:32:03.710831+09:00",
+      "summary": "MS-DOS向けの8バイトのイントロプログラムに関する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_dc2a6a279549",
+      "source": "reddit",
+      "title": "Your Xiaomi phone may be sending you phishing notifications.",
+      "url": "https://www.reddit.com/r/programming/comments/1wxr63h/your_xiaomi_phone_may_be_sending_you_phishing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "TLDR: the ads on Xiaomi phone can imitate icons of apps you already have installed. In my case some phishing \"spotify casino\" app was shown as if it was a legit notification. This fake notification lead to the actual spotify app settings when clicking 'more' on the notifications. It seems that MIUI has some whitelisted apps (i.e their system ads application ) that can show notifications on behalf of other apps submitted by /u/Cload_ [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Xiaomi",
+        "MIUI",
+        "フィッシング",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-05T09:32:03.723021+09:00",
+      "summary": "Xiaomiスマートフォンの広告機能が、正規アプリのアイコンを模倣したフィッシング通知を表示する問題が報告されています。これにより、ユーザーは正規の通知と誤認し、マルウェアサイトへ誘導される可能性があります。この問題は、MIUIの広告システムが特定のアプリ（システム広告アプリなど）に対して、他のアプリになりすました通知表示を許可していることに起因すると考えられます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_8faa704da317",
+      "source": "reddit",
+      "title": "Metal as a Service (MaaS): DIY server-management at scale",
+      "url": "https://www.reddit.com/r/programming/comments/1wxfaeo/metal_as_a_service_maas_diy_servermanagement_at/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Ok_Stomach6651 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Metal as a Service",
+        "MaaS"
+      ],
+      "fetched_at": "2026-10-05T09:32:03.723186+09:00",
+      "summary": "Metal as a Service (MaaS) という、サーバー管理を自作（DIY）して大規模に実行するためのサービスについての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
