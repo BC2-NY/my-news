@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T10:48:36.893734+09:00",
+  "articles": [
+    {
+      "id": "hn_50008427",
+      "source": "hackernews",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "score": 536,
+      "comments": 120,
+      "raw_description": "An open speech recognition model that runs on the same CPU engine as Needle. It transcribes seven languages, reaches the first token in 11 ms, and loads beside Needle so one binary turns a clip straight into tool calls. Today we release Whistle, a speech recognition model for mobiles, wearables, robots, smart home, automotive and microcontrollers. It is one 16.9 MB file, runs on the CPU with no dependencies, and loads into the same C++ engine as Needle , from the same container and the same quantisation. Whistle sandbox Speak, and Whistle transcribes it on your device 16.9 MB · runs in this tab Language Keywords Press the mic and say something. Up to 30 seconds in English, German, French, Spanish, Italian, Dutch or Polish. The first press downloads the 16.9 MB model, and audio never leaves your device. Whistle does three jobs, all of them on the device: Transcription. 16 kHz mono audio, up to 30 seconds in one pass, in English, German, French, Spanish, Italian, Dutch and Polish. The language is detected unless you name it. Word timestamps. Every word with its start, end and probability, aligned from the decoder's attention. Speech embedding. The encoder output, one row per 80 ms frame, without decoding a transcript. The model ENCODER Waveform 16 kHz mono, up to 30 s = 480,000 samples Log-mel 80 bins, 25 ms window, 10 ms hop, 250-3500 Hz, normalised per channel → 3,000 frames Convolutional stem 128 channels, kernel 9, three halvings → 375 frames, one per 80 ms Simple Attention",
+      "content_source": "page",
+      "tags": [
+        "音声認識",
+        "オンデバイス処理",
+        "軽量モデル",
+        "CPU"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.667523+09:00",
+      "summary": "Whistleは、CPU上で動作する16.9MBのオープンソース音声認識モデルです。7言語に対応し、初回トークン到達まで11msと高速です。モバイル、ウェアラブル、IoTデバイスなど、CPUリソースが限られる環境でのオンデバイス処理に最適化されています。音声認識だけでなく、単語ごとのタイムスタンプ付与や、デコード前の音声埋め込み生成も可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50000488",
+      "source": "hackernews",
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "score": 422,
+      "comments": 352,
+      "raw_description": "thoughts, talks, docs and unpopular opinions Why Isn't The Industry Freaking Out About DeepSeek 4.1 Flash? 07 October 2026 tech I have been using DeepSeek 4.1 Flash for about a month, heavily, across a dozen projects. It is super capable, and orders of magnitude cheaper than the \"frontier\" models. When I'm mid-session, if I don't look at the model name, I honestly could not tell you if I'm using DeepSeek or Opus. Whether it's our conversations, the work, or the speed, I don't notice a difference. I don't care that there is no 4.1 \"Pro\". I treat this like a frontier model because it behaves like one . I'm coming at this from my subjective usage experience, but you can see more complete benchmarks here if that floats your boat. So why aren't the frontier labs freaking out right now? China is going to eat their lunch. They may be a month or two behind Anthropic/OpenAI, but these distilled Chinese models can handle the same workloads. Sure, they stole Claude's training , and Anthropic stole it from other people. I'm not getting into the whole who-owns-whose-data debate, because most developers aren't thinking like that. They're just trying to get the most bang for their buck. Good Enough Changes How You Work Today's models are now good enough for high-quality unattended tasks. Chasing the latest and greatest is silly. It is fun to see the new Fable capabilities, but the tasks we throw at them are usually ridiculous (maybe even insulting) if you believe in LLM sentience. It's like",
+      "content_source": "page",
+      "tags": [
+        "DeepSeek",
+        "LLM",
+        "AI",
+        "コストパフォーマンス"
+      ],
+      "fetched_at": "2026-10-09T10:48:15.141959+09:00",
+      "summary": "DeepSeek 4.1 Flashは、最先端モデルと比較して遜色ない性能を持ちながら、大幅に安価であると評価されています。筆者は1ヶ月以上の利用経験から、会話、作業品質、速度のいずれにおいても最先端モデルとの差を感じていないと述べています。この高性能かつ低コストなモデルの登場は、既存の大手AI開発企業にとって、中国製モデルの台頭による競争激化を意味する可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49995495",
+      "source": "hackernews",
+      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "url": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+      "score": 399,
+      "comments": 256,
+      "raw_description": "The man said they discovered that their parents’ coffee maker had generated far more traffic than they expected. Entertainment Man discovers his parents’ coffee machine used 1TB of data in 10 days by Joe Pring Published: Oct 07, 2026, 16:07 Save for later Save for later Add as a preferred source on Google Follow on Google News A man has decided to buy his parents a new coffee maker after discovering their smart machine broadcast a massive 1TB of data in just 10 days. Going by Nomad, the man shared his discovery on X after checking their parents’ network activity and finding that their coffee maker had generated far more traffic than they expected. Smart coffee maker broadcasts 1TB of data in 10 days After his post went viral, Nomad explained that he had worked in IT for more than 10 years and decided to look further into what had happened. He found that while the coffee maker had generated 1TB of traffic, most of it stayed within his parents’ home network rather than being sent over the internet. “This is likely a bug with this unit,” he explained. “It did saturate my AP, that sucked.” In simpler terms, the coffee maker was generating so much traffic that it overwhelmed part of the home Wi-Fi setup. Hey uh, @Keurig – what the hell is a COFFEE MACHINE uploading, let me double check… ONE FUCKING TERABYTE OF DATA IN 10 DAYS!?!? Immediately unplugging that. Getting my parents a new coffee machine. pic.twitter.com/tTHMYC7hND — Nomad (@NomadsGalaxy) October 6, 2026 Nomad considered",
+      "content_source": "page",
+      "tags": [
+        "IoT",
+        "ネットワーク",
+        "バグ",
+        "スマート家電"
+      ],
+      "fetched_at": "2026-10-09T10:48:15.396882+09:00",
+      "summary": "ある男性が、両親のスマートコーヒーメーカーが10日間で1TBのデータを生成したことを発見しました。このトラフィックの大部分はインターネットではなく家庭内ネットワーク内で発生していましたが、アクセスポイントを飽和させるほど大量でした。男性はこれをコーヒーメーカーのバグである可能性が高いと指摘しており、IT専門家としての経験から調査した結果です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_49986882",
+      "source": "hackernews",
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "score": 391,
+      "comments": 64,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Home Assistant",
+        "illustrator"
+      ],
+      "fetched_at": "2026-10-09T10:48:15.593266+09:00",
+      "summary": "自宅のイラストをホームアシスタントのダッシュボードとして利用したという記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50009295",
+      "source": "hackernews",
+      "title": "Theranos.world",
+      "url": "https://www.theranos.world/",
+      "score": 277,
+      "comments": 114,
+      "raw_description": "An interactive simulation of Elizabeth Holmes' desk. Open her MacBook, scroll her iPhone, run the Edison machine. Every text and email is real, from the court trial, parsed by Extend. -Bo Finder File Edit View Go Mailbox Message Format Window Help 100% Wed 9:41 AM Documents Keynote Spreadsheets 100% 9:41 AM Elizabeth Holmes Log In ? Click Log In or press Return or Space. No password is required. Click Log In or press Return. Sleep Restart Shut Down Click the chair to sit Tap to sit Press Esc to stand up Tap to stand up Drag to look Pinch to zoom",
+      "content_source": "page",
+      "tags": [
+        "Theranos",
+        "エリザベス・ホームズ",
+        "シミュレーション",
+        "裁判"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.895318+09:00",
+      "summary": "Theranos.worldは、エリザベス・ホームズのデスクを再現したインタラクティブなシミュレーションです。裁判で提出された実際のテキストやメールを閲覧でき、MacBookを開いたり、iPhoneをスクロールしたり、Edisonマシンを操作したりできます。このシミュレーションは、Theranos社の元CEOであったホームズ氏の当時の状況を追体験できる点が特徴です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_732accf6bc40",
+      "source": "hatena",
+      "title": "AIに月3万円使えない人はその時点で負けている ｜手羽先",
+      "url": "https://note.com/teba_eleven/n/n61e5e7700881",
+      "score": 239,
+      "comments": 0,
+      "raw_description": "釣りタイトルです。 結論：AIに月3万円使えない学生はその時点で負けている 月3000円のプランと月3万円のプランでは数十倍から数百倍できることが違う そもそも月3万円を投資できない時点で厳しい AIに全て賭けろ 月3万円も稼げない！という学生やエンジニア いくらでも相談にのります 連絡先：https://magicdelta.ai/co...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "投資",
+        "学生",
+        "エンジニア"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.339901+09:00",
+      "summary": "この記事は、AIツールの利用料として月額3万円を投資できない学生やエンジニアは、AIの進化についていけず、その時点で競争に負けていると主張しています。月額3000円のプランと月額3万円のプランでは、利用できる機能や可能性が数十倍から数百倍異なると指摘し、AIへの投資が将来の成功に不可欠であるという見解を示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_2eeebd872b71",
+      "source": "hatena",
+      "title": "情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 | SECURITY DRIVE",
+      "url": "https://securitydrive.jp/column/0023/",
+      "score": 128,
+      "comments": 0,
+      "raw_description": "情報漏えいの公表急増――いま増えているのは「攻撃」ではなく「発覚」 2026年9月、国内で不正アクセスや情報漏えいの公表が相次いだ。タイムズカーの約660万アカウント、セイコーマートのアプリ会員約57万アカウントをはじめ、わずか数日の間に大手・官公庁が次々と被害を明らかにした。なぜいまこの短期間で公表が爆増し...",
+      "content_source": "feed",
+      "tags": [
+        "情報漏えい",
+        "不正アクセス",
+        "セキュリティ",
+        "公表"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.339976+09:00",
+      "summary": "2026年9月、国内で不正アクセスや情報漏えいの公表が急増しました。タイムズカーやセイコーマートなど、大手企業や官公庁が短期間に被害を公表した事例が相次ぎました。この記事は、この公表の急増が、実際の攻撃の増加ではなく、情報漏えいの「発覚」が増加している可能性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50010470",
+      "source": "hackernews",
+      "title": "The value of not getting to the point (2015)",
+      "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/",
+      "score": 117,
+      "comments": 40,
+      "raw_description": "The Value of Not Getting to the Point by Ken Arneson 2015-11-06 9:42 I read somewhere recently, I forget where, that the purpose of people getting together for a conversation over a beer or coffee or lunch or dinner is that it the food and drink spare us from the burden of needing to have something to say throughout the whole conversation. This was a revelation to me. All this time, I assumed that the primary purpose of lunch was lunch. All this time, I figured that I was just lousy at conversation because being an introvert made conversation awkward and laborious for me. For everyone else, conversation seems comparatively effortless. But it seems from this data that conversation must be harder for everyone else than I had assumed. My oldest daughter is a freshman in college. She recently texted me and said she wanted to talk. I asked, what about? She got annoyed at me for asking. I was clueless as to why. I guess the Dunning-Kruger effect applies to all of us, there’s always some area of life where we’re so incompetent we don’t even know we’re incompetent. This area, apparently, was one of mine. She asked if we could just talk about something stupid. So I called her, and we talked about Donald Trump and the presidential race and stuff like that for a good long while. I didn’t ask about what was really bothering her. Eventually, the conversation turned, and we finally got to talking about the thing she wanted to talk about. But that probably at least half an hour into the con",
+      "content_source": "page",
+      "tags": [
+        "会話",
+        "コミュニケーション",
+        "雑談",
+        "心理学"
+      ],
+      "fetched_at": "2026-10-09T10:48:15.834066+09:00",
+      "summary": "この記事は、会話における「本題に入るまでの時間」の価値について論じています。筆者は、友人との食事や飲み会が、常に気の利いたことを言う必要から解放してくれることに気づき、会話は本題に入るまでの雑談や世間話も含めて成り立っていると述べています。娘との会話の例を通して、相手が本当に話したいことへ自然に移行するまでのプロセスが重要であることを示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_652a218a547e",
+      "source": "hatena",
+      "title": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表",
+      "url": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+      "score": 112,
+      "comments": 0,
+      "raw_description": "さくらインターネット、GPU専有によりトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」提供開始を発表 さくらインターネットは、GPUサーバ上で基盤モデルを展開しマネージドサービスとして提供する「さくらのAI Engine」を、企業がGPUを専有して使える「さくらのAI Engine プラ...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "GPU",
+        "クラウド",
+        "さくらインターネット"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.339788+09:00",
+      "summary": "さくらインターネットは、GPUを専有して利用できる「さくらのAI Engine プライベートエディション」の提供を開始しました。これにより、企業はトークン消費量を気にすることなく、定額料金で基盤モデルをGPUサーバ上で利用可能になります。このサービスは、AI開発におけるコスト管理とリソースの安定確保に貢献するものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_6ba51e01c0be",
+      "source": "hatena",
+      "title": "ブックオフグループ 最大で643万件の会員情報漏えいの可能性 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261009de56955",
+      "score": 75,
+      "comments": 0,
+      "raw_description": "【NHK】中古書籍の販売などを手がける「ブックオフグループホールディングス」は、子会社が提供する会員情報の管理システムに不正アクセスがあり、最大で643万件の会員の情報が漏えいした可能性があると発表しました。 ブックオフ 不正アクセスで最大643万件の会員情報漏えいか 2026年10月9日 8:52 ( 2026年10月9日 10:20 更新) シェアする サイバー攻撃 中古書籍の販売などを手がける「ブックオフグループホールディングス」は、子会社が提供する会員情報の管理システムに不正アクセスがあり、最大で643万件の会員の情報が漏えいした可能性があると発表しました。 … 注目ワード サイバー攻撃 IT・ネット 企業・経営 あわせて読みたい 消費税法案提出へ 与党“早期審議入り”野党“財源追及” 10月9日 5:02 企業への不正アクセス 相次いで明らかに 10月9日 5:38 声優などの団体 声の生成AIガイドライン初作成“事前許諾を” 10月9日 5:13 トヨタ 中国で競争力強化へ 中国の車大手と3社で戦略提携 10月9日 1:14 ファーストリテイリング決算 国内外好調で過去最高益 10月9日 0:50 2026年ノーベル賞 9日は平和賞発表 10月8日 22:36 ドジャース 3年連続でリーグ優勝決定シリーズ進出 10月8日 19:50 阪神 佐藤輝明が三冠王 4年ぶり史上9人目 村上宗隆以来 10月8日 23:54 負けても負けても…愛される 新“負け組の星” 10月7日 17:18 深掘りコンテンツ 負けても負けても…愛される 新“負け組の星” 10月7日 17:18 「監視社会」か「治安の維持」か カメラをめぐる論争 10月7日 12:10 「これで元に戻れる」 と思っていた 10月6日 16:16 サバも手が届かない！？庶民の魚サバ高騰 背景には何が 10月5日 11:08 アルツハイマー病だった父 私は・・・ 10月4日 20:20 バンス副大統領の故郷にいって評判を聞いてみた 10月4日 14:26 ネクタイの締め方がわからない 10月3日 11:34 「人工的に豪雨が…」 大雨フェイクを検証 AIで偽の予測画像も 10月3日 16:01 深掘りコンテンツのニュースをもっと見る 最新・注目の動画 最新・注目の動画 配信中の動画を見る 天気予報・防災情報 天気予報・防災情報 天気予報・防災情報を確認する 新着ニュース 新着ニュース アメリカの特使らがウクライナの代表団と実務協議へ 10月9日 10:44 ブックオフ 不正アクセスで最大643万件の会員情報漏えいか 10月9日 10:20 【動画】Pickup NEWS（10月9日） 10月9日 9:48 政府 食料品の消費税減税関連法案を閣議決定 10月9日 9:45 新着ニュース一覧を見る 各地のニュース 各地のニュース 地域を選択 都道府県を選ぶとその地域のニュースページへ移動します。 地図から選ぶ",
+      "content_source": "page",
+      "tags": [
+        "情報漏洩",
+        "不正アクセス",
+        "サイバー攻撃",
+        "個人情報保護"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.339856+09:00",
+      "summary": "ブックオフグループホールディングスは、子会社が提供する会員情報管理システムへの不正アクセスにより、最大643万件の会員情報が漏洩した可能性があると発表しました。この事態は、個人情報保護の重要性と、サイバーセキュリティ対策の強化が不可欠であることを改めて浮き彫りにしています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_73fef7e49cab",
+      "source": "hatena",
+      "title": "外国人技術者の米永住権申請制度、Microsoftの利用停止　バンス氏表明 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN08BSH0Y6A001C2000000/",
+      "score": 73,
+      "comments": 0,
+      "raw_description": "【ワシントン=芦塚智子、シリコンバレー=山田遼太郎】バンス米副大統領は8日、高技能の外国人技術者が米国永住権（グリーンカード）を取得できる制度について、米マイクロソフトなどによる利用を停止すると発表した。同社が制度を悪用して米国民の職を奪っていると主張した。バンス氏はホワイトハウスでの記者会見で、マ...",
+      "content_source": "feed",
+      "tags": [
+        "永住権",
+        "外国人技術者",
+        "Microsoft",
+        "雇用"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.339936+09:00",
+      "summary": "米副大統領は、高技能外国人技術者向けの永住権取得制度について、Microsoftなどの利用停止を発表しました。これは、同制度が悪用され、米国民の雇用を奪っているとの主張に基づいています。この措置は、外国人技術者の米国でのキャリアパスに影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50011999",
+      "source": "hackernews",
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "score": 69,
+      "comments": 7,
+      "raw_description": "Biohub, DOE, NIH, and partners will generate open, standardized data to train AI models that predict how cells respond to interventions. ← Back to News October 7, 2026 International, cross-sector collaboration commits nearly $2 billion to build foundational data for AI models to predict and treat disease AI , Data REDWOOD CITY, CA, October 7, 2026 — Biohub, the U.S. Department of Energy, the National Institutes of Health, and new funding partners today announced a major expansion of an international effort to generate and make accessible the data enabling predictive AI models of biology. Together, the organizations are investing $1.8 billion in funding, data, computation, and new measurement technology, the largest coordinated commitment to generating AI-ready biological data to date. The result will be an open resource for the research community that provides the foundation for greater understanding and ultimately treatment of human diseases. As part of this announcement, Biohub has partnered with the Department of Energy (DOE) Office of Science and the National Institutes of Health (NIH) to advance the frontier of artificial intelligence in biology. DOE will invest more than $500 million over five years in lab measurement, modeling and computation toward the international effort to build an AI-ready open data resource. NIH will coordinate the contribution of relevant datasets, repositories, and knowledge bases developed through more than $500 million in prior federal invest",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-09T10:48:16.281266+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_8b0f1b8043ce",
+      "source": "hatena",
+      "title": "ペタバイト規模（約8兆レコード）の DMM データ基盤、Embulk やめました",
+      "url": "https://zenn.dev/dmmdata/articles/embulk-to-dlt-migration",
+      "score": 47,
+      "comments": 0,
+      "raw_description": "はじめに Embulk を使い続けて数年。そろそろ移行したいと思いつつ、そのままになっていませんか。 DMM では、Embulk のメンテナンスモード移行の発表に伴い、長年運用してきたデータ取り込みを dlt へ移行しました。 しかも、5 名のチームで技術選定から検証、取り込み処理の実装を約 3 週間で進め、一部テーブルの新旧...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-09T10:48:14.340015+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_3692023524d8",
+      "source": "hatena",
+      "title": "Google、AI生成コンテンツを見分ける「SynthID Detector」を一般に開放／OpenAI、NVIDIA、Kakaoなどの生成AIに対応。Appleも対応予定",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2146802.html",
+      "score": 46,
+      "comments": 0,
+      "raw_description": "米Googleは10月7日（現地時間）、「SynthID Detector」の提供範囲を大幅に拡大したと発表した。同日から、一般ユーザーも全世界で利用できるようになった。提供言語は英語。 ニュース Google、AI生成コンテンツを見分ける「SynthID Detector」を一般に開放 OpenAI、NVIDIA、Kakaoなどの生成AIに対応。Appleも対応予定 樽井 秀人 2026年10月8日 17:32 「SynthID Detector」 米Googleは10月7日（現地時間）、「SynthID Detector」の提供範囲を大幅に拡大したと発表した。同日から、一般ユーザーも全世界で利用できるようになった。提供言語は英語。 「SynthID Detector」は、コンテンツ（画像、動画、音声）がAIによって生成・編集されたかどうかをチェックできるツール。AIが関与するコンテンツに埋め込まれる電子透かし（ウォーターマーク）「SynthID」を検出し、どのAIプロバイダーの技術で生成・編集されたのかをユーザーに知らせる。 「SynthID」は2023年に提供が開始され、以来合計1,800億件以上の画像・動画、24万年分相当の音声コンテンツに付与されてきたという。一般的な透かしと異なり、人間には知覚できないため、検出のためには「SynthID Detector」のようなツールが必要となる。 本ツールは昨年より、メディアの専門家を対象に 早期版 として提供されていたが、今回、一般ユーザーでもアクセスできるようになった。 「SynthID Detector」はGoogle以外にも、以下のAIプロバイダーに対応する。 OpenAI NVIDIA Kakao Apple（近日対応予定） 対応するファイル形式は、以下のとおり。 画像 ：JPEG、PNG、BMP、WEBP、AVIF、HEIC、HEIF、TIFF、GIF 動画 ：MP4、MOV、WEBM 音声 ：WAVE、MP3、OGG、FLAC、AAC、M4A 検証の結果は、透かしが『検出された』か『検出されなかった』かで示される。動画と音声では、透かしがある区間も検出される。 利用の際はGoogle、Apple、ChatGPTのいずれかのアカウントが必要 ファイルをアップロードして、「SynthID」をチェック 検証の結果は、透かしが『検出された』か『検出されなかった』かで示される。動画と音声では、透かしがある区間も検出される。 ただし、『検出されなかった』場合であっても、AIで生成・加工されていないとは言い切れない点には注意。本ツールはあくまでも「SynthID」の有無を調べるものなので、「SynthID」に対応していないモデルで作成されたAIコンテンツには対応できない。 また、大幅な加工などで透かしの信号が劣化した場合は、検出されないことがあるとのこと。ごくまれだが、透かしのないコンテンツで「SynthID」が誤検出されることもある点にも注意したい。 「SynthID Detector」にアップロードされたファイルは、検出結果を出した後すぐに削除される。サービスの悪用を防ぐため、1日あたりの利用回数には上限が設けられており、自動化による大量の検証リクエストなども利用規約で禁止されている。「SynthID」の検証機能は「Google 検索」や「Gemini」アプリ、「Google Chrome」などにも組み込まれているので、こちらも併せて活用したい。 Amazonで購入 「AIコンテンツ」関連商品",
+      "content_source": "page",
+      "tags": [
+        "AI生成コンテンツ",
+        "SynthID Detector",
+        "電子透かし",
+        "コンテンツ検出"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.339982+09:00",
+      "summary": "GoogleはAI生成コンテンツを検出する「SynthID Detector」を一般公開しました。このツールは、AIが生成・編集したコンテンツに埋め込まれる電子透かし「SynthID」を検出し、OpenAI、NVIDIA、Kakaoなどの主要なAIプロバイダーに対応しています。検出結果は「検出された」か「検出されなかった」で示されますが、検出されなかった場合でもAI生成を完全に否定するものではなく、透かしの劣化や非対応モデルによる生成の可能性も考慮する必要があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_5aaa765a31ee",
+      "source": "hatena",
+      "title": "ブックオフに不正アクセス、最大約643万件の個人情報流出　氏名、住所、ハッシュ化パスワードなど",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002150/",
+      "score": 35,
+      "comments": 0,
+      "raw_description": "クレジットカード情報などの決済情報は同システムで保有していないため含まれない。 不正アクセスは10月6日に確認。調査した結果、同システムで管理している会員情報が外部から取得されたことが分かった。攻撃元からの通信を遮断し、脆弱性を是正した上で、対象システムへの外部からのアクセスを遮断して監視を続けてい...",
+      "content_source": "feed",
+      "tags": [
+        "個人情報流出",
+        "不正アクセス",
+        "会員情報",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-09T10:48:14.340043+09:00",
+      "summary": "ブックオフコーポレーションは、会員情報システムへの不正アクセスにより、最大約643万件の個人情報が流出した可能性があることを発表しました。流出した情報には、氏名、住所、ハッシュ化されたパスワードなどが含まれますが、クレジットカード情報などの決済情報は含まれていません。不正アクセスは10月6日に確認され、現在は外部からのアクセス遮断と監視が続けられています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50013931",
+      "source": "hackernews",
+      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+      "url": "https://svg-spark.vercel.app/",
+      "score": 25,
+      "comments": 1,
+      "raw_description": "Converters, formatters and debuggers that never upload your files. SVG → PNG / WebP Batch convert vectors to raster images. Regex Visualizer Debug patterns with live highlighting. Social Image Resizer Crop with platform safe-zone overlays. PDF Splitter & Merger Merge or split PDFs in your browser. JSON → CSV / Excel Flatten JSON and export spreadsheets. SRT to Clean Text Strip timestamps from subtitles. UTM Link Builder Build and track campaign URLs. SQL Formatter Beautify queries for any dialect. Contrast Checker WCAG AA/AAA accessibility scoring. Markdown Previewer Live preview, HTML and rich-text export. Privacy guaranteed: all processing happens 100% locally on your computer. Your files are never uploaded to a server. Enjoying these tools? Buy me a coffee",
+      "content_source": "page",
+      "tags": [
+        "SVG",
+        "Web開発ツール",
+        "クライアントサイド",
+        "デザインツール"
+      ],
+      "fetched_at": "2026-10-09T10:48:16.032363+09:00",
+      "summary": "SVG Sparkは、クライアントサイドで動作する10種類のSVGデザインおよび開発ツール群です。ファイル変換、フォーマット、デバッグ機能を提供し、全ての処理がローカルで完結するためプライバシーが保証されます。これにより、ユーザーはサーバーにファイルをアップロードすることなく、SVGからPNG/WebPへのバッチ変換、正規表現の視覚化、ソーシャルメディア用画像のリサイズ、PDFの分割・結合、JSONからCSV/Excelへの変換、字幕からのテキスト抽出、UTMリンク生成、SQLフォーマット、コントラストチェッカー、Markdownプレビューアといった多様な機能を安全に利用できます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_f4c224be4410",
+      "source": "reddit",
+      "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
+      "url": "https://www.reddit.com/r/programming/comments/1x0j559/margaret_hamilton_computing_pioneer_who_led/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mareek [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Margaret Hamilton",
+        "Apollo program"
+      ],
+      "fetched_at": "2026-10-09T10:48:16.629102+09:00",
+      "summary": "アポロ計画のソフトウェア開発を主導したコンピューティングのパイオニアであるマーガレット・ハミルトン氏が90歳で亡くなったとのことです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_95d10139653d",
+      "source": "reddit",
+      "title": "Adopting Pyrefly as the Python type checker at Google",
+      "url": "https://www.reddit.com/r/programming/comments/1x0p1v8/adopting_pyrefly_as_the_python_type_checker_at/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BeamMeUpBiscotti [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Google",
+        "Python"
+      ],
+      "fetched_at": "2026-10-09T10:48:16.629272+09:00",
+      "summary": "GoogleがPythonの型チェッカーとしてPyreflyを採用することについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_66f5df2fb87b",
+      "source": "reddit",
+      "title": "Two-Way Doors: Don’t Code Yourself into a Corner",
+      "url": "https://www.reddit.com/r/programming/comments/1x0vmxt/twoway_doors_dont_code_yourself_into_a_corner/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/ghled [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Two-Way Doors",
+        "Code"
+      ],
+      "fetched_at": "2026-10-09T10:48:16.629424+09:00",
+      "summary": "「Two-Way Doors」という概念について、コードを書く際に不利益な状況に陥らないようにするための注意点を解説する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_a034c57e52b4",
+      "source": "reddit",
+      "title": "Bit arrays in the Linux kernel",
+      "url": "https://www.reddit.com/r/programming/comments/1x0sbg2/bit_arrays_in_the_linux_kernel/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/0xAX [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Linux",
+        "kernel"
+      ],
+      "fetched_at": "2026-10-09T10:48:16.629582+09:00",
+      "summary": "Linuxカーネルにおけるビット配列の実装についての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
