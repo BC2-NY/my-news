@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T10:34:02.636088+09:00",
+  "articles": [
+    {
+      "id": "hn_50019911",
+      "source": "hackernews",
+      "title": "Cloudflare acquires Deno",
+      "url": "https://deno.com/blog/cloudflare",
+      "score": 1063,
+      "comments": 556,
+      "raw_description": "Putting ourselves in the best place to build the future of the web Deno is joining Cloudflare October 9, 2026 Ryan Dahl Announcements Product Update For years, we’ve been working to make building server software simpler. We questioned how modules could be distributed, what security guarantees a JavaScript runtime could provide, what belonged in a complete toolchain, and how easily an application could be distributed as a standalone executable. Compatibility with Node.js became an important part of that work too: our users wanted the Deno improvements while continuing to plug into the existing JS ecosystem. The team and community built a runtime that brought these capabilities together and challenged assumptions about what JS development could look like. Today we’re announcing that the entire Deno team is joining Cloudflare to take that work further. Our ambition has always extended beyond the runtime. I wrote about this in my JavaScript Containers blog post: compute, storage, and communication working together, without every application assembling its own infrastructure. With Deno Deploy , we took another step towards that goal. We wanted to make running applications as straightforward as possible. But building and operating Deploy also showed us how much complexity remained underneath that developer experience. I wanted to simplify that layer, too. This led to celld . Building on the Cloudflare Workers programming model, celld lets developers build distributed applications f",
+      "content_source": "page",
+      "tags": [
+        "Cloudflare",
+        "Deno",
+        "買収",
+        "JavaScript"
+      ],
+      "fetched_at": "2026-10-10T10:33:46.308137+09:00",
+      "summary": "Cloudflareは、JavaScript/TypeScriptランタイムであるDenoとその開発チームを買収しました。この買収により、CloudflareはDenoの技術を活用し、Webの未来を構築することを目指しています。Denoは、モジュール配布、セキュリティ、ツールチェーン、スタンドアロン実行可能ファイル化といったサーバーサイド開発の課題に取り組み、Node.jsとの互換性も重視してきました。Cloudflareは、Denoの知見を取り入れ、よりシンプルな開発体験とインフラストラクチャの統合を目指す考えです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50018088",
+      "source": "hackernews",
+      "title": "Sorry, I'm in a meeting",
+      "url": "https://iminafleeting.com/",
+      "score": 762,
+      "comments": 239,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [],
+      "fetched_at": "2026-10-10T10:33:48.210939+09:00",
+      "summary": "会議中であることを伝えるメッセージについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50022292",
+      "source": "hackernews",
+      "title": "Triple-A Minesweeper",
+      "url": "https://minesweeper.mikelacher.com/",
+      "score": 647,
+      "comments": 119,
+      "raw_description": "Sweep to survive in the action-packed, AAA reboot of the classic puzzle game.",
+      "content_source": "meta",
+      "tags": [
+        "Triple-A",
+        "Minesweeper"
+      ],
+      "fetched_at": "2026-10-10T10:33:46.526889+09:00",
+      "summary": "「Triple-A Minesweeper」というタイトルの記事です。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50020014",
+      "source": "hackernews",
+      "title": "Our $445M Series D",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "score": 590,
+      "comments": 266,
+      "raw_description": "Our Series D round of financing. Our $445M Series D 9 Oct 2026 In the spring, we hit a pretty wild milestone: Oxide paid income tax. And not because of some unusual transaction or one-time event, but because our ordinary operations (selling computers!) generated taxable income after accounting for the costs of components, manufacturing, salaries, and running the rest of the business. Of course, we each individually pay income tax every year; is it that surprising that a company is doing what we all do every spring? Well, yes, it is: most startups donât pay income tax because most startups arenât profitable! Indeed, startups seek investment because they have costs long before they have revenue, let alone gross profitâââlet alone income. This is by design: profitability is a lagging indicator of product/market fit (the adventure in venture capital is investing long before the business has materialized!). Figure 1. Us being as excited as you can be paying taxes So this was a big milestone, and on top of that (and contrary to Russ Hannemanâs admonition !), we have a very large order backlog. On the one hand, itâs truly extraordinary to watch the business generate cash, but with demand far exceeding supply, significant cash is needed to secure inventory and fulfill these orders. This is one of the peculiar dynamics of a rapidly growing hardware business: we must commit substantial cash to components and manufacturing well before the resulting systems reach customers.",
+      "content_source": "page",
+      "tags": [
+        "資金調達",
+        "ハードウェア",
+        "スタートアップ",
+        "黒字化"
+      ],
+      "fetched_at": "2026-10-10T10:33:47.505758+09:00",
+      "summary": "ハードウェア企業Oxide Computerは、シリーズDラウンドで4億4500万ドルの資金調達を発表しました。同社は、通常の事業運営（コンピュータ販売）により、コストを差し引いた後に納税額が発生するほどの収益を上げていることを特筆しています。これは、多くのスタートアップが利益を出す前に投資を募るのとは対照的であり、製品/市場フィットの達成を示す重要なマイルストーンとされています。また、同社は多額の受注残を抱えており、需要が供給を大幅に上回っているため、在庫確保と注文履行のために多額の現金が必要となっています。これは、急成長するハードウェアビジネス特有の課題であり、顧客にシステムが届く前に部品や製造に多額の現金コミットメントが必要となるダイナミクスを示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50023450",
+      "source": "hackernews",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "score": 270,
+      "comments": 206,
+      "raw_description": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access. TypeSafe AI Enterprise Thoughts Company Docs API console Contact Sales API console Docs Menu âµ Back Company News Company News TypeSafe A raises Series AI TL;DR we raised $$$ and weâre going to make sure it shows up as benefits to yâall ð«¶ Weâve raised a really big series AÂ¹ led by Andreessen Horowitz , with participation from Sequoia Capital, existing investor DCVC, and the tech illuminati (aka a bunch of the best angel investors). We find fundraising announcements incredibly boring, so we want to be straightforward with what this means for all of youâ¦ For developers We intend to take all of the things you love about Jev to the extreme There will be even more machine-native models And weâll be providing everything else to be the best infrastructure for building smart software For businesses A third of the Fortune 500 are getting their Jev on Weâve saved customers millions of dollars in production already Weâll be adding all the enterprise features youâve been asking us for For potential recruits We are a real company and weâre here to stay Weâre pretty fun Join the meme team For everyone: We care so much about making AI that actually works, and weâre so excited to be interacting with all of you. Weâve changed the path of AI, and we intend to keep cooking. $870",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "インフラ",
+        "自動化",
+        "資金調達"
+      ],
+      "fetched_at": "2026-10-10T10:33:47.973065+09:00",
+      "summary": "AIラボのTypeSafe AIは、自動化のためのマシンネイティブなインテリジェンスインフラを構築しており、ソフトウェア内での意思決定を可能にする。同社はAndreessen Horowitzが主導するシリーズAで8億7000万ドルを調達した。この資金は、開発者向けのJevモデルの強化、ビジネス向けのエンタープライズ機能の追加、そしてAIの進化に活用される予定である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50024499",
+      "source": "hackernews",
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "url": "https://carrierexplode.com/",
+      "score": 212,
+      "comments": 25,
+      "raw_description": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband configurations, etc. There’s still quite a bit of work to be done in checking my assumptions, but the tool has already been proven useful for a few enthusiast groups.",
+      "content_source": "hn_text",
+      "tags": [
+        "キャリア設定",
+        "デコーダー",
+        "iPhone",
+        "Android"
+      ],
+      "fetched_at": "2026-10-10T10:33:47.747876+09:00",
+      "summary": "iPhone, Pixel, Galaxyといった主要なスマートフォンのキャリア設定を継続的にアーカイブし、デコード・解説するサイドプロジェクト「carrier-explode」が公開されました。このプロジェクトは、一般的なベースバンド設定の解析ツールを提供し、一部の愛好家グループで既に有用性が確認されています。キャリア設定の内部構造を理解する上で役立つ情報源となる可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_56b282d71b5e",
+      "source": "hatena",
+      "title": "【速報】AIで調べた判例実在せず書籍絶版",
+      "url": "https://www.47news.jp/15060645.html",
+      "score": 110,
+      "comments": 0,
+      "raw_description": "ãå³¶è¢ç´ã»ççå¤§ææã®æ¸ç±ãç¡è²¬ä»»ã®ä½ç³»ã¨æ²ç¸æ¦ããåºçããé«æç ã¯9æ¥ã¾ã§ã«ãå å®¹ã«èª¤ãããã£ãã¨ãã¦åæ¸ãçµ¶çã»ååããã¨çºè¡¨ãããäººå·¥ç¥è½ï¼AIï¼ãä½¿ã£ã¦æ¤ç´¢ããæ¸ç±ã«è¨è¼ããè£å¤äºä¾ãå®å¨ããª ... éå ± æåè¸è½ > æå å ±åéä¿¡ ãéå ±ãAIã§èª¿ã¹ãå¤ä¾å®å¨ããæ¸ç±çµ¶ç 2026å¹´10æ09æ¥ 17æ59å å ±åéä¿¡ ãå³¶è¢ç´ã»ççå¤§ææã®æ¸ç±ãç¡è²¬ä»»ã®ä½ç³»ã¨æ²ç¸æ¦ããåºçããé«æç ã¯9æ¥ã¾ã§ã«ãå å®¹ã«èª¤ãããã£ãã¨ãã¦åæ¸ãçµ¶çã»ååããã¨çºè¡¨ããã äººå·¥ç¥è½ ï¼AIï¼ãä½¿ã£ã¦æ¤ç´¢ããæ¸ç±ã«è¨è¼ããè£å¤äºä¾ãå®å¨ããªãã£ãã¨ããã äººå·¥ç¥è½ å ±åéä¿¡ ã®ãã¥ã¼ã¹ã»éå ±ä¸è¦§ å ±åéä¿¡ å½å å¤ç´100ã®æ ç¹ãè»¸ã«ãä¸çæ å¢ããå°åã®è©±é¡ã¾ã§ãæ¬ã®ãã¥ã¼ã¹ãçç¢ºã«ããã¡æ©ããå±ããã¾ãã https://www.kyodonews.jp/ äººå·¥ç¥è½ï¼AIï¼ã®ãã¥ã¼ã¹ã»éå ± ï¼ ï¼ç¤¾èª¬ï¼AIã®ãæ´èµ°ãï¼å½éé£æºã§ãªã¹ã¯ææ­¢ã 10æ10å ç¥æ¸æ°è ããã°ããæ¥ç§ã 10æ10å è¨åæ°è ã­ã·ã¢ã®ãã¼ã¿æ½è¨­é£æ¥æ»æãã¦ã¯ã©ã¤ããå¿é ¬æ¿å 09æ33å å ±åéä¿¡ ãã³ã·ã¼é¢ã®è¸è¡æ§ã«å ï¼éæ£®çç¾10æ¥ããç¹éå±ç¤º 09æ00å æ±å¥¥æ¥å ± ç§ç°ã®ã©ããè·å¡å¦åãæ¹å¤å¤§åãçã«æè¦200ä»¶è¶ 07æ33å å ±åéä¿¡ NYæ ªç¶ä¼¸ã423ãã«é«ã",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "判例",
+        "書籍",
+        "情報生成"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718288+09:00",
+      "summary": "高文研は、島袋純氏の著書「無責任の体系と沖縄戦」について、AIで調査した判例が実在しなかったため、絶版・回収することを発表しました。AIによる情報生成の正確性や、その検証プロセスの重要性が改めて示唆される事例です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50028275",
+      "source": "hackernews",
+      "title": "REA Reverse – Engineer Anything",
+      "url": "https://rea.tools/",
+      "score": 44,
+      "comments": 9,
+      "raw_description": "Reverse engineer apps, binaries and browser behavior with your coding agent. Follow clear guides and try interactive examples with REA. Reverse engineering, with your coding agent Find out how software works. REA gives your agent the tools to inspect a program and explain what it does. See how REA works â Setup guide Showcases â Already know RE? Skip to analysis guides â Set up REA Copy this into your coding agent: Your coding agent Copy âº Install REA and connect it to this coding agent using npx rea-agents@latest setup. Show me the setup plan for approval, then verify the installation. Or run this in your terminal: npx rea-agents@latest setup Copy Approve the setup plan, then restart your agent. What is reverse engineering? Finding out how software works by examining the program itself. The goal: understand a feature well enough to explain it , change it or rebuild it. One question: why does Calculator give 220 for 200 + 10%? Before REA Â· You investigate it yourself 01 Decode branches 02 Trace calls 03 Recover the rule Original x64 Â· selected instructions 0x180124945: MOV EAX, dword ptr [R13 + 0x18] 0x180124949: CMP EAX, 0x5c 0x18012494c: JZ 0x180124aba 0x180124952: CMP EAX, 0x5b 0x180124955: JZ 0x180124aba 0x18012495b: MOV EDX, 0x64 0x180124960: LEA RCX, [RSP + 0x160] 0x180124968: CALL 0x180122650 0x18012496e: LEA RDX, [R13 + 0x160] 0x180124975: LEA RCX, [RSP + 0x78] 0x18012497a: CALL 0x180109720 0x18012497f: MOV RSI, RAX 0x180124982: MOV qword ptr [RSP + 0x28], R",
+      "content_source": "page",
+      "tags": [
+        "リバースエンジニアリング",
+        "コーディングエージェント",
+        "ソフトウェア分析",
+        "バイナリ解析"
+      ],
+      "fetched_at": "2026-10-10T10:33:46.065981+09:00",
+      "summary": "REAは、コーディングエージェントを使用してアプリ、バイナリ、ブラウザの動作をリバースエンジニアリングできるツールです。プログラムを検査し、その動作を説明するための機能を提供します。これにより、ソフトウェアの仕組みを理解し、機能を説明、変更、または再構築することが可能になります。具体的な例として、電卓アプリが「200 + 10%」の計算で「220」を返す理由の解明が挙げられています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a01672896cc3",
+      "source": "hatena",
+      "title": "「秀丸エディタ」v9.59が公開 ～Windows XP/Vistaのサポートを終了／Windows 11の「テキスト カーソル インジケーター」に対応、カーソルが見やすく",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2146950.html",
+      "score": 43,
+      "comments": 0,
+      "raw_description": "サイトー企画は10月8日、テキストエディター「秀丸エディタ」の最新版v9.59を正式公開した。本バージョンでは、Windows XP/Vistaのサポートが打ち切られている。これらのOSに対応する最後のバージョンは、7月9日に公開されたv9.57。今後の対応OSはWindows 7以降となる。 ニュース 「秀丸エディタ」v9.59が公開 ～Windows XP/Vistaのサポートを終了 Windows 11の「テキスト カーソル インジケーター」に対応、カーソルが見やすく 樽井 秀人 2026年10月9日 13:05 「秀丸エディタ」v9.59 窓の杜から ダウンロード サイトー企画は10月8日、テキストエディター「秀丸エディタ」の最新版v9.59を正式公開した。本バージョンでは、Windows XP/Vistaのサポートが打ち切られている。これらのOSに対応する最後のバージョンは、7月9日に公開された v9.57 。今後の対応OSはWindows 7以降となる。 機能面では、Windows 11の「テキスト カーソル インジケーター」が新たにサポートされた。これはテキスト編集欄のカーソル（キャレット）を目立たせるアクセシビリティ機能で、OSの［アクセシビリティ］－［テキスト カーソル］設定ページで有効化が可能（既定はON）。 Windows 11の「テキスト カーソル インジケーター」に対応 ただし、これが利用できるのは「秀丸エディタ」側の［アクセシビリティ対応（編集エリア）］オプションがOFFの場合のみだ（既定はOFF）。「テキスト カーソル インジケーター」が表示されない場合は、「秀丸エディタ」の［その他］－［動作環境］ダイアログの［環境］－［読み上げ］ページでオプションの状態を確認するとよい。 ［読み上げ］ページの［アクセシビリティ対応（編集エリア）］オプション そのほかにも、メッセージボックスなどでダークモード対応を拡充。マクロの一部処理が重い問題も改善され、内部的な安定性が向上しているとのこと。 インストーラーも自己解凍の方式が「7-Zip」のものに変更された。ファイルサイズも削減されているようだ（v9.57との比較で、32bit版が8.76MBから7.13MBに、64bit版が9.19MBから7.58MBに）。 「秀丸エディタ」は、Windows 7/8/8.1/10/11に対応する4,400円のシェアウェアで、現在同社のWebサイトからダウンロード可能。Windows 10/11であれば「Microsoft Store」からも購入できる。 Amazonで購入 「秀丸」関連商品 Amazonで購入 ソフトウェア情報 「秀丸エディタ」 【著作権者】 （有）サイトー企画 【対応OS】 Windows 7/8/8.1/10/11 【ソフト種別】 シェアウェア 4,400円 【バージョン】 9.59（26/10/08）",
+      "content_source": "page",
+      "tags": [
+        "秀丸エディタ",
+        "Windows 11",
+        "アクセシビリティ",
+        "OSサポート終了"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718171+09:00",
+      "summary": "秀丸エディタv9.59が公開され、Windows XP/Vistaのサポートが終了しました。これにより、対応OSはWindows 7以降となります。新機能としてWindows 11の「テキスト カーソル インジケーター」に対応し、OSの設定と連携してカーソルを目立たせるアクセシビリティ機能が利用可能になりました。また、メッセージボックスのダークモード対応拡充やマクロ処理の改善、インストーラーのファイルサイズ削減なども行われています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_390223ce13eb",
+      "source": "hatena",
+      "title": "「お前たちのクラウドはわれわれのもの」　IDCFクラウドの管理画面に出た攻撃者のメッセージ　内容に運営元は",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002184/",
+      "score": 38,
+      "comments": 0,
+      "raw_description": "ランサムウェア攻撃を受けた「IDCFクラウド」を巡り、攻撃者を名乗る人物のメッセージが管理コンソールに表示されたとする画像が、10月7日からX上で拡散している。画像には、攻撃者によるものとみられる英語のメッセージや、被害規模を示す具体的な数字が記されている。ITmedia NEWSは運営元のIDCフロンティアに、画像の...",
+      "content_source": "feed",
+      "tags": [
+        "ランサムウェア",
+        "IDCFクラウド",
+        "サイバー攻撃",
+        "情報漏洩"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718093+09:00",
+      "summary": "IDCFクラウドがランサムウェア攻撃を受け、管理画面に攻撃者からのメッセージが表示されたとする画像がSNSで拡散しています。この画像には、攻撃者によるものとみられる英語のメッセージと、被害規模を示す具体的な数字が記載されています。運営元のIDCフロンティアへの取材が進められています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_85b0301bd57e",
+      "source": "hatena",
+      "title": "OpenAIとAnthropicに新ライバル出現。中国ではなく地元アメリカから | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china/",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "アメリカのAI勢力図が変わるかもしれません。 無名のAIスタートアップが、「企業が自前のAIを作れる」サービスを強みに、大手AI企業のドル箱である法人ビジネスに挑もうとしています。 いまやAI企業の収入源は法人向けプランに OpenAIとAnthropicの主な収入源は、APIや法人向けサブスクリプションの販売です。 CNBCによ...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "スタートアップ",
+        "法人向けサービス",
+        "競争"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718164+09:00",
+      "summary": "アメリカの無名のAIスタートアップが、企業が自社のAIを構築できるサービスを武器に、OpenAIやAnthropicといった大手AI企業の法人向けビジネスに参入する可能性があります。これは、APIやサブスクリプション販売がAI企業の主要な収益源となっている現状において、新たな競争軸の出現を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50028059",
+      "source": "hackernews",
+      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
+      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
+      "score": 33,
+      "comments": 12,
+      "raw_description": "A Redditor counted who wrote every change to xz, sudo, bash, tz and 19 more projects. 11 of 23 rely on one or two people. See who they are and who pays. Every alarm, boarding pass and calendar invite on your phone depends on a text file that holds every clock rule a government has ever announced. A UCLA lecturer named Paul Eggert keeps that file current in his spare time, and at least four billion Android phones and iPhones read it. He is an open source maintainer, and he is far from the only one in that position. The xkcd comic that gets posted after every security scare, number 2347, shows a tower of modern infrastructure balanced on one small block that a single person maintains without thanks. A Redditor posting as u/Mastbubbles set out to test how close that is to the truth. They downloaded the full history of 23 projects that phones, browsers and servers rely on, counted everyone who made ten or more changes in the past year, and published the results on sheets.works as The People Holding Up the Internet . The post collected about 1,100 upvotes on r/linux in its first day. Eleven of the 23 projects had one or two people doing the regular work. The rest of this piece covers who those people are, what money reaches them, and where r/linux pushed back on the numbers. Key Findings at a Glance 11 of 23 projects had one or two people making ten or more changes between 7 October 2025 and 7 October 2026. xz has a single regular contributor, Lasse Collin, who wrote 97 percent of",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-10T10:33:46.721281+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_4e96d9dba357",
+      "source": "hatena",
+      "title": "Building effective agent automations / claude.dev Blog",
+      "url": "https://claude.dev/blog/building-effective-agent-automations/",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "As AI accelerates our work, it's getting harder to keep up. At Anthropic, simple agent automations are frequently used to help. They often run on a schedule, gather context in the background, and proactively tell us what we need to know. But it’s difficult to build effective agent automations: th...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-10T10:33:45.718216+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_74e41c3121c5",
+      "source": "hatena",
+      "title": "新スパコン「理究」が本格稼働へ。「ROQUO」で量子HPC連携も加速――理研が手掛ける計算基盤の最前線　CEATECのブース展示・講演で紹介～「AI for Science」の先にある「AI for Industry」も見えてくる",
+      "url": "https://internet.watch.impress.co.jp/docs/interview/2145454.html",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "国立研究開発法人理化学研究所（理研）計算科学研究センター（R-CCS）が、10月13日～16日に幕張メッセ（千葉市美浜区）で開催される「CEATEC 2026」に出展する。R-CCSとしての出展は3年連続となり、今年は「X（Transformation）パーク」エリア内にブースを構える（ホール6 ブース番号6H101）。 インタビュー 新スパコン「理究」が本格稼働へ。「ROQUO」で量子HPC連携も加速――理研が手掛ける計算基盤の最前線 CEATECのブース展示・講演で紹介～「AI for Science」の先にある「AI for Industry」も見えてくる 大河原 克行 2026年10月9日 15:00 国立研究開発法人理化学研究所（理研）計算科学研究センター（R-CCS） が、10月13日～16日に幕張メッセ（千葉市美浜区）で開催される 「CEATEC 2026」 に出展する。R-CCSとしての出展は3年連続となり、今年は「X（Transformation）パーク」エリア内にブースを構える（ ホール6 ブース番号6H101 ）。 X（Transformation）パークでは、社会と産業の変革を多角的に捉え、8つのテーマを掲げている。そのなかでR-CCSは「R&D／戦略」の観点から展示を行う。また、展示と連動するコンファレンスや、展示ホール内に設置したステージでの講演を通じて、「AI for Science（科学のためのAI）」を加速する科学研究環境や計算環境の構築、産業イノベーションに向けた研究開発の最前線を示すことになる。 日本政府は、AI for Scienceを国家戦略の1つに位置付け、日本が世界トップレベルの科学技術立国であり続けるためには、計画的・集中的に、この取り組みを推進していくことが不可欠であるとしている。R-CCSの展示やコンファレンスを通じて、日本におけるAI for Scienceの最前線の取り組みを知ることができるだろう。 「AI for Science」の推進は国家戦略の中核。 さらに学術分野から「AI for Industry」として民間企業・産業領域にも AI for Scienceは、「科学の再興を具現化する研究システム刷新の中核的手段」と位置付けられている。 日本政府が打ち出した「第7期科学技術・イノベーション基本計画」では、国家として科学を再興し、科学技術・イノベーション力を抜本的に強化しなければ、日本は浮上の機会を失いかねないとの強い危機意識を示しながら、今後の科学技術やイノベーションを巡る取り組みの1つとして、「AIと科学の融合による研究開発パラダイムの転換」の重要性を指摘。それに向けて「AI for Scienceによる科学研究の革新」を掲げるとともに、 AIを「国家戦略技術領域」に定義している。 また、文部科学省は今年3月、「AI for Scienceの推進に向けた基本的な戦略方針」を発表。そのなかで「AI for Scienceの推進は、研究手法の高度化にとどまらず、科学技術政策、産業政策、安全保障政策を横断する複合的な政策である。個別分野や単独施策の枠を超え、国家戦略の中核として政策横断的に推進すべき基盤領域になる」と提言している。 R-CCSの太田良隆氏（高度研究支援専門職）は、「CEATEC 2026の出展内容は、AI for Scienceの取り組みを前面に打ち出したものになる」と前置きし、「これまでのAI for Scienceは、研究における1つの潮流という捉え方だったが、日本の",
+      "content_source": "page",
+      "tags": [
+        "AI for Science",
+        "計算基盤",
+        "理研",
+        "CEATEC 2026"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718320+09:00",
+      "summary": "理化学研究所（理研）計算科学研究センター（R-CCS）は、CEATEC 2026に出展し、AI for Science（科学のためのAI）を加速する計算基盤の最前線を紹介する。これは日本の国家戦略の中核であり、科学技術・イノベーション力の強化を目指すもの。R-CCSは、新スパコン「理究」の稼働や量子HPC連携基盤「ROQUO」などを通じて、学術分野から産業分野への応用（AI for Industry）も見据えた取り組みを示す。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d2c7eb28b40b",
+      "source": "hatena",
+      "title": "知り合いがAIに作らせたクローラーに大量のサイトを読み込ませたら、プロンプトインジェクションを受けてPCがマルウェアに感染「こういう事故はこれから増えていく気が…」",
+      "url": "https://togetter.com/li/2756400",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "Mr.Genki | marketing & webdesign @genki_iii 知り合いがAIに作らせたクローラーに大量のサイトを読ませたら、プロンプトインジェクションを食らってPCがマルウェアに感染してた。AIで誰でも簡単に作れるようになった分、開発やセキュリティの知識がないまま動かす人も増えていて、こういう事故はこれから増えていく気...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "プロンプトインジェクション",
+        "マルウェア",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718257+09:00",
+      "summary": "AIが生成したクローラーがプロンプトインジェクションを受け、マルウェア感染を引き起こす事例が報告されました。AIによる開発の容易化が進む一方で、開発やセキュリティに関する知識不足が原因で、同様の事故が増加する懸念が示唆されています。この事象は、AI生成コードのセキュリティリスクと、その運用における注意喚起の重要性を示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a8e10464ac93",
+      "source": "hatena",
+      "title": "バックアップはなぜ難しいのか、ファイルをコピーするだけでは済まない理由とは？",
+      "url": "https://gigazine.net/news/20261010-data-backups-arent-simple/",
+      "score": 7,
+      "comments": 0,
+      "raw_description": "故障や操作ミスなどによって大切なデータが失われることがあるため、日頃からバックアップを取っておくことは重要です。しかし、データのバックアップは単にファイルを別の場所にコピーするだけでは十分とは限りません。ソフトウェアエンジニアのアレクサンダル・フィリポフスキー氏が、バックアップの仕組みを整えるに...",
+      "content_source": "feed",
+      "tags": [
+        "バックアップ",
+        "データ損失",
+        "ファイルコピー",
+        "データ管理"
+      ],
+      "fetched_at": "2026-10-10T10:33:45.718316+09:00",
+      "summary": "データのバックアップは、単にファイルをコピーするだけでは不十分です。故障や操作ミスによるデータ損失を防ぐためには、より高度なバックアップの仕組みが必要です。ソフトウェアエンジニアのアレクサンダル・フィリポフスキー氏は、バックアップの複雑な仕組みについて解説しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_dd944dd7434a",
+      "source": "reddit",
+      "title": "Python Release Python 3.15.0",
+      "url": "https://www.reddit.com/r/programming/comments/1x1pypx/python_release_python_3150/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BrewedDoritos [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Python"
+      ],
+      "fetched_at": "2026-10-10T10:33:48.557601+09:00",
+      "summary": "Python 3.15.0 のリリースに関する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_b6d674c7501a",
+      "source": "reddit",
+      "title": "ClickHouse outcompresses Parquet: Surprises from our migration",
+      "url": "https://www.reddit.com/r/programming/comments/1x1v9c8/clickhouse_outcompresses_parquet_surprises_from/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "I pinky promise that I'm not a ClickHouse employee submitted by /u/IiIIIlllllLliLl [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "ClickHouse",
+        "Parquet",
+        "データ圧縮",
+        "ストレージ移行"
+      ],
+      "fetched_at": "2026-10-10T10:33:48.557831+09:00",
+      "summary": "この記事では、ClickHouseがParquetよりも高い圧縮率を達成したという、データストレージ移行における意外な発見について述べています。Parquetは一般的に効率的な圧縮で知られていますが、ClickHouseはそれを上回る性能を示しました。この結果は、データストレージの選択において、パフォーマンスとコスト効率を最大化するための新たな視点を提供します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_f58cd3dc4cc2",
+      "source": "reddit",
+      "title": "Microsoft: Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "url": "https://www.reddit.com/r/programming/comments/1x1d8s7/microsoft_postquantum_authentication_why/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/donutloop [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Microsoft",
+        "Post-quantum authentication"
+      ],
+      "fetched_at": "2026-10-10T10:33:48.557969+09:00",
+      "summary": "この記事は、Microsoftが量子コンピュータ時代を見据えた認証技術、特に証明書エコシステムに関するテストを組織が開始すべき理由について論じているようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_a246c7b3296c",
+      "source": "reddit",
+      "title": "Keys and Values Don't Always Belong Together",
+      "url": "https://www.reddit.com/r/programming/comments/1x1bxcn/keys_and_values_dont_always_belong_together/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/diagraphic [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Keys",
+        "Values"
+      ],
+      "fetched_at": "2026-10-10T10:33:48.558107+09:00",
+      "summary": "キーと値が常に一致しないことについての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
