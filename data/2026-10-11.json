@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T09:43:25.247550+09:00",
+  "articles": [
+    {
+      "id": "hn_49991852",
+      "source": "hackernews",
+      "title": "2D Vehicles",
+      "url": "https://patkerr.co.uk/2d-vehicles/",
+      "score": 341,
+      "comments": 79,
+      "raw_description": "Explore my 1996 vehicle physics prototype, recreated for the web as Motion Lab. A project history Â· 1996â2026 2D Vehicles One weekend in late August 1996, I wrote a 2D physics simulation which later became the basis of the vehicle system in the eventually popular game \"Grand Theft Auto\" aka \"GTA\". It began as a little wireframe demo written in GFA BASIC on my Atari ST home computer (and was later ported to C for use in the actual game). I have recreated* it here in JavaScript for its 30th anniversary in a slightly prettier, \"remastered\" form, for anyone who is interested in seeing or playing it. Play Motion Lab The 1996 idea, recreated in Motion Lab. Instructions You can play the recreation above, with touch controls if you are on mobile. In addition to the default \"Car\" mode (1), you can also select the technically simpler Spaceship aka \"Ship\" (2) and \"Brick\" (3) modes, either via the mode selector in Settings or by pressing the corresponding numbers on your keyboard. Collision barriers around the sides of the playfield can be toggled by clicking or pressing \"B\", and \"G\" toggles vertical gravity (which only really makes sense in the Ship and Brick modes). Camera controls are provided by \"Z\" and \"X\": \"Z\" toggles what is called the camera's \"dead zone\", which changes how far the vehicle can move before the camera follows it; \"X\" toggles a speed-related zoom feature which pulls the camera back a bit when you are going faster (just like in GTA). *(in an entirely non-copyright",
+      "content_source": "page",
+      "tags": [
+        "2D物理シミュレーション",
+        "GTA",
+        "Motion Lab",
+        "JavaScript"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.886419+09:00",
+      "summary": "1996年に開発された2D車両物理シミュレーションが、ウェブ上で「Motion Lab」として再構築されました。このシミュレーションは、人気ゲーム「Grand Theft Auto (GTA)」の車両システムの基盤となったものです。当初はAtari STでGFA BASICで書かれ、後にC言語に移植されましたが、今回はJavaScriptで再実装され、30周年記念として公開されています。車、宇宙船、ブロックの3つのモードがあり、重力やカメラの挙動を調整する機能も備えています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_fefa97958198",
+      "source": "hatena",
+      "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+      "score": 232,
+      "comments": 0,
+      "raw_description": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2...",
+      "content_source": "feed",
+      "tags": [
+        "不正アクセス",
+        "個人情報漏えい",
+        "注意喚起",
+        "サイバーセキュリティ"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.027536+09:00",
+      "summary": "国内の組織で不正アクセスによる個人情報漏えいが相次いでいることを受け、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの機関が注意喚起を公表しました。被害はBIツールや従業員向けシステムにも及んでおり、サイバーセキュリティ対策の重要性が改めて浮き彫りになっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50029487",
+      "source": "hackernews",
+      "title": "The Lightbulb Computer",
+      "url": "https://lightbulbcomputer.com/",
+      "score": 204,
+      "comments": 41,
+      "raw_description": "A new direction for computing: projecting information into the real world to augment it, with a device that combines a projector and computer vision in the shape of a large lightbulb. The Lightbulb Computer published September 2026 · Guillaume Ardaud A video version of this piece is available on YouTube . Modern visions for the future of human-computer interaction are excessively focused on smart glasses and headsets - devices that are constraining & socially awkward. This project explores an alternative direction - a speculative device called the Lightbulb Computer that uses modern projector technology & computer vision advancements to blend ambient computation & spatial information display in everyday spaces. In this series of design prototypes, I want to share with you a direction for computing that involves projecting information in the real world to augment it, rather than keeping it confined to small rectangular screens, or worse - piping it through devices that live on our faces. I call this vision the Lightbulb Computer: a device that combines a projector with computer vision, in the shape of a large lightbulb. The lightbulb form factor means it can easily be mounted in a small portable lamp-like base to carry it around the house; or screwed into any wall or ceiling Edison socket, for a room-scale permanent setup. Mounted in a portable battery base, the Lightbulb Computer can easily be placed anywhere on a desk, or around the house. Not only is the ceiling a great van",
+      "content_source": "page",
+      "tags": [
+        "プロジェクター",
+        "コンピュータビジョン",
+        "AR",
+        "HCI"
+      ],
+      "fetched_at": "2026-10-11T09:43:13.632748+09:00",
+      "summary": "「Lightbulb Computer」は、プロジェクターとコンピュータビジョンを統合し、情報を現実世界に投影して拡張する新しいコンピューティングの形を提案する。スマートグラスやヘッドセットに代わる、より自然で社会的なインタラクションを目指し、日常空間にコンピューティングを溶け込ませることを目的としている。ランプ型ベースやEdisonソケットへの取り付けが可能で、ポータブルまたは常設設置に対応する。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_181a5dbd0aaf",
+      "source": "hatena",
+      "title": "日本人の大腸がん、約半数に“腸内細菌の毒素”が関与　40歳以下の発症は7割　東大・阪大が200人を全ゲノム解析",
+      "url": "https://www.itmedia.co.jp/news/article/2610/10/2000002035/",
+      "score": 194,
+      "comments": 0,
+      "raw_description": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が担当。イラストや漫画は、同メディア所属のアーティスト・おね氏が手掛けている。X：＠shi...",
+      "content_source": "feed",
+      "tags": [
+        "大腸がん",
+        "腸内細菌",
+        "毒素",
+        "若年発症"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.027933+09:00",
+      "summary": "東京大学と大阪大学の研究チームは、日本人の大腸がん患者の約半数において、腸内細菌由来の毒素が発症に関与している可能性を示唆する研究結果を発表しました。特に40歳以下の若年層では、その関与が7割に上ると報告されています。この発見は、大腸がんの新たな原因解明や予防法の開発につながる可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50036864",
+      "source": "hackernews",
+      "title": "A city-building game in which the city would prefer you didn't",
+      "url": "https://housing.over.pizza/",
+      "score": 152,
+      "comments": 56,
+      "raw_description": "A city-building game about trying to get housing built in San Francisco. By Oliver Sin.",
+      "content_source": "meta",
+      "tags": [
+        "都市開発ゲーム",
+        "サンフランシスコ",
+        "住宅建設",
+        "シミュレーション"
+      ],
+      "fetched_at": "2026-10-11T09:43:13.136160+09:00",
+      "summary": "Oliver Sin氏が開発した都市開発ゲームは、サンフランシスコを舞台に、住宅建設を目指すプレイヤーの奮闘を描いています。このゲームは、都市開発における現実的な課題やジレンマをシミュレーションすることで、プレイヤーに新たな視点を提供します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50034081",
+      "source": "hackernews",
+      "title": "Knuth reward check",
+      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+      "score": 135,
+      "comments": 50,
+      "raw_description": "Twenty years ago I got a reward check from Donald Knuth. It’s been twenty years now that I’ve gotten one of the best letters ever. Donald Knuth confirmed the error I had found in one of his books and sent me the coveted check! Donald Knuth and his reward for any error in one of his books (even typographical ones) are computer science folklore. Preposterous to think that I could possibly earn one! His books have been combed through by thousands and thousands of people. Smarter people than I am. More patient people. And then it happened. I thought I had found an error. But I did not report it right away, I waited and re-checked it for months, lest I make a fool of myself. I even told our local genius at university who did not care much and dismissed my excitement. See, the error I found is in a very special place. The book is “Computer Modern Typefaces”, so it’s a less read book (not the TeXbook or The Art of Computer Programmming), but still, practically everybody who has given that book a shot will have read over that error. Because it’s on page Arabic one. In the first paragraph. The very first word. That’s why the Memo field says “E1”: Computer Modern Typefaces is Volume E in the Computers & Typesetting series. Page 1. I have censored the check slightly, because Knuth is afraid someone might do bad things with those numbers, and he hasn’t been handing out real checks for many years now. Today you get a fantasy certificate of a fantasy bank, the Bank of San Serriffe . But wh",
+      "content_source": "page",
+      "tags": [
+        "Donald Knuth",
+        "Computer Modern Typefaces",
+        "誤り発見",
+        "謝礼"
+      ],
+      "fetched_at": "2026-10-11T09:43:14.132279+09:00",
+      "summary": "ドナルド・クヌースは、自身の著書に含まれる誤りを見つけた読者に対して、謝礼として小切手を送ることで知られています。この著者は、20年前に「Computer Modern Typefaces」という書籍の初版初ページ初単語にある誤りを発見し、クヌースから謝礼の小切手を受け取りました。このエピソードは、クヌースの誤り発見者への報酬制度が、コンピュータサイエンス界の伝説となっていることを示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50035530",
+      "source": "hackernews",
+      "title": "Why DuckDB 2.0 is faster",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "score": 130,
+      "comments": 46,
+      "raw_description": "DuckDB 2.0 alpha vs 1.5.5 on one laptop: recursive CTEs up to 90x, VARIANT 6x faster than JSON text, async I/O 2.4x on S3. What changes, and how to model data to get the speedup. | Reading time: 15 min read GO BACK TO BLOG Why DuckDB 2.0 is faster 2026/09/10 - 15 min read BY Mehdi Ouazza DuckDB 2.0 is coming this fall and the alpha is out! I ran the interesting features on my own laptop, and against S3, to see what actually changes for people who build tables and pipelines rather than database engines. Because yes, DuckDB 2.0 is faster. But to get the speed bump you need to understand how your data is shaped, and sometimes how to model it. This post covers the three features I think matter most, with the numbers I got, plus a few hidden gems I found in the commit logs. Every number below is from one machine (an M5 laptop) and my home internet, which slows both versions about equally. Run your own before quoting them ;) Let's start with the easiest and most exciting one: async I/O. Async I/O: querying over AWS S3 is much faster This is the one I like most, because nothing in your query changes. Here is a query that reads a 2.2 GB Parquet file on S3 (Stack Overflow votes, 228 million rows, 2268 row groups) and counts votes per type. It reads one column out of four, about 230 MB. Copy code CREATE SECRET s3 (TYPE s3, PROVIDER credential_chain, REGION 'us-east-1' ); SET enable_external_file_cache = false ; -- so every run really hits S3 SELECT VoteTypeId, count ( * ) AS n FROM rea",
+      "content_source": "page",
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "パフォーマンス",
+        "非同期I/O"
+      ],
+      "fetched_at": "2026-10-11T09:43:13.883676+09:00",
+      "summary": "DuckDB 2.0アルファ版は、前バージョン1.5.5と比較して、再帰CTEで最大90倍、VARIANT型でJSONテキストより6倍、S3への非同期I/Oで2.4倍高速化しました。この高速化を実現するには、データの形状を理解し、場合によってはデータモデリングを調整する必要があります。特に、S3への非同期I/Oはクエリの変更なしにパフォーマンスを向上させます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50017247",
+      "source": "hackernews",
+      "title": "Nix wrote half of my debugger",
+      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+      "score": 113,
+      "comments": 18,
+      "raw_description": "A few days ago I wrote about Rewind VM, a deterministic VM where every run of a Nix build is a pure function of its inputs, thread schedule included! I have been using it to find, reproduce and solve numerous race conditions in Nix builds, but it’s been making me feel a little crazy. What is this superpower, and why is nobody else using it? The tool has quickly grown a source panel, stack frames, bookmarks, a “Compare” tab, a lot more gdb support, thread lanes, which show who held the CPU at every step, and “Check from here”, which… A few days ago I wrote about Rewind VM , a deterministic VM where every run of a Nix build is a pure function of its inputs, thread schedule included! I have been using it to find, reproduce and solve numerous race conditions in Nix builds, but it’s been making me feel a little crazy . What is this superpower, and why is nobody else using it? The tool has quickly grown a source panel, stack frames, bookmarks, a “Compare” tab, a lot more gdb support, thread lanes, which show who held the CPU at every step, and “Check from here”, which helps find the exact step where a race condition happens. I went into each new feature thinking it would be a big code-lift but I kept running into the same thing: the hard part of each feature was already done, and Nix had done it. A debugger for instance, needs the exact inputs of the program, its debug symbols, its sources, the sources of every library under it, and a way for someone else to get all of that on thei",
+      "content_source": "page",
+      "tags": [
+        "Nix",
+        "Rewind VM",
+        "デバッガ",
+        "競合状態"
+      ],
+      "fetched_at": "2026-10-11T09:43:13.385076+09:00",
+      "summary": "Rewind VMは、Nixビルドの実行結果を再現可能にする決定論的な仮想マシンです。これにより、スレッドスケジュールの再現を含め、Nixビルド内の競合状態（race condition）の発見、再現、解決が容易になります。開発者は、デバッガ機能の多くがNixによって既に提供されていることに気づき、その効率性に驚いています。このツールは、ソースパネル、スタックフレーム、ブックマーク、比較タブ、gdbサポート、スレッドレーンなどの機能を提供し、競合状態が発生した正確なステップを特定するのに役立ちます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_3200eba98062",
+      "source": "hatena",
+      "title": "SQLite 本体にベクトル検索拡張 vec1 がやってきた",
+      "url": "https://zenn.dev/mattn/articles/6e9996319ac099",
+      "score": 89,
+      "comments": 0,
+      "raw_description": "はじめに 2026 年 9 月 30 日、SQLite のソースツリーに ext/vec1/ というディレクトリが追加されました。コミットしたのは FTS5 などでおなじみの Dan Kennedy 氏。コミットメッセージはたった 1 行です。 これまで別の場所で開発されていた vec1 が、まるっと SQLite 本体のリポジトリに取り込まれました。本体は vec1...",
+      "content_source": "feed",
+      "tags": [
+        "SQLite",
+        "ベクトル検索",
+        "vec1",
+        "データベース"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.027664+09:00",
+      "summary": "SQLiteのソースツリーに、ベクトル検索拡張機能であるvec1が追加されました。これは、FTS5の開発者としても知られるDan Kennedy氏によって行われました。これまで独立して開発されていたvec1がSQLite本体のリポジトリに統合されたことで、SQLiteでのベクトル検索機能の利用が容易になる可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50037949",
+      "source": "hackernews",
+      "title": "Build your own decision model",
+      "url": "https://nishtahir.com/build-your-own-decision-model/",
+      "score": 75,
+      "comments": 9,
+      "raw_description": "\"System one\" decision models are models that infer and respond with calibrated probabilities or every allowed answer. Consider your everyday language model, to get typed output from it (JSON), you may use Structured Output to constrain the output to guaranteed valid JSON. While model prefills the input in one pass, \"System one\" decision models are models that infer and respond with calibrated probabilities or every allowed answer. Consider your everyday language model, to get typed output from it (JSON), you may use Structured Output to constrain the output to guaranteed valid JSON. While model prefills the input in one pass, it still has to go perform a pass for every token in order to generate a valid response. In this example, 11 passes are required to generate the final output. (We're not accounting for speculative decoding and other inference optimization techniques.) Step Play Reset prompt (prefill) generated (predicted) being predicted Decision models such as Jev , make the assumption that there are fixed options we can select from and we can do so quickly by making a single pass. In this example we constrain the set of possible outputs to the options A , B , C , D , E . By masking other items in the vocabulary, the model can only emit those tokens. By selecting the highest probability output, we get our answer. Step Play Reset prompt (prefill) generated (predicted) being predicted Since the outputs are constrained to only a fixed set of options, the model can't select",
+      "content_source": "page",
+      "tags": [
+        "意思決定モデル",
+        "確率的推論",
+        "効率化",
+        "言語モデル"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.376497+09:00",
+      "summary": "「System one」意思決定モデルは、確率的に推論し、定義された選択肢の中から最も確率の高いものを単一パスで応答するモデルです。従来の言語モデルがトークンごとにパスを必要とするのに対し、このモデルは固定された選択肢に制約することで、応答生成の効率化を図ります。これにより、応答の生成速度が向上し、特定のタスクにおける迅速な意思決定が可能になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_027b3cc7e405",
+      "source": "hatena",
+      "title": "Readest — 無料オープンソースのEPUB・PDFリーダー、全プラットフォーム対応",
+      "url": "https://readest.com/ja",
+      "score": 68,
+      "comments": 0,
+      "raw_description": "消化し、洞察を得るReadestは無料のオープンソースEPUB・PDFリーダーで、深い没入型読書のために設計されています。macOS、Windows、Linux、Android、iOS、Web、KOReader・CrossPoint端末でハイライト、メモ、分割画面読書、テキスト読み上げ、クラウド同期をお楽しみください。",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-11T09:43:12.028087+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_e429bb94127e",
+      "source": "hatena",
+      "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
+      "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
+      "score": 40,
+      "comments": 0,
+      "raw_description": "株式会社 松尾研究所で働いている栗原です。 以前、「音声合成の日本語化手法が一般化した話」を書きました。 今回は、日本語の難しさと、それを音声合成に扱わせる難しさ、その課題に取り組むために考案した日本語言語処理部（G2P: Grapheme-to-Phoneme）について、前後編に分けて解説していきます。 専門家・理系の方...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-11T09:43:12.027740+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_74aaa02299c4",
+      "source": "hatena",
+      "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
+      "url": "https://enterprisezine.jp/article/detail/25178",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "「わが社はゼロトラスト導入済みです」──この言葉を、当方はここ7年で数え切れないほど聞いてきました。ゼットスケーラーで250社を超える企業のゼロトラスト実装ワークショップを主導し、日本企業の現場を間近に見てきた立場から申し上げると、この「導入済み」はかなり危うい言葉です。多くの場合、それはリモートアク...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-11T09:43:12.027802+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50038383",
+      "source": "hackernews",
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "score": 27,
+      "comments": 32,
+      "raw_description": "The rule takes effect Nov. 12; enforcement is the same conversation-ending tool Claude got in August 2025 Anthropic Bans Cruelty to Claude, Still Wonât Say What It Protects The rule takes effect Nov. 12; enforcement is the same conversation-ending tool Claude got in August 2025 By Luis Goa Â· October 9, 2026 Starting November 12, 2026, Anthropicâs usage policy bars âsustained and needless abusive or cruel behaviorâ toward its Claude models. The companyâs 2026 Usage Policy update , announced October 8, says the rule is âmeant to apply only in extreme cases, where users repeatedly act cruelly toward our models, with no discernible purpose.â It explicitly exempts âcommon versions of user frustration, pushback, dark creative themes, or model testing and research,â so swearing at a bot that just broke your build, or writing a torture scene, stays inside the policy. CBS News reported the change was first surfaced by The Verge. The enforcement mechanism isnât new. Anthropic gave Claude Opus 4 and 4.1 the ability to end a conversation in August 2025, framed at the time as âpart of our exploratory work on potential model welfare,â according to Anthropicâs own announcement . The company said this was a last resort, triggered only after multiple refusals and redirects failed, and that âthe vast majority of users will never experience Claude ending a conversation.â Thereâs a hard override: Claude wonât end a chat if a user seems at risk of harming themse",
+      "content_source": "page",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI倫理",
+        "利用ポリシー"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.623309+09:00",
+      "summary": "Anthropicは、2026年11月12日からClaudeモデルに対する「持続的かつ不必要な虐待的または残酷な行動」を禁止する利用ポリシーを導入しました。このポリシーは、ユーザーが明確な目的なくモデルに対して繰り返し残酷な行為を行う極端なケースを対象としており、一般的なユーザーの不満やモデルテストなどは除外されます。このポリシー違反に対する強制措置は、Claudeが会話を終了する機能であり、これは2025年8月に導入されたモデルの福祉に関する実験的な取り組みの一環です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d91683569090",
+      "source": "hatena",
+      "title": "Google Chrome、同意なしで4GBのローカルAIモデルをダウンロードさせている | ギズモード・ジャパン",
+      "url": "https://www.gizmodo.jp/article/2610-google-chrome-gemini-nano-4gb-model/",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "2026年5月19日の記事を編集して再掲載しています。 Google Chromeが、ユーザーの同意なしに約4GBものAIモデルをデバイスに自動的にダウンロード・保存させているという件が判明しました。「OptGuideOnDeviceModel」というフォルダの中に、こっそり4GBも忍び込ませいるようです。 「That Privacy Guy（プライバシー・ガイ...",
+      "content_source": "feed",
+      "tags": [
+        "Google Chrome",
+        "AIモデル",
+        "プライバシー",
+        "自動ダウンロード"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.027872+09:00",
+      "summary": "Google Chromeが、ユーザーの同意なしに約4GBのAIモデルを「OptGuideOnDeviceModel」というフォルダに自動ダウンロード・保存していることが判明しました。これはユーザーのストレージ容量を圧迫する可能性があり、プライバシーに関する懸念を引き起こしています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_9acbf289d7cc",
+      "source": "hatena",
+      "title": "The Register of UNIX® Certified Products",
+      "url": "https://www.opengroup.org//openbrand/register/",
+      "score": 9,
+      "comments": 0,
+      "raw_description": "The Open Brand Register The Open Group official register of UNIX Certified Products UNIX® certification provides a vendor-neutral, highly regarded, and global benchmark for identifying open operating systems. Only systems that are fully compliant and certified according to the Single UNIX Specifi...",
+      "content_source": "feed",
+      "tags": [
+        "UNIX",
+        "認定",
+        "オペレーティングシステム",
+        "The Open Group"
+      ],
+      "fetched_at": "2026-10-11T09:43:12.028020+09:00",
+      "summary": "The Open Groupが提供するUNIX®認定製品登録は、ベンダーニュートラルで評価の高いグローバルな基準です。これにより、オープンオペレーティングシステムを特定できます。この認定は、Single UNIX Specificationに完全に準拠し、認証されたシステムのみが取得できます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_5c0bc4f86254",
+      "source": "reddit",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://www.reddit.com/r/programming/comments/1x23sn2/deno_is_joining_cloudflare/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Cloudflare acquires the team. Deno gets one year or security updates and bug fixes and that's it. submitted by /u/matthieuC [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Cloudflare",
+        "Deno",
+        "買収",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-11T09:43:14.458908+09:00",
+      "summary": "CloudflareがDenoチームを買収しました。買収に伴い、Denoは1年間のセキュリティアップデートとバグ修正の提供を受けられます。この買収は、Denoの今後の開発やCloudflareのエッジコンピューティング戦略に影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_30ce704654dd",
+      "source": "reddit",
+      "title": "Stop reaching for WebSockets by default: WebSockets vs SSE vs Long Polling",
+      "url": "https://www.reddit.com/r/programming/comments/1x2r88r/stop_reaching_for_websockets_by_default/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Real time communication isn't one size fits all. A common mistake in system design is picking WebSockets when all you really needed was server-to-client streaming. I wrote a short 3 minute architectural comparison of the trade offs here: https://medium.com/@anirbansingha20/websockets-vs-long-polling-vs-server-sent-events-fa9bc1644cb8 What do you usually reach for first when building real time features ? submitted by /u/Dull-File6231 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "リアルタイム通信",
+        "WebSockets",
+        "SSE",
+        "システム設計"
+      ],
+      "fetched_at": "2026-10-11T09:43:14.459427+09:00",
+      "summary": "リアルタイム通信において、WebSocketsをデフォルトで選択するのではなく、ユースケースに応じて適切な技術を選択することが重要です。サーバーからクライアントへの単方向ストリーミングのみが必要な場合、Server-Sent Events (SSE) の方がWebSocketsよりもシンプルで効率的な場合があります。この記事では、WebSockets、SSE、Long Pollingのトレードオフについて解説しており、システム設計における技術選定の重要性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_c448c9b4b47d",
+      "source": "reddit",
+      "title": "Concrete Lessons from Conway’s Game of Life",
+      "url": "https://www.reddit.com/r/programming/comments/1x26xoh/concrete_lessons_from_conways_game_of_life/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Almost all of us have programmed a version of Game of Life. But can we clearly articulate, why it is interesting or a good thing to learn? submitted by /u/kichelmn [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Conway's Game of Life",
+        "セルオートマトン",
+        "創発性",
+        "プログラミング学習"
+      ],
+      "fetched_at": "2026-10-11T09:43:14.459781+09:00",
+      "summary": "Conwayのライフゲームは、単純なルールから複雑な振る舞いが生まれるセルオートマトンであり、プログラミング学習においてそのメカニズムを理解することが重要です。このゲームは、創発性、自己複製、計算可能性といったコンピュータサイエンスの根幹に関わる概念を体験的に学ぶための優れた教材となります。そのシンプルさゆえに、アルゴリズム設計や並列処理の基礎を学ぶのに適しており、多くのプログラマーにとって興味深い学習対象となっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_fe7d223fb9d3",
+      "source": "reddit",
+      "title": "Speedticket - a different take on a Semaphore, explained as a swimming pool",
+      "url": "https://www.reddit.com/r/programming/comments/1x2fowp/speedticket_a_different_take_on_a_semaphore/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/alexsnaps [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Speedticket",
+        "Semaphore"
+      ],
+      "fetched_at": "2026-10-11T09:43:14.460065+09:00",
+      "summary": "Speedticketという、セマフォとは異なるアプローチについての説明記事のようです。水泳プールに例えて解説されているようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
