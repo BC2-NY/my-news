@@ -1,0 +1,343 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T10:04:45.174732+09:00",
+  "articles": [
+    {
+      "id": "hn_50045984",
+      "source": "hackernews",
+      "title": "Total Annihilation, rebuilt for modern computers",
+      "url": "https://nanolathe.gg",
+      "score": 347,
+      "comments": 147,
+      "raw_description": "Play the original Total Annihilation demo in your browser with Nanolathe, an open-source 2.5D RTS engine. Install the native beta, play online with friends, explore the code and build on it.",
+      "content_source": "meta",
+      "tags": [
+        "Total Annihilation",
+        "RTS",
+        "Nanolathe",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-10-12T10:04:32.162996+09:00",
+      "summary": "オープンソースの2.5D RTSエンジン「Nanolathe」により、往年の名作RTS「Total Annihilation」のデモ版がブラウザでプレイ可能になりました。ネイティブ版ベータ版のインストールやオンラインでの友人とのプレイ、コードの探索や拡張も可能です。これにより、現代のコンピューター環境でクラシックなRTS体験が復活します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50047422",
+      "source": "hackernews",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "score": 222,
+      "comments": 355,
+      "raw_description": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs… Andrej Karpathy @karpathy Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel. - Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all. - Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract. - Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, dec",
+      "content_source": "page",
+      "tags": [
+        "LLM",
+        "AI",
+        "技術理解",
+        "普及"
+      ],
+      "fetched_at": "2026-10-12T10:04:33.415128+09:00",
+      "summary": "大規模言語モデル（LLM）の能力に関する理解の隔たりが拡大しており、一般層、カジュアルユーザー層、そして最先端LLMを専門分野（数学・コード）で活用する層の間で、LLMに対する認識と利用実態に大きな差が生じています。特に、専門家層では、かつて数週間から数ヶ月かかっていた複雑なプロジェクトが、プロンプト一つでエージェントによって数日で完了できる可能性を目の当たりにしています。この理解の断絶は、LLMの普及と応用における課題を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ec9b4cb11f38",
+      "source": "hatena",
+      "title": "「AIに指示するだけでひとりでそこそこのゲームが作れてしまいます」ゲームクリエイター・堀井雄二氏がAIを使い30分ほどでゲームを作成し、様々な反応が寄せられる",
+      "url": "https://togetter.com/li/2756939",
+      "score": 211,
+      "comments": 0,
+      "raw_description": "堀井雄二 @YujiHorii その昔、PCで『ポートピア連続殺人事件』を作った時は、自分で物語を考え、絵も描いて、プログラムもして、ひとりでゲームを作りました。そして今、ＡＩを使えば、絵を描けなくても、プログラムしなくても、ＡＩに指図するだけで、ひとりで、そこそこのゲームを作れてしまいます。ホントびっくりで...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "ゲーム制作",
+        "堀井雄二",
+        "ポートピア連続殺人事件"
+      ],
+      "fetched_at": "2026-10-12T10:04:31.541521+09:00",
+      "summary": "ゲームクリエイターの堀井雄二氏が、AIを活用することで、絵やプログラムのスキルがなくても、指示だけで「そこそこのゲーム」を短時間で作成できることを示しました。これは、かつて一人で物語、絵、プログラム全てを手がけて『ポートピア連続殺人事件』を制作した氏の経験と比較して、AIの進化によるゲーム制作の敷居の低下を実感させた出来事です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50047091",
+      "source": "hackernews",
+      "title": "Cartographers of North Korea (2019)",
+      "url": "https://cartographers-nk.wonyoung.so/",
+      "score": 171,
+      "comments": 31,
+      "raw_description": "An analysis of the OpenStreetMap data in North Korea: Who are the contributors?",
+      "content_source": "meta",
+      "tags": [
+        "North Korea"
+      ],
+      "fetched_at": "2026-10-12T10:04:32.417111+09:00",
+      "summary": "2019年の北朝鮮の地図作成に関する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_a8b18819f79d",
+      "source": "hatena",
+      "title": "GPU不要で驚きの精度。リアルタイム多言語文字起こしツール「hayamimi」使ってみましたー。｜ゆいまる‐IT界隈以外でAIを使いまくる2005年生まれ",
+      "url": "https://note.com/humble_bobcat51/n/n64602c64db6c",
+      "score": 168,
+      "comments": 0,
+      "raw_description": "日本の開発者さんっぽいリポジトリだーと思ってみたら、物凄い高性能な文字起こしツールでした。凄いなコレ。 貰い物の半壊PCでも全然CPUだけで文字起こし出来るし、翻訳でもかなり性能高い感じ。唯一の弱点は複数言語をいっぺんに読み取れないくらいしか、今のところは見当たらない。 こんなの出来るんだ、凄いってなり...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-12T10:04:31.541617+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_00e7034ed0d8",
+      "source": "hatena",
+      "title": "証券口座パスキーの安全性を高めよ！”物理キー”を本格導入した話",
+      "url": "https://toruoka.xyz/202610_security_key/",
+      "score": 130,
+      "comments": 0,
+      "raw_description": "みなさん、証券口座やその他重要なパスワードはどのように管理していますか？今どきは多くの方がパスワードマネージャーを使用して管理しているかと思います。僕もそのひとり。今はiCloudにパスワードを一元管理しています。 そういう人たちにとって、少しぞわっとなるニュースが先日報道されました。それがこれ。 証券...",
+      "content_source": "feed",
+      "tags": [
+        "パスワード管理",
+        "セキュリティ",
+        "物理キー",
+        "証券口座"
+      ],
+      "fetched_at": "2026-10-12T10:04:31.541429+09:00",
+      "summary": "証券口座などの重要なパスワード管理において、パスワードマネージャーの利用が一般的になっている。しかし、パスワードマネージャーの脆弱性や、それに紐づくアカウントの乗っ取りリスクが懸念されている。本記事では、これらのリスクを踏まえ、物理キー（ハードウェアセキュリティキー）の導入によるセキュリティ強化の重要性について言及している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_3ec1a022066b",
+      "source": "hatena",
+      "title": "Opus 5.5のおかげで3Dプリンターを活用できるようになった - Write and Run",
+      "url": "https://diary.hatenablog.jp/entry/2026/10/11/204055",
+      "score": 52,
+      "comments": 0,
+      "raw_description": "3D CAD が苦手だ。始めて触ったのは小学4年生のときだったと思う。六角大王と Metasequoia のどちらを先に触ったかは記憶が曖昧である。 3D プリンタを買った。2年以上前のことである。Bambu A1 mini は白物家電の領域に到達しつつある、セールをしているから今すぐ買え、というようなことを言われたような気がする。 買...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-12T10:04:31.541575+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50048642",
+      "source": "hackernews",
+      "title": "Fingerprints Are the New Cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "score": 51,
+      "comments": 18,
+      "raw_description": "From now on Iâll call you: â¦ computingâ¦ Try refreshing the page. Clear the cookies. Connect to a VPN. Youâre still the â¦ . Now open it on your phone or some other device and your nickname will be different and just as consistent. Is it different in incognito? Good. But itâs always the same? Bad news. Imagine this: Most websites you visit get paid to show ads and indirectly run my script that lets me know youâre the â¦ . I can use it to decide what ads youâll see. But more importantly, if youâve made an account on that website, I can offer to buy your data - whatever they can share under their privacy policy: your name, activity, conversations with AIâ¦ Pretty soon Iâd know more about you than your friends do - perhaps more than you know yourself. âSo what?â - you say. âI have nothing to hide. And I prefer my ads to be relevantâ¦ sometimes they show me exactly what I need! And the data is anonymised anywayâ¦â See, the thing is, itâs not about you at all. Itâs not really about the ads anymore either. Nobody cares about you. And if the police or your government happen to care, Iâll gladly take their money too. I look at all this data and I donât see people. I see patterns. Patterns emerging out of patterns. A living, digital fractal state of the economy, society and human psyche. The crystal ball of the 21st century and itâs made of silicon! Thatâs the product. And to the highest bidder it goes! What does that make you then? A gear? An",
+      "content_source": "page",
+      "tags": [
+        "フィンガープリンティング",
+        "プライバシー",
+        "データ販売",
+        "追跡技術"
+      ],
+      "fetched_at": "2026-10-12T10:04:32.600168+09:00",
+      "summary": "ウェブサイトは広告収入のためにユーザーの行動を追跡し、そのデータを販売することで収益を上げています。フィンガープリンティング技術は、Cookieに代わる追跡手段として、ユーザーのデバイスやブラウザの設定からユニークな識別子を生成し、プライバシーポリシーの範囲内で個人情報や活動履歴を収集・分析します。このデータは、広告ターゲティングだけでなく、政府機関などにも販売される可能性があり、個人の行動パターンをデジタル経済の「製品」として捉える動きが加速しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50048522",
+      "source": "hackernews",
+      "title": "Recursive self-improvement through collective intelligence",
+      "url": "https://pub.sakana.ai/mass/",
+      "score": 47,
+      "comments": 19,
+      "raw_description": "Self-supervision through better coordination among agents that share one language model. Multi-Agent Self-Supervision Recursive self-improvement through collective intelligence To advance beyond humanity's accumulated knowledge, AI itself (the optimizee ) may also be its best available optimizer and evaluator. MASS repeatedly optimizes multi-agent workflows, then distills collective intelligence from multi-agent systems and uses it as a self-supervision signal for RSI. It improves score per output token over the base model on research benchmarks. We hope MASS contributes to AI’s Odyssean moment: continual self-learning in a setting where the optimizee is the evaluator, and the optimizer is the optimizee. Estimated reading time: 15 min Resources Paper Code Authors Hyunin Lee † UC Berkeley Jinglue Xu Sakana AI Jeffrey Seely Sakana AI Donghyun Lee UC Berkeley Somayeh Sojoudi UC Berkeley Matei Zaharia UC Berkeley Yujin Tang Sakana AI Published October 2026 † Work done during an internship at Sakana AI. Figure 1. From shared work to shared knowledge. This engraving shows typesetting, printing, and proofreading as parts of a coordinated process. Books carry the result beyond the workshop, where others can learn from it and build on it. MASS draws on a related idea: a team's collective work can provide training examples for the model its members share. Jan Collaert I, after Stradanus, The Invention of Book Printing , c. 1600. The Metropolitan Museum of Art , Harris Brisbane Dick Fun",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "自己改善",
+        "多人数協調型",
+        "言語モデル"
+      ],
+      "fetched_at": "2026-10-12T10:04:32.870666+09:00",
+      "summary": "Sakana AIなどの研究者らが、多人数協調型自己監督（MASS）という手法を提案しました。これは、単一の言語モデルを共有する複数のAIエージェントが協調することで、自己改善を再帰的に行うものです。MASSは、エージェント間のワークフローを最適化し、その集合知を自己監督信号として利用することで、研究ベンチマークにおいてベースモデルを上回る性能向上を達成しました。この技術は、AIが自身の知識を継続的に学習・向上させるための重要な一歩となる可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50049411",
+      "source": "hackernews",
+      "title": "Whatever became of holography? (2011)",
+      "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+      "score": 42,
+      "comments": 11,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "ホログラフィー"
+      ],
+      "fetched_at": "2026-10-12T10:04:31.786405+09:00",
+      "summary": "2011年の記事であり、ホログラフィーの現状について振り返る内容と思われる。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50049302",
+      "source": "hackernews",
+      "title": "Governments are mishandling the affordability crisis",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
+      "score": 39,
+      "comments": 30,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "政府",
+        "物価高騰"
+      ],
+      "fetched_at": "2026-10-12T10:04:31.980453+09:00",
+      "summary": "政府が物価高騰問題への対応を誤っていると思われる記事です。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_9aafd9018086",
+      "source": "hatena",
+      "title": "ゼロトラストはキツくない｜「完成」を目指す運用がキツい | CloudNative BLOGs",
+      "url": "https://blog.cloudnative.co.jp/articles/answer-ai-era-zero-trust/",
+      "score": 32,
+      "comments": 0,
+      "raw_description": "シンジです。 ついさっき、うちのすかんくが「AI時代のゼロトラストがキツい件について」という記事を書きました。OpenAIとHugging Faceのインシデントを起点に、ゼロトラストの前提を疑い、デセプションと復旧全振りを検討し、最後は「答えは出ていませんし、出すつもりも正直無いです」と言い切って終わる記事です。 ...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-12T10:04:31.541768+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50049133",
+      "source": "hackernews",
+      "title": "Illustration Beyond Proof",
+      "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+      "score": 16,
+      "comments": 0,
+      "raw_description": "[This is a guest post by Kate Stange and Edmund Harriss. This blog post was initially written in a different file format and converted using AI. — T.] In January a group of mathematicians, hi… What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Illustration beyond Proof 11 October, 2026 in guest blog , math.GM | by Terence Tao [This is a guest post by Kate Stange and Edmund Harriss . This blog post was initially written in a different file format and converted using AI. — T.] In January a group of mathematicians, historians, artists and educators gathered at the Institut Henri Poincaré (IHP) for a very unusual workshop on mathematical meaning. Our focus for that week, as part of a special trimester on the use of illustration in mathematical research, was to ask: what would it mean for an illustration to be rigorous [1]? We did not anticipate how urgent the surrounding cluster of questions, about the very definitions of human mathematical practice, would seem, just six months later. Our discussions led to an article, written over the summer in the context of the Leiden Declaration [2], and now accepted in the Notices [3]. The past month or two have seen a heartfelt outpouring of viewpoints on what it means to do mathematics as a human being, and what it will mean in the near future. It is evident from the impassioned dis",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-12T10:04:33.111798+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_9b2fc87bbcb2",
+      "source": "hatena",
+      "title": "【やじうまミニレビュー】 こういうのでいいんだよ……のはずだった。Amazonベーシック格安USB4ケーブル",
+      "url": "https://pc.watch.impress.co.jp/docs/column/yajiuma-mini-review/2147366.html",
+      "score": 14,
+      "comments": 0,
+      "raw_description": "Amazonベーシックから、USB4に対応したハイスペックなケーブル「USB4 C to C高速充電ケーブル」が登場した。80Gbpsの高速転送に対応するほか、最大240Wの充電も可能、さらに16K/60Hzの映像出力にも対応するなど、全部入りといっていいスペックでありながら、2,000円台というリーズナブルな価格が特徴だ。 やじうまミニレビュー こういうのでいいんだよ……のはずだった。Amazonベーシック格安USB4ケーブル 山口 真弘 2026年10月12日 06:02 やじうまミニレビューは、1つ持っておくと便利なPC周りのグッズや、ちょっとしたガジェットなど幅広いジャンルの製品を試して紹介するコーナーです。 Amazonベーシック「USB4 C to C高速充電ケーブル」。実売価格は2,356円 Amazonベーシックから、USB4に対応したハイスペックなケーブル「USB4 C to C高速充電ケーブル」が登場した。80Gbpsの高速転送に対応するほか、最大240Wの充電も可能、さらに16K/60Hzの映像出力にも対応するなど、全部入りといっていいスペックでありながら、2,000円台というリーズナブルな価格が特徴だ。 規格はハイエンド、しかも一般的には4,000～5,000円してもおかしくないところを、半額にあたる2,000円台で実現しており、「こういうのでいいんだよ」と歓迎したくなるが、実際に入手してみると若干予想外の点もみられた。いったい何が予想外だったのか、購入した実機をもとにレビューをお届けする。 記事目次 スペックがモールド表示されており分かりやすさも◯ 「80Gbps対応」「240W対応」で映像出力にも対応 ケーブルの「太さ」と「硬さ」に要注意 「スペックの高さ」「分かりやすさ」「価格の安さ」を兼ね備えた製品 スペックがモールド表示されており分かりやすさも◯ 本製品はAmazonベーシックブランドで販売される、両端ともにUSB Type-Cのケーブルだ。長さは1.5m、本体カラーはブラックのみで、現時点ではこのモデルのみのラインナップだ。 コネクタの表側には「80Gbps/240W」の、裏側には「amazon basics」のモールドがある。最近のUSBケーブルでは、本製品のように速度/最大出力をコネクタに表示する製品が増えているが、その多くはシルク印刷で、本製品のようなモールド仕様は珍しい。パッケージから出すとスペックが分からなくなってしまうUSBケーブルが多い中、摩耗で表示が消える心配もなく、恒久的にスペックおよびブランド名を確認できるこの仕様はありがたい。 ちなみにこのフォーマットからも分かるように、本製品はUSB-IFの正式認証を取得している。USB-IFのサイトで確認すると「CE LINK LIMITED」という社名で同じモデル番号の製品がリストに掲載されており、きちんと認証を取得した製品であることが分かる。 外観とコネクタ両面のモールド 製品外観。長さは1.5m、色はブラックのみ コネクタの表側にはUSB-IFのフォーマットに準拠した「80Gbps/240W」のモールドがある コネクタの裏側には「amazon basics」のモールドがある 製品はベトナム製とされている パッケージはAmazonベーシックではおなじみの茶箱 「80Gbps対応」「240W対応」で映像出力にも対応 あらためて仕様を確認しておこう。「USB Cable Checker3」で仕様をチェックしたところ、公称値と同じ「80Gbps対応」「2",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-12T10:04:31.541625+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_eeb27e228222",
+      "source": "hatena",
+      "title": "Microsoft セキュリティ、これをやってください！～ 実践ベストプラクティス - Qiita",
+      "url": "https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5",
+      "score": 11,
+      "comments": 0,
+      "raw_description": "はじめに 2026年9月下旬以降、国内でもサイバー攻撃による被害が相次いで報道されています。 その侵入経路は、ネットワーク機器の脆弱性を突くものや、フィッシングメールなど、さまざまです。 また今後は、利用者自身だけでなく、AI エージェントが外部のコンテンツやサービスへアクセスすることによって生じる、新たな...",
+      "content_source": "feed",
+      "tags": [
+        "サイバー攻撃",
+        "セキュリティ",
+        "脆弱性",
+        "AI"
+      ],
+      "fetched_at": "2026-10-12T10:04:31.541689+09:00",
+      "summary": "2026年9月下旬以降、国内でサイバー攻撃被害が相次いでいる。攻撃経路はネットワーク機器の脆弱性やフィッシングメールなど多岐にわたる。今後は利用者だけでなく、AIエージェントが外部サービスへアクセスすることによる新たな脅威も想定されるため、Microsoft製品におけるセキュリティ対策のベストプラクティスを実践することが重要である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f107e538b5b5",
+      "source": "hatena",
+      "title": "やっぱりApple Watchで決まり！ Series 12は計測が大きく進化、健康になりたい俺が本気で試してみた (1/5)",
+      "url": "https://ascii.jp/elem/000/004/440/4440915/",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "健康診断の結果を見るたびに、そろそろ本気で体を立て直したいと思う。そんな人は多いはずです。私もその一人で、これまでいくつものスマートウォッチを試してきましたが、結局手元に残るのはApple Watchでした。9月に発売された12世代目の「Apple Watch Series 12」は、見た目こそ前のモデルとほぼ同じですが、中身は心...",
+      "content_source": "feed",
+      "tags": [
+        "Apple Watch",
+        "スマートウォッチ",
+        "健康管理",
+        "ウェアラブルデバイス"
+      ],
+      "fetched_at": "2026-10-12T10:04:31.541728+09:00",
+      "summary": "Apple Watch Series 12は、外観は前モデルとほぼ同じながら、内部の計測機能が大きく進化している。健康意識の高いユーザーにとって、体の状態をより詳細に把握できる点が重要となる。具体的な進化内容は心拍数計測などから推測されるが、本文では詳細が明記されていない。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_b994608cbdda",
+      "source": "reddit",
+      "title": "Software developers are not okay | Bjarnason",
+      "url": "https://www.reddit.com/r/programming/comments/1x32log/software_developers_are_not_okay_bjarnason/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/waozen [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Software developers"
+      ],
+      "fetched_at": "2026-10-12T10:04:33.626410+09:00",
+      "summary": "ソフトウェア開発者の現状について論じている記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_1a03317b30f4",
+      "source": "reddit",
+      "title": "Python 3.15 vs Python 3.14 – performance testing",
+      "url": "https://www.reddit.com/r/programming/comments/1x3djbz/python_315_vs_python_314_performance_testing/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BestRef [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Python 3.15",
+        "Python 3.14"
+      ],
+      "fetched_at": "2026-10-12T10:04:33.626605+09:00",
+      "summary": "Python 3.15とPython 3.14のパフォーマンスを比較テストした記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_dc75e8f214f7",
+      "source": "reddit",
+      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "url": "https://www.reddit.com/r/programming/comments/1x37b3z/valens_memory_safety_a_new_kind_of_borrow_checking/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/verdagon [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Valen",
+        "Memory Safety"
+      ],
+      "fetched_at": "2026-10-12T10:04:33.626806+09:00",
+      "summary": "Valenという新しい概念におけるメモリ安全性と、それに関連する借用チェックの仕組みについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_1cd9dfbdd0ba",
+      "source": "reddit",
+      "title": "wxWidgets 3.2.12 and 3.3.4 Released",
+      "url": "https://www.reddit.com/r/programming/comments/1x332bn/wxwidgets_3212_and_334_released/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mariuz [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "wxWidgets"
+      ],
+      "fetched_at": "2026-10-12T10:04:33.626965+09:00",
+      "summary": "wxWidgets 3.2.12と3.3.4がリリースされたようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
