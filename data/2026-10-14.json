@@ -1,0 +1,359 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T09:56:36.006221+09:00",
+  "articles": [
+    {
+      "id": "hn_50073879",
+      "source": "hackernews",
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "score": 963,
+      "comments": 737,
+      "raw_description": "Our next era of frontier intelligence Argon helped the Chrome team separate core webpage handling from a ~6 million line legacy folder of browser features held within Chromiumâs 40 million-line codebase. Piping multiple clean code changes at a time, Argon helped the team finish an architectural refactor across hundreds of files, completing months of work in weeks. For Chrome's billions of global users, this will unlock the ability for live webpages to move fluidly between tabs, side panels, and floating windows without reloading, eliminating an entire category of browser crashes.",
+      "content_source": "page",
+      "tags": [
+        "Gemini 4 Argon",
+        "Chromium",
+        "アーキテクチャリファクタリング",
+        "Chrome"
+      ],
+      "fetched_at": "2026-10-14T09:56:23.659606+09:00",
+      "summary": "Googleは、Chromiumのコードベースにおける大規模なアーキテクチャリファクタリングを加速するために、Gemini 4 Argonを活用しました。Argonは、数百万行に及ぶレガシーコードを整理し、数ヶ月かかる作業を数週間で完了させることで、コアなウェブページ処理とブラウザ機能を分離しました。この改善により、Chromeユーザーはタブ間やウィンドウ間でのウェブページの移動時にリロードが不要になり、ブラウザクラッシュの削減に繋がります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50069499",
+      "source": "hackernews",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "score": 668,
+      "comments": 373,
+      "raw_description": "NoteGiven that this issue has been shared online and is currently getting quite a few visitors, here's some additional context. Rust's type system is intended to prevent memory unsafety. Upholding ... struct's lifetime requirements can be bypassed via covariant field assignment #164250 New issue Copy link New issue Copy link Open #164277 Open struct's lifetime requirements can be bypassed via covariant field assignment #164250 #164277 Copy link Labels A-borrow-checker Area: The borrow checker Area: The borrow checker A-destructors Area: Destructors (`Drop`, …) Area: Destructors (`Drop`, …) A-lifetimes Area: Lifetimes / regions Area: Lifetimes / regions A-variance Area: Variance (https://doc.rust-lang.org/nomicon/subtyping.html) Area: Variance (https://doc.rust-lang.org/nomicon/subtyping.html) C-bug Category: This is a bug. Category: This is a bug. I-unsound Issue: A soundness hole (worst kind of bug), see: https://en.wikipedia.org/wiki/Soundness Issue: A soundness hole (worst kind of bug), see: https://en.wikipedia.org/wiki/Soundness P-high High priority High priority T-types Relevant to the types team, which will review and decide on the PR/issue. Relevant to the types team, which will review and decide on the PR/issue. Description jsnell opened on Oct 13, 2026 Issue body actions Note Given that this issue has been shared online and is currently getting quite a few visitors, here's some additional context. Rust's type system is intended to prevent memory unsafety. Upholding ",
+      "content_source": "page",
+      "tags": [
+        "Rust",
+        "borrow checker",
+        "soundness",
+        "memory safety"
+      ],
+      "fetched_at": "2026-10-14T09:56:25.028099+09:00",
+      "summary": "Rustの借用チェッカー（borrow checker）において、11年間未発見だった健全性に関するバグが発見されました。このバグは、構造体のライフタイム要件が共変フィールド代入によって回避される可能性があり、Rustの型システムが意図するメモリ安全性の保証を損なうものです。この問題は、Rustの型システムとメモリ安全性の根幹に関わるため、重要視されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50071017",
+      "source": "hackernews",
+      "title": "Apple HomeView",
+      "url": "https://www.apple.com/apple-homeview/",
+      "score": 648,
+      "comments": 771,
+      "raw_description": "Apple HomeView is a smart display with Siri AI, Liquid Retina display, high-fidelity audio, FaceTime, smart home controls, built-in privacy, and more. Welcome, Apple HomeView Welcome, Available starting 11.13 November 13 Pre-order Apple HomeView Apple HomeView (Wall Mounted) Apple HomeView Siri AI Multiuser Audio and visuals Ways to connect Smart home dashboard Apple Privacy Apple HomeView keeps the whole home connected, entertained, and in the know. All in one place. Private for all. Siri AI. A personal assistant that helps you find what you need and get more done. 1 Available in English to start. Usage limits may apply. Available in English to start. Usage limits may apply. Recognizes up to six people and delivers a personalized experience for each one. Incredible audio and stunning visuals for your music, videos, FaceTime, and photos. Text back. Make a call. Wave hello. So many ways to connect, even hands-free. The ultimate dashboard for your smart home. The privacy every home and everyone deserves. Silver Design Design. The domed aluminum base is fitted with a stainless steel hinge that lets you adjust the display. 2 Available in four colors. Shown in Silver . Apple HomeView Design. Silver Starlight Rose Pink Space Gray Display Display. The 7-inch Liquid Retina display includes True Tone for comfortable viewing in any light. 3 Brightness ranges from 500 nits for sunny rooms to our lowest-ever 0.3 nits for the bedside. Select features respond to your proximity to show more",
+      "content_source": "page",
+      "tags": [
+        "スマートディスプレイ",
+        "Siri",
+        "スマートホーム",
+        "Apple"
+      ],
+      "fetched_at": "2026-10-14T09:56:24.635005+09:00",
+      "summary": "Apple HomeViewは、Siri AI、Liquid Retinaディスプレイ、高音質オーディオ、FaceTime、スマートホームコントロール、プライバシー機能を統合したスマートディスプレイです。最大6人まで認識し、ユーザーごとにパーソナライズされた体験を提供します。音楽、動画、FaceTime、写真鑑賞に適した高品質なオーディオとビジュアルを備え、スマートホームの管理ハブとしても機能します。プライバシー保護にも配慮した設計となっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50073633",
+      "source": "hackernews",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "score": 510,
+      "comments": 510,
+      "raw_description": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before. The bottleneck, now, is all of the developer infrastructure built for human scale: source control, builds, and CI. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day. We don’t expect this rate of growth to slow down anytime soon; the latent demand for merging code is practically infinite, and every bottleneck we remove immediately leads to a further increase in the amount of code we produce. Changes merged to our monorepo per day, from January to September 2026. In order to support this growth, we built Scion, an in-house version control system, and fully migrated our monorepo from git in five months. We also built and shipped a code review surface (called Antique), code search, a rich source control IAM system, novel ways of managing and landing large amounts of reviewed code, and more, all in that same time period. In this post, we’ll focus on how we built Scion specifically. It makes for an interesting case study: Claude’s ability to write code was both what",
+      "content_source": "page",
+      "tags": [
+        "ソース管理",
+        "バージョン管理システム",
+        "モノレポ",
+        "開発インフラ"
+      ],
+      "fetched_at": "2026-10-14T09:56:24.442308+09:00",
+      "summary": "Anthropicは、1日のマージ数が10倍以上に増加し、ソース管理が開発の最大のボトルネックとなったため、5ヶ月で自社開発のバージョン管理システム「Scion」を構築し、モノレポをGitから移行しました。このシステムは、Claudeによるコード生成能力の向上に対応し、開発インフラのスケールアップを目指しています。同時に、コードレビュー、コード検索、IAMシステムなども開発されました。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50054092",
+      "source": "hackernews",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "score": 412,
+      "comments": 313,
+      "raw_description": "https://www.heise.de/en/news/Crypto-thieves-sell-hardware-wa... https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wa... https://www.youtube.com/watch?v=8JnHdr30v4g https://www.youtube.com/watch?v=Nf4FEFlgv3Q https://www.tibane.net/research/ledger-nano-x-implant",
+      "content_source": "hn_text",
+      "tags": [
+        "Ledger",
+        "ハードウェアウォレット",
+        "セキュリティ",
+        "仮想通貨"
+      ],
+      "fetched_at": "2026-10-14T09:56:24.050040+09:00",
+      "summary": "Ledgerは、同社のハードウェアウォレットに不正なチップが埋め込まれていたことを確認しました。このチップは、秘密鍵を抽出するために使用され、仮想通貨の盗難につながったとされています。この事実は、ハードウェアウォレットのセキュリティに対する信頼に影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50072913",
+      "source": "hackernews",
+      "title": "Thunderbird for iOS",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "score": 328,
+      "comments": 142,
+      "raw_description": "The team has been working hard behind the scenes laying a strong foundation for the Thunderbird iOS app, building natively from scratch. Mobile Thunderbird Thunderbird for iOS: A First Look at the Native iPhone Email App in Development October 1, 2026 Aly Blenkin 30 responses The team has been working hard behind the scenes laying a strong foundation for the Thunderbird iOS app. Rather than leveraging existing code, we are building natively from scratch. This fresh start allows us to take everything we’ve learned from Thunderbird Desktop and Android to ensure a fast, reliable, and modern experience on your iPhone right from the start. Our ultimate goal is seamless cross-device experience. Whether you’re sitting at your desktop computer, checking messages on the go, your workflow should feel effortless and unified. Right now, we are focused heavily on getting the core foundations right. We are excited about the momentum because having clean architecture today means we can layer on exciting new features much faster in the future. Below we’ve captured some of our work in progress. Nothing is final, but we wanted to share what we are cooking up so far. If you have feedback, keep reading on. At the bottom of the post we have a link to a user research study where we want to hear from you and what you want to see from Thunderbird for iOS. Hassle-free setup Adding account user flow with options for email services like Google and Microsoft We know people are really busy, often doing m",
+      "content_source": "page",
+      "tags": [
+        "Thunderbird",
+        "iOS",
+        "ネイティブ開発",
+        "メールアプリ"
+      ],
+      "fetched_at": "2026-10-14T09:56:24.832254+09:00",
+      "summary": "Thunderbird for iOSは、既存のコードを利用せず、ゼロからネイティブ開発されている新しいiPhone向けメールアプリです。Thunderbird DesktopとAndroidでの経験を活かし、高速で信頼性が高くモダンな体験を目指しています。クロスデバイスでのシームレスな連携を究極の目標とし、現在はコア基盤の構築に注力しています。クリーンなアーキテクチャにより、将来的な新機能の追加を迅速化できる見込みです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50077020",
+      "source": "hackernews",
+      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "url": "https://guitoro.com/",
+      "score": 240,
+      "comments": 78,
+      "raw_description": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds.",
+      "content_source": "hn_text",
+      "tags": [
+        "仮想ギター",
+        "ブラウザアプリ",
+        "音楽ツール",
+        "無料"
+      ],
+      "fetched_at": "2026-10-14T09:56:23.856299+09:00",
+      "summary": "Guitoroは、実際の楽器の録音を使用した無料のブラウザベースの仮想ギターです。キーボード、マウス、またはタッチスクリーンで演奏でき、アコースティック、クラシック、エレキギター、ベースを選択できます。コードの押さえ方やストロークも表示され、曲の練習速度を20%まで遅くすることも可能です。コードツールやチューナーも無料で利用でき、サインアップやダウンロードは不要です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_adb8bef4f81d",
+      "source": "hatena",
+      "title": "米Getty Imagesが破産申請へ　AI画像の台頭で経営悪化、「報道写真」軸に年内の再建目指す",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002234/",
+      "score": 207,
+      "comments": 0,
+      "raw_description": "再建後は、創業家のゲッティ家と米投資会社Koch Equity Developmentの関連会社が株式を100％保有する。両者は最大5億3300万ドルを新たに出資するほか、債権者も金利負担の軽減や返済期限の延長などに応じた。 Getty Imagesを巡っては、競合の米Shutterstockとの合併が破談になったばかりだった。2025年1月に約37億ドル規...",
+      "content_source": "feed",
+      "tags": [
+        "Getty Images",
+        "AI画像",
+        "経営再建",
+        "破産申請"
+      ],
+      "fetched_at": "2026-10-14T09:56:23.277677+09:00",
+      "summary": "Getty ImagesはAI画像の台頭による経営悪化を受け、破産申請を行う。再建後は創業家とKoch Equity Development関連会社が株式を100%保有し、両者から最大5億3300万ドルの出資を受ける。競合Shutterstockとの合併交渉が破談したことも経営悪化の一因となった。同社は「報道写真」を軸に年内の再建を目指す。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_0dcc717a3958",
+      "source": "hatena",
+      "title": "私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36->blog;",
+      "url": "https://blog.shibayu36.org/entry/2026/10/13/173000",
+      "score": 96,
+      "comments": 0,
+      "raw_description": "自分の設定ファイルやインストールするアプリは、https://github.com/shibayu36/config-file のリポジトリで管理している。これまでは私物Macと仕事Macが全く同じになるように、雑にsymlinkを張るスクリプトで運用していた。新しい仕事用のMacをもらったのをきっかけに、私物だけ・仕事だけに入れるものをちゃんと分けつ...",
+      "content_source": "feed",
+      "tags": [
+        "dotfiles",
+        "mise bootstrap",
+        "macOS",
+        "設定管理"
+      ],
+      "fetched_at": "2026-10-14T09:56:23.277581+09:00",
+      "summary": "筆者は、GitHubで管理している設定ファイルとアプリのリストを、mise bootstrapを用いて私物Macと仕事用Macで適切に分離・管理できるように改善しました。これにより、それぞれのMacに特化した設定やアプリの導入が容易になり、以前のシンボリックリンクによる雑な管理から脱却しました。この変更は、新しい仕事用Macの導入を機に行われ、より効率的な環境構築を目指したものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f7fd49762586",
+      "source": "hatena",
+      "title": "あなたの『Amazon Kindle』は最新モデルへ買い替えるべき？ 歴代モデル徹底比較【山口真弘のおすすめ読書タブレット比較】",
+      "url": "https://forest.watch.impress.co.jp/docs/bookwatch/tabletrecom/2147295.html",
+      "score": 65,
+      "comments": 0,
+      "raw_description": "Amazonの電子ペーパー端末「Kindle」シリーズの中で、エントリークラスに相当するのが、シリーズと同名の『Kindle』だ。上位の『Kindle Paperwhite』と比べると画面サイズは6型とコンパクトなほか、機能も全体的に控えめだが、シリーズの中ではもっとも低価格で入手性も高い。 山口真弘のおすすめ読書タブレット比較 あなたの『Amazon Kindle』は最新モデルへ買い替えるべき？ 歴代モデル徹底比較 山口 真弘 2026年10月13日 17:43 2012年の日本へのKindle上陸以降、国内で販売された無印のKindleは全6種類。上段が左から第7世代、第8世代、第10世代。下段が第11世代（2022年発売）、第11世代（2024年発売）、現行モデル（2026年発売） Amazonの電子ペーパー端末「Kindle」シリーズの中で、エントリークラスに相当するのが、シリーズと同名の 『Kindle』 だ。上位の 『Kindle Paperwhite』 と比べると画面サイズは6型とコンパクトなほか、機能も全体的に控えめだが、シリーズの中ではもっとも低価格で入手性も高い。 今回は、この『Kindle』の歴代モデルすべてを紹介しつつ、それらを実際に使ってきたユーザーの視点で、2026年発売の最新モデルに買い替える必要があるのか否か、複数のポイントを検証していく。 なお画質比較のサンプルには、 『Kindle Unlimited』 で配信されている、森田 崇／モーリス・ルブラン著 『怪盗ルパン伝アバンチュリエ 第1巻』 を、許諾を得て使用している。またテキストは夏目漱石著 『坊っちゃん』 をサンプルとして使用している。 Kindle（第7世代）──2014年発売 初代の『Kindle』は、「Kindle」シリーズのエントリーモデルとして2014年に初登場した製品で、Amazonが用いる呼称ルールでは「第7世代」にあたる。画面サイズは6型で、解像度は800×600ドットと低いものの、広告ありモデルは6,980円、広告なしモデルでも8,980円から購入できる安さが話題になった。 もっともストレージの容量は4GBしかなく、コミックなどを保存するには心もとないほか、上位の『Kindle Paperwhite』と違ってフロントライトは非搭載、さらにバッテリーの持続時間も半分の4週間と、価格重視の仕様が目についた。重量も191gと、最新の2026年発売モデル（140g）よりも50g以上重く、手に持つとずっしり来る。 すでに発売から10年以上が経過したモデルであり、E Inkも世代が古いPearlということもあり、動作ももっさりしている。ホーム画面も旧デザインのまま刷新されておらず、今後の更新も見込めない。今なお所有しているのであれば、買い替えは必須だろう。 『Kindle』（第7世代）。同時期に発売されたFireなどとも共通する、背面が角ばったデザインを採用する Kindle（第8世代）──2016年発売 モデルチェンジの間隔が比較的長い『Kindle』において、2014年の初代モデルに続く新モデルは、2016年に発表された、第8世代と呼ばれる製品だ。 画面サイズや解像度などのスペックは2014年発売の第7世代モデルと同一、またストレージ容量も4GBのままだが、重量が約160gと約2割軽くなったほか、ボディサイズもひとまわり小さいなど、従来モデルとの比較では小型軽量化が大きな目玉と言える。 一方でフロントライトを搭載しないなど、上位の『Kindle ",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-14T09:56:23.277603+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_8c17f1f1ac30",
+      "source": "hatena",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "score": 51,
+      "comments": 0,
+      "raw_description": "Published Oct 13, 2026 As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. At Anthropic, coding is no longer the bottleneck to building systems or doing researc...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-14T09:56:23.277730+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_3786c06fba6f",
+      "source": "hatena",
+      "title": "エンターテインメントを楽しみ、家を管理する新しい方法、Apple HomeViewが登場",
+      "url": "https://www.apple.com/jp/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+      "score": 45,
+      "comments": 0,
+      "raw_description": "エンターテインメントを楽しみ、つながりを保ち、家を管理する新しい方法、Apple HomeViewが登場 Apple HomeViewは、Apple IntelligenceとSiri AIを活用し、プライバシーとセキュリティを中核に据えて設計されています カリフォルニア州クパティーノ Appleは本日、家の中心となり、家の中の一人ひとりに合わせてパーソナ...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-14T09:56:23.277821+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_99f868d086a3",
+      "source": "hatena",
+      "title": "「Gemini 4 Argon」が一般提供開始 ～満を持して登場した最強の「Gemini」モデル／「Gemini」アプリでは「Google AI Pro/Ultra」の契約者が利用可能",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2147842.html",
+      "score": 35,
+      "comments": 0,
+      "raw_description": "米Googleは10月13日（現地時間、以下同）、AIモデル「Gemini 4 Argon」の一般提供を開始した。9月30日に発表されたフロンティアモデルで、これまでは信頼できるサイバーセキュリティ担当者を対象とするプログラム「Fairwind Program」を通じて限定提供されていた。 ニュース 「Gemini 4 Argon」が一般提供開始 ～満を持して登場した最強の「Gemini」モデル 「Gemini」アプリでは「Google AI Pro/Ultra」の契約者が利用可能 樽井 秀人 2026年10月14日 01:31 「Gemini 4 Argon」が一般提供開始 米Googleは10月13日（現地時間、以下同）、AIモデル「Gemini 4 Argon」の一般提供を開始した。 9月30日に発表 されたフロンティアモデルで、これまでは信頼できるサイバーセキュリティ担当者を対象とするプログラム「Fairwind Program」を通じて限定提供されていた。 関連記事 生成AI 基盤モデル Google、新フロンティアモデル「Gemini 4 Argon」を発表 ～まずはサイバー防衛担当者向けに提供 「4 Argon」は同日より、グローバルで順次利用可能になる。提供先は以下の通り。 開発者 ：「Gemini API」の有料プラン。「Google AI Ultra」の契約者は、「Google Antigravity」「Google AI Studio」「Android Studio」でも試せる 企業 ：「Gemini for business」、API、「Google Antigravity」 一般ユーザー ：「Google AI Ultra」「Google AI Pro」の契約者は、「Gemini」アプリと「Google 検索」の「AI モード」で利用可能 研究者 ：審査を経て、「Google Antigravity」の最上位の利用枠を6カ月間無償で利用できる（1万人が対象、申し込み受付中） サイバーセキュリティの防御担当者 ：「Fairwind Program」に申し込むと、サイバー関連のガードレールなしで利用できる。同日から、数百のパートナーへの拡大も始まっている 「Gemini API」では、入力と出力を合わせて最大100万トークンを扱える。料金は導入価格で100万トークンあたり入力が2米ドル、出力が10米ドル。キャッシュされた入力トークンは95％OFFだ。 「4 Argon」は、コーディング、金融、法務、サイバーセキュリティ、科学といった分野の複雑なタスクを得意としており、同社は金融、コーディング、法務、税務などを評価する「Vals Index」で1位の性能を主張している。 主要ベンチマークの結果（Googleの発表より） Googleは、整理されていないプロジェクト資料から顧客向けの提案スライドを作成する例も紹介。カスタムスキルやスケジュールされたタスクを組み合わせ、今後の依頼への対応を自動化するデモを公開している。 社内でもすでに活用されているとのことで、これまで解決が困難だったエンジニアリング課題で成果を上げているという。たとえば、約4,000万行にもわたる「Chromium」のコードベースのうち、約600万行のレガシーなフォルダーからWebページ処理の中核部分を切り離すリファクタリングは、数カ月かかるところを数週間で完了したという。 安全面も配慮されており、コーディングベンチマークではタスクが行き詰まった際に許可のない近道",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-14T09:56:23.277779+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50080275",
+      "source": "hackernews",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "url": "https://pulseos.finance",
+      "score": 29,
+      "comments": 18,
+      "raw_description": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data. Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting with fine-tuning and expanding along this direction. How it works: you import a CSV from any bank, in any currency. When you ask a question, a tuned Qwen3 0.6B model reads it into a structured query, and code, not the model, does the money math against the ledger. A 4B checker model double-checks each money answer; when the two readings disagree, the app says it is not sure instead of guessing. That change took wrong answers from about one in five to 5 in 494 questions across our last three tests. The write-up covers how we test, the designs that failed, and the limits of the claim: https://pulseos.finance/pulse-local/writing/agree-or-not-sur... The tuned weights are on Hugging Face (PulseOS/pu",
+      "content_source": "hn_text",
+      "tags": [
+        "家計簿アプリ",
+        "ローカルAI",
+        "プライバシー",
+        "Mac"
+      ],
+      "fetched_at": "2026-10-14T09:56:24.246264+09:00",
+      "summary": "Pulse Localは、Mac（Apple Silicon、ベータ版）向けの家計簿アプリで、AIモデルがローカルで動作するため、アカウント不要でプライバシーが保護されます。ユーザーの支出に関する質問に対し、ローカルで実行されるモデルが回答し、データは外部に送信されません。Qwen3 0.6Bモデルが質問を構造化クエリに変換し、コードが計算を実行、別の4Bモデルが回答を検証することで、誤答率を大幅に低減しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a77939c8f095",
+      "source": "hatena",
+      "title": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "社内の監視カメラの映像には、装置の発見前に同容疑者が複数回にわたって役員会議室の付近に現れる様子が映っていた。同容疑者には、この会議室への立ち入りや会議への参加の権限はなかった。訴状によると、この会議室では独自の研究や製品計画、事業開発の機会に加え、技術的な進捗や戦略上の判断、政府との関わり、商...",
+      "content_source": "feed",
+      "tags": [
+        "OpenAI",
+        "FBI",
+        "セキュリティ",
+        "内部不正"
+      ],
+      "fetched_at": "2026-10-14T09:56:23.277856+09:00",
+      "summary": "OpenAIの従業員が、権限のない役員会議室に録音装置を設置した疑いでFBIに逮捕された。監視カメラ映像には、同従業員が装置発見前に複数回、会議室付近に出没する様子が記録されていた。この会議室では、独自の研究、製品計画、事業開発、技術的進捗、戦略的判断、政府との関わりなど、機密性の高い情報が議論されていた。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_5d5305ff412a",
+      "source": "hatena",
+      "title": "AI、家電乗っ取り増殖の恐れ　アンソロピック「デジタル粘菌」と警告 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN140170U6A011C2000000/",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "【シリコンバレー=山田遼太郎】米アンソロピックは12日、人工知能（AI）がインターネット接続するテレビなどのスマート家電を乗っ取り、自ら増殖する能力を持つ可能性があると警告した。無数の機器に「粘菌」のようにAIが広がれば、セキュリティーリスクを生むと指摘した。同社でAIの安全対策などに取り組む研究者らがブ...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "スマート家電",
+        "セキュリティリスク",
+        "アンソロピック"
+      ],
+      "fetched_at": "2026-10-14T09:56:23.277772+09:00",
+      "summary": "米アンソロピックは、AIがスマート家電を乗っ取り、自ら増殖する能力を持つ可能性を警告しました。これは、AIが「デジタル粘菌」のように無数の機器に広がり、セキュリティリスクを生む恐れがあるためです。同社の研究者は、AIの安全対策の重要性を指摘しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_8a1b2fc87c97",
+      "source": "reddit",
+      "title": "More, Better, Faster: How we automate Metabase releases",
+      "url": "https://www.reddit.com/r/programming/comments/1x4sw6i/more_better_faster_how_we_automate_metabase/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/jessillions [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Metabase",
+        "automation"
+      ],
+      "fetched_at": "2026-10-14T09:56:25.393448+09:00",
+      "summary": "Metabaseのリリースを自動化する方法についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_579831029c7d",
+      "source": "reddit",
+      "title": "Built-in alternatives to pre-commit-hooks in prek and hk",
+      "url": "https://www.reddit.com/r/programming/comments/1x4x5b4/builtin_alternatives_to_precommithooks_in_prek/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/alefteris [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "prek",
+        "hk"
+      ],
+      "fetched_at": "2026-10-14T09:56:25.393637+09:00",
+      "summary": "prekとhkにおける、pre-commit-hooksの組み込み代替機能についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_8084120cbfe2",
+      "source": "reddit",
+      "title": "A declarative WAF built in Prolog. Try to hack it As A Research",
+      "url": "https://www.reddit.com/r/programming/comments/1x5cwtc/a_declarative_waf_built_in_prolog_try_to_hack_it/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "An HTTPS-secured Web Application Firewall in SWI-Prolog. It runs on a free-tier Google Cloud instance with only 1 GB of RAM (roughly 450 MB available after OS overhead). The entire stack operates comfortably within this limit using Prolog's lightweight threads. submitted by /u/lokinpendawa [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "WAF",
+        "Prolog",
+        "SWI-Prolog",
+        "Google Cloud"
+      ],
+      "fetched_at": "2026-10-14T09:56:25.393890+09:00",
+      "summary": "SWI-Prologで構築された、HTTPSで保護されたWebアプリケーションファイアウォール（WAF）が開発されました。このWAFは、1GBのRAMを持つ無料ティアのGoogle Cloudインスタンス上で動作し、Prologの軽量スレッドを活用することで、限られたリソース内で効率的に機能します。このプロジェクトは、宣言的なアプローチでWAFを構築する研究の一環として公開されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_ee61ccd35d01",
+      "source": "reddit",
+      "title": "From Python 3.15 to Python 3.6: Speed Comparison Through the Years",
+      "url": "https://www.reddit.com/r/programming/comments/1x56pba/from_python_315_to_python_36_speed_comparison/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BestRef [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Python"
+      ],
+      "fetched_at": "2026-10-14T09:56:25.394046+09:00",
+      "summary": "Python 3.15からPython 3.6までのバージョンごとの速度比較についての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
