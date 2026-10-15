@@ -1,0 +1,361 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T09:19:54.537291+09:00",
+  "articles": [
+    {
+      "id": "hn_50093568",
+      "source": "hackernews",
+      "title": "Things to know when you get cancer – 2026 Edition",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "score": 667,
+      "comments": 176,
+      "raw_description": "Personal website and portfolio index Things to know if you get cancer (2026 Edition) 2026.10.14 I was diagnosed with squamous cell carcinoma in my mouth in May 2026. Here are some things I learned based on that experience so far. You need to be doggedly persistent on scheduling things. Yes this means lots of phone calls. If you get an appointment a few weeks out, call back a few days later and ask for something sooner and see if they have any cancellations. I could only get an appointment 4 weeks out with an ENT (this was before I knew anything was wrong). My wife made me call back and I was able to get in that week due to a cancellation. AIs may downplay the seriousness of things. I was chatting with various models and most pushed me in the direction of “you don’t have cancer” for a while. Just something to note. You may need to push for comprehensive genetic testing. Some doctors were weird about this and didn’t order it promptly, even after telling me they would. My surgeon, who told me he’d get it done, eventually referred me out to an oncologist. This caused a multi-month delay to getting genetic results, since the first results were done on the surgery tumor, not the biopsy tumor. No one cares more about your case than you, so take control and send lots of follow-ups. You can find the “Standard of Care” flow charts for every cancer type. Look and get through this yourself to see what the options are based on how things have progressed. NCCN guidelines . You may need to ",
+      "content_source": "page",
+      "tags": [
+        "がん治療",
+        "医療AI",
+        "遺伝子検査",
+        "患者の権利"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.517940+09:00",
+      "summary": "2026年5月に口腔扁平上皮癌と診断された筆者の経験に基づき、がん患者が知っておくべき点をまとめた記事。予約の迅速化には粘り強い電話連絡が重要であり、AIチャットボットは病状の深刻さを過小評価する可能性がある。また、包括的な遺伝子検査を医師に働きかける必要があり、NCCNガイドラインなどを参照して自身で治療方針を把握することも推奨されている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50088935",
+      "source": "hackernews",
+      "title": "Passkeys are not a trap",
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+      "score": 437,
+      "comments": 615,
+      "raw_description": "A post called Passkeys are a trap. Do not use them. has been doing the rounds over the last few days, making it pretty high on Hacker News, and I've had it sent to me many times with an 'is this true?' kind of vibe. It's written for A post called Passkeys are a trap. Do not use them. has been doing the rounds over the last few days, making it pretty high on Hacker News, and I've had it sent to me many times with an 'is this true?' kind of vibe. It's written for \"non-technical citizens of the web\", and the headline advice is to stop using passkeys and go back to TOTP codes and passwords. The Argument The post makes what appears to be one central claim: Passkeys support something called attestation, which lets a website ask for cryptographic proof of what made the passkey. The author calls this a \"hidden dial\" and argues that sites will slowly turn it up, until you're only allowed to log in with approved software on an approved operating system, with no modifications, no LineageOS and no sharing your Netflix password. Throw in uBlock Origin, the FIDO Alliance membership list and the UK's image-scanning proposals, and the conclusion is that passkeys are \"not designed to prioritize your interests\". <that-escalated-quickly.gif> It's a compelling story. It just doesn't match how any of this actually works... Your Passkeys Don't Attest The passkeys most people use are synced passkeys, stored in iCloud Keychain, Google Password Manager, 1Password, Bitwarden or whatever other software",
+      "content_source": "page",
+      "tags": [
+        "パスキー",
+        "アテステーション",
+        "セキュリティ",
+        "認証"
+      ],
+      "fetched_at": "2026-10-15T09:19:43.800327+09:00",
+      "summary": "Hacker Newsで話題の「Passkeys are a trap」という記事は、パスキーがアテステーション機能を通じてユーザーの利用環境を制限する可能性があると主張しています。しかし、この記事は、多くのユーザーが利用する同期型パスキーは、アテステーション機能を持たず、ウェブサイトがパスキーの作成元を特定する能力がないため、この主張は事実と異なると反論しています。したがって、パスキーがユーザーの利益を優先しないという懸念は、現在の一般的な利用状況においては当てはまらないと結論付けています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50050553",
+      "source": "hackernews",
+      "title": "Do dentists know what they're doing?",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "score": 359,
+      "comments": 277,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "dentists"
+      ],
+      "fetched_at": "2026-10-15T09:19:43.588398+09:00",
+      "summary": "歯科医の専門知識や能力に関する疑問を投げかける記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50094994",
+      "source": "hackernews",
+      "title": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "score": 239,
+      "comments": 90,
+      "raw_description": "OpenCode 2.0. OpenCode 2.0 is a major over haul. It draws on mil lions of daily users' expe ri ence to deliver a system that can flex to every thing an agent needs to be. There are quite a lot of new fea tures, per for mance improve ments, and bug fixes but here are some of the more impact ful user-facing changes. The Service From the begin ning OpenCode adopted a client/server model. However, this was not some thing it took advan tage of by default and was mostly used by power users. In 2.0 this server now auto mat i cally runs as a single back ground process on your machine. When you open up a TUI, the web inter face or the desktop app they're all talking to the same central process. Terminal Fix flaky test Web Fix flaky test Desktop Add dark mode review.ts Review changes opencode pid 48213 Stopped Starting Running Sessions Fix flaky test Add dark mode Review changes",
+      "content_source": "page",
+      "tags": [
+        "OpenCode",
+        "クライアント/サーバーモデル",
+        "バックグラウンドプロセス",
+        "TUI"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.732648+09:00",
+      "summary": "OpenCode 2.0は、数百万人のユーザー経験を基にした大規模なオーバーホールです。クライアント/サーバーモデルを採用し、サーバープロセスがバックグラウンドで自動実行されるようになりました。これにより、TUI、Webインターフェース、デスクトップアプリがすべて同じ中央プロセスと通信できるようになり、ユーザーエクスペリエンスが向上しました。パフォーマンス改善やバグ修正も多数含まれています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50090369",
+      "source": "hackernews",
+      "title": "Better HTTP/1 connection reuse in Go 1.27",
+      "url": "https://go.dev/blog/http-connection-reuse",
+      "score": 189,
+      "comments": 30,
+      "raw_description": "Go 1.27 includes a change to the HTTP client that can make programs sending many sequential HTTP/1 requests significantly faster. The Go Blog Better HTTP/1 connection reuse Nicholas Husin and Damien Neil 14 October 2026 Take a look at the following function: func getStatus(url string) (int, error) { resp, err := http.Get(url) if err != nil { return 0, err } defer resp.Body.Close() return resp.StatusCode, nil } It sends a GET request to url and returns the HTTP status code. Using HTTP/1 ( GODEBUG=http2client=0 ), calling this function 100 times against index.golang.org takes ~710 milliseconds on Go 1.26 on my machine. On Go 1.27, the same program takes ~150 milliseconds. That is almost 5 times faster! How is such a drastic performance difference possible? The cost of establishing HTTP connections To understand the difference, consider what happens on the network when we make an HTTP request. Go’s net/http package supports HTTP/1.0, HTTP/1.1, and HTTP/2. All three run over TCP, and usually over TLS when talking to HTTPS endpoints. Making a request over a new connection looks something like this: TCP handshake (1 RTT) : the client sends a SYN packet, the server replies with SYN-ACK , and the client replies with ACK . Because the client can send the first TLS message alongside that final ACK , establishing the TCP connection takes 1 round-trip time (RTT). TLS handshake (2 RTT) : next, a TLS handshake exchanges encryption keys and verifies the server’s identity; using TLS 1.2, thi",
+      "content_source": "page",
+      "tags": [
+        "Go",
+        "HTTP/1",
+        "パフォーマンス",
+        "接続再利用"
+      ],
+      "fetched_at": "2026-10-15T09:19:44.010189+09:00",
+      "summary": "Go 1.27のHTTPクライアントは、HTTP/1接続の再利用を改善し、多数のHTTP/1リクエストを連続して送信するプログラムのパフォーマンスを大幅に向上させます。Go 1.26と比較して、Go 1.27では同様の処理が約5倍高速化されました。これは、TCPハンドシェイクとTLSハンドシェイクにかかるオーバーヘッドを削減し、接続の再利用を効率化することで実現されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50095353",
+      "source": "hackernews",
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "score": 148,
+      "comments": 52,
+      "raw_description": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access. TypeSafe AI Enterprise Thoughts Company Docs API console Contact us API console Docs Menu âµ Back Company News Company News Jev: For the builders AND dreamers TL;DR: We're releasing an improved Jev 1.14.0 along with experimental features for our dreamers: images, a new type, and longer context. Enter the danger zone at your own risk. ð¥ Our philosophy A huge debate weâve been having is on the balance between reliability and creativity. To really care about the prod builders, we should be shipping models that meet our quality bar for intelligence and have been battle-tested to the limits of what we can do internally. On the other hand, thereâs no way that our team has a full understanding of what is needed to spark delight in the world and build sick sci-fi. We donât want to impose our values of extreme reliability on those dreamers. Our solution: share those dreamer-ready features under âdanger zoneâ flags in our API headers. These are features that will be here to stay for future models, are (as far as we can tell) better than what exists out there, and will continue to get better by leaps and bounds. But as a warning, we think there is still way too much jaggedness for us to vouch for these for production use cases! See these new capabilities as a continuation of what weâ",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "インフラ",
+        "Jev",
+        "実験的機能"
+      ],
+      "fetched_at": "2026-10-15T09:19:43.157769+09:00",
+      "summary": "TypeSafe AIは、自動化のためのマシンネイティブな知能インフラを構築するAIラボです。同社は、ソフトウェア内で意思決定を行う「Jev」モデルのバージョン1.14.0をリリースしました。今回のアップデートには、画像生成、新しいデータ型、およびコンテキスト長の拡張といった実験的な機能が含まれています。これらの機能は「danger zone」フラグの下で提供され、将来のモデルでも利用可能になる予定ですが、現時点では本番環境での使用は推奨されていません。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_2b82fcf2ab4d",
+      "source": "hatena",
+      "title": "WAF でブロックする前に確かめていること",
+      "url": "https://zenn.dev/azunyan/articles/7a105969d7d16c",
+      "score": 117,
+      "comments": 0,
+      "raw_description": "🧱 はじめに WAF の運用で、既知の攻撃を止めるルールをすり抜けてくる迷惑なアクセスや、攻撃ばかりを送ってくるアクセスを調べ、その送信元をブロックしています。 この記事では、そのときに気をつけていることと、前提になる基礎知識をまとめます。ポイントは次の 3 つです。 止める前に、巻き添えになる正規の利用者...",
+      "content_source": "feed",
+      "tags": [
+        "WAF",
+        "セキュリティ",
+        "運用",
+        "アクセス制御"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.234880+09:00",
+      "summary": "WAF運用において、既知の攻撃パターンを回避する迷惑アクセスや攻撃的な通信の送信元を特定し、ブロックする際の注意点を解説しています。ブロック判断の前に、正規の利用者が巻き込まれないかを確認することが重要です。また、ブロック対象の判断基準となる基礎知識についても触れています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_3f5c05e75c68",
+      "source": "hatena",
+      "title": "HTML-in-Canvasで作る未来のWeb UI表現",
+      "url": "https://speakerdeck.com/clockmaker/html-in-canvas",
+      "score": 112,
+      "comments": 0,
+      "raw_description": "フロントエンドカンファレンス関西2026の発表資料。 https://2026.frontend-conf.osaka.jp/ ■概要 HTML-in-Canvasという新しいAPIをオリジナルのデモで解説。 HTML・CSSから見た利点、Canvasタグから見た利点を掘り下げます。 …",
+      "content_source": "feed",
+      "tags": [
+        "HTML-in-Canvas",
+        "Web UI",
+        "フロントエンド",
+        "API"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.234995+09:00",
+      "summary": "フロントエンドカンファレンス関西2026で発表された「HTML-in-Canvas」APIは、HTMLとCSSの表現力をCanvas上に持ち込む新しい技術です。これにより、従来のCanvas描画の制約を超えた、リッチなUI表現が可能になります。HTML/CSSの視点とCanvasの視点の両方からその利点が解説され、将来的なWeb UIの可能性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50096142",
+      "source": "hackernews",
+      "title": "Tiny Little Office",
+      "url": "https://tinylittleoffice.com/",
+      "score": 88,
+      "comments": 15,
+      "raw_description": "A tiny office suite where the link is the document. No accounts. Nothing is saved anywhere unless you choose to keep it on this device.",
+      "content_source": "meta",
+      "tags": [
+        "オフィススイート",
+        "プライバシー",
+        "ローカル保存",
+        "ドキュメント共有"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.946179+09:00",
+      "summary": "Tiny Little Officeは、ドキュメントがリンクそのものである、アカウント不要の軽量オフィススイートです。ユーザーが明示的にローカルデバイスに保存を選択しない限り、データはどこにも保存されません。これにより、プライバシーを重視し、手軽にドキュメントを共有・編集したいユーザーにとって、シンプルでセキュアな選択肢となります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_98bbc12833a2",
+      "source": "hatena",
+      "title": "仕組みを動く図で説明するエージェントスキルAnatomy公開 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/10/anatomy",
+      "score": 85,
+      "comments": 0,
+      "raw_description": "開発者のRyan氏（@wheresryan22）は2026年10月10日、さまざまな仕組みを動く図で説明するエージェントスキル「Anatomy」をXで紹介した。作りたい機械や説明したい概念を伝えると、AIエージェントが部品の形状や動作を設計して図を生成する。ポインターやキーボードの操作に応じて部品が動く図も作れる。 図はSVGファイル...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "エージェント",
+        "SVG",
+        "ビジュアライゼーション"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.235277+09:00",
+      "summary": "開発者のRyan氏が、AIエージェントを用いて様々な仕組みを動く図で説明するスキル「Anatomy」を公開しました。このスキルは、ユーザーが作りたい機械や説明したい概念を入力すると、AIが部品の形状や動作を設計し、SVG形式の図を生成します。さらに、ポインターやキーボード操作に連動して部品が動くインタラクティブな図の作成も可能です。これにより、複雑な技術的概念の理解を助ける動的なビジュアル表現が可能になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_578db9417246",
+      "source": "hatena",
+      "title": "みずほが数千人をAI開発者に転換　事務や営業、日本企業の働き方転機 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUB0722M0X01C26A0000000/",
+      "score": 57,
+      "comments": 0,
+      "raw_description": "みずほフィナンシャルグループは営業や事務の社員を人工知能（AI）の開発人材に転換する。5万人の全社員から順次選び、10年後に数千人規模への拡大を目指す。金融サービスや社内業務のAIシステムを作る。既存部門を減らし、競争力の要であるAI分野に集中する体制を整える。銀行など金融機関の社員はホワイトカラーの象徴...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-15T09:19:42.235068+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_17c0240b7c0a",
+      "source": "hatena",
+      "title": "ポスドクの転職は「敗北」とは限らない―数学博士がアカデミアの外で見つけた新たな生き方｜ポスドクの転職体験記",
+      "url": "https://note.com/postdoc_career/n/nc9dcfe5ea3d3",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "はじめに 早速ですが、獣医師である私の“数学者”としての約10年半の人生が間もなく終わりを迎えようとしています。訳がわからないでしょうから、まずは簡単に経歴を紹介させて下さい。 ・獣医学科を卒業後の数年間、大動物臨床獣医師として勤務 ・数学者を目指して退職し、翌年に大学院数理科学科修士課程に入学 ・修了...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-15T09:19:42.235214+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_8da8ccaa1f6d",
+      "source": "hatena",
+      "title": "八潮の道路陥没事故を国際圧入学会で総括　道路陥没メカニズムと最新技術による復旧の全貌",
+      "url": "https://built.itmedia.co.jp/bt/articles/2610/14/news078.html",
+      "score": 34,
+      "comments": 0,
+      "raw_description": "埼玉県八潮市で2025年に発生した大規模な道路陥没事故について、国際圧入学会のセミナーで全プロセスが報告された。発生メカニズムや復旧工事のプロセス、毎秒4トンの汚水が流れる過酷な現場に対応した「圧入工法」の役割など、原因解明から復旧までの道のりをレポートで詳報する。",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-15T09:19:42.235141+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_369b123b8804",
+      "source": "hatena",
+      "title": "小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示【CEATEC 2026】",
+      "url": "https://internet.watch.impress.co.jp/docs/event/2148145.html",
+      "score": 28,
+      "comments": 0,
+      "raw_description": "「CEATEC AWARD 2026」では、エバーブルーテクノロジーズ株式会社の「除雪ドローン」が「モビリティイノベーション賞」を受賞した。「CEATEC 2026」と併催のイベント「Japan Mobility Show Bizweek 2026」に同社が出展し、実機を展示している（ブース番号S-51）。 イベントレポート CEATEC 2026 小型・電動の「除雪ドローン」が雪国の課題に対応。実機をエバーブルーテクノロジーズが展示 片岡 義明 2026年10月14日 18:38 エバーブルーテクノロジーズの「除雪ドローン」 「CEATEC AWARD 2026」 では、エバーブルーテクノロジーズ株式会社の「除雪ドローン」が「モビリティイノベーション賞」を受賞した。 「CEATEC 2026」 と併催のイベント 「Japan Mobility Show Bizweek 2026」 に同社が出展し、実機を展示している（ブース番号S-51）。 この除雪ドローンは、独立4モーターと大径タイヤを搭載した小型電動UGVプラットフォーム（無人地上車両）に除雪用ブレードを装着した製品。操舵は左右輪の回転差動で行うスキッドステアリング方式を採用し、最小回転半径0.6mと狭い場所での小回りが可能だ。また、大径タイヤにより200mmの段差を超えることもできる（ブレード非装着時）。 遠隔操作が可能なほか、オプションで自動走行にも対応。自動走行ではRTK（リアルタイムキネマティック）測位のデュアルアンテナによる高精度な測位と方位計測が可能で、障害物検知のためLiDAR（レーザースキャナー）も搭載。アプリ「ebCONNECT」によりウェイポイントを指定して自動走行を行える。 ブレードの変更や荷台の搭載、電池交換にも対応しており、除雪だけでなく荷物の運搬や牽引などの用途にも対応できる。大型除雪機の導入が難しい企業の私有地や個人宅などさまざまなシーンで利用可能だ。 除雪用ブレードは他のアタッチメントに変更可能",
+      "content_source": "page",
+      "tags": [
+        "除雪ドローン",
+        "CEATEC 2026",
+        "UGV",
+        "自動走行"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.235079+09:00",
+      "summary": "エバーブルーテクノロジーズがCEATEC 2026で「除雪ドローン」を発表し、「モビリティイノベーション賞」を受賞しました。この小型電動UGVは、独立4モーターとスキッドステアリングによる高い小回り性能を持ち、LiDARとRTK測位による自動走行にも対応します。ブレード交換や荷台搭載も可能で、除雪以外にも多様な用途が期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_c8aff074cbd9",
+      "source": "hatena",
+      "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
+      "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ マイクロソフトはWindows 11上でAIエージェントを安全に動かすための隔離環境「Microsoft Execution Containers」（以下、MXC）の正式リリースを発表し...",
+      "content_source": "feed",
+      "tags": [
+        "AIエージェント",
+        "セキュリティ",
+        "Windows 11",
+        "MXC"
+      ],
+      "fetched_at": "2026-10-15T09:19:42.235338+09:00",
+      "summary": "マイクロソフトはWindows 11上でAIエージェントを安全に実行するための隔離環境「Microsoft Execution Containers」（MXC）を正式リリースしました。MXCは、ファイルアクセスやネットワーク通信といったリソースへのアクセス権限を柔軟にカスタマイズできるため、AIエージェントの潜在的なリスクからホストシステムを保護します。これにより、開発者はより安全にAIエージェントを開発・テストできるようになります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50097369",
+      "source": "hackernews",
+      "title": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "score": 12,
+      "comments": 1,
+      "raw_description": "LFM2.5-24B-A2B: an open-weight 24B reasoning model with 2B active parameters, built for fast, private on-device agents. Beats Qwen3.6-35B-A3B on LiveClaw. Today, we release LFM2.5-24B-A2B , a 24B-parameter reasoning model with just 2B active parameters, built for fast, private agents on-device. It is the largest and final model in the LFM2.5 family, which now spans two orders of magnitude: from LFM2.5-230M to LFM2.5-24B-A2B . LFM2.5-24B-A2B is competitive with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on five of eight agentic and tool-use benchmarks, scoring 48.09 on LiveClaw versus 38.19 and 27.69 on AutomationBench versus 8.72. Because only 2B parameters are active per token, it runs up to 1.7× faster than comparable MoEs on-device, with 184 tokens/s on an Apple M5 Max and up to 21K output tokens/s on a single NVIDIA B300 GPU. The base (LFM2.5-24B-A2B-Base) and post-trained (LFM2.5-24B-A2B) models are open-weight and available today on Hugging Face and our Playground . Check out our docs on how to run and fine-tune it locally. What changed since LFM2-24B-A2B LFM2.5-24B-A2B builds on our previous LFM2-24B-A2B release, with an expanded vocabulary and context window, scaled-up pretraining, and large-scale reinforcement learning. Unlike its predecessor, LFM2.5-24B-A2B is a reasoning-only model that produces an explicit chain of thought before its final answer. We adopted this strategy to leverage its high decode speed and improve answer quality. Archi",
+      "content_source": "page",
+      "tags": [
+        "大規模言語モデル",
+        "オンデバイスAI",
+        "推論モデル",
+        "オープンウェイト"
+      ],
+      "fetched_at": "2026-10-15T09:19:43.374786+09:00",
+      "summary": "LFM2.5-24B-A2Bは、アクティブパラメータを2Bに抑えた24Bパラメータの推論モデルであり、高速かつプライベートなオンデバイスエージェント向けに設計されています。アクティブパラメータが少ないため、同等のモデルと比較してオンデバイスで最大1.7倍高速に動作し、GPU上では21Kトークン/秒の出力速度を実現します。このモデルは、Qwen3.6-35B-A3Bなどのより大きなモデルに対しても、特にLiveClawベンチマークで競争力のある性能を示し、推論のみに特化し、明示的な思考連鎖を生成することで回答品質の向上を図っています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_be10e3ea8250",
+      "source": "reddit",
+      "title": "Zxc 0.15.0 - decompression 2x faster than Zstandard",
+      "url": "https://www.reddit.com/r/programming/comments/1x5nxzy/zxc_0150_decompression_2x_faster_than_zstandard/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/pollop-12345 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Zxc",
+        "Zstandard"
+      ],
+      "fetched_at": "2026-10-15T09:19:44.328168+09:00",
+      "summary": "Zxcのバージョン0.15.0に関する記事のようです。Zstandardと比較して2倍高速な解凍機能について触れていると思われます。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_ae83506ad001",
+      "source": "reddit",
+      "title": "Where do you go for help when you're stuck now? Survey says 64% of developers visit Stack Overflow less for simple questions",
+      "url": "https://www.reddit.com/r/programming/comments/1x5uh6j/where_do_you_go_for_help_when_youre_stuck_now/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "The 2026 Stack Overflow survey reports that 83% of developers search online for answers and 70% ask an AI agent, and 64% say they visit Stack Overflow less for simple questions. When you're stuck as a learner, where do you start: search, an AI tool, a forum, a friend? Has the order changed in the past year, and what do you do to make sure you actually learn the answer? Source (first comment): Stack Overflow 2026 survey post. Opened and verified: 83%, 70%, 64%. submitted by /u/masaischool_in [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Stack Overflow",
+        "開発者",
+        "AI",
+        "情報収集"
+      ],
+      "fetched_at": "2026-10-15T09:19:44.328698+09:00",
+      "summary": "2026年のStack Overflow調査によると、開発者の83%がオンラインで回答を検索し、70%がAIエージェントに質問しています。特に、単純な質問に対してStack Overflowを利用する割合は64%減少しました。これは、開発者が問題解決のためにAIツールなどの新しいリソースを積極的に活用するようになっていることを示唆しており、学習プロセスにおける情報収集の方法が変化していることを示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_cda3696b25e8",
+      "source": "reddit",
+      "title": "kcgi: minimal CGI and FastCGI library for C/C++",
+      "url": "https://www.reddit.com/r/programming/comments/1x5nds0/kcgi_minimal_cgi_and_fastcgi_library_for_cc/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/BrewedDoritos [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "kcgi",
+        "CGI"
+      ],
+      "fetched_at": "2026-10-15T09:19:44.328988+09:00",
+      "summary": "C/C++向けの軽量なCGIおよびFastCGIライブラリであるkcgiについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_8cdf73daae0b",
+      "source": "reddit",
+      "title": "A C++ Trick Question - Blog Post",
+      "url": "https://www.reddit.com/r/programming/comments/1x62x6p/a_c_trick_question_blog_post/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/MegaGreenLightning [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "C++"
+      ],
+      "fetched_at": "2026-10-15T09:19:44.329248+09:00",
+      "summary": "C++に関するトリッキーな質問についてのブログ記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
