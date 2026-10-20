@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T09:57:05.134384+09:00",
+  "articles": [
+    {
+      "id": "hn_50152307",
+      "source": "hackernews",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "score": 491,
+      "comments": 164,
+      "raw_description": "[ prev in list ] [ next in list ] [ prev in thread ] [ next in thread ] List: openbsd-ports Subject: emulators/wine From: Thomas Frohwein <tfrohwein () fastmail ! com> Date: 2026-10-18 22:08:43 Message-ID: 20261018150843.271e0c06 () babcom6 ! home ! arpa [Download RAW message or body ] Hello, In what might the most surprising port proposal of the year, I'm proud to present a new port for wine. This has been a collective effort, after some of the prodding at the %gs/gsbase question (see thread [1] ). The gates swung open with Andrii's software solution to the %gs issue - explanation to me: \"can't set gsbase, so we are emulating %gs prefix on commands\". Overall, the heavy lifting was done by Andrii and Fabien - kudos. Turns out there is a ground-swell with interest in wine [2] , different than even 5-10 years ago because a lot of Windows software has since moved to being 64bit. We have since tested several dozens of 64-bit Windows software, mostly successfully. See screenshots at [3][4] [5] , livestream recordings at [6] for example. Even the Remaster of The Witcher 3 which released just last month runs, and runs well (requires adding in vkd3d-proton; see README; livestream at [7] which looks less fluent than it is due to the on-system recording with ffmpeg). Biggest limitation is that WoW64 doesn't work, so 32bit Windows software is still a no-op. You can check .exe/.dll easily with file(1) - if it says something like \"MS-DOS executable PE for MS Windows (GUI) Intel 80386 32-b",
+      "content_source": "page",
+      "tags": [
+        "OpenBSD",
+        "Wine",
+        "移植",
+        "Windows互換"
+      ],
+      "fetched_at": "2026-10-20T09:56:39.997752+09:00",
+      "summary": "OpenBSDにWineが移植されました。これは、gsbaseレジスタの問題をソフトウェアでエミュレートする解決策により実現しました。この移植により、64ビット版Windowsアプリケーションの実行が可能になり、最近リリースされた「The Witcher 3」のリマスター版も動作することが確認されています。ただし、WoW64（32ビット互換レイヤー）は機能しないため、32ビット版Windowsソフトウェアは実行できません。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50154540",
+      "source": "hackernews",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "score": 373,
+      "comments": 162,
+      "raw_description": "Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%. Today, we officially roll out MiniMax M3.1 Flash . Space Bunny 🐰, which processed more than 200 trillion tokens while operating anonymously, was an early version of MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%. Stronger Capabilities Across the Board M3.1 Flash improves across a broad range of benchmarks, reaching the level of leading models in complex agentic tasks (cowork), computer use, software development (coding), and cybersecurity. Complex Tasks and Automation: M3.1 Flash ranks among the top performers on AutomationBench-AA. It can complete real enterprise workflows across SaaS systems, solving practical problems in sales, marketing, operations, customer service, finance, and HR from end to end. Scoring 76.2 on BankerToolBench, it excels at complex real-world challenges such as multi-step planning, maintaining consistency across documents and files, financial compliance, and chained tool calls. Coding and Software Engineering: It achieves 73.7% on DeepSWE v1.1, placing it alongside top models. DeepSWE focuses on ",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "大規模言語モデル",
+        "性能向上",
+        "コスト削減"
+      ],
+      "fetched_at": "2026-10-20T09:56:39.553923+09:00",
+      "summary": "MiniMax M3.1 Flashは、次世代のFlashモデルとして、エージェントタスク、コーディング、コンピューター利用、サイバーセキュリティの分野で大幅な性能向上を実現しました。オンライン推論速度は3倍近く向上し、利用コストを70%削減しています。複雑なエンタープライズワークフローをエンドツーエンドで実行可能で、金融コンプライアンスや複数ステップの計画といった現実世界の課題にも対応します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50150089",
+      "source": "hackernews",
+      "title": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "score": 371,
+      "comments": 78,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "ドローン",
+        "モーター"
+      ],
+      "fetched_at": "2026-10-20T09:56:39.801783+09:00",
+      "summary": "モーターが1つだけのドローンを製作したという内容の記事らしいです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50154624",
+      "source": "hackernews",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "score": 252,
+      "comments": 128,
+      "raw_description": "Mac.apk: Run Android apps natively on Apple Silicon Macs - kksimp/Mac.apk Mac.apk Run Android apps natively on Apple Silicon Macs. No emulator, no virtual machine, no Linux underneath. 📱 Which apps work? See the compatibility list → Alpha. Mac.apk is early software under active development. Some apps run beautifully, some run partially, and some do not run yet. It is stable enough to use and interesting enough to explore, and it improves with every build. What it is Mac.apk runs Android apps directly on Apple Silicon. Apps launch as ordinary macOS processes, draw through the Mac's GPU, and execute on the CPU at native speed. They appear in your Dock, get their own windows with a back button next to the traffic lights, resize and rotate like any Mac window, and switch between light and dark along with your Mac. There is no emulator here, and no virtual machine. Nothing boots Android in the background, there is no Linux kernel running underneath, and nothing is interpreted instruction-by-instruction. Mac.apk implements the Android application environment on top of macOS directly. How it works → 📖 Read the wiki → Getting started Installation Installing apps Installing apps · App stores · How apps are installed · Managing apps Using apps Controls and input · Windows and appearance · Files and privacy · Google accounts and Play Services Flags and advanced settings Flags · Flags reference · Developer menu Help Known issues · Troubleshooting · Reporting problems About Mac.apk How Ma",
+      "content_source": "page",
+      "tags": [
+        "macOS",
+        "Android",
+        "ネイティブ実行",
+        "Apple Silicon"
+      ],
+      "fetched_at": "2026-10-20T09:56:40.954484+09:00",
+      "summary": "Mac.apkは、Apple Silicon搭載Mac上でAndroidアプリをネイティブに実行できるソフトウェアです。エミュレーターや仮想マシンを使用せず、Androidアプリケーション環境をmacOS上に直接実装することで、アプリは通常のmacOSプロセスとして起動し、CPUでネイティブ速度で実行されます。これにより、アプリはDockに表示され、macOSのウィンドウと同様に操作可能になります。開発は進行中であり、一部のアプリは完全には動作しない可能性がありますが、macOS上でAndroidアプリをシームレスに利用する可能性を示す技術として注目されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_4c3ac6061c31",
+      "source": "hatena",
+      "title": "Claude Codeに全部任せて開発してたエンジニアの末路、1〜2ヶ月後ガチで地獄ですよ｜ゆうき｜月収100万円超エンジニアを多数輩出",
+      "url": "https://note.com/yukiedu/n/n4d25f5e1d590",
+      "score": 212,
+      "comments": 0,
+      "raw_description": "Claude Codeに、全部任せて開発してる現場。 めっちゃ多いんですけど。 1〜2ヶ月後、ガチで地獄になるの、知ってます? 今、現場でリアルに起きてる現象なんですよ。 「検索機能、作って」 Claude Codeに、ポンって投げる。 バーって、コード出てくる。 動く。 「お、いけたな」って、マージ。 最近入った現場、こんな感...",
+      "content_source": "feed",
+      "tags": [
+        "AIコーディング",
+        "Claude Code",
+        "ソフトウェア開発",
+        "開発効率"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746731+09:00",
+      "summary": "Claude CodeのようなAIコーディングアシスタントに開発を全面的に依存すると、1〜2ヶ月後に深刻な問題が発生する可能性がある。AIが生成したコードをそのままマージする開発手法は、短期的な効率化をもたらす一方で、長期的な保守性や品質の低下を招き、開発現場に混乱をもたらすリスクをはらんでいる。技術者はAIの支援を効果的に活用しつつも、生成されたコードの検証と理解を怠らない姿勢が重要となる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_3ad9f3777235",
+      "source": "hatena",
+      "title": "ひとり会社が、AIと二人でISMSを取った話｜村山毅 Tim",
+      "url": "https://note.com/timtarou/n/n5443f159e7bc",
+      "score": 178,
+      "comments": 0,
+      "raw_description": "2026年7月9日付で、ISMS（ISO/IEC 27001:2022）の認証を取得しました。登録番号は 50301853 ISMS22 です。 コンサルには頼んでいません。ISMS専用のSaaSも使っていません。設立1年目のひとり会社が、AI社員と二人三脚で、マネジメントシステムそのものを自社で作りました。 構築にかかった実質工数は約3日、審査対応は別...",
+      "content_source": "feed",
+      "tags": [
+        "ISMS",
+        "ISO27001",
+        "AI活用",
+        "ひとり会社"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746669+09:00",
+      "summary": "村山毅氏は、設立1年目のひとり会社でAI社員と共にISMS（ISO/IEC 27001:2022）認証を2026年7月9日付で取得した。コンサルタントやISMS専用SaaSを利用せず、マネジメントシステムを自社で構築した。構築にかかった実質工数は約3日である。この事例は、リソースが限られた小規模組織でもAIを活用することで、効率的に情報セキュリティマネジメントシステムを導入できる可能性を示唆している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50136126",
+      "source": "hackernews",
+      "title": "RuneScape Bench: MMOs for Agents [video]",
+      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+      "score": 148,
+      "comments": 59,
+      "raw_description": "Related: https://github.com/LostCityRS/Server",
+      "content_source": "hn_text",
+      "tags": [
+        "RuneScape",
+        "MMO"
+      ],
+      "fetched_at": "2026-10-20T09:56:40.472240+09:00",
+      "summary": "RuneScape Benchというタイトルの動画記事のようです。MMO（大規模多人数同時参加型オンラインゲーム）とエージェントについて扱っていると思われます。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_da6b0bcb64b7",
+      "source": "hatena",
+      "title": "サイバー攻撃受け情報漏えい、中国語のＡＩエージェント悪用か…国内８０社への攻撃巡り痕跡",
+      "url": "https://www.yomiuri.co.jp/national/20261019-GYT1T00477/",
+      "score": 83,
+      "comments": 0,
+      "raw_description": "【読売新聞】 国内の企業・団体がサイバー攻撃を受けて個人情報が大量漏えいしている問題で、システムの 脆弱 （ ぜいじゃく ） 性を診断する中国語のＡＩ（人工知能）エージェントが一部の攻撃で悪用されたとみられることが１９日、日本のセキ サイバー攻撃受け情報漏えい、中国語のＡＩエージェント悪用か…国内８０社への攻撃巡り痕跡 2026/10/20 05:00 #サイバー攻撃 保存して後で読む スクラップ機能は読者会員限定です （記事を保存） スクラップ機能について 読者会員に登録 読者会員の方はログイン シェアする 記事をシェアする Xでシェアする Facebookでシェアする はてなブックマークでシェアする メールで送る リンクをコピー シェアする 閉じる メモ入力 -最大400文字まで キャンセル 完了 完了しました 国内の企業・団体がサイバー攻撃を受けて個人情報が大量漏えいしている問題で、システムの 脆弱 性を診断する中国語のＡＩ（人工知能）エージェントが一部の攻撃で悪用されたとみられることが１９日、日本のセキュリティー会社の調査でわかった。少なくとも国内約８０社の攻撃に使われた可能性がある。 ＡＩエージェントを使ったサイバー攻撃の仕組み 「ＧＭＯサイバーセキュリティｂｙイエラエ」（東京）が、サイバー攻撃を受けた国内の被害企業から依頼を受け、外部機関と連携して調査した。 その結果、９月１８日～１０月１８日の間に国内企業への攻撃で使われた海外の公開サーバー６台が特定された。６台を解析したところ、いずれも中国語のＡＩエージェント「ＡＲＴＥＸ（アルテックス）」がサーバー上で使われた痕跡が見つかった。他のＡＩエージェントの形跡はなかったことから、同社はＡＲＴＥＸが攻撃に用いられた可能性が高いとみている。保険、金融、物流など計約８０社が攻撃され、うち８社は実際に情報漏えいの被害を公表しているという。 ＡＲＴＥＸは、中国語を使用する開発者が今年７月、インターネット上の技術情報共有サービスで一般公開した。システムの脆弱性を網羅的に探索する能力が高いことで知られる。 1 2 読売新聞を検索でお気に入りに （詳しくはこちら） 関連ワード #日本 #東京都 #韓国 関連ワードをすべて見る 保存して後で読む スクラップ機能は読者会員限定です （記事を保存） スクラップ機能について 読者会員に登録 読者会員の方はログイン 使い方 速報ニュースを読む 「社会」の最新記事一覧 注目ニュースランキングをみる 記事に関する報告 8506586 0 社会 2026/10/20 05:00:00 2026/10/20 05:00:00 2026/10/20 05:00:00 /media/2026/10/20261020-GYT1I00038-T.jpg?type=thumbnail",
+      "content_source": "page",
+      "tags": [
+        "サイバー攻撃",
+        "AIエージェント",
+        "情報漏えい",
+        "脆弱性診断"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746563+09:00",
+      "summary": "国内約80社がサイバー攻撃を受け、個人情報が漏えいした問題で、システムの脆弱性を探索する中国語AIエージェント「ARTEX」が悪用された疑いが浮上しました。GMOサイバーセキュリティbyイエラエの調査により、攻撃に使われたサーバーからARTEXの痕跡が確認されました。ARTEXは今年7月に公開された比較的新しいAIツールであり、その高い探索能力が悪用された可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50158138",
+      "source": "hackernews",
+      "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "url": "https://bsd.network/@brynet/117407035545900963",
+      "score": 75,
+      "comments": 10,
+      "raw_description": "I think it's about time for some #OpenBSD #80HYPE :flan_hacker:​ :flan_cool: > Clang/LLVM 22 is now OpenBSD's base compiler on clang architectures, including updated libc++{,abi}, compiler-rt & libunwind support libraries. https://bsd.network/@brynet/116658062479940402 > OpenBSD/sparc64 switches to Clang by default! This was the last significant architecture to switch. This makes OpenBSD the only operating system to support sparc64 with a modern toolchain. https://bsd.network/@brynet/117130130536792528 > Since 7.9, Jonathan Gray (jsg@) has continued to update the drm graphics stack (inteldrm/radeondrm/amdgpu) bringing OpenBSD 8.0 to Linux 6.18.y/6.18.53, adding driver support for Intel Arc A-Series (DG2/Alchemist) cards. > > Increased KVA (kernel virtual addresses) on amd64 (to 512G) now allows mapping more than 4G of VRAM (for example, GPU compute w/ Vulkan) https://freshbsd.org/openbsd/src?q=drm&committer[]=jsg https://bsd.network/@brynet/116794461642940154 > After a ton of work in Edmonton by Mike Larkin (mlarkin@) and Dave Voutila (dv@), OpenBSD vmm/vmd(8) now supports SMP guests up to 64 VCPUs per VM! :flan_cool:​ 🎉​ https://bsd.network/@brynet/117295044109301163 https://bsd.network/@brynet/117299753668348206 > OpenBSD 8.0 adds qwz(4), new WiFi driver for Qualcomm WCN7850 \"ath12k\" devices. https://bsd.network/@brynet/116574369382033904 > A new driver, sambat(4), for monitoring battery status, cycle count/charge info on Samsung Galaxy Book4 Edge (Snapdragon arm64) machine",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-20T09:56:40.221675+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_cb93899a669f",
+      "source": "hatena",
+      "title": "最近Gemini使い始めたけど、明らかにchatGPTの方が優秀じゃないか？「Geminiはやる気あるバカってイメージ」「嘘しかつかないので使うのやめました」",
+      "url": "https://togetter.com/li/2760356",
+      "score": 63,
+      "comments": 0,
+      "raw_description": "最近Gemini使い始めたけど、明らかにチャッピーの方が優秀じゃないか？ 使い方が悪いんかな Geminiのが好きやなおれ どのプランですか！ 課金してもチャッピーの方がダメ普段使いならいいけど どんな使い方してますか？ 課題とかはジェミニの方が優秀 トラッシュトークとかちょっとしたことならチャッピー 料理の話とかね トップ 2026年 10月 20日 最近Gemini使い始めたけど、明らかにChatGPTの方が優秀じゃないか？「Geminiはやる気あるバカってイメージ」「嘘しかつかないので使うのやめました」 Up 公開 2026年10月20日00:27 （9時間前） AI テクノロジー Gemini ChatGPT 23 58 0 36632 74 55 ポスト 23 いいね！ 0 ラテンクレ @fcbcdfdj21pg8_o 最近Gemini使い始めたけど、明らかにチャッピーの方が優秀じゃないか？ 使い方が悪いんかな 2026-10-19 04:32:10 ガブリエルマガイモノ @gabumaga081 @fcbcdfdj21pg8_o Geminiのが好きやなおれ 2026-10-19 04:34:29 ラテンクレ @fcbcdfdj21pg8_o @gabumaga081 どのプランですか！ 2026-10-19 13:22:57 ゼロからスタート スペイン語単語 BASIC1000 イスパニカ Amazonで価格を見る コニコカドカワ祭り第4弾‼️ 人気作・話題作多数 50%オフ1000冊以上 み💙❤️ @TO_Emi_vl_Cule @fcbcdfdj21pg8_o 課金してもチャッピーの方がダメ普段使いならいいけど 2026-10-19 05:00:07 ラテンクレ @fcbcdfdj21pg8_o @TO_Emi_vl_Cule どんな使い方してますか？ 2026-10-19 13:21:49 み💙❤️ @TO_Emi_vl_Cule @fcbcdfdj21pg8_o 課題とかはジェミニの方が優秀 トラッシュトークとかちょっとしたことならチャッピー 料理の話とかね 2026-10-19 16:25:10 こっぱ @coppaJr_graes88 @fcbcdfdj21pg8_o 俺もチャッピー派 2026-10-19 09:09:20 ラテンクレ @fcbcdfdj21pg8_o @coppaJr_graes88 チャッピーの方が賢い気する 2026-10-19 12:17:48 こっぱ @coppaJr_graes88 @fcbcdfdj21pg8_o それな 2026-10-19 12:23:18 ばん⭐️⭐️ @p8g6bcl @fcbcdfdj21pg8_o Geminiは使うモデルによって結構変わるイメージあります🤔課金しないならチャッピーのが使い勝手いいような気もします！ 2026-10-19 10:29:38 ラテンクレ @fcbcdfdj21pg8_o @p8g6bcl どっちもplus使ってて、Geminiはめっちゃ出力速いけど精度低いって感じです笑笑 ばんさんはどのプラン使ってますか 2026-10-19 12:17:30 ばん⭐️⭐️ @p8g6bcl @fcbcdfdj21pg8_o 精度低いのはなんとなくわかる気がします😂 わたし個人は同じくPlusで、会社ではPro使ってます！チャッピーは完全無料なので精度面わからないですが、スペイン語学習はたまにチャッピー使ってやったりしてます✏️ 2026-10-1",
+      "content_source": "page",
+      "tags": [
+        "Gemini",
+        "ChatGPT",
+        "AI比較",
+        "LLM"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746629+09:00",
+      "summary": "ユーザーはGeminiとChatGPTの比較について意見を交換しています。一部のユーザーは、Geminiが「やる気はあるが賢くない」「嘘をつく」といった否定的な評価を下し、ChatGPTの方が優秀だと感じています。一方で、課題解決においてはGeminiが優れているという意見や、Geminiの出力速度は速いが精度が低いという具体的な使用感も共有されています。利用プランや用途によって評価が分かれる様子がうかがえます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f1cfaa176b63",
+      "source": "hatena",
+      "title": "JP Incident Monitor",
+      "url": "https://elkentaro.github.io/jp_incidents/",
+      "score": 54,
+      "comments": 0,
+      "raw_description": "Cyber incidents in Japan Publicly reported cybersecurity incidents affecting Japanese organizations, collected from news, security publications, and official notices. This index is collected automatically and analyzed with AI. It may contain omissions or errors and should not be regarded as a com...",
+      "content_source": "feed",
+      "tags": [
+        "サイバーセキュリティ",
+        "インシデント",
+        "日本",
+        "AI分析"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746811+09:00",
+      "summary": "JP Incident Monitorは、日本の組織を対象としたサイバーインシデントを収集・分析するインデックスです。ニュース、セキュリティ出版物、公式通知から自動収集され、AIで分析されます。ただし、網羅性や正確性には限界があり、完全な情報源とはみなされない可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_6ed037eedf7e",
+      "source": "hatena",
+      "title": "イーロン・マスク氏、米国の子ども全員に「SpaceX株を1株ずつ」配布すると宣言",
+      "url": "https://japan.cnet.com/article/35253730/",
+      "score": 51,
+      "comments": 0,
+      "raw_description": "イーロン・マスク氏は10月19日（日本時間）、2027年に米国のすべての子どもに、自身が保有する宇宙開発企業SpaceXの株式を1株ずつ贈る意向をXで表明した。 SpaceX本社でのマスク氏（右、2019年10月撮影。出典：NASA、撮影：NASA/Aubrey Gemignani） ※クリックすると拡大画像が見られます マスク氏は「来年、米国のすべて...",
+      "content_source": "feed",
+      "tags": [
+        "イーロン・マスク",
+        "SpaceX",
+        "株式贈与",
+        "次世代育成"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746699+09:00",
+      "summary": "イーロン・マスク氏は、2027年までに米国内のすべての子どもに対し、自身が保有するSpaceXの株式を1株ずつ贈与する意向をX（旧Twitter）で表明しました。この計画は、将来世代の宇宙開発への関心を高め、株式所有の機会を提供することを目的としている可能性があります。具体的な贈与方法や対象者の定義については、今後の詳細発表が待たれます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50157865",
+      "source": "hackernews",
+      "title": "One Hash Bloom Filters",
+      "url": "https://calabro.io/ohbf",
+      "score": 43,
+      "comments": 2,
+      "raw_description": "Jim Calabro Jim Calabro About RSS | Atom | JSON --- Bluesky GitHub Chess Last.fm One Hash Bloom Filters Oct 17, 2026 Note: as always, all my public writing is written by hand by me. Overview A bloom filter is a probabilistic data structure that allows you to quickly and cheaply answer the question \"is key X in this set?\" with either \"definitely not\" or \"probably\" . You pick a false positive rate that is acceptable for your workload and hardware, add keys to the set, and check for their existence later on. Bloom filters use a small amount of memory compared to the cardinality of the set, and are computationally very cheap. For these reasons, they're frequently used in high performance data systems. For example, a database might keep an in-memory bloom filter and check it before actually going to disk when looking up rows. This saves substantial amounts of very slow disk IO. We also use them all over the place in the Bluesky backend. They allow us to save millions of queries per second against our Scylla database when looking up blocks, mutes, labels, and more. For instance, we can often answer the question \"does user X block user Y\" without even hitting the database. Here's the last several days of some of our bloom filter positive hit rates: The above yellow line has a roughly 1% positive rate, which means that 99% of the time, we can completely skip querying our database. This has been critical in our ability to scale the site and operate the site cheaply. Traditional Bloom ",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-20T09:56:40.719674+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_35c136b76e3a",
+      "source": "hatena",
+      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社 | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de61888",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "【NHK】国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われていたことを確認した」とする担当者の見解を 不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社 2026年10月20日 5:01 ( 2026年10月20日 7:48 更新) シェアする ＡＩ・ネット・ＩＴ 国内で相次いでいる不正アクセスの一部について、IT企業「GMOインターネットグループ」の情報セキュリティー専門の子会社は「調査したところ、中国系のAIが使われていたことを確認した」とする担当者の見解を… 注目ワード ＡＩ・ネット・ＩＴ サイバー攻撃 中国 企業・経営 あわせて読みたい 火星衛星探査機「MMX」 火星へ向かう軌道に 打ち上げ成功 10月20日 9:25 食料品の消費税減税関連法案 きょう衆議院で審議入り 10月20日 5:10 ロシアによる記者拘束から1週間 政府「領事面会」強く求める 10月20日 5:18 米 中間選挙まで2週間 下院は民主党過半数うかがう 上院は接戦 10月20日 5:37 世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ 10月20日 5:03 上皇后さま 92歳の誕生日 10月20日 0:00 「ふるさとチョイス」で不正アクセス疑い 阪急阪神百貨店でも 10月19日 19:23 “簗氏 事務員報酬支払い”報道 大学教授が宇都宮地検に告発状 10月19日 20:50 台風30号急発達 猛烈な勢力に 沖縄は21日以降 大しけのおそれ 10月19日 19:25 オーバードーズ 死亡ケースも多数 独自アンケートで見えた実態 10月19日 11:27 深掘りコンテンツ AIが人類存亡に関わる存在に？ 国連 中満事務次長インタビュー 10月19日 10:02 あの「風太」はいま “進化する” 動物園が目指すもの 10月17日 17:01 SNSで混乱も！ その“交通ルール”本当に正しい？ 10月17日 18:37 ゴルゴ13が問い続ける“正義” 10月16日 20:49 金融業界の常識を変える？オンチェーン金融とは【経済コラム】 10月16日 19:11 中学生日本一決める“全中大会” 競技数半減なぜ？ 10月15日 18:03 戸田奈津子さんの情熱 「1秒を3、4文字で」映画字幕に息吹を 10月15日 11:56 「プーチン大統領は“じいさん”」ロシアのエリート層に何が？ 10月14日 18:02 深掘りコンテンツのニュースをもっと見る 最新・注目の動画 最新・注目の動画 配信中の動画を見る 天気予報・防災情報 天気予報・防災情報 天気予報・防災情報を確認する 新着ニュース 新着ニュース 火星衛星探査機「MMX」 火星へ向かう軌道に 打ち上げ成功 10月20日 9:25 トランプ大統領 習主席・プーチン大統領との3者会談実現に意欲 10月20日 9:04 フランスでデモ乗じた暴動受け一部の都市で外出禁止令 10月20日 7:56 高市首相動静 2026年10月19日 10月20日 7:54 新着ニュース一覧を見る 各地のニュース 各地のニュース 地域を選択 都道府県を選ぶとその地域のニュースページへ移動します。 地図から選ぶ",
+      "content_source": "page",
+      "tags": [
+        "不正アクセス",
+        "AI",
+        "サイバー攻撃",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746756+09:00",
+      "summary": "GMOインターネットグループの子会社である情報セキュリティ専門企業が、国内で相次ぐ不正アクセスの一部に中国系のAIが使用されていたことを確認したと発表しました。この事実は、サイバー攻撃におけるAIの利用拡大と、それに伴う新たなセキュリティリスクの出現を示唆しており、今後の対策の重要性を浮き彫りにしています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50159616",
+      "source": "hackernews",
+      "title": "France's Supermarket Fridges Were Vulnerable Online for Months",
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "score": 30,
+      "comments": 20,
+      "raw_description": "IPinfo scans reveal that 85% of exposed French refrigeration controllers had known security flaws before the October 2026 cyberattack. Skip to main content IP Data Fundamentals IP Data Accuracy Solving Business Challenges Getting Started Optimizing and Scaling Community and Thought Leadership Company News and Updates 5 hours ago by João Tomé — 9 min read France's Supermarket Fridges Were Vulnerable Online for Months Get Unlimited Access to IPinfo Lite Start using accurate IP data for cybersecurity, compliance, and personalization—no limits, no cost. Sign up for free On the night of October 11 to 12, 2026, fridges and freezers in hundreds of French supermarkets started to warm up. Cyber attackers had pushed the refrigeration systems into defrost mode, which heats the cooling parts to melt ice. Some units reached 50°C (122°F), some equipment started to catch fire, according to the Paris prosecutor , and stores threw away their fresh and frozen food . The reports pointed to one maker of refrigeration controllers, Danfoss (a Danish industrial company). We went through IPinfo's weekly Internet scans to examine these systems before the attack. In this blog post we’ll explore some of the findings. Here’s the TL;DR: France had more exposed fridge dashboards than the rest of the world combined: 1,331, against 1,197 in the other 72 countries and territories put together. 85% ran software with known security flaws. That includes 527 older controllers Danfoss no longer supports. Only 195",
+      "content_source": "page",
+      "tags": [
+        "サイバーセキュリティ",
+        "IoT",
+        "脆弱性",
+        "サプライチェーン"
+      ],
+      "fetched_at": "2026-10-20T09:56:39.355036+09:00",
+      "summary": "フランスのスーパーマーケットの冷蔵・冷凍庫の制御システムが、2026年10月のサイバー攻撃以前に、インターネット経由でアクセス可能な状態で、既知のセキュリティ脆弱性を抱えていたことが判明しました。攻撃者はこれらのシステムをデフロストモードにし、庫内温度を上昇させ、食品の廃棄や火災を引き起こしました。調査によると、攻撃対象となった冷蔵庫の85%が脆弱なソフトウェアを実行しており、そのうち527台はメーカーがサポートを終了した古いコントローラーでした。これは、サプライチェーンにおけるIoTデバイスのセキュリティ管理の重要性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_84e2eb67403f",
+      "source": "hatena",
+      "title": "Apple、10月28日にイベント開催へ　タッチスクリーン「MacBook Pro」など発表か",
+      "url": "https://www.itmedia.co.jp/news/article/2610/20/2000002404/",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "米Appleのワールドワイドマーケティング担当上級副社長、グレッグ・ジョズウィアック氏は10月19日（現地時間）、Xに「Can’t wait to pro and tell next week.」と投稿した。Appleのロゴを指で描くような動画が添えられている。",
+      "content_source": "feed",
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "イベント",
+        "新製品"
+      ],
+      "fetched_at": "2026-10-20T09:56:38.746783+09:00",
+      "summary": "Appleは10月28日にイベントを開催することを発表しました。このイベントでは、タッチスクリーンを搭載した新型MacBook Proが発表される可能性が示唆されています。この発表は、MacBook Proのラインナップにおける重要な進化となる可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_3c83b6b9c219",
+      "source": "reddit",
+      "title": "GitHub Actions is down once again",
+      "url": "https://www.reddit.com/r/programming/comments/1xa0z6c/github_actions_is_down_once_again/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "If you're experiencing actions stuck in a queued state, it's not you: Update - We’re are currently investigating degraded availability affecting GitHub Actions, GitHub Pages and Webhooks. Customers may experience delays in workflow processing, site builds and webhook delivery. Oct 19, 2026 - 15:56 UTC Update - Webhooks is experiencing degraded performance. We are continuing to investigate. Oct 19, 2026 - 15:50 UTC Investigating - We are investigating reports of degraded performance for Actions and Pages Oct 19, 2026 - 15:49 UTC submitted by /u/BitFlipp3r [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "GitHub Actions",
+        "障害",
+        "CI/CD",
+        "Webhooks"
+      ],
+      "fetched_at": "2026-10-20T09:56:41.273420+09:00",
+      "summary": "GitHub Actions, GitHub Pages, および Webhooks で障害が発生しており、ワークフロー処理、サイトビルド、Webhook配信に遅延が生じています。現在、原因を調査中です。この障害は、開発者のCI/CDパイプラインやWebサイトのデプロイメントに影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_58648a96f89a",
+      "source": "reddit",
+      "title": "The reverts will continue until morale improves [PostgreSQL 19]",
+      "url": "https://www.reddit.com/r/programming/comments/1xa9h5w/the_reverts_will_continue_until_morale_improves/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/currentscurrents [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "PostgreSQL"
+      ],
+      "fetched_at": "2026-10-20T09:56:41.273589+09:00",
+      "summary": "PostgreSQL 19に関する、モラールが向上するまでリバートが続くという内容の記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_e56a5d1a9451",
+      "source": "reddit",
+      "title": "Making software is an artistic activity",
+      "url": "https://www.reddit.com/r/programming/comments/1xa4bck/making_software_is_an_artistic_activity/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "A brief argument framing software creation, and specifically the details of the code, as an act of art submitted by /u/foobear777 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "ソフトウェア開発",
+        "芸術",
+        "コード",
+        "創造性"
+      ],
+      "fetched_at": "2026-10-20T09:56:41.273773+09:00",
+      "summary": "ソフトウェア開発、特にコードの詳細は、芸術的な活動であるという議論が提示されています。この視点は、ソフトウェア作成プロセスにおける創造性や美的側面を強調するものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_c459fccad1c1",
+      "source": "reddit",
+      "title": "The Labor Market for Recent College Graduates",
+      "url": "https://www.reddit.com/r/programming/comments/1xa16ri/the_labor_market_for_recent_college_graduates/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "​ Why is unemployment rate of recent CS and CE grads at 7 and 7.8% compared to the natural rate of unemployment of 4.2%. The whole economy is still going fine but recent graduates of cs and ce have an outsized affect. Overall unemployment rate of recent graduates is also 5.7% submitted by /u/Fuzzy-Armadillo-8610 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "労働市場",
+        "新卒",
+        "コンピュータサイエンス",
+        "失業率"
+      ],
+      "fetched_at": "2026-10-20T09:56:41.273989+09:00",
+      "summary": "コンピュータサイエンス（CS）およびコンピュータエンジニアリング（CE）の卒業生の失業率が7%および7.8%と、自然失業率の4.2%を大きく上回っています。これは、経済全体は良好であるにもかかわらず、CS/CEの卒業生が特に影響を受けていることを示唆しています。最近の卒業生全体の失業率も5.7%と高めです。",
+      "summary_basis": "content"
+    }
+  ]
+}
