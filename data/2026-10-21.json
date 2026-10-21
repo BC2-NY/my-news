@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T09:25:42.187848+09:00",
+  "articles": [
+    {
+      "id": "hn_50163277",
+      "source": "hackernews",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "score": 2107,
+      "comments": 822,
+      "raw_description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models - deepseek-ai/DeepInfer DeepInfer DeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale. Supported models: DeepSeek-V4.1-Flash Supported features: Optimized kernels, model and sampler runtime Parallelism: Attention DP / balanced CP, MoE EP + EPLB DSpark and confidence-scheduled verification SWA bounded replay Asynchronous scheduling (zero-overhead batch scheduler) Batch-invariant inference Deterministic sampling Structured outputs Feature details and configuration Optimized kernels: FlashMLA , DeepGEMM , DeepEP , TileKernels , DeepSelect , and custom TileLang kernels . DSpark and confidence-scheduled verification: accelerate decoding with draft tokens and use confidence estimates to schedule verification. Set DEEPINFER_ENABLE_MTP_VARLEN=1 ; DEEPINFER_USE_NEXTN_DECODE controls the maximum draft length (default: 5). Decoder SWA bounded replay: reduce decoder prefill work by replaying only a bounded suffix. Set DEEPINFER_YOCO_PREFILL_TRUNCATION_MODE=compact and DEEPINFER_YOCO_PREFILL_KEEP_TOKENS=140 for the default V4.1 settings; the retained suffix must cover the SWA window plus the maximum backtracking length. Asynchronous scheduling: overlap CPU batch scheduling with device execution. Enabled by default. Batch-invariant inference: keep mode",
+      "content_source": "page",
+      "tags": [
+        "推論フレームワーク",
+        "DeepSeek",
+        "大規模モデル",
+        "パフォーマンス最適化"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.798703+09:00",
+      "summary": "DeepInferは、DeepSeekの大規模プロダクションサービスを支える高性能推論フレームワークです。このオープンソース版は、大規模サービングに必要なコア機能を備えたオフライン推論を提供します。DeepSeek-V4.1-Flashモデルをサポートし、最適化されたカーネル（FlashMLA、DeepGEMMなど）や、Attention DP/balanced CP、MoE EP + EPLBといった並列処理に対応しています。さらに、DSparkやSWA bounded replayによるデコーディング高速化、非同期スケジューリングによるCPUとGPUの実行オーバーラップ、バッチ不変推論などの機能により、推論パフォーマンスを向上させます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50168396",
+      "source": "hackernews",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "score": 497,
+      "comments": 136,
+      "raw_description": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed. Agent Sure. What's the reference number? Tool call get_referral(ref=\"4420 1187\") Result Merci de recevoir ce patient pour un avis dermatologique. Traitement en cours : crème à l’hydrocortisone. Dr Martin, Clinique du Parc. Agent It says, \"Merci de recevoir ce patient pour un avis dermatologique.\" Your doctor is asking a dermatologist, Dr Martin, to see you. The next slot is Tuesday at 5:45 pm. Shall I book it? Tool call book_appointment(slot=\"Nov 3 17:45\") Result confirmed Agent Done. Bring the letter, your carte Vitale, and I'll text you the details in English. Voxtral 3 Take the call Béatrice Hi, my doctor gave me a referral letter in French. Can you book it for me? Béatrice 4402... sorry, 4420 1187. Béatrice Yes, please. Thinking Summary Voxtral 3 introduces a cutting-edge voice agent SDK and state-of-the-art speech models designed for real-time, multi-step conversations across 50+ languages. It combines accurate transcription, natural speech synthesis with emotional adaptability, and deep tool integration for seamless workflow automation. Available via Mistral’s EU-hosted API or self-deployment, it ensures data sovereignty while delivering low-latency, human-like interactions for contact centers, virtual assistants, and hands-free copilots. Speech transcription and voice generation have come a long way, but building",
+      "content_source": "page",
+      "tags": [
+        "音声エージェント",
+        "SDK",
+        "多言語対応",
+        "ワークフロー自動化"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.992610+09:00",
+      "summary": "Mistralは、50以上の言語に対応し、リアルタイムでの多段階対話が可能な音声エージェントSDK「Voxtral 3」を発表しました。このSDKは、高精度な文字起こし、感情表現豊かな音声合成、そして複雑なツール連携によるワークフロー自動化を実現します。EUホストAPIまたはオンプレミスでの提供により、データ主権を確保しつつ、低遅延で人間らしい対話体験を提供します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50170593",
+      "source": "hackernews",
+      "title": "SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "score": 494,
+      "comments": 266,
+      "raw_description": "Build the city of your dreams. Subject to approval. A free city builder about zoning, hearings, lawsuits and reelection. Every improvement creates opposition New housing lowers rents and angers homeowners. New industry brings jobs and smog. Better transit attracts development, and development attracts opponents. Fix one problem and you create a new group of voters who are angry about it.",
+      "content_source": "page",
+      "tags": [
+        "都市計画",
+        "シミュレーション",
+        "ゲーム",
+        "許認可"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.405656+09:00",
+      "summary": "「SimCity, but with Permits」は、都市建設シミュレーションゲームでありながら、許認可、公聴会、訴訟、再選といった現実の都市計画における複雑な側面をシミュレートします。新しい開発は住民の賛成と反対の両方を生み出し、プレイヤーは住民の不満を管理しながら都市を発展させる必要があります。このゲームは、都市開発における利害関係者の対立と、その調整の難しさを体験できる点が特徴です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50169053",
+      "source": "hackernews",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "score": 249,
+      "comments": 58,
+      "raw_description": "Contribute to google-pytorch/torch_tpu development by creating an account on GitHub. Description This project provides a PyTorch backend for Google's Tensor Processing Units (TPUs), enabling users to run PyTorch models and operations on TPU devices. It includes custom ATen kernels for various PyTorch operations, a compilation cache for optimizing execution, and examples for distributed training and model inference. Features PyTorch ATen kernel implementation for TPU. Compilation cache for optimized execution of XLA computations. Support for distributed training (Data Parallelism, Tensor Parallelism). Examples for various models (Llama, Qwen, ResNet, DLRM, minGPT, UNet). Integration with torch.compile() for graph mode execution. Utilities for debugging and benchmarking. User Guide and Interactive Notebooks A user guide is available at https://torchtpu.readthedocs.io/ . This is a static version of the interactive notebooks. They are available in the docs folder. The notebooks are Marimo (similar to Jupyter). They can be run with marimo edit file.py and then you can access them in your browser. You will need to be running this from a TPU VM, a v6e GCE instance is easiest. Installation The same instructions are available in the user guide linked above. TorchTPU's Python version support policy matches PyTorch's Release Compatibility Matrix . Currently, Python 3.11+ is supported. See the Python Version Support Policy for more details. First create a Python virtual environment: pyth",
+      "content_source": "page",
+      "tags": [
+        "PyTorch",
+        "TPU",
+        "オープンソース",
+        "機械学習"
+      ],
+      "fetched_at": "2026-10-21T09:25:22.777932+09:00",
+      "summary": "Googleは、PyTorchモデルとオペレーションをGoogleのTensor Processing Units（TPU）上で実行可能にする、PyTorchのネイティブバックエンドであるTorchTPUをオープンソース化した。このプロジェクトは、TPU用のカスタムATenカーネル、XLA計算の最適化された実行のためのコンパイルキャッシュ、分散学習やモデル推論のためのサンプルコードを提供する。これにより、PyTorchユーザーはTPUの計算能力を活用して、機械学習モデルの開発とデプロイを加速できる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50169707",
+      "source": "hackernews",
+      "title": "What shall I teach my son?",
+      "url": "https://stevekrouse.com/ends",
+      "score": 236,
+      "comments": 295,
+      "raw_description": "What Shall I Teach My Son? What is the purpose of education in the age of AGI? October 19, 2026 Yesterday, the title The End of Education by Neil Postman called to me from my bookshelf, whispering that it might be the right book at the right time. It was. Published in 1995, it was surprisingly appropriate balm for the soul of a confused programmer and soon-to-be father. My wife and I are expecting our first child. My economically valuable skillset – programming – suddenly feels less valuable. What shall I teach my son? And to what end? Mr. Edison says That the radio will supplant the teacher. Already one may learn languages by means Of Victrola records. The moving picture will visualize What the radio fails to get across. Teachers will be relegated to the backwoods. With fire-horses, And long-haired women; Or, perhaps shown in museums. Education will become a matter Of pressing the button. Perhaps I can get a position at the switchboard. – Quoted in The End of Education by Neil Postman, quoting Teachers and Machines: The Use of Technology Since 1920 by Larry Cuban In Edison’s own words: Books will soon be obsolete in the public schools… Our school system will be completely changed inside of ten years. – Thomas Edison, The New York Dramatic Mirror, 1913 Back in 2013 , I boldly predicted that MOOCs would upend education. Ah, my past self, you sweet summer child. Nassim Nicholas Taleb has helped me appreciate the staying power of staying power, sometimes called The Lindy Effect ",
+      "content_source": "page",
+      "tags": [
+        "AGI",
+        "教育",
+        "技術史",
+        "Lindy Effect"
+      ],
+      "fetched_at": "2026-10-21T09:25:22.581575+09:00",
+      "summary": "AGI時代における教育の目的について、1995年の書籍「The End of Education」を引用し考察している。技術の進歩により教育手法が変化する可能性が示唆されており、プログラミングスキルを持つ著者は、将来の子供に何を教えるべきか、その目的は何かという問いに直面している。過去の技術予測（ラジオ、ビクトローラ、映画）やMOOCsの普及予測が外れた経験から、教育の永続性についても言及している。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_45ccc128416e",
+      "source": "hatena",
+      "title": "ウィンドウズアップデートについて調べたらめちゃめちゃ面白かった",
+      "url": "https://anond.hatelabo.jp/20261020173628",
+      "score": 174,
+      "comments": 0,
+      "raw_description": "「なんで保存してない時に限って強制再起動すんねん！」 「頼むからあと5分待ってくれ！」 「Microsoftは悪魔か？」 ​と、全世界の人間が100万回くらいブチ切れてきたと思うんだが、気になって（なんであんな暴挙が許されてるのか）を本気で調べてみたら、想像以上に人間側の愚かさとMicrosoftの絶望の歴史が詰まってて...",
+      "content_source": "feed",
+      "tags": [
+        "Windows Update",
+        "強制再起動",
+        "Microsoft",
+        "ユーザー体験"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.201981+09:00",
+      "summary": "Windows Updateにおける強制再起動の挙動について、その背景にユーザー側の問題とMicrosoftの歴史的な課題が存在することが調査で明らかになった。保存していない作業中に強制再起動が発生する現象は、多くのユーザーが不満を感じる点であるが、その原因は複雑な要因が絡み合っていることが示唆されている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50108717",
+      "source": "hackernews",
+      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "score": 147,
+      "comments": 66,
+      "raw_description": "Quick update here since a lot of folks asked about what slopcodebench is / where it fits in Slop code bench is unique among benchmarks in that it makes a model work against a progressively disclosed list of features (checkpoints) that it doesn’t know it advance, inheriting the same codebase through the lifecycle of a single multi-checkpoint challenge I like this because it much more mirrors how real software dev happens, rather than most benchmarks with one off tasks where slop code doesn’t hinder future progress The original post[1] and the SOL/fable follow up[2] went into a bit more detail on the benchmark and its challenges 1. https://news.ycombinator.com/item?id=49076391 2. https://github.com/humanlayer/advanced-context-engineering-f...",
+      "content_source": "hn_text",
+      "tags": [
+        "SlopCodeBench",
+        "ベンチマーク",
+        "ソフトウェア開発",
+        "AIモデル"
+      ],
+      "fetched_at": "2026-10-21T09:25:22.970000+09:00",
+      "summary": "SlopCodeBenchは、モデルが事前に知らない機能リスト（チェックポイント）に対して段階的に作業を行うユニークなベンチマークです。これにより、単発タスクのベンチマークとは異なり、実際のソフトウェア開発に近いプロセスを評価できます。このベンチマークは、モデルがコードベースをライフサイクル全体で引き継ぎながら進捗していく様子を捉えることを目的としています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_c6df76969053",
+      "source": "hatena",
+      "title": "あなたの会社は、慌てて脆弱性検査にARTEXを使わなくていい｜Yusuke Kawabata（SaaS運営）",
+      "url": "https://note.com/uplucid/n/ncb9e3567ce2f",
+      "score": 83,
+      "comments": 0,
+      "raw_description": "前回、AIによる「自動化攻撃」に経営者はどのような対応をすればいいのかという話を書きました。おかげさまで多くの反響をいただいて私自身びっくりしました。 そして、本日はセキュリティ会社の調査で今回の大規模攻撃のいくつかはオープンソースのARTEXが使われていたことが判明したとニュースでにぎわっていました。 ...",
+      "content_source": "feed",
+      "tags": [
+        "サイバー攻撃",
+        "ARTEX",
+        "オープンソース",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.202029+09:00",
+      "summary": "大規模なサイバー攻撃において、オープンソースのARTEXが利用されていたことがセキュリティ会社の調査で判明しました。この記事は、AIによる自動化攻撃への対応策を検討する経営者に対し、ARTEXの利用が必ずしも緊急の対応を要するものではないことを示唆しています。ARTEXが具体的にどのような脆弱性をもたらすのか、あるいはその対策について、本文からは詳細な情報は読み取れません。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50173487",
+      "source": "hackernews",
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "score": 61,
+      "comments": 13,
+      "raw_description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom. Hackers aligned with ShinyHunters have claimed credit for dozens of major data breaches since 2019, when the group was primarily operated by cybercriminals living in France. As those original members were arrested or jailed one by one, control over the ShinyHunters brand eventually passed to “ Rey ,” identified last year as a teenage hacker from Amman, Jordan. According to the FBI, ShinyHunters has extorted more than $70 million from victims so far this year. In late September, ShinyHunters hacked the FBI recruitment website fbijobs.gov and taunted the agency by threatening to publish the stolen files, which reportedly included medical and psychological records, Social Security numbers and home addresses, and information about each employee’s unit and specialization. The FBI jobs site hack has prompted the agency to move with uncommon speed to arrest, detain and question people who had any communications with Rey or other ShinyHunters suspects. Reuters reported on October 3 that Rey had been detained by Jordanian authoritie",
+      "content_source": "page",
+      "tags": [
+        "サイバー犯罪",
+        "身代金要求",
+        "データ侵害",
+        "FBI"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.603447+09:00",
+      "summary": "米連邦捜査当局は、FBIの機密情報を窃取したハッカー集団ShinyHuntersに関連する身代金交渉企業の幹部2名を特定しました。そのうち米国在住の幹部は、被害者に身代金支払いを強要するウェブサイトの運営を支援していた疑いがあります。ShinyHuntersは2019年以降、多数のデータ侵害に関与し、今年だけでも7000万ドル以上を恐喝したとされています。FBIは最近、採用情報サイトをハッキングされたことを受け、迅速に捜査を進めています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_36bc59062fb3",
+      "source": "hatena",
+      "title": "【セキュリティ ニュース】ウェブサーバ「nginx」に複数脆弱性 - 3件が「クリティカル」との評価も（1ページ目 / 全3ページ）：Security NEXT",
+      "url": "https://www.security-next.com/191645",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "ウェブサーバ「nginx」や関連製品に複数の脆弱性が判明した。サービス拒否やコード実行、認証の回避、機密情報の漏洩などにつながるおそれがある。 F5は現地時間2026年10月14日、定例外のセキュリティアドバイザリを公開し、「nginx」に関する脆弱性5件や、関連製品の脆弱性6件のCVEベースであわせて11件の脆弱性を明ら...",
+      "content_source": "feed",
+      "tags": [
+        "nginx",
+        "脆弱性",
+        "セキュリティ",
+        "F5"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.201895+09:00",
+      "summary": "ウェブサーバnginxおよび関連製品に合計11件の脆弱性が確認されました。これらの脆弱性は、サービス拒否、コード実行、認証回避、機密情報の漏洩といった深刻なセキュリティリスクにつながる可能性があります。F5が公開したアドバイザリにより、これらの脆弱性の詳細がCVEベースで報告されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50173891",
+      "source": "hackernews",
+      "title": "The Other Epidemic: Trying to get off benzodiazepines",
+      "url": "https://www.thebeliever.net/the-other-epidemic/",
+      "score": 32,
+      "comments": 11,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "ベンゾジアゼピン"
+      ],
+      "fetched_at": "2026-10-21T09:25:22.387050+09:00",
+      "summary": "ベンゾジアゼピン系薬剤からの離脱を試みることについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_a495c873ee90",
+      "source": "hatena",
+      "title": "PHP: News Archive - 2026",
+      "url": "https://www.php.net/archive/2026.php",
+      "score": 18,
+      "comments": 0,
+      "raw_description": "Here are the most important news items we have published in 2026 on PHP.net. The PHP security team would like to give advance notice of an upcoming security release. It is scheduled for Wednesday, 21 October 2026 at 14:00 UTC. It addresses two critical vulnerabilities, both rated CVSS v4.0 9.2. A...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-21T09:25:21.202075+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_76c049b3ef75",
+      "source": "hatena",
+      "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ | NHKニュース",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261020de62509",
+      "score": 13,
+      "comments": 0,
+      "raw_description": "【NHK】国土交通省などは、国の省エネ住宅に関する補助金を受け付けていた大手広告会社が不正アクセスを受けて、申請などを行った事業者、2万3000人あまりの個人情報が漏えいしたおそれがあると発表しました。 国 JUST IN 今年度上半期の貿易統計 2兆8000億円の赤字 昨年比98.8％拡大 (09:03) 1 / 1 国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ 2026年10月20日 23:39 シェアする サイバー攻撃 国土交通省などは、国の省エネ住宅に関する補助金を受け付けていた大手広告会社が不正アクセスを受けて、申請などを行った事業者、2万3000人あまりの個人情報が漏えいしたおそれがあると発表しました。 国… 注目ワード サイバー攻撃 ＡＩ・ネット・ＩＴ 国土交通省 あわせて読みたい あす北～西日本で激しい雨か 北日本は荒天に 季節外れの暑さも 10月20日 19:08 新名神高速6人死亡事故 被告に拘禁刑7年の判決 津地裁 10月20日 19:51 ふるさとチョイス 445万件の個人情報流出を発表 10月20日 20:18 探査機「MMX」 火星へ向かう軌道に 衛星「フォボス」探査へ 10月20日 20:04 台風30号 先島諸島に23日から接近見込み 西日本に影響可能性も 10月20日 22:17 食料品の消費税減税関連法案 首相“法案の早期成立目指す” 10月20日 17:49 東大の総長選めぐり 文部科学省が選考経緯の検証を要請 10月20日 12:37 大阪地裁前で男性刺される 逮捕の容疑者 金銭に関する不満か 10月20日 17:59 「声を上げ続けて」 500日拘束された記者が語るロシアの実態 10月20日 7:25 オーバードーズ 死亡ケースも多数 独自アンケートで見えた実態 10月19日 11:27 深掘りコンテンツ 「声を上げ続けて」 500日拘束された記者が語るロシアの実態 10月20日 7:25 トランプ大統領と距離置く共和党の候補相次ぐ いったいなぜ？ 10月20日 7:24 AIが人類存亡に関わる存在に？ 国連 中満事務次長インタビュー 10月19日 10:02 あの「風太」はいま “進化する” 動物園が目指すもの 10月17日 17:01 SNSで混乱も！ その“交通ルール”本当に正しい？ 10月17日 18:37 ゴルゴ13が問い続ける“正義” 10月16日 20:49 金融業界の常識を変える？オンチェーン金融とは【経済コラム】 10月16日 19:11 「一定の所得はあっても・・・」働く40代が直面 住まいの現実 10月16日 18:33 深掘りコンテンツのニュースをもっと見る 最新・注目の動画 最新・注目の動画 配信中の動画を見る 天気予報・防災情報 天気予報・防災情報 天気予報・防災情報を確認する 新着ニュース 新着ニュース 今年度上半期の貿易統計 2兆8000億円の赤字 昨年比98.8％拡大 10月21日 9:03 日米豪印 クアッド首脳会合を来月マニラで開催 米国務長官 10月21日 8:53 高市首相動静 2026年10月20日 10月21日 8:13 アメリカ政府 民生部門で中国AIのディープシーク利用禁止に 10月21日 7:57 新着ニュース一覧を見る 各地のニュース 各地のニュース 地域を選択 都道府県を選ぶとその地域のニュースページへ移動します。 地図から選ぶ",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-21T09:25:21.202117+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_17c6dea53adf",
+      "source": "hatena",
+      "title": "Anthropic「OSS Scanner」の概要 - Claude MythosでOSSの脆弱性を無料検出｜npaka",
+      "url": "https://note.com/npaka/n/nba1723dba4e1",
+      "score": 10,
+      "comments": 0,
+      "raw_description": "1. OSS Scanner2026年10月8日、Anthropicは、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を発表しました。 OSS Scannerは、Claude Mythosなどの高性能AIモデルを使って、OSSのソースコードを定期的に分析し、脆弱性を発見するサービスです。 主な特徴は次のとおりです。 ・AI...",
+      "content_source": "feed",
+      "tags": [
+        "OSS",
+        "脆弱性検出",
+        "AI",
+        "Anthropic"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.202155+09:00",
+      "summary": "Anthropicは、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を発表しました。このサービスは、Claude Mythosなどの高性能AIモデルを活用し、OSSのソースコードを定期的に分析して脆弱性を発見します。これにより、開発者はOSSコンポーネントのセキュリティリスクを早期に把握し、対策を講じることが可能になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d4a0f01e3351",
+      "source": "hatena",
+      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services | Amazon Web Services",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+      "score": 8,
+      "comments": 0,
+      "raw_description": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account.",
+      "content_source": "meta",
+      "tags": [
+        "Amazon ECS",
+        "コンテナ",
+        "ネットワーキング",
+        "クラウド"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.202187+09:00",
+      "summary": "Amazon ECS Gatewayは、ECSサービス向けの新しいアカウントレベルのリソースで、コンテナ化されたワークロードのインフラストラクチャを動的にプロビジョニングおよび管理することで、インフラストラクチャのセットアップと管理を簡素化します。これにより、インフラストラクチャはユーザーのアカウント内に直接作成され、管理のオーバーヘッドが削減されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_816c18566561",
+      "source": "hatena",
+      "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
+      "score": 6,
+      "comments": 0,
+      "raw_description": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。 AIを活用した業務アプリのプラットフォーム Cloudflar...",
+      "content_source": "feed",
+      "tags": [
+        "Cloudflare OS",
+        "AI",
+        "マネージドサービス",
+        "プラットフォーム"
+      ],
+      "fetched_at": "2026-10-21T09:25:21.202222+09:00",
+      "summary": "Cloudflareは、AIを活用した業務のためのプラットフォーム「Cloudflare OS」のマネージドサービスを発表しました。このサービスは、GitHubとの接続やGmailとの連携強化といった機能を提供し、AIを活用した業務アプリケーション開発を支援します。現在、ウェイティングリストへの登録を受け付けています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_af6e02e040dd",
+      "source": "reddit",
+      "title": "SSH keys on macOS with Touch ID",
+      "url": "https://www.reddit.com/r/programming/comments/1xaqyzu/ssh_keys_on_macos_with_touch_id/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "I've recently discovered that you can use Touch ID (rather, the Mac's Secure Enclave) for SSH authentication. I'm the author of the post, feel free to ask any questions and if there are any experts I'd love to hear your thoughts! submitted by /u/nmattia [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "macOS",
+        "SSH",
+        "Touch ID",
+        "認証"
+      ],
+      "fetched_at": "2026-10-21T09:25:23.328665+09:00",
+      "summary": "macOSのTouch ID（Secure Enclave）を利用してSSH認証を行う方法が紹介されています。これにより、パスワード入力なしで安全にSSH接続が可能になります。この機能は、ユーザーの生体情報を用いて認証プロセスを強化するもので、セキュリティと利便性を両立させます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_50dbba0f9f5c",
+      "source": "reddit",
+      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "url": "https://www.reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/359Panda3U [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Go",
+        "CA"
+      ],
+      "fetched_at": "2026-10-21T09:25:23.328896+09:00",
+      "summary": "Go言語は、公表されていないセキュリティ上の懸念から、8つのCAキーをブロックする緊急アップデートを発行したようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_a38bc13bcf4c",
+      "source": "reddit",
+      "title": "Announcing TypeScript 7.1 Beta",
+      "url": "https://www.reddit.com/r/programming/comments/1xaz5ur/announcing_typescript_71_beta/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/DanielRosenwasser [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "TypeScript"
+      ],
+      "fetched_at": "2026-10-21T09:25:23.329070+09:00",
+      "summary": "TypeScript 7.1 Beta版のリリースが発表されたようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_0ef2158e073f",
+      "source": "reddit",
+      "title": "Why memory-hard proof-of-work hashes are not a popular choice for CAPTCHA",
+      "url": "https://www.reddit.com/r/programming/comments/1xauiqk/why_memoryhard_proofofwork_hashes_are_not_a/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/ribtoks [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "CAPTCHA",
+        "proof-of-work"
+      ],
+      "fetched_at": "2026-10-21T09:25:23.329220+09:00",
+      "summary": "メモリハードなプルーフ・オブ・ワークハッシュがCAPTCHAで人気がない理由についての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
