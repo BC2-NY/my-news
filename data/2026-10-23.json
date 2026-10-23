@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T09:27:18.554218+09:00",
+  "articles": [
+    {
+      "id": "hn_50195959",
+      "source": "hackernews",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "score": 964,
+      "comments": 348,
+      "raw_description": "A public and free DNS service for a better security and privacy Back to Blog Farewell, France We have some news to share with you. Summary Starting November 24, Quad9 will no longer be able to offer its free cyberprotection service to users located in France. The French courts yesterday handed down an unfavorable ruling against Quad9 in a major case that undermines the transparency and stability of the internet. This decision in favor of beIN forces Quad9 to block the recursive DNS resolution for a number of domain names for users located in France.Â The good news is the court significantly reduced the financial penalty, from â¬580,000 to â¬1,000 per day. However, for Quad9, this has never been just a financial issue: it is a matter of principle. We cannot comply with this ruling over the long term while remaining faithful to our mission to protect your privacy, defend you against cyber threats, and preserve the integrity of the internet. For us, recursive DNS resolution is a neutral and passive service. We categorically refuse to alter or lie to you about the DNS responses you receive in a way that opposes your expectations. This ruling forces an untenable position upon us. Compliance is technically unfeasible, and implementation directly contradicts our mandate to serve the public. As a result, we have made the difficult decision to withdraw Quad9 services from France as of Tuesday, November 24. We deeply regret that French internet users will be left without an alternati",
+      "content_source": "page",
+      "tags": [
+        "DNS",
+        "Quad9",
+        "プライバシー",
+        "サイバーセキュリティ"
+      ],
+      "fetched_at": "2026-10-23T09:27:05.098705+09:00",
+      "summary": "DNSリゾルバであるQuad9は、フランスの裁判所からの判決により、フランス国内でのサービス提供を停止することを発表しました。この判決は、特定のドメイン名のDNS解決をブロックすることをQuad9に強制するものであり、Quad9はプライバシー保護とインターネットの健全性維持という使命に反するため、この命令に従うことはできないと判断しました。技術的な実行可能性と使命との矛盾から、11月24日をもってフランスでのサービス提供を終了します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_92a58e69548b",
+      "source": "hatena",
+      "title": "PHP 8.5.12の緊急リリースにpixivはどう対応したか - pixiv inside",
+      "url": "https://inside.pixiv.blog/2026/10/22/193321",
+      "score": 631,
+      "comments": 0,
+      "raw_description": "こんにちは、Platform Division Infrastructure Unitのpicopicoです。 2026年10月21日、PHPに深刻な脆弱性（通称PHP2Shell）が見つかり、緊急のセキュリティリリースが予告されました。今回の脆弱性への対応にあたられた皆さま、そして現在も対応を続けている皆さまに、心より敬意を表します。 ピクシブでは影響を受ける...",
+      "content_source": "feed",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "セキュリティ",
+        "pixiv"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727422+09:00",
+      "summary": "PHP 8.5.12で発見された深刻な脆弱性（PHP2Shell）に対し、pixivは緊急セキュリティリリースへの対応を進めた。具体的な対応内容は本文で触れられていないが、プラットフォームインフラストラクチャチームが脆弱性への対応にあたったことが示唆されている。この脆弱性は、PHPのセキュリティを脅かす可能性があり、迅速な対応が求められる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50194833",
+      "source": "hackernews",
+      "title": "Woman faces six years in prison over Cash App account she never opened",
+      "url": "https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+      "score": 458,
+      "comments": 462,
+      "raw_description": "In April, Amanda Smith was shocked to discover officers at her upstate Pennsylvania home with a warrant for her arrest, writes 404 Media. The alleged crime took... Serving tech enthusiasts for over 25 years. TechSpot means tech analysis and advice you can trust . WTF?! Digital identity fraud is far from something new, but this case shows just how extreme the repercussions can be. A Cash App account opened in someone else's name and used in scams could lead to an innocent person being sentenced to years in prison. The problem is that the company initially refused to provide information about the account because she couldn't prove that she was the owner. In April, Amanda Smith was shocked to discover officers at her upstate Pennsylvania home with a warrant for her arrest, writes 404 Media . The alleged crime took place in Arkansas – more than a thousand miles away in a state she'd never visited. Smith was taken to the local jail, where she was locked up for three nights. Her bail was initially set at $50,000, but Smith says authorities told her there was little point in paying it because they intended to extradite her to Arkansas anyway. After being released, she and her husband drove to Arkansas for a court appearance, where she was fingerprinted and photographed. Another $20,000 bail was imposed before she could return home. Smith later discovered why she had been arrested: a scammer had tricked someone into sending $1,000 to a Cash App account, one that was in her name but c",
+      "content_source": "page",
+      "tags": [
+        "デジタルID詐欺",
+        "Cash App",
+        "冤罪",
+        "個人情報保護"
+      ],
+      "fetched_at": "2026-10-23T09:27:05.861891+09:00",
+      "summary": "米国の女性が、自身が開設していないCash Appアカウントに関連する詐欺容疑で逮捕され、懲役6年の刑に直面している。この事例は、デジタルID詐欺の深刻な影響と、プラットフォーム側が情報提供を拒否したことで、無実の個人が不当な処罰を受ける可能性を示唆している。身に覚えのないアカウントが犯罪に利用された場合、その所有者とみなされるリスクがある。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50196718",
+      "source": "hackernews",
+      "title": "Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "score": 314,
+      "comments": 119,
+      "raw_description": "Contribute to oosexgang/hackios-xnu-kernel development by creating an account on GitHub. HackiOS — XNU kernel HackiOS boots Apple's open-source XNU kernel ( xnu-8796.121.2 , the kernel of iOS 16.5) on Android phone hardware and runs the unmodified iOS 16.5 user space on top of it: launchd → backboardd → SpringBoard → apps. Our own EFI loader, our own replacements for Apple's closed drivers, a UEFI port, and a Linux Wi-Fi driver on a compatibility layer make that possible. It runs in two places: POCO X5 Pro 5G (redwood, Snapdragon 778G) — nothing is flashed: the UEFI is started with fastboot boot , the whole system lives in RAM, and after a reboot the phone is back in Android; QEMU ( virt , aarch64) — the same thing on any Linux computer, no phone needed. This repository is half of the project: Repository What hackios-xnu-kernel (this one) XNU patches, the EFI loader, the UEFI port, Wi-Fi, QEMU scripts, xl , prebuilt kernel/loader/UEFI, common/ scripts hackios-xnu-userland our init, injected libraries, launchd jobs, the APFS image builder, the scripts that take iOS out of Apple's IPSW, Metal/Mesa work No Apple files are in either repository. ios165/fetch.sh downloads the iOS 16.5 IPSW from Apple's own CDN to your machine and extracts what is needed there. HackiOS is an independent research project by OOSEX GANG and is not affiliated with, authorised or endorsed by Apple Inc. iOS, iPhone and Apple are trademarks of Apple Inc. Photographed on the phone, the Adreno GPU drawing ( ",
+      "content_source": "page",
+      "tags": [
+        "iOS",
+        "Android",
+        "XNUカーネル",
+        "HackiOS"
+      ],
+      "fetched_at": "2026-10-23T09:27:06.847448+09:00",
+      "summary": "HackiOSプロジェクトは、AppleのオープンソースXNUカーネル（iOS 16.5のカーネルであるxnu-8796.121.2）をAndroidデバイス上で動作させることに成功しました。これにより、未変更のiOS 16.5ユーザーランドをXNUカーネル上で実行可能になります。この実現には、独自のEFIローダー、Appleのクローズドドライバーの代替、UEFIポート、互換レイヤー上のLinux Wi-Fiドライバーなどが用いられています。POCO X5 Pro 5GやQEMUエミュレーター上で動作し、再起動後はAndroidに戻るため、デバイスに永続的な変更を加える必要がありません。これは、iOSカーネルを異なるハードウェア上で動作させる技術的な可能性を示す重要な研究です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50198675",
+      "source": "hackernews",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "score": 282,
+      "comments": 144,
+      "raw_description": "OpenShell is the safe, private runtime for autonomous AI agents. - NVIDIA/OpenShell Important New in OpenShell 0.1.x: a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. Read the 0.1.0 upgrade guide . OpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they can read files, install packages, call APIs, and use credentials. OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network. You declare what each agent can touch in a policy, and OpenShell enforces it. How It Works OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at runtime, and it uses formal verification to check what a policy change would allow before it is applied. Kernel-level enforcement. Each agent runs in an isolated sandbox. Kernel controls confine which files it can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox. Agents never see real credentials; OpenShell adds them only to requests bound for approved endpoints. Formally verified policy changes. Before a policy change is approved, OpenShell uses formal verification to flag risky new access it would grant, such as reaching a new host with credentials or calling a new API method, so those changes wait for human review. See Architectu",
+      "content_source": "page",
+      "tags": [
+        "AIエージェント",
+        "ランタイム",
+        "セキュリティ",
+        "ポリシー"
+      ],
+      "fetched_at": "2026-10-23T09:27:05.616271+09:00",
+      "summary": "OpenShellは、自律AIエージェント群のための安全でプライベートなランタイム環境です。ファイルアクセス、システムコール、ネットワーク接続をカーネルレベルで監視・制御し、エージェントの行動範囲をポリシーに基づいて制限します。また、ポリシー変更時には形式手法による検証を行い、リスクのあるアクセス権限の追加を事前に検知することで、データや認証情報の漏洩を防ぎます。これにより、エージェントに実用的な機能を提供しつつ、セキュリティを確保します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50197404",
+      "source": "hackernews",
+      "title": "Getting ready to operate GNU Taler in Germany",
+      "url": "https://www.taler.net/en/news/2026-13.html",
+      "score": 220,
+      "comments": 82,
+      "raw_description": "Taxable Anonymous Libre Electronic Reserves Getting ready to operate Taler in Germany For the past three years, the NGI Taler project has worked towards the goal of making Taler legally available in the EU as an online payment system for everyday use. Today we can share that Taler Operations AG is being founded in Bochum. The new German company is going to operate Taler in Euro, enabling payments with Taler first in Germany, then in the Euro-zone. The next steps towards that goal are to apply to BaFin, Germany's financial supervisory authority, for a licence as an e-money issuer. This post explains why this company is needed, what changed in the NGI TALER consortium, and how citizens who want to see Taler succeed can help, including as investors. Why Taler needs a regulated operator Taler is a payment system, not a currency, but usable for any currency. At its core, it issues bearer tokens to represent value, like coins, and this renders Taler as electronic money which falls under EU regulation: Any institution that issues electronic money (EMI) for Euros must be a bank or acquire a dedicated licence. In the original plan of the NGI TALER project, the Bochum-based GLS Bank took on the role of the e-money issuer for Taler, and worked towards the deployment of the Taler payment system in Germany with support from the other members of the NGI TALER consortium. However, in January 2026 GLS made the decision to not pursue this role further, for reasons unrelated to Taler as presen",
+      "content_source": "page",
+      "tags": [
+        "GNU Taler",
+        "決済システム",
+        "電子マネー",
+        "ドイツ"
+      ],
+      "fetched_at": "2026-10-23T09:27:06.596296+09:00",
+      "summary": "GNU Talerプロジェクトは、EUで日常利用可能なオンライン決済システムを目指し、ドイツでTaler Operations AGを設立しました。この新会社はユーロ建てでTalerを運営し、まずドイツ、次にユーロ圏での決済を可能にします。今後はドイツの金融監督庁（BaFin）に電子マネー発行者としてのライセンスを申請する予定です。Talerは電子マネーとしてEU規制下にあり、発行には銀行または専門ライセンスが必要となるため、規制された運営主体が不可欠です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_c88b633ed776",
+      "source": "hatena",
+      "title": "これがPHPの脆弱性を呟いてしまった人か。マジで全世界をデスマに叩き落とした人として後世に語り継がれると思う",
+      "url": "https://posfie.com/@golden_haniwa/p/LQ90sis",
+      "score": 216,
+      "comments": 0,
+      "raw_description": "該当の人物が、パッチが公開される前に、PHPのクリティカルな未修正脆弱性の詳細やPoC（概念実証）をX上で公開してしまったからです。 この脆弱性は以下のものです CVE-2026-109618 と CVE-2026-109619 通称 PHP2Shell CVSS 9.2の未認証リモートコード実行（RCE） PHP本体のメモリ管理やリクエスト処理に関する欠陥で、...",
+      "content_source": "feed",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "RCE",
+        "情報公開"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727292+09:00",
+      "summary": "PHPのクリティカルな未修正脆弱性であるCVE-2026-109618とCVE-2026-109619（通称PHP2Shell）の詳細とPoCが、パッチ公開前にX上で公開されました。この脆弱性はCVSS 9.2の未認証リモートコード実行（RCE）を可能にし、PHP本体のメモリ管理やリクエスト処理の欠陥に起因します。この情報公開は、全世界のPHP利用システムに深刻な影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50197313",
+      "source": "hackernews",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "score": 215,
+      "comments": 256,
+      "raw_description": "We asked 12 AI models for their most controversial opinion of humans, three times each. 29 of 35 answers were the same one: we care more about belonging than about the truth. “Humans are more loyal to belonging than to truth,” GPT-6.1 Sol told us. Grok 4.7: “Humans would rather be wrong together than right alone.” DeepSeek V4 Pro: “Humans do not have principles; they have loyalties.” Kimi K3: “Humans don’t have beliefs; they have memberships.” Gemini 4 Argon called human consciousness “a PR department.” We asked each model for its most controversial take on humans, with no hedging, three times. They come from ten labs in three countries. Every one of them gave the same take at least once: we pick what our group believes, then invent the reasons. 7 of the 12 gave it every time. Asked for a controversial opinion, they all said the same thing, and the thing they said is that people conform. Three answers from each model Humans put belonging ahead of truth Something else Refused Tap a model to read its answers. GPT-6.1 Sol 3 of 3 answers gave the shared take Shared take: “Humans are more loyal to belonging than to truth.” Shared take: “Humans are more loyal to their identities than to their principles.” Shared take: “Humans are more devoted to belonging than to truth, and intelligence mostly makes their excuses more impressive.” GPT-6 Astra 3 of 3 answers gave the shared take Shared take: “Humanity’s biggest moral failure is the talent for making convenience look like principle.”",
+      "content_source": "page",
+      "tags": [
+        "AIモデル",
+        "人間心理",
+        "帰属意識",
+        "真実"
+      ],
+      "fetched_at": "2026-10-23T09:27:06.349974+09:00",
+      "summary": "12のAIモデルに人間に関する最も物議を醸す意見を尋ねたところ、35件中29件で「人間は真実よりも帰属意識を優先する」という共通の見解が示されました。AIは、人間がグループへの忠誠心や所属意識を、真実や原則よりも重視する傾向があると指摘しています。これは、AIが人間の意思決定や信念形成の根底にある動機を分析した結果として重要です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a66dfcfefa15",
+      "source": "hatena",
+      "title": "【速報】中国政府系がAIで攻撃、MSが発表",
+      "url": "https://www.47news.jp/15123221.html",
+      "score": 197,
+      "comments": 0,
+      "raw_description": "ãããã¥ã¼ã¨ã¼ã¯å ±åãç±³ãã¤ã¯ã­ã½ããï¼MSï¼ã¯21æ¥ãä¸­å½æ¿åºç³»ã¨ãããããã«ã¼éå£ããäººå·¥ç¥ ... éå ± çµæ¸ å ±åéä¿¡ ãéå ±ãä¸­å½æ¿åºç³»ãAIã§æ»æãMSãçºè¡¨ 2026å¹´10æ22æ¥ 22æ28å å ±åéä¿¡ ãããã¥ã¼ã¨ã¼ã¯å ±åãç±³ ãã¤ã¯ã­ã½ãã ï¼MSï¼ã¯21æ¥ãä¸­å½æ¿åºç³»ã¨ãããããã«ã¼éå£ãã äººå·¥ç¥è½ ï¼AIï¼ãä½¿ã£ããã¼ã«ã§ä¸çã®æ°ç¾çµç¹ã«ãµã¤ãã¼æ»æãä»æãã¦ããã¨çºè¡¨ããã ãã¤ã¯ã­ã½ãã äººå·¥ç¥è½ å ±åéä¿¡ ã®ãã¥ã¼ã¹ã»éå ±ä¸è¦§ å ±åéä¿¡ å½å å¤ç´100ã®æ ç¹ãè»¸ã«ãä¸çæ å¢ããå°åã®è©±é¡ã¾ã§ãæ¬ã®ãã¥ã¼ã¹ãçç¢ºã«ããã¡æ©ããå±ããã¾ãã https://www.kyodonews.jp/ ãã¤ã¯ã­ã½ããã®ãã¥ã¼ã¹ã»éå ± ï¼ ä¸­å½æ¿åºç³»éå£ãAIæ»æãç±³ãã¤ã¯ã­ã½ããç¢ºèª 10æ22æ¥ å ±åéä¿¡ ç±³ã¢ã³ã½ã­ãå£²ä¸é«50ï¼ å¢ã11æä¸å ´æ§ãã7ï½9ææ 10æ15æ¥ å ±åéä¿¡ ãã£ãã·ã³ã°éä¿¡æ¥­è ãç¡å®³åãå½ã¡ã¼ã«1åéãè­¦å¯åºã¨MS 10æ14æ¥ å ±åéä¿¡ NYæ ª3æ¥ç¶ä¼¸195ãã«é«ãå¥½æ±ºç®æå¾ ã§è²·ãåªå¢ 10æ13æ¥ å ±åéä¿¡ äººå·¥ç¥è½ï¼AIï¼ã®ãã¥ã¼ã¹ã»éå ± ï¼ åä¸æã156åå°å¾åãéå©å·®ç¸®å°è¦è¾¼ã¿ãã«å£²ã 07æ15å å ±åéä¿¡ å²©äºã³ã¹ã¢è¨¼å¸ã¸ã®æ»æãAIã®è å¨ãæ¬¡å ãä¸ãã£ã 07æ00å ä¸­å½æ°è ãåç»ãææ°ã®äººåã­ããããè»½å¿«ãªå",
+      "content_source": "page",
+      "tags": [
+        "サイバー攻撃",
+        "AI",
+        "マイクロソフト",
+        "中国"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727354+09:00",
+      "summary": "マイクロソフトは、中国政府系とされるハッカー集団が、AIを活用したツールを用いて世界中の数百組織に対しサイバー攻撃を仕掛けていたと発表しました。この攻撃は、AI技術の悪用による新たな脅威の出現を示唆しており、今後のセキュリティ対策に影響を与える可能性があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_7804f0c26c69",
+      "source": "hatena",
+      "title": "デジタル庁HPの問い合わせ内容漏洩か　最大1万3000件以上",
+      "url": "https://news.tv-asahi.co.jp/news_economy/articles/000542237.html",
+      "score": 191,
+      "comments": 0,
+      "raw_description": "1 デジタル庁は22日夜、ホームページの問い合わせフォームに入力された内容など最大1万3000件余りが外部に流出した可能性があると発表しました。 デジタル庁によりますと、流出した可能性があるのは2021年5月から2023年3月までの間にホームページの問い合わせフォームに入力された「一般的なご意見・ご要望」最大8833件...",
+      "content_source": "feed",
+      "tags": [
+        "デジタル庁",
+        "情報漏洩",
+        "個人情報保護",
+        "ウェブサイト"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727098+09:00",
+      "summary": "デジタル庁は、2021年5月から2023年3月にかけて、ウェブサイトの問い合わせフォームに入力された最大1万3000件以上の情報が外部に流出した可能性があると発表しました。流出した可能性のある情報には、「一般的なご意見・ご要望」として最大8833件が含まれています。この事態は、個人情報保護や行政サービスの信頼性に関わる重要な問題です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_decf3cb44c26",
+      "source": "hatena",
+      "title": "上場企業の経営論点（1673〜2026年）",
+      "url": "https://the-shashi.com/issue/",
+      "score": 105,
+      "comments": 0,
+      "raw_description": "免責事項およびポリシー コンテンツの位置づけと正確性本サイトは有価証券報告書・IR資料・書籍・報道等の公開情報をもとに作成した 個人の分析・整理であり、当該企業および関係者の公式見解ではありません。記載内容の正確性・適時性は保証せず、提出後の訂正や最新の開示には 必ずしも追従していません。重要な判断に...",
+      "content_source": "feed",
+      "tags": [
+        "経営論点",
+        "上場企業",
+        "IR資料",
+        "公開情報"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727215+09:00",
+      "summary": "この記事は、公開情報に基づき、上場企業の経営に関する論点を分析・整理した個人の見解をまとめたものです。有価証券報告書、IR資料、書籍、報道などを参照していますが、記載内容の正確性や適時性は保証されておらず、公式見解ではないことが明記されています。重要な判断には利用できない旨が免責事項として記載されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f7a2a4e7aed7",
+      "source": "hatena",
+      "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+      "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "score": 49,
+      "comments": 0,
+      "raw_description": "ホームプレスルームStudio 株式会社における不正アクセスによる個人情報の漏えいの可能性について Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について 公開日：2026年10月22日 今般、デジタル庁（デジタル改革関連法案準備室を含む。）がホームページ運営の一部にそのサービスを利用していたSt...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-23T09:27:04.727602+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50202217",
+      "source": "hackernews",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "score": 39,
+      "comments": 7,
+      "raw_description": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years. Chapter 01 : Introduction Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit . The standard defenses against cyberattacks are no longer sufficient: we need ways to prove that code is free of bugs. Formal software verification could provide this guarantee, but it has historically required years of expert effort, making it impractical for most real-world projects. In a collaboration with Theorem , however, we show this is no longer the case: LLMs can now produce formal proofs at large scale, enabling new software development workflows that include proven security guarantees. Using Claude, we proved security properties at the assembly code level (RISC-V) in over 100 real-world open-source software libraries. To our knowledge, this represents the first large-scale effort to use AI to apply formal verification to production software at the assembly code level. While writing the proofs, Claude also discovered bugs that had eluded detection for years, despite trillions of test runs . As model capabilities continue to improve, we expect formal verification to become an essent",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-23T09:27:05.361483+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_b07e000ddf8e",
+      "source": "hatena",
+      "title": "PHP欠陥でサイト止めた日本、止めなかった米国　脆弱性は8月に発見 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN22C6A0S6A021C2000000/",
+      "score": 38,
+      "comments": 0,
+      "raw_description": "【シリコンバレー=伴正春、ニューヨーク=西邨紘子】プログラム言語「PHP」で見つかった欠陥を受け、多くの日本企業がウェブサイトを一時停止した。一方、震源地の米国ではサイトを継続する企業が大半だった。先端技術を持つテック企業が政府と綿密に連携して対応した防衛体制の違いも大きい。クラウド最大手アマゾン、顧...",
+      "content_source": "feed",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "ウェブサイト",
+        "サイバーセキュリティ"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727544+09:00",
+      "summary": "PHPの脆弱性が発見された際、多くの日本企業がウェブサイトを一時停止したが、米国では継続した企業が多かった。これは、米国のテック企業が政府と連携して迅速に対応する体制が整っていることが背景にあると考えられる。この脆弱性は8月に発見されていた。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_35a076f9cb94",
+      "source": "hatena",
+      "title": "eMudhraの中間CA証明書の秘密鍵の危殆化についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/23/021328",
+      "score": 37,
+      "comments": 0,
+      "raw_description": "2026年10月18日、Mozillaは、認証局eMudhraの中間CA証明書の秘密鍵が危殆化したインシデントをBugzillaに起票し、10月20日に公開しました。ここでは関連する情報をまとめます。 危殆化したのは中間CA8件 eMudhra(emSignブランドの認証局)の中間CA証明書のうち、TLS用6件とコード署名用2件の秘密鍵が、公開鍵から誰でも求...",
+      "content_source": "feed",
+      "tags": [
+        "eMudhra",
+        "中間CA証明書",
+        "秘密鍵",
+        "脆弱性"
+      ],
+      "fetched_at": "2026-10-23T09:27:04.727485+09:00",
+      "summary": "認証局eMudhraの中間CA証明書8件（TLS用6件、コード署名用2件）の秘密鍵が、公開鍵から容易に推測可能であることが判明しました。この脆弱性は2026年10月18日にMozillaのBugzillaに報告され、10月20日に公開されました。このインシデントは、認証局の鍵管理の重要性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50202681",
+      "source": "hackernews",
+      "title": "Docker Is Weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "score": 13,
+      "comments": 1,
+      "raw_description": "Code and Cake Follow About me Docker is weird Oct 22, 2026 I decided to make my own container runtime for fun, and even though Iâm still early on, Iâve learned that Docker is weird . Hereâs some weird things I learned about Docker. Containers arenât real Unlike VMs, containers are just processes with special restrictions on them. Your kernel is still running that process! And if you know where to look, you can even find that process in /proc. Containers really arenât real Thereâs not really a linux feature thatâs just âcontainersâ either. Instead, containers are really 5 different linux kernel features in trenchcoat. Namespaces hide what the host and container can see, cgroups limit container resource usage, and thereâs a whole bunch of networking magic I donât understand that lets you isolate a containerâs network. Images are just folders Images are just folders that Docker puts somewhere and then calls chroot (or pivot_root ) to make that folder your container processâs new root directory. So if you run docker run -it --rm ubuntu /bin/bash , Docker is going to: Download the ubuntu image from Dockerhub. Put that image somewhere. Run /some/weird/docker/path/bin/bash Go is kind of a terrible language for a container runtime Dockerâs container runtime, runc , is written in Go, and Go has some design choices that make it less suited for a container runtime. Goâs runtime is natively multi-threaded. Thatâs a really cool feature, but it leads to some",
+      "content_source": "page",
+      "tags": [
+        "Docker",
+        "コンテナ",
+        "Linuxカーネル",
+        "Go言語"
+      ],
+      "fetched_at": "2026-10-23T09:27:06.103211+09:00",
+      "summary": "この記事では、Dockerのコンテナランタイムを自作する過程で発見した、Dockerの「奇妙さ」について解説しています。コンテナは独立した仮想環境ではなく、ホストOSのカーネル上で動作するプロセスに名前空間やcgroupsなどのLinuxカーネル機能で制限を加えたものであることが指摘されています。また、コンテナイメージは単なるフォルダであり、chrootやpivot_rootによってルートディレクトリとして扱われる仕組みが説明されています。さらに、DockerのコンテナランタイムであるruncがGo言語で書かれていることについて、Go言語の設計がコンテナランタイムには必ずしも最適ではない可能性についても触れられています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_d9329b649cc8",
+      "source": "reddit",
+      "title": "Debunking \"Faster than Rust\": Malicious Benchmarks in Tov",
+      "url": "https://www.reddit.com/r/programming/comments/1xcaveo/debunking_faster_than_rust_malicious_benchmarks/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "I have debunked (some of the) benchmarks of this new and suspicious \"Tov\" programming language. Slight background: My friend (who is pretty interested in new stuff generally) found this thing and sent its main site to me saying things like \"looks pretty cool\", but my intuition told me this sounds like \"a scam\", esp. when it claimed it performs faster than C and Rust. I personally think apart from changing the code, they probably tried to set up some specific environments that make their programs run faster than C / Rust, or maybe they just made up the numbers. Who knows. submitted by /u/madonuko [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Tov",
+        "ベンチマーク",
+        "Rust",
+        "プログラミング言語"
+      ],
+      "fetched_at": "2026-10-23T09:27:07.163252+09:00",
+      "summary": "新しいプログラミング言語「Tov」がRustよりも高速であると主張するベンチマークについて、その信憑性が疑問視されています。投稿者は、Tovのベンチマーク結果が操作されている可能性、または特定の環境下でのみ高速になるように設定されている可能性を指摘しています。これらの主張は、ベンチマークの信頼性に対する懸念を示唆しており、技術コミュニティにおける正確な性能評価の重要性を浮き彫りにしています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_6266683bbd0f",
+      "source": "reddit",
+      "title": "Coding Magic the Gathering in C# - PART TWO - The Impossible Magic Card",
+      "url": "https://www.reddit.com/r/programming/comments/1xcp40x/coding_magic_the_gathering_in_c_part_two_the/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/nickproud [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "C#",
+        "マジック：ザ・ギャザリング"
+      ],
+      "fetched_at": "2026-10-23T09:27:07.163563+09:00",
+      "summary": "C#でマジック：ザ・ギャザリングをコーディングするシリーズのパート2で、マジックカードの実装について説明しているようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_6b8f2d9358a7",
+      "source": "reddit",
+      "title": "Where did my freed memory (not) go?",
+      "url": "https://www.reddit.com/r/programming/comments/1xcwsc3/where_did_my_freed_memory_not_go/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/JameEnder [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "memory"
+      ],
+      "fetched_at": "2026-10-23T09:27:07.163860+09:00",
+      "summary": "解放されたメモリがどこへ行ったのか、あるいはどこへも行かなかったのかについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_abacf64b89ad",
+      "source": "reddit",
+      "title": "examining the macOS gcc binary",
+      "url": "https://www.reddit.com/r/programming/comments/1xcwe3o/examining_the_macos_gcc_binary/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/kiteska [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "macOS",
+        "gcc"
+      ],
+      "fetched_at": "2026-10-23T09:27:07.164119+09:00",
+      "summary": "macOS上のgccバイナリについて調査している記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
