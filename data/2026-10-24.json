@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T09:22:08.092344+09:00",
+  "articles": [
+    {
+      "id": "hn_50202285",
+      "source": "hackernews",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "score": 1209,
+      "comments": 223,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Wikipedia",
+        "Local"
+      ],
+      "fetched_at": "2026-10-24T09:21:58.623643+09:00",
+      "summary": "自宅から徒歩30分圏内の情報に限定した、ローカル版Wikipediaについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50211474",
+      "source": "hackernews",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "score": 718,
+      "comments": 468,
+      "raw_description": "Today, we hacked what we'd set out to hack: the iPhone. iPhone Today, we hacked what we'd set out to hack: the iPhone. Oct 16, 2026 28 5 4 Share Below is a series of demos we revealed at Hexacon in Paris today. Everything will be released in due time. 1/ Signal 1-click 2/ But who cares about a third-party app when everyone uses iMessage, right? 3/ Can your iPhone do this? 4/ APT stands for Apple Persistent Threat 28 5 4 Share",
+      "content_source": "page",
+      "tags": [
+        "iPhone",
+        "脆弱性",
+        "セキュリティ",
+        "Hexacon"
+      ],
+      "fetched_at": "2026-10-24T09:21:58.071573+09:00",
+      "summary": "セキュリティ研究者グループが、iPhoneに対する複数の脆弱性を発見し、それを悪用するデモンストレーションをHexaconで公開しました。具体的には、iMessageを介した攻撃や、Apple Persistent Threat（APT）と名付けられた永続的な攻撃手法などが含まれています。これらの脆弱性は、iPhoneのセキュリティに対する新たな懸念を示唆しており、今後の対応が注目されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50212065",
+      "source": "hackernews",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "score": 672,
+      "comments": 428,
+      "raw_description": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai",
+      "content_source": "hn_text",
+      "tags": [
+        "大規模言語モデル",
+        "Kimi",
+        "AI",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.506467+09:00",
+      "summary": "Kimiは、大規模言語モデル（LLM）K3.1 ProとK3.1 Pro Highspeedを発表しました。これらのモデルは、長いコンテキストウィンドウと高速な推論能力を特徴としており、複雑なタスクや大量のデータ処理に適しています。Kimiは、オープンソースコミュニティへの貢献を通じて、AI技術の発展を目指しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50207910",
+      "source": "hackernews",
+      "title": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "score": 528,
+      "comments": 180,
+      "raw_description": "https://www.macrumors.com/2026/10/23/apple-music-has-a-hidde...",
+      "content_source": "hn_text",
+      "tags": [
+        "Apple Music"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.693914+09:00",
+      "summary": "Apple Musicで「404 Not Found」エラーが発生した、またはそのエラーに関する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_4b33eff0c425",
+      "source": "hatena",
+      "title": "パナソニックHD、利用禁止の生成AIに従業員らの情報送出　33万人分 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
+      "score": 248,
+      "comments": 0,
+      "raw_description": "パナソニックホールディングス（HD）は23日、社内で利用が禁止されている外部の生成AI（人工知能）サービスに同社グループの従業員やその家族らの個人情報約33万人分が送出されたと発表した。不正アクセスではなく、特定の従業員が社内ルールに反し情報を生成AIにアップロードしたことによるものだという。子会社と人事...",
+      "content_source": "feed",
+      "tags": [
+        "生成AI",
+        "情報漏洩",
+        "個人情報",
+        "パナソニックHD"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.265003+09:00",
+      "summary": "パナソニックHDは、社内利用が禁止されている外部の生成AIサービスに、従業員やその家族ら約33万人分の個人情報が送出されたことを発表しました。これは不正アクセスではなく、従業員が社内ルールに違反して情報をアップロードしたことが原因です。この事案は、情報管理体制や従業員教育の重要性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50169499",
+      "source": "hackernews",
+      "title": "The Real Kevin Bacon",
+      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "score": 225,
+      "comments": 65,
+      "raw_description": "Demystifying the Six Degrees of Kevin Bacon: the past, present, and future centers of Hollywood The Real Kevin Bacon Robert De Niro : one movie away from Kevin Bacon. Cillian Murphy : two movies away from Kevin Bacon. Ryan Gosling : one movie away from Kevin Bacon. Tom Hanks : one movie away from Kevin Bacon. Benedict Cumberbatch : one movie away from Kevin Bacon. Meryl Streep : one movie away from Kevin Bacon. TimothÃ©e Chalamet : two movies away from Kevin Bacon. Saoirse Ronan : two movies away from Kevin Bacon. Anya Taylor-Joy : two movies away from Kevin Bacon. Jessie Buckley : two movies away from Kevin Bacon. Austin Butler : two movies away from Kevin Bacon. Margot Robbie : two movies away from Kevin Bacon. Emma Stone : one movie away from Kevin Bacon. Zendaya : two movies away from Kevin Bacon. The âSix Degrees of Kevin Baconâ is a game where players try to connect any actor to Kevin Bacon in fewer than six steps, where each step links two actors who co-starred in a film. The conventional wisdom is that Kevin Bacon is the all-encompassing center of Hollywood, so prolific that the game is a lot easier than if it were called the âSix Degrees of John Doe.â For example, Kevin Baconâs remoteness is 2.28: so an actor is, on average, 2.28 degrees from Kevin Bacon. But 2.28 degrees is not the best remoteness score. Kevin Bacon ranks 175th among all Hollywood actors. Can you guess whoâs #1? Skip Philip Seymour Hoffman ranks #250. Keep goingâ¦ Samuel L. Jackson is t",
+      "content_source": "page",
+      "tags": [
+        "ケビン・ベーコン",
+        "ハリウッド",
+        "ゲーム",
+        "俳優"
+      ],
+      "fetched_at": "2026-10-24T09:21:58.807199+09:00",
+      "summary": "「シックス・ディグリーズ・オブ・ケビン・ベーコン」は、俳優をケビン・ベーコンに6ステップ以内で繋げるゲームです。ケビン・ベーコンがハリウッドの中心であるという通説がありますが、実際には平均2.28度であり、これは全俳優の中で175位に過ぎません。より中心に近い俳優も存在し、このゲームの面白さはケビン・ベーコンの広範な繋がりにあることが示唆されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_5dae9fee9a78",
+      "source": "hatena",
+      "title": "PHP2Shellへの対応を振り返って - コドモン Product Team Blog",
+      "url": "https://tech.codmon.com/entry/2026/10/23/173909",
+      "score": 203,
+      "comments": 0,
+      "raw_description": "はじめに コドモンでプロダクト開発部長を務めております、松浦です。 2026年10月21日、PHPの脆弱性（通称「PHP2Shell」）への対策として、コドモンのサービスを日中に一時停止しました。 施設の先生方、保護者の皆さま、自治体や販売代理店の皆さまには、十分な事前のご案内ができないまま、長い時間にわたりご不便をお...",
+      "content_source": "feed",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "セキュリティ",
+        "サービス停止"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.265211+09:00",
+      "summary": "コドモンは、2026年10月21日に発生したPHPの脆弱性「PHP2Shell」への対策のため、サービスを日中に一時停止した。この対応により、施設の先生方、保護者、自治体、販売代理店に一時的な不便をかけたが、セキュリティリスクへの迅速な対応を優先した。具体的な脆弱性の詳細や影響範囲については本文に記載がないため、対策の必要性とその実施による一時停止という事実のみを要約する。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50213925",
+      "source": "hackernews",
+      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "url": "https://block.xyz/dessa",
+      "score": 194,
+      "comments": 85,
+      "raw_description": "You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model. You learned to talk by listening. So did Join the waitlist We believe voice is the most natural way to interact with intelligence, so we created Dessa, the most authentic full-duplex speech model ever built. Talking with it feels like talking with a person…full of emotion, nuance, pauses, and a natural cadence. Interacting with current voice AI can just plain suck. It turns your voice into text and throws away an incredible amount of information text alone can’t carry. The most powerful AIs in the world can’t hear how you feel. We think that’s ridiculous, leads to a worse experience, and is potentially dangerous. We trained Dessa from scratch on nothing but human conversation. Sounds! No text, no pretrained models. It learned to hold a real-time conversation simply by listening. As far as we know, Dessa is the world’s first AI you can have a realistic live conversation with that was trained only from human speech. Dessa advances the frontier of deep learning models and creates a different category with entirely new and interesting behaviors for researchers to discover. How efficiently do they learn language and facts compared to text? How efficiently can they learn new languages? What sorts of In-context learning can they perform? Let me listen… Every clip below is a live recording of a person talking to Dessa. Nobody steers it. Dessa picks what to say, when to say it and how, do",
+      "content_source": "page",
+      "tags": [
+        "音声AI",
+        "深層学習",
+        "自然言語処理",
+        "双方向会話"
+      ],
+      "fetched_at": "2026-10-24T09:21:58.259074+09:00",
+      "summary": "Dessaは、人間の会話音声のみでゼロから学習された、初のリアルな双方向会話が可能なAIモデルです。従来の音声AIが音声をテキスト化する際に失われていた感情やニュアンスといった情報を保持し、人間のような自然な会話体験を提供します。このモデルは、音声データのみからの言語学習効率や多言語習得能力など、深層学習の新たな可能性を探求する上で重要な進歩を示しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_121ccbf8d17e",
+      "source": "hatena",
+      "title": "「Mermaid」図を描けるMarkdownエディター「MerMark Editor」が日本語化／有志の貢献により、v0.8.1から",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2150751.html",
+      "score": 131,
+      "comments": 0,
+      "raw_description": "「Mermaid」図を扱えるMarkdownエディター「MerMark Editor」で、日本語がサポートされた。セットアップでは英語とポーランド語しか選べないが、設定画面の言語設定を切り替えればユーザーインターフェイスを日本語化することが可能だ。 ニュース 「Mermaid」図を描けるMarkdownエディター「MerMark Editor」が日本語化 有志の貢献により、v0.8.1から 樽井 秀人 2026年10月23日 15:32 「MerMark Editor」v0.8.1。設定画面の［外観］タブにある［言語］で［日本語］を選べるように 「Mermaid」図を扱えるMarkdownエディター「MerMark Editor」で、日本語がサポートされた。セットアップでは英語とポーランド語しか選べないが、設定画面の言語設定を切り替えればユーザーインターフェイスを日本語化することが可能だ。 コードとプレビューを並べて表示 「MerMark Editor」は、Markdownのシンプルさと「Mermaid」ダイアグラムの表現力を組み合わせたデスクトップアプリ。 クロスプラットフォーム対応のアプリフレームワーク「Tauri」 で構築されており、ネイティブで軽量・高速に動作するのが魅力だ。そのほかにも以下の特徴を備える。 クラウド依存なし ：ドキュメントはローカルに保存される WYSIWYG編集 ：書式が反映された画面で、ドキュメントを直接編集できる 「Marp」プレゼンテーション ： Markdown記法で手軽にスライドを作成できる「Marp」 をサポート。ライブプレビューと全画面のプレゼンテーションモードを備える マルチルートワークスペース ：1つのワークスペースに複数のフォルダーを開いて管理できる AIアシスタント ：「Claude Code」「Codex」のCLIや、ローカルモデルを動かす「Ollama」などと連携し、文章や「Mermaid」図の作成・編集を支援。「Ollama」を使えばオフラインでも利用できる クロスプラットフォーム ：Windows、macOS、Linuxで利用可能 AIアシスタントに「Mermaid」図の編集を依頼しているところ 「MerMark Editor」で日本語がサポートされたのは、10月12日に公開されたv0.8.1からだ。その経緯については、プルリクエストの作成者が 技術情報共有サービス「Zenn」の記事 にまとめている。興味があればぜひご一読を。 「MerMark Editor」は「GitHub」でホストされているオープンソースプロジェクトで、ライセンスは「MIT」。 リリースページ から無償でダウンロードできる。 コード署名がないため、ダウンロードの際やアプリの初回起動時に警告が表示される場合がある点には注意。 Amazonで購入 「Markdown」関連商品 Amazonで購入 ソフトウェア情報 「MerMark Editor」 【著作権者】 Vesperino 氏 【対応OS】 64bit版のWindows 10以降/Mac/Linux 【ソフト種別】 フリーソフト 【バージョン】 0.8.1（26/10/12）",
+      "content_source": "page",
+      "tags": [
+        "MerMark Editor",
+        "Mermaid",
+        "Markdown",
+        "日本語化"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.265084+09:00",
+      "summary": "Markdownエディター「MerMark Editor」v0.8.1で日本語インターフェイスがサポートされました。このエディターはMermaid図の描画機能とMarkdown編集機能を統合し、Tauriフレームワークにより軽量かつ高速に動作します。ローカル保存、WYSIWYG編集、Marpプレゼンテーション、AIアシスタント連携などの機能を持ち、クロスプラットフォームで利用可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50215530",
+      "source": "hackernews",
+      "title": "CVE Tracker",
+      "url": "https://cve.0xosprey.com/",
+      "score": 76,
+      "comments": 22,
+      "raw_description": "Live count of published CVE records, rebuilt daily from the official CVE list. CVE Tracker Loadingâ¦ Resolution Day Week Month Year Range 30D 1Y 5Y 10Y All View Count Cumulative Models Dates Published Reserved Mode NSA 0-Days Shigure Log Scale Download CSV Copy PNG Last 90 days, daily",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-24T09:21:57.879687+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_5b8624e2857d",
+      "source": "hatena",
+      "title": "PHPの緊急脆弱性「php2shell」で攻撃されていないか？サーバーに残る3つの痕跡と確認方法 - インフラ学習サイト「InfraAcademy」",
+      "url": "https://engineer-ninaritai.com/php2shell-attack-detection/",
+      "score": 56,
+      "comments": 0,
+      "raw_description": "こんにちは、インフラエンジニアのryuです。 前回の記事「PHPの緊急脆弱性「php2shell」とは？」では、2026年10月21日に公開されたPHPの脆弱性の仕組みと、アップデートの進め方を解説しました。 今回はその続きです。 アップデートを終えたあとに、多くの人が気になるのが「すでに攻撃されていないか？」という点だと思...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-24T09:21:57.264815+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_0964b6d0a284",
+      "source": "hatena",
+      "title": "PHP脆弱性、利用サイトの半分が修正困難　バージョン古くサポート終了 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC236ST0T21C26A0000000/",
+      "score": 28,
+      "comments": 0,
+      "raw_description": "プログラム言語「PHP」に深刻な脆弱性が発覚した問題で、利用サイトの半数では運営団体の公表した修正作業が難しいことが分かった。長期間更新されていない「休眠サイト」も多数含まれるとみられ、閉鎖が急務となっている。デロイトトーマツサイバーがウェブ技術の調査サービス「W3Techs.com」の統計をもとに推計した。...",
+      "content_source": "feed",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "ウェブサイト",
+        "セキュリティ"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.264932+09:00",
+      "summary": "PHPに深刻な脆弱性が発見されましたが、利用サイトの半数では運営団体の公表した修正作業が困難であることがデロイトトーマツサイバーの推計で明らかになりました。これは、長期間更新されていない休眠サイトが多く含まれるためと考えられ、これらのサイトの閉鎖が急務となっています。PHPの脆弱性対応には、サイトのバージョン管理と定期的な更新が不可欠であることを示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_62b02e1afc6a",
+      "source": "hatena",
+      "title": "マイクロソフトによる「シェーダーコンパイル要らず」の新技術、ついにNVIDIAグラボ向けに解禁。ゲーム起動時の“あの待ち時間”とおさらば - AUTOMATON",
+      "url": "https://automaton-media.com/articles/newsjp/20261023-475245/",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "マイクロソフトによる「シェーダーコンパイル要らず」の新技術、ついにNVIDIAグラボ向けに解禁。ゲーム起動時の“あの待ち時間”とおさらば Microsoftは10月21日、同社が提供するシェーダー配信技術「Advanced Shader Delivery」の対応ハードウェアを拡大したことを発表した。 Microsoftは10月21日、同社が提供するシェー...",
+      "content_source": "feed",
+      "tags": [
+        "マイクロソフト",
+        "Advanced Shader Delivery",
+        "シェーダーコンパイル",
+        "NVIDIA"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.265272+09:00",
+      "summary": "マイクロソフトは、ゲーム起動時のシェーダーコンパイル待ち時間を解消する技術「Advanced Shader Delivery」の対応ハードウェアをNVIDIAグラフィックボードにまで拡大した。これにより、NVIDIA製GPUユーザーもこの技術の恩恵を受けられるようになり、ゲーム体験の向上に繋がる。この技術は、ゲーム開発者が事前にシェーダーを最適化し、ユーザーに配信することで、実行時のコンパイル負荷を軽減する。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_341f11e78b12",
+      "source": "hatena",
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction",
+      "score": 21,
+      "comments": 0,
+      "raw_description": "Chris Rohlf Over the past year, we’ve published lots of data that shows that frontier AI models are more than capable of discovering and exploiting security vulnerabilities. Showing how previously unknown vulnerabilities might be exploited is, however, only the start of what frontier AI models ca...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "セキュリティ",
+        "脆弱性",
+        "コード"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.265074+09:00",
+      "summary": "AnthropicのClaudeは、コードの攻撃対象領域を削減するために活用できる。AIモデルは未知の脆弱性を発見・悪用する能力を持つことが示されており、Claudeはその能力をセキュリティ強化に応用できる。これにより、開発者はより安全なコードを作成するための支援を受けられる可能性がある。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50216791",
+      "source": "hackernews",
+      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "score": 17,
+      "comments": 4,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "http2shell",
+        "RCE"
+      ],
+      "fetched_at": "2026-10-24T09:21:58.440928+09:00",
+      "summary": "http2shellという脆弱性が、nodeやPythonなどの環境でリモートコード実行（RCE）を可能にする問題についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_2c8880bd01a4",
+      "source": "hatena",
+      "title": "ドイツ・ミュンヘン市が再びオープンソースに移行--「Linux」デスクトップを含まず",
+      "url": "https://japan.zdnet.com/article/35253683/",
+      "score": 15,
+      "comments": 0,
+      "raw_description": "チェコのプラハで開催された「Open Source Summit Europe」の基調講演において、ドイツのミュンヘン市の最高デジタル責任者を務めるLaura Dornheim博士は、同市が10年以上前に政治的な理由から「LiMux」と呼ばれる「Linux」デスクトップの導入を放棄して「Windows」に移行したものの、現在は再びオープンソースソフトウ...",
+      "content_source": "feed",
+      "tags": [
+        "オープンソース",
+        "ミュンヘン市",
+        "Linux",
+        "LiMux"
+      ],
+      "fetched_at": "2026-10-24T09:21:57.265150+09:00",
+      "summary": "ドイツ・ミュンヘン市は、約10年前にWindowsへ移行したLinuxデスクトップ「LiMux」の導入を政治的理由で断念しましたが、再びオープンソースソフトウェアへの移行を進めています。この動きは、ITインフラにおけるオープンソースの採用が、コスト削減やベンダーロックイン回避といった戦略的な選択肢として再評価されていることを示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_0129070a0fc5",
+      "source": "reddit",
+      "title": "eMudhra's Press Release on the CA Compromise",
+      "url": "https://www.reddit.com/r/programming/comments/1xd9rwe/emudhras_press_release_on_the_ca_compromise/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/random8847 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "eMudhra",
+        "CA"
+      ],
+      "fetched_at": "2026-10-24T09:21:59.168403+09:00",
+      "summary": "eMudhraがCAの侵害に関するプレスリリースを発表したようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_32c296d852b5",
+      "source": "reddit",
+      "title": "How close can pure FP get to C?",
+      "url": "https://www.reddit.com/r/programming/comments/1xdjru9/how_close_can_pure_fp_get_to_c/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Roc can achieve excellent performance as a pure FP language, I think people will enjoy reading this post which looks at a pure Roc implementation of libdeflate. submitted by /u/bosyluke [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Roc",
+        "関数型言語",
+        "パフォーマンス",
+        "libdeflate"
+      ],
+      "fetched_at": "2026-10-24T09:21:59.168821+09:00",
+      "summary": "Rocは純粋な関数型言語でありながら、libdeflateの純粋Roc実装を通じて、C言語に匹敵する優れたパフォーマンスを達成できる可能性を示しています。この成果は、関数型言語のパフォーマンスに対する一般的な認識を変える可能性があり、技術者にとって興味深い内容です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_d0fb49bb05be",
+      "source": "reddit",
+      "title": "Code and Cake - Docker is weird",
+      "url": "https://www.reddit.com/r/programming/comments/1xdef0p/code_and_cake_docker_is_weird/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Xaneris47 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Docker"
+      ],
+      "fetched_at": "2026-10-24T09:21:59.169085+09:00",
+      "summary": "Dockerに関する記事のようです。Dockerの奇妙な点について解説していると思われます。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_aea4de8fb4a1",
+      "source": "reddit",
+      "title": "How to Make Things, and Why - Stuart Halloway (Clojure/Conj 2026)",
+      "url": "https://www.reddit.com/r/programming/comments/1xdh3hh/how_to_make_things_and_why_stuart_halloway/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/alexdmiller [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Clojure",
+        "Conj"
+      ],
+      "fetched_at": "2026-10-24T09:21:59.169354+09:00",
+      "summary": "Clojure/Conj 2026カンファレンスでのStuart Halloway氏による講演のタイトルです。物事の作り方とその理由について語られる内容であることが示唆されています。",
+      "summary_basis": "title"
+    }
+  ]
+}
