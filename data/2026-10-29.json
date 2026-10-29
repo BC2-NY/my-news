@@ -1,0 +1,375 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T10:38:22.862191+09:00",
+  "articles": [
+    {
+      "id": "hn_50276998",
+      "source": "hackernews",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "score": 846,
+      "comments": 185,
+      "raw_description": "Why Is This Fingerprinting Script Creating Bioweapons? Wed Oct 28 2026 authored by veritas Preamble I've always had a fascination with reverse-engineering browser fingerprinting scripts. Most of my time has been spent looking at the usual suspects (popular fingerprinting libraries like FingerprintJS and more sophisticated scripts used by anti-bots like Cloudflare Turnstile, Akamai, and others). At some point, I wanted to know what else was out there. I had an idea: What if I crawled the web and intercepted fingerprinting-related browser API calls and mapped it all? To do this, I used the Tranco Top Sites list and began crawling using Playwright. I would hook canvas toDataURL calls and common fingerprinting/anti-bot properties like navigator.webdriver to filter out benign canvases. For those unfamiliar, canvas fingerprinting generally involves drawing text, shapes, or other graphics onto an HTML <canvas> and extracting the resulting pixel data. Subtle differences in how browsers, operating systems, graphics drivers, and hardware render those graphics can help distinguish one browser environment from another. Most implementations are pretty boring to look at. A few shapes, some colored rectangles, and the occasional pangram. After crawling 10,000 websites, I had accumulated a surprisingly diverse collection of canvases. I decided to put them all in one place: fingerprint.garden . As I looked through the results, I recognized some familiar faces. There were canvases from Fingerp",
+      "content_source": "page",
+      "tags": [
+        "ブラウザフィンガープリンティング",
+        "canvas",
+        "API",
+        "ウェブクロール"
+      ],
+      "fetched_at": "2026-10-29T10:38:11.191925+09:00",
+      "summary": "ブラウザフィンガープリンティングスクリプトの逆アセンブルに興味を持った著者が、ウェブをクロールしてフィンガープリンティング関連のブラウザAPIコールを傍受し、その結果をマッピングした。特にcanvasのtoDataURL呼び出しやnavigator.webdriverといったプロパティをフックし、10,000サイトから多様なcanvasのコレクションを収集してfingerprint.gardenで公開している。canvasフィンガープリンティングは、ブラウザ、OS、グラフィックドライバー、ハードウェアのレンダリングにおける微妙な違いを利用してブラウザ環境を識別する技術である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50274409",
+      "source": "hackernews",
+      "title": "CNC Stone Carving",
+      "url": "https://carmelitegothic.com/cnc-stone-carving/",
+      "score": 400,
+      "comments": 118,
+      "raw_description": "CNC Stone Carving In a form of architecture so ancient, CNC machines may seem a little out of place. However, when one considers that the medieval builders were always on the forefront of the technology of their day, it no longer seems so strange. To build Gothic today, it must become a reality, not a […] CNC Stone Carving Home » CNC Stone Carving CNC Stone Carving In a form of architecture so ancient, CNC machines may seem a little out of place. However, when one considers that the medieval builders were always on the forefront of the technology of their day, it no longer seems so strange. To build Gothic today, it must become a reality, not a romantic idea locked up forever in one’s head. (The Carmelite Monks spend their allotted work time on construction. See their Horarium here.) CNC carving of a Gothic pinnacle by the Carmelite Monks CNC machines and robots have unlocked the ability to relatively quickly carve the intense details of a Gothic church. Ornate pieces that used to take months for a skilled carver, now can be accomplished in a matter of days. Instead of cutting out the beauty, using the excuse that it takes too long, thus doesn’t fit into the budget, modern technology can be used to make true Gothic in all its beauty a reality again today. The use of modern technologies in stone carving unlock the potential of modern youth. Though they may be untrained in the use of a hammer and chisel, young men and women have grown up in a world of computers. The skills they",
+      "content_source": "page",
+      "tags": [
+        "CNC",
+        "石材加工",
+        "建築",
+        "ゴシック建築"
+      ],
+      "fetched_at": "2026-10-29T10:38:12.284017+09:00",
+      "summary": "CNC（コンピュータ数値制御）マシンが、ゴシック建築のような伝統的な分野で活用されている。かつて熟練した職人が数ヶ月かけていた複雑な石材彫刻を、数日で完了できるようになり、コストと時間の制約から実現が難しかった装飾的な建築を現代に蘇らせる可能性を示している。この技術は、コンピュータに慣れ親しんだ若い世代が、伝統的な建築技術に携わる新たな道を開く。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_e5220934bd6d",
+      "source": "hatena",
+      "title": "MarkdownからきれいなPDFを作るCLIツールpfpdfを公開しました｜株式会社Preferred Networks",
+      "url": "https://www.preferred.jp/ja/blog/tech/1798",
+      "score": 383,
+      "comments": 0,
+      "raw_description": "皆さん、こんにちは。エンジニアのいもす (@imos) です。 文書はMarkdownで管理はしたいけど、Markdownは他の人に読んでもらうにはイマイチ使いにくい。そう思ったことはありませんか？ 昨今LLMやコーディングエージェントが大きく進化し文書を気軽に書けるようになり、Google DocsやWordで文章を書くよりもMarkdownで書...",
+      "content_source": "feed",
+      "tags": [
+        "Markdown",
+        "PDF",
+        "CLIツール",
+        "pfpdf"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.650031+09:00",
+      "summary": "Preferred Networksは、Markdownファイルを高品質なPDFに変換するCLIツール「pfpdf」を公開しました。Markdownは技術文書の作成に適していますが、共有や印刷にはPDFが望ましいため、このツールはMarkdownで作成された文書を、より広く共有・利用可能なPDF形式に変換するニーズに応えます。これにより、技術文書の作成から共有までのワークフローが効率化されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_ad52cf62f105",
+      "source": "hatena",
+      "title": "pfpdf — Markdown から、印刷品質の PDF へ",
+      "url": "https://pfpdf.preferred.tech/ja/",
+      "score": 253,
+      "comments": 0,
+      "raw_description": "GFM Markdown表・タスクリスト・取り消し線・自動リンク・ネストしたリストなど、GitHub 標準の記法がそのまま使えます。 日本語対応の強調処理`これは**「重要」**です` のように全角記号に隣接した強調も正しく変換されます。 数式とコードハイライトインライン・ディスプレイ数式とコードブロックのハイライトを同梱...",
+      "content_source": "feed",
+      "tags": [
+        "Markdown",
+        "PDF生成",
+        "日本語対応",
+        "技術文書"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649682+09:00",
+      "summary": "pfpdfは、GFM Markdownの標準記法（表、タスクリスト、取り消し線、自動リンク、ネストしたリストなど）をサポートし、印刷品質のPDFを生成するツールです。特に、全角記号に隣接した強調表現を含む日本語のMarkdownにも対応しており、数式やコードブロックのハイライト機能も備えています。これにより、技術文書やレポートなどをMarkdownで記述し、高品質なPDFとして出力することが容易になります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_b55d4d053a74",
+      "source": "hatena",
+      "title": "AI時代のシニアエンジニアとは",
+      "url": "https://speakerdeck.com/yosuke_furukawa/ai-jidai-no-shinia-enjinia-toha",
+      "score": 94,
+      "comments": 0,
+      "raw_description": "10/27 ModN Tech Lounge で発表した「AI時代のシニアエンジニアとは」という発表です。 Upgrade to Pro — share decks privately, control downloads, hide ads and more … AI時代のシニアエンジニアとは Yosuke Furukawa PRO October 28, 2026 Programming 3k 5 Share Embed Copy iframe code Copy JS code Copy link Start on current slide AI時代のシニアエンジニアとは 10/27 ModN Tech Lounge で発表した「AI時代のシニアエンジニアとは」という発表です。 Yosuke Furukawa PRO October 28, 2026 More Decks by Yosuke Furukawa See All by Yosuke Furukawa AIがコードを書いてくれる時代、我々は何を確かめるのか yosuke_furukawa PRO 11 3.4k Webの地図 yosuke_furukawa PRO 6 5.2k XHTMLが残したもの yosuke_furukawa PRO 2 960 jsmini JavaScript Engine を作ってみた話 yosuke_furukawa PRO 0 450 デザインシステムが必須の時代に yosuke_furukawa PRO 2 330 Node.js, Deno, Bun 最新動向とその所感について yosuke_furukawa PRO 10 5.4k Welcome JSConf.jp 2024 yosuke_furukawa PRO 1 4.9k tc39 x jsconf.jp Panel Discussion 2024 yosuke_furukawa PRO 0 390 Removing Corepack yosuke_furukawa PRO 9 2k Other Decks in Programming See All in Programming [2026-10-14](C)Re:ゼロから始める異世界生活〜始まりの終わりと終わりの始まり〜 tosite 0 160 複雑なUIコンポーネントとの ⻑い付き合い⽅：波及するバグからテスト戦略を経て、安全な再設計へ mixplace 0 460 GemmaをJevのように使ってみる / Use Gemma like Jev kishida 5 840 オーケストレーション記述言語 Katari yukikurage 0 200 우리의 Nitro Modules는 당신의 Turbo Modules보다 아름답다 l2hyunwoo 0 220 コードで差別化できない時代の ソフトウェアエンジニアリング / Software Engineering in an Era Where Code Doesn’t Differentiate kishida 2 200 Web Framework Benchmark Battle 2026, Any% a_matsuda 3 2.9k [JA] Domain Modeling with Vanilla Rails: 「操作」から再考するRailsの設計論 yasaichi 4 940 JIS keyboard support in Omarchy lef237",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "シニアエンジニア",
+        "ソフトウェアエンジニアリング",
+        "キャリア"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649491+09:00",
+      "summary": "AIがコード生成を担う時代において、シニアエンジニアの役割が変化していることを論じた発表の概要です。AIによるコード生成が進む中で、エンジニアは生成されたコードの妥当性検証や、より高度な問題解決、アーキテクチャ設計などに注力する必要性が示唆されています。これは、技術進化に対応し、エンジニアとしての価値を維持・向上させる上で重要です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50280974",
+      "source": "hackernews",
+      "title": "A Health Update",
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "score": 92,
+      "comments": 8,
+      "raw_description": "I’m writing this post from a hospital bed. And I couldn’t be happier. You hear folks say chemotherapy sucks, but until you go through it yourself, you don’t really know how bad it can be. It remains a popular activity only because it’s better than the alternative. My first exposure to chemotherapy was with this […] A Health Update I’m writing this post from a hospital bed. And I couldn’t be happier. You hear folks say chemotherapy sucks, but until you go through it yourself, you don’t really know how bad it can be. It remains a popular activity only because it’s better than the alternative. My first exposure to chemotherapy was with this contraption: a fluoroscope. Lovely to look at, less lovely to lie on. Every week, they used this machine to tap into my spine, extract 5 mg of fluid for analysis, and replace it with 5 mg of methotrexate . There was only a local anesthetic during the procedure and the hardest part was knowing that there was a needle, turned up to eleven, going into my back. It was afterwards that things got dicey: the nerves in your spine float in a thecal sac filled with spinal fluid that acts as a kind of insulator. Since we were exchanging the fluids, it was easy for the levels to get out of balance and for the nerves to react. The result were the worst headaches I’ve ever experienced. The good news is that the remedy was simple: to lie flat on my back to ease the pressure gravity was putting on my spine. That was also the bad news: many days were spent ly",
+      "content_source": "page",
+      "tags": [
+        "化学療法",
+        "医療技術",
+        "副作用",
+        "治療体験"
+      ],
+      "fetched_at": "2026-10-29T10:38:12.103945+09:00",
+      "summary": "筆者は化学療法を受けている状況を報告している。過去の治療法として、脊髄から髄液を採取しメトトレキサートを注入する処置について説明している。この処置では局所麻酔のみで、処置後に激しい頭痛を引き起こす可能性があったが、仰向けに寝ることで軽減できたという。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50282544",
+      "source": "hackernews",
+      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "score": 69,
+      "comments": 20,
+      "raw_description": "Alpine Linux Small. Simple. Secure. Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox. 2026-10-28 GitLab security incident: attempted exploitation of CVE-2026-97229 On October 20 and 21, an attacker tried to exploit a GitLab vulnerability (CVE-2026-97229) on our instance, a week after the fix was released. The attack came close to working. We have found no evidence that it succeeded, but we cannot rule it out, so we treated the instance as compromised and rebuilt it from scratch. Our checks show that the aports repository, packages, and the October 21 releases were not tampered with. GitLab is being tested before we open it to the public again. All passwords have been reset, so when it is back you will need to set a new one with “Forgot your password?” on the sign-in page. We will post exactly what you need to do when it reopens. In the meantime: if you used the same password for your gitlab.alpinelinux.org account anywhere else, change it there. We have seen automated login attempts against our GitLab with passwords leaked from other sites. If you have questions or concerns please reach out to us at infra@alpinelinux.org. What happened The vulnerability: CVE-2026-97229 is a critical (CVSS 10.0) vulnerability in how GitLab evaluates regular expressions in CI configuration. The underlying bug is in Onigmo, the regular expression engine built into Ruby. GitLab published fixed releases on October 12 , but the fix itself is a set o",
+      "content_source": "page",
+      "tags": [
+        "GitLab",
+        "脆弱性",
+        "サイバー攻撃",
+        "CVE-2026-97229"
+      ],
+      "fetched_at": "2026-10-29T10:38:11.558049+09:00",
+      "summary": "Alpine LinuxのGitLabインスタンスが、修正リリースから1週間後にCVE-2026-97229（GitLabのCI設定における正規表現評価の脆弱性、CVSS 10.0）を悪用しようとする攻撃を受けました。攻撃は成功寸前でしたが、成功した証拠は見つかっていません。しかし、念のためインスタンスは侵害されたとみなし、ゼロから再構築されました。aportsリポジトリやパッケージ、リリースには改ざんは確認されていません。パスワードはリセットされ、再開時には再設定が必要です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_22df392e76af",
+      "source": "hatena",
+      "title": "Apple、初のタッチ対応「MacBook Pro」発表　新型OLED搭載、国内価格は49万9800円から",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002689/",
+      "score": 68,
+      "comments": 0,
+      "raw_description": "米Appleは10月28日（現地時間）、Macとして初めてタッチ操作に対応した新型「MacBook Pro」を発表した。新開発の「PROLED XDRディスプレイ」を搭載し、14インチと16インチの2モデルを用意する。日本では29日から予約を受け付け、11月6日に発売する。価格は14インチモデルが49万9800円から、16インチモデルが59万9800円か...",
+      "content_source": "feed",
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "タッチ対応",
+        "PROLED XDRディスプレイ"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649603+09:00",
+      "summary": "Appleは、Macとして初めてタッチ操作に対応した新型MacBook Proを発表しました。新開発の「PROLED XDRディスプレイ」を搭載し、14インチと16インチの2モデルが用意されます。この新型モデルは、従来のMacBook Proのプロフェッショナル向け性能に加え、タッチ操作による新たなユーザーエクスペリエンスを提供します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_185e559c77b9",
+      "source": "hatena",
+      "title": "Gemini 4 Carbon: our next frontier model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "score": 58,
+      "comments": 0,
+      "raw_description": "Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security...",
+      "content_source": "feed",
+      "tags": [
+        "Gemini 4 Carbon",
+        "Google DeepMind",
+        "基盤モデル",
+        "AI"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649843+09:00",
+      "summary": "Google DeepMindは次世代の基盤モデル「Gemini 4 Carbon」を発表しました。このモデルは、GoogleのAI研究開発における新たなフロンティアを目指すもので、Geminiファミリーの進化形として位置づけられています。詳細な技術仕様や性能については今後の発表が待たれますが、AIモデルのさらなる能力向上と応用範囲の拡大が期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_d3780cb11601",
+      "source": "hatena",
+      "title": "もしあなたの免許証画像が漏洩したら？ 対処法をIPAが公開　相次ぐ不正アクセス受け",
+      "url": "https://japan.cnet.com/article/35254062/",
+      "score": 50,
+      "comments": 0,
+      "raw_description": "情報処理推進機構（IPA）は10月26日、個人情報の漏えいを知らせる連絡を受けた人に向けて、対処法を公開した。漏れた情報がID・パスワードなのか、クレジットカード情報なのかなどを確認したうえで、情報の種類に応じた対応を取るよう呼びかけている。 漏えいしたIDとパスワードを悪用する「リスト型攻撃」のイメージ。I...",
+      "content_source": "feed",
+      "tags": [
+        "個人情報漏洩",
+        "IPA",
+        "不正アクセス",
+        "セキュリティ対策"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649747+09:00",
+      "summary": "情報処理推進機構（IPA）は、個人情報の漏洩通知を受けた際の対処法を公開しました。通知された情報がID・パスワードなのか、クレジットカード情報なのかなどを確認し、情報種別に応じた適切な対応を取ることが重要です。これは、相次ぐ不正アクセスによる情報漏洩リスクの高まりを受けての措置であり、被害拡大を防ぐためのガイドラインとなります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50282838",
+      "source": "hackernews",
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "url": "https://divagr.com/blog/qwenputer",
+      "score": 47,
+      "comments": 9,
+      "raw_description": "I compiled a RISC-V CPU into Qwen 3.5 4B's weights, using its Gated DeltaNet layers as RAM. It runs C and MicroPython inside the forward passes, and Qwen uses it for exact arithmetic. I can't believe it's not silicon Qwenputer is a pretty fun experimental model. It's a stock Qwen 3.5 4B with one addition: a RISC-V CPU embedded within the weights that uses the model's own Gated DeltaNet attention layers as RAM. (To learn how GDN works, here's a handy guide .) This 'CPU' runs completely within the forward passes of the model, and can run arithmetic operations, C and MicroPython code without any external runtime or tool usage whatsoever. To be very clear, it is not a plugin, a tool or a sandbox. This blog will explain exactly how this model works, and how the model utilises GDN layers as RAM, and how I also slotted in an experimental in-model file storage. I also wrote up two follow-ups built on top of Qwenputer: how hybrid models can learn to hide their reasoning in their RNN state and evade CoT monitoring , and how compiled weights like these can work as inbuilt monitoring tools that the model itself can't tamper with . Qwen hands a multiplication to the RISC-V CPU inside its own weights; the CPU's RAM is Gated DeltaNet state You can grab Qwenputer from Hugging Face or ModelScope , and the code is on GitHub . The RNN inside Qwen3.5 can be exact RAM Qwen3-Next and Qwen 3.5 (the model Qwenputer is built on) use a pretty neat trick. 3 out of 4 attention layers in the model use Ga",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-29T10:38:10.927738+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_dca8107e46a0",
+      "source": "hatena",
+      "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
+      "url": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
+      "score": 35,
+      "comments": 0,
+      "raw_description": "2026年10月、Black October、情報セキュリティの世界は変わってしまった。 2026年10月、情報セキュリティの世界は完全に変わりました。今この10月は Black October （暗黒の10月）と呼ばれ始めており、セキュリティへの関心も高まっています。でも、セキュリティに関わる人はみんなこう思っています。 「確かにもう少し...",
+      "content_source": "feed",
+      "tags": [
+        "Black October",
+        "情報セキュリティ",
+        "セキュリティエンジニア",
+        "休息"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649910+09:00",
+      "summary": "2026年10月は「Black October」と呼ばれ、情報セキュリティの世界に大きな変化をもたらしました。この出来事を経て、セキュリティへの関心は高まっていますが、セキュリティエンジニアは疲弊している可能性があります。そのため、現在は休息を取ることが重要視されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_6083d89b0ece",
+      "source": "hatena",
+      "title": "Cloudflare、AIモデル「Clairic」をプレビュー公開 ――文章や画像から金額・日付などを抽出、JSON形式で出力 | gihyo.jp",
+      "url": "https://gihyo.jp/article/2026/10/clairic",
+      "score": 33,
+      "comments": 0,
+      "raw_description": "Cloudflare⁠⁠、AIモデル「Clairic」をプレビュー公開 ――文章や画像から金額⁠⁠・日付などを抽出⁠⁠、JSON形式で出力 Cloudflareは2026年10月19日、文章や画像などの非構造化データから値を抽出するAIモデル「Clairic」のプレビュー提供を発表した。入力中の情報を使って計算するほか、類似事例をもとに値を推定したり、過...",
+      "content_source": "feed",
+      "tags": [
+        "Cloudflare",
+        "AI",
+        "Clairic",
+        "データ抽出"
+      ],
+      "fetched_at": "2026-10-29T10:38:10.649971+09:00",
+      "summary": "Cloudflareは、非構造化データから金額や日付などの値を抽出するAIモデル「Clairic」のプレビュー提供を発表しました。このモデルは、文章や画像から情報を抽出し、JSON形式で出力することが可能です。さらに、入力情報に基づいた計算や、類似事例からの値の推定、過誤の検出といった機能も備えています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50282766",
+      "source": "hackernews",
+      "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+      "score": 33,
+      "comments": 33,
+      "raw_description": "Sometimes, adding just one new ingredient to a stew can ruin the whole thing. And that's how at least some New York Times readers see its addition of AI features to its popular Cooking app. Here's Genevieve Ko, NYT Cooking senior editor and columnist, explaining the new features: The Time… Get Nieman Lab in your inbox. All the latest headlines and insights from the world of digital journalism and publishing. Our daily newsletter is a must-read from newsrooms to executive suites. Nearly there — check your email. We have sent a confirmation link to . Click it and you are on the list. If it has not turned up in a minute or two, it may be in your spam folder. Subscribe another address The New York Times is adding more AI features to its Cooking app, and users aren’t thrilled Link nytimes.com ↗ Posted by Joshua Benton October 28, 2026 Sometimes, adding just one new ingredient to a stew can ruin the whole thing. 1 1 Olives, yecch. And that’s how at least some New York Times readers see its addition of AI features to its popular Cooking app . Here’s Genevieve Ko , NYT Cooking senior editor and columnist, explaining the new features: I naïvely assumed A.I. wouldn’t affect my work as a recipe developer and my role at NYT Cooking, where I oversee the editorial side of our recipes and related stories. But as artificial intelligence improved, our product and engineering colleagues saw its potential to help us create features Cooking users wanted. We’ve just launched our latest tool, whic",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "ニューヨーク・タイムズ",
+        "料理アプリ",
+        "ユーザー体験"
+      ],
+      "fetched_at": "2026-10-29T10:38:11.374598+09:00",
+      "summary": "ニューヨーク・タイムズは、料理アプリにAI機能を拡充したが、一部の読者からは不満の声が上がっている。同社の編集者は、当初AIが自身のレシピ開発業務に影響しないと考えていたが、製品・エンジニアリング部門がユーザー向けの新機能開発にAIの活用可能性を見出した。この新しいAI機能は、ユーザーが求める機能を提供することを目的としている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50282865",
+      "source": "hackernews",
+      "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "score": 22,
+      "comments": 15,
+      "raw_description": "MicroZig is a toolbox for building embedded applications in Zig. - ZigEmbeddedGroup/microzig Code of Conduct This is largely taken from Zig's Code of Conduct . The rules here are strict. This space is for focused, on topic, technical work on the MicroZig and Zig Embedded Group projects only. It is everyone’s responsibility to maintain a positive environment, especially when disagreements occur. This document applies to the Zig Embedded Group GitHub organization and Discord server. Strict No LLM / No AI Policy This policy takes effect October 28th, 2026. No LLM-generated content, whether it be code or prose. No paraphrasing LLM-generated content. No LLMs for editing, including fixing spelling or grammatical errors. No LLMs for translation. English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words. No LLMs for brainstorming and then sharing the results of that brainstorming, even if you create the prose. If you use a chatbot to give you advice on a comment on the issue tracker, that comment is unwelcome. No LLMs for finding bugs. No talking about use of chatbot/LLM services. Profession by Isaac Asimov Safe, Constructive Behavior Only Examples of behavior that contribute to creating a positive environment include: Using welcoming and inclusive language. Being respectful of differing viewpoints and experiences. Gracefully accepting constructive criticism. Helpin",
+      "content_source": "page",
+      "tags": [
+        "MicroZig",
+        "Zig",
+        "AIポリシー",
+        "組み込み開発"
+      ],
+      "fetched_at": "2026-10-29T10:38:11.740467+09:00",
+      "summary": "MicroZigは、Zigで組み込みアプリケーションを構築するためのツールボックスです。2026年10月28日より、LLM（大規模言語モデル）やAIによるコンテンツ生成（コード、文章、翻訳、校正、バグ発見など）を一切禁止する厳格なポリシーを導入します。これは、GitHub組織およびDiscordサーバーに適用され、技術的な作業に集中し、ポジティブな環境を維持することを目的としています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50282538",
+      "source": "hackernews",
+      "title": "The first wired XR glasses powered by Android XR",
+      "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+      "score": 20,
+      "comments": 15,
+      "raw_description": "XREAL AURA, the first wired XR glasses powered by Android XR, lets you work, watch, and play anywhere with Gemini by your side.",
+      "content_source": "meta",
+      "tags": [
+        "XRグラス",
+        "Android XR",
+        "Gemini",
+        "XREAL"
+      ],
+      "fetched_at": "2026-10-29T10:38:11.924559+09:00",
+      "summary": "XREAL AURAは、Android XRを搭載した初の有線XRグラスです。Geminiと連携し、場所を選ばずに作業、視聴、ゲームプレイが可能です。これにより、XRデバイスの新たな可能性が示唆されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_6c1511a2cc35",
+      "source": "reddit",
+      "title": "Python jettisons the native JIT, at least for now",
+      "url": "https://www.reddit.com/r/programming/comments/1xhbl06/python_jettisons_the_native_jit_at_least_for_now/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "High level summary article More detailed article In June, the Python steering council announced that it was pausing work on the JIT in CPython's main branch until there was an accepted Python Enhancement Proposal (PEP) that addressed concerns about maintenance, compatibility, and set clear success metrics as well as a timeline for completion. [....] After months of discussion, the JIT maintainers have withdrawn the PEP. For now, it appears that development on the once-promising project has come to an end submitted by /u/nicholashairs [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Python",
+        "CPython",
+        "JIT",
+        "PEP"
+      ],
+      "fetched_at": "2026-10-29T10:38:12.554839+09:00",
+      "summary": "CPythonのJIT（Just-In-Timeコンパイラ）開発が、現時点では一時停止されました。Pythonステアリングカウンシルは、メンテナンス、互換性、成功指標、完了までのタイムラインに関する懸念に対処するPEPが承認されるまで作業を一時停止すると発表していましたが、JITのメンテナーがPEPを撤回したため、このプロジェクトは一旦終了となりました。これは、Pythonのパフォーマンス向上を目指す取り組みにおける重要な転換点となります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_97e4677e5f2b",
+      "source": "reddit",
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "url": "https://www.reddit.com/r/programming/comments/1xhl1jb/a_faster_way_to_compute_signed_64bit_floor/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/benjoffe [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "64-bit",
+        "division"
+      ],
+      "fetched_at": "2026-10-29T10:38:12.555127+09:00",
+      "summary": "定数を用いた符号付き64ビット整数の床除算を高速化する方法についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_7c89d5fff208",
+      "source": "reddit",
+      "title": "Making SIMD Code Scale to Any Vector Width",
+      "url": "https://www.reddit.com/r/programming/comments/1xhpagj/making_simd_code_scale_to_any_vector_width/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/MyNameIsTrez [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "SIMD",
+        "Code"
+      ],
+      "fetched_at": "2026-10-29T10:38:12.555430+09:00",
+      "summary": "SIMDコードを任意のベクトル幅にスケーリングする方法についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_6a9035ba1814",
+      "source": "reddit",
+      "title": "If-statement that caused HTTP2Shell was itself undisclosed patch of vulnerability",
+      "url": "https://www.reddit.com/r/programming/comments/1xi16s3/ifstatement_that_caused_http2shell_was_itself/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/klaasvanschelven [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "HTTP2Shell",
+        "vulnerability"
+      ],
+      "fetched_at": "2026-10-29T10:38:12.555698+09:00",
+      "summary": "HTTP2Shellを引き起こしたif文が、それ自体未公開の脆弱性パッチであったという記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
