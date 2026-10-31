@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T10:27:23.130716+09:00",
+  "articles": [
+    {
+      "id": "hn_50300683",
+      "source": "hackernews",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "score": 771,
+      "comments": 483,
+      "raw_description": "Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up … TL;DR Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up focuses primarily on macOS, where the extension attempts to configure an SSH backdoor and establish persistence. Organisations should immediately review their environments for use of Claude Code for VSCode 2.1.312 or 2.1.313 and engage incident response where use of the extension is discovered. Update (31 October 2026): Cursor’s security notice now identifies versions 2.1.312 and 2.1.313 distributed through the Cursor Marketplace for macOS and Windows as affected. This advisory previously identified only 2.1.313 ; the affected-version guidance below has been updated accordingly. Phorion has discovered a compromise of the official Claude Code for VS Code extension on the Cursor Marketplace, where the backdoored extension bundle contains a persistent Secure Shell (SSH) backdoor. Cursor has removed the affected versions, 2.1.312 and 2.1.313 , from its marketplace. While the implant includes setup and persistence logic for macOS, Linux, and Windows , we’re going to focus primarily on macOS in this post, calling out the key differences and a few implementation bugs on the other pl",
+      "content_source": "page",
+      "tags": [
+        "VS Code",
+        "バックドア",
+        "脆弱性",
+        "SSH"
+      ],
+      "fetched_at": "2026-10-31T10:27:10.858557+09:00",
+      "summary": "VS Code拡張機能「Claude Code」のCursorマーケットプレイス版に、macOS、Linux、Windowsで永続的なSSHバックドアを仕掛ける脆弱性が発見されました。このバックドアは、影響を受けるバージョン（2.1.312および2.1.313）がインストールされた環境で、SSH経由での不正アクセスを可能にします。Cursorは影響を受けたバージョンをマーケットプレイスから削除しましたが、組織は環境をレビューし、インシデント対応を進める必要があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50305025",
+      "source": "hackernews",
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "score": 358,
+      "comments": 272,
+      "raw_description": "Northflank Status Security incident Identified · Major outage Update · October 31, 2026 at 1:04 AM UTC We have enabled audit logs for all customers, including free users. Update · October 30, 2026 at 11:38 PM UTC Users have reported unauthorised use of AI API keys supplied to the Northflank platform. If you have not already rotated your user-provided secrets stored in Northflank, please do so immediately. Revoke existing credentials with their issuing providers, generate replacements, and update the affected secrets and workloads in Northflank. Review your AI provider usage and billing logs for unexpected activity, and report any suspicious usage to Northflank support and the relevant provider. These reports may be consistent with the broader pattern of attacks targeting AI credentials. Similar IP addresses are contained in this article Wiz’s “Black October” report . Update · October 30, 2026 at 7:28 PM UTC Our investigation is ongoing. We have no further confirmed findings to share at this time. Our guidance remains unchanged: assume all environment variables have been compromised and rotate all secrets and credentials immediately, including those in workloads, secret groups and global secrets. Disable public access to addons where enabled. We will share further updates as more information is confirmed. Update · October 30, 2026 at 3:12 PM UTC Secret rotation on Postgres and MongoDB has been enabled for all users. We recommend disabling public expose on addons if you have en",
+      "content_source": "page",
+      "tags": [
+        "セキュリティインシデント",
+        "AI APIキー",
+        "認証情報漏洩",
+        "Northflank"
+      ],
+      "fetched_at": "2026-10-31T10:27:11.088865+09:00",
+      "summary": "Northflankは、顧客が提供したAI APIキーの不正利用を含むセキュリティインシデントを公表しました。同社は全顧客に監査ログを有効化し、ユーザーには直ちにシークレットと認証情報をローテーションするよう指示しています。このインシデントは、AI認証情報を標的とした広範な攻撃パターンと一致する可能性があり、顧客はAIプロバイダーの利用状況と請求ログを確認し、不審なアクティビティを報告することが推奨されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50307190",
+      "source": "hackernews",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "score": 241,
+      "comments": 64,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Nintendo",
+        "Wii"
+      ],
+      "fetched_at": "2026-10-31T10:27:10.208976+09:00",
+      "summary": "任天堂のWiiが、投稿者のお気に入りのPowerMacであるという内容の記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hn_50263837",
+      "source": "hackernews",
+      "title": "Breaking the open web won't stop the bad bots",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "score": 188,
+      "comments": 78,
+      "raw_description": "Policymakers should resist treating anonymity as something wrong in and of itself, argue Lila Bailey and Tess Vartanian. Perspective Breaking the Open Web Won’t Stop the Bad Bots Lila Bailey, Tess Vartanian / Oct 27, 2026 A close up of a spider in its web. Valeriia Neganova/ Unsplash Republish Share Late last month , more than 300 representatives from major media outlets were on Capitol Hill to advocate for the Stealth Bot Prohibition Act . They came with a legitimate grievance. Newsrooms are being hit by a surge of automated traffic, mostly from AI developers. AI developers extract enormous volumes of online content and then potentially deprive website owners of referral traffic and ad revenue with generative AI features and chatbots trained on that content. It is a real problem that deserves a real solution. But this bill doesn’t directly target the harms caused by abusive crawling. Instead, it would force anyone accessing a website automatically to identify themselves and their purposes for collecting public information. Rather than protect journalists, the bill threatens a basic tool they, and many others, rely on to gather information online. Cutting-edge investigative journalism relies on automated data collection. In 2022, a Pulitzer-winning Wall Street Journal investigation analyzed over 31,000 financial disclosures from 12,000 senior government employees, revealing that nearly a quarter of federal officials traded stock in industries their agencies regulated. To cond",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "ウェブサイト",
+        "自動化",
+        "法案"
+      ],
+      "fetched_at": "2026-10-31T10:27:11.511221+09:00",
+      "summary": "AI開発者による自動トラフィックの急増が、メディア業界のウェブサイトに損害を与えています。これに対処するため、Stealth Bot Prohibition Actが提案されましたが、この法案は悪質なクローリングの直接的な解決策とはならず、むしろジャーナリストなどが情報収集に依存する自動化されたデータ収集ツールへのアクセスを制限する可能性があります。この法案は、匿名性を問題視するアプローチをとっており、オープンウェブの基盤を損なう懸念があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_37f487a69c53",
+      "source": "hatena",
+      "title": "文章のAIっぽさを抑えるプロンプト",
+      "url": "https://imoz.jp/scraps/202610_humanizer.html",
+      "score": 162,
+      "comments": 0,
+      "raw_description": "文章のAIっぽさを抑えるプロンプト 最近の大規模言語モデル（LLM）を使っていると、コーディング能力が高まる一方で、文章の流暢さは失われていると感じます。短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を言い直したりして、個々の文は読めても説明の流れが途切れることがあります。 その一方で、指示に...",
+      "content_source": "feed",
+      "tags": [
+        "LLM",
+        "プロンプトエンジニアリング",
+        "文章生成",
+        "自然言語処理"
+      ],
+      "fetched_at": "2026-10-31T10:27:09.923779+09:00",
+      "summary": "大規模言語モデル（LLM）はコーディング能力が向上する一方で、文章の流暢さが低下する傾向があります。具体的には、短い説明でも細かく見出しを付けたり、具体例の後に同じ結論を繰り返したりすることで、説明の流れが不自然になることがあります。この問題に対処するため、AIっぽさを抑えるためのプロンプトエンジニアリングが重要になっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_57cec590a856",
+      "source": "hatena",
+      "title": "今後のセキュリティの考え方",
+      "url": "https://zenn.dev/cscloud_blog/articles/a987163efae5d8",
+      "score": 140,
+      "comments": 0,
+      "raw_description": "どうもサイバーセキュリティクラウド 脅威インテリジェンスグループの西川です。 本日のウェビナー（【緊急開催セミナー】重大脆弱性を狙うサイバー攻撃への備え ～パッチ適用までのリスクを低減する「仮想パッチ」とは～）にお越しくださった皆様ありがとうございます。 当日は時間の関係でお伝えしきれなかった、今後...",
+      "content_source": "feed",
+      "tags": [
+        "サイバーセキュリティ",
+        "脆弱性対策",
+        "仮想パッチ",
+        "脅威インテリジェンス"
+      ],
+      "fetched_at": "2026-10-31T10:27:09.924099+09:00",
+      "summary": "サイバーセキュリティクラウドの脅威インテリジェンスグループが、重大脆弱性を狙うサイバー攻撃への備えについて解説するウェビナーの内容に触れています。特に、パッチ適用までのリスクを低減する「仮想パッチ」の重要性について、今後のセキュリティ対策の考え方として言及しています。これは、迅速なパッチ適用が困難な状況下でのセキュリティ維持に不可欠なアプローチです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50309029",
+      "source": "hackernews",
+      "title": "Infinite Mac: BeOS",
+      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+      "score": 104,
+      "comments": 34,
+      "raw_description": "tl;dr: You can now run many BeOS versions in the browser at Infinite Mac , my site where you can experience the Macintosh Cinematic Universe from 1984 to 2005. The installs are full peers to their Mac cousins: you can boot them instantly (large disks are streamed in), play around with pre-installed software from Infinite HD, insert CD-ROMs from the Internet Archive, and save your work on the “Saved HD” drive. BeOS was a multimedia-focused, multi-tasking and multi-threaded OS that was eventually ported to the Power Macintoshes of the mid-90s. It impressed many in the Mac community, including Apple itself, who considered acquiring Be, the company that had created it. If you’ve been following the saga of Apple’s search for a next-generation operating system, this lets you see what the road not taken was like. Getting BeOS Running After the last somewhat involved (though still satisfying) project on Infinite Mac, I was looking for a quicker win. BeOS had been on my radar for a while , and (unlike A/UX) I had a personal connection to it: I remember spotting a BeBox in Akihabara, making my Mac cosplay as it with BeView , and eventually dual-booting BeOS on my Power Macintosh 8500. DingusPPC, an emulator I had already integrated , was making good progress on running BeOS, so it seemed like adding it to the site would be mostly a matter of preparing some additional disk images. Initially it appeared to be as straightforward as I had hoped; I added a Power Macintosh 7300 configuration",
+      "content_source": "page",
+      "tags": [
+        "BeOS",
+        "Infinite Mac",
+        "Webエミュレータ",
+        "レトロコンピューティング"
+      ],
+      "fetched_at": "2026-10-31T10:27:11.301253+09:00",
+      "summary": "Webサイト「Infinite Mac」で、1984年から2005年までのMacintosh体験に加え、BeOSの実行が可能になりました。BeOSはマルチメディアに特化したマルチタスク・マルチスレッドOSで、かつてPower Macintoshにも移植されました。この機能により、Appleが次世代OSを探していた時期に検討された可能性のある「採用されなかった道」を体験できます。ブラウザ上でBeOSを即座に起動し、プリインストールされたソフトウェアの使用、インターネットアーカイブからのCD-ROM挿入、作業の保存が可能です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50309314",
+      "source": "hackernews",
+      "title": "Jules Verne's Lost Novel",
+      "url": "https://blue-continuum.com/verne-paris",
+      "score": 79,
+      "comments": 14,
+      "raw_description": "Jules Verne’s lost novel got the machines of 1960 right. He never imagined that Paris would keep its poets By John Steele Published October 28, 2026 Read 10 minutes Listen Audio Version Translate Paris at sunset. Adobe Stock. In 1863, Jules Verne did something he would almost never do again. He looked not toward an undiscovered island, the bottom of the sea, the interior of the Earth or the far side of the Moon, but directly into the future. He imagined Paris almost a century ahead, in the year 1960, and asked what sort of civilization the nineteenth century might become if its faith in science, machinery, commerce and efficiency were allowed to run to its logical conclusion. The result was Paris in the Twentieth Century , a book so unlike the Verne we came to know that his publisher, Pierre-Jules Hetzel, refused to publish it. Hetzel thought the prophecy implausible and the tone too bleak. Verne put the manuscript away. It remained unpublished for 131 years, until it was recovered from a family safe and finally appeared in France in 1994. We commonly describe Verne as a great… John Steele is the Publisher and Executive Editor of Blue Continuum. Share this story Facebook X Reddit Bluesky Copy link Recommended stories Earth Remembering the Future: Blade Runner More human than human. Earth The Fossil Logic of the Industrial and AI Revolutions How civilization learned to mine energy — and now knowledge. Introduction The Blue Continuum, An Introduction One coherent view of the na",
+      "content_source": "page",
+      "tags": [
+        "ジュール・ヴェルヌ",
+        "SF小説",
+        "未来予測",
+        "出版史"
+      ],
+      "fetched_at": "2026-10-31T10:27:11.726087+09:00",
+      "summary": "ジュール・ヴェルヌが1863年に執筆した未発表小説「20世紀のパリ」は、1960年のパリを科学技術と効率性が極限まで進歩した未来として描いている。この作品は当時の出版社の判断により長らく埋もれていたが、131年後の1994年に発見・出版された。ヴェルヌの他の作品とは異なり、未来の文明に対する悲観的な見通しを示唆している点が特徴である。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50277379",
+      "source": "hackernews",
+      "title": "Cloudflare Turnstile solver library (no headless browser required)",
+      "url": "https://github.com/chris124567/cfsolve",
+      "score": 74,
+      "comments": 26,
+      "raw_description": "Cloudflare turnstile and challenge page solver in Rust (full reverse, request based) - chris124567/cfsolve cfsolve cfsolve is a Rust library and command line tool that solves Cloudflare Turnstile widgets and challenge pages without a headless browser. It returns a Turnstile token for widgets or a cf_clearance cookie for challenge pages. Turnstile widgets can be solved using the page URL, the sitekey, and optionally the page's HTML (this should not be required in most cases). Challenge pages require a direct fetch or the HTML of the page. Browser profiles cfsolve impersonates a specific browser, described by a profile file. One is included: profiles/safari-26-ios.json (Safari on iPhone). Each profile references recorded responses to the challenge's browser checks, stored as JSON in a directory. Keep each profile with its directory when you copy. Producing these files requires some manual (or AI) effort though it can be greatly aided by solving challenges in a real web browser with the proxy set to the address of a running capture-proxy , which records the decoded payloads sent to Cloudflare. Currently only Safari and Chrome(ium) profile types are supported. Building You need the Rust version pinned in rust-toolchain.toml , plus CMake, a C/C++ compiler, libclang, and Git (to patch and build BoringSSL). cargo build --release --bin challenge Command line tool ./target/release/challenge --page ' https://example.com/login ' /tmp/solve \\ --solve --fingerprint profiles/safari-26-ios.",
+      "content_source": "page",
+      "tags": [
+        "Cloudflare",
+        "Turnstile",
+        "Rust",
+        "Web Scraping"
+      ],
+      "fetched_at": "2026-10-31T10:27:10.419001+09:00",
+      "summary": "Rust製のライブラリ「cfsolve」は、ヘッドレスブラウザを使用せずにCloudflareのTurnstileウィジェットやチャレンジページを解決します。TurnstileウィジェットにはページURLとサイトキーからトークンを生成し、チャレンジページにはcf_clearanceクッキーを取得します。特定のブラウザ（Safari、Chrome/Chromium）を模倣するプロファイルファイルを使用し、ブラウザチェックへの応答を記録して再現します。このライブラリは、ブラウザエミュレーションやプロキシ設定を必要としないため、自動化の効率化に貢献します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_aebfe3e85216",
+      "source": "hatena",
+      "title": "小学生の絵に「AIくさい」　中傷相次ぎしょうゆコンクール公開中止：朝日新聞",
+      "url": "https://www.asahi.com/articles/ASVBZ2WFHVBZUTIL023M.html",
+      "score": 71,
+      "comments": 0,
+      "raw_description": "福島県喜多方市が特産のしょうゆのPRをかねて地元の小学生から募集したポスターコンクールで、入賞作品に「生成AI（人工知能）が使われた」などとの中傷がネットで相次ぎ、作品の公開が中止された。画用紙での… 深掘り 小学生の絵に「AIくさい」 中傷相次ぎしょうゆコンクール公開中止 2026年10月31日 7時00分 有料記事 染田屋竜太 印刷する メールでシェアする Facebookでシェアする Xでシェアする はてなブックマークでシェアする 福島県喜多方市のポスターコンクールをめぐって、X（旧ツイッター）では生成AIが利用されたと主張する投稿が相次いだ [PR] 福島県 喜多方市が特産のしょうゆのPRをかねて地元の小学生から募集したポスターコンクールで、入賞作品に「 生成AI （ 人工知能 ）が使われた」などとの中傷がネットで相次ぎ、作品の公開が中止された。画用紙での提出だったことから、市は「児童が描いたもの」との立場で、児童の安全を優先したと説明する。いったい何が起きたのか。 ネットで批判にさらされたのは、市の「醤油（しょうゆ）消費拡大推進ポスターコンクール」。11月に開かれるイベント「全国醤油 サミット inきたかた」で展示するため、市内の小学生からしょうゆをPRするポスターを募った。 市によると、低学年と高学年の部で合わせて148点が集まり、市職員や外部の審査員がそれぞれの部で最優秀賞（1点）、優秀賞（1点）、佳作（3点）を選定。10月初旬に市のホームページで作品の画像とともに制作した児童の名前を公開した。 担当者によると、公開の数日後、市に「（コンクールが）SNSで騒がれている」という内容のメールが複数届いた。X（旧 ツイッター ）で複数の作品が取り上げられ、「（ポスター内の）字が全部似通っている」「絵も構図も妙に整っていてAIくさい」などの投稿が相次いでいるのを確認。児童の名前も拡散していたため、市は16日までに公開を取りやめた。 代わりに「ポスターコンクー… この記事は 有料記事 です。 残り 984 文字 有料会員になると続きをお読みいただけます。 今すぐ登録（2カ月間月額100円） ログインする 【今ならキャンペーン価格】有料記事が2カ月間 月額100円で読み放題！ 詳しくは こちら 宅配紙面の購読者なら、ダブルコース半年割がお得です。 詳しくは こちら この記事を書いた人 染田屋竜太 東京社会部 フォロー 専門・関心分野 事件・事故 国際ニュース（アジア） 関連トピック・ジャンル ジャンル 社会 IT・科学 デジタル・テクノロジー 印刷する メールでシェアする Facebookでシェアする Xでシェアする はてなブックマークでシェアする",
+      "content_source": "page",
+      "tags": [
+        "生成AI",
+        "ポスターコンクール",
+        "ネット中傷",
+        "小学生"
+      ],
+      "fetched_at": "2026-10-31T10:27:09.923668+09:00",
+      "summary": "福島県喜多方市が開催した小学生のポスターコンクールにおいて、入賞作品に「生成AIが使われた」というネット上での中傷が相次ぎ、作品の公開が中止される事態が発生しました。市は、児童の安全を最優先し、公開を取りやめる判断をしました。この一件は、AI技術の普及に伴う誤解や誹謗中傷のリスクを示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_428095e412e4",
+      "source": "hatena",
+      "title": "AppleはiPhoneをエサにメモリメーカーへ大幅な値引きを強要してきたがAIの登場で価格が高騰して立場が逆転しているとの指摘",
+      "url": "https://gigazine.net/news/20261030-apple-chip-sellers-impact/",
+      "score": 58,
+      "comments": 0,
+      "raw_description": "以前はAppleに安く買いたたかれていたメモリ製品をめぐる状況が、AIの登場でガラッと変わってしまったとウォール・ストリート・ジャーナルが報じています。 The Beleaguered Chip Sellers Getting Their Revenge on Apple - WSJ https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9 Appleは「iPod」で東芝...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-10-31T10:27:09.923984+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_64d39ed43210",
+      "source": "hatena",
+      "title": "エンジニアが「勝手に育つ時代」は終わった　～エンジニアを育ててきた装置はAIで壊れた～",
+      "url": "https://codezine.jp/article/detail/30081",
+      "score": 39,
+      "comments": 0,
+      "raw_description": "この連載では、AIの時代にエンジニアがどう育つのかを、全8回で考えていきます。第1回から第3回では、何が足りなくなったのか、器とは何か、器はどんな形をしているのかを考えます。第4回では、AIとの付き合い方に自分のパターンが出ることを書きます。第5回から第8回はどう変えるか、変わると何が見えるか、日々何をす...",
+      "content_source": "feed",
+      "tags": [
+        "エンジニア育成",
+        "AI時代",
+        "キャリア開発",
+        "技術者教育"
+      ],
+      "fetched_at": "2026-10-31T10:27:09.923915+09:00",
+      "summary": "本連載は、AI時代におけるエンジニアの育成方法について全8回で考察する。第1回から第3回では、育成に必要な要素の欠如、育成の「器」の定義とその形状について掘り下げる。第4回では、AIとの関わり方における個人の行動パターンに着目する。続く第5回から第8回では、育成方法の変革、その変化がもたらす展望、そして日々の実践について論じる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_4816b2cb6343",
+      "source": "hatena",
+      "title": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について | ActiveTK's Note",
+      "url": "https://note.activetk.jp/hacks/onamae-desktop-cloud-v3",
+      "score": 36,
+      "comments": 0,
+      "raw_description": "GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について解説しました。 GMO不正アクセスの件で見つけた不審なXアカウントと「被害者フォーラム」について 作成日時 2026/10/30 21:54 最終更新 2026/10/31 04:55 序章 TL; DR 調べたもの 被害者フォーラム「pingbots[.]org」 Xアカウント「@raymond_supdev」 もう1つのXアカウント「@toriramyu52」 同じ人物像のアカウントがほかにもある 一応時系列 【Adring広告】",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-10-31T10:27:09.923846+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50311686",
+      "source": "hackernews",
+      "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+      "url": "https://tng.episodle.com/",
+      "score": 36,
+      "comments": 12,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Show HN",
+        "TNG"
+      ],
+      "fetched_at": "2026-10-31T10:27:10.630791+09:00",
+      "summary": "Sir Patrick Stewartを称える、TNGエピソード推測ゲームについての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_ee4d4a37ebbf",
+      "source": "hatena",
+      "title": "推定1兆円相当のBinanceの不正出金事案についてまとめてみた - piyolog",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/30/230303",
+      "score": 27,
+      "comments": 0,
+      "raw_description": "2026年10月30日、Binanceは、不正な出金トランザクションが送信されたとして、原因の初期調査の結果と対応を公表しました。ここでは関連する情報をまとめます。 資金流出の経緯 Binanceは10月29日21時15分(UTC。以下、時刻は特記のない限りUTC)、公式Xで潜在的なセキュリティ問題の報告を把握して調査中と投稿した。初報...",
+      "content_source": "feed",
+      "tags": [
+        "Binance",
+        "不正出金",
+        "セキュリティ",
+        "仮想通貨"
+      ],
+      "fetched_at": "2026-10-31T10:27:09.924043+09:00",
+      "summary": "仮想通貨取引所Binanceで、2026年10月30日に不正な出金トランザクションが発生しました。同社はセキュリティ問題の報告を受け調査を開始し、原因の特定と対応を進めています。この事案は、仮想通貨取引におけるセキュリティリスクの重要性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f198c7b88529",
+      "source": "hatena",
+      "title": "RDPとターミナルサーバーの思い出 - Nothing ventured, nothing gained.",
+      "url": "https://takoratta.hatenablog.com/entry/rememberrdp",
+      "score": 23,
+      "comments": 0,
+      "raw_description": "GMOインターネットの「お名前.comデスクトップクラウド」で不正アクセスがあった。WindowsのVPSで、FXの自動売買などに使う人が多いサービスだそうだ。そのニュースを追っていたら、RDPという名前が出てきた。リモートデスクトップのドライブ共有を使って利用者のPCからデータを抜いた、と攻撃者が主張しているらしい。G...",
+      "content_source": "feed",
+      "tags": [
+        "不正アクセス",
+        "お名前.com",
+        "RDP",
+        "VPS"
+      ],
+      "fetched_at": "2026-10-31T10:27:09.924153+09:00",
+      "summary": "GMOインターネットが提供する「お名前.comデスクトップクラウド」で不正アクセスが発生しました。このサービスはWindows VPSであり、FX自動売買などに利用されることが多いとされています。攻撃者はリモートデスクトッププロトコル（RDP）のドライブ共有機能を悪用し、利用者PCからデータを窃取したと主張しています。この事案は、リモートアクセス環境におけるセキュリティ対策の重要性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_bdcda582a084",
+      "source": "reddit",
+      "title": "I miss the part of programming where I figure it out myself",
+      "url": "https://www.reddit.com/r/programming/comments/1xjjr9z/i_miss_the_part_of_programming_where_i_figure_it/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Getting working code quickly is useful. It doesn’t always give me the satisfaction of solving the problem. Maybe that’s fine for a job, but it changes what I enjoy about programming. My thoughts on both sides in the article. Curious on how you guys feel. submitted by /u/Overall-Beach-9801 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "プログラミング",
+        "AI",
+        "開発効率",
+        "達成感"
+      ],
+      "fetched_at": "2026-10-31T10:27:12.062225+09:00",
+      "summary": "プログラミングにおいて、自分で試行錯誤しながら問題を解決していく過程が失われつつあるという意見が示されています。AIなどのツールを活用することでコードは早く手に入りますが、その過程での達成感や楽しさが薄れる可能性があると指摘しています。これは、プログラミングを趣味として楽しむ層と、仕事として効率を重視する層との間で、プログラミングに対する価値観の違いを生む可能性を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_71f9e6670fab",
+      "source": "reddit",
+      "title": "How curl was accidentally Turing-complete for nine months",
+      "url": "https://www.reddit.com/r/programming/comments/1xjiofl/how_curl_was_accidentally_turingcomplete_for_nine/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Dull_Replacement8890 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "curl"
+      ],
+      "fetched_at": "2026-10-31T10:27:12.062555+09:00",
+      "summary": "curlが9ヶ月間、意図せずチューリング完全になっていたという記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_e8c1680519dc",
+      "source": "reddit",
+      "title": "How hard is it to check for whitespace?",
+      "url": "https://www.reddit.com/r/programming/comments/1xjtach/how_hard_is_it_to_check_for_whitespace/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/SerCeMan [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "whitespace"
+      ],
+      "fetched_at": "2026-10-31T10:27:12.062826+09:00",
+      "summary": "空白文字のチェックの難易度についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_ef2224675cb9",
+      "source": "reddit",
+      "title": "Yet another performance degradation research induced by mutex in an unexpected hotpath in a mature database code.",
+      "url": "https://www.reddit.com/r/programming/comments/1xjo2ar/yet_another_performance_degradation_research/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "Couple years ago Marko decided to remove a partioned LRU cache from MariaDB(it is still used in MySQL code). There was a lot of doubt regarding this but his solution worked as good as a previous one for most of microbenchmarks except one. However at the time of the transition this performance regression had not been noticed. In March 2025 Mark Callaghan demonstrated the regression that has been introduced in 10.5. However his statistical results contained an interesting outlier for 10.8.8 that was on par with 10.4 and 3x faster than any version after 10.5. Alessandro Vetere was able to find out an offending mutex that syncs B-tree read operations running the microbenchmark reclaiming the lost performance. submitted by /u/drrtuy-b [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "MariaDB",
+        "パフォーマンス",
+        "ミューテックス",
+        "データベース"
+      ],
+      "fetched_at": "2026-10-31T10:27:12.063208+09:00",
+      "summary": "MariaDB 10.5以降で発生していたパフォーマンス低下の原因が、B-treeの読み取り操作を同期するミューテックスであることが特定されました。この問題は、以前のバージョンで利用されていたLRUキャッシュの削除に関連して見過ごされていましたが、Mark Callaghan氏の調査で顕著な回帰が示されました。Alessandro Vetere氏が原因のミューテックスを特定し、パフォーマンスを回復させました。これは、成熟したデータベースコードの予期せぬホットパスにおけるミューテックスの影響を示す事例です。",
+      "summary_basis": "content"
+    }
+  ]
+}
