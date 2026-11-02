@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T10:20:15.654545+09:00",
+  "articles": [
+    {
+      "id": "hn_50319510",
+      "source": "hackernews",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "score": 2277,
+      "comments": 538,
+      "raw_description": "Instead of YouTube, watch HackerTube! HackerTube 31 Oct, 2026 It was Friday night at 11pm, I was tired, I went to YouTube to watch something and realized that I was looking at an enshittified wall of slop. Insanely exaggerated thumbnails, dumb recommendations of the same tired topics, truly terrible idiocracy-grade content. I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me. So this morning (Saturday) I took a hold of my Opus 5.5 and gave it the task: Let's write our own YouTube clone based on whatever videos have been recommended on Hacker News. And Opus came back with: hackertube.org ! Opus downloaded all comments of HackerNews , filtered them, ran Sonnet over them in a Workflow (Claude Code feature), got rid of spam, and narrowed everything down to 40K comments recommending a YouTube video. In total, we get 6,454 YouTube videos that have been recommended by a few people on HN from 2007-2026 across 150 topics. Then we wrap it up in a YouTube UI, get a domain, push to a VPS, secure, harden, optimize and voila! HackerTube: Contains quality content Uses the 50% thumbnail instead of the uploaded thumbnail Custom and good ForYou recommendations without any user accounts, storing state in local browser session Keyboard shortcuts Export of the site's data available to give to your agent to easily create your own version This takes ~2 hours now. I can breathe again. Thank you Opus 5.5 <3. EDIT : A little bit more on my p",
+      "content_source": "page",
+      "tags": [
+        "YouTubeクローン",
+        "Hacker News",
+        "動画レコメンデーション",
+        "コンテンツキュレーション"
+      ],
+      "fetched_at": "2026-11-02T10:20:03.161113+09:00",
+      "summary": "HackerTubeは、Hacker Newsで推奨されたYouTube動画のみを集めたYouTubeクローンです。過度に誇張されたサムネイルや、ユーザーに合わないレコメンデーションに不満を持った開発者が、Hacker NewsのコメントからYouTube動画の推薦を抽出し、約6,454本の動画を150のトピックに分類しました。ユーザーアカウント不要でローカルストレージに状態を保存するカスタムレコメンデーションや、サイトデータの書き出し機能などを備えています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50326821",
+      "source": "hackernews",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "score": 901,
+      "comments": 177,
+      "raw_description": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
+      "content_source": "hn_text",
+      "tags": [
+        "HackerNews",
+        "書籍",
+        "AI開発",
+        "データ可視化"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.686937+09:00",
+      "summary": "HackerNewsで言及された書籍をまとめた「HackerBooks」が公開されました。これは、2007年以降に少なくとも2人の異なるHNコメンターによって言及された約16,500冊の書籍をリストアップし、各書籍がどのコメントで言及されたかへのリンクを提供します。このプロジェクトは、Claude Opus 5.5によって開発され、データパイプラインとサイト構築の大部分をAIが担当しました。データはダウンロード可能で、書籍の言及回数に基づいてリストが作成されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_c33d0ef1e233",
+      "source": "hatena",
+      "title": "「作曲って難しいと思うじゃん？だったら遊びにしちゃえばいいんじゃね？」ということで、音楽理論やコード進行が全くわからなくても音楽が作れる作曲ツールを作った",
+      "url": "https://togetter.com/li/2765526",
+      "score": 361,
+      "comments": 0,
+      "raw_description": "げどうさん@ボカロPなのかもしれない @gedousan 作曲って難しいと思うじゃん？ だったら遊びにしちゃえばいいんじゃね？ｗｗ ということで、音楽で遊べるものを作ってみた！！ 音楽理論？知らん！！コード進行？わからん！！ 作曲？やったことない！！ そんな人でもポチポチしてたら 曲ができちゃうツールですｗ 好きな...",
+      "content_source": "feed",
+      "tags": [
+        "作曲支援",
+        "音楽制作",
+        "初心者向け",
+        "DTM"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.410605+09:00",
+      "summary": "音楽理論やコード進行の知識がない初心者でも、直感的な操作で作曲ができるツールが開発されました。このツールは、音楽制作のハードルを下げ、誰もが気軽に音楽制作を楽しめるようにすることを目的としています。複雑な音楽理論を理解していなくても、クリック操作などで楽曲を生成できる点が特徴です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_40b6ef2719d4",
+      "source": "hatena",
+      "title": "いまのダークウェブでは二段階認証も無力化する「ブラウザのクローンデータ」が売買されており、その対策にはブラウザを使い分けることが有効らしい",
+      "url": "https://togetter.com/li/2765521",
+      "score": 325,
+      "comments": 0,
+      "raw_description": "Taiki Watanabe | フルスタックエンジニア・ダークウェブ研究家 @ECHODE_Dev ・いまダークウェブの闇市場で暴落しているもの：単なる「IDとパスワード」のリスト ・代わりに「Russian Market」や「STYX」等の大手闇マーケットで主力になっている商品：ログイン状態と端末の特徴を丸ごと抜いた「ブラウザのクローンデータ...",
+      "content_source": "feed",
+      "tags": [
+        "ダークウェブ",
+        "ブラウザ",
+        "セキュリティ",
+        "アカウント乗っ取り"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.410685+09:00",
+      "summary": "ダークウェブの闇市場では、従来のID・パスワードリストに代わり、ログイン状態や端末情報を抜き取った「ブラウザのクローンデータ」が主力商品となっている。このデータは二段階認証を迂回し、アカウント乗っ取りを可能にするため、対策としてブラウザの使い分けが有効とされる。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_2668640ba619",
+      "source": "hatena",
+      "title": "【速報】GMO不正アクセス、北朝鮮関与か",
+      "url": "https://www.47news.jp/15170287.html",
+      "score": 137,
+      "comments": 0,
+      "raw_description": "ãGMOã¤ã³ã¿ã¼ãããã°ã«ã¼ãããä¸é£ã®ä¸æ­£ã¢ã¯ã»ã¹ã®æ»æå´ã«åæé®®ç³»ã®ããã«ã¼éå£ ... éå ± çµæ¸ å ±åéä¿¡ ãéå ±ãGMOä¸æ­£ã¢ã¯ã»ã¹ãåæé®®é¢ä¸ã 2026å¹´11æ01æ¥ 20æ24å å ±åéä¿¡ ãGMOã¤ã³ã¿ã¼ãããã°ã«ã¼ãããä¸é£ã® ä¸æ­£ã¢ã¯ã»ã¹ ã®æ»æå´ã«åæé®®ç³»ã®ããã«ã¼éå£ãããå¯è½æ§ãé«ãã¨åæãã¦ãããã¨ã1æ¥ãé¢ä¿è ã¸ã®åæã§åãã£ãã ä¸æ­£ã¢ã¯ã»ã¹ å ±åéä¿¡ ã®ãã¥ã¼ã¹ã»éå ±ä¸è¦§ å ±åéä¿¡ å½å å¤ç´100ã®æ ç¹ãè»¸ã«ãä¸çæ å¢ããå°åã®è©±é¡ã¾ã§ãæ¬ã®ãã¥ã¼ã¹ãçç¢ºã«ããã¡æ©ããå±ããã¾ãã https://www.kyodonews.jp/ ä¸æ­£ã¢ã¯ã»ã¹ã®ãã¥ã¼ã¹ã»éå ± ï¼ ãããããããç«ãè¦ãã¦ãã ããããçªç¶ã®æ¥è¨ªè ã¯å¨ã®å è¨±è¨¼ç»åãæã£ã¦ãã¦â¦åäººæ å ±æµåºãè¢«å®³ãé£éãããæå£ã¨ã¯ 05æ10å ä¸­æ¥æ°è ãç¬èªãGMOæ»æãåæé®®ããã«ã¼ããè¤æ°ã®çè·¡ãæ¿åºã«å ±å 11æ01æ¥ å ±åéä¿¡ ãGMOä¸æ­£ã¢ã¯ã»ã¹ãæ»æå´ã«åæé®®ç³»ããã«ã¼éå£ãããå¯è½æ§ 11æ01æ¥ æ°æ½æ¥å ± GMOç³»4.5ä¸äººåæ¼ããã9å¹´éå¤é¨ããé²è¦§å¯è½ã« 11æ01æ¥ å ±åéä¿¡ ãéå ±ãGMOå­ä¼ç¤¾ã§4ä¸5åäººåæ å ±æ¼ãã 11æ01æ¥ å ±åéä¿¡ æå·è³ç£çé£ã«ãåæé®®ãé¢ä¸ããç±³FBIçºè¡¨ããã¤ãã³ã¹ 11æ01æ¥ å ±åéä¿¡ HANAãæ¥æ¬æ­¦éé¤¨ã§åã®å ¨å½ã",
+      "content_source": "page",
+      "tags": [
+        "GMOインターネットグループ",
+        "不正アクセス",
+        "北朝鮮",
+        "サイバー攻撃"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.410803+09:00",
+      "summary": "GMOインターネットグループは、一連の不正アクセス攻撃に北朝鮮系のハッカー集団が関与している可能性が高いと分析しています。この事態は、国内外のサイバーセキュリティにおける重要な懸念事項であり、今後の調査と対策が注目されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50328896",
+      "source": "hackernews",
+      "title": "Ask HN: Which TV do you recommend for privacy?",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "score": 129,
+      "comments": 231,
+      "raw_description": "I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium. I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV. I am curious what success others have had.",
+      "content_source": "hn_text",
+      "tags": [
+        "プライバシー",
+        "スマートTV",
+        "Apple TV",
+        "ディスプレイ"
+      ],
+      "fetched_at": "2026-11-02T10:20:03.536628+09:00",
+      "summary": "ユーザーはプライバシーを尊重するテレビを探しています。具体的には、60〜80インチ、4K解像度、60Hz以上のディスプレイを求めており、Apple TVをプライバシー重視の代替手段として検討しています。スマートTVのネイティブアプリではなく、Apple TVを外部デバイスとして使用し、テレビ自体は単なるディスプレイとして機能することを望んでいます。他のユーザーの経験や、Apple TVとの連携に適したテレビについて情報を求めています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_008e2ded0f40",
+      "source": "hatena",
+      "title": "自作PWAをTailscale Serveで配るのが便利だった話",
+      "url": "https://zenn.dev/6uclz1/articles/43e803ec9d54dd",
+      "score": 107,
+      "comments": 0,
+      "raw_description": "PWAをtailnet serveするのは結構いいアプローチだと思ったので紹介したいです。zennのフォーマットで記事書いて https://zenn.dev/6uclz1 こいつの文体・構成で書いて欲しい Mac miniで動かしている自作のWebアプリを、PWAとしてiPadとiPhoneで使っています。 配信はTailscale Serveで行っています。 この組み合わせがか...",
+      "content_source": "feed",
+      "tags": [
+        "PWA",
+        "Tailscale Serve",
+        "Webアプリ",
+        "ローカル配信"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.410651+09:00",
+      "summary": "Mac miniで動作する自作WebアプリをPWA化し、Tailscale Serveを用いてiPadやiPhoneで配信するアプローチが紹介されています。この方法は、ローカルネットワーク内でPWAを簡単に共有・利用できる利便性を示唆しています。技術的な詳細や具体的な設定方法については、記事の続きで解説されることが期待されます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_f39f4256a4f3",
+      "source": "hatena",
+      "title": "米Microsoftはなぜ最大6万人に早期退職を打診するのか？　決算資料から読み解く巨額AI投資の“台所事情”",
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2611/02/news029.html",
+      "score": 92,
+      "comments": 0,
+      "raw_description": "米Microsoftはなぜ最大6万人に早期退職を打診するのか？ 決算資料から読み解く巨額AI投資の“台所事情”：Windowsフロントライン（1/3 ページ） Microsoftは10月26日（米国時間）、「Voluntary Exit Offer（VEO）」を従業員に通知した。 直訳すれば「任意退職の申し入れ」となるが、英語圏で「Buyout」と呼ばれる早期退職...",
+      "content_source": "feed",
+      "tags": [
+        "Microsoft",
+        "早期退職",
+        "AI投資",
+        "財務戦略"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.410524+09:00",
+      "summary": "Microsoftは最大6万人の従業員に対し、任意退職の申し入れ（VEO）を実施すると通知しました。これは、巨額のAI投資に伴う「台所事情」を改善するための施策と考えられます。早期退職の実施は、将来的なAI分野への大規模投資を支えるための財務戦略の一環と見られます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50299811",
+      "source": "hackernews",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "url": "https://github.com/raphlinus/nibnib",
+      "score": 90,
+      "comments": 12,
+      "raw_description": "Image compression at 4bpp with extreme decompression speed - raphlinus/nibnib nibnib An image format tuned for extreme decompression speed. This image format originated as an experiment to see what image quality and performance were possible for DVI output on an RP2350 microcontroller. On devices of that class, it's common to use low bit depth images and palette lookup. There's a budget of approximately 6 cycles per pixel, and that's enough for a pixel fetch, palette lookup, and store into the line buffer, but not a lot of room to spare. The nibnib format uses a palette at its core, but surpasses palette images in quality because the palette stores a delta rather than the absolute color, vastly improving soft regions. It achieves its extreme speed by decoding two pixels at a time, from a single byte of input, thus attaining 4bpp compression. How it works The decompression process is simple and deterministic. There are many choices when encoding; the algorithm is asymmetric in that regard. Decoding works in pixel pairs. The last decoded pixel is doubled up. Then we read a byte from the input stream, and look it up in the palette. That 32-bit value is added to the doubled-up previous pixel, yielding two 16bpp (RGB 565 format) pixels. The low 16 bits are the left pixel. That's it. Here's the inner loop (lightly adapted from the Rust source): // first two pixels copied from src[0..4], initializing pix for x in 1 .. ( width / 2 ) { let inp = src [ x + 3 ] ; pix = ( ( pix >> 16 ) *",
+      "content_source": "page",
+      "tags": [
+        "画像圧縮",
+        "高速展開",
+        "マイクロコントローラ",
+        "Nibnib"
+      ],
+      "fetched_at": "2026-11-02T10:20:03.352623+09:00",
+      "summary": "Nibnibは、RP2350マイクロコントローラのようなリソースが限られたデバイスでのDVI出力向けに開発された画像圧縮フォーマットです。1バイトの入力から2ピクセルをデコードする4bpp圧縮により、極めて高速な展開速度を実現します。パレットの色情報にデルタ値を用いることで、従来のパレット画像よりも高品質な表示が可能となり、特に滑らかな領域の表現力が向上しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50271106",
+      "source": "hackernews",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
+      "score": 73,
+      "comments": 13,
+      "raw_description": "Tips for more effective fuzz testing with AFL++ February 05, 2025 nullprogram.com/blog/2025/02/05/ Fuzz testing is incredibly effective for mechanically discovering software defects, yet remains underused and neglected. Pick any program that must gracefully accept complex input, written in any language , which has not yet been been fuzzed, and fuzz testing usually reveals at least one bug. At least one program currently installed on your own computer certainly qualifies. Perhaps even most of them. Everything is broken and low-hanging fruit is everywhere. After fuzz testing ~1,000 projects over the past six years , I’ve accumulated tips for picking that fruit. The checklist format has worked well in the past ( 1 , 2 ), so I’ll use it again. This article discusses AFL++ on source-available C and C++ targets, running on glibc-based Linux distributions, currently the indisputable best fuzzing platform for C and C++. My tips complement the official, upstream documentation, so consult them, too: Performance Tips on the AFL++ website Technical “whitepaper” for afl-fuzz Even if a program has been fuzz tested, applying the techniques in this article may reveal defects missed by previous fuzz testing. (1) Configure sanitizers and assertions More assertions means more effective fuzzing, and sanitizers are a kind of automatically-inserted assertions. By default, fuzz with both Address Sanitizer (ASan) and Undefined Behavior Sanitizer (UBSan): $ afl-gcc-fast -g3 -fsanitize=address,undefin",
+      "content_source": "page",
+      "tags": [
+        "ファジングテスト",
+        "AFL++",
+        "サニタイザ",
+        "ソフトウェアテスト"
+      ],
+      "fetched_at": "2026-11-02T10:20:03.911405+09:00",
+      "summary": "AFL++を用いたファジングテストの効果を高めるための実践的なヒントが紹介されています。特に、C/C++言語で書かれ、glibcベースのLinuxディストリビューション上で動作するソースコード公開プロジェクトを対象としています。効果的なファジングには、AddressSanitizer (ASan) や UndefinedBehaviorSanitizer (UBSan) といったサニタイザやアサーションの活用が推奨されており、これにより見逃されがちなバグの発見精度が向上します。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50312408",
+      "source": "hackernews",
+      "title": "Postgres 19 is late, and it's AI's fault",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "score": 42,
+      "comments": 25,
+      "raw_description": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no l... Friday, October 30, 2026 Postgres 19 is late, and it's AI's fault Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no later than the middle of October. This year is going to be different. PostgreSQL 19 most likely won’t be released until November, and it’s not impossible that the project could decide to postpone the release further. Moreover, this year, several rather large features were reverted quite late in the beta period: UPDATE/DELETE FOR PORTION OF , SQL Property Graph Queries (SQL/PGQ), and ALTER TABLE … MERGE PARTITION/SPLIT PARTITION were all reverted between August 27 and September 15. While major feature reverts are not especially uncommon immediately after feature freeze, which each year occurs on April 8, it is unusual to see multiple major features get pulled from the release at such a late date. So, what happened? The short answer is that LLMs happened. All software contains bugs, and PostgreSQL’s code base is large, complex, and old. Our git history – converted from CVS – now reaches back more than 30 years, and the first code was written a decade before that. There’s a huge amount of code, and that code contains a huge number of bugs. That’s always been true, and it hasn’t stopped PostgreSQL from being popular or successful. What’s",
+      "content_source": "page",
+      "tags": [
+        "PostgreSQL",
+        "リリース遅延",
+        "LLM",
+        "ソフトウェア開発"
+      ],
+      "fetched_at": "2026-11-02T10:20:02.911884+09:00",
+      "summary": "PostgreSQL 19のリリースが、例年より遅れる見込みです。これは、大規模言語モデル（LLM）が開発プロセスに影響を与えたことが原因と考えられています。具体的には、UPDATE/DELETE FOR PORTION OF、SQL Property Graph Queries (SQL/PGQ)、ALTER TABLE … MERGE PARTITION/SPLIT PARTITIONといった複数の主要機能が、ベータ期間の後半にリバートされました。これは、30年以上の歴史を持つPostgreSQLの巨大で複雑なコードベースにLLMがバグを導入した、あるいは検出を困難にした可能性を示唆しており、リリーススケジュールの遅延につながっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_c49089f86325",
+      "source": "hatena",
+      "title": "Amazon ECS の新機能 「ECS Gateway」 を試してみた | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/try-amazon-ecs-gateway/",
+      "score": 37,
+      "comments": 0,
+      "raw_description": "はじめに 2026年10月20日、Amazon ECS Gateway が発表されました。 ECS Gateway は、ECS サービスの入口となる ALB と関連リソースを ECS が管理する機能で、1台の ALB を最大25のサービスで共有できます。 今回は、東京リージョンの同じクラスターにパブリック用とプライベート用のゲートウェイを用意し、それぞれにサ...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-11-02T10:20:02.410722+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_14b18649809b",
+      "source": "hatena",
+      "title": "【特集】 メモリ・SSDの値下がりはAIバブル崩壊後？そのときは価格どころではない ～2028年まで逼迫と各社が予測、ただしその先も値下がりの保証なし",
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2152921.html",
+      "score": 26,
+      "comments": 0,
+      "raw_description": "昨年(2026年)末にこんな記事を書いたわけだが、その後もメモリの価格高騰は止まらない。最近だと福田昭氏がこのような記事を書かれており、メモリベンダーにとっても、PCベンダーにとっても、エンドユーザーにとっても想定外の状況が続いているのが現状である。 特集 メモリ・SSDの値下がりはAIバブル崩壊後？そのときは価格どころではない ～2028年まで逼迫と各社が予測、ただしその先も値下がりの保証なし 大原 雄介 2026年11月2日 06:02 昨年(2026年)末に こんな記事 を書いたわけだが、その後もメモリの価格高騰は止まらない。最近だと福田昭氏が このような記事 を書かれており、メモリベンダーにとっても、PCベンダーにとっても、エンドユーザーにとっても想定外の状況が続いているのが現状である。 これに関して編集部から、現在の状況について書いてほしいとの原稿の依頼が来たので、いろいろと調べてみた。 記事目次 DRAMスポット価格はDDR5とNANDが上昇、DDR4は乱高下 秋葉原のDDR5メモリは32GBモジュールが6月から値上がり NVMe SSDの容量単価は半年前からほぼ横ばい Micronは2027年から2028年に需給がさらに逼迫すると予測 SamsungとSK hynixも2026年後半の供給不足を予想 キオクシアは2027年も需要が供給を上回ると予想 長期契約で高値は続き、値下がりは見込めない 値下がりの条件はAIバブル崩壊、ただし影響は業界全体に DRAMスポット価格はDDR5とNANDが上昇、DDR4は乱高下 まずは価格動向ということで、 DRAM Exchange に示された2026年4月から10月のスポット価格についてピックアップしたのが、以下のグラフ1である。 DDR5とMLCは右肩上がり、DDR4は上下に変動 グラフ1の項目は、DDR5-16Gb(2G×8) 4800/5600とDDR4 16Gb(2G×8) 3200、それとMLC 64Gb 8GB×8の3つで、価格はSession Averageのものを利用した。 DDR4に関してはだいぶ暴れているのが印象的であるが、 DDR5についてはまぁ概ね右肩上がりという感じで、今のところ価格が安定しそうな気配がまったく見えない。 そもそも2025年中にトップ3社(Samsung、SK hynix、Micron)がDDR4の生産を終了させてDDR5に移行すると発表しており、DDR4は中国CXMTの独擅場になるかと思われたら、そのCXMTまでDDR4をやめてDDR5に移行することを発表した。 これによって買い占めが発生したのが2025年の4月頃である。PC向けはともかく、組み込み向けではまだ広範に使われている(何なら新規設計ですらDDR4を使うこともある)だけに、供給が止まるのは死活問題になりかねない。 それもあっていきなりDDR4が高騰したわけだが、その後トップ3社がDDR4の生産終了を撤回したことで一度は落ち着き始めた。 ところがエージェントAIの興隆に絡んでDDR5の需要が急速に拡大、供給が追い付かなくなった。そして、PC向けですらDDR4が再び脚光を浴びることになり、DDR4も需要に供給が追い付かなくなったため、異様な高価格になったわけだ。 ただ幸いにも主要な組み込み用途向けに関しては、(価格はともかくとして)供給に一応の目安が付いた(昨今の動向を鑑みて生産計画を見直し、生産量そのものを減らした組み込み機器メーカーが少なくない)ことで、ここ1カ月ほどは小康状態ではあるという",
+      "content_source": "page",
+      "tags": [],
+      "fetched_at": "2026-11-02T10:20:02.410727+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_5550af9d96a9",
+      "source": "hatena",
+      "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
+      "score": 25,
+      "comments": 0,
+      "raw_description": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。 Copilot Fusionは、与えられたタスクの特性に応じて、単一または複数のAIモデルを組み合わせて実行するマルチモデル対応の機能です。 推論、コー...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-11-02T10:20:02.410774+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hn_50303088",
+      "source": "hackernews",
+      "title": "Keeping Up Appearances – The women taking over the funeral industry",
+      "url": "https://lareviewofbooks.org/article/death-industry-mortuary-programs-women-andie-eisen-quarterly/",
+      "score": 18,
+      "comments": 2,
+      "raw_description": "The women taking over the funeral industry. Keeping Up Appearances The women taking over the funeral industry. By Andie Eisen October 28, 2026 LARB Lit Cultural Studies Gender & Sexuality Did you know LARB is a reader-supported nonprofit? LARB publishes daily without a paywall as part of our mission to make rigorous, incisive, and engaging writing on every aspect of literature, culture, and the arts freely accessible to the public. Help us continue this work with your tax-deductible donation today! Donate This essay is a preview of the newest issue of our print journal, the LARB Quarterly , no. 50: Scene , out now. Become a member for more essays, criticism, poetry, fiction, and art—plus the next four issues of the Quarterly in print. ¤ “WINTER IS OUR BUSY season,” Lucy tells me apologetically, explaining why her co-workers are reluctant to commit to interviews. It never occurred to me that morticians would be slammed in Q1, though in retrospect the reason is obvious—pneumonia, influenza, and now COVID-19 return each year to collect their annual tolls. I’d dismissed the threat of winter as a relic of Romantic literature, but it seems no one is immune to nature’s enduring clichés. I met Lucy at a Halloween party in 2023. Dressed as a pregnant Mia Farrow from Rosemary’s Baby (1968), she blended seamlessly into the crowd of disaffected twentysomethings—until she mentioned that she was an embalming apprentice. Once I realized this was not just glib seasonal humor, our small talk ",
+      "content_source": "page",
+      "tags": [
+        "葬儀業界",
+        "女性進出",
+        "季節性",
+        "医療"
+      ],
+      "fetched_at": "2026-11-02T10:20:04.103208+09:00",
+      "summary": "この記事は、葬儀業界における女性の台頭について論じています。特に、冬場に肺炎やインフルエンザ、COVID-19などの影響で葬儀業者が多忙になる実態と、その背景にある季節的な要因に触れています。葬儀業の現場で働く女性たちの視点を通して、この業界の現状と変化を描き出そうとしています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50331404",
+      "source": "hackernews",
+      "title": "America on Data Centers: 10k city council comments",
+      "url": "https://www.americansentiment.com/datacenters",
+      "score": 8,
+      "comments": 4,
+      "raw_description": "10,202 public comments on data centers, on the record at 906 local-government meetings in 48 states. Each comment is shown verbatim with its timestamp and source video. America hates data centers. Public comments don't always match America's true sentiment, but our nation is clearly at a fever pitch of data center opposition. 73% of meetings had 0 data center supporters. Even isolating for only meetings with any supporters, they were outnumbered 6:1. Water use was the #1 concern. 88% of comments raise multiple concerns. Distrust and transparency frequently come up. Accusations of corruption also frequently occur, but are overwhelmingly false. Americans are skeptical about the offered community benefits. Many stated that they don't believe the proposed benefits will end up arriving. Big Tech is called out 4.3x more than the AI labs. Comments naming each company. An AI lab's bar counts the lab or its founder, and in a lighter shade, comments that name only its chatbot. Elon was mentioned as often as Altman, Thiel, Zuck, Bezos, Gates, and O'Leary combined. Highest net worth: Elon Musk. Lowest: Kevin O'Leary or Mustafa Suleyman. AI isn't the leading concern in comments. Surprisingly, 4/5 comments don't mention AI at all. Red and blue counties oppose at the same rate. Counties are grouped by their 2024 presidential vote; heavily means a 15-point margin or more. Heavily Republican counties raise land and community character more, heavily Democratic ones climate change and unfairnes",
+      "content_source": "page",
+      "tags": [
+        "データセンター",
+        "公開コメント",
+        "水使用量",
+        "地域社会"
+      ],
+      "fetched_at": "2026-11-02T10:20:03.720705+09:00",
+      "summary": "米国では、48州の906の地方自治体会議で、データセンターに関する10,202件の公開コメントが記録されました。コメントの73%でデータセンター支持者はゼロであり、支持者がいた会議でも反対者が6対1で上回りました。最も懸念されているのは水の使用量で、88%のコメントが複数の懸念を挙げています。AIへの言及は少なく、コメントの大部分はAIを話題にしていません。地域による反対の度合いに大きな差は見られず、共和党優勢地域では土地や地域特性、民主党優勢地域では気候変動や不公平さがより多く言及される傾向があります。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_7d66678e4841",
+      "source": "reddit",
+      "title": "Jepsen on ParticleDB: \"We tested versions 1.1.4 through 1.1.18.11.rc-22 and found that ParticleDB’s claims of “Full ACID” were somewhat premature\"",
+      "url": "https://www.reddit.com/r/programming/comments/1xl8d57/jepsen_on_particledb_we_tested_versions_114/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/alexeyr [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Jepsen",
+        "ParticleDB"
+      ],
+      "fetched_at": "2026-11-02T10:20:04.399119+09:00",
+      "summary": "JepsenによるParticleDBのテスト結果について、「Full ACID」という主張は時期尚早であったと述べられています。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_310eee410ec4",
+      "source": "reddit",
+      "title": "The case against Makefiles",
+      "url": "https://www.reddit.com/r/programming/comments/1xl5irk/the_case_against_makefiles/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/com_kieffer [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Makefiles"
+      ],
+      "fetched_at": "2026-11-02T10:20:04.399288+09:00",
+      "summary": "Makefilesに対する批判的な見解を述べる記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_45f5fea56a2a",
+      "source": "reddit",
+      "title": "Database Indexing Isn't Magic. Understand It From Scratch",
+      "url": "https://www.reddit.com/r/programming/comments/1xl6oes/database_indexing_isnt_magic_understand_it_from/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Fantastic_Wave1982 [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Database",
+        "Indexing"
+      ],
+      "fetched_at": "2026-11-02T10:20:04.399442+09:00",
+      "summary": "データベースのインデックス機能について、その仕組みを基礎から理解することを目指す記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_5095992d1979",
+      "source": "reddit",
+      "title": "What do you get when you put every character that exists on a single page?",
+      "url": "https://www.reddit.com/r/programming/comments/1xl7yhp/what_do_you_get_when_you_put_every_character_that/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/alexeyr [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "文字",
+        "ページ"
+      ],
+      "fetched_at": "2026-11-02T10:20:04.399578+09:00",
+      "summary": "すべての文字が存在するページを1つにまとめた場合に何が得られるかについての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
