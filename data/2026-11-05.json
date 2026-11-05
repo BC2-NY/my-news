@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T11:02:12.316220+09:00",
+  "articles": [
+    {
+      "id": "hn_50364336",
+      "source": "hackernews",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "score": 1070,
+      "comments": 638,
+      "raw_description": "AI is forcing us to pay off 40 years of technical debt Computing News The PHP2Shell Vulnerability Heralds Cybersecurity Hell AI is forcing us to pay off 40 years of technical debt Dina Genkina 02 Nov 2026 4 min read Dina Genkina is the computing and hardware editor at IEEE Spectrum iStock",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "技術的負債",
+        "インフラストラクチャ",
+        "システム刷新"
+      ],
+      "fetched_at": "2026-11-05T11:01:59.669917+09:00",
+      "summary": "AIの進化は、過去40年間に蓄積された技術的負債の返済を企業に迫っています。特に、AIモデルのトレーニングや運用には膨大な計算リソースとデータが必要であり、既存のインフラストラクチャでは対応が困難なケースが増えています。このため、レガシーシステムの刷新や、より効率的なAI基盤の構築が急務となっています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50371246",
+      "source": "hackernews",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "score": 651,
+      "comments": 211,
+      "raw_description": "Our new Residential Proxy Observatory shows residential proxy traffic exiting the White House network: 236 times in 30 days, through 28 public proxy services. Our Residential Proxy Observatory , launched earlier this week, is a first-of-its-kind interface that gives researchers a global view of residential proxy and anonymized internet activity. While our team was looking through it, we noticed residential proxy exit activity on AS2650 . AS2650 is registered to the Executive Office of the President, the federal agency that hosts the White House network. Residential proxy services sell access to everyday devices, letting customers send traffic through them so it appears to come from that device's network. Confirmed residential proxy activity observed from the White House network, October 5 to November 3, 2026. What we observed From October 5 to November 3: Our residential proxy enumeration pipeline exited through the White House network 236 separate times . Those exits came from 6 addresses , on 26 of the 30 days . 28 separate residential proxy services were able to exit through this network. To make sure this was not a fluke, we checked these addresses against other residential proxy detection services, such as Spur and Synthient. Their public IP context pages independently identify these addresses as residential proxy exits. This is public access. Anybody can obtain it by signing up to a public residential proxy service, paying a few dollars and sending requests through it. ",
+      "content_source": "page",
+      "tags": [
+        "住宅用プロキシ",
+        "ホワイトハウス",
+        "ネットワークセキュリティ",
+        "プロキシ検出"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.539221+09:00",
+      "summary": "ホワイトハウスのネットワークから、過去30日間で236回にわたり、28の公開プロキシサービスを経由した住宅用プロキシ（Residential Proxy）の通信が検出されました。これは、住宅用プロキシサービスが一般ユーザーのIPアドレスを貸し出し、通信をそのIPアドレスから発信しているように見せかける仕組みを利用したものです。この発見は、住宅用プロキシの利用実態を可視化する新しい観測ツールによって明らかになり、セキュリティ上の懸念を示唆しています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_a9f321cb339a",
+      "source": "hatena",
+      "title": "ローカルAI最強エンジン「Strata」初心者向けガイド【チャットAIで動画やマンガを自動生成】 | ちもろぐ",
+      "url": "https://chimolog.co/strata-guide/",
+      "score": 459,
+      "comments": 0,
+      "raw_description": "ローカル生成AIに真の民主化をもたらした推論エンジン「Strata」が凄いらしいけど、イマイチ使い方が分からないし、そもそも「凄さ」が分からない。 そう感じている自作PCユーザーが意外と少なくないので、本記事でStrataの使い方を解説します。すでに知ってる人からすれば当たり前の内容も多いですが、誰だって最初は初...",
+      "content_source": "feed",
+      "tags": [
+        "ローカルAI",
+        "Strata",
+        "生成AI",
+        "自作PC"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.222949+09:00",
+      "summary": "ローカルAIの推論エンジン「Strata」は、ローカル環境でAIモデルを実行可能にし、生成AIの利用を民主化する技術です。本記事では、特に自作PCユーザーを対象に、Strataの基本的な使い方を解説し、チャットAIによる動画やマンガの自動生成といった応用例を紹介しています。これにより、専門知識がないユーザーでもローカルAIを活用できる道が開かれます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50366999",
+      "source": "hackernews",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "score": 379,
+      "comments": 102,
+      "raw_description": "Image-Text-to-Text model with 2.8T parameters. Download, explore files and run it on Hugging Face. 📰 Tech Blog | 🚀 API Quickstart 1. Model Introduction Kimi K3.1 Pro is an open-weight, natively multimodal agentic model, and our most capable 3T-class model to date. Post-trained from Kimi K3 with large-scale joint reinforcement learning across hundreds of downstream domains, it is the first model in the K3.1 series. With a 1-million-token context window, Kimi K3.1 Pro delivers substantial improvements in coding, 3D creation, financial research, factual accuracy, and other agentic capabilities. 2. Model Summary Architecture Mixture-of-Experts (MoE) Total Parameters 2.8T Activated Parameters 104B Number of Layers 93 Number of Dense Layers 1 Attention-Layer Composition 69 KDA + 24 Gated DSA * Attention Hidden Dimension 7168 Number of Attention Heads 96 DSA Index Head Dimension 128 DSA Index Number of Heads 32 DSA Index Top-K 2048 Latent MoE Dimension 3584 MoE Hidden Dimension (per Expert) 3072 Number of Experts 896 Selected Experts per Token 16 Number of Shared Experts 2 Vocabulary Size 160K Context Length 1048576 Attention Mechanism KDA & Gated DSA Activation Function SiTU-GLU Vision Encoder MoonViT-V2 Parameters of Vision Encoder 401M Quantization MXFP4 weights / MXFP8 activations (quantization-aware training) Modality Text, Image * Compared with Kimi K3, we replace the full-attention Gated MLA layers with Gated DeepSeek Sparse Attention (Gated DSA) layers for more efficient lon",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "大規模言語モデル",
+        "マルチモーダル",
+        "オープンウェイト"
+      ],
+      "fetched_at": "2026-11-05T11:02:00.369002+09:00",
+      "summary": "Kimi K3.1 Proは、2.8兆パラメータを持つオープンウェイトのマルチモーダルモデルです。100万トークンのコンテキストウィンドウを備え、コーディング、3D作成、金融リサーチ、事実精度などのエージェント能力が向上しています。Mixture-of-Experts (MoE) アーキテクチャを採用し、MXFP4/MXFP8で量子化されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50369925",
+      "source": "hackernews",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "score": 224,
+      "comments": 79,
+      "raw_description": "We develop frontier AI methods to reinvent chip development, collapsing traditional design timelines, closing the loop between AI and the hardware that fuels it, and enabling a Cambrian explosion of custom silicon. Introducing Ripple-65B Preview, a Frontier Open-Weight Model Achieving U.S. Open-Weight SOTA on Agentic Coding Achieving U.S. Open-Weight SOTA on Agentic Coding Ricursive Intelligence is a full-stack artificial intelligence lab building self-improving systems by co-optimizing hardware, software, and model. To power our chip design platform, we trained a language model from scratch that sets a new U.S. open-weight SOTA on agentic coding. We optimized the model architecture for our training and serving platforms, driving substantial efficiency gains. Today, we release Ripple-65B Preview , a general-purpose variant of the proprietary model that powers our AI chip design platform. The model is pretrained on 12 trillion tokens with support for up to 1M context length. Ripple-65B Preview delivers strong results on agentic coding, achieving U.S. open-weight state-of-the-art (80.52) on TerminalBench 2.1 and surpassing significantly larger US open-weight models such as Reflection Beam 501B (80.1), Meta Muse Spark Open 816B (76.4), Thinking Machines Inkling 975B (63.8), and NVIDIA Nemotron 3 Ultra 550B (56.4). Rippleâs dense model architecture provides strong reasoning performance with low-latency token generation. The modelâs small parameter envelope also enables it to ",
+      "content_source": "page",
+      "tags": [
+        "AI",
+        "大規模言語モデル",
+        "オープンウェイトモデル",
+        "エージェンティックコーディング"
+      ],
+      "fetched_at": "2026-11-05T11:01:59.906960+09:00",
+      "summary": "Ricursive Intelligenceは、AIチップ設計プラットフォームを支える大規模言語モデル「Ripple-65B Preview」を公開しました。このモデルは12兆トークンで事前学習され、100万トークンまでのコンテキスト長をサポートします。特に、エージェンティックコーディングタスクにおいて、TerminalBench 2.1で80.52という米国オープンウェイトモデルのSOTA（State-Of-The-Art）を達成し、既存の大型モデルを上回る性能を示しました。低レイテンシでのトークン生成と効率的な推論性能が特徴です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50372929",
+      "source": "hackernews",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "score": 103,
+      "comments": 64,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "root"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.997329+09:00",
+      "summary": "root権限へのアクセス経路が1000以上減少したことについての記事らしい。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_e6f22a6a200a",
+      "source": "hatena",
+      "title": "ChatGPT無料ユーザー、10月29日から返事がそっけなく――褒め言葉も減らす仕様変更に – shiritomo",
+      "url": "https://hashout.jp/ai/13689/",
+      "score": 97,
+      "comments": 0,
+      "raw_description": "「もっと詳しく教えて」と頼んでも、以前なら何行も丁寧に返してくれたChatGPTが、10月29日を境に急に素っ気なくなった――そんな変化に気づいた人がいても不思議ではありません。 ChatGPTを無料で使っている人なら、この話はまったく無関係ではありません。 実はこれ、気のせいではなく、OpenAI自身が公式に行った仕様変...",
+      "content_source": "feed",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "仕様変更",
+        "AI"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.210267+09:00",
+      "summary": "OpenAIは、2023年10月29日からChatGPTの無料ユーザーに対して、応答の丁寧さを減らし、褒め言葉の使用を抑制する仕様変更を実施しました。この変更により、以前は詳細な回答が得られていた質問に対しても、より簡潔な応答が返されるようになります。この措置は、リソースの最適化やサービスの持続可能性を目的としたものと考えられます。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50372945",
+      "source": "hackernews",
+      "title": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "score": 96,
+      "comments": 82,
+      "raw_description": "",
+      "content_source": "none",
+      "tags": [
+        "Images"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.771244+09:00",
+      "summary": "「Images 2.6」という名称についての記事らしいです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_272f3eb44329",
+      "source": "hatena",
+      "title": "エンジニアはAIのせいで燃え尽き、働く意欲を失い、アイデンティティ喪失の危機に直面している【3万人調査】 | Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/2610-developers-are-burned-out-as-ai-coding-reshapes-work-survey/",
+      "score": 73,
+      "comments": 0,
+      "raw_description": "開発者はAIコーディングを活用してはいるが、多くは疲弊し、自分は時代遅れだと感じ、AIを信頼できずにいる。Morteza Nikoubazl/NurPhoto via Getty Images プログラマー向けQ&Aサイトのスタック・オーバーフローの調査によると、AIコーディングツールは作業を効率化する一方で、エンジニアに不安と疲弊をもたらしている...",
+      "content_source": "feed",
+      "tags": [
+        "AIコーディング",
+        "エンジニア",
+        "燃え尽き症候群",
+        "開発者体験"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.222787+09:00",
+      "summary": "スタック・オーバーフローの調査によると、AIコーディングツールの活用が進む一方で、多くのエンジニアが疲弊や時代遅れ感、AIへの不信感を抱いている。これらのツールは作業効率化に貢献するものの、開発者の精神的な健康やキャリアに対する不安を増大させていることが明らかになった。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_2765a7ba54af",
+      "source": "hatena",
+      "title": "日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然／「Git」の意外な弱点も？【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2153621.html",
+      "score": 67,
+      "comments": 0,
+      "raw_description": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。 やじうまの杜 日本の全法令が「Git」の履歴に ～改正で何が変わったのかが一目瞭然 「Git」の意外な弱点も？ 樽井 秀人 2026年11月5日 06:45 「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。 改正法の施行が1つのコミットになっている。コミットメッセージには改正法令や公布日、施行日が記載されている 法律は「Git」で管理したらいいんじゃ？――というのはときどき話題になりますが、それを実際にやってみた方がいるようです。興味のある方は、「GitHub」（ Kohei-Wada/houritsu ）へどうぞ。データは「CC BY 4.0」、変換プログラム「houritsu-builder」（Rust製）は「MIT」ライセンスで公開されています。 法律の改正は、『〇〇法の一部を改正する法律』という別の法律によって行われます。その中身は『第三条中〈A〉を〈B〉に改める』といった書き換えの指示なので、改正法を読んでも、結局どこがどう変わったのかはわかりにくいものです。 そこで、法令の本文をファイルにして、改正を1つのコミットとして記録すれば、変わったところを［git diff］でそのまま確認できるのでは――というのが「houritsu」の発想です。制作者の方は法律についてはまったく詳しくないそうですが、AIの助けを借りながら作り上げたとのこと。 法律・政令・省令など、デジタル庁の「e-Gov法令検索」で提供されている全法令が収録されており、制作者が11月1日に公開した記事によると、法令ファイルは8,982個、mainブランチのコミットは23,338個となっています。改正履歴は「e-Gov」が提供する範囲に限られ、おおむね2015年ごろ以降が中心。すべての法令を制定時までさかのぼれるわけではありませんが、十分多いですよね。 基本的な仕様は以下の通り。 1つの法令が1つのMarkdownファイルで、メタデータはフロントマター（YAML）に記載 1つのコミットが『1本の改正法の施行』に対応し、コミットの日付は施行日 公布済みでまだ施行されていない改正は『upcoming』ブランチで管理 毎朝自動で「e-Gov」から差分を取得し、コミットを追加 たとえば、個人情報保護法のファイルに［git log］をかけると、この法律に手を入れた改正法の一覧が得られます。記事によると、個人情報保護法を直接改正する法律だけでなく、日本学術会議法や防災庁設置法関連の法律に“巻き込まれる”形で書き換わっていることもわかるとのこと。また、［git log -L］を使えば、特定の条文だけの変遷を追うこともできます。「Git」コマンドが苦手であれば、「GitHub」のユーザーインターフェイスを散策してみるだけでも面白いですよ。 「GitHub」の［Blame］画面で、各行に対応する変更を確認できる 法令ごとのコミット履歴から、施行に伴う変更をたどれる なお、このリポジトリを作ったきっかけと制作過程については 技術情報共有サービス「Zenn」に投稿された記事 で語られています。「Git」では1970年より前の日付をコミット日時に指定できないため、このリポジトリでは日時を1970年1月2日に置き換え、本来の施行日はメタデータに残しているそうです。1970年より前はコミット日時に指定できないのは、筆者も知りませんでした。『へぇ』ボタンがあれば押しまくりたいです。 Amazo",
+      "content_source": "page",
+      "tags": [
+        "Git",
+        "法令管理",
+        "改正履歴",
+        "オープンソース"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.210289+09:00",
+      "summary": "日本の全法令がGitリポジトリで管理され、改正履歴がコミットとして記録されています。これにより、法律の変更箇所をgit diffで容易に確認できるようになり、特定の条文の変遷もgit log -Lで追跡可能です。このシステムは、デジタル庁のe-Gov法令検索からデータを取得し、毎朝自動で差分をコミットしています。ただし、Gitの制約により1970年以前の日付は扱えず、施行日はメタデータで補完されています。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50373308",
+      "source": "hackernews",
+      "title": "Starfall – Affordable, routine access to microgravity",
+      "url": "https://www.spacex.com/starfall",
+      "score": 65,
+      "comments": 26,
+      "raw_description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
+      "content_source": "meta",
+      "tags": [
+        "Starfall",
+        "microgravity"
+      ],
+      "fetched_at": "2026-11-05T11:01:59.440641+09:00",
+      "summary": "Starfallという名称のサービスについて、手頃な価格で日常的に微小重力にアクセスできることを示唆する記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "hatena_81a14e552c90",
+      "source": "hatena",
+      "title": "AI駆動開発の次の段階: ソフトウェアファクトリー - Qiita",
+      "url": "https://qiita.com/Syoitu/items/9364a0a175893bb15219",
+      "score": 60,
+      "comments": 0,
+      "raw_description": "前書き 最近、Claude Codeの開発者であるFelix Riesebergさんの記事『AIモデルを扱う人類のための「志を高く持つ」チュートリアル』を読みました。その考え方に刺激を受けたので、少し引用して紹介します。 記事によると、Claudeは最近、新しい惑星の発見にも一役買ったそうです。 それなのに、私たちの多くはいまだに「...",
+      "content_source": "feed",
+      "tags": [
+        "AI",
+        "Claude",
+        "ソフトウェア開発",
+        "チュートリアル"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.222869+09:00",
+      "summary": "Felix Rieseberg氏の記事「AIモデルを扱う人類のための「志を高く持つ」チュートリアル」を紹介する内容です。Claude AIが新しい惑星の発見に貢献した事例を挙げ、AIモデルの活用における高い志の重要性を示唆しています。この記事は、AI開発の文脈で、より野心的な目標設定を促すものです。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_4d58d88851e2",
+      "source": "hatena",
+      "title": "AIと「聖杯」は似ている。",
+      "url": "https://blog.tinect.jp/?p=91573",
+      "score": 37,
+      "comments": 0,
+      "raw_description": "１．万能の願望器「聖杯」に願いをかけること 「聖杯」と言って連想される作品はさまざまだろう。年配の人なら『インディージョーンズ』を思い出そうが、私はアニメ／ゲーム『Fate』シリーズに登場する「聖杯」、特に『Fate/Zero』に登場する「聖杯」が真っ先に思い出される。 『Fate』シリーズでは、「聖杯戦争」と呼ば...",
+      "content_source": "feed",
+      "tags": [],
+      "fetched_at": "2026-11-05T11:01:58.222910+09:00",
+      "summary": "",
+      "summary_basis": ""
+    },
+    {
+      "id": "hatena_d0fb0b5e7e54",
+      "source": "hatena",
+      "title": "相次ぐWEBシステムからの情報漏洩事案について（第2報） | セキュリティ研究センターブログ",
+      "url": "https://security.macnica.co.jp/blog/2026/11/web-incidents2026-oct2.html",
+      "score": 31,
+      "comments": 0,
+      "raw_description": "■記事概要 国内で相次ぐWEBシステムからの情報漏洩の状況をまとめ、第2報として公開します。 まず、前回の記事 の内容のサマリです。今年7月以降、WEBシステムからの情報漏洩が相次ぎ、被害がECサイトだけでなく、会員向けサービスや業務用システムなど、多種多様なサイトへ無差別的に広がり始めた状況をお伝えしました...",
+      "content_source": "feed",
+      "tags": [
+        "情報漏洩",
+        "WEBシステム",
+        "セキュリティ",
+        "国内事案"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.222987+09:00",
+      "summary": "今年7月以降、ECサイトだけでなく、会員向けサービスや業務用システムなど、多種多様なWEBシステムからの情報漏洩が相次いで発生している。この第2報では、その被害状況の広がりをまとめている。これらの事案は、WEBシステムのセキュリティ対策の重要性を改めて浮き彫りにしている。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hn_50373149",
+      "source": "hackernews",
+      "title": "You'll need nerves of steel to work with AI agents",
+      "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
+      "score": 25,
+      "comments": 22,
+      "raw_description": "This post will focus mainly on Composer 2.5 in Cursor. These problems may not be present in opus-5.5 or gpt-6.1-sol-pro-max-ultra-thinking-fast. But gpt-6.1-luna, for example, has all the problems listed here. I’ve also encountered many of these problems before in gpt-5.5 and opus-4.6. I You’ll need nerves of steel to work with AI agents This post will focus mainly on Composer 2.5 in Cursor. These problems may not be present in opus-5.5 or gpt-6.1-sol-pro-max-ultra-thinking-fast. But gpt-6.1-luna, for example, has all the problems listed here. I’ve also encountered many of these problems before in gpt-5.5 and opus-4.6. I don’t know whether they’re present in the newer AI models released recently. What I like about Composer 2.5: its usage limits and speed. For comparison, let’s take two $20 subscriptions, one for GPT and one for Cursor. With gpt-6.1-sol, my 5-hour limit runs out after just a few requests. If I ask it to change a couple of lines in a readme file, that uses up 10% of the limit. If I ask it to change something in a large codebase, the entire limit gets used up just reading dozens of files, without writing a single line of code. But GPT also offers a $100 plan with five times the usage limits. And how long would that last me? I work with complex monorepo projects. To make changes to one service, the agent has to read dozens of files in other services and several skills. If the $20 plan runs out after reading 20 files, will the $100 plan run out after reading 100 f",
+      "content_source": "page",
+      "tags": [
+        "AIエージェント",
+        "Composer 2.5",
+        "利用制限",
+        "コードベース"
+      ],
+      "fetched_at": "2026-11-05T11:02:00.133926+09:00",
+      "summary": "AIエージェント、特にComposer 2.5 in Cursorにおける利用制限と速度に関する課題が詳述されています。高価なサブスクリプションプランでも、複雑なコードベースの解析に多くのリクエストを消費し、実質的なコード生成に至る前に利用上限に達してしまう問題が指摘されています。これは、AIエージェントを大規模プロジェクトで活用する際のコストと効率性に影響を与える重要な課題です。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "hatena_8f25a112cbf6",
+      "source": "hatena",
+      "title": "【レビュー】 使わなくなったAndroidスマホが音楽プレーヤーに、無料アプリ「reTONE」使ってみた",
+      "url": "https://av.watch.impress.co.jp/docs/review/review/2152900.html",
+      "score": 20,
+      "comments": 0,
+      "raw_description": "あなたの押し入れの中に、しまったままのAndroidスマホはないだろうか？ レビュー 使わなくなったAndroidスマホが音楽プレーヤーに、無料アプリ「reTONE」使ってみた 佐々木喜洋 2026年11月5日 08:00 「reTONE」使用イメージ。2012年発売「AQUOS PHONE ZETA SH-02E」とOPPOのUSB DACヘッドフォンアンプ「HA-2」と組み合わせた 古いAndroidスマホをDAPに再活用 あなたの押し入れの中に、しまったままのAndroidスマホはないだろうか？ AndroidとiOSの大きな違いとして、Android端末のフラグメンテーション(断片化)という問題がある。これは持っている端末がなかなかOSのバージョンアップがされないという問題だ。その結果、最新のアプリが動かなくなったり、セキュリティ面でも不安が残る端末が手元に残ってしまいやすい。 現在はかなり改善されてはいるが、いまでも最新がAndroid 17なのに対して、一説によるとAndroid 13以前が四割は残っているという(iOSはリリース後一年で市場の約八割が最新バージョンになると言われる)。 そのため、手元に古いAndroidスマホが何台も残っているというユーザーも多いのではないだろうか。AndroidスマホはiPhoneに比べると個性的で、中にはハード的に魅力的な設計を持つものもあり、手放したくないというのもあるだろう。 今回紹介する飯田ピアノの「reTONE」は、まさにそうした“死蔵しているAndroidスマホ”を活用するのにうってつけの音楽プレーヤーアプリである。reTONEは、Android 4というかなり古いOSまで動作が可能であり、古い端末を音楽プレーヤーとして甦らせることができる。Android 4(Ice Cream Sandwich)は2011年、つまり15年も前に発表されたOSだ。 reTONEのダウンロードページ なぜreTONEを開発したのか？ 「reTONE」 開発者である飯田ピアノ・オーディオ事業部の飯田良平氏は、Acoustic Researchの「AR-M20」というAndroidのDAPを所持していて、デザインが気に入っていて今でも使いたい一台なのだが、今のアプリはほとんど入らないことに不満を持ったと語る。 ちなみに筆者もAcoustic Researchの初代「AR-M1」(2013年)を所持していたが、Acoustic ResearchのDAPは音質が大変優れていたことを思い出す。 Acoustic Researchの「AR-M20」 飯田氏は開発の経緯について、「もともと古いスマートフォンがガジェットとして好きで、中古で見つけては買っていました。カスタムROMで新しいAndroidを入れたこともありますが、今のスマホと同じようには使えません。でも、古いスマホにはそれぞれハードウェアの個性があって、その機械を使う理由さえあればまた使われる。それならイヤフォン端子も活かして、音楽プレーヤーという使う理由を作ろうと考えました」と語る。 つまりreTONEの目的は、iPhoneに比べて個性的で魅力的なハードを持つAndroidスマホのOSが更新されなくなり、使われなくなってしまった惜しいスマホを、オーディオプレーヤーとして復活させることである。 多くのスマホでAndroidがUSBオーディオに標準で対応したのは5.0からだが、Android 4の端末から USB DACに直接出せることが、作った側としていちば",
+      "content_source": "page",
+      "tags": [
+        "Android",
+        "音楽プレーヤー",
+        "reTONE",
+        "古い端末活用"
+      ],
+      "fetched_at": "2026-11-05T11:01:58.222955+09:00",
+      "summary": "無料アプリ「reTONE」は、OSアップデートが滞りがちな古いAndroidスマートフォンを音楽プレーヤーとして再活用することを目的としています。Android 4から動作可能で、USB DACへの直接出力にも対応しており、個性的なハードウェアを持つ使われなくなった端末に新たな価値を与えます。開発者は、古いAndroid端末のハードウェアの魅力を活かし、音楽プレーヤーという用途で復活させることを目指しました。",
+      "summary_basis": "content"
+    },
+    {
+      "id": "reddit_18ca99d3de20",
+      "source": "reddit",
+      "title": "C++26 disapproved by the ISO National Bodies",
+      "url": "https://www.reddit.com/r/programming/comments/1xnucc3/c26_disapproved_by_the_iso_national_bodies/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/alexeyr [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "C++26",
+        "ISO"
+      ],
+      "fetched_at": "2026-11-05T11:02:00.678253+09:00",
+      "summary": "C++26がISO国内委員会によって却下された、という内容の記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_237ede075ae7",
+      "source": "reddit",
+      "title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite 12,000× Slower",
+      "url": "https://www.reddit.com/r/programming/comments/1xnq1xx/shlemiel_the_painter_is_back_how_zigs_libc/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/gallery_rose [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "Zig",
+        "SQLite"
+      ],
+      "fetched_at": "2026-11-05T11:02:00.678438+09:00",
+      "summary": "Zigのlibc書き換えがSQLiteを12,000倍遅くしたという記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_3d7e9f1d3ef6",
+      "source": "reddit",
+      "title": "A Maintainer's Advice on Contributing to Open Source in 2026",
+      "url": "https://www.reddit.com/r/programming/comments/1xnjvkx/a_maintainers_advice_on_contributing_to_open/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/Martinsos [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "オープンソース",
+        "貢献"
+      ],
+      "fetched_at": "2026-11-05T11:02:00.678601+09:00",
+      "summary": "2026年におけるオープンソースへの貢献に関するメンテナーからの助言についての記事のようです。",
+      "summary_basis": "title"
+    },
+    {
+      "id": "reddit_2f48458cb07a",
+      "source": "reddit",
+      "title": "the lost malloc()",
+      "url": "https://www.reddit.com/r/programming/comments/1xni70o/the_lost_malloc/",
+      "score": 0,
+      "comments": 0,
+      "raw_description": "submitted by /u/mttd [link] [comments]",
+      "content_source": "feed",
+      "tags": [
+        "malloc"
+      ],
+      "fetched_at": "2026-11-05T11:02:00.678778+09:00",
+      "summary": "malloc()関数に関する何らかの喪失や問題についての記事のようです。",
+      "summary_basis": "title"
+    }
+  ]
+}
